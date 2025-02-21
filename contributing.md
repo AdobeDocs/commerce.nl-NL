@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0d0c3c1cb2d0af48352afbe2028966331f0bb8ae
+source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '273'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ Hieronder volgt een reeks richtlijnen die moeten worden gevolgd wanneer u een bi
 ## Gedragscode
 
 Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Door deelname,
-u wordt verwacht deze code te handhaven. Geef een onacceptabel gedrag aan
+u wordt verwacht deze code te handhaven. Onacceptabel gedrag rapporteren aan
 [ Grp-opensourceoffice@adobe.com ](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentatie voor de bijdragegids
@@ -23,22 +23,21 @@ Zie de [ Gids van de Medewerker ](https://experienceleague.adobe.com/docs/contri
 
 ## Heb je een vraag?
 
-Begin met het indienen van een probleem. De bestaande commissies voor dit project werken eraan om
-consensus over de richting van projecten en het uitwerken van oplossingen binnen de verschillende thema&#39;s
-(indien van toepassing).
+Begin met het indienen van een probleem. De bestaande contribuanten aan dit project werken om
+consensus over de richting van projecten en het uitwerken van oplossingen binnen de verschillende thema&#39;s, indien van toepassing.
 
 ## Licentieovereenkomst voor contribuant
 
 Alle bijdragen van derden aan dit project moeten vergezeld gaan van een ondertekende contribuant
-licentieovereenkomst. Dit geeft de Adobe toestemming om uw bijdragen opnieuw te verdelen
-als onderdeel van het project. [ Onderteken onze CLA ](http://opensource.adobe.com/cla.html). U
-slechts één keer een Adobe CLA moet voorleggen, zodat als u eerder hebt voorgelegd,
+licentieovereenkomst. Dit geeft Adobe toestemming om uw bijdragen opnieuw te verdelen
+als onderdeel van het project. [ Onderteken onze CLA ](https://opensource.adobe.com/cla.html). U
+slechts één keer een Adobe CLA indienen. Als u eerder een offerte hebt ingediend,
 je bent klaar om te gaan !
 
 ## Codebeoordelingen
 
 Alle opmerkingen moeten in de vorm van een &quot;pull&quot;-verzoek worden ingediend en moeten worden herzien
-door projectbevrachters. Lees {de documentatie van het trekvraag van 0} GitHub ](https://help.github.com/articles/about-pull-requests/)
+door projectcontribuanten. Lees {de documentatie van het trekvraag van 0} GitHub ](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 voor meer informatie over het verzenden van trekkingsverzoeken.[
 
 <!--
@@ -50,11 +49,11 @@ submitting a pull request!
 
 We houden van bijdragen van onze gemeenschap! Als u een stap verder wilt gaan dan contribuant
 en wordt een commissie met volledige schrijftoegang en een inspraak in het project, moet u
-worden uitgenodigd voor het project. De bestaande comités hanteren een interne voordracht
+worden uitgenodigd voor het project. De bestaande contribuanten gebruiken een interne nominatie
 proces dat een luie consensus moet bereiken (stilte is goedkeuring) vóór uitnodigingen
 worden afgegeven. Als u zich gekwalificeerd voelt en meer betrokken wilt worden,
-het is vrij om contact op te nemen met bestaande toezeggingen om hierover te praten .
+het is vrij contact op te nemen met bestaande contribuanten om daarover te kunnen spreken .
 
 ## Beveiligingsproblemen
 
-Beveiligingsproblemen moeten niet worden gerapporteerd in deze Issue Tracker. In plaats daarvan, [ dossier een kwestie aan onze veiligheidsdeskundigen ](https://helpx.adobe.com/security/alertus.html)
+Om een kwestie van de Veiligheid te melden, [ dossier een kwestie aan onze veiligheidsdeskundigen ](https://helpx.adobe.com/security/alertus.html).

@@ -1,57 +1,53 @@
 ---
-source-git-commit: 0d0c3c1cb2d0af48352afbe2028966331f0bb8ae
+source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 5%
+source-wordcount: '403'
+ht-degree: 6%
 
 ---
-# Contribute-artikel
+# Adobe Commerce-gebruikersdocumentatie
 
-Wij verwelkomen de bijdragen van onze gemeenschap en van Adobe werknemers van buiten de documentatieteams.
+Wij zijn blij met de bijdragen van onze gemeenschap en van Adobe-medewerkers van buiten de documentatieteams.
 
-## Adobe Open gedragscode van Source
+## Adobe Open Source-gedragscode
 
 Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/code-of-conduct) overgenomen. Zie het artikel [Bijdragen](contributing.md) voor meer informatie.
 
-## Hoe kan ik bijdragen aan Adobe-inhoud
+## Over je bijdragen aan Adobe-inhoud
 
-**als u geen werknemer van de Adobe** bent kunt u een externe communautaire bijdrage voorleggen. Communautaire bijdragen worden geïmporteerd in onze interne systemen en worden bewerkt en samengevoegd in de publieke repo. Het publieke repo wordt vervolgens gesynchroniseerd met de meest recente wijzigingen en samengevoegd in de privéopslagplaats.
+Zie de [ Gids van de Medewerker van de Docent van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-**als u een werknemer van de Adobe** bent, kunt u rechtstreeks tot de privé [ bewaarplaats van GitHub van de Adobe ](https://git.corp.adobe.com/AdobeDocs/) bijdragen. Zie de Adobe Experience League Authoring Guide voor medewerkers van Adoben voor meer informatie.
-
-## Externe contribuanten
+Hoe u een bijdrage levert, hangt af van wie u bent en van het soort veranderingen dat u wilt bijdragen:
 
 ### Kleine wijzigingen
 
-Als u een kleine update toevoegt:
+Als u minder belangrijke updates uit de goodness van uw hart bijdraagt, bezoek het artikel en klik **uitgeven** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Zie de algemene [ de contributorgids van Adobe Docs ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie.
 
-1. Navigeer naar het onderwerp dat u wilt bewerken.
-1. In de &quot;Was deze inhoud nuttig?&quot; banner die bij de bodem van uw browser venster verschijnt klikt **Gedetailleerd terugkoppelt opties**.
-1. Klik **Voorstellen uitgeven** en voorleggen een trekkingsverzoek (PR) met uw veranderingen in UI GitHub.
+Kleine correcties of verduidelijkingen die u ter documentatie en codevoorbeelden in dit antwoord aanbrengt, worden behandeld in de gebruiksvoorwaarden van Adobe.
 
-   Zie de algemene [ de bijdragegids van Docs van de Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie.
+### Belangrijke wijzigingen of nieuwe artikelen van leden van de gemeenschap
 
-Kleine correcties of verduidelijkingen die u ter documentatie en codevoorbeelden in dit antwoord aanbrengt, vallen onder de gebruiksvoorwaarden van de Adobe.
+Als u deel uitmaakt van de Adobe-community en u een nieuw artikel wilt maken of belangrijke wijzigingen wilt indienen, gebruikt u het tabblad Problemen in de Git-opslagplaats om een uitgave in te dienen die een gesprek met het documentatieteam kan starten. Zodra u met een plan hebt ingestemd, zult u met een werknemer moeten werken helpen die nieuwe inhoud door een combinatie van het werk in de openbare en privé bewaarplaatsen brengen.
 
-### Belangrijke wijzigingen of nieuwe onderwerpen van de gemeenschap
+<!--
+If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
+-->
 
-Als u deel van de gemeenschap van de Adobe bent en een nieuw onderwerp wilt creëren of belangrijke veranderingen voorleggen, gebruik het **lusje van Kwesties** in de toepasselijke bewaarplaats van de it om een kwestie voor te leggen om een gesprek met het documentatieteam te beginnen. Zodra een plan wordt overeengekomen, zult u met een schrijver van de Adobe werken om uw revisies te publiceren.
+### Belangrijke wijzigingen van Adobe-werknemers
 
-**NOTA:** als u een trekkingsverzoek met significante veranderingen in documentatie en codevoorbeelden voorlegt, zult u een bericht in het trekpleverzoek zien vragend u om een online overeenkomst van de bijdragevergunning (CLA) voor te leggen. U moet het onlineformulier invullen voordat we uw intrekkingsverzoek kunnen bekijken.
+Als u een technisch schrijver, programmamanager, of ontwikkelaar van het productteam voor een oplossing van Adobe Experience Cloud bent en het uw baan is om aan of auteur technische artikelen bij te dragen, zou u de privé bewaarplaats bij `https://git.corp.adobe.com/AdobeDocs` moeten gebruiken.
 
-### Gereedschappen
+<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+
+## Gereedschappen en instellen
 
 Communautaire contribuanten kunnen GitHub UI voor basishet uitgeven of vork gebruiken het repo om belangrijke bijdragen te leveren.
 
-Zie de [ Gids van de Medewerker van Docs van de Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor details.
+Zie de [ Gids van de Medewerker van de Docent van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor details.
 
-## Interne contribuanten
+## Hoe te om prijsdaling te gebruiken om uw onderwerp te formatteren
 
-Als u een technische schrijver, programmamanager, of ontwikkelaar van het productteam voor een oplossing van Adobe Experience Cloud bent en het uw baan is om aan of auteur technische artikelen bij te dragen, gebruik de [ privé bewaarplaats ](https://git.corp.adobe.com/AdobeDocs).
-
-## Uw onderwerp opmaken
-
-Alle artikelen in deze repository gebruiken GitHub-gearomatiseerde Markdown. Als u niet vertrouwd bent met Markeringen, zie:
+Alle artikelen in deze repository gebruiken GitHub gearomatiseerde prijsopgave. Als u niet vertrouwd bent met markering, zie:
 
 * [ Grondbeginselen van de Prijsverlaging ](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [ Afdrukbare prijsdaling ](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)

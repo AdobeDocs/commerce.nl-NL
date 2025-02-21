@@ -1,16 +1,15 @@
 ---
-source-git-commit: 0d0c3c1cb2d0af48352afbe2028966331f0bb8ae
+source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
-# Gedragscode van de Adobe
+# Adobe-gedragscode
 
 ## Onze belofte
 
-In het belang van het bevorderen van een open en welkome omgeving,
-contribuanten en onderhoudsgerechtigden verbinden zich ertoe aan ons project deel te nemen en
+In het belang van het bevorderen van een open en welkome omgeving, verbinden de contribuanten en onderhoudsgerechtigden zich ertoe om deel te nemen aan ons project en
 onze gemeenschap een pesterijen-vrije ervaring voor iedereen, ongeacht leeftijd, lichaam
 omvang, handicap, etniciteit, genderidentiteit en expressie, niveau van ervaring;
 nationaliteit, persoonlijke verschijning, ras, godsdienst of seksuele identiteit en
@@ -29,8 +28,7 @@ omvatten:
 
 Voorbeelden van onacceptabel gedrag van deelnemers zijn:
 
-* Het gebruik van geslachtsgebonden taal of beelden en ongewenste seksuele aandacht of
-voorschotten
+* Het gebruik van geslachtsgebonden taal of beelden en ongewenste seksuele aandacht of vooruitgang
 * Trolling, belediging/afwijkende opmerkingen en persoonlijke of politieke aanvallen
 * Pesterijen door de overheid of door particulieren
 * Persoonlijke gegevens van anderen publiceren, zoals fysiek of elektronisch
@@ -63,9 +61,9 @@ nader omschreven en verduidelijkt door projectbeheerders.
 
 Mishandeling, pesterijen of anderszins onacceptabel gedrag kan
 gemeld door contact op te nemen met het projectteam op Grp-opensourceoffice@adobe.com. Alles
-klachten zullen worden onderzocht en onderzocht en zullen resulteren in een antwoord dat
+klachten worden getoetst en onderzocht en leiden tot een antwoord dat
 noodzakelijk en passend wordt geacht. Het projectteam is
-verplicht de vertrouwelijkheid te handhaven ten aanzien van de melder van een incident.
+verplicht de geheimhouding van de melder van een incident te handhaven.
 Nadere bijzonderheden over het specifieke handhavingsbeleid kunnen afzonderlijk worden vermeld.
 
 Projectbeheerders die de gedragscode niet goed naleven of handhaven
@@ -74,5 +72,5 @@ leden van de leiding van het project.
 
 ## Attributie
 
-Deze Gedragscode wordt aangepast van het [ Medewerkersconvenant ](https://contributor-covenant.org), versie 1.4,
-beschikbaar in [ https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Deze Gedragscode wordt aangepast van het [ Medewerkersconvenant ](https://www.contributor-covenant.org/), versie 1.4,
+beschikbaar in [ https://www.contributor-covenant.org/it/version/1/4/code-of-conduct/ ](https://www.contributor-covenant.org/it/version/1/4/code-of-conduct/).

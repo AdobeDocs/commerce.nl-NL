@@ -2,9 +2,9 @@
 title: Aan de slag met  [!DNL Live Search]
 description: Leer de systeemvereisten en installatiestappen voor  [!DNL Live Search]  van Adobe Commerce.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 039f04814c4e0b0c31f160446c67b2689f687818
 workflow-type: tm+mt
-source-wordcount: '3100'
+source-wordcount: '3122'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Op een hoog niveau is het vereist dat u: [!DNL Live Search]
 >[!NOTE]
 >
 >Vanaf [!DNL Live Search] 3.0.2 wordt de [!DNL Catalog Service] -extensie gebundeld in de [!DNL Live Search] -installatie.
+
+>[!IMPORTANT]
+>
+>Vanaf [!DNL Live Search] 4.0.0, wordt de Adapter van het Onderzoek verouderd. In de toekomst wordt de zoekadapter alleen bijgewerkt om beveiligingsproblemen te verhelpen.
 
 1. Bevestig dat [ gewassenbanen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen.
 

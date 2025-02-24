@@ -2,9 +2,9 @@
 title: '[!DNL Payment Services] Opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over alle  [!DNL Payment Services]  versies.
 feature: Payments, Release Notes
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 313d69a7f791153fd56a1492f9012776cea1f3df
 workflow-type: tm+mt
-source-wordcount: '3344'
+source-wordcount: '3392'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,24 @@ _Juni 28, 2021_
 ![ Nieuw ](../assets/new.svg)<!-- Issue PAY-2761 --> U kunt de gegevens nu aanpassen die in het [ rapport van de de betalingsstatus van de Orde ](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/order-payment-status.html#show-and-hide-columns) en het [ rapport van Uitbetalingen ](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/payouts.html#show-and-hide-columns) door kolommen te tonen of te verbergen gebruikend de de montagecontrole van de Kolom tonen.
 
 +++
+
+## v2.10.3
+
+_24 Februari, 2025_
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-xxxx --> Verbeterde algemene stabiliteit en prestaties.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-xxxx --> Algemene verbeteringen en optimalisaties. Correctie van kritieke fouten van v2.10.2.
+
+## v2.10.2
+
+_21 Februari, 2025_
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Bekende kwestie ](../assets/bug.svg)<!-- PAY-xxxx --> bevat kritieke insecten die stabiliteit en prestaties kunnen beïnvloeden. Adobe raadt aan een upgrade naar v2.10.3 uit te voeren in plaats van deze versie te gebruiken (v2.10.2).
 
 ## v2.10.1
 

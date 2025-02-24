@@ -4,9 +4,9 @@ description: Leer hoe te installeren en te gebruiken  [!DNL Payment Services]  a
 role: User
 level: Intermediate
 feature: Payments, Checkout
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 95d86654ad185b2c37a59777a29f6de1b0091ad7
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,6 @@ Of u nu een kleine onderneming, een medio-markt contant of een grote onderneming
 * Zelfstandig binnen de Admin
 
 ## Functies
-
->[!NOTE]
->
->Sommige van de hier vermelde functies zijn mogelijk nog niet beschikbaar voor de GA-release (General Availability).
 
 [!DNL Payment Services] is uw one-stop-shop voor online afhandeling (van afwikkeling en terugbetalingen tot betaling). Het biedt krachtige gereedschappen om je het inzicht en de controle te geven die nodig zijn voor het creëren van de beste ervaring voor kopers.
 

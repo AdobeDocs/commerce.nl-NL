@@ -2,9 +2,10 @@
 title: '[!DNL Live Search] Opmerkingen bij de release'
 description: De recentste versieinformatie voor  [!DNL Live Search]  van Adobe Commerce.
 feature: Services, Search, Release Notes
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
+source-git-commit: 81bde302463a70e41318b494565694929703dff9
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -22,6 +23,10 @@ Updates zijn:
 ## Gehoste service-updates
 
 Deze nota&#39;s beschrijven updates die buiten een versioned versie of verbeteringen aan de ontvangen dienst werden gepubliceerd.
+
+_Februari 20, 2025_
+
+![ Nieuwe ](../assets/new.svg) Commerce steunt synoniemen van meerdere woorden. [ leer meer ](synonyms-type.md#multi-word-synonym-behavior). Ondersteuning voor synoniemen met meerdere woorden is alleen beschikbaar na deze releasedatum van 20 februari. Om het even welke bestaande synoniemen van meerdere woorden vereisen een volledige herdex om te werken, die u kunt verzoeken door [ tot een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) te leiden.
 
 _Januari 31, 2025_
 

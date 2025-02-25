@@ -2,9 +2,10 @@
 title: Grenzen en grenzen
 description: Leer over de grenzen en de grenzen voor  [!DNL Live Search]  om ervoor te zorgen het aan de behoeften van uw zaken voldoet.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
+source-git-commit: 81bde302463a70e41318b494565694929703dff9
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -64,7 +65,6 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 ## Synoniemen
 
 - [!DNL Live Search] kan tot 200 [ synoniemen ](synonyms.md) per archiefmening beheren.
-- Synoniemen van meerdere woorden werken mogelijk niet altijd naar behoren. Zorg ervoor dat u deze synoniemen in de testomgeving test voordat u ze in de productie gebruikt, omdat ze mogelijk een negatief effect hebben op de relevantie.
 
 ## Categorie verhandelen
 

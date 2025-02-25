@@ -1,9 +1,10 @@
 ---
 title: Typen synoniemen
 description: Één en 2 manier  [!DNL Live Search]  synoniemen breiden de definitie van sleutelwoorden uit.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: f5522428-c7cc-4627-a09b-d9148918c127
+source-git-commit: 81bde302463a70e41318b494565694929703dff9
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -38,10 +39,6 @@ a, an, and, are, as, at, be, but, by, for, if, in, is, it, no, not, of, dusdanig
 
 Stopwoorden maken synoniemen niet zinvoller, maar verhogen de hoeveelheid gegevens die moet worden verwerkt.
 
-### Enkele woorden gebruiken
-
-Als een synoniem term meerdere woorden bevat, worden deze door de witruimte tussen de woorden als een aparte synoniemen behandeld. Als u bijvoorbeeld &quot;tijdstuk&quot; definieert als een synoniem voor &quot;watch&quot;, worden de woorden &quot;time&quot; en &quot;piece&quot; behandeld als afzonderlijke synoniemen.
-
 ### Gebruik van enkelvoudig en meervoudig
 
 Het is niet nodig om zowel de enkelvoudige als de meervoudige vorm van een woord als een synoniem te definiëren. Als u een combinatie van enkelvoudige en meervoudige termen in uw catalogus hebt, zoekt u naar de juiste set producten. Als u bijvoorbeeld het woord &quot;pant&quot; in de productnaam gebruikt en een winkel zoekt naar &quot;broek&quot;, wordt de juiste set producten geretourneerd en wordt het woord &quot;pant&quot; voorgesteld als suggestie. In de mode-industrie en soms in de detailhandel wordt de term &quot;pant&quot; vaak gebruikt, hoewel de meervorm &quot;broek&quot; in sommige gebieden vaker wordt gebruikt. (Het woord &quot;pant&quot; verwijst technisch naar het deel van een kledingstuk dat één been bedekt. Daarom hebt u een &quot;broek&quot; nodig om beide benen te bedekken.)
@@ -49,3 +46,13 @@ Het is niet nodig om zowel de enkelvoudige als de meervoudige vorm van een woord
 ### Consistentie
 
 Zorg ervoor dat de terminologie in de catalogus wordt gebruikt. Houd er rekening mee dat er regionale verschillen in gebruik kunnen zijn, en soms verschillen binnen een bedrijfstak.
+
+## Synoniemgedrag van meerdere woorden
+
+Voor synoniemen met meerdere woorden beschouwt Commerce het synoniem als een woordgroep. Bijvoorbeeld, als u een bidirectionele synoniem **het dineren van de ruimtelijst ![ 2-wegenkiezer ](assets/btn-two-way.png)** keukenlijst **![ 2-wegenkiezer ](assets/btn-two-way.png)** eetlijst **creeert, dan zoekt Commerce over alle gebieden die aan het voorkomen van** eetbare ruimtelijst **of** worden geplaatst lijst **of** eetlijst **.**
+
+Als geen synoniem wordt gecreeerd en een verkoopster zoekt naar **keukenlijst**, zoekt Commerce de termijnen overal in de doorzoekbare gebieden, zelfs over verschillende gebieden, bijvoorbeeld **lijst** op het naamgebied en **keuken** in het meta sleutelwoord.
+
+Na het creëren van een synoniem, verandert het onderzoeksgedrag om de nauwkeurige uitdrukking **keukenlijst** te zoeken. Hierdoor kan het aantal resultaten afnemen, omdat alleen producten met de exacte zin worden weergegeven.
+
+Als u de termijnen afzonderlijk wilt worden gezocht zoals voordien, kunt u [ een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) creëren. Als er voldoende vraag is, overweegt Commerce deze functionaliteit in een toekomstige release aan het product toe te voegen.

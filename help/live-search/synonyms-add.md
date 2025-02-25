@@ -1,7 +1,8 @@
 ---
 title: Synoniemen toevoegen
 description: Voeg  [!DNL Live Search]  synoniemen toe om reactie op onderzoeksverzoeken te verbeteren.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 2dc535ea-35a3-45a8-8171-901005223cc9
+source-git-commit: 81bde302463a70e41318b494565694929703dff9
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -30,7 +31,6 @@ Volg de instructies voor het [ type van synoniem ](synonyms-type.md) dat u wilt 
 1. Accepteer de standaard **2-weg** optie.
 
    ![ voeg synoniem in twee richtingen ](assets/synonym-add-two-way.png) toe
-
 
 1. Ga de **termijn of de uitdrukking 0} van het Sleutelwoord {in te passen.**
 1. Ga de **termijn(en) in van de uitbreiding 0} {die u als synoniemen voor het sleutelwoord wilt toevoegen.** Scheid meerdere termen met een komma.

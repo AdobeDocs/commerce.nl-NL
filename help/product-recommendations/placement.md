@@ -1,9 +1,10 @@
 ---
 title: Plaatsing en labels
 description: Leer waar u aanbevelingen op verschillende pagina's op uw plaats en suggesties voor vaak gebruikte etiketten voor elk aanbevelingstype kunt plaatsen.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 0576add8-50dd-4aac-91f5-38b7d85b751f
+source-git-commit: f67010c80c3dedcf3c431cb7dc6e4e7b0cdbde09
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -51,8 +52,8 @@ _Aanbeveling bij bovenkant van onderzoeksresultaten_
 
 De volgende tabel bevat een lijst met de winkelpagina&#39;s waarop u aanbevelingen kunt plaatsen en de typen aanbevelingen die op elke pagina zijn toegestaan.
 
-| Pagina | Aanbevelingen voor plaatsing |
-|---|---|
+| Pagina | Aanbevelingen voor plaatsing | Typen |
+|---|---|---|
 | Homepage | Bij de bovenkant van belangrijkste inhoud <br> bij de bodem van belangrijkste inhoud (gebrek) | Meest bekeken <br> het meest gekochte <br> Meest toegevoegd aan kar <br> geadviseerd voor u <br> Trend |
 | Categorie | Bij de bovenkant van belangrijkste inhoud <br> bij de bodem van belangrijkste inhoud (gebrek) | Meest bekeken <br> het meest gekochte <br> Meest toegevoegd aan kar <br> geadviseerd voor u <br> Trend |
 | Productgegevens | Onderaan de hoofdinhoud (standaard) | Meest bekeken <br> het meest gekochte <br> Meest toegevoegd aan wortel <br> dit bekeken, bekeken dat <br> dit bekeken, kocht dat <br> dit kocht, dat <br> meer als dit <br> Trending <br> Visuele gelijkenis 5} kocht |

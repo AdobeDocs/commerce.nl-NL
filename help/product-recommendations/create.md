@@ -1,9 +1,10 @@
 ---
 title: Nieuwe aanbeveling maken
 description: Leer hoe u een product aanbevelingseenheid kunt maken.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 1d5f83c4-1613-4236-9d98-d455f45a47da
+source-git-commit: f67010c80c3dedcf3c431cb7dc6e4e7b0cdbde09
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -81,6 +82,10 @@ Wanneer u de aanbevelingseenheid activeert, begint Adobe Commerce [ gegevens ](w
    * **sparen als ontwerp** om de aanbeveling eenheid later uit te geven. U kunt het paginatype of het aanbevelingen type voor een aanbeveling eenheid in een ontwerpstaat niet wijzigen.
 
    * **activeer** om de aanbeveling eenheid op uw storefront toe te laten.
+
+>[!IMPORTANT]
+>
+>Sommige browsers blokkeren mogelijk essentiële scripts die verhinderen dat productaanbevelingen naar behoren werken.
 
 ## Gereedheidsindicatoren
 

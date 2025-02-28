@@ -4,9 +4,10 @@ description: Leer hoe te installeren en te gebruiken  [!DNL Payment Services]  a
 role: User
 level: Intermediate
 feature: Payments, Checkout
-source-git-commit: 95d86654ad185b2c37a59777a29f6de1b0091ad7
+exl-id: 1d41f86a-f874-48df-9173-9cf9f07e6d79
+source-git-commit: 62b708f79ac011ef33b37f67384df7c94571ced2
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -51,6 +52,12 @@ De Diensten van de betaling verstrekt [ Uitdrukkelijke mogelijkheden van de Cont
 
 Zie [ beleid van de Levenscyclus ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) en de [[!DNL Payment Services]  versienota&#39;s ](release-notes.md) pagina&#39;s voor meer versie en versie-specifieke informatie.
 
+### Welke [!DNL Payment Services] optie is geschikt voor u?
+
+>[!VIDEO](https://video.tv.adobe.com/v/3447811)
+
+Zie [ verbinden ](connect.md) voor meer informatie bij vestiging uw [!DNL Payment Services] uitbreiding.
+
 ### Geaccepteerde kredietkaarten en valuta&#39;s
 
 [!DNL Payment Services] keurt de valuta&#39;s van de landen [ goed waarin het ](#availability) beschikbaar is. Zie [ configuratie van de Valuta ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html) voor meer informatie.
@@ -71,9 +78,3 @@ Het aan boord gaan en instellen van [!DNL Payment Services] wordt in slechts een
 1. Activeer [!DNL Payment Services] in de live modus om live betalingen te verwerken.
 
 Om de volledige instructies te krijgen en het onboarding proces te beginnen, zie [ Onboard  [!DNL Payment Services]](onboard.md).
-
-## [!DNL Payment Services] demo
-
-Bekijk deze video voor meer informatie over [!DNL Payment Services] :
-
->[!VIDEO](https://video.tv.adobe.com/v/343990?quality=12)

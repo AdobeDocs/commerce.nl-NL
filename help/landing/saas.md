@@ -3,9 +3,10 @@ title: Commerce Services Connector
 description: Leer hoe u uw Adobe Commerce- of Magento Open Source-instantie integreert met productie- en sandbox-API-sleutels.
 feature: Services, Saas
 role: Admin, User
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 1aa6ba8b-be39-496e-b83d-a4a7db9f5dd8
+source-git-commit: 5e2c32b66407585317e22649184337e2aace9bad
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
@@ -96,6 +97,8 @@ Voor de Pro projecten van de Wolk van de Handel van Adobe met veelvoudige het op
 - [ legt een verzoek van de Steun ](https://experienceleague.adobe.com/home?support-tab=home#support) voor om de extra het testen gegevensruimte te verzoeken en op de bedrijfsrechtvaardiging voor het extra datasnelheid te wijzen. Dit verzoek moet worden goedgekeurd.
 
 Magento Open Source-klanten die Adobe Payment Services gebruiken, kunnen ook om een extra gegevensruimte vragen. Contacteer het team van Betalingen voor vroegere goedkeuring van de extra gegevensruimten alvorens het verzoek van de a [ Steun ](https://experienceleague.adobe.com/home?support-tab=home#support) voor te leggen om de het testen gegevensruimte te verzoeken.
+
+De klanten die veelvoudige projecten van de Wolk of op-gebouw (levend/productie) installaties bezitten kunnen extra productie en het testen gegevensruimten voor elk project of instantie ook verzoeken door [ een verzoek van de Steun ](https://experienceleague.adobe.com/home?support-tab=home#support) voor te leggen.
 
 ### Een SaaS-project selecteren of maken {#createsaasenv}
 

@@ -2,7 +2,8 @@
 title: Gegevens verzamelen
 description: Leer hoe de gebeurtenissen gegevens voor  [!DNL Product Recommendations] verzamelen.
 feature: Services, Recommendations, Eventing
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
+source-git-commit: 94d2a9911ab10d164d75779d1f310e5bdf2aea74
 workflow-type: tm+mt
 source-wordcount: '1360'
 ht-degree: 0%
@@ -118,14 +119,14 @@ In deze tabel worden de gebeurtenissen beschreven die door elk type aanbeveling 
 | Type aanbeveling | Gebeurtenissen | Pagina |
 | --- | --- | --- |
 | Meest bekeken | `page-view`<br>`product-view` | Productdetailpagina |
-| Meest aangekocht | `page-view`<br>`complete-checkout` | Winkelwagentje/Afhandeling |
+| Meest aangekocht | `page-view`<br>`place-order` | Winkelwagentje/Afhandeling |
 | Meest toegevoegd aan winkelwagentje | `page-view`<br>`add-to-cart` | De detailpagina van het product <br> product die pagina <br> van de Lijst van de Kar <br> van de Wenslijst van het Product |
 | Bekeken dit, gezien dat | `page-view`<br>`product-view` | Productdetailpagina |
 | Bekijk dit, kocht dat | Recs product | `page-view`<br>`product-view` | De detailpagina van het product <br> Kar/Controle |
 | Dit gekocht | Recs product | `page-view`<br>`product-view` | Productdetailpagina |
 | Trend | `page-view`<br>`product-view` | Productdetailpagina |
 | Conversie: Weergeven voor aankoop | Recs product | `page-view`<br>`product-view` | Productdetailpagina |
-| Conversie: Weergeven voor aankoop | Recs product | `page-view`<br>`complete-checkout` | Winkelwagentje/Afhandeling |
+| Conversie: Weergeven voor aankoop | Recs product | `page-view`<br>`place-order` | Winkelwagentje/Afhandeling |
 | Omzetten: Weergeven naar winkelwagentje | Recs product | `page-view`<br>`product-view` | Productdetailpagina |
 | Omzetten: Weergeven naar winkelwagentje | Recs product | `page-view`<br>`add-to-cart` | De detailpagina van het product <br> van de lijst van het Product pagina <br> Kaart <br> Wislijst |
 

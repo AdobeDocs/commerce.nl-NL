@@ -2,7 +2,8 @@
 title: '[!DNL Live Search] Gebeurtenissen'
 description: Leer hoe de gebeurtenissen gegevens voor  [!DNL Live Search] verzamelen.
 feature: Services, Eventing
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: a9f4f254-d8ff-46f1-8deb-a75b90d70d52
+source-git-commit: 94d2a9911ab10d164d75779d1f310e5bdf2aea74
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Deze lijst beschrijft de gebeurtenissen die door [!DNL Live Search] [ worden geb
 | Rangschikkingsstrategie | Gebeurtenissen | Pagina |
 | --- | --- | --- |
 | Meest bekeken | `page-view`<br>`product-view` | Productdetailpagina |
-| Meest aangekocht | `page-view`<br>`complete-checkout` | Winkelwagentje/Afhandeling |
+| Meest aangekocht | `page-view`<br>`place-order` | Winkelwagentje/Afhandeling |
 | Meest toegevoegd aan winkelwagentje | `page-view`<br>`add-to-cart` | De detailpagina van het product <br> product die pagina <br> van de Lijst van de Kar <br> van de Wenslijst van het Product |
 | Bekeken dit, gezien dat | `page-view`<br>`product-view` | Productdetailpagina |
 

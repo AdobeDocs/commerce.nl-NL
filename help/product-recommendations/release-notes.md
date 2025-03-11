@@ -2,9 +2,10 @@
 title: '[!DNL Product Recommendations] Opmerkingen bij de release'
 description: De recentste versieinformatie voor  [!DNL Product Recommendations]  van Adobe Commerce.
 feature: Services, Recommendations, Release Notes
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 37404605-5b62-4c71-90d1-4f09e6105c4b
+source-git-commit: 615fa2967680c16ec123d41c20019f72cfeddc60
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
@@ -49,6 +50,16 @@ _25 April, 2023_
 
 ## Huidige hoofdversie
 
+### 6.1.0 van magento/productaanbevelingen
+
+_Maart 11, 2025_
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde PHP 8.4 steun.
+
+### Vorige versies
+
 ### 6.0.3 van de aanbevelingen voor magento/product
 
 _6 November, 2024_
@@ -66,8 +77,6 @@ _Mei 9, 2024_
 
 ![ beval ](../assets/fix.svg) een kwestie waar het klikken van de **[!DNL Add to Cart]** knoop op een eenvoudig product binnen een eenheid van de Aanbevelingen van het Product de verkoopster aan de homepage eerder dan het blijven op de huidige pagina opnieuw richtte.
 ![ Bug ](../assets/bug.svg) Er is een bevestigingsfout die door het `referenceBlock` element in het `ProductRecommendations Layout` dossier van XML wordt veroorzaakt.
-
-### Vorige versies
 
 ### 6.0.1 van magento/productaanbevelingen
 

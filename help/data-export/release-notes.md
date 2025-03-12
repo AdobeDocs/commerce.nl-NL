@@ -4,9 +4,9 @@ description: De recentste versieinformatie voor  [!DNL Data Export Extension]  v
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: 7e19d42f4e064cfc4efd7c275546725795b60310
+source-git-commit: e30210e6aac469929e4767e3747bd819bc10b9f4
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,11 @@ Updates zijn:
 >De de gegevensuitvoeruitbreiding van SaaS is een inzameling van modules die automatisch met Levend Onderzoek, de Aanbevelingen van het Product, en de Dienst van de Catalogus geïnstalleerd is. U kunt de versie controleren die op uw systeem is geïnstalleerd met Composer. In sommige gevallen kunt u de extensie voor het exporteren van gegevens op uw systeem upgraden om oplossingen of nieuwe mogelijkheden op te halen zonder de Commerce Service-versie bij te werken.
 
 ## Huidige hoofdversie
+
+## 103.3.21 Release
+
+](../assets/new.svg) Toegevoegde functionaliteit van 0} Repareren `product`, `productOverrides`, en `productAttributes` voer gedeeltelijk synchroniseert dat op een gespecificeerde lijst van productSKUs wordt gebaseerd. ![ Gebruik de nieuwe functionaliteit door de optie `--by-ids` toe te voegen aan de opdracht `bin/magento saas:resync --feed=<FEED_NAME>` CLI. <!--MDEE-606-->
+![ bevestig ](../assets/fix.svg) Verminderde potentiële verenigbaarheidskwesties met PHP 8.4 door verouderde functionaliteit te richten. <!--MDEE-1002-->
 
 ## 103.3.20 Release
 

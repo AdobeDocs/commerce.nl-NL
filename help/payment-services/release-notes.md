@@ -2,13 +2,13 @@
 title: '[!DNL Payment Services] Opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over alle  [!DNL Payment Services]  versies.
 feature: Payments, Release Notes
-source-git-commit: 313d69a7f791153fd56a1492f9012776cea1f3df
+exl-id: 1d24ae27-4a57-4482-a36b-22bbcaaa1b6f
+source-git-commit: 0ad77dca302d467ad5f037f0cd567e18bd148af0
 workflow-type: tm+mt
-source-wordcount: '3392'
+source-wordcount: '3644'
 ht-degree: 0%
 
 ---
-
 
 # Aanvullende informatie
 
@@ -89,6 +89,33 @@ _Juni 28, 2021_
 ![ Nieuw ](../assets/new.svg)<!-- Issue PAY-2761 --> U kunt de gegevens nu aanpassen die in het [ rapport van de de betalingsstatus van de Orde ](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/order-payment-status.html#show-and-hide-columns) en het [ rapport van Uitbetalingen ](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/payouts.html#show-and-hide-columns) door kolommen te tonen of te verbergen gebruikend de de montagecontrole van de Kolom tonen.
 
 +++
+
+## v2.11.0
+
+_Maart 13, 2025_
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+
+![ Nieuw ](../assets/new.svg)<!-- PAY-5938 --> nu, [!DNL Payment Services] staat verkopers toe om betalingsmontages te beheren om flexibiliteit in hun zaken te maximaliseren. Deze versie verbetert de capaciteit om [ veelvoudige rekeningen PayPal ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/settings#use-multiple-paypal-accounts) voor de gebieden en de merken vast te maken een handelaars steunt. Ons verkoopteam kan een koppeling aan boord bieden om uw website in te stellen en weergavebereiken op te slaan.
+
+![ Nieuw ](../assets/new.svg)<!-- PAY-5968 --> nu, [!DNL Payment Services] werkt de configuratie Admin met **PayPal Merchant identiteitskaart** en **PayPal Merchant Status** waarden bij. Deze waarden geven verkopers meer inzicht in hun status van hun PayPal-rekening.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5816 --> herstelde normale ordefunctionaliteit in [!DNL Payment Services] door een kwestie op te lossen die fouten in alle orde plaatsingen met versie v2.9.0 veroorzaakte.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5825 --> Vaste een kwestie waar Apple Pay mini-kart onjuiste geschatte totalen URL voor het programma geopende klanten gebruikte. Nu zorgt [!DNL Payment Services] voor nauwkeurige totale berekeningen.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5826 --> Verbeterde betrouwbaarheid van het ordebeheer door een kwestie op te lossen die een fout van HTTP 500 wanneer het veranderen van de citaatstatus in `inactive` veroorzaakte.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5849 --> een kwestie waar `LineItemProvider` uitzonderingen voor decimale hoeveelheden onder 1 wierp. Nu biedt [!DNL Payment Services] betere ondersteuning voor breukhoeveelheden.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5868 --> Vaste een fout van het geschenkkaartbedrag tijdens controle. [!DNL Payment Services] zorgt nu voor nauwkeurige waarden tijdens een uitcheckproces.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5911 --> Opgeloste fouten tijdens ladingsverwezenlijking voor orden geplaatst gebruikend niet [!DNL Payment Services] online betalingsmethodes, die algemene betrouwbaarheid verbeteren.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5954 --> [!DNL Payment Services] biedt nu een vloeiender afrekenervaring door een probleem op te lossen waarbij Apple Pay geen bestelling heeft geplaatst toen een andere creditcard in de portemonnee was geselecteerd.
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5971 --> [!DNL Payment Services] leidt klanten niet meer naar de pagina voor het controleren van bestellingen wanneer Apple Pay mislukt, waardoor onnodige onderbrekingen van het afrekenen worden voorkomen.
 
 ## v2.10.3
 

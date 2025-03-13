@@ -4,9 +4,10 @@ description: Na installatie, kunt u  [!DNL Payment Services]  vormen gebruikend 
 role: Admin, Developer
 level: Intermediate
 feature: Payments, Checkout, Configuration, Integration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: bb59bd49-6ecd-4ef1-a6b9-e1e93db04bf6
+source-git-commit: 24622b8a20b8cd95e13a68df6e0929206ffbb06b
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -88,6 +89,32 @@ bin/magento cron:run --group payment_services_data_export
 ```
 
 Meer over het opnieuw indexeren en indexeerders leren, zie [ het indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) onderwerp in de ontwikkelaarsdocumentatie beheren.
+
+## Bereik configureren via CLI
+
+[!DNL Payment Services] staat verkopers toe om [ veelvoudige rekeningen te gebruiken PayPal ](settings.md#use-multiple-paypal-accounts). Nu, kunt u werkingsgebied voor deze rekeningen via CLI veranderen.
+
+Voer de volgende handelingen uit om het bereik in te stellen op het `website` -niveau:
+
+```bash
+bin/magento config:set payment/payment_services/mba_scoping_level website
+```
+
+Als u het bereik wilt instellen op het niveau `store` , gebruikt u:
+
+```bash
+bin/magento config:set payment/payment_services/mba_scoping_level store
+```
+
+>[!TIP]
+>
+> Neem contact op met uw [!DNL Payment Services] verkoper als u het bereik wilt wijzigen om het niveau op te slaan.
+
+Wanneer u het bereik hebt gewijzigd, wordt de cache leeggemaakt om wijzigingen weer te geven:
+
+```bash
+bin/magento cache:clean:payment_services_merchant_scopes
+```
 
 ## L2/L3-verwerking configureren
 

@@ -4,9 +4,10 @@ description: Na installatie, kunt u  [!DNL Payment Services]  in Admin bij de op
 role: Admin, User
 level: Intermediate
 feature: Payments, Checkout, Configuration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: a4da36e2-4316-42d5-ae30-cf078f440444
+source-git-commit: 24622b8a20b8cd95e13a68df6e0929206ffbb06b
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -34,6 +35,7 @@ U kunt [!DNL Payment Services] inschakelen voor uw winkel en uw _[!UICONTROL Mer
    >
    > Als u uw ID voor de gegevensruimte in de Commerce Services-connector moet wijzigen, moet u de [!DNL Payment Services] -id opnieuw instellen. Klik **identiteitskaart van de Diensten van de Betaling van het Terugstellen** om uw Sandbox of Productie IDs terug te stellen. Als u de id&#39;s van [!DNL Payment Services] opnieuw instelt, moet u opnieuw aan boord gaan.
 
+1. Uw **[!UICONTROL PayPal Merchant ID]** - en **[!UICONTROL PayPal Merchant Status]** -waarden worden automatisch door PayPal verschaft wanneer u het [!DNL Payment Services] -dashboard voor de eerste keer bezoekt.
 1. Voor **Zachte beschrijver** (douanewaarden die op de verklaringen van de bank van de klantentransactie tonen om tussen opslag/brands/catalogi te afbakenen), voeg uw douanetekst (tot 22 karakters) op het tekstgebied toe, die `Soft descriptor` of de bestaande waarde vervangt.
 1. Klik op **[!UICONTROL Save Config]** om de wijzigingen op te slaan.
 1. Navigeer naar **[!UICONTROL System]** > **[!UICONTROL Cache Management]** en klik vervolgens op **[!UICONTROL Flush Cache]** om alle ongeldige cache te vernieuwen.
@@ -48,6 +50,8 @@ U kunt [!DNL Payment Services] inschakelen voor uw winkel en uw _[!UICONTROL Mer
 | [!UICONTROL Method] | winkelweergave | Plaats de methode, of het milieu, voor uw opslag. Opties: [!UICONTROL Sandbox] / [!UICONTROL Production] |
 | [!UICONTROL Payment Services Sandbox ID] | winkelweergave | De bedrijfs-id van de sandbox, die automatisch wordt gegenereerd tijdens het aan boord nemen van de sandbox. |
 | [!UICONTROL Payment Services Production ID] | winkelweergave | Uw bedrijfs-id voor productie, die automatisch wordt gegenereerd tijdens productie (live) aan boord. |
+| [!UICONTROL PayPal Merchant ID] | winkelweergave | Je unieke PayPal Merchant account-id die je hebt gegenereerd wanneer je je PayPal-rekening maakt. |
+| [!UICONTROL PayPal Merchant Status] | winkelweergave | Status van je PayPal Merchant ID. |
 | [!UICONTROL Soft Descriptor] | website- of winkelweergave | Voeg een elektronische beschrijving toe aan uw website(s) en sla de weergave(en) op om informatie toe te voegen aan klanttransacties die merken, winkels of productlijnen afbakenen. |
 
 ## [!UICONTROL Credit Card Fields]

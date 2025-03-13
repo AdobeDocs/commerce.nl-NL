@@ -2,9 +2,10 @@
 title: Gegevens synchroniseren met SaaS-gegevensexport
 description: Leer hoe  [!DNL SaaS Data Export]  gegevens tussen de instanties van Adobe Commerce en de verbonden diensten verzamelt en synchroniseert SaaS.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 2ca7c92a-fb52-4055-ae16-11e99b38d161
+source-git-commit: 55c433f36b122813e8fc9136a7efbb869246b7f5
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -79,7 +80,7 @@ De meeste synchronisatieactiviteiten worden automatisch verwerkt op basis van de
 
 - De gebruikers Admin kunnen synchronisatievooruitgang bekijken en volgen en informatie over de gegevens van het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard) krijgen.
 
-- Ontwikkelaars, systeemintegrators of beheerders met toegang tot de Commerce-toepassingsserver kunnen het synchronisatieproces en de gegevensinvoer beheren met behulp van het opdrachtregelprogramma van Adobe Commerce (CLI). Zie {de Verwijzing van het Bevel van de Uitvoer van 0} Gegevens ](data-export-cli-commands.md).[
+- Ontwikkelaars, systeemintegrators of beheerders met toegang tot de Commerce-toepassingsserver kunnen het synchronisatieproces en de gegevensinvoer beheren met behulp van het opdrachtregelprogramma van Adobe Commerce (CLI). Zie [ synchronisatieverrichtingen beheren gebruikend Commerce CLI ](data-export-cli-commands.md).
 
 ### Configuratie Commerce-toepassing controleren
 

@@ -4,9 +4,9 @@ user-guide-description: Deze gids verstrekt gedetailleerde instructies voor het 
 breadcrumb-title: '[!DNL Data Export] Guide for SaaS Services'
 role: Admin
 feature: Services
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: 54474408897c2b8462a064400fa53a2e9040db47
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '78'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 - Exportplanning en -prestaties {#performance}
    - [Gegevensvolume en verzendingstijd schatten](estimate-data-volume-sync-time.md)
    - [Exportprestaties verbeteren](customize-export-processing.md)
-- [CLI Command reference](data-export-cli-commands.md)
+- [feeds synchroniseren met de Commerce CLI](data-export-cli-commands.md)
 - [Logboeken controleren en problemen oplossen](troubleshooting-logging.md)
 - [De exportextensie voor SaaS-gegevens beheren](manage-extension.md)
 - Uitbreidbaarheid {#extensibility}

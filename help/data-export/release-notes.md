@@ -4,9 +4,9 @@ description: De recentste versieinformatie voor  [!DNL Data Export Extension]  v
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: e30210e6aac469929e4767e3747bd819bc10b9f4
+source-git-commit: 14231826dba842edb908005ea43b1893a324c68f
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,12 @@ Updates zijn:
 
 ## 103.3.21 Release
 
-](../assets/new.svg) Toegevoegde functionaliteit van 0} Repareren `product`, `productOverrides`, en `productAttributes` voer gedeeltelijk synchroniseert dat op een gespecificeerde lijst van productSKUs wordt gebaseerd. ![ Gebruik de nieuwe functionaliteit door de optie `--by-ids` toe te voegen aan de opdracht `bin/magento saas:resync --feed=<FEED_NAME>` CLI. <!--MDEE-606-->
+](../assets/new.svg) Toegevoegde functionaliteit van 0} Repareren `products`, `productOverrides`, en `productAttributes` voer gedeeltelijk synchroniseert dat op een gespecificeerde lijst van productSKUs wordt gebaseerd. ![ Gebruik de nieuwe functionaliteit door de optie `--by-ids` aan de opdracht resync CLI toe te voegen: <!--MDEE-606-->
+
+```shell
+bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
+```
+
 ![ bevestig ](../assets/fix.svg) Verminderde potentiële verenigbaarheidskwesties met PHP 8.4 door verouderde functionaliteit te richten. <!--MDEE-1002-->
 
 ## 103.3.20 Release

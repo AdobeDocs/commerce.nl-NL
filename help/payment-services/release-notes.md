@@ -3,9 +3,9 @@ title: '[!DNL Payment Services] Opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over alle  [!DNL Payment Services]  versies.
 feature: Payments, Release Notes
 exl-id: 1d24ae27-4a57-4482-a36b-22bbcaaa1b6f
-source-git-commit: 0ad77dca302d467ad5f037f0cd567e18bd148af0
+source-git-commit: 0098e5bab2ea72f9abd7c846d49d5ee4d523ad73
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3681'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,14 @@ _Juni 28, 2021_
 ![ Nieuw ](../assets/new.svg)<!-- Issue PAY-2761 --> U kunt de gegevens nu aanpassen die in het [ rapport van de de betalingsstatus van de Orde ](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/order-payment-status.html#show-and-hide-columns) en het [ rapport van Uitbetalingen ](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/payouts.html#show-and-hide-columns) door kolommen te tonen of te verbergen gebruikend de de montagecontrole van de Kolom tonen.
 
 +++
+
+## v2.11.1
+
+_Maart 14, 2025_
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5849 --> Vaste een kwestie die [ Punten van de Lijn ](line-items.md) tijdens controle beïnvloedde. Nu, [!DNL Payment Services] heeft de betrouwbaarheid van het controleproces voor **Punten van de Lijn** verbeterd. Als u een soortgelijk probleem tegenkomt, neemt u contact op met uw [!DNL Payment Services] -vertegenwoordiger voor hulp.
 
 ## v2.11.0
 

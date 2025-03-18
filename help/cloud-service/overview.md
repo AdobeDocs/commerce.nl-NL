@@ -1,0 +1,144 @@
+---
+title: Adobe Commerce as a Cloud Service - overzicht
+description: Meer informatie over de belangrijkste functies en voordelen van Adobe Commerce as a Cloud Service.
+feature: App Builder, GraphQL, Integration, Saas
+role: Admin, Architect, Developer, User
+source-git-commit: 0a112b1dab0113eb910e2ecdcca21e7e2814e761
+workflow-type: tm+mt
+source-wordcount: '1569'
+ht-degree: 0%
+
+---
+
+
+# Adobe Commerce as a Cloud Service - overzicht
+
+Adobe Commerce as a Cloud Service biedt flexibiliteit, schaalbaarheid en efficiëntie door bedrijven in staat te stellen digitale bewerkingen te leveren en snel te schalen en innovatie te versnellen. Adobe-cloudinfrastructuur past automatisch bronnen aan om te voldoen aan de piekvereisten voor verkeer, bestellingen en catalogusbeheer.
+
+In de volgende afbeelding worden de producten gemarkeerd die Adobe Commerce as a Cloud Service van kracht maken:
+
+![ Adobe Commerce as a Cloud Service productstapel ](./assets/product-stack.svg){align="center" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+![ info ](assets/Smock_InfoOutline_18_N.svg) als u aan het vroege toegangsprogramma van Adobe Commerce as a Cloud Service zou willen deelnemen, voltooi [ deze vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4WOxhjY2doZPikS2hIbfmL5URFZXTE5TUk9PMUw0OFdOWTBNNlI3UTlNMS4u&amp;route=shorturl).
+
+>[!ENDSHADEBOX]
+
+## Architectuur
+
+Bekijk de volgende video voor een korte inleiding op de Adobe Commerce as a Cloud Service architectuur. Diagrammen die de architectuur illustreren worden verstrekt onder de video.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
+
+Dit diagram illustreert de gegevensstroom tussen Adobe Commerce as a Cloud Service en alle oplossingen van Adobe Experience Cloud.
+
+![ Adobe Commerce as a Cloud Service architectuurdiagram ](./assets/data-flow.svg){zoomable="yes"}
+
+## Commerce Storefront
+
+Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
+
+Commerce Storefront heeft een volledig ontkoppelde architectuur die alle Merchandising Services en gegevens biedt via een GraphQL API-laag. Deze architectuur staat teams toe om hun frontends onafhankelijk van de Stichting van Commerce te ontwikkelen, die de behendigheid verstrekt om nieuwe aanraakpunten met nieuwe technologieën te bouwen en te testen.
+
+>[!NOTE]
+>
+>Adobe Commerce as a Cloud Service ondersteunt geen Luma storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts) voor begeleiding bij het overgaan.
+
+## Handelsbemiddeling en betalingsdiensten
+
+Adobe biedt een uitgebreide reeks intelligente, composable merchandising-services waarmee u uw belangrijkste bedrijfsdoelen kunt ondersteunen. Deze services bieden ook API&#39;s die essentieel zijn voor het optimaliseren van prestaties op schaal.
+
+- [ Levend Onderzoek ](../live-search/overview.md) - lever slimmere, snellere en relevante resultaten voor kopers met dit AI-Gerichte onderzoekshulpmiddel.
+- [ Aanbevelingen van het Product ](../product-recommendations/overview.md) - voeg op AI-Gebaseerde aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
+- [ Merchandising de Diensten die door Kanalen en Beleid ](../merchandising-services/overview.md) worden aangedreven - beheer grote en complexe productcatalogi met flexibele gegevens modellering om hoogst presterende, flexibele handelscatalogi te leveren die met bedrijfsstructuur en go-aan-markt strategieën worden gericht. Gebruik met [ Commerce Optimizer ](../optimizer/overview.md) om catalogusprestaties te optimaliseren en omzettingspercentages te verbeteren.
+- ](../payment-services/overview.md) - De klantentevredenheid van de 1} Aandrijving van de Betaling van de Diensten van de 1} - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.[
+
+## Productvisa
+
+Vereenvoudig het beheer van bedrijfsmiddelen met behulp van een robuust DAM-systeem (Digital Asset Management) dat kan worden geïntegreerd met Adobe Experience Manager voor het beheer van rich media-inhoud. De native mini-DAM biedt ook elementaire hulpmiddelen voor middelenbeheer voor het opslaan en beheren van digitale middelen.
+
+Zie [ activabeheer ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration) om meer te leren.
+
+## Developer Platform
+
+Adobe biedt ontwikkelaars uitgebreide uitbreidingspunten en tools voor het maken van toepassingen die Commerce Foundation-mogelijkheden uitbreiden en integreren met systemen van derden (zoals CRM&#39;s, ERPS en PIMS). Met deze gereedschappen worden de totale eigendomskosten van het platform als volgt verminderd:
+
+- **Scalability** - De toepassingen kunnen afzonderlijk van de kernsoftware worden geschraapt, die voor grotere efficiency en vereenvoudigde verbeteringen toestaat.
+- **Isolatie** - een geïsoleerd milieu betekent dat de ontwikkelaars hun uitbreidingen bij hun discretie kunnen bevorderen of wijzigen zonder op een kernversie te vertrouwen.
+- **Technologische onafhankelijkheid** - de Ontwikkelaars kunnen kiezen welke technologiestapels en coderende talen die hun behoeften passen.
+
+>[!TIP]
+>
+>De leverancier-gebouwde apps zijn ook beschikbaar voor installatie op [ Adobe Exchange ](https://exchange.adobe.com/).
+
+Adobe biedt de volgende ontwikkelaarsgereedschappen voor het maken van integratie- en aanpassingsprocessen:
+
+- [**API Net voor Adobe Developer App Builder** ](https://developer.adobe.com/graphql-mesh-gateway/) - coördineer en combineer veelvoudige API, GraphQL, REST, en andere bronnen in één enkel, queryable eindpunt van GraphQL.
+- [**App Builder** ](https://developer.adobe.com/app-builder/docs/overview/) - bouw en stel veilige en scalable Webtoepassingen op die de functionaliteit van Commerce uitbreiden en met derdeoplossingen integreren.
+- [**Gebeurtenissen** ](https://developer.adobe.com/commerce/extensibility/events/) - de trekkers van de douanegebeurtenis van het Gebruik om met andere verlengbare ontwikkelingshulpmiddelen in wisselwerking te staan.
+- [**Webhooks** ](https://developer.adobe.com/commerce/extensibility/webhooks/) - Gebruik webhooks om interactie tussen Commerce en derdesystemen automatisch teweeg te brengen.
+- [**Admin UI SDK** ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) - pas en verbeter Commerce Admin met nieuwe pagina&#39;s en eigenschappen voor uw handelaren aan.
+- [**Uitrusting van de Aanzet van de Integratie** ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) - versnelt uw achterbureauintegratie met verwijzingsintegratie, op het instappen van manuscripten, en een gestandaardiseerde architectuur.
+
+## Commerce Foundation
+
+Commerce Foundation biedt een veilig geautomatiseerd hostplatform en functies voor zelfbediening voor het beheer van uw Commerce-toepassing in een cloud-native omgeving. Belangrijkste kenmerken zijn:
+
+- Vereenvoudigd aan boord
+- Naadloze upgrades
+
+### Vereenvoudigd aan boord
+
+Start sandbox- en productieinstanties binnen enkele minuten met de Commerce Cloud Manager-portal voor zelfvoorziening. Alles wat u nodig hebt, inclusief Merchandising Services, Commerce Storefront en App Builder, wordt automatisch geconfigureerd en geïntegreerd met uw instanties.
+
+Zie [ Begonnen worden ](getting-started.md) om te leren hoe te om de instanties van Commerce tot stand te brengen en te beheren.
+
+### Naadloze upgrades
+
+Toegang tot de nieuwste functies en verbeteringen zonder dat u handmatig hoeft te upgraden. Door de voortdurende levering van nieuwe functies en updates is het niet nodig om handmatig te patchen, zodat u altijd toegang hebt tot de nieuwste mogelijkheden tegen lage totale eigendomskosten.
+
+Bij het gebruikelijke upgradeproces voor Adobe Commerce op Cloud ging het om het maken van back-ups, het klonen van instanties, het uitvoeren van compatibiliteitsgereedschappen en het oplossen van codeconflicten. Dat is niet meer nodig met Adobe Commerce als cloudservice. Adobe stuurt u meldingen in de app wanneer nieuwe functies en beveiligingsupdates zijn uitgebracht. U hebt een periode van 30 dagen om de nieuwe mogelijkheden in uw zandbakinstanties te evalueren alvorens de updates automatisch op uw productiemilieu&#39;s worden toegepast.
+
+>[!NOTE]
+>
+>Adobe garandeert achterwaartse compatibiliteit voor alle updates. Dit betekent dat wanneer de updates worden toegepast, zij bestaande functionaliteit of aanpassingen niet zullen breken die aan het [ API-eerste rekbaarheids ](https://developer.adobe.com/commerce/extensibility/) model houden.
+
+## Experience Cloud-integratie
+
+Adobe Commerce as a Cloud Service integreert met alle oplossingen van Experience Cloud om [ gepersonaliseerde handelservaringen op schaal ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu) te leveren.
+
+[ Verbinding van Gegevens ](../data-connection/overview.md) ontgrendelt inzichten over het kopen van uw klanten gedrag zodat u gepersonaliseerde het winkelen ervaringen over alle kanalen met andere producten van de Ervaring van Adobe Digital kunt tot stand brengen.
+
+## Voordelen
+
+In de volgende secties vindt u informatie over de voordelen die Adobe Commerce as a Cloud Service biedt voor bedrijven en IT-leiders.
+
+### Zakelijke leiders
+
+- **de opbrengst van de Vergroting**: De organische verkeer van de aandrijving met een krachtige storefront die SEO versterkt. Maak persoonlijke ervaringen die conversie met rijke gegevens stimuleren.
+- **de verrichtingen van de Schaal**: De auto-schrapende diensten voldoen aan de piekeisen van uw zaken met 99.9% beschikbaarheid. Meerdere merken en regio&#39;s implementeren en B2B en B2C ondersteunen vanuit één instantie. Ondersteuning voor grote en complexe productcatalogi met flexibele gegevensmodellen.
+- **Merchandiser van de Verhoging productiviteit**: De aangedreven AI diensten van het gebruik om omzetting te verbeteren. Experimenteer native, rechtstreeks in de winkel. Beheer de storefront-ervaring om in enkele minuten rijke ervaringen te creëren met eenvoudige documenten of een visuele editor.
+- **Lagere totale kosten van eigendom (TCO) en versnelt innovatie**: altijd de bijgewerkte diensten geven u onmiddellijk toegang tot nieuwe eigenschappen. Activeer nieuwe mogelijkheden door toepassingen eenvoudig van de markt te installeren. Maak middelen vrij van vervelend onderhoud om zich te concentreren op het bouwen van nieuwe mogelijkheden.
+
+### Toonaangevende functies op het gebied van informatietechnologie
+
+- **Snelle levering**: Krijg snel begonnen met zelfbediening levering in notulen. Alle services zijn vooraf geconfigureerd om naadloos samen te werken en sneller aan de slag te gaan. Stel sandboxen in voor experimenteren met ontwikkelaars.
+- **Lage kosten van eigendom**: Geen meer verbeteringen met altijd bijgewerkte diensten. Blijf veilig en voldoet aan de nieuwste beveiligingspatches die automatisch op u zijn toegepast. Automatisch schalen om te voldoen aan de meest veeleisende werklasten.
+- **Krachtige storefront**: Creeer rijke ervaringen in notulen met eenvoudig document-gebaseerd auteursrecht of een visuele redacteur. Gebruik door AI aangedreven verkoopservices om de conversie te verbeteren. Native experimenteren in de storefront.
+- **Snellere innovatie**: Maak middelen van vervelend onderhoud vrij om zich op de bouw van nieuwe mogelijkheden te concentreren die bedrijfswaarde leveren. Gebruik uitgebreide uitbreidbaarheid en op standaarden gebaseerde technologieën (JavaScript, HTML, CSS en low-code tools) om verschillende ervaringen op te bouwen. Installeer apps van derden met een klik om nieuwe mogelijkheden aan uw handelsplatform toe te voegen.
+
+## Nieuwe functieoplossingen
+
+[ Admin UI ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. Adobe Commerce as a Cloud Service biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen. In de volgende tabel worden de functies en vervangende oplossingen beschreven die beschikbaar zijn in Adobe Commerce as a Cloud Service:
+
+| Functie | Oplossing | Beschikbaarheid | Details |
+|---------|----------|--------------|--------|
+| [ Digitaal activabeheer ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management) | [ Visuals van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration) of mini-DAM | Beschikbaar | Een krachtig DAM-systeem (Digital Asset Management) dat kan worden geïntegreerd met Adobe Experience Manager voor het beheer van rich media-inhoud. De mini-DAM biedt ook de basisfuncties voor middelenbeheer voor het opslaan en beheren van digitale middelen. |
+| [ Systeem van het Beheer van de Inhoud (CMS) ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
+| [ Inhoud het opvoeren ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/staging/content-staging) | [ de Dienst van de Catalogus ](../catalog-service/overview.md) | Roadmap | Een hulpprogramma voor catalogusbeheer dat is gekoppeld aan Adobe Experience Platform en dat het beheer van grote catalogi mogelijk maakt. |
+| [ de Bouwer van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
+| [ Betalingen ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments) | [ de Diensten van de Betaling voor Adobe Commerce ](../payment-services/overview.md) | Beschikbaar | Een geïntegreerde betalingsdienst die veilige en efficiënte transacties vergemakkelijkt. |
+| [ Gedeelde catalogus ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared) | [ Prijs Indexerende Dienst ](../price-index/price-indexing.md) | Roadmap | Analyseert prijsgegevens en stelt optimale prijsstellingsstrategieën voor producten voor die op diverse factoren worden gebaseerd. |
+| [ URL herschrijft ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
+| [ Visuele Merchandiser ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser) | [ de Dienst van de Catalogus ](../catalog-service/overview.md) | Roadmap | Een hulpprogramma voor catalogusbeheer dat is gekoppeld aan Adobe Experience Platform en dat het beheer van grote catalogi mogelijk maakt. |

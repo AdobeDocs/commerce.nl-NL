@@ -3,13 +3,13 @@ title: Adobe Commerce as a Cloud Service - overzicht
 description: Meer informatie over de belangrijkste functies en voordelen van Adobe Commerce as a Cloud Service.
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User
-source-git-commit: 0a112b1dab0113eb910e2ecdcca21e7e2814e761
+exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
+source-git-commit: 27d08ed9c01923f2144b071ed7418a399b3126eb
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerce as a Cloud Service - overzicht
 
@@ -83,10 +83,13 @@ Adobe biedt de volgende ontwikkelaarsgereedschappen voor het maken van integrati
 
 ## Commerce Foundation
 
-Commerce Foundation biedt een veilig geautomatiseerd hostplatform en functies voor zelfbediening voor het beheer van uw Commerce-toepassing in een cloud-native omgeving. Belangrijkste kenmerken zijn:
+Commerce Foundation biedt een veilig geautomatiseerd hostplatform en functies voor zelfbediening voor het beheer van uw Commerce-toepassing in een cloud-native omgeving.
+
+Belangrijkste kenmerken zijn:
 
 - Vereenvoudigd aan boord
 - Naadloze upgrades
+- Integraties van derden
 
 ### Vereenvoudigd aan boord
 
@@ -103,6 +106,10 @@ Bij het gebruikelijke upgradeproces voor Adobe Commerce op Cloud ging het om het
 >[!NOTE]
 >
 >Adobe garandeert achterwaartse compatibiliteit voor alle updates. Dit betekent dat wanneer de updates worden toegepast, zij bestaande functionaliteit of aanpassingen niet zullen breken die aan het [ API-eerste rekbaarheids ](https://developer.adobe.com/commerce/extensibility/) model houden.
+
+### Integraties van derden
+
+De ontwikkelaars kunnen uitvoerige [ GraphQL en REST APIs ](https://developer.adobe.com/commerce/services/cloud/guides/) gebruiken om de Stichting van Commerce met derdesystemen te integreren en de mogelijkheden van Commerce uit te breiden.
 
 ## Experience Cloud-integratie
 

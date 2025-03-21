@@ -1,39 +1,41 @@
 ---
-title: Adobe Commerce as a Cloud Service - overzicht
-description: Meer informatie over de belangrijkste functies en voordelen van Adobe Commerce as a Cloud Service.
+title: '[!DNL Adobe Commerce as a Cloud Service] overzicht'
+description: Leer over de belangrijkste eigenschappen en de voordelen van  [!DNL Adobe Commerce as a Cloud Service].
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-source-git-commit: 27d08ed9c01923f2144b071ed7418a399b3126eb
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1497'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce as a Cloud Service - overzicht
+# [!DNL Adobe Commerce as a Cloud Service] overzicht
 
-Adobe Commerce as a Cloud Service biedt flexibiliteit, schaalbaarheid en efficiëntie door bedrijven in staat te stellen digitale bewerkingen te leveren en snel te schalen en innovatie te versnellen. Adobe-cloudinfrastructuur past automatisch bronnen aan om te voldoen aan de piekvereisten voor verkeer, bestellingen en catalogusbeheer.
+{{accs-early-access}}
 
-In de volgende afbeelding worden de producten gemarkeerd die Adobe Commerce as a Cloud Service van kracht maken:
+[!DNL Adobe Commerce as a Cloud Service] biedt flexibiliteit, schaalbaarheid en efficiëntie door bedrijven in staat te stellen digitale bewerkingen te leveren en snel te schalen en innovatie te versnellen. Adobe-cloudinfrastructuur past automatisch bronnen aan om te voldoen aan de piekvereisten voor verkeer, bestellingen en catalogusbeheer.
 
-![ Adobe Commerce as a Cloud Service productstapel ](./assets/product-stack.svg){align="center" zoomable="yes"}
+In de volgende afbeelding worden de producten gemarkeerd die [!DNL Adobe Commerce as a Cloud Service] van kracht maken:
+
+![[!DNL Adobe Commerce as a Cloud Service] productstapel ](./assets/product-stack.svg){align="center" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-![ info ](assets/Smock_InfoOutline_18_N.svg) als u aan het vroege toegangsprogramma van Adobe Commerce as a Cloud Service zou willen deelnemen, voltooi [ deze vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4WOxhjY2doZPikS2hIbfmL5URFZXTE5TUk9PMUw0OFdOWTBNNlI3UTlNMS4u&amp;route=shorturl).
+![ info ](assets/Smock_InfoOutline_18_N.svg) als u aan het [!DNL Adobe Commerce as a Cloud Service] vroege toegangsprogramma zou willen deelnemen, voltooi [ deze vorm ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4WOxhjY2doZPikS2hIbfmL5URFZXTE5TUk9PMUw0OFdOWTBNNlI3UTlNMS4u&amp;route=shorturl).
 
 >[!ENDSHADEBOX]
 
 ## Architectuur
 
-Bekijk de volgende video voor een korte inleiding op de Adobe Commerce as a Cloud Service architectuur. Diagrammen die de architectuur illustreren worden verstrekt onder de video.
+Bekijk de volgende video voor een korte inleiding op de [!DNL Adobe Commerce as a Cloud Service] -architectuur. Diagrammen die de architectuur illustreren worden verstrekt onder de video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
 
-Dit diagram illustreert de gegevensstroom tussen Adobe Commerce as a Cloud Service en alle oplossingen van Adobe Experience Cloud.
+Dit diagram illustreert de gegevensstroom tussen [!DNL Adobe Commerce as a Cloud Service] en alle oplossingen van Adobe Experience Cloud.
 
-![ Adobe Commerce as a Cloud Service architectuurdiagram ](./assets/data-flow.svg){zoomable="yes"}
+![[!DNL Adobe Commerce as a Cloud Service] architectuurdiagram ](./assets/data-flow.svg){zoomable="yes"}
 
 ## Commerce Storefront
 
@@ -43,7 +45,7 @@ Commerce Storefront heeft een volledig ontkoppelde architectuur die alle Merchan
 
 >[!NOTE]
 >
->Adobe Commerce as a Cloud Service ondersteunt geen Luma storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts) voor begeleiding bij het overgaan.
+>[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts) voor begeleiding bij het overgaan.
 
 ## Handelsbemiddeling en betalingsdiensten
 
@@ -101,7 +103,7 @@ Zie [ Begonnen worden ](getting-started.md) om te leren hoe te om de instanties 
 
 Toegang tot de nieuwste functies en verbeteringen zonder dat u handmatig hoeft te upgraden. Door de voortdurende levering van nieuwe functies en updates is het niet nodig om handmatig te patchen, zodat u altijd toegang hebt tot de nieuwste mogelijkheden tegen lage totale eigendomskosten.
 
-Bij het gebruikelijke upgradeproces voor Adobe Commerce op Cloud ging het om het maken van back-ups, het klonen van instanties, het uitvoeren van compatibiliteitsgereedschappen en het oplossen van codeconflicten. Dat is niet meer nodig met Adobe Commerce als cloudservice. Adobe stuurt u meldingen in de app wanneer nieuwe functies en beveiligingsupdates zijn uitgebracht. U hebt een periode van 30 dagen om de nieuwe mogelijkheden in uw zandbakinstanties te evalueren alvorens de updates automatisch op uw productiemilieu&#39;s worden toegepast.
+Bij het gebruikelijke upgradeproces voor Adobe Commerce op Cloud ging het om het maken van back-ups, het klonen van instanties, het uitvoeren van compatibiliteitsgereedschappen en het oplossen van codeconflicten. Dat is niet meer nodig met [!DNL Adobe Commerce as a Cloud Service] . Adobe stuurt u meldingen in de app wanneer nieuwe functies en beveiligingsupdates zijn uitgebracht. U hebt een periode van 30 dagen om de nieuwe mogelijkheden in uw zandbakinstanties te evalueren alvorens de updates automatisch op uw productiemilieu&#39;s worden toegepast.
 
 >[!NOTE]
 >
@@ -113,13 +115,13 @@ De ontwikkelaars kunnen uitvoerige [ GraphQL en REST APIs ](https://developer.ad
 
 ## Experience Cloud-integratie
 
-Adobe Commerce as a Cloud Service integreert met alle oplossingen van Experience Cloud om [ gepersonaliseerde handelservaringen op schaal ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu) te leveren.
+[!DNL Adobe Commerce as a Cloud Service] integreert met alle oplossingen van Experience Cloud om [ gepersonaliseerde handelservaringen bij schaal ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu) te leveren.
 
 [ Verbinding van Gegevens ](../data-connection/overview.md) ontgrendelt inzichten over het kopen van uw klanten gedrag zodat u gepersonaliseerde het winkelen ervaringen over alle kanalen met andere producten van de Ervaring van Adobe Digital kunt tot stand brengen.
 
 ## Voordelen
 
-In de volgende secties vindt u informatie over de voordelen die Adobe Commerce as a Cloud Service biedt voor bedrijven en IT-leiders.
+In de volgende secties vindt u informatie over de voordelen die [!DNL Adobe Commerce as a Cloud Service] biedt voor bedrijven en IT-managers.
 
 ### Zakelijke leiders
 
@@ -137,7 +139,7 @@ In de volgende secties vindt u informatie over de voordelen die Adobe Commerce a
 
 ## Nieuwe functieoplossingen
 
-[ Admin UI ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. Adobe Commerce as a Cloud Service biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen. In de volgende tabel worden de functies en vervangende oplossingen beschreven die beschikbaar zijn in Adobe Commerce as a Cloud Service:
+[ Admin UI ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen. In de volgende tabel worden de functies en vervangende oplossingen beschreven die beschikbaar zijn in [!DNL Adobe Commerce as a Cloud Service] :
 
 | Functie | Oplossing | Beschikbaarheid | Details |
 |---------|----------|--------------|--------|

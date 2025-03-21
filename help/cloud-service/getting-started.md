@@ -1,18 +1,20 @@
 ---
-title: Aan de slag met Adobe Commerce as a Cloud Service
-description: Leer hoe je aan de slag kunt met Adobe Commerce as a Cloud Service.
+title: Aan de slag met  [!DNL Adobe Commerce as a Cloud Service]
+description: Leer hoe te beginnen met  [!DNL Adobe Commerce as a Cloud Service].
 role: Admin, Developer, User
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
-
 # Aan de slag
 
-Adobe Commerce as a Cloud Service biedt de meeste configuratie uit de verpakking. Nadat u een aantal basisinstallatieprocessen hebt voltooid, wordt uw winkel zo snel mogelijk in bedrijf gesteld. Deze gids begeleidt u door het creëren van en het werken met een instantie.
+{{accs-early-access}}
+
+[!DNL Adobe Commerce as a Cloud Service] biedt de meeste configuratie uit het vak. Nadat u een aantal basisinstallatieprocessen hebt voltooid, wordt uw winkel zo snel mogelijk in bedrijf gesteld. Deze gids begeleidt u door het creëren van en het werken met een instantie.
 
 Klik op de onderstaande tabbladen om workflowoverzichten op hoog niveau weer te geven voor de volgende gebruikerstypen:
 
@@ -24,27 +26,27 @@ Klik op de onderstaande tabbladen om workflowoverzichten op hoog niveau weer te 
 
 >[!TAB  Beheerder en handelaarwerkschema ]
 
-Dit diagram biedt een overzicht op hoog niveau van de manier waarop beheerders en verkopers toegang hebben tot Adobe Commerce as a Cloud Service-instanties en deze beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
+Dit diagram biedt een overzicht op hoog niveau van de manier waarop beheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
 
-![ as a Cloud Service van Adobe Commerce handelaardediagram ](./assets/merchant-flow.svg){zoomable="yes"}
+![[!DNL Adobe Commerce as a Cloud Service] merchant flow diagram ](./assets/merchant-flow.svg){zoomable="yes"}
 
 >[!TAB  werkschema van de Ontwikkelaar ]
 
-Dit diagram biedt een overzicht op hoog niveau van de manier waarop ontwikkelaars integratie voor Adobe Commerce as a Cloud Service maken met App Builder. Zie de [ API documentatie ](https://developer.adobe.com/commerce/services/cloud/) voor meer informatie.
+Dit diagram biedt een overzicht op hoog niveau van de manier waarop ontwikkelaars integratie maken voor het gebruik van App Builder in [!DNL Adobe Commerce as a Cloud Service] . Zie de [ API documentatie ](https://developer.adobe.com/commerce/services/cloud/) voor meer informatie.
 
-![ Adobe Commerce as a Cloud Service het diagram van de ontwikkelaarstroom ](./assets/developer-flow.svg){zoomable="yes"}
+![[!DNL Adobe Commerce as a Cloud Service] Stroomdiagram voor ontwikkelaars ](./assets/developer-flow.svg){zoomable="yes"}
 
 >[!ENDTABS]
 
 ## Een instantie maken
 
-Adobe Commerce as a Cloud Service-instanties gebruiken een op krediet gebaseerd systeem. U kunt meerdere instanties maken, maar voor elke instantie is een relatieve hoeveelheid credits vereist. Het bedrag aan kredieten dat u aanvankelijk hebt, is afhankelijk van uw abonnement.
+[!DNL Adobe Commerce as a Cloud Service] -instanties gebruiken een op krediet gebaseerd systeem. U kunt meerdere instanties maken, maar voor elke instantie is een relatieve hoeveelheid credits vereist. Het bedrag aan kredieten dat u aanvankelijk hebt, is afhankelijk van uw abonnement.
 
 1. Login aan uw [ Adobe Experience Cloud ](https://experience-stage.adobe.com/) rekening.
 
 1. Onder [!UICONTROL Quick access], klik [!UICONTROL **Commerce**] om [!UICONTROL Commerce Cloud Manager] te openen.
 
-   In [!UICONTROL Commerce Cloud Manager] wordt een lijst weergegeven met Adobe Commerce as a Cloud Service-instanties die beschikbaar zijn in uw Adobe IMS-organisatie.
+   In [!UICONTROL Commerce Cloud Manager] wordt een lijst weergegeven met [!DNL Adobe Commerce as a Cloud Service] -instanties die beschikbaar zijn in uw Adobe IMS-organisatie.
 
 1. Klik [!UICONTROL **toevoegen Instantie**] in de hoger-juiste hoek van het scherm.
 
@@ -62,7 +64,7 @@ Adobe Commerce as a Cloud Service-instanties gebruiken een op krediet gebaseerd 
 
 1. Kies het [!UICONTROL **Type van Milieu**] voor uw instantie. U kunt kiezen uit de volgende opties:
 
-   * [!UICONTROL **Sandbox**] - Ideaal voor ontwerp en testende doeleinden. Je moet je Adobe Commerce as a Cloud Service reis beginnen met de sandbox omgeving.
+   * [!UICONTROL **Sandbox**] - Ideaal voor ontwerp en testende doeleinden. U moet de [!DNL Adobe Commerce as a Cloud Service] -reis beginnen met de sandboxomgeving.
    * [!UICONTROL **Productie**] - voor levende opslag en klant-onder ogen ziet plaatsen.
 
    >[!NOTE]
@@ -93,9 +95,9 @@ Nadat u een instantie hebt gemaakt, kunt u deze openen vanuit de map [!UICONTROL
 
 ## Uw catalogus importeren
 
-Standaard bevatten Adobe Commerce as a Cloud Service-instanties geen productgegevens. U kunt voorbeeldproductgegevens opnemen wanneer u een exemplaar maakt voor test- en leerdoeleinden voordat u uw eigen catalogus importeert.
+Standaard bevatten [!DNL Adobe Commerce as a Cloud Service] -instanties geen productgegevens. U kunt voorbeeldproductgegevens opnemen wanneer u een exemplaar maakt voor test- en leerdoeleinden voordat u uw eigen catalogus importeert.
 
-U kunt uw catalogus op twee manieren importeren in Adobe Commerce as a Cloud Service:
+U kunt uw catalogus op twee manieren importeren in [!DNL Adobe Commerce as a Cloud Service] :
 
 * [**Admin van Commerce** ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
 * [**de Invoer JSON API** ](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - VERTONEN API die u toestaat om uw catalogusgegevens programmatically in te voeren.

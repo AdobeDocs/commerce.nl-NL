@@ -1,16 +1,18 @@
 ---
 title: Winefront instellen
-description: Leer hoe u het steigereedschap kunt uitvoeren om uw Adobe Commerce as a Cloud Service-winkel in te stellen.
+description: Leer hoe te om het steigereedschap in werking te stellen om uw  [!DNL Adobe Commerce as a Cloud Service]  storefront te opstelling.
 role: Developer
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-
 # Winefront instellen
+
+{{accs-early-access}}
 
 In de volgende stappen wordt getoond hoe u snel een Adobe Commerce Storefront kunt instellen die wordt aangedreven door Edge Delivery met de opdracht `aio commerce init` . Met dit proces wordt het volgende ingesteld:
 

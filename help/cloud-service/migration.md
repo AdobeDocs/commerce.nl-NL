@@ -1,33 +1,35 @@
 ---
-title: Migreren naar Adobe Commerce as a Cloud Service
-description: Leer hoe u naar Adobe Commerce as a Cloud Service kunt migreren.
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+title: Migreren naar  [!DNL Adobe Commerce as a Cloud Service]
+description: Leer hoe te aan  [!DNL Adobe Commerce as a Cloud Service] migreren.
+exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
 
+# Migreren naar [!DNL Adobe Commerce as a Cloud Service]
 
-# Migreren naar Adobe Commerce as a Cloud Service
+{{accs-early-access}}
 
-Adobe Commerce as a Cloud Service biedt de meeste configuratie uit de verpakking. Als u echter migreert vanaf een bestaande Adobe Commerce op Cloud of op locatie, moet u verschillende migratiehandelingen uitvoeren, afhankelijk van uw specifieke configuratie.
+[!DNL Adobe Commerce as a Cloud Service] biedt de meeste configuratie uit het vak. Als u echter migreert vanaf een bestaande Adobe Commerce op Cloud of op locatie, moet u verschillende migratiehandelingen uitvoeren, afhankelijk van uw specifieke configuratie.
 
 ## Migratiepaden
 
-Adobe Commerce as a Cloud Service ondersteunt meerdere migratiepaden, afhankelijk van uw tijdlijn, opslagront en aanpassingen.
+[!DNL Adobe Commerce as a Cloud Service] ondersteunt meerdere migratiepaden, afhankelijk van uw tijdlijn, voorgrond en aanpassingen.
 
-Als alternatief voor een volledige migratie ondersteunt Adobe Commerce as a Cloud Service een gefaseerde migratie, waarbij Commerce Optimizer of een incrementele aanpak wordt gebruikt.
+Als alternatief voor een volledige migratie biedt [!DNL Adobe Commerce as a Cloud Service] ondersteuning voor een gefaseerde migratie, waarbij gebruik wordt gemaakt van Commerce Optimizer of een incrementele aanpak.
 
-* **Incrementele Migratie** - Deze benadering impliceert het migreren van uw gegevens, aanpassingen, en integratie in stadia. Deze benadering is ideaal voor grote handelaren met veel aanpassingen die hun complexe aanpassingen en gegevens geleidelijk in hun eigen tempo naar Adobe Commerce as a Cloud Service willen overbrengen.
+* **Incrementele Migratie** - Deze benadering impliceert het migreren van uw gegevens, aanpassingen, en integratie in stadia. Deze benadering is ideaal voor grote handelaren met veel aanpassingen die hun complexe aanpassingen en gegevens geleidelijk in hun eigen tempo naar [!DNL Adobe Commerce as a Cloud Service] willen overbrengen.
 
 ![ stijgende migratie ](./assets/incremental.png){width="600" zoomable="yes"}
 
-* **Commerce Optimizer** - Deze benadering staat u toe om zich herhalend te migreren, door Commerce Optimizer als overgangsfase te gebruiken om complexe aanpassingen en gegevens aan Adobe Commerce as a Cloud Service bij uw eigen tempo te bewegen. Commerce Optimizer biedt toegang tot Merchandising Services via Catalog Channels and Policies, Commerce Storefront van Edge Delivery en Product Visuals van AEM Assets.
+* **Commerce Optimizer** - Deze benadering staat u toe om zich herhalend te migreren, door Commerce Optimizer als overgangsfase te gebruiken om complexe aanpassingen en gegevens aan [!DNL Adobe Commerce as a Cloud Service] bij uw eigen tempo te bewegen. Commerce Optimizer biedt toegang tot Merchandising Services via Catalog Channels and Policies, Commerce Storefront van Edge Delivery en Product Visuals van AEM Assets.
 
 ![ iteratieve migratie ](./assets/optimizer.png){width="600" zoomable="yes"}
 
-* **Volledige Migratie** - Deze benadering impliceert het migreren van alle gegevens, aanpassingen, en integratie in één keer. Deze benadering is ideaal voor kleinere handelaren met weinig aanpassingen die snel naar Adobe Commerce as a Cloud Service willen overstappen.
+* **Volledige Migratie** - Deze benadering impliceert het migreren van alle gegevens, aanpassingen, en integratie in één keer. Deze benadering is ideaal voor kleinere handelaren met weinig aanpassingen die snel willen overschakelen op [!DNL Adobe Commerce as a Cloud Service] .
 
 In de volgende tabel vindt u een overzicht van het migratieproces voor verschillende winkeliers en configuraties:
 
@@ -43,17 +45,17 @@ In de volgende tabel vindt u een overzicht van het migratieproces voor verschill
 
 Zoals aangegeven in de tabel, bestaan de verzachtende omstandigheden voor elke migratie uit:
 
-* **de Migratie van Gegevens** - Gebruikend verstrekt migratiehulpmiddel om gegevens van uw bestaande instantie aan Adobe Commerce as a Cloud Service te migreren.
+* **Migratie van Gegevens** - Gebruikend verstrekt migratiehulpmiddel om gegevens van uw bestaande instantie aan [!DNL Adobe Commerce as a Cloud Service] te migreren.
 * **Storefront** - Bestaande EDS en hoofdloze storefronts vereisen geen matiging, maar de opslag LUMA vereist migrerend aan de Opslag van Commerce aangedreven door Edge Delivery. PWA Studio-winkeliers kunnen worden gemigreerd naar Commerce Storefront, aangedreven door Edge Delivery, of in hun huidige staat worden onderhouden. Adobe zal versnellers leveren om hulp te bieden bij het migreren van winkeliers.
 * **[API Net ](https://developer.adobe.com/graphql-mesh-gateway)** - creeer een nieuw net of wijzig bestaande. Adobe zal vooraf geconfigureerde netten beschikbaar stellen als hulp bij dit proces.
-* **Integraties** - Alle integraties moeten hefboomwerking of de [ integratiestartkit ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) of [ Adobe Commerce as a Cloud Service REST API ](https://developer.adobe.com/commerce/services/reference/cloud-service/core-admin/).
+* **Integraties** - Alle integraties moeten hefboomwerking of de [ de startuitrusting van de integratieaanzet ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) of [[!DNL Adobe Commerce as a Cloud Service]  REST API ](https://developer.adobe.com/commerce/services/reference/cloud-service/core-admin/).
 * **Aanpassingen** - Alle aanpassingen moeten zich aan het Net van App Builder en API bewegen.
 * **het Beheer van Assets** - Al activa beheer vereist migratie. Als u AEM Assets al gebruikt, is migratie niet nodig.
-* **Uitbreidingen** - om het even welke in-proces uitbreidingen moeten als uit-van-procesuitbreidingen worden opnieuw gemaakt. Eind 2025 zal Adobe 100 van onze populairste extensies vooraf laden en gebruiksklaar maken om de buildtijden te minimaliseren.
+* **Uitbreidingen** - om het even welke in-proces uitbreidingen moeten als uit-van-procesuitbreidingen worden opnieuw gemaakt. Eind 2025 biedt Adobe toegang tot onze populairste extensies om de ontwikkeltijden te minimaliseren.
 
 ## Migratiefasen
 
-Bij het migreren van uw huidige Adobe Commerce-exemplaar naar een nieuw Adobe Commerce as a Cloud Service-exemplaar gaat het vooral om de volgende fasen:
+Bij het migreren van uw huidige Adobe Commerce-instantie naar een nieuwe [!DNL Adobe Commerce as a Cloud Service] -instantie gaat het vooral om de volgende fasen:
 
 * **[Bereidheid](#readiness-phase)** - begin door te bepalen als uw plaatsing klaar is om aan ACCS te worden bewogen. In deze fase moet u zich ook vertrouwd maken met de wijzigingen die ACCS heeft aangebracht. &#x200B;
 * **[Implementatie](#implementation-phase)** - daarna, klaar uw code, opslag, uitbreidingen, en integratie voor migratie. Om de overgang te verlichten, staat Adobe voor zowel [ korte termijn als lange termijn iteratieve benaderingen ](#migration-paths) toe. &#x200B;
@@ -62,7 +64,7 @@ Bij het migreren van uw huidige Adobe Commerce-exemplaar naar een nieuw Adobe Co
 
 ### Gereedheidsfase
 
-1. Begin met het evalueren van de Adobe Commerce as a Cloud Service-architectuur, het uitbreidbaarheidskader en de opslagmogelijkheden:
+1. Begin met het evalueren van de architectuur, het uitbreidbaarheidsframework en de opslagmogelijkheden van [!DNL Adobe Commerce as a Cloud Service] :
 
    * [ Adobe Commerce op de Architectuur van de Diensten van de Wolk ](./overview.md) - herzie de platformarchitectuur en hoe het van uw huidige instantie van Adobe Commerce verschilt.
    * [ het Kader van de Rekbaarheid van Adobe Commerce ](https://developer.adobe.com/commerce/extensibility/) - identificeer hoe u uw huidige aanpassingen wilt overgaan.
@@ -76,15 +78,15 @@ Bij het migreren van uw huidige Adobe Commerce-exemplaar naar een nieuw Adobe Co
 
 1. Bevestig uw winkelvereisten en zorg ervoor dat deze zijn afgestemd op de Adobe Edge-leveringsmogelijkheden.
 
-1. Controleer de huidige integratie van derden en bevestig de API-compatibiliteit met het Adobe Commerce as a Cloud Service-platform.
+1. Controleer de huidige integratie van derden en bevestig de API-compatibiliteit met het [!DNL Adobe Commerce as a Cloud Service] -platform.
 
 ### Implementatiefase
 
 In de volgende stappen wordt het ontwikkelings- en uitvoeringsproces van de migratie beschreven:
 
-1. Creeer een nieuwe instantie van Adobe Commerce as a Cloud Service in de [ Manager van Commerce Cloud ](./getting-started.md#create-an-instance).
+1. Creeer een nieuwe [!DNL Adobe Commerce as a Cloud Service] instantie in de [ Manager van Commerce Cloud ](./getting-started.md#create-an-instance).
 
-1. Installeer de vereiste apps en aanpassingen. Adobe Commerce as a Cloud Service wordt vooraf geladen met 100 van de populairste apps. Als u aanvullende apps of aanpassingen nodig hebt, kunt u deze opnieuw implementeren met App Builder.
+1. Installeer de vereiste apps en aanpassingen. [!DNL Adobe Commerce as a Cloud Service] heeft toegang tot onze populairste apps. Als u aanvullende apps of aanpassingen nodig hebt, kunt u deze opnieuw implementeren met App Builder.
 
 1. Stel een van de volgende op GraphQL gebaseerde winkeliers in:
 
@@ -100,7 +102,7 @@ In de volgende stappen wordt het ontwikkelings- en uitvoeringsproces van de migr
 
 ### GoLive-fase
 
-Voordat u uw nieuwe Adobe Commerce as a Cloud Service-exemplaar start, valideert en test:
+Voordat u de nieuwe [!DNL Adobe Commerce as a Cloud Service] -instantie start, valideert en test met een sandboxomgeving:
 
 * **Functioneel het Testen** - verzeker gemigreerde gegevens, storefront functionaliteit, en het aanpassingswerk foutloos.
 
@@ -108,11 +110,13 @@ Voordat u uw nieuwe Adobe Commerce as a Cloud Service-exemplaar start, valideert
 
 * **Controle van de Veiligheid** - herzie veiligheidsmaatregelen, met inbegrip van API toegangscontrole en om het even welke potentiële kwetsbaarheid.
 
+Nadat u de nieuwe sandbox-instantie [!DNL Adobe Commerce as a Cloud Service] hebt gevalideerd en getest, kunt u de productie-instantie starten.
+
 ### Post Go Live-fase
 
-Nadat u de nieuwe Adobe Commerce as a Cloud Service-sandbox-instantie hebt gevalideerd en getest, kunt u de productie-instantie starten:
+Voer na Go Live de volgende activiteiten uit:
 
-1. Live gaan
+1. Live follow-up
 
    * Richt verkeer aan het nieuwe platform en monitorprestaties opnieuw.
    * Schakel uw oude Adobe Commerce-exemplaar uit.

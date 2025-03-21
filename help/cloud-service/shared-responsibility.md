@@ -1,18 +1,20 @@
 ---
 title: Gedeelde verantwoordelijkheid
-description: Leer meer over de beveiligingsverantwoordelijkheden van elke partij die betrokken is bij uw Adobe Commerce as a Cloud Service-project.
+description: Leer over de veiligheidstaken van elke partij betrokken bij uw  [!DNL Adobe Commerce as a Cloud Service]  project.
 role: Admin, Architect, Leader
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+exl-id: 424fe5cd-5d54-425d-97ce-024476d18dde
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-
 # Beveiliging en operationeel model van gedeelde verantwoordelijkheid
 
-Adobe Commerce as a Cloud Service is een service op aanvraag die afhankelijk is van een beveiliging en operationeel model met gedeelde verantwoordelijkheid. Deze verantwoordelijkheden worden gedeeld tussen Adobe en klanten. Elke partij draagt een duidelijke verantwoordelijkheid voor de beveiliging en de werking van de Adobe Commerce-toepassing.
+{{accs-early-access}}
+
+[!DNL Adobe Commerce as a Cloud Service] is een service op aanvraag die afhankelijk is van een beveiligingsmodel en een operationeel model voor gedeelde verantwoordelijkheid. Deze verantwoordelijkheden worden gedeeld tussen Adobe en klanten. Elke partij draagt een duidelijke verantwoordelijkheid voor de beveiliging en de werking van de Adobe Commerce-toepassing.
 
 >[!BEGINSHADEBOX]
 
@@ -33,8 +35,8 @@ In de volgende overzichtstabellen wordt het RACI-model gebruikt om de beveiligin
 | WAF-regels voor backend CDN definiëren | RA | |
 | WAF-regels voor back-endplatforms implementeren | RA | |
 | WAF-regels voor back-end implementeren | RA | |
-| Problemen met kernfouten in Adobe Commerce as a Cloud Service verhelpen | RA | I |
-| Adobe Commerce as a Cloud Service-infrastructuurpatches vrijgeven | RA | |
+| Kernfouten corrigeren in [!DNL Adobe Commerce as a Cloud Service] | RA | I |
+| [!DNL Adobe Commerce as a Cloud Service] infrastructuurafbeeldingen vrijgeven | RA | |
 | Schalen (infrastructuur) | RA | |
 | Schalen (kerntoepassing) | RA | |
 | Externe toepassingen integreren | | RA |

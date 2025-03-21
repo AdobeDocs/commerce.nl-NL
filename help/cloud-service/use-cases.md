@@ -1,18 +1,20 @@
 ---
 title: Gebruik hoofdletters
-description: Leer hoe u praktijkgevallen en ondersteunde bedrijfsscenario's kunt uitvoeren met Adobe Commerce as a Cloud Service.
+description: Leer hoe te om praktische gebruiksgevallen en gesteunde bedrijfsscenario's met  [!DNL Adobe Commerce as a Cloud Service] te verwezenlijken.
 role: User, Leader
-source-git-commit: 19c49b2b9d630898353addd778e062d3208505c1
+exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
+source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
 
-
 # Gebruik hoofdletters
 
-De volgende gebruiksgevallen tonen de kernfunctionaliteit en bedrijfsscenario&#39;s aan die door Adobe Commerce as a Cloud Service worden ondersteund, zodat u de ontwikkeling kunt versnellen en ervaringen met een hoog effect kunt starten.
+{{accs-early-access}}
+
+De volgende gebruiksgevallen tonen de kernfunctionaliteit en bedrijfsscenario&#39;s aan die door [!DNL Adobe Commerce as a Cloud Service] worden ondersteund, zodat u de ontwikkeling kunt versnellen en ervaringen met een hoog effect kunt starten.
 
 Als u om het even welke kwesties ontmoet, controleer de [ sectie van het Oplossen van problemen ](#troubleshooting) voor begeleiding.
 

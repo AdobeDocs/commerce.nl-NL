@@ -3,9 +3,9 @@ title: Gegevens synchroniseren met SaaS-gegevensexport
 description: Leer hoe  [!DNL SaaS Data Export]  gegevens tussen de instanties van Adobe Commerce en de verbonden diensten verzamelt en synchroniseert SaaS.
 role: Admin, Developer
 exl-id: 2ca7c92a-fb52-4055-ae16-11e99b38d161
-source-git-commit: 55c433f36b122813e8fc9136a7efbb869246b7f5
+source-git-commit: 291babe5dbdabb7d626ae744335b94e44ba6a6f5
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ De belangrijkste onderdelen van de SaaS-gegevensexportstroom zijn:
 - SaaS-gegevensexportmodules die de gegevens voor feeds uit Adobe Commerce verzamelen, items in feed samenstellen, luisteren naar updates en de status van feed behouden.
 - De de uitvoermodules van SaaS die gegevens uitvoeren, het verpletteren vormen, en het voer aan de verbonden diensten publiceren.
 - De Adobe Commerce Service beheert het gegevensinvoerproces om binnenkomende feeds te valideren en updates van verbonden services te behouden.
+
+>[ NOTA!]
+>
+>Adobe raadt aan het gegevensvolume en de synchronisatietijd te schatten voordat u een synchronisatie van de gegevensfeed start, zodat de planning soepel verloopt en verstoringen van de sitebewerkingen worden voorkomen. Deze schatting is belangrijk bij de planning voor initiële syncs of grootschalige catalogusupdates, zoals wijzigingen in de massaprijs. Voor details, zie [ het gegevensvolume en transmissietijd voor gegevenssynchronisatie ](estimate-data-volume-sync-time.md) schatten
 
 ## Synchronisatiemodi
 

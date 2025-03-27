@@ -3,9 +3,9 @@ title: Grenzen en grenzen
 description: Leer over de grenzen en de grenzen voor  [!DNL Live Search]  om ervoor te zorgen het aan de behoeften van uw zaken voldoet.
 role: Admin, Developer
 exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
-source-git-commit: 81bde302463a70e41318b494565694929703dff9
+source-git-commit: 449b281e46d16de56f4c3d2e01e7165c59ee78a2
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,12 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 - Het maximale aantal resultaten per pagina is 500.
 - Het is niet mogelijk om resultaten te filteren met behulp van een datumtype-kenmerk.
 
-## Regels
+## Zoeken in merchandising
 
 - Het maximumaantal onderzoek handelend [ regels ](rules.md) per archiefmening is 50.
-- Voor het verhandelen van categorieën kan één regel per categorie gelden.
 - Het maximumaantal voorwaarden per regel is 10.
 - Het maximumaantal gebeurtenissen per regel is 25.
+- Regels en handmatig gerangschikte producten worden toegepast op de zoekresultaten wanneer de standaardsorteervolgorde &quot;Sorteren op: meest relevant&quot; is geselecteerd. Als een winkelier de sorteervolgorde verandert in een sorteervolgorde op naam of prijs, zijn de regels en handmatige waarderingen niet meer van kracht.
 - Om onvoorspelbare resultaten in gepagineerde reacties te voorkomen, zou het aantal vastgezette producten niet de gevraagde paginagrootte moeten overschrijden.
 
 ## Synoniemen
@@ -68,9 +68,10 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 
 ## Categorie verhandelen
 
-- Voor elke winkelweergave kan één regel per categorie worden gemaakt. Elke regel kan het volgende hebben:
-   - Tot tien voorwaarden
-   - Tot 25 gebeurtenissen
+- U kunt één regel per categorie maken voor elke winkelweergave.
+- Het maximumaantal voorwaarden per regel is 10.
+- Het maximumaantal gebeurtenissen per regel is 25.
+- Regels worden toegepast wanneer een specifieke categorie op de winkel wordt geopend en er voor die categorie een regel bestaat. Voor de Regels van de Verkoop van de Categorie, is de standaardsoortorde &quot;Soort door: Positie&quot;. Als een winkelier de sorteervolgorde wijzigt, worden alle verborgen, vastgezette en begraven producten niet meer gesorteerd.
 
 ## B2B- en categoriemachtigingen
 

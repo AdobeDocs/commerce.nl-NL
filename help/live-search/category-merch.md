@@ -2,9 +2,10 @@
 title: Categorieverhandeling
 description: Het Verkopen van de Categorie van het gebruik  [!DNL Live Search]  voor een snellere het winkelen ervaring.
 gourl: ls_catalog_merchandising
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: b2645096-aafc-4d68-8adc-ab5410a9dfb6
+source-git-commit: e5e5443e0bdb12e4774856336157067b4ff6eb7c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -140,3 +141,7 @@ Een gebeurtenis handmatig toevoegen:
 1. Onder het Handmatig Rangschikken, klik **Uitgezocht een gebeurtenis** menu en kies een gebeurtenis om te plaatsvinden wanneer de bijbehorende voorwaarden worden voldaan aan.
 1. Voer de naam in van het product waarop u de bewerking wilt toepassen. Producten worden voorgesteld terwijl u typt.
 1. Voor meerdere gebeurtenissen kiest u andere gebeurtenissen die u wilt activeren als aan de voorwaarden is voldaan.
+
+>[!NOTE]
+>
+>Regels worden toegepast wanneer een specifieke categorie op de winkel wordt geopend en er voor die categorie een regel bestaat. Voor de Regels van de Verkoop van de Categorie, is de standaardsoortorde &quot;Soort door: Positie&quot;. Als een winkelier de sorteervolgorde wijzigt, worden alle verborgen, vastgezette en begraven producten niet meer gesorteerd.

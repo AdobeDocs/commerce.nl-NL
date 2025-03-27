@@ -1,9 +1,10 @@
 ---
 title: Regels toevoegen
 description: Leer hoe u regels voor het wijzigen van zoekopdrachten maakt.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 7175ccf7-d838-43b0-a176-957e7db040e0
+source-git-commit: 449b281e46d16de56f4c3d2e01e7165c59ee78a2
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1650'
 ht-degree: 0%
 
 ---
@@ -151,6 +152,10 @@ De informatie die hier is ingegaan verschijnt in het [ paneel van de Details van
    De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.*
 
 1. Hoewel de actieve regels onmiddellijk in werking treden, zou u tot 15 minuten kunnen moeten wachten op de caching vraagresultaten in de storefront om worden verfrist.
+
+>[!NOTE]
+>
+>Regels en handmatig gerangschikte producten worden toegepast op de zoekresultaten wanneer de standaardsorteervolgorde &quot;Sorteren op: meest relevant&quot; is geselecteerd. Als een winkelier de sorteervolgorde verandert in een sorteervolgorde op naam of prijs, zijn de regels en handmatige waarderingen niet meer van kracht.
 
 ## Veldomschrijvingen
 

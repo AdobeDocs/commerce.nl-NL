@@ -3,9 +3,9 @@ title: Winefront instellen
 description: Leer hoe te om het steigereedschap in werking te stellen om uw  [!DNL Adobe Commerce as a Cloud Service]  storefront te opstelling.
 role: Developer
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+source-git-commit: 7f7a674b856090bd02752a9e2ad29475b2b56fcf
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,11 @@ Als u de volgende opdracht uitvoert, wordt een basisstructuur voor uw Commerce-w
 
 1. Voer de naam in van de opslagplaats die u wilt maken.
 
-1. Selecteer de sjabloon die u wilt gebruiken, bijvoorbeeld `adobe-commerce/adobe-demo-store` .
-
 1. Selecteer een van de volgende opties:
 
-   * **Adobe van het Gebruik demo instantie (Standaard Eindpunten)** - de instantie van Commerce van het voorbeeld van Adobe gebruiken.
+   * **Gebruik de huurder van demo Adobe Commerce** - gebruik een demo huurder.
       * Als u deze optie selecteert, wordt u gevraagd om de AEM Code Sync beide in een browservenster te installeren. U moet de gegevensopslagruimte opgeven die u hebt gemaakt en de beide autoriseren. Ga terug naar de CLI en voer `y` in om de installatie van de AEM Code Sync bot te bevestigen.
-   * **kies beschikbare API (Net -> SaaS)** - selecteer een bestaand geval van Commerce in de geselecteerde organisatie.
+   * **kies een beschikbare huurder van Adobe Commerce** - selecteer een bestaande huurder van Commerce in de geselecteerde organisatie.
       * Als u deze optie selecteert, moet u het project en de werkruimte selecteren om een net binnen tot stand te brengen.
 
    >[!NOTE]

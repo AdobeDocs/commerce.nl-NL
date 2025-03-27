@@ -1,9 +1,10 @@
 ---
 title: '[!DNL Product Recommendations] Workspace'
 description: Leer hoe u de prestaties van productaanbevelingen kunt configureren, beheren en controleren.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: eaf1f0b2-9d9d-4069-8269-06f30166f788
+source-git-commit: 3d92f4afc3aef990f2e86e306f4c6c47324aed97
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -18,6 +19,19 @@ De werkruimte van [!DNL Product Recommendations] toont een lijst van eerder gevo
 
 ![ de werkruimte van Aanbevelingen ](assets/workspace.png)
 _Aanbevelingen Workspace_
+
+## Gegevensverzameling
+
+Om ervoor te zorgen dat elk functioneel gebied op de werkruimte de correcte gegevens bevat, moet u gegevensinzameling vormen die op de geselecteerde storefront implementatie wordt gebaseerd:
+
+1. Luma - Gegevensverzameling is offline beschikbaar.
+1. Headless - De inzameling van Gegevens moet manueel, afhankelijk van storefront implementatie worden gevormd.
+
+Als u een koploze winkel gebruikt, raadpleegt u de volgende documentatie voor meer informatie over de vereiste gebeurtenissen die u moet toevoegen:
+
+- [ Vereiste gebeurtenissen ](events.md) voor het dashboard van de Aanbevelingen van het Product.
+- [ de gebeurtenisinzamelaar van de Storefront ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/) die als voorwaarde moet worden toegevoegd.
+- [ Voorbeelden ](https://github.com/adobe/commerce-events/tree/main/examples) van de gebeurtenisstructuur.
 
 ## Bereik instellen
 

@@ -1,7 +1,8 @@
 ---
 title: Live zoeken instellen
 description: De  [!DNL Live Search]  werkruimte wordt gebruikt om, onderzoeksprestaties te vormen te beheren en te controleren.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 07c32b26-3fa4-4fae-afba-8a10866857c3
+source-git-commit: 3d92f4afc3aef990f2e86e306f4c6c47324aed97
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Als u een koploze winkel gebruikt, raadpleegt u de volgende documentatie voor me
 
 ### Gezondheidszorgklanten
 
-Als u een gezondheidszorgklant bent en u de [ uitbreiding van HIPAA van de Diensten van Gegevens ](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [ uitbreiding van de Verbinding van Gegevens ](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Live Search] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Live Search] . Zie [ algemene configuratie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general.html#data-services) om meer te leren.
+Als u een gezondheidszorgklant bent en u de [ uitbreiding van HIPAA van de Diensten van Gegevens ](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [ uitbreiding van de Verbinding van Gegevens ](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Live Search] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Live Search] . Zie [ algemene configuratie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services) om meer te leren.
 
 ## Bereik instellen
 

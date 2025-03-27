@@ -1,9 +1,10 @@
 ---
 title: Facetten
 description: '[!DNL Live Search] facetten gebruiken meerdere afmetingen van kenmerkwaarden als zoekcriteria.'
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: d036265e-1868-461d-ab4c-7f469b1c6f5b
+source-git-commit: 3d92f4afc3aef990f2e86e306f4c6c47324aed97
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -15,6 +16,8 @@ Faceting is een methode voor het filteren van hoge prestaties waarbij meerdere d
 [!DNL Live Search] gebruikt de query `productSearch` , die faceting en andere gegevens retourneert die specifiek zijn voor [!DNL Live Search] . Zie [`productSearch` query ](https://developer.adobe.com/commerce/services/graphql/live-search/product-search/) in de ontwikkelaarsdocumentatie voor codevoorbeelden.
 
 ![ Gefilterde onderzoeksresultaten ](assets/storefront-search-results-run.png)
+
+Binnen een facet kunnen kopers meerdere opties selecteren, zoals &quot;Standaard&quot; en &quot;Snug&quot; onder &quot;Stijl&quot; en in de zoekresultaten worden alleen die stijlen weergegeven. Op dezelfde manier geldt dat als een winkelier opties selecteert in verschillende facetten, zoals &quot;Standaard&quot; onder &quot;Stijl&quot; en &quot;Binnenshuis&quot; onder &quot;Klimaat&quot;, de zoekresultaten worden bijgewerkt om die geselecteerde stijl en dat geselecteerde klimaat weer te geven.
 
 Elke gedefinieerde facet kan worden gebruikt als een URL-parameter en de resultaten worden gefilterd op basis van de parameterwaarden: `http://yourstore.com?brand=acme&color=red` .
 
@@ -46,7 +49,7 @@ Als u een groot aantal kenmerken hebt om mee te werken, kunt u overwegen kenmerk
 Facetsamenvoeging wordt als volgt uitgevoerd: als de winkel drie facetten (categorieën, kleur en prijs) heeft en de winkelfilters op alle drie (kleur = blauw, de prijs is van $10.00-50.00, categorieën = `promotions`).
 
 * `categories` aggregatie - aggregeert `categories` en past vervolgens de filters `color` en `price` toe, maar niet het filter `categories` .
-* `color` samenvoeging - aggregeert `color` en past vervolgens de filters `price` en `categories` toe, maar niet het filter `color` .
+* `color` aggregatie - aggregeert `color` en past vervolgens de filters `price` en `categories` toe, maar niet het filter `color` .
 * `price` aggregatie - aggregeert `price` en past vervolgens de filters `color` en `categories` toe, maar niet het filter `price` .
 
 ## Standaardkenmerkwaarden

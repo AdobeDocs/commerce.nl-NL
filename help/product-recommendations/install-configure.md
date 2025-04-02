@@ -2,7 +2,8 @@
 title: Installeren en configureren
 description: Leer om te installeren, bij te werken, en te desinstalleren  [!DNL Product Recommendations].
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 2e7f6454-d4cb-44bc-982f-354a179e8e59
+source-git-commit: a3c20f64c9a18e97b6c0cbc36a246e5c30f67341
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -76,22 +77,22 @@ Net als in alle Adobe Commerce gebruikt [!DNL Product Recommendations] Composer 
 composer update magento/product-recommendations --with-dependencies
 ```
 
-Als u wilt bijwerken naar een hoofdversie, bijvoorbeeld van 3.0 tot 4.0, moet u het hoofdbestand `composer.json` voor uw project bewerken. (Zie de [ versienota&#39;s ](release-notes.md) voor informatie over de recentste versie.) Laten we bijvoorbeeld het hoofdbestand van `composer.json` openen en zoeken naar de module `magento/product-recommendations` :
+Als u wilt bijwerken naar een hoofdversie, bijvoorbeeld van 5.0 tot 6.0, moet u het hoofdbestand `composer.json` voor uw project bewerken. (Zie de [ versienota&#39;s ](release-notes.md) voor informatie over de recentste versie.) Laten we bijvoorbeeld het hoofdbestand van `composer.json` openen en zoeken naar de module `magento/product-recommendations` :
 
 ```json
 "require": {
     ...
-    "magento/product-recommendations": "^3.0",
+    "magento/product-recommendations": "^5.0",
     ...
 }
 ```
 
-Laten we de hoofdversie van `3.0` naar `4.0` verplaatsen:
+Laten we de hoofdversie van `5.0` naar `6.0` verplaatsen:
 
 ```json
 "require": {
     ...
-    "magento/product-recommendations": "^4.0",
+    "magento/product-recommendations": "^6.0",
     ...
 }
 ```

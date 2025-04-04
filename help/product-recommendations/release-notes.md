@@ -3,9 +3,9 @@ title: '[!DNL Product Recommendations] Opmerkingen bij de release'
 description: De recentste versieinformatie voor  [!DNL Product Recommendations]  van Adobe Commerce.
 feature: Services, Recommendations, Release Notes
 exl-id: 37404605-5b62-4c71-90d1-4f09e6105c4b
-source-git-commit: 615fa2967680c16ec123d41c20019f72cfeddc60
+source-git-commit: b45ba0ca7830589712a79ef9a1775c66abc5493c
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,16 @@ _25 April, 2023_
 
 ## Huidige hoofdversie
 
+### 6.2.0 van magento/productaanbevelingen
+
+_7 April, 2025_
+
+[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+
+![ Nieuw ](../assets/new.svg) werkte CDN URLs voor `recommendations-admin-ui` aan het `adobe.io` domein bij.
+
+### Vorige versies
+
 ### 6.1.0 van magento/productaanbevelingen
 
 _Maart 11, 2025_
@@ -57,8 +67,6 @@ _Maart 11, 2025_
 [!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde PHP 8.4 steun.
-
-### Vorige versies
 
 ### 6.0.3 van de aanbevelingen voor magento/product
 

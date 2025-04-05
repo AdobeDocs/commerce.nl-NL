@@ -3,7 +3,7 @@ title: Aan de slag met  [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce as a Cloud Service].
 role: Admin, Developer, User
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+source-git-commit: a1b825a819b25d9374eef169c633d54fb94ee26c
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Dit diagram biedt een overzicht op hoog niveau van de manier waarop ontwikkelaar
 
 [!DNL Adobe Commerce as a Cloud Service] -instanties gebruiken een op krediet gebaseerd systeem. U kunt meerdere instanties maken, maar voor elke instantie is een relatieve hoeveelheid credits vereist. Het bedrag aan kredieten dat u aanvankelijk hebt, is afhankelijk van uw abonnement.
 
-1. Login aan uw [ Adobe Experience Cloud ](https://experience-stage.adobe.com/) rekening.
+1. Login aan uw [ Adobe Experience Cloud ](https://experience.adobe.com/) rekening.
 
 1. Onder [!UICONTROL Quick access], klik [!UICONTROL **Commerce**] om [!UICONTROL Commerce Cloud Manager] te openen.
 

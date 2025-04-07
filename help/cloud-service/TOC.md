@@ -5,9 +5,9 @@ breadcrumb-title: Cloud Service Guide
 hide: true
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: 306f735e8fe713ba236096ba605b911b41ce405e
+source-git-commit: d7c5498826ad1ffffeda0f60f3b99488cbd4aa8f
 workflow-type: tm+mt
-source-wordcount: '22'
+source-wordcount: '24'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 4%
 
 - [Overzicht](overview.md)
 - [Aan de slag](getting-started.md)
+- [Gebruikersbeheer](user-management.md)
 - [Storefront](storefront.md)
 - [Beheer van bedrijfsmiddelen](assets-management.md)
 - [Gebruik hoofdletters](use-cases.md)

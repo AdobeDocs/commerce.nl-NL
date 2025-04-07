@@ -4,9 +4,9 @@ description: Leer over de belangrijkste eigenschappen en de voordelen van  [!DNL
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+source-git-commit: 25a0d658776ea95fcae07f6390abeeb559642613
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Belangrijkste kenmerken zijn:
 
 ### Vereenvoudigd aan boord
 
-Start sandbox- en productieinstanties binnen enkele minuten met de Commerce Cloud Manager-portal voor zelfvoorziening. Alles wat u nodig hebt, inclusief Merchandising Services, Commerce Storefront en App Builder, wordt automatisch geconfigureerd en geïntegreerd met uw instanties.
+Start sandbox- en productieinstanties binnen enkele minuten met de zelfbedieningsportal van [!UICONTROL Commerce Cloud Manager] . Alles wat u nodig hebt, inclusief Merchandising Services, een Commerce-instantie zonder kop en App Builder, wordt automatisch geconfigureerd en geïntegreerd met uw instanties.
 
 Zie [ Begonnen worden ](getting-started.md) om te leren hoe te om de instanties van Commerce tot stand te brengen en te beheren.
 

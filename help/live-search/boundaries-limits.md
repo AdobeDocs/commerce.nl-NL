@@ -3,9 +3,9 @@ title: Grenzen en grenzen
 description: Leer over de grenzen en de grenzen voor  [!DNL Live Search]  om ervoor te zorgen het aan de behoeften van uw zaken voldoet.
 role: Admin, Developer
 exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
-source-git-commit: 449b281e46d16de56f4c3d2e01e7165c59ee78a2
+source-git-commit: 7dd7ebfae07351f32e781c61b3019b75b421287f
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 
 - Producten worden niet weergegeven als deze niet worden toegevoegd aan een standaard gedeelde catalogus.
 - Om klantengroepen te beperken die [ categorietoestemmingen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) gebruiken:
-   - De producten moeten aan de wortelcategorie worden toegewezen.
+   - De producten moeten aan de wortelcategorie worden toegewezen. (**Nota:** u kunt deze beperking verwijderen door de uitbreiding van de Uitvoer van Gegevens SaaS aan versie 103.4.0+ bij te werken. Zie [ de uitbreiding van de gegevensuitvoer beheren ](../data-export/manage-extension.md).
    - Aan de klantengroep &quot;Niet aangemeld&quot; moeten de machtigingen &quot;Toestaan&quot; worden toegekend.
    - Om producten tot de &quot;niet Gelogde&quot;klantengroep te beperken, ga naar elke categorie en plaats toestemming voor elke [ klantengroep ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage).
 - Ondersteuning van de buitenverpakking voor B2B met de PLP-widget op PWA Studio wordt momenteel niet ondersteund. Nochtans, kunt u [ gebruiken API ](install.md#pwa-support) om deze functionaliteit uit te voeren.

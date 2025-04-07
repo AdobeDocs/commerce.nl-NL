@@ -2,7 +2,8 @@
 title: Aan de slag met  [!DNL Live Search]
 description: Leer de systeemvereisten en installatiestappen voor  [!DNL Live Search]  van Adobe Commerce.
 role: Admin, Developer
-source-git-commit: 039f04814c4e0b0c31f160446c67b2689f687818
+exl-id: 45b985f1-9afb-4a07-93e8-f2fe231c5400
+source-git-commit: 8ebb28641e8db3b88d8f9d818da6301558ed186b
 workflow-type: tm+mt
 source-wordcount: '3122'
 ht-degree: 0%
@@ -470,7 +471,7 @@ Nadat Live zoeken is ingeschakeld, worden met de extensie Gegevens exporteren Co
 
 ### Inventory management
 
-[!DNL Live Search] steunt [ Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u ](install.md#update) de gebiedsdeelmodule `commerce-data-export` aan versie 102.2.0+ bijwerken.[
+[!DNL Live Search] steunt [ Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u ](install.md#updating-live-search) de gebiedsdeelmodule `commerce-data-export` aan versie 102.2.0+ bijwerken.[
 
 [!DNL Live Search] retourneert een Booleaanse waarde die aangeeft of een product beschikbaar is in Inventory management, maar die geen informatie bevat over de bron die de voorraad heeft.
 

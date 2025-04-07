@@ -3,9 +3,9 @@ title: '[!DNL Live Search] Opmerkingen bij de release'
 description: De recentste versieinformatie voor  [!DNL Live Search]  van Adobe Commerce.
 feature: Services, Search, Release Notes
 exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
-source-git-commit: eb016fa8e53cfb9d035d73979495171feccb764f
+source-git-commit: 7dd7ebfae07351f32e781c61b3019b75b421287f
 workflow-type: tm+mt
-source-wordcount: '2186'
+source-wordcount: '2229'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Updates zijn:
 ## Gehoste service-updates
 
 Deze nota&#39;s beschrijven updates die buiten een versioned versie of verbeteringen aan de ontvangen dienst werden gepubliceerd.
+
+_3 April, 2025_
+
+![ Repareren ](../assets/fix.svg) werkte de uitbreiding van de Uitvoer van Gegevens SaaS bij om de &quot;Producten te verwijderen moet aan de wortelcategorie&quot;worden toegewezen [ beperking ](boundaries-limits.md#b2b-and-category-permissions) voor B2B verkopers. Zie [ de uitbreiding van de gegevensuitvoer ](../data-export/manage-extension.md) leiden om te leren hoe te om de uitbreiding van de Uitvoer van Gegevens SaaS aan versie 103.4.0+ bij te werken.
 
 _Februari 20, 2025_
 
@@ -358,7 +362,7 @@ Bestaande [!DNL Live Search] -installaties moeten worden bijgewerkt naar [!DNL L
 
 [!BADGE  Gesteund ]{type="Informatief" tooltip="Ondersteund"}
 
-![ Nieuwe ](../assets/new.svg) [ Prestaties ](performance.md) rapporterend dashboard verstrekt inzicht in onderzoekstermijnen die de kopers gebruiken.
+![ Nieuwe ](../assets/new.svg) [ Prestaties ](performance.md) rapporterend dashboard verstrekt insight in onderzoekstermijnen die de kopers gebruiken.
 ![ Nieuwe ](../assets/new.svg) [!DNL Live Search] [ Gebeurtenissen Storefront SDK ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/) verleent toegang tot een gemeenschappelijke gegevenslaag met gebeurtenis het publiceren en de abonnementsdiensten, en metriek.
 ![ Repareren ](../assets/fix.svg) [[!DNL Storefront popover]](storefront-popover.md) heeft een nieuwe `active` klasse voor de `.search-autocomplete` container die zicht controleert.
 ![ Repareren ](../assets/fix.svg) in de storefront, wordt de [ 3} voettekstverbinding van de Termen van het Onderzoek {verwijderd en zijn geheim voorgeheugen onbruikbaar gemaakt voor [!DNL Live Search] installaties.

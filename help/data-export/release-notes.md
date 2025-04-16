@@ -4,9 +4,9 @@ description: De recentste versieinformatie voor  [!DNL Data Export Extension]  v
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: 0d69fce1d6c2fab80065870fe8cdbe73969351cb
+source-git-commit: bb9300c621ceac618c51e4dd787527ac1e960dd8
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Updates zijn:
 >De de gegevensuitvoeruitbreiding van SaaS is een inzameling van modules die automatisch met Levend Onderzoek, de Aanbevelingen van het Product, en de Dienst van de Catalogus geïnstalleerd is. U kunt de versie controleren die op uw systeem is geïnstalleerd met Composer. In sommige gevallen kunt u de extensie voor het exporteren van gegevens op uw systeem upgraden om oplossingen of nieuwe mogelijkheden op te halen zonder de Commerce Service-versie bij te werken.
 
 ## Huidige hoofdversie
+
+## 103.4.2 Release
+
+![ bevestig ](../assets/fix.svg) toevoegde de capaciteit om entiteitlading in `saas-export.log` te verzamelen wanneer het runnen van de testresynchronisatie gebruikend het `saas:resync --dry-run` bevel met de `EXPORTER_EXTENDED_LOG=1` omgevingsvariabele. <!--MDEE-1023-->
 
 ## 103.4.1 Release
 

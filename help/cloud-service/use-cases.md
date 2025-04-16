@@ -3,9 +3,9 @@ title: Gebruik hoofdletters
 description: Leer hoe te om praktische gebruiksgevallen en gesteunde bedrijfsscenario's met  [!DNL Adobe Commerce as a Cloud Service] te verwezenlijken.
 role: User, Leader
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+source-git-commit: d5935f4d080c3be1f51bf8916575a3b2f357ee22
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Inhoud rechtstreeks in de winkel maken, bewerken en publiceren.
 
 1. Open [ storefront ](./storefront.md) u in de eerste vereisten creeerde.
 
-1. Open Document Authoring. Door naar `https://da.live/#/<GitHub User Name>/<Repository Name>/main/da/index.md` te navigeren.
+1. Open Store Builder. Door naar `https://da.live/#/<GitHub User Name>/<Repository Name>/main/da/index.md` te navigeren.
 
 1. Open de [!UICONTROL **pagina van de Index**].
 
@@ -110,7 +110,7 @@ Met de functie voor contextafhankelijke experimenten in Adobe Commerce kunt u ex
 
 * Installeer de [ uitbreiding van AEM Sidekick ](https://www.aem.live/docs/sidekick)
 
-1. In het Document Authoring mening van uw opslag, selecteer uw indexpagina en klik [!UICONTROL **Exemplaar**].
+1. In Bouwer Storefront, selecteer uw indexpagina en klik [!UICONTROL **Exemplaar**].
 
 1. Creeer een [!UICONTROL **experimenten**] omslag onder de belangrijkste omslag, door de [!UICONTROL **Nieuwe**] knoop te klikken en [!UICONTROL **Omslag**] te selecteren.
 

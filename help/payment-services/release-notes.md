@@ -3,9 +3,9 @@ title: '[!DNL Payment Services] Opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over alle  [!DNL Payment Services]  versies.
 feature: Payments, Release Notes
 exl-id: 1d24ae27-4a57-4482-a36b-22bbcaaa1b6f
-source-git-commit: 0098e5bab2ea72f9abd7c846d49d5ee4d523ad73
+source-git-commit: 359143c4f48ff911d6dbe9105f364615525fab8c
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3971'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,15 @@ _Juni 28, 2021_
 
 +++
 
+>[!NOTE]
+>
+> De versies komen vaak voor om nieuwe eigenschappen en moeilijke situaties te leveren zoals nodig. De releaseplanning is niet vast.
+
 ## v2.11.1
 
 _Maart 14, 2025_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-5849 --> Vaste een kwestie die [ Punten van de Lijn ](line-items.md) tijdens controle beïnvloedde. Nu, [!DNL Payment Services] heeft de betrouwbaarheid van het controleproces voor **Punten van de Lijn** verbeterd. Als u een soortgelijk probleem tegenkomt, neemt u contact op met uw [!DNL Payment Services] -vertegenwoordiger voor hulp.
 
@@ -102,7 +106,7 @@ _Maart 14, 2025_
 
 _Maart 13, 2025_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-5938 --> nu, [!DNL Payment Services] staat verkopers toe om betalingsmontages te beheren om flexibiliteit in hun zaken te maximaliseren. Deze versie verbetert de capaciteit om [ veelvoudige rekeningen PayPal ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/settings#use-multiple-paypal-accounts) voor de gebieden en de merken vast te maken een handelaars steunt. Ons verkoopteam kan een koppeling aan boord bieden om uw website in te stellen en weergavebereiken op te slaan.
@@ -129,7 +133,7 @@ _Maart 13, 2025_
 
 _24 Februari, 2025_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Vaste kwestie ](../assets/fix.svg)<!-- PAY-xxxx --> Verbeterde algemene stabiliteit en prestaties.
 
@@ -139,7 +143,7 @@ _24 Februari, 2025_
 
 _21 Februari, 2025_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Bekende kwestie ](../assets/bug.svg)<!-- PAY-xxxx --> bevat kritieke insecten die stabiliteit en prestaties kunnen beïnvloeden. Adobe raadt aan een upgrade naar v2.10.3 uit te voeren in plaats van deze versie te gebruiken (v2.10.2).
 
@@ -147,7 +151,7 @@ _21 Februari, 2025_
 
 _5 Februari, 2025_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- PAY-5813 --> Toegevoegde steun voor Adobe Commerce 2.4.8 en PHP 8.4.
 
@@ -155,7 +159,7 @@ _5 Februari, 2025_
 
 _December 13, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-5873 --> [!DNL Payment Services] steunt nu a [[!DNL Payment Services]  drop-in component ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/payment-services/) in [ Edge Delivery Services storefront voor Adobe Commerce ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/).
 
@@ -175,7 +179,7 @@ _December 13, 2024_
 
 _7 November, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-5629 --> [!DNL Payment Services] steunt nu een **bevorderd SDK URL voor Apple Betalen**, die de integratie voor verkopers verbeteren gebruikend Apple Pay. Deze functie is compatibel met macOS 14 en hoger. Apparaten met eerdere versies van macOS geven deze functionaliteit niet weer.
 
@@ -193,7 +197,7 @@ _7 November, 2024_
 
 _13 September, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ bevestig ](../assets/fix.svg)<!-- PAY-5644 --> een kwestie met het geheime voorgeheugen van de parameters van SDK wanneer het gebruiken van veelvoudige werkingsgebied in [!DNL Payment Services]. De configuratie van SDK wordt nu in het voorgeheugen ondergebracht afzonderlijk voor elk werkingsgebied in plaats van onder één enkele sleutel. Dit zorgt ervoor dat het geheime voorgeheugen van elk werkingsgebied onafhankelijk ongeldig wordt gemaakt, verbeterend betrouwbaarheid wanneer het beheren van veelvoudige werkingsgebieden.
 
@@ -201,7 +205,7 @@ _13 September, 2024_
 
 _13 September, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-5499 --> [!DNL Payment Services] steunt nu het verzenden van het volgen aantalinformatie naar PayPal wanneer a [ het volgen aantal ](track-shipment.md) in Adobe Commerce is ingegaan.
 
@@ -215,7 +219,7 @@ _13 September, 2024_
 
 _Augustus 2, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-4844 --> [!DNL Payment Services] steunt nu [ gegevens van het lijnpunt op het ordeniveau ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/manage/line-items). Met deze functie kunnen handelaren gedetailleerde informatie over de artikelen in een bestelling bekijken, zoals productdetails, hoeveelheid en prijs (inclusief BTW, kortingen en andere relevante informatie).
 
@@ -235,7 +239,7 @@ _Augustus 2, 2024_
 
 _4 Juni, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-4877 --> nu, [!DNL Payment Services] steunt [ L2/L3 tariferingsmogelijkheden ](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/levels-card-payment-transactions.html). Deze functie is alleen beschikbaar voor [!DNL Payment Services] klanten met IC++-prijzen ingeschakeld. Neem contact op met uw [!DNL Payment Services] -accountmanager als u L2/L3-verwerkingsgegevens wilt gebruiken voor [!DNL Payment Services] .
 
@@ -245,7 +249,7 @@ _4 Juni, 2024_
 
 _23 April, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ](../assets/fix.svg)<!-- Issue PAY-5396 -->[!DNL Payment Services] Repareren ![ steunt nu [ richtlijnen van Adobe Commerce voor de `--db-prefix` parameter ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced#install-from-the-command-line) voor versies 2.4.7 van Adobe Commerce en nieuwer.
 
@@ -253,7 +257,7 @@ _23 April, 2024_
 
 _16 april 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ beval ](../assets/fix.svg)<!-- Issue PAY-5106 --> een kwestie die verkeerd de totalen van het ordebedrag tijdens controle tussen PayPal en Adobe Commerce bevolkte. Handelaars kunnen er nu voor zorgen dat de totalen van het orderbedrag correct zijn wanneer ze een bestelling plaatsen.
 
@@ -261,7 +265,7 @@ _16 april 2024_
 
 _11 april 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue xxx --> Toegevoegde steun voor Adobe Commerce 2.4.7.
 
@@ -269,7 +273,7 @@ _11 april 2024_
 
 _4 April, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ bevestig ](../assets/fix.svg)<!-- PAY-5322 --> een PCI compatibiliteitskwestie met de nieuwere versies van Adobe Commerce. Nu is [!DNL Payment Services] aangepast aan de betalingsvereisten in Adobe Commerce.
 
@@ -279,7 +283,7 @@ _4 April, 2024_
 
 _Maart 20, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- PAY-4868 --> Merchants kunnen [ met succes betalen Google door de aankoopervaring ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/payments-options.html) vormen, gelijkend op andere betalingsknopen in [!DNL Payment Services] door Admin.
 
@@ -293,7 +297,7 @@ _Maart 20, 2024_
 
 _Maart 1, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- PAY-5244 --> Vaste async controleverenigbaarheid.
 
@@ -303,7 +307,7 @@ _Maart 1, 2024_
 
 _14 Februari, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- PAY-5048 --> Toegevoegde steun voor PHP 8.3
 
@@ -313,7 +317,7 @@ _14 Februari, 2024_
 
 _Januari 26, 2024_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ bevestig ](../assets/fix.svg)<!-- PAY-5183 --> Vaste REST/GraphQL prestatieskwesties. De creditcardknop wordt nu weergegeven wanneer deze via de API wordt opgehaald.
 
@@ -321,7 +325,7 @@ _Januari 26, 2024_
 
 _7 December, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-5047 --> Het merk van de krediet/debetkaart of het type van betalingsmethode is nu beschikbaar bij de volgende plaatsen:
 
@@ -333,7 +337,7 @@ _7 December, 2023_
 
 _December 1, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-4381 --> [ de Diensten van de Betaling steunt nu de integratie van GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/payment-services/). Met GraphQL-ondersteuning voor PayPal-betalingsknoppen, gehoste velden en Apple Pay, biedt [!DNL Payment Services] nu ondersteuning voor Commerce-instellingen zonder kop.
 
@@ -341,7 +345,7 @@ _December 1, 2023_
 
 _27 September, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-4870 --> Vaste een kwestie die correct het nieuwe kopbalattribuut in Storefront bevolkte toen het verzenden van de uitbreidingsversie met de recentste versie. Eerder, met de `1.3.0` release van de Commerce Services-connector, kon u de `User-Agent header` niet uitbreiden vanuit de [!DNL Payment Services] -extensie.
 
@@ -349,7 +353,7 @@ _27 September, 2023_
 
 _Augustus 30, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- PAY-4638 --> voegde een [ integratie met het Ondertekenen ](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/fraud-protection.html) toe, die de geautomatiseerde diensten van de fraudebescherming verleent.
 
@@ -365,7 +369,7 @@ _Augustus 30, 2023_
 
 _9 Juni, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue xxx --> Toegevoegde steun voor Adobe Commerce 2.4.7-bèta1.
 
@@ -381,7 +385,7 @@ _9 Juni, 2023_
 
 _Maart 10, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue PAY-4152 --> Toegevoegde steun voor PHP 8.2 en Adobe Commerce 2.4.6. Niet compatibel met PHP 7.x.
 
@@ -389,7 +393,7 @@ _Maart 10, 2023_
 
 _Maart 10, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ bevestig ](../assets/fix.svg)<!-- Issue PAY-4226 --> een kwestie die nieuwe [!DNL Payment Services] verkopers verhinderde controle in Admin te gebruiken.[!DNL Payment Services] gebruikte eerder de Commerce-klant-id, die niet bestaat voor nieuwe klanten.
 
@@ -401,7 +405,7 @@ _Maart 10, 2023_
 
 _17 Februari, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue PAY-3540 --> Toegevoegde [ 3DS nalevingseigenschap voor handelaren die in de Europese Unie (EU) en Groot-Brittannië overdragen ](security.md#3ds). Deze extra beveiligingslaag, die vereist dat kopers zich verifiëren bij hun creditcardmaatschappij, helpt internetfraude te voorkomen en is vereist in het kader van de EU-regelgeving inzake naleving.
 
@@ -411,7 +415,7 @@ _17 Februari, 2023_
 
 _Januari 29, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-4110 --> een kwestie die kopers verhinderde om een orde te plaatsen gebruikend betalingsknopen op de productpagina, de minikaart, en de kar. Kopers kunnen nu bestellingen voltooien.
 
@@ -419,7 +423,7 @@ _Januari 29, 2023_
 
 _Januari 25, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-4102 --> gaf een moeilijke situatie aan een achteruit onverenigbare bekende kwestie vrij. Deze release vergrendelt de extensie van de service-id naar de nieuwste stabiele versie, die nieuwe [!DNL Payment Services] -installaties opnieuw inschakelt om Commerce Services te configureren.
 
@@ -427,17 +431,17 @@ _Januari 25, 2023_
 
 _December 22, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-3992 --> Verbeterde facturering in [!DNL Payment Services] wanneer een betalingsmethode wordt verworpen.
 
-![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-3999 -->[!DNL Payment Services] toont nu correct PayPal betaalknopen voor handelaren gebruikend ](https://commercemarketplace.adobe.com/swissup-firecheckout.html) {target=_blank} douanemalplaatje van de Afhandeling van de Vuur [ {voor de controlepagina. Eerder werden de knoppen periodiek weergegeven door de minicart.
+![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-3999 -->[!DNL Payment Services] toont nu correct PayPal betaalknopen voor handelaren gebruikend ](https://commercemarketplace.adobe.com/swissup-firecheckout.html){target=_blank} het douanemalplaatje van de Afhandeling van de Vuur van de Vuur [ voor de controlepagina. Eerder werden de knoppen periodiek weergegeven door de minicart.
 
 ## v1.5.1
 
 _23 November, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- Issue PAY-3923 -->[!DNL Payment Services] omvat nu het versieaantal in de kopbal van de gebruikersagent zodat de verzoeken, ongebruikte eindpunten kunnen volgen, filtreren of verwerpen.
 
@@ -447,7 +451,7 @@ _23 November, 2022_
 
 _18 November, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue PAY-3880 --> een verkoopster kan nu [ kluis (sparen) hun creditcardinformatie tijdens controle ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html) aan gebruik in een recentere aankoop voor het zelfde of een andere opslag binnen de zelfde handelaarrekening.
 
@@ -457,7 +461,7 @@ _18 November, 2022_
 
 _14 oktober 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ bevestigen ](../assets/fix.svg)<!-- Issue PAY-3766 --> wanneer de betalingsmethode van een klant wordt verworpen, is het zichtbare foutenbericht beschrijvelijker. Het adviseert de klant om betalingsinformatie opnieuw in te voeren en opnieuw te proberen, een andere betalingsmethode te proberen, of hun bank over de geweigerde transactie te contacteren.
 
@@ -465,7 +469,7 @@ _14 oktober 2022_
 
 _30 September, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Nieuw ](../assets/new.svg)<!-- Issue PAY-784 -->[!DNL Payment Services] omvat nu de capaciteit aan opstelling een handelaarrekening aan [ gebruiks veelvoudige PayPal bedrijfsrekeningen ](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html#use-multiple-paypal-accounts). Hierdoor kan de handelaar in meerdere landen uw winkels bedienen met verschillende valuta&#39;s, of Adobe Commerce gebruiken voor een deel van uw bedrijf.
 
@@ -479,7 +483,7 @@ _30 September, 2022_
 
 _6 September, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-3663 --> nu, wanneer de opslag van een handelaar een orde vastlegt die met een niet globale munt wordt gemachtigd, voltooit het vangstproces en geen fout wordt getoond.
 
@@ -487,7 +491,7 @@ _6 September, 2022_
 
 _9 augustus, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue PAY-XX --> Algemene beschikbaarheidsversie - [!DNL Payment Services] wordt nu gesteund door [  [!DNL Adobe Commerce]  en  [!DNL Magento Open Source]  versies 2.4.0 aan 2.4.5 ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
 
@@ -497,7 +501,7 @@ _9 augustus, 2022_
 
 _Juni 29, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Bekende kwestie ](../assets/bug.svg)<!-- Issue PAY-x --> het Betalen van Apple is onverenigbaar met browser Safari v15.5 op mobiel en Desktop. Als je Safari versie 15.5 gebruikt, kun je het afrekenen met Apple Pay niet voltooien.
 
@@ -515,7 +519,7 @@ _Juni 29, 2022_
 
 _Maart 31, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue PAY-2127 --> Algemene beschikbaarheidsversie - [!DNL Payment Services] wordt nu gesteund door [  [!DNL Adobe Commerce]  en  [!DNL Magento Open Source]  versies 2.4.0 aan 2.4.4 ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability).
 
@@ -543,7 +547,7 @@ _Maart 31, 2022_
 
 _November 29, 2021_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.0 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue PAY-2127 --> Algemene beschikbaarheidsversie - [[!DNL Payment Services] ](https://commercemarketplace.adobe.com/magento-payment-services.html) wordt nu gesteund door [!DNL Adobe Commerce] en [!DNL Magento Open Source] versies 2.4.0 tot 2.4.3-p1.
 

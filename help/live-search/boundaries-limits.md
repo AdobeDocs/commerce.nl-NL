@@ -3,9 +3,9 @@ title: Grenzen en grenzen
 description: Leer over de grenzen en de grenzen voor  [!DNL Live Search]  om ervoor te zorgen het aan de behoeften van uw zaken voldoet.
 role: Admin, Developer
 exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
-source-git-commit: 7dd7ebfae07351f32e781c61b3019b75b421287f
+source-git-commit: eaea7d847be04956299a80ba3bccd90be527c482
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 - [ het Tarief van de Rij ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier) wordt niet gesteund op het [!DNL Live Search] gebied en de Widget van de Pagina van het Product van de Lijst.
 - De productprijzen omvatten geen btw.
 - Zoeken naar inhoud (CMS-pagina&#39;s en -blokken) wordt niet ondersteund.
-- Er is een limiet van 10.000 producten die gepagineerd kunnen worden. Hoewel deze limiet kan worden verhoogd, kan dit van invloed zijn op de prestaties. Zorg ervoor dat u zinvolle manieren biedt om producten te filteren als een categorie of zoekresultaat een groot aantal producten bevat, zodat kopers geen gebruik hoeven te maken van een diepe paginering.
+- Het maximumaantal resultaten dat kan worden gepagineerd, is 10.000. Om ervoor te zorgen dat kopers geen diepe paginering hoeven te gebruiken wanneer een categorie of zoekresultaat een groot aantal producten bevat, moet u zinvolle manieren bieden om producten te filteren.
 - Er geldt een harde limiet van 1 MB per kenmerk, inclusief beschrijving en aangepaste kenmerken.
 - De zoekadapter ondersteunt geen productkenmerken die zijn gemaakt met een aangepast bronmodel en die als facetten worden gebruikt. Om deze functionaliteit te steunen, moet u het [ product gebruiken dat van de Pagina Widget ](plp-styling.md) van de Pagina een lijst maakt.
 - Aangepaste producttypen worden niet ondersteund.

@@ -5,13 +5,13 @@ feature: Paas, Saas
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 1e73f4dd45114cfdcd2fef87ae0d9b2504214c6b
+exl-id: 5ba1fa65-391f-4af7-8c40-d8314ec9d3e5
+source-git-commit: 79d1b862c5cc307daf93f93c03f1993dbd45aa09
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Commerce-productoplossingen
 
@@ -39,13 +39,9 @@ In de volgende tabel worden de badges gedefinieerd die in Adobe Commerce-documen
 
 Deze badge identificeert documentatie voor [ Adobe Commerce as a Cloud Service ](../cloud-service/overview.md) en [ Adobe Commerce Optimizer ](../optimizer/overview.md) slechts projecten. Deze projecten worden ontvangen op een wolk-inheemse, volledig beheerde software-as-a-dienst (SaaS) oplossing waar Adobe voor meeste operationele aspecten-zoals ononderbroken updates, veiligheid controle, en scalability-zodat de klanten zich op handel eerder dan infrastructuur kunnen concentreren.
 
-#### [!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
+#### [!BADGE  slechts PaaS ]{type=Informative tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-Deze badge identificeert documentatie met betrekking tot [ Adobe Commerce op de projecten van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) slechts. Deze projecten worden gehost op een native, volledig beheerde platform-as-a-service (PaaS)-oplossing met alle kernfuncties van Adobe Commerce in een vooraf ingerichte omgeving.
-
->[!NOTE]
->
->Tenzij anders vermeld, omvat dit ook projecten ter plaatse.
+Deze badge identificeert documentatie met betrekking tot [ Adobe Commerce op Cloud ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) en op-gebouw slechts projecten. Adobe Commerce on Cloud-projecten worden gehost op een volledig beheerde platform-as-a-service (PaS)-oplossing in de cloud met alle kernfuncties van Adobe Commerce in een vooraf ingericht omgeving. De projecten op-gebouw worden ontvangen op klant-beheerde infrastructuur.
 
 ### Regels
 

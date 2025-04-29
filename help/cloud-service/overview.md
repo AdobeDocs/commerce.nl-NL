@@ -4,9 +4,9 @@ description: Leer over de belangrijkste eigenschappen en de voordelen van  [!DNL
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-source-git-commit: 25a0d658776ea95fcae07f6390abeeb559642613
+source-git-commit: 4cd5847eee52ff43e2fae27080a5971ceb939875
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -148,6 +148,5 @@ In de volgende secties vindt u informatie over de voordelen die [!DNL Adobe Comm
 | [ Inhoud het opvoeren ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/staging/content-staging) | [ de Dienst van de Catalogus ](../catalog-service/overview.md) | Roadmap | Een hulpprogramma voor catalogusbeheer dat is gekoppeld aan Adobe Experience Platform en dat het beheer van grote catalogi mogelijk maakt. |
 | [ de Bouwer van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
 | [ Betalingen ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments) | [ de Diensten van de Betaling voor Adobe Commerce ](../payment-services/overview.md) | Beschikbaar | Een geïntegreerde betalingsdienst die veilige en efficiënte transacties vergemakkelijkt. |
-| [ Gedeelde catalogus ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared) | [ Prijs Indexerende Dienst ](../price-index/price-indexing.md) | Roadmap | Analyseert prijsgegevens en stelt optimale prijsstellingsstrategieën voor producten voor die op diverse factoren worden gebaseerd. |
 | [ URL herschrijft ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
 | [ Visuele Merchandiser ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser) | [ de Dienst van de Catalogus ](../catalog-service/overview.md) | Roadmap | Een hulpprogramma voor catalogusbeheer dat is gekoppeld aan Adobe Experience Platform en dat het beheer van grote catalogi mogelijk maakt. |

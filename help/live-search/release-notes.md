@@ -3,9 +3,9 @@ title: '[!DNL Live Search] Opmerkingen bij de release'
 description: De recentste versieinformatie voor  [!DNL Live Search]  van Adobe Commerce.
 feature: Services, Search, Release Notes
 exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
-source-git-commit: 5c34bf61ee441ef20a680a4f071308d17379f49d
+source-git-commit: bf36d522b45218a10bde7a383feca99bdba62aa6
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,12 @@ Updates zijn:
 ## Gehoste service-updates
 
 Deze nota&#39;s beschrijven updates die buiten een versioned versie of verbeteringen aan de ontvangen dienst werden gepubliceerd.
+
+_29 April, 2025_
+
+![ bevond ](../assets/fix.svg) Vast een kwestie waar de **Uitvoer naar CSV** rapport over het [**Prestaties**](./performance.md) lusje niet alle gegevens omvatte die in de datumwaaier werden gespecificeerd.
+![ bevestig ](../assets/fix.svg) een kwestie Vaste waar u a [ geen handelende regel ](./rules.md) kon bewaren als de filter van de onderzoeksvraag werd gebruikt.
+![ bevestig ](../assets/fix.svg) een kwestie waar [ vastgezette producten ](./facets-manage.md#pinunpin-facet) niet vermeld bij de bovenkant van de resultatenpagina waren.
 
 _21 April, 2025_
 

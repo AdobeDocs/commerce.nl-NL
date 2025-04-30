@@ -3,9 +3,9 @@ title: '[!DNL Payment Services] Opmerkingen bij de release'
 description: Herzie de versienota's voor informatie over alle  [!DNL Payment Services]  versies.
 feature: Payments, Release Notes
 exl-id: 1d24ae27-4a57-4482-a36b-22bbcaaa1b6f
-source-git-commit: 359143c4f48ff911d6dbe9105f364615525fab8c
+source-git-commit: eb2e99dc3a0dbe1e27524c554886a57a4c8a1c30
 workflow-type: tm+mt
-source-wordcount: '3971'
+source-wordcount: '3986'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Deze versienota&#39;s beschrijven eigenschapveranderingen en moeilijke situaties
 
 +++Hosted service-updates
 
+_25 April, 2025_
+
+![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue PAY-6051 --> nu, [!DNL Payment Services] dashboard toont zowel de huidige uitbreidingsversie als de dashboardversie.
+
 _Augustus 30, 2024_
 
 ![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue PAY-5658 --> nu, kunnen de handelaren transacties door het Detail van de Betaling in het [ transactierapport ](https://experienceleague.adobe.com/docs/commerce/payment-services/reporting/transactions.html) voor meer gedetailleerde en nauwkeurige gegevens van betalingsmethodes filtreren.
@@ -42,7 +46,7 @@ _9 Juli, 2024_
 
 _Maart 5, 2024_
 
-![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-5252 --> nu, kunnen de handelaren gegevens van de netwerken kopiëren Dashboard door de inhoud van één enkele cel te selecteren.
+![ Vaste kwestie ](../assets/fix.svg)<!-- Issue PAY-5252 --> nu, kunnen de handelaren gegevens van de dashboardnetwerken kopiëren door de inhoud van één enkele cel te selecteren.
 
 _10 oktober, 2023_
 

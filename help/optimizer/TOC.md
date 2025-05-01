@@ -6,13 +6,33 @@ hide: true
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: 7d9dc53a210c80590b544cafc4e9771e187d69fd
+source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
 workflow-type: tm+mt
-source-wordcount: '8'
-ht-degree: 25%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
 # [!DNL Adobe Commerce Optimizer] {#optimizer}
 
-- [Wat is  [!DNL Adobe Commerce Optimizer]?](overview.md)
+- [Overzicht](overview.md)
+- [Aan de slag](get-started.md)
+- [Grenzen en beperkingen](boundaries-limits.md)
+- Merchandising {#merchandising}
+   - [Overzicht](./merchandising/overview.md)
+   - [Productdetectie](./merchandising/product-discovery.md)
+   - [Aanbevelingen](./merchandising/recommendations.md)
+- Catalogus {#catalog}
+   - [Overzicht](./catalog/overview.md)
+   - [Kanalen](./catalog/channels.md)
+   - [Beleid](./catalog/policies.md)
+- Gegevens-inzichten {#data-insights}
+   - [Overzicht](./data-insights/overview.md)
+   - [Gegevenssynchronisatie](./data-insights/data-sync.md)
+   - [Eventueel](./data-insights/eventing.md)
+   - [Problemen oplossen](./data-insights/troubleshooting.md)
+- [Storefront](storefront.md)
+- Hoofdletters gebruiken {#use-case}
+   - [Overzicht](./use-case/overview.md)
+   - [Gebruiksscenario van begin tot einde voor Storefront en Catalog Administrator](./use-case/admin-use-case.md)
+

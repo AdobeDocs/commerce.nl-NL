@@ -4,14 +4,18 @@ description: Leer hoe u  [!DNL Adobe Commerce Optimizer]  kunt gebruiken om een 
 hide: true
 recommendations: noCatalog
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
-source-git-commit: 67a9d89a6f50818cdef0108c66e6c8dcb76bb29c
+source-git-commit: 425c801a852de566120504563e256b0351df588e
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
 
 # Wat is [!DNL Adobe Commerce Optimizer]?
+
+>[!NOTE]
+>
+>Deze documentatie beschrijft een product in vroege-toegangsontwikkeling en weerspiegelt niet alle functionaliteit voorgenomen voor algemene beschikbaarheid.
 
 [!DNL Adobe Commerce Optimizer] verbetert uw e-commerceervaring met een krachtige winkel, die organisch verkeer, klantenbetrokkenheid, en opbrengst bevordert.
 
@@ -39,7 +43,7 @@ Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Comme
 
 - Handelaars die hun bestaand achterste handelssysteem willen handhaven en slechts storefront ervaringen willen transformeren.
 - Bedrijven waar een systeem van derden de levenscyclus van het winkelwagentje en de kassa beheert.
-- AEM-klanten die momenteel geen Adobe Commerce gebruiken, zoeken naar een eenvoudige manier om hun productcatalogus te beheren.
+- AEM-klanten die op zoek zijn naar een eenvoudige manier om hun productcatalogus te beheren via een externe handelsengine.
 
 ## Snelle rondleiding
 
@@ -49,7 +53,7 @@ Wanneer u [!DNL Adobe Commerce Optimizer] de eerste keer start, ziet u het volge
 >
 >Deze afbeelding is een voorbeeld van hoe [!DNL Adobe Commerce Optimizer] eruit zou kunnen zien en hoe deze kan worden gewijzigd.
 
-![[!DNL Adobe Commerce Optimizer] UI ](assets/user-interface.png)
+![[!DNL Adobe Commerce Optimizer] UI ](./assets/user-interface.png)
 
 >[!BEGINTABS]
 
@@ -84,9 +88,9 @@ Bekijk waardevolle inzichten in de beschikbaarheid van productgegevens voor uw w
 
 De belangrijkste mogelijkheden omvatten:
 
-- **catalogusopname van derden** - Samenvatting catalogusgegevens van om het even welke derdebron (PIM, ERP, etc.). Uw catalogusgegevens worden direct opgenomen in de merchandising de dienstenlaag, die een component SaaS genoemd de Diensten die van de Verkoop door Kanalen en Beleid worden aangedreven (Kanalen en Beleid) is.
-- **Merchandising de Diensten die door Kanalen en Beleid** worden aangedreven - Deze oplossing is het grondstuk van [!DNL Adobe Commerce Optimizer]. Merchandising Services powered by Channels and Policies is een zeer schaalbaar, flexibel model voor catalogusgegevens dat meerdere merken, bedrijfseenheden en meertalige gebruiksscenario&#39;s ontgrendelt. Deze diensten van de koophandel verstrekken bouwstenen die de handelaren kunnen gebruiken om catalogi tot stand te brengen en te beheren op schaal. Binnen [!DNL Adobe Commerce Optimizer], kunt u uw catalogus beheren door kanalen en beleid te creëren die uw bedrijfsdoelstellingen het best bepalen. Bovendien kan de handelaar persoonlijke ervaringen verstrekken om verkeer en betrokkenheid te drijven gebruikend productontdekking &#x200B;, productaanbevelingen &#x200B;, en intelligente koophandel. Leer meer over [ Merchandising de Diensten die door Kanalen en Beleid ](https://experienceleague.adobe.com/en/docs/commerce/merchandising-services/overview) worden aangedreven.
-- **metriek van het Succes** - verstrekt inzicht in real time in de prestaties van uw handelsinitiatieven. U kunt voor en na resultaten van specifieke KPIs bekijken en het effect van veranderingen evalueren en voor betere resultaten optimaliseren.
+- **de catalogusopname van de derde** - de gegevens van de Samenvatting van catalogi van om het even welke derdebron (uw bestaande catalogus van Commerce, PIM, ERP, etc.). Uw catalogusgegevens worden direct opgenomen in de merchandising de dienstenlaag, die een component SaaS genoemd de Diensten die van de Verkoop door Kanalen en Beleid worden aangedreven (Kanalen en Beleid) is.
+- **Merchandising de Diensten die door Kanalen en Beleid** worden aangedreven - Deze oplossing is het grondstuk van [!DNL Adobe Commerce Optimizer]. Merchandising Services powered by Channels and Policies is een zeer schaalbaar, flexibel model voor catalogusgegevens dat meerdere merken, bedrijfseenheden en meertalige gebruiksscenario&#39;s ontgrendelt. Deze diensten van de koophandel verstrekken bouwstenen die de handelaren kunnen gebruiken om catalogi tot stand te brengen en te beheren op schaal. Binnen [!DNL Adobe Commerce Optimizer], kunt u uw catalogus beheren door kanalen en beleid te creëren die uw bedrijfsdoelstellingen het best bepalen. Bovendien kan de handelaar persoonlijke ervaringen verstrekken om verkeer en betrokkenheid te drijven gebruikend productontdekking &#x200B;, productaanbevelingen &#x200B;, en intelligente koophandel. Leer meer over [ Merchandising de Diensten die door Kanalen en Beleid ](./merchandising/overview.md) worden aangedreven.
+- **vóór en na metriek (PDF)** - verstrekt inzicht in real time in de prestaties van uw handelsinitiatieven. U kunt voor en na resultaten van specifieke KPIs bekijken en het effect van veranderingen evalueren en voor betere resultaten optimaliseren. De resultaten worden geleverd in een PDF.
 - **Commerce storefront die door Edge Delivery** wordt aangedreven - met de levering van Edge, kunt u uw plaats snel lanceren gebruikend prebuilt storefront componenten met geïntegreerde handelsfunctionaliteit - met inbegrip van de pagina&#39;s van de productlijst, productdetailpagina&#39;s, kar, en controle.
 - **de kart en controle van de derde** - gebruik API netwerk en App bouwer om met derdekart en controlesystemen te integreren.
 
@@ -94,4 +98,4 @@ De belangrijkste mogelijkheden omvatten:
 
 In het volgende diagram wordt de basisarchitectuur van [!DNL Adobe Commerce Optimizer] beschreven, van het opnemen van catalogusgegevens tot de relatie tussen merchandising-services, uw winkeliefront en de integratie met een karretje- en uitcheckproces van derden.
 
-![[!DNL Adobe Commerce Optimizer] Architectuur ](assets/architecture.png)
+![[!DNL Adobe Commerce Optimizer] Architectuur ](./assets/architecture.png)

@@ -76,7 +76,7 @@ De installatie voltooien op basis van het implementatietype: Adobe Commerce op C
 
 #### Cloud-infrastructuur
 
-Schakel in Adobe Commerce op de Cloud-infrastructuur de globale variabele `ENABLE_EVENTING` in `.magento.env.yaml` in. [ leer meer ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html#enable_eventing).
+Schakel in Adobe Commerce op de Cloud-infrastructuur de globale variabele `ENABLE_EVENTING` in `.magento.env.yaml` in. [ leer meer ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global.html?lang=nl-NL#enable_eventing).
 
 ```bash
 stage:
@@ -164,4 +164,4 @@ Als u een update wilt uitvoeren naar een belangrijke versie, bijvoorbeeld van 2.
 
 ## De extensie [!DNL Data Connection] verwijderen {#uninstall}
 
-Om de [!DNL Data Connection] uitbreiding te desinstalleren, verwijs naar [ uninstall modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html).
+Om de [!DNL Data Connection] uitbreiding te desinstalleren, verwijs naar [ uninstall modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html?lang=nl-NL).

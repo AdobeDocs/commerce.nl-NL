@@ -55,4 +55,4 @@ Als geen synoniem wordt gecreeerd en een verkoopster zoekt naar **keukenlijst**,
 
 Na het creëren van een synoniem, verandert het onderzoeksgedrag om de nauwkeurige uitdrukking **keukenlijst** te zoeken. Hierdoor kan het aantal resultaten afnemen, omdat alleen producten met de exacte zin worden weergegeven.
 
-Als u de termijnen afzonderlijk wilt worden gezocht zoals voordien, kunt u [ een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) creëren. Als er voldoende vraag is, overweegt Commerce deze functionaliteit in een toekomstige release aan het product toe te voegen.
+Als u de termijnen afzonderlijk wilt worden gezocht zoals voordien, kunt u [ een steunkaartje ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) creëren. Als er voldoende vraag is, overweegt Commerce deze functionaliteit in een toekomstige release aan het product toe te voegen.

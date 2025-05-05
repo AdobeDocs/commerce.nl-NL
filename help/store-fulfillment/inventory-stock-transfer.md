@@ -22,27 +22,27 @@ De [!DNL Store Fulfillment] -oplossing gebruikt native Adobe Commerce Inventory 
 
 Deze configuratieveranderingen helpen u drie dingen verwezenlijken:
 
-1. [ voorraad van de Overdracht aan bron ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/quantities/inventory-transfer) om inventaris van het standaardvoorraad/de bron aan het nieuwe voorraad/de bron te bewegen.
+1. [ voorraad van de Overdracht aan bron ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/quantities/inventory-transfer) om inventaris van het standaardvoorraad/de bron aan het nieuwe voorraad/de bron te bewegen.
 
-1. [ Bulk wijst bronnen ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/quantities/bulk-assignment) toe om de nieuwe bronnen voor al uw producten toe te voegen.
+1. [ Bulk wijst bronnen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/quantities/bulk-assignment) toe om de nieuwe bronnen voor al uw producten toe te voegen.
 
-1. [ Volledige bulkupdates voor productattributen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/bulk-product-attribute-update) om de `Allow Store Pickup` en `Allow Home Delivery` attributen aan bestaande producten toe te voegen. Wanneer de oplossing wordt geïnstalleerd, hebben de attributen de optimale *standaard* waarden. Nochtans, worden deze attributen niet toegepast op bestaande producten tot u het bulk updaContes proces voltooit.
+1. [ Volledige bulkupdates voor productattributen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/bulk-product-attribute-update) om de `Allow Store Pickup` en `Allow Home Delivery` attributen aan bestaande producten toe te voegen. Wanneer de oplossing wordt geïnstalleerd, hebben de attributen de optimale *standaard* waarden. Nochtans, worden deze attributen niet toegepast op bestaande producten tot u het bulk updaContes proces voltooit.
 
-De voorraad wordt afgetrokken van de geselecteerde bron (detailhandel of e-commerce-entrepot). De bronnen die als e-commerce pakhuizen worden gebruikt moeten aan het zelfde dossier worden toegewezen zoals de opslagbestelplaats en voorrang gegeven vóór de detailhandelsplaatsen. Voor extra informatie, zie [ het Prioriseren van Bronnen voor een Beeld ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-prioritize-sources).
+De voorraad wordt afgetrokken van de geselecteerde bron (detailhandel of e-commerce-entrepot). De bronnen die als e-commerce pakhuizen worden gebruikt moeten aan het zelfde dossier worden toegewezen zoals de opslagbestelplaats en voorrang gegeven vóór de detailhandelsplaatsen. Voor extra informatie, zie [ het Prioriseren van Bronnen voor een Beeld ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/stocks/stocks-prioritize-sources).
 
 Raadpleeg de gebruikersdocumentatie van Adobe Commerce voor meer informatie over het beheer van voorraden, voorraden en bronnen:
 
-- [ het Leiden Inventaris ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction)
+- [ het Leiden Inventaris ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/introduction)
 
-- [ het Leiden de Hoeveelheden van de Inventaris ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/quantities/quantities-manage)
+- [ het Leiden de Hoeveelheden van de Inventaris ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/quantities/quantities-manage)
 
-- [ Beherend Voorraad ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)
+- [ Beherend Voorraad ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/stocks/stocks-manage)
 
-- [ het Leiden Bronnen ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-manage)
+- [ het Leiden Bronnen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/sources/sources-manage)
 
-- [ Prioritaire Bronnen voor een Voorraad ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-prioritize-sources)
+- [ Prioritaire Bronnen voor een Voorraad ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/stocks/stocks-prioritize-sources)
 
-- [ Bulk Updates voor de Attributen van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/bulk-product-attribute-update)
+- [ Bulk Updates voor de Attributen van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/bulk-product-attribute-update)
 
 
 >[!IMPORTANT]

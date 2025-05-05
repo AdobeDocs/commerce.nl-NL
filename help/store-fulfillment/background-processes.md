@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Configuratie achtergrondproces
 
-De integratie van de Afhandeling van de Opslag gebruikt achtergrondprocessen en berichtrijen voor optimale prestaties en schaal. Bouw milieu&#39;s voor uw opslag van Adobe Commerce gebruikend [ plaatsingsvariabelen ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#cron_consumers_runner) die [ de looppas van de berichtrij ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) automatisch beginnen.
+De integratie van de Afhandeling van de Opslag gebruikt achtergrondprocessen en berichtrijen voor optimale prestaties en schaal. Bouw milieu&#39;s voor uw opslag van Adobe Commerce gebruikend [ plaatsingsvariabelen ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#cron_consumers_runner) die [ de looppas van de berichtrij ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) automatisch beginnen.
 
-De processen van de achtergrond worden beheerd gebruikend de standaardAdobe Commerce [ Geplande functionaliteit van Taken ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron). Deze processen zijn de oorzaak van het synchroniseren van orde en de handelaarconfiguratiegegevens met de Webdiensten van de opslagvervulling.
+De processen van de achtergrond worden beheerd gebruikend de standaardAdobe Commerce [ Geplande functionaliteit van Taken ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cron). Deze processen zijn de oorzaak van het synchroniseren van orde en de handelaarconfiguratiegegevens met de Webdiensten van de opslagvervulling.
 
 ## Geplande taken beheren voor het uitvoeren van een winkel
 

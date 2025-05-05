@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Live Search] Gebeurtenissen
 
-In [!DNL Live Search] worden gebeurtenissen gebruikt om zoekalgoritmen zoals &quot;Meest bekeken&quot; en &quot;Dit bekeken, heeft dat bekeken&quot;, van stroom te voorzien. Terwijl het [ het thema van de steekproefLuminantie van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/themes/themes#the-default-theme) uit de doos uitkomt, moeten de hoofd en andere douaneimplementaties het voorkomen voor hun eigen behoeften uitvoeren.
+In [!DNL Live Search] worden gebeurtenissen gebruikt om zoekalgoritmen zoals &quot;Meest bekeken&quot; en &quot;Dit bekeken, heeft dat bekeken&quot;, van stroom te voorzien. Terwijl het [ het thema van de steekproefLuminantie van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/design/themes/themes#the-default-theme) uit de doos uitkomt, moeten de hoofd en andere douaneimplementaties het voorkomen voor hun eigen behoeften uitvoeren.
 
 Deze lijst beschrijft de gebeurtenissen die door [!DNL Live Search] [ worden gebruikt rangschikkend strategieën ](rules-add.md#intelligent-ranking).
 
@@ -68,4 +68,4 @@ mse.publish.searchRequestSent("search-bar");
 
 >[!NOTE]
 >
->Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.
+>Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.

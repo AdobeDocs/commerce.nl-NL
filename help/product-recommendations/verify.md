@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Gebeurtenisverzameling verifiëren
 
-Nadat u [ installeert en ](install-configure.md) vormt de `magento/product-recommendations` module, kunt u verifiëren dat de gedragsgegevens naar Adobe Commerce worden verzonden. U kunt de ontwikkelaarsgereedschappen gebruiken die beschikbaar zijn in Chrome, of de extensie Snowplow Chrome installeren. Als u extra hulp nodig hebt, verwijs naar [ los  [!DNL Product Recommendations]  module ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.html) in de Kennisbank van de Steun problemen op.
+Nadat u [ installeert en ](install-configure.md) vormt de `magento/product-recommendations` module, kunt u verifiëren dat de gedragsgegevens naar Adobe Commerce worden verzonden. U kunt de ontwikkelaarsgereedschappen gebruiken die beschikbaar zijn in Chrome, of de extensie Snowplow Chrome installeren. Als u extra hulp nodig hebt, verwijs naar [ los  [!DNL Product Recommendations]  module ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.html?lang=nl-NL) in de Kennisbank van de Steun problemen op.
 
 ## Verifiëren met hulpprogramma&#39;s voor ontwikkelaars in Chrome
 
@@ -50,7 +50,7 @@ Installeer de [ Debugger van de Analyse van de Snowplow uitbreiding voor Chrome 
 
 1. De rol neer tot u **Gegevens van de Context _n_**&#x200B;ziet. Zoek de storefront instantie in het **Schema**.
 
-1. Verifieer dat [ identiteitskaart van de Ruimte van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) correct wordt geplaatst.
+1. Verifieer dat [ identiteitskaart van de Ruimte van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html?lang=nl-NL) correct wordt geplaatst.
 
 ![ Snowplow filter ](assets/snowplow-filter.png)
 _Snowplow Filter_
@@ -61,8 +61,8 @@ _Snowplow Filter_
 
 ## Controleren of gebeurtenissen correct worden geactiveerd
 
-Als u wilt controleren of de gebeurtenissen die voor metrische gegevens worden gebruikt, correct worden uitgevoerd, zoekt u naar de gebeurtenissen `impression-render` , `view` en `rec-click` in Foutopsporing voor Snowplow-analyse. Zie de [ volledige lijst van gebeurtenissen ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/events.html).
+Als u wilt controleren of de gebeurtenissen die voor metrische gegevens worden gebruikt, correct worden uitgevoerd, zoekt u naar de gebeurtenissen `impression-render` , `view` en `rec-click` in Foutopsporing voor Snowplow-analyse. Zie de [ volledige lijst van gebeurtenissen ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/events.html?lang=nl-NL).
 
 >[!NOTE]
 >
-> Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemmingen. Als de modus Cookie-beperking is uitgeschakeld, worden standaardgedragsgegevens verzameld.
+> Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemmingen. Als de modus Cookie-beperking is uitgeschakeld, worden standaardgedragsgegevens verzameld.

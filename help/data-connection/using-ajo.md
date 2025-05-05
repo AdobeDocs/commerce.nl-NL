@@ -21,7 +21,7 @@ Bouw een verlaten karretje, doorblader e-mail, of bericht gebruikend gegevens va
 | Gegevenstypen | Storefront-gegevens (gedragsgebeurtenissen) | Back Office-gegevens (server-side gebeurtenissen) |
 |---|---|---|
 | **Definitie** | Klik of acties die klanten op uw site uitvoeren. | Informatie over de levenscyclus en details van elke bestelling (verleden en huidig). |
-| **Gebeurtenissen die door Adobe Commerce** worden gevangen | [ pageView ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#pageview) <br>[ productPageView ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events) <br>[ addToCart ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#addtocart) <br>[ openCart ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#opencart) <br>[ startCheckout ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#startcheckout) <br>[ completeCheckout ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#completecheckout) | [ orderPlaced ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice#orderplaced) <br>[ de geschiedenis van de Orde ](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data#send-historical-order-data) |
+| **Gebeurtenissen die door Adobe Commerce** worden gevangen | [ pageView ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events#pageview) <br>[ productPageView ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events) <br>[ addToCart ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events#addtocart) <br>[ openCart ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events#opencart) <br>[ startCheckout ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events#startcheckout) <br>[ completeCheckout ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events#completecheckout) | [ orderPlaced ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/event-forwarding/events-backoffice#orderplaced) <br>[ de geschiedenis van de Orde ](https://experienceleague.adobe.com/nl/docs/commerce/data-connection/fundamentals/connect-data#send-historical-order-data) |
 
 ### Wat hebben andere klanten bereikt?
 
@@ -47,7 +47,7 @@ In dit specifieke geval is het maken van een verlaten e-mailbericht met een wink
 
 ### Wat is Adobe Journey Optimizer?
 
-[ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) helpt u de handelservaring voor uw kopers personaliseren. U kunt Journey Optimizer bijvoorbeeld gebruiken om geplande marketingcampagnes te maken en te leveren, zoals wekelijkse promoties voor een detailhandel, of een verlaten winkelwagentje-e-mail genereren als een klant een product aan een winkelwagentje heeft toegevoegd maar het afrekenproces vervolgens niet heeft voltooid.
+[ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=nl-NL) helpt u de handelservaring voor uw kopers personaliseren. U kunt Journey Optimizer bijvoorbeeld gebruiken om geplande marketingcampagnes te maken en te leveren, zoals wekelijkse promoties voor een detailhandel, of een verlaten winkelwagentje-e-mail genereren als een klant een product aan een winkelwagentje heeft toegevoegd maar het afrekenproces vervolgens niet heeft voltooid.
 
 In dit onderwerp leert u een verlaten wagentje-e-mail te bouwen door naar een `checkout` gebeurtenis te luisteren die van uw [!DNL Commerce] instantie wordt geproduceerd en op die gebeurtenis in Journey Optimizer te antwoorden.
 
@@ -83,7 +83,7 @@ Maak een gebruiker in uw sandbox-omgeving en bevestig dat die gebruikersaccountg
 
 In uw [!DNL Commerce] zandbakmilieu, activeer gebeurtenissen op uw storefront door productpagina&#39;s te bekijken, punten toe te voegen aan een kar, en diverse andere activiteiten te voltooien die een verkoopster zou uitvoeren. Bevestig vervolgens dat deze gebeurtenissen naar Journey Optimizer stromen.
 
-1. Start [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
+1. Start [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=nl-NL).
 1. Selecteer **[!UICONTROL Profiles]** .
 1. Stel **[!UICONTROL Identity namespace]** in op `Email` .
 1. Stel de **[!UICONTROL Identity value]** in op uw e-mailadres.
@@ -112,7 +112,7 @@ Configureer twee gebeurtenissen in Journey Optimizer: de ene gebeurtenis luister
 
 ### Een listenergebeurtenis maken
 
-1. Start [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
+1. Start [ Adobe Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=nl-NL).
 
 1. Klik op **[!UICONTROL Configurations]** onder de sectie **[!UICONTROL Administration]** van het linkerdeelvenster.
 
@@ -185,7 +185,7 @@ Maak een verlaten wagentje-e-mail die wordt verzonden wanneer een verlaten wagen
 
 1. Dubbelklik tijdens de hierboven gemaakte reis op het pictogram **[!UICONTROL Email]** op het canvas.
 
-1. Volg de [ stappen ](https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/personalization-use-cases/personalization-use-case-helper-functions.html#configure-email) in de gids van Journey Optimizer om tot de verlaten kart e-mail te leiden.
+1. Volg de [ stappen ](https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/personalization-use-cases/personalization-use-case-helper-functions.html?lang=nl-NL#configure-email) in de gids van Journey Optimizer om tot de verlaten kart e-mail te leiden.
 
 U hebt nu een reis in Journey Optimizer die luistert naar de `commerce.checkouts` -gebeurtenis van uw [!DNL Commerce] -winkel en een verlaten e-mailbericht met een winkelwagentje dat wordt verzonden nadat een bepaalde periode is verstreken. In het volgende gedeelte ziet u hoe u de reis kunt testen.
 

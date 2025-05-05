@@ -20,7 +20,7 @@ Eigenschappen van productkenmerken (metagegevens) bepalen:
 
 Het bereik van kenmerkmetagegevens is `website/store/store view` .
 
-[!DNL Live Search] API staat een cliënt toe om door om het even welk productattribuut te sorteren dat het [ storefront bezit ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes) `Use in Search` heeft die aan `Yes` in Adobe Commerce Admin wordt geplaatst. Wanneer deze optie is ingeschakeld, kan `Search Weight` worden ingesteld voor het kenmerk.
+[!DNL Live Search] API staat een cliënt toe om door om het even welk productattribuut te sorteren dat het [ storefront bezit ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/product-attributes) `Use in Search` heeft die aan `Yes` in Adobe Commerce Admin wordt geplaatst. Wanneer deze optie is ingeschakeld, kan `Search Weight` worden ingesteld voor het kenmerk.
 
 [!DNL Live Search] indexeert geen verwijderde producten of producten die zijn ingesteld op `Not Visible Individually` .
 
@@ -32,7 +32,7 @@ Het bereik van kenmerkmetagegevens is `website/store/store view` .
 
 De client roept de zoekservice van de storefront aan om (filterbare, sorteerbare) indexmetagegevens op te halen. Slechts doorzoekbare productattributen met het *Gebruik in Gelaagd die bezit van de Navigatie* aan `Filterable (with results)` wordt geplaatst en *Gebruik voor het Sorteren in het Lijst van het Product* aan `Yes` wordt geplaatst kan door de onderzoeksdienst worden geroepen.
 
-Om een dynamische vraag te construeren, moet de onderzoeksdienst weten welke attributen doorzoekbaar en hun [ gewicht ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results) zijn. [!DNL Live Search] geeft Adobe Commerce-zoekdikten (1-10, waarbij 10 de hoogste prioriteit heeft). De lijst met gegevens die met de catalogusservice worden gesynchroniseerd en gedeeld, vindt u in het schema, dat wordt gedefinieerd in:
+Om een dynamische vraag te construeren, moet de onderzoeksdienst weten welke attributen doorzoekbaar en hun [ gewicht ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-results) zijn. [!DNL Live Search] geeft Adobe Commerce-zoekdikten (1-10, waarbij 10 de hoogste prioriteit heeft). De lijst met gegevens die met de catalogusservice worden gesynchroniseerd en gedeeld, vindt u in het schema, dat wordt gedefinieerd in:
 
 `vendor/magento/module-catalog-data-exporter/etc/et_schema.xml`
 
@@ -89,7 +89,7 @@ In de volgende tabel worden verschillende wijzigingen beschreven. De wachttijd w
 
 ## Clientzoekopdracht
 
-[!DNL Live Search] API staat een cliënt toe om door om het even welk sorteerbaar productattribuut te sorteren door het [ storefront bezit ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes) te plaatsen, *Gebruikt voor het sorteren in productlijsten* aan `Yes`. Afhankelijk van het thema, veroorzaakt dit het plaatsen de attributen om als optie in de [ Soort door ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation) pagineringscontrole op cataloguspagina&#39;s worden omvat. Tot 200 productattributen kunnen door [!DNL Live Search] worden geïndexeerd, met [ storefront eigenschappen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes) die doorzoekbaar en filterbaar zijn.
+[!DNL Live Search] API staat een cliënt toe om door om het even welk sorteerbaar productattribuut te sorteren door het [ storefront bezit ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/product-attributes) te plaatsen, *Gebruikt voor het sorteren in productlijsten* aan `Yes`. Afhankelijk van het thema, veroorzaakt dit het plaatsen de attributen om als optie in de [ Soort door ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation) pagineringscontrole op cataloguspagina&#39;s worden omvat. Tot 200 productattributen kunnen door [!DNL Live Search] worden geïndexeerd, met [ storefront eigenschappen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/product-attributes) die doorzoekbaar en filterbaar zijn.
 
 De indexmeta-gegevens worden opgeslagen in de indexerende pijpleiding en door de onderzoeksdienst toegankelijk.
 

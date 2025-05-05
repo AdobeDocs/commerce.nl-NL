@@ -26,9 +26,9 @@ Voordat u een upgrade uitvoert of installeert, controleert u de opmerkingen bij 
 
 - [Opmerkingen bij de release Afhandeling opslaan](release-notes.md)
 
-- [ de Nota&#39;s van de Versie van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html) in de *Informatie van de Versie van Adobe Commerce*.
+- [ de Nota&#39;s van de Versie van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=nl-NL) in de *Informatie van de Versie van Adobe Commerce*.
 
-- [ de Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) in de *Gids van de Installatie van Adobe Commerce*.
+- [ de Vereisten van het Systeem van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=nl-NL) in de *Gids van de Installatie van Adobe Commerce*.
 
 
 ## Toepassingsvereisten voor Winkelassistentie

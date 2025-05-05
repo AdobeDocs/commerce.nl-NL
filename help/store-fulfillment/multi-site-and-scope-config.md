@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Configuratie van meerdere websites en bereik
 
-U kunt het [ Reikwijdte ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views#scope-settings) voor een paar elementen plaatsen om veelvoudige websites, opslag, en opslagmeningen aan te passen:
+U kunt het [ Reikwijdte ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/setup/websites-stores-views#scope-settings) voor een paar elementen plaatsen om veelvoudige websites, opslag, en opslagmeningen aan te passen:
 
-- [ beheer Voorraad ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage) per werkingsgebied
+- [ beheer Voorraad ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/stocks/stocks-manage) per werkingsgebied
 
 - [!DNL Delivery Methods] beheren per bereik
 

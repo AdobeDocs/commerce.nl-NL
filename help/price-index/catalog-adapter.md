@@ -55,7 +55,7 @@ Gebruik deze methode om [!DNL Catalog Adapter] voor een Commerce Cloud-instantie
 
    >[!NOTE]
    >
-   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
+   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
 
 1. Bekijk de omgevingsvertakking voor update met de Adobe Commerce Cloud CLI.
 
@@ -85,7 +85,7 @@ Gebruik deze methode om [!DNL Catalog Adapter] voor een Commerce Cloud-instantie
    git push origin <branch-name>
    ```
 
-   Het duwen van de updates aan het wolkenmilieu stelt het [ proces van de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Het duwen van de updates aan het wolkenmilieu stelt het [ proces van de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB  op-gebouw ]
 

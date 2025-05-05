@@ -10,11 +10,11 @@ ht-degree: 0%
 
 # [!DNL Storefront Popover]
 
-Wanneer [!DNL Live Search] wordt geïnstalleerd [&#128279;](install.md), verschijnt a [!DNL popover] in de storefront wanneer de kopers in het [ Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search) vakje typen. Wanneer elk teken wordt getypt, wordt [!DNL popover] bijgewerkt met voorgestelde producten en miniatuurafbeeldingen van de bovenste zoekresultaten.
+Wanneer [!DNL Live Search] wordt geïnstalleerd [&#128279;](install.md), verschijnt a [!DNL popover] in de storefront wanneer de kopers in het [ Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html?lang=nl-NL#quick-search) vakje typen. Wanneer elk teken wordt getypt, wordt [!DNL popover] bijgewerkt met voorgestelde producten en miniatuurafbeeldingen van de bovenste zoekresultaten.
 
 [!DNL Live Search] geeft resultaten voor een query van twee of meer tekens. Voor een gedeeltelijke overeenkomst, is het maximumaantal karakters per woord 20. Het aantal karakters in een &quot;onderzoek aangezien u&quot;vraag typt is niet configureerbaar.
 
-Door gebrek, [!DNL Live Search] steunt [ herleidt de onderzoekstermijn ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html).
+Door gebrek, [!DNL Live Search] steunt [ herleidt de onderzoekstermijn ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=nl-NL).
 
 ![[!DNL Live Search popover]](assets/storefront-search-as-you-type.png)
 
@@ -24,7 +24,7 @@ Door gebrek, [!DNL Live Search] steunt [ herleidt de onderzoekstermijn ](https:/
 
 ## [!DNL Popover] paginaformaat
 
-De paginagrootte van [!DNL popover] bepaalt hoeveel regels automatisch ingevulde producten kunnen worden geretourneerd. Tijdens de Levende installatie van het Onderzoek, verandert de `page_size` waarde in de huidige waarde van het [ Onderzoek van de Catalogus ](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html) - `Autocomplete Limit` het plaatsen.
+De paginagrootte van [!DNL popover] bepaalt hoeveel regels automatisch ingevulde producten kunnen worden geretourneerd. Tijdens de Levende installatie van het Onderzoek, verandert de `page_size` waarde in de huidige waarde van het [ Onderzoek van de Catalogus ](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html?lang=nl-NL) - `Autocomplete Limit` het plaatsen.
 
 Standaard is de waarde voor Zoeken in catalogus - automatisch aanvullen van limiet ingesteld op acht regels (of rijen). Ga als volgt te werk om het paginaformaat van de [!DNL popover] te wijzigen:
 
@@ -120,7 +120,7 @@ U kunt [!DNL storefront popover] met een aangepast [ thema ](https://developer.a
 
 ## De [!DNL popover] uitschakelen
 
-Om [!DNL popover] onbruikbaar te maken en de standaard [ Snelle functionaliteit van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search) te herstellen, ga het volgende bevel in:
+Om [!DNL popover] onbruikbaar te maken en de standaard [ Snelle functionaliteit van het Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html?lang=nl-NL#quick-search) te herstellen, ga het volgende bevel in:
 
 ```bash
 bin/magento module:disable Magento_LiveSearchStorefrontPopover

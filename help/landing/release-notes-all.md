@@ -21,24 +21,24 @@ Gebruik de volgende lijst om versienota&#39;s en belangrijke informatie met betr
       <td><strong> de diensten van Commerce </strong>
         <p>Meer informatie over de nieuwste verbeteringen voor innovatieve Commerce-services die beschikbaar zijn als extensies.</p>
           <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/catalog-service/release-notes.html">[!DNL Catalog Service]</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/live-search/release-notes.html">[!DNL Live Search]</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/payment-services/release-notes.html">[!DNL Payment Services]</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/product-recommendations/release-notes.html">Aanbevelingen voor producten</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/catalog-service/release-notes.html?lang=nl-NL">[!DNL Catalog Service]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/live-search/release-notes.html?lang=nl-NL">[!DNL Live Search]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/payment-services/release-notes.html?lang=nl-NL">[!DNL Payment Services]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/product-recommendations/release-notes.html?lang=nl-NL">Aanbevelingen voor producten</a></li>
           </ul>
         </td>
       <td><strong> de diensten van de Integratie </strong>
         <p>Leer over de recentste verbeteringen van de integratieservices die onze Commerce Services in staat stellen om met andere diensten en Adobe uitbreidingen en producten te verbinden.</p>
           <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/data-connection/release-notes.html">[!DNL Data Connection]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/data-connection/release-notes.html?lang=nl-NL">[!DNL Data Connection]</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/saas.html">[!DNL Services Connector]</a></li>
           </ul>
       </td>
       <td><strong> de diensten van Gegevens </strong>
         <p>Meer informatie over de nieuwste verbeteringen in de gegevensservice waarmee onze Commerce Services productgegevens kunnen beheren.</p>
           <ul>
-           <li><a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes">SaaS Data Export extension</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/data-services/catalog-sync.html">Catalogus synchroniseren</a></li>
+           <li><a href="https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/release-notes">SaaS Data Export extension</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/data-services/catalog-sync.html?lang=nl-NL">Catalogus synchroniseren</a></li>
           </ul>
       </td>
     </tr>

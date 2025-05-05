@@ -25,5 +25,5 @@ ht-degree: 10%
    - [ productSearch vraag ](https://developer.adobe.com/commerce/services/graphql/live-search/product-search/)
    - [ refineProduct vraag ](https://developer.adobe.com/commerce/services/graphql/catalog-service/refine-product/)
 - [Aanvullende informatie](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)
 

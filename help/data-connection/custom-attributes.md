@@ -344,7 +344,7 @@ ComponentRegistrar::register(
 
 Als u er zeker van wilt zijn dat de nieuwe aangepaste orderkenmerken door uw [!DNL Commerce] -schema in Experience Platform kunnen worden opgenomen, moet u het schema uitbreiden en deze aangepaste velden opnemen.
 
-Leren hoe te om een bestaand schema uit te breiden XDM om deze douanegebieden te omvatten, zie [ schema&#39;s in het UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) artikel in de documentatie van Experience Platform creëren en uitgeven. Het veld Tenant-id wordt dynamisch gegenereerd, maar de veldstructuur moet overeenkomen met het voorbeeld in de Experience Platform-documentatie.
+Leren hoe te om een bestaand schema uit te breiden XDM om deze douanegebieden te omvatten, zie [ schema&#39;s in het UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) artikel in de documentatie van Experience Platform creëren en uitgeven. Het veld Tenant-id wordt dynamisch gegenereerd, maar de veldstructuur moet overeenkomen met het voorbeeld in de Experience Platform-documentatie.
 
 >[!IMPORTANT]
 >

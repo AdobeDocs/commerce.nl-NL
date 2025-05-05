@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Productvoorraadbeheer
 
-Als koopman, kunt u Adobe Commerce [ Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) voorraad en bronopties gebruiken. U kunt ook de oplossing Afhandeling van winkel gebruiken om andere opties voor de beschikbaarheid van voorraden in te stellen die betrekking hebben op de activiteiten van uw winkel.
+Als koopman, kunt u Adobe Commerce [ Inventory management ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/introduction) voorraad en bronopties gebruiken. U kunt ook de oplossing Afhandeling van winkel gebruiken om andere opties voor de beschikbaarheid van voorraden in te stellen die betrekking hebben op de activiteiten van uw winkel.
 
 - Optie voor thuislevering uit Merchant-winkels
 

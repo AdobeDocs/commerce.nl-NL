@@ -15,14 +15,14 @@ ht-degree: 0%
 >
 >Deze documentatie beschrijft een product in vroege-toegangsontwikkeling en weerspiegelt niet alle functionaliteit voorgenomen voor algemene beschikbaarheid.
 
-Dit leerprogramma toont aan hoe te opstelling en gebruik [ Adobe Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) wordt aangedreven om een uitvoerbare, scalable, en veilige Commerce storefront tot stand te brengen die door gegevens van uw [!DNL Adobe Commerce Optimizer] instantie wordt aangedreven.
+Dit leerprogramma toont aan hoe te opstelling en gebruik [ Adobe Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL) wordt aangedreven om een uitvoerbare, scalable, en veilige Commerce storefront tot stand te brengen die door gegevens van uw [!DNL Adobe Commerce Optimizer] instantie wordt aangedreven.
 
 
 ## Vereisten
 
 * Zorg ervoor dat u een rekening GitHub (github.com) hebt die bewaarplaatsen kan tot stand brengen en voor lokale ontwikkeling gevormd.
 
-* Word vertrouwd met het basiswerkschema en de woordenschat met betrekking tot het creëren van een storefront voor de Diensten van de Levering van de Rand van Adobe door het [ Overzicht ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started) in de documentatie van de Opslag van Adobe Commerce te herzien.
+* Word vertrouwd met het basiswerkschema en de woordenschat met betrekking tot het creëren van een storefront voor de Diensten van de Levering van de Rand van Adobe door het [ Overzicht ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started?lang=nl-NL) in de documentatie van de Opslag van Adobe Commerce te herzien.
 * De ontwikkelomgeving instellen
 
 
@@ -60,7 +60,7 @@ Voer zo nodig de volgende stappen uit om Node Version Manager (NVM) en de vereis
 
 >[!TIP]
 >
->Deze instelling is bedoeld voor ontwikkeling met [!DNL Adobe Commerce Optimizer] en de Adobe Commerce Edge Delivery Service Store. De extra middelen om uw [!DNL Adobe Commerce Optimizer] oplossing uit te breiden en aan te passen zijn beschikbaar door [ App Builder voor Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) en [ API Net voor Adobe Developer App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh). Neem voor toegang tot en gebruiksinformatie contact op met uw Adobe-accountvertegenwoordiger.
+>Deze instelling is bedoeld voor ontwikkeling met [!DNL Adobe Commerce Optimizer] en de Adobe Commerce Edge Delivery Service Store. De extra middelen om uw [!DNL Adobe Commerce Optimizer] oplossing uit te breiden en aan te passen zijn beschikbaar door [ App Builder voor Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) en [ API Net voor Adobe Developer App Builder ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh). Neem voor toegang tot en gebruiksinformatie contact op met uw Adobe-accountvertegenwoordiger.
 
 #### Sidekick installeren
 
@@ -71,7 +71,7 @@ Installeer de Sidekick-browserextensie om winkelinhoud te bewerken, voor te vert
 
 De winkel die u voor uw [!DNL Adobe Commerce Optimizer] -project maakt, wordt gemaakt met behulp van een aangepaste versie van de Adobe Commerce op Edge Delivery Services Storefront boilerplate. De bouwsteenplaat is een reeks dossiers en omslagen die een uitgangspunt voor de bouw van uw opslagront verstrekken.
 
-Dit storefront installatieproces wordt specifiek aangepast voor [!DNL Adobe Commerce Optimizer] projecten. De stroom is verschillend dan de stroom voor standaard [ Adobe Commerce op de opstelling van Edge Delivery Services Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/).
+Dit storefront installatieproces wordt specifiek aangepast voor [!DNL Adobe Commerce Optimizer] projecten. De stroom is verschillend dan de stroom voor standaard [ Adobe Commerce op de opstelling van Edge Delivery Services Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL).
 
 >[!NOTE]
 >
@@ -96,8 +96,8 @@ Voer de volgende stappen uit om een winkelvoetnoot in te stellen die u met Adobe
 
 Volg de instructies in de Adobe Commerce Storefront-documentatie om een gedeelde inhoudsmap toe te voegen in Google Drive of SharePoint en de voorbeeldinhoud toe te voegen. De voorbeeldinhoud bestaat uit afbeeldingen, tekst en andere elementen waaruit uw site bestaat.
 
-* [ creeer en deel een Aandrijving van Google of de omslag van SharePoint ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#create-and-share-folder)
-* [ Laad de steekproefinhoud ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#add-sample-content) in uw omslag.
+* [ creeer en deel een Aandrijving van Google of de omslag van SharePoint ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#create-and-share-folder)
+* [ Laad de steekproefinhoud ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#add-sample-content) in uw omslag.
 
 ### Stap 2: Een gegevensopslagruimte maken
 
@@ -177,7 +177,7 @@ U hebt de volgende informatie nodig om deze stappen te voltooien:
 
 1. Werk het storefront configuratiedossier bij om aan uw inhoud URL te richten.
 
-   1. Open het {[&#128279;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) configuratiedossier 0} fstab.yaml.
+   1. Open het {[&#128279;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#vocabulary) configuratiedossier 0} fstab.yaml.
 
       ```json
       mountpoints:
@@ -487,6 +487,6 @@ Zie het [ de gebruikscase van begin tot eind van de Beheerder van de Opslag en v
 
 >[!MORELIKETHIS]
 >
->* Als u van plan bent om [!DNL Adobe Commerce Optimizer] zonder Adobe Commerce te gebruiken backend, zie de [ Adobe Experience Manager storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met uw Commerce frontend componenten en achterste gegevens te integreren.
+>* Als u van plan bent om [!DNL Adobe Commerce Optimizer] zonder Adobe Commerce te gebruiken backend, zie de [ Adobe Experience Manager storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) om meer over het bijwerken van plaatsinhoud te leren en met uw Commerce frontend componenten en achterste gegevens te integreren.
 ></br></br>
->* Als u van plan bent om [!DNL Adobe Commerce Optimizer] met een Adobe Commerce achterkant te gebruiken, zie de [ documentatie van de Storefront van Adobe Commerce ](https://experienceleague.adobe.com/developer/commerce/storefront/) leren hoe te om inhoud bij te werken en storefront componenten voor rekeningsbeheer, controle, en andere mogelijkheden te vormen.
+>* Als u van plan bent om [!DNL Adobe Commerce Optimizer] met een Adobe Commerce achterkant te gebruiken, zie de [ documentatie van de Storefront van Adobe Commerce ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) leren hoe te om inhoud bij te werken en storefront componenten voor rekeningsbeheer, controle, en andere mogelijkheden te vormen.

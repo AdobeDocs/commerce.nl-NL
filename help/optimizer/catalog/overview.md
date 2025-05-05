@@ -24,7 +24,7 @@ Op een hoog niveau, met de Diensten van het Merchandising kunt u:
 - Ontgrendel catalogussynchronisatie en lever de juiste inhoud door uw productcatalogus te ontwerpen die uw bedrijf, inclusief producten, klanten, prijzen en distributie, weerspiegelt.
 - Snel catalogusgegevens opnemen en bijwerken en snel de updates leveren aan de winkel voor uw promoties en campagnebehoeften.
 - Maak perfecte vuurtorscores met gebruiksklare, bliksemsnelle UI-componenten aangedreven door Edge Delivery Services voor naadloze productnavigatie en aanbevelingen.
-- Ga een moderne composable architectuur die de uitbreidingsarchitectuur van Adobe gebruiken ([ App Builder ](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-development)) om productgegevens en machtshoofdloze handelsafspraken in te voeren gebruikend Adobe [ API Net ](https://experienceleague.adobe.com/en/playlists/commerce-get-started-app-builder-and-api-mesh).
+- Ga een moderne composable architectuur die de uitbreidingsarchitectuur van Adobe gebruiken ([ App Builder ](https://experienceleague.adobe.com/nl/playlists/commerce-get-started-app-builder-development)) om productgegevens en machtshoofdloze handelsafspraken in te voeren gebruikend Adobe [ API Net ](https://experienceleague.adobe.com/nl/playlists/commerce-get-started-app-builder-and-api-mesh).
 
 >[!INFO]
 >

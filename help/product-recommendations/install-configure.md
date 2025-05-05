@@ -41,7 +41,7 @@ composer require magento/product-recommendations
 composer require magento/module-page-builder-product-recommendations
 ```
 
-Door [!DNL Product Recommendations] in de Bouwer van de Pagina toe te laten, kunt u een bestaande, actieve [ aanbeveling eenheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations) aan om het even welke inhoud toevoegen die in de Bouwer van de Pagina, zoals pagina&#39;s, blokken, en dynamische blokken wordt gecreeerd.
+Door [!DNL Product Recommendations] in de Bouwer van de Pagina toe te laten, kunt u een bestaande, actieve [ aanbeveling eenheid ](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/add-content/recommendations) aan om het even welke inhoud toevoegen die in de Bouwer van de Pagina, zoals pagina&#39;s, blokken, en dynamische blokken wordt gecreeerd.
 
 Zie [ Gebruikend  [!DNL Product Recommendations]  met de Inhoud van de Bouwer van de Pagina ](page-builder.md) voor verdere instructies.
 
@@ -59,13 +59,13 @@ composer require magento/module-visual-product-recommendations
 
    Het vormen van deze verbinding laat de gegevenssynchronisatie en de communicatie tussen de instantie van Commerce, de Dienst van de Catalogus, en andere ondersteunende diensten toe. De synchronisatie van gegevens wordt behandeld door de [ uitbreiding van de Uitvoer van Gegevens SaaS ](../data-export/overview.md).
 
-1. Om ervoor te zorgen dat de catalogusuitvoer correct kan lopen, bevestig dat de [ bebouwde ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) banen en de [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) lopen en `Product Feed` indexeerder wordt geplaatst aan `Update by Schedule`.
+1. Om ervoor te zorgen dat de catalogusuitvoer correct kan lopen, bevestig dat de [ bebouwde ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) banen en de [ indexeerders ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers) lopen en `Product Feed` indexeerder wordt geplaatst aan `Update by Schedule`.
 
 Nadat u met succes de toepassing van Commerce aan de Diensten van Commerce verbindt en de [ Ruimte van Gegevens SaaS ](../landing/saas.md#saas-configuration) specificeert, begint de catalogussynchronisatie. U kunt [ dan verifiëren ](verify.md) dat het gedragsgegeven wordt verzonden naar uw storefront.
 
 ## Gegevenssynchronisatie controleren en problemen oplossen
 
-Van Commerce Admin, kunt u het synchronisatieproces controleren gebruikend het [ Dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard). Gebruik [ CLI van Commerce ](../data-export/data-export-cli-commands.md#troubleshooting) en logboeken om het proces te beheren en problemen op te lossen.
+Van Commerce Admin, kunt u het synchronisatieproces controleren gebruikend het [ Dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard). Gebruik [ CLI van Commerce ](../data-export/data-export-cli-commands.md#troubleshooting) en logboeken om het proces te beheren en problemen op te lossen.
 
 U kunt [ dan verifiëren ](verify.md) dat het gedragsgegeven wordt verzonden naar uw storefront.
 
@@ -119,4 +119,4 @@ Voeg `commerce.adobe.io` toe aan de lijst van gewenste personen om productaanbev
 
 ## Verwijderen [!DNL Product Recommendations] {#uninstall}
 
-Indien noodzakelijk, kunt u [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) de product-aanbevelingen module  desinstalleren.
+Indien noodzakelijk, kunt u [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) de product-aanbevelingen module  desinstalleren.

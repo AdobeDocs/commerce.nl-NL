@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Wanneer u een dienst van Commerce installeert die gegevensuitvoer zoals de Dienst van de Catalogus, Levend Onderzoek, of de Aanbevelingen van het Product vereist, wordt een inzameling van de modules van de de gegevensuitvoer van het Saas geïnstalleerd om het gegevensinzameling en synchronisatieproces te beheren.
 
-Bij het exporteren van SaaS-gegevens worden productgegevens doorlopend van een Adobe Commerce-instantie naar het Commerce Services-platform verplaatst om de gegevens up-to-date te houden. Bijvoorbeeld, vereist de Aanbevelingen van het Product huidige catalogusinformatie om aanbevelingen met correcte namen, prijs, en beschikbaarheid nauwkeurig terug te keren. Gebruik het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync) om het synchronisatieproces waar te nemen en te beheren, of de bevel-lijn interface om een synchronisatie teweeg te brengen en productgegevens voor consumptie door de Diensten van Commerce opnieuw te indexeren.
+Bij het exporteren van SaaS-gegevens worden productgegevens doorlopend van een Adobe Commerce-instantie naar het Commerce Services-platform verplaatst om de gegevens up-to-date te houden. Bijvoorbeeld, vereist de Aanbevelingen van het Product huidige catalogusinformatie om aanbevelingen met correcte namen, prijs, en beschikbaarheid nauwkeurig terug te keren. Gebruik het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/data-services/catalog-sync) om het synchronisatieproces waar te nemen en te beheren, of de bevel-lijn interface om een synchronisatie teweeg te brengen en productgegevens voor consumptie door de Diensten van Commerce opnieuw te indexeren.
 
 Het volgende diagram toont de de gegevensuitvoerstroom van SaaS.
 
@@ -65,7 +65,7 @@ Deze banen lopen elke minuut.
 
 Voor gedeeltelijke synchronisatie is de volgende configuratie vereist voor de Commerce-toepassing:
 
-- [ Taak het plannen wordt toegelaten via cron banen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)
+- [ Taak het plannen wordt toegelaten via cron banen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=nl-NL)
 
 - Alle SaaS-indexen voor gegevensexport worden geconfigureerd in de `Update by Schedule` -modus.
 
@@ -82,7 +82,7 @@ Bij Opnieuw proberen mislukte items synchroniseren wordt een afzonderlijk proces
 
 De meeste synchronisatieactiviteiten worden automatisch verwerkt op basis van de toepassingsconfiguratie. De SaaS-gegevensexport biedt echter ook tools om het proces te beheren.
 
-- De gebruikers Admin kunnen synchronisatievooruitgang bekijken en volgen en informatie over de gegevens van het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard) krijgen.
+- De gebruikers Admin kunnen synchronisatievooruitgang bekijken en volgen en informatie over de gegevens van het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard) krijgen.
 
 - Ontwikkelaars, systeemintegrators of beheerders met toegang tot de Commerce-toepassingsserver kunnen het synchronisatieproces en de gegevensinvoer beheren met behulp van het opdrachtregelprogramma van Adobe Commerce (CLI). Zie [ synchronisatieverrichtingen beheren gebruikend Commerce CLI ](data-export-cli-commands.md).
 
@@ -90,11 +90,11 @@ De meeste synchronisatieactiviteiten worden automatisch verwerkt op basis van de
 
 Gedeeltelijke synchronisatie en Opnieuw mislukte items synchroniseren werken alleen als het Commerce-exemplaar correct is geconfigureerd. De configuratie wordt meestal voltooid wanneer u de Commerce Service instelt. Controleer de volgende configuratie als de gegevensexport niet correct werkt.
 
-- [ Bevestig dat de bouwbanen ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues) lopen.
+- [ Bevestig dat de bouwbanen ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues) lopen.
 
-- Verifieer dat de indexen van [ Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen of door het bevel van Commerce CLI te gebruiken `bin/magento indexer:info`.
+- Verifieer dat de indexen van [ Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) lopen of door het bevel van Commerce CLI te gebruiken `bin/magento indexer:info`.
 
-- Controleer of de indexeerders voor de volgende feeds zijn ingesteld op `Update by Schedule` : Cataloguskenmerken, Product, Productoverschrijvingen en Productvariabele. U kunt de indexen van [ Beheer van de Index ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) in Admin controleren of CLI gebruiken (`bin/magento indexer:show-mode | grep -i feed`).
+- Controleer of de indexeerders voor de volgende feeds zijn ingesteld op `Update by Schedule` : Cataloguskenmerken, Product, Productoverschrijvingen en Productvariabele. U kunt de indexen van [ Beheer van de Index ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) in Admin controleren of CLI gebruiken (`bin/magento indexer:show-mode | grep -i feed`).
 
 ### Meldingen van gebeurtenismanager voor het registreren van gegevensoverdracht
 

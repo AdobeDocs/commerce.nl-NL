@@ -16,7 +16,7 @@ Met de opdracht `saas:resync` in het `magento/saas-export` -pakket kunt u gegeve
 Adobe raadt u niet aan de opdracht `saas:resync` regelmatig te gebruiken. De typische scenario&#39;s voor het gebruiken van het bevel zijn:
 
 - Eerste synchronisatie
-- De gegevens van de synchronisatie aan nieuwe gegevensruimte na het veranderen van [ identiteitskaart van de Ruimte van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
+- De gegevens van de synchronisatie aan nieuwe gegevensruimte na het veranderen van [ identiteitskaart van de Ruimte van Gegevens SaaS ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/services/saas)
 - Problemen oplossen
 
 Synchronisatiebewerkingen in het `var/log/saas-export.log` -bestand controleren.

@@ -35,7 +35,7 @@ Als u een koploze winkel gebruikt, raadpleegt u de volgende documentatie voor me
 
 ## Bereik instellen
 
-Aanvankelijk wordt het [ werkingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) van alle aanbevelingen montages geplaatst aan `Default Store View`. Als uw installatie van Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) waar uw aanbevelingen van toepassing zijn.
+Aanvankelijk wordt het [ werkingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL) van alle aanbevelingen montages geplaatst aan `Default Store View`. Als uw installatie van Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) waar uw aanbevelingen van toepassing zijn.
 
 ## Datumbereik van metrische gegevens instellen
 

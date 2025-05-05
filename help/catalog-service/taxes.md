@@ -20,8 +20,8 @@ In dit onderwerp, wordt API Net gebruikt om productprijzen op een Pagina van het
 
 Er moeten belastingen zijn geconfigureerd om te worden weergegeven op de pagina Productdetails.
 
-1. [ de belastingtarieven van de opstelling ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html).
-1. Laat belastingen toe om in de catalogus [&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html#step-1%3A-configure-catalog-prices-display-settings) worden getoond, en plaats het aan of `Including and Excluding Tax` of `Including Tax`.
+1. [ de belastingtarieven van de opstelling ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html?lang=nl-NL).
+1. Laat belastingen toe om in de catalogus [&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html?lang=nl-NL#step-1%3A-configure-catalog-prices-display-settings) worden getoond, en plaats het aan of `Including and Excluding Tax` of `Including Tax`.
 
 Controleer of de Catalogusservice werkt door een pagina met productdetails te controleren.
 

@@ -112,7 +112,7 @@ Als uw winkel bijvoorbeeld bepaalde biologische producten verkoopt, hebt u mogel
 
 ![ voeg Badge ](assets/unit-custom.png) toe
 
-Om ervoor te zorgen is een attribuut van het douaneproduct beschikbaar wanneer u de aanbeveling op de pagina teruggeeft, plaats het `Used in Product Listing` bezit aan `Yes` in de [ pagina van de Attributen van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) in Admin.
+Om ervoor te zorgen is een attribuut van het douaneproduct beschikbaar wanneer u de aanbeveling op de pagina teruggeeft, plaats het `Used in Product Listing` bezit aan `Yes` in de [ pagina van de Attributen van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=nl-NL) in Admin.
 
 Wanneer deze eigenschap is ingesteld, bevat de JSON-payload een `attributes` -object dat een array van kenmerkcodes en -waarden bevat. Vervolgens kunt u aangepaste opmaakcodes voor winkels toepassen op basis van deze kenmerkwaarden, zoals speciale visuele behandelingen of badges toevoegen zoals eerder vermeld.
 

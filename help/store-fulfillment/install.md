@@ -18,7 +18,7 @@ Voltooi de eerste installatie van de extensie [!DNL Store Fulfillment for Adobe 
 
 >[!TIP]
 >
->Bevorder de uitbreiding van de Afhandeling van de Opslag voor Adobe Commerce op gebouw door de [ verbeteringsinstructies ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) in de _Gids van de Verbetering van Adobe Commerce_ te volgen. Voor Adobe Commerce op wolkeninfrastructuur, zie [ bevorderen een uitbreiding ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html#upgrade-an-extension) in *Commerce op de Gids van de Infrastructuur van de Wolk*.
+>Bevorder de uitbreiding van de Afhandeling van de Opslag voor Adobe Commerce op gebouw door de [ verbeteringsinstructies ](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=nl-NL) in de _Gids van de Verbetering van Adobe Commerce_ te volgen. Voor Adobe Commerce op wolkeninfrastructuur, zie [ bevorderen een uitbreiding ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=nl-NL#upgrade-an-extension) in *Commerce op de Gids van de Infrastructuur van de Wolk*.
 
 ## Vereisten
 
@@ -35,17 +35,17 @@ composer require walmart/magento-bopis-metapackage:1.0.0
 
 - **Toegang tot de Opslag die door het softwarearchief van de Technologieën van Commerce van het Spoor (.zip- dossier)** wordt ontvangen - tijdens het onboarding en enablement proces, werk met uw Manager van de Rekening om toegang tot het installatiedossier voor de uitbreiding van de Afhandeling van de Opslag te krijgen.
 
-- **de rekeningsinformatie van Adobe Commerce** - Installerend de [!DNL Store Fulfillment] oplossing vereist a [[!DNL Commerce]  rekening ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create){target="_blank"} . U hebt een account-id en gebruikersgegevens nodig met de toegang tot het [!DNL Adobe Commerce] -project door Eigenaar of Beheerder.
+- **de rekeningsinformatie van Adobe Commerce** - Installerend de [!DNL Store Fulfillment] oplossing vereist a [[!DNL Commerce]  rekening ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/commerce-account/commerce-account-create){target="_blank"} . U hebt een account-id en gebruikersgegevens nodig met de toegang tot het [!DNL Adobe Commerce] -project door Eigenaar of Beheerder.
 
-- Voor [!DNL Adobe Commerce] in projecten met cloudinfrastructuur moeten softwareinstallatieprogramma&#39;s beheerderstoegang tot het Cloud-project hebben. Zie [ gebruikerstoegang beheren ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access).
+- Voor [!DNL Adobe Commerce] in projecten met cloudinfrastructuur moeten softwareinstallatieprogramma&#39;s beheerderstoegang tot het Cloud-project hebben. Zie [ gebruikerstoegang beheren ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/project/user-access).
 
-- **Ervaring gebruikend Composer en[!DNL Commerce CLI]** - zie [ Algemene Installatie CLI ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions){target="_blank"}  voor informatie over het gebruiken van deze hulpmiddelen om uitbreidingen op het [!DNL Adobe Commerce] platform te installeren en te beheren.
+- **Ervaring gebruikend Composer en[!DNL Commerce CLI]** - zie [ Algemene Installatie CLI ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions){target="_blank"}  voor informatie over het gebruiken van deze hulpmiddelen om uitbreidingen op het [!DNL Adobe Commerce] platform te installeren en te beheren.
 
 - **Ervaring die derdeuitbreidingen op Adobe Commerce** installeert - voor verwijzing, zie de documentatie van Adobe Commerce.
 
-   - [ installeer een uitbreiding voor een Adobe Commerce op de instantie van de wolkeninfrastructuur ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension).
+   - [ installeer een uitbreiding voor een Adobe Commerce op de instantie van de wolkeninfrastructuur ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension).
 
-   - [ installeer een uitbreiding voor een Adobe Commerce op-gebouw instantie ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions).
+   - [ installeer een uitbreiding voor een Adobe Commerce op-gebouw instantie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions).
 
 ### Stap 1: De extensiesbundel downloaden
 
@@ -92,7 +92,7 @@ Gebruik Composer om de bronmap voor de installatie te configureren en de extensi
 
 >[!NOTE]
 >
->Voor betere prestaties op Adobe Commerce op-gebouwinstanties, kunt u [ de autoload configuratie ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/deployment-flow.html#update-the-autoloader) bijwerken: `composer dump-autoload --optimize`
+>Voor betere prestaties op Adobe Commerce op-gebouwinstanties, kunt u [ de autoload configuratie ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/deployment-flow.html?lang=nl-NL#update-the-autoloader) bijwerken: `composer dump-autoload --optimize`
 
 ### Stap 4: Upgrade het databaseschema en de gegevens
 
@@ -134,7 +134,7 @@ Verifieer bij de Adobe Commerce-server of de modules voor de extensie Store Fulf
 
 1. Log in bij de server.
 
-   Voor installaties op Adobe Commerce op wolkeninfrastructuur, [ gebruik SSH aan login aan het verre milieu ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh).
+   Voor installaties op Adobe Commerce op wolkeninfrastructuur, [ gebruik SSH aan login aan het verre milieu ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh).
 
 1. Verifieer dat de modules van de Diensten van de Afhandeling van de Opslag worden toegelaten.
 
@@ -188,7 +188,7 @@ Verifieer bij de Adobe Commerce-server of de modules voor de extensie Store Fulf
 
 ### Aanvullende stappen
 
-Indien nodig, gebruik de [ opstelling :static-content: ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/cli-reference/commerce-on-premises){target="_blank"}  CLI bevel opstelt om statische meningsdossiers aan uw productiemilieu op te stellen.
+Indien nodig, gebruik de [ opstelling :static-content: ](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/cli-reference/commerce-on-premises){target="_blank"}  CLI bevel opstelt om statische meningsdossiers aan uw productiemilieu op te stellen.
 
 ```bash
 php bin/magento setup:static-content:deploy -f
@@ -198,6 +198,6 @@ De optie `-f` is vereist als u een leeg thema gebruikt.
 
 >[!NOTE]
 >
->Voor meer informatie, zie de [ Statische inhoud beste praktijken in Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/static-content-deployment.html) artikel in het Centrum van de Hulp van Adobe Commerce opstelt.
+>Voor meer informatie, zie de [ Statische inhoud beste praktijken in Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/development/static-content-deployment.html?lang=nl-NL) artikel in het Centrum van de Hulp van Adobe Commerce opstelt.
 
 

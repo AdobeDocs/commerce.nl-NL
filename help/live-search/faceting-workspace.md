@@ -16,7 +16,7 @@ De *Faceting* werkruimte maakt een lijst van alle facetten die momenteel beschik
 
 ## Bereik instellen
 
-Als uw installatie van Adobe Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) waar uw facetmontages van toepassing zijn.
+Als uw installatie van Adobe Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) waar uw facetmontages van toepassing zijn.
 
 ## De lijst filteren
 

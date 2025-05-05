@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Opslaglocatie en Toewijzing instellen
 
-Laat de opslagplaats en de afbeeldingsmogelijkheden voor de Afhandeling van de Opslag toe door a [ afstandsleverancier ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) te vormen om naar kleinhandelsopslagplaatsen te zoeken.
+Laat de opslagplaats en de afbeeldingsmogelijkheden voor de Afhandeling van de Opslag toe door a [ afstandsleverancier ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/distance-priority-algorithm) te vormen om naar kleinhandelsopslagplaatsen te zoeken.
 
 **Vereisten**
 
-Tijdens het configuratieproces geeft u een Google API-sleutel op voor het Google Maps-platform. Als u geen hebt, [ produceert één van het platform van Kaarten van Google ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/distance-priority-algorithm#configure-google-maps).
+Tijdens het configuratieproces geeft u een Google API-sleutel op voor het Google Maps-platform. Als u geen hebt, [ produceert één van het platform van Kaarten van Google ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/distance-priority-algorithm#configure-google-maps).
 
 Om de afstandsleverancier te vormen:
 

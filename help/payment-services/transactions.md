@@ -131,9 +131,9 @@ Transactierapporten bevatten de volgende informatie.
 
 | Kolom | Beschrijving |
 | ------------ | -------------------- |
-| [!UICONTROL Order ID] | Commerce orde ID (bevat slechts waarden voor succesvolle transacties en is leeg voor verworpen transacties) <br> <br> om verwante [ orde info ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"} te zien , klik identiteitskaart |
+| [!UICONTROL Order ID] | Commerce orde ID (bevat slechts waarden voor succesvolle transacties en is leeg voor verworpen transacties) <br> <br> om verwante [ orde info ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"} te zien , klik identiteitskaart |
 | [!UICONTROL PayPal Transaction ID] | Transactie-id verstrekt door de betalingsaanbieder; bevat alleen waarden voor geslaagde transacties en bevat een streepje voor geweigerde transacties. U kunt op deze id klikken om de pagina met PayPal-transactiegegevens te openen. |
-| [!UICONTROL Customer ID] | Commerce-klant-id van een bestelling <br> <br> zie [ klanteninfo ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/account-create){target="_blank"}  onderwerp voor meer informatie. |
+| [!UICONTROL Customer ID] | Commerce-klant-id van een bestelling <br> <br> zie [ klanteninfo ](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/account-create){target="_blank"}  onderwerp voor meer informatie. |
 | [!UICONTROL Transaction Date] | Tijdstempel van transactiedatum |
 | [!UICONTROL Payment Method] | Soort betaling gebruikt voor de transactie met informatie over merk en type kaart. Zie [ kaarttypes ](https://developer.paypal.com/docs/api/orders/v2/#definition-card_type) voor meer informatie; beschikbaar voor versies 1.6.0 van de Diensten van de Betaling en nieuwer |
 | [!UICONTROL Payment Detail] | Bevat aanvullende informatie over het type betaling dat voor de transactie wordt gebruikt, indien beschikbaar. |

@@ -18,7 +18,7 @@ De *werkruimte van Prestaties* verstrekt inzicht in de onderzoekstermijnen die d
 
 ![ Prestaties ](assets/performance-unique-searches.png)
 
-U kunt ook naar het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html) voor meer gegevens over gegevens het synchroniseren verwijzen.
+U kunt ook naar het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=nl-NL) voor meer gegevens over gegevens het synchroniseren verwijzen.
 
 >[!NOTE]
 >

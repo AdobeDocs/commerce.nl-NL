@@ -18,9 +18,9 @@ Voor dit proces is een IMS-organisatie met toegang tot [!DNL Adobe Commerce as a
 
 >[!TIP]
 >
->Om veelvoudige gebruikers gelijktijdig toe te voegen, kunt u a [ bulkupload CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"} uitvoeren .
+>Om veelvoudige gebruikers gelijktijdig toe te voegen, kunt u a [ bulkupload CSV ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html){target="_blank"} uitvoeren .
 > 
-> U kunt veelvoudige gebruikers aan een rol ook toevoegen door a [ gebruikersgroep ](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"}  te creëren. Dan kunt u [!UICONTROL **Adobe Commerce as a Cloud Service toevoegen - 1&rbrace; product van de Achtergrond aan de gebruikersgroep.**]
+> U kunt veelvoudige gebruikers aan een rol ook toevoegen door a [ gebruikersgroep ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html){target="_blank"}  te creëren. Dan kunt u [!UICONTROL **Adobe Commerce as a Cloud Service toevoegen - 1&rbrace; product van de Achtergrond aan de gebruikersgroep.**]
 
 ## Rollen begrijpen
 
@@ -28,11 +28,11 @@ De volgende rollen zijn beschikbaar voor [!DNL Adobe Commerce as a Cloud Service
 
 * **Gebruikers** - de gebruikers hebben toegang Admin tot Commerce Admin, maar kunnen toegang op productniveau in Admin Console niet beheren. De gebruikers kunnen credits ook gebruiken om [ instanties ](./getting-started.md#create-an-instance) in [!DNL Commerce Cloud Manager] tot stand te brengen.
 
-* [**Ontwikkelaars** ](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"}  de Ontwikkelaars hebben gebruikerstoestemmingen en aan de instantie van Commerce als ontwikkelaarsgebruiker toegevoegd. Dit betekent zij [ Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"}  kunnen gebruiken, [ vormen gebeurtenissen ](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} , en [ creëren webhooks ](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"} .
+* [**Ontwikkelaars** ](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"}  de Ontwikkelaars hebben gebruikerstoestemmingen en aan de instantie van Commerce als ontwikkelaarsgebruiker toegevoegd. Dit betekent zij [ Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"}  kunnen gebruiken, [ vormen gebeurtenissen ](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} , en [ creëren webhooks ](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"} .
 
 * Beheerders - Er zijn drie verschillende typen beheerders:
-   * [ beheert het Systeem ](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"}  - het systeem admin heeft toegang tot alle producten en productprofielen in de organisatie door Admin Console.
-   * [ Admins van het Product ](#add-a-product-admin) - de beheerders van het Product kunnen [ gebruikers, rollen, en toestemmingen voor het product ](#add-users-and-admins) in [!DNL Adobe Admin Console] beheren en [ gebruikers in Commerce beheren Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"} .
+   * [ beheert het Systeem ](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html){target="_blank"}  - het systeem admin heeft toegang tot alle producten en productprofielen in de organisatie door Admin Console.
+   * [ Admins van het Product ](#add-a-product-admin) - de beheerders van het Product kunnen [ gebruikers, rollen, en toestemmingen voor het product ](#add-users-and-admins) in [!DNL Adobe Admin Console] beheren en [ gebruikers in Commerce beheren Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"} .
    * [ het profielbeheerders van het Product ](#add-users-developers-and-product-profile-admins) - de profielbeheerders van het Product hebben geen toegang tot Adobe Commerce Admin, maar kunnen gebruikers voor het product in [!DNL Adobe Admin Console] beheren.
 
 Voor gedetailleerde informatie over de toestemmingen die aan elke rol binnen Adobe Commerce worden verleend, verwijs naar [ gebruikerstoestemmingen ](#user-permissions).

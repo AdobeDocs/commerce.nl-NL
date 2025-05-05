@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De [ uitbreiding van de Verbinding van Gegevens ](overview.md) verbindt uw gegevens van Commerce met Experience Platform. De gegevens voorgenomen voor gebruik in Experience Platform worden gegroepeerd in twee gedragstypes: tijdreeksgegevens, die tot de **klasse van de Gebeurtenis van de 1&rbrace; van de Ervaring behoren**, en verslaggegevens, die tot de **Individuele klasse van het Profiel** behoren.
 
-Leer meer over [ gegevensgedrag ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#data-behaviors) en [ klassen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#class) in Experience Platform.
+Leer meer over [ gegevensgedrag ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#data-behaviors) en [ klassen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#class) in Experience Platform.
 
 ## Gegevens uit tijdreeksen
 
@@ -30,7 +30,7 @@ Leer hoe te om [ een schema ](update-xdm.md) tot stand te brengen dat gedrags en
 
 ## Gegevens opnemen
 
-De gegevens van het verslag verstrekken informatie over de attributen van een onderwerp. Een onderwerp kan een organisatie of een individu zijn. Een winkelier op uw site maakt bijvoorbeeld een account en genereert recordgegevens. Dit gegeven wordt opgenomen in Experience Platform gebruikend een schema dat de klasse heeft die aan **Individueel Profiel** wordt geplaatst. U kunt die verslaggegevens naar het profielbeheer en de segmenteringsdienst van Adobe verzenden: [ Real-Time CDP ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html).
+De gegevens van het verslag verstrekken informatie over de attributen van een onderwerp. Een onderwerp kan een organisatie of een individu zijn. Een winkelier op uw site maakt bijvoorbeeld een account en genereert recordgegevens. Dit gegeven wordt opgenomen in Experience Platform gebruikend een schema dat de klasse heeft die aan **Individueel Profiel** wordt geplaatst. U kunt die verslaggegevens naar het profielbeheer en de segmenteringsdienst van Adobe verzenden: [ Real-Time CDP ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html?lang=nl-NL).
 
 ### Vastgelegde profielrecordgegevens
 

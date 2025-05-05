@@ -644,4 +644,4 @@ De implementatie en het testen zijn afhankelijk van uw infrastructuur en mogelij
 
 >[!TIP]
 >
->Voor plaatsingsrichtlijnen, checklists, en beste praktijken voor Adobe Commerce op de projecten van de wolkeninfrastructuur, zie [ uw opslag ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) in de documentatie van de Ontwikkelaar van Adobe Commerce opstellen.
+>Voor plaatsingsrichtlijnen, checklists, en beste praktijken voor Adobe Commerce op de projecten van de wolkeninfrastructuur, zie [ uw opslag ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) in de documentatie van de Ontwikkelaar van Adobe Commerce opstellen.

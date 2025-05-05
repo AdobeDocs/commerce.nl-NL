@@ -62,7 +62,7 @@ Leren om tot uw API sleutels te leiden of toegang te hebben, zie [ API geloofsbr
 
 ## Problemen oplossen
 
-* [ los  [!DNL Payment Services]  installatie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=en) problemen op
-* [ niet geverifieerde Paypal- zandbakrekening ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html)
-* [ Vertraagde  [!DNL Payment Services]  rapportgegevens ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html)
-* [ Kredietkaart van de Test ontbreekt met PayPal wanneer het verwerken van betalingen in een milieu Sandbox ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=en)
+* [ los  [!DNL Payment Services]  installatie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=nl-NL) problemen op
+* [ niet geverifieerde Paypal- zandbakrekening ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html?lang=nl-NL)
+* [ Vertraagde  [!DNL Payment Services]  rapportgegevens ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html?lang=nl-NL)
+* [ Kredietkaart van de Test ontbreekt met PayPal wanneer het verwerken van betalingen in een milieu Sandbox ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=nl-NL)

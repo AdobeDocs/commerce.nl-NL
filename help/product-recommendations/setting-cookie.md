@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Cookie-beperkingen verwerken
 
-Zowel Adobe Commerce als Magento Open Source vragen om toestemming voordat gegevens in browsercookies worden opgeslagen. Voor meer informatie, verwijs naar [ de beperkingswijze van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html).
+Zowel Adobe Commerce als Magento Open Source vragen om toestemming voordat gegevens in browsercookies worden opgeslagen. Voor meer informatie, verwijs naar [ de beperkingswijze van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL).
 
 Wanneer u de `magento/product-recommendations` module aan productie opstelt, begint het inzamelen van de gebeurtenissen van de winkelinteractie op uw storefront. Omdat de gegevens voor deze gebeurtenissen in browser koekjes of lokale opslag kunnen worden opgeslagen, steunt de eigenschap koekjesbeperkingswijze door geen gebeurtenissen te verzamelen tot de verkoopster koekjestoestemming heeft gegeven.
 

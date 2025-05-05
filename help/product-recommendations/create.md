@@ -24,11 +24,11 @@ Wanneer u de aanbevelingseenheid activeert, begint Adobe Commerce [ gegevens ](w
 
 1. Op _Admin_ sidebar, ga **Marketing** > _Bevorderingen_ > **Aanbevelingen van het Product** om de _9&rbrace; werkruimte van de Aanbevelingen van het Product te tonen._
 
-1. Specificeer de [ Mening van de Opslag ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views) waar u de aanbevelingen aan vertoning wilt.
+1. Specificeer de [ Mening van de Opslag ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/setup/websites-stores-views) waar u de aanbevelingen aan vertoning wilt.
 
    >[!NOTE]
    >
-   > De aanbevelingen van de Bouwer van de pagina moeten de eenheden in de standaardarchiefmening worden gecreeerd, maar kunnen dan overal worden gebruikt. Meer leren over het creëren van productaanbevelingen met de Bouwer van de Pagina, zie [ Inhoud toevoegen - de Aanbevelingen van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations).
+   > De aanbevelingen van de Bouwer van de pagina moeten de eenheden in de standaardarchiefmening worden gecreeerd, maar kunnen dan overal worden gebruikt. Meer leren over het creëren van productaanbevelingen met de Bouwer van de Pagina, zie [ Inhoud toevoegen - de Aanbevelingen van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/add-content/recommendations).
 
 1. Klik **creëren Aanbeveling**.
 
@@ -38,14 +38,14 @@ Wanneer u de aanbevelingseenheid activeert, begint Adobe Commerce [ gegevens ](w
 
    >[!NOTE]
    >
-   > De Aanbevelingen van het product worden niet gesteund op de pagina van het Kart wanneer uw opslag aan [ wordt gevormd tonen de het winkelwagentje pagina onmiddellijk na het toevoegen van een product aan de kar ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration).
+   > De Aanbevelingen van het product worden niet gesteund op de pagina van het Kart wanneer uw opslag aan [ wordt gevormd tonen de het winkelwagentje pagina onmiddellijk na het toevoegen van een product aan de kar ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration).
 
    * Startpagina
    * Categorie
    * Productgegevens
    * Kar
    * Bevestiging
-   * [ de Bouwer van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)
+   * [ de Bouwer van de Pagina ](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/add-content/recommendations)
 
    U kunt maximaal vijf actieve aanbevelingen maken voor elk paginatype en maximaal 25 voor Page Builder. Het paginatype wordt grijs weergegeven wanneer de limiet is bereikt.
 

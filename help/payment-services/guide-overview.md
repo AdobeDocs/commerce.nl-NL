@@ -37,7 +37,7 @@ Deze handleiding heeft geen betrekking op de kernmogelijkheden van [!DNL Adobe C
 
 | Hulplijn | Beschrijving |
 |------ | ----------- |
-| [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Bedrijfsgerichte documentatie voor zowel [!DNL Adobe Commerce] als [!DNL Magento Open Source] |
+| [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL) | Bedrijfsgerichte documentatie voor zowel [!DNL Adobe Commerce] als [!DNL Magento Open Source] |
 | [[!DNL Adobe Commerce]  2.4 Gids van de Ontwikkelaar ](https://developer.adobe.com/commerce/docs) | Op ontwikkelaars gerichte documentatie gebruikt om [!DNL Adobe Commerce] of [!DNL Magento Open Source] samen te stellen en aan te passen |
 
 ## Ondersteuning
@@ -48,5 +48,5 @@ Als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden b
 
 Zie [ Beschikbaarheid ](overview.md#availability) om te controleren welke [!DNL Payment Services] optie voor u juist is.
 
-* [ centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) - onderzoek naar [!DNL Payment Services] verwante het oplossen van problemenartikelen in knowledgebase.
-* [ de kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - de klanten van Commerce kunnen een kaartje voorleggen om extra hulp te ontvangen.
+* [ centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=nl-NL) - onderzoek naar [!DNL Payment Services] verwante het oplossen van problemenartikelen in knowledgebase.
+* [ de kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) - de klanten van Commerce kunnen een kaartje voorleggen om extra hulp te ontvangen.

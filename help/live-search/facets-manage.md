@@ -35,7 +35,7 @@ Verwijs naar [ Montages ](settings.md) om prijsfacetintervallen en groeperingen 
 
 1. Voer een van de volgende handelingen uit om het label van het facet te bewerken:
 
-   * Voor a [!DNL Commerce] storefront, geef het [ attributenetiket ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) uit.
+   * Voor a [!DNL Commerce] storefront, geef het [ attributenetiket ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=nl-NL) uit.
    * Voor een implementatie zonder kop klikt u op de waarde in de eerste kolom en bewerkt u de tekst naar wens.
 
    ![ geef etiket ](assets/facet-edit-label.png) uit

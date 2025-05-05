@@ -67,7 +67,7 @@ _Mei 23, 2024_
 
 ![ Repareren ](../assets/fix.svg) <!--DATA-5033--> De `InStock` vlag voor optiewaarden neemt nu rekening met het scoped `enabled` status van de productvariant.
 
-![ Repareren ](../assets/fix.svg) <!--DATA-5888--> voegt steun voor productprijzen toe die grote aantallen (tot 16 cijfers) en grotere decimale precisie (tot 4 decimalen) vereisen. Om de updates van de prijsconfiguratie op uw bestaande catalogus toe te passen, hersynchroniseer catalogusgegevens van het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard), of door het [ bevel-lijn van Adobe Commerce interface ](../landing/catalog-sync.md#command-line-interface) te gebruiken.
+![ Repareren ](../assets/fix.svg) <!--DATA-5888--> voegt steun voor productprijzen toe die grote aantallen (tot 16 cijfers) en grotere decimale precisie (tot 4 decimalen) vereisen. Om de updates van de prijsconfiguratie op uw bestaande catalogus toe te passen, hersynchroniseer catalogusgegevens van het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard), of door het [ bevel-lijn van Adobe Commerce interface ](../landing/catalog-sync.md#command-line-interface) te gebruiken.
 
 #### Bekende beperkingen
 
@@ -101,7 +101,7 @@ _22 Februari, 2024_
 
 [!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
-![ Nieuw ](../assets/new.svg) [[!DNL Data Management Dashboard] ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html) is nu beschikbaar. Dit vernieuwde dashboard biedt inzichten in gegevensstromen voor [!DNL Product Recommendations] , [!DNL Live Search] en [!DNL Catalog Service] . Ondersteuning voor deze functie is geïntroduceerd in v3.1.0 van het `catalog-service` -pakket.
+![ Nieuw ](../assets/new.svg) [[!DNL Data Management Dashboard] ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=nl-NL) is nu beschikbaar. Dit vernieuwde dashboard biedt inzichten in gegevensstromen voor [!DNL Product Recommendations] , [!DNL Live Search] en [!DNL Catalog Service] . Ondersteuning voor deze functie is geïntroduceerd in v3.1.0 van het `catalog-service` -pakket.
 
 ### V1.16 Release
 

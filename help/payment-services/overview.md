@@ -34,7 +34,7 @@ Of u nu een kleine onderneming, een medio-markt contant of een grote onderneming
 * [**de opties van de Betaling**](payments-options.md) - plaats de betalingsopties om de methodes beschikbaar voor uw opslag (of multistore) klanten aan te passen.
 * **het beheer van de kasstroom financiële rapportering** - synchroniseer [ betalingsdetails ](order-payment-status.md) met orden om volledige transparantie aan het verwerkte volume, het betalingssaldo, [ saldi, ](payouts.md), en gedetailleerde [ transactie-vlakke rapportering ](transactions.md) voor financiële afstemming en het uiterste in transactiezicht te krijgen.
 * **Transparante tarifering** - het Tarief is duidelijk en vooraan; wat u ziet is wat u krijgt.
-* **- verwijder de Efficiënte controleervaring van 0&rbrace; &lbrace;om het even welke barrières aan een snelle en eenvoudige controle, en creeer loyale klanten, met [ kaart die ](vaulting.md) en [ Onmiddellijke Aankoop ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase.html) in kluizen (die door gebrek voor Adobe Commerce wordt toegelaten) eigenschappen.**
+* **- verwijder de Efficiënte controleervaring van 0&rbrace; &lbrace;om het even welke barrières aan een snelle en eenvoudige controle, en creeer loyale klanten, met [ kaart die ](vaulting.md) en [ Onmiddellijke Aankoop ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase.html?lang=nl-NL) in kluizen (die door gebrek voor Adobe Commerce wordt toegelaten) eigenschappen.**
 
 ## Beschikbaarheid
 
@@ -50,7 +50,7 @@ Momenteel, [!DNL Payment Services] verleent volledige steun (via [ Geavanceerde 
 
 De Diensten van de betaling verstrekt [ Uitdrukkelijke mogelijkheden van de Controle ](../payment-services/payments-options.md) (ondergroep van betalingsopties) voor andere [ beschikbare landen tijdens onboarding ](../payment-services/production.md#complete-merchant-onboarding).
 
-Zie [ beleid van de Levenscyclus ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) en de [[!DNL Payment Services]  versienota&#39;s ](release-notes.md) pagina&#39;s voor meer versie en versie-specifieke informatie.
+Zie [ beleid van de Levenscyclus ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=nl-NL) en de [[!DNL Payment Services]  versienota&#39;s ](release-notes.md) pagina&#39;s voor meer versie en versie-specifieke informatie.
 
 ### Welke [!DNL Payment Services] optie is geschikt voor u?
 
@@ -60,7 +60,7 @@ Zie [ verbinden ](connect.md) voor meer informatie bij vestiging uw [!DNL Paymen
 
 ### Geaccepteerde kredietkaarten en valuta&#39;s
 
-[!DNL Payment Services] keurt de valuta&#39;s van de landen [ goed waarin het ](#availability) beschikbaar is. Zie [ configuratie van de Valuta ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html) voor meer informatie.
+[!DNL Payment Services] keurt de valuta&#39;s van de landen [ goed waarin het ](#availability) beschikbaar is. Zie [ configuratie van de Valuta ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html?lang=nl-NL) voor meer informatie.
 
 Om te zien welke munteenheden PayPal steunt, zie [ Gesteunde muntdocumentatie ](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/).
 

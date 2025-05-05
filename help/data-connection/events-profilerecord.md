@@ -24,7 +24,7 @@ Hieronder worden de gegevens beschreven die zijn vastgelegd voor een profielreco
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/namespaces). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/namespaces). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `person` | Bevat informatie over de klant. |
@@ -59,6 +59,6 @@ Hieronder worden de gegevens beschreven die zijn vastgelegd voor een profielreco
 
 >[!NOTE]
 >
->Elk profielverslag omvat ook het [`identityMap` ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap) gebied, dat het systeem geproduceerde identiteitskaart van de Klant van Commerce als primaire herkenningsteken voor het profiel en een e-mailidentiteitskaart omvat die als secundaire herkenningsteken wordt gebruikt.
+>Elk profielverslag omvat ook het [`identityMap` ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/profile/identitymap) gebied, dat het systeem geproduceerde identiteitskaart van de Klant van Commerce als primaire herkenningsteken voor het profiel en een e-mailidentiteitskaart omvat die als secundaire herkenningsteken wordt gebruikt.
 
 Leer hoe te [ een profiel tot stand brengen verslag-specifiek schema ](profile-data.md) dat de gegevens van uw profielverslagen kan opnemen.

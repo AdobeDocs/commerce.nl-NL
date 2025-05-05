@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Het integreren van [ Adobe Experience Platform Mobile SDK ](https://developer.adobe.com/client-sdks/home/) met de mobiele app van Commerce staat verkopers toe om Commerce [ gebeurtenisgegevens ](events.md) naar de rand van Experience Platform te verzenden.
 
-Wanneer Commerce-gebeurtenisgegevens aan de rand beschikbaar zijn, kunnen deze door andere Adobe Experience Cloud-toepassingen worden geopend. Bijvoorbeeld, kunt u de gegevens gebruiken om publiek in Real-Time CDP toen [ te bouwen die publiek ](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html) gebruiken om uw mobiele app van Commerce te personaliseren.
+Wanneer Commerce-gebeurtenisgegevens aan de rand beschikbaar zijn, kunnen deze door andere Adobe Experience Cloud-toepassingen worden geopend. Bijvoorbeeld, kunt u de gegevens gebruiken om publiek in Real-Time CDP toen [ te bouwen die publiek ](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html?lang=nl-NL) gebruiken om uw mobiele app van Commerce te personaliseren.
 
 ## Configuratie
 
@@ -26,7 +26,7 @@ Installeer en configureer de SDK in de Experience Platform om aan de slag te gaa
 
 ### Experience Platform
 
-1. Leer over mobiele toepassingsmogelijkheden door [ Adobe Experience Cloud in mobiele apps te herzien leerprogramma ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html).
+1. Leer over mobiele toepassingsmogelijkheden door [ Adobe Experience Cloud in mobiele apps te herzien leerprogramma ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=nl-NL).
 
 1. [ installeer en vorm ](https://developer.adobe.com/client-sdks/documentation/getting-started/) de SDK in Experience Platform.
 
@@ -162,4 +162,4 @@ Alle [ gebeurtenissen ](events.md) bevatten een geroepen gebied `channel`. Het v
 
 ## Volgende stappen
 
-Om te leren hoe te om het publiek van Real-Time CDP van uw mobiele app van Commerce terug te winnen om de regels van de wortelprijs, dynamische blokken, en verwante productregels te informeren, zie [ Audience Activation ](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html#retrieve-audiences-using-the-adobe-experience-platform-mobile-sdk).
+Om te leren hoe te om het publiek van Real-Time CDP van uw mobiele app van Commerce terug te winnen om de regels van de wortelprijs, dynamische blokken, en verwante productregels te informeren, zie [ Audience Activation ](https://experienceleague.adobe.com/docs/commerce-admin/customers/audience-activation.html?lang=nl-NL#retrieve-audiences-using-the-adobe-experience-platform-mobile-sdk).

@@ -26,7 +26,7 @@ In dit artikel leert u:
 
 ## Installatie
 
-Als u toe:voegen-op van de gezondheidszorg voor Adobe [!DNL Commerce] kocht, installeerde u zeer waarschijnlijk reeds de [ HIPAA-Klaar uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#installation). Om ervoor te zorgen dat uw [!DNL Commerce] gegevens van de achterkantoorgebeurtenis HIPAA-klaar zijn, moet u ook de [!DNL Data Connection] uitbreiding met de extra **3&rbrace; uitbreiding van HIPAA van de Diensten van Gegevens installeren &lbrace;.** De **uitbreiding van HIPAA van de Diensten van Gegevens** zorgt ervoor dat om het even welke achterkantoorgegevens u naar Experience Platform verzendt HIPAA-klaar is. Leer [ hoe te om de uitbreiding ](install.md#install-the-data-services-hipaa-extension) te installeren.
+Als u toe:voegen-op van de gezondheidszorg voor Adobe [!DNL Commerce] kocht, installeerde u zeer waarschijnlijk reeds de [ HIPAA-Klaar uitbreiding ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#installation). Om ervoor te zorgen dat uw [!DNL Commerce] gegevens van de achterkantoorgebeurtenis HIPAA-klaar zijn, moet u ook de [!DNL Data Connection] uitbreiding met de extra **3&rbrace; uitbreiding van HIPAA van de Diensten van Gegevens installeren &lbrace;.** De **uitbreiding van HIPAA van de Diensten van Gegevens** zorgt ervoor dat om het even welke achterkantoorgegevens u naar Experience Platform verzendt HIPAA-klaar is. Leer [ hoe te om de uitbreiding ](install.md#install-the-data-services-hipaa-extension) te installeren.
 
 >[!IMPORTANT]
 >
@@ -36,15 +36,15 @@ Als u toe:voegen-op van de gezondheidszorg voor Adobe [!DNL Commerce] kocht, ins
 
 Alle gegevens van de backoffice-gebeurtenis die de [!DNL Data Connection] -extensie naar Experience Platform verzendt, worden binnen [!DNL Commerce] als gevoelig beschouwd. Het is echter de verantwoordelijkheid van de handelaar om gegevensgebruikslabels toe te passen op zijn [!DNL Commerce] -schema in Experience Platform om bepaalde gegevens expliciet als gevoelig aan te duiden. Wanneer u de etiketten van het gegevensgebruik rechtstreeks op een schema toepast, worden die etiketten verspreid aan alle bestaande en toekomstige datasets die op dat schema gebaseerd zijn.
 
-Voor een overzicht van de etiketten van het gegevensgebruik en hun rol binnen het kader van het Beleid van Gegevens, zie het [ overzicht van de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview) in de documentatie van Experience Platform.
+Voor een overzicht van de etiketten van het gegevensgebruik en hun rol binnen het kader van het Beleid van Gegevens, zie het [ overzicht van de etiketten van het gegevensgebruik ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview) in de documentatie van Experience Platform.
 
 ### Gegevensgebruikslabels toepassen op [!DNL Commerce] -velden
 
-Volg de stappen in [ leiden de etiketten van het gegevensgebruik voor een schema ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/labels) leerprogramma leren hoe te om etiketten op uw [!DNL Commerce] schema toe te passen.
+Volg de stappen in [ leiden de etiketten van het gegevensgebruik voor een schema ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/tutorials/labels) leerprogramma leren hoe te om etiketten op uw [!DNL Commerce] schema toe te passen.
 
-Zie de [ verklarende woordenlijst van gevoelige etiketten ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#sensitive) over de beschikbare etiketten leren u op de gebieden in uw [!DNL Commerce] schema kunt toepassen. Zo identificeert het label `RHD` bijvoorbeeld Protected Health Information (PHI) of informatie over een patiënt die u contractueel door Adobe mag uploaden.
+Zie de [ verklarende woordenlijst van gevoelige etiketten ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/reference#sensitive) over de beschikbare etiketten leren u op de gebieden in uw [!DNL Commerce] schema kunt toepassen. Zo identificeert het label `RHD` bijvoorbeeld Protected Health Information (PHI) of informatie over een patiënt die u contractueel door Adobe mag uploaden.
 
-Wanneer uw [!DNL Commerce] -gegevens als gevoelig worden gelabeld, kunt u beleid toepassen om gegevensbewerkingen te voorkomen die beleidsovertredingen vormen. Leer meer over [ beleidshandhaving ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview) in Experience Platform.
+Wanneer uw [!DNL Commerce] -gegevens als gevoelig worden gelabeld, kunt u beleid toepassen om gegevensbewerkingen te voorkomen die beleidsovertredingen vormen. Leer meer over [ beleidshandhaving ](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/enforcement/overview) in Experience Platform.
 
 ## Gegevenscodering in Commerce
 
@@ -56,7 +56,7 @@ Adobe [!DNL Commerce] gebruikt codering op blokniveau. Voor opslag gebruikt [!DN
 
 ### Gegevenscodering in Experience Platform
 
-Wanneer handelaren hun gegevens naar Experience Platform verzenden, worden die gegevens verzonden met HTTPS TLS v1.2. Leer meer over hoe [ Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption) gegevens codeert.
+Wanneer handelaren hun gegevens naar Experience Platform verzenden, worden die gegevens verzonden met HTTPS TLS v1.2. Leer meer over hoe [ Experience Platform ](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/encryption) gegevens codeert.
 
 ## Hoe [!DNL Commerce] privacyverzoeken verwerkt
 

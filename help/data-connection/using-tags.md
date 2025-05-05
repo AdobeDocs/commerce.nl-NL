@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Commerce-gegevens verzamelen met Adobe Experience Platform-tags
 
-Terwijl u de [!DNL Data Connection] uitbreiding kunt gebruiken om te publiceren en aan storefront gebeurtenissen in te tekenen, zouden sommige handelaren reeds een oplossing van de gegevensinzameling, zoals de [ markeringen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/tags/create-a-property.html) kunnen gebruiken. Voor die handelaren biedt Adobe Commerce een alleen-publicatieoptie in de extensie [!DNL Data Connection] die de Adobe Commerce Event SDK gebruikt.
+Terwijl u de [!DNL Data Connection] uitbreiding kunt gebruiken om te publiceren en aan storefront gebeurtenissen in te tekenen, zouden sommige handelaren reeds een oplossing van de gegevensinzameling, zoals de [ markeringen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/tags/create-a-property.html?lang=nl-NL) kunnen gebruiken. Voor die handelaren biedt Adobe Commerce een alleen-publicatieoptie in de extensie [!DNL Data Connection] die de Adobe Commerce Event SDK gebruikt.
 
 ![[!DNL Data Connection] Gegevensstroom van extensies ](assets/tags-data-flow.png)
 _[!DNL Data Connection]Gegevensstroom van extensies met tags_
@@ -33,15 +33,15 @@ Commerce-gebeurtenisgegevens verzamelen:
 
 Om Commerce storefront gegevens aan Adobe Experience Platform in kaart te brengen, vorm en installeer het volgende van binnen de markeringen van Adobe Experience Platform:
 
-1. [ opstelling een markeringsbezit ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html) in de Inzameling van Gegevens van Adobe Experience Platform.
+1. [ opstelling een markeringsbezit ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=nl-NL) in de Inzameling van Gegevens van Adobe Experience Platform.
 
 1. Onder **Authoring**, uitgezochte **Uitbreidingen** en installeer en vorm de volgende uitbreidingen:
 
-   - [ de Laag van Gegevens van de Cliënt van Adobe ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html)
+   - [ de Laag van Gegevens van de Cliënt van Adobe ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html?lang=nl-NL)
 
-   - [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)
+   - [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL)
 
-1. [ publiceer markering ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) aan uw ontwikkelomgeving.
+1. [ publiceer markering ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL) aan uw ontwikkelomgeving.
 
 1. Volg de **stappen 1&rbrace; hieronder van de Toewijzing van de Gebeurtenis 0&rbrace; om gegevenselementen en regels voor specifieke gebeurtenissen te vormen.**
 
@@ -57,7 +57,7 @@ Omdat gegevensverzameling met tags verschilt van het gebruik van de Adobe Commer
 
 Wanneer u de gegevenselementen en regels in Adobe Experience Platform-tags bijwerkt met Adobe Commerce-specifieke gebeurtenisgegevens, worden een aantal veelvoorkomende stappen uitgevoerd.
 
-Laten we bijvoorbeeld de Adobe Commerce `signOut` -gebeurtenis toevoegen aan Adobe Experience Platform-tags. De hieronder geschetste stappen, behalve specifieke waarden u plaatst, beschrijven hoe te om [ gegevenselementen ](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html#data-element) toe te voegen en [ regels ](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html#create-a-rule), die op alle gebeurtenissen van Adobe Commerce van toepassing zijn u aan markeringen toevoegt.
+Laten we bijvoorbeeld de Adobe Commerce `signOut` -gebeurtenis toevoegen aan Adobe Experience Platform-tags. De hieronder geschetste stappen, behalve specifieke waarden u plaatst, beschrijven hoe te om [ gegevenselementen ](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html?lang=nl-NL#data-element) toe te voegen en [ regels ](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html?lang=nl-NL#create-a-rule), die op alle gebeurtenissen van Adobe Commerce van toepassing zijn u aan markeringen toevoegt.
 
 1. Een gegevenselement maken:
 
@@ -1411,7 +1411,7 @@ return IdentityMap;
 
 ## Vaststelling van de toestemming
 
-Wanneer u de extensie [!DNL Data Connection] in Adobe Commerce installeert, is de toestemming voor het verzamelen van gegevens standaard ingeschakeld. Uitschakelen wordt beheerd via het [`mg_dnt` cookie ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html) . U kunt de hier beschreven stappen volgen als u `mg_dnt` gebruikt om toestemming te beheren. De [ documentatie van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/consent/supporting-consent.html) heeft verscheidene extra opties om toestemming te beheren.
+Wanneer u de extensie [!DNL Data Connection] in Adobe Commerce installeert, is de toestemming voor het verzamelen van gegevens standaard ingeschakeld. Uitschakelen wordt beheerd via het [`mg_dnt` cookie ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) . U kunt de hier beschreven stappen volgen als u `mg_dnt` gebruikt om toestemming te beheren. De [ documentatie van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/consent/supporting-consent.html?lang=nl-NL) heeft verscheidene extra opties om toestemming te beheren.
 
 1. Creeer a **het gegevenselement van de Code van de Douane van de Kern** (`%do not track cookie%`) voor het `mg_dnt` koekje:
 

@@ -18,19 +18,19 @@ Deze releaseopmerkingen beschrijven de eerste versie van [!DNL Store Fulfillment
 ![ Vaste kwestie ](../assets/fix.svg) Oplossingen en verbeteringen
 ![ Bekende kwestie ](../assets/bug.svg) Bekende kwesties
 
-Zie [ Komende Versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) om over versieschema&#39;s en steun te leren.
+Zie [ Komende Versies ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=nl-NL) om over versieschema&#39;s en steun te leren.
 
-Zie [ Beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) om te leren welke versies van Adobe Commerce deze uitbreiding steunen.
+Zie [ Beschikbaarheid van het Product ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=nl-NL) om te leren welke versies van Adobe Commerce deze uitbreiding steunen.
 
 ## v1.5.0
 
 *3 Augustus, 2023*
 
-[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}[ Adobe Commerce 2.4.4 aan 2.4.6 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html), met inbegrip van 2.4.6-p1, 2.4.5-p3, en 2.4.4-p4 de veiligheidsflardversies
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}[ Adobe Commerce 2.4.4 aan 2.4.6 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=nl-NL), met inbegrip van 2.4.6-p1, 2.4.5-p3, en 2.4.4-p4 de veiligheidsflardversies
 
 Deze release bevat de volgende updates:
 
-![ Nieuw ](../assets/fix.svg) werkte de uitbreiding bij om [ de veiligheidsflardversies van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/overview.html) 2.4.6-p1, 2.4.5-p3, en 2.4.4-p4 te steunen.
+![ Nieuw ](../assets/fix.svg) werkte de uitbreiding bij om [ de veiligheidsflardversies van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/overview.html?lang=nl-NL) 2.4.6-p1, 2.4.5-p3, en 2.4.4-p4 te steunen.
 
 ![ Nieuwe ](../assets/new.svg)<!-- WMTP-918 --> Toegevoegde steun voor de [ Asynchrone verzendende ](sales-emails.md) configuratieoptie voor Verkoop E-mail. Handelaars die een upgrade naar versie 1.5.0 uitvoeren, kunnen e-mailberichten direct (standaard) of asynchroon verzenden.
 
@@ -68,7 +68,7 @@ Deze release bevat de volgende updates:
 
 [!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
-![ Nieuw ](../assets/fix.svg) [!DNL Store Fulfillment] is nu [ compatibel met  [!DNL Adobe Commerce]  2.4.4 aan 2.4.6 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
+![ Nieuw ](../assets/fix.svg) [!DNL Store Fulfillment] is nu [ compatibel met  [!DNL Adobe Commerce]  2.4.4 aan 2.4.6 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=nl-NL).
 
 
 ## v1.3.0
@@ -89,7 +89,7 @@ Deze release bevat de volgende update:
 
 Deze release bevat de volgende update:
 
-![ Nieuw ](../assets/fix.svg) [!DNL Store Fulfillment] is nu [ compatibel met  [!DNL Adobe Commerce]  2.4.4 aan 2.4.5 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
+![ Nieuw ](../assets/fix.svg) [!DNL Store Fulfillment] is nu [ compatibel met  [!DNL Adobe Commerce]  2.4.4 aan 2.4.5 ](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=nl-NL).
 
 
 ## v1.1.0

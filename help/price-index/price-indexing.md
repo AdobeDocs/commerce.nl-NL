@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met SaaS-indexering worden de prestaties van de site geoptimaliseerd door bronintensieve taken (zoals indexering en prijsberekening) te offloaden van de Commerce-toepassing naar de Adobe Cloud-infrastructuur. Deze benadering stelt handelaren in staat snel middelen te schalen om indexatietijden van prijzen te versnellen en prijsupdates sneller aan de winkel en de verbonden diensten van Commerce te leveren.
 
-Het volgende diagram toont de indexerende gegevensstroom aan de diensten SaaS wanneer Commerce het [ prijs indexerende ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) proces inbegrepen in de toepassing van Commerce gebruikt:
+Het volgende diagram toont de indexerende gegevensstroom aan de diensten SaaS wanneer Commerce het [ prijs indexerende ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers) proces inbegrepen in de toepassing van Commerce gebruikt:
 
 ![ Standaardgegevensstroom ](assets/old_way.png)
 

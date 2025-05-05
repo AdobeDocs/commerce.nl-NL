@@ -19,7 +19,7 @@ u wordt verwacht deze code te handhaven. Onacceptabel gedrag rapporteren aan
 
 ## Documentatie voor de bijdragegids
 
-Zie de [ Gids van de Medewerker ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Zie de [ Gids van de Medewerker ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL).
 
 ## Heb je een vraag?
 
@@ -56,4 +56,4 @@ het is vrij contact op te nemen met bestaande contribuanten om daarover te kunne
 
 ## Beveiligingsproblemen
 
-Om een kwestie van de Veiligheid te melden, [ dossier een kwestie aan onze veiligheidsdeskundigen ](https://helpx.adobe.com/security/alertus.html).
+Om een kwestie van de Veiligheid te melden, [ dossier een kwestie aan onze veiligheidsdeskundigen ](https://helpx.adobe.com/nl/security/alertus.html).

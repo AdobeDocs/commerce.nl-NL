@@ -28,7 +28,7 @@ Deze handleiding begeleidt u bij het maken van en werken met een [!DNL Adobe Com
 
 >[!TAB Administrator and merchant workflow]
 
-This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/enterprise/admin-guide.html) for more information about administrator workflows.
+This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/nl/enterprise/admin-guide.html) for more information about administrator workflows.
 
 NEED DIAGRAM
 

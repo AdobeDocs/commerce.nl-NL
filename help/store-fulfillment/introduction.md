@@ -34,7 +34,7 @@ De oplossing Store Fulfillment ondersteunt en verbetert native Adobe Commerce-mo
 
 * Steunt de meeste producttypes-eenvoudig, configureerbaar, gegroepeerd, gebundeld, en virtueel
 
-* Integreert met [[!DNL Adobe Commerce]  Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/basics/sources-stocks)
+* Integreert met [[!DNL Adobe Commerce]  Inventory management ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/basics/sources-stocks)
 
 * Integreert met verkooppunten (POS) bedrijfsvoorraadbeheersystemen zoals ERP, OMS en WMS
 
@@ -76,6 +76,6 @@ Door de prestaties van de winkel te verbeteren, verbetert Adobe Commerce door mo
 
 >[!TIP]
 >
-> Voor een snelle demo van de oplossing van de Afhandeling van de Opslag, zie het [ Overzicht van de Afhandeling van de Opslag ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/orders/store-fulfillment.html) beschikbaar in _Video&#39;s en Leerprogramma&#39;s van Adobe Commerce_.
+> Voor een snelle demo van de oplossing van de Afhandeling van de Opslag, zie het [ Overzicht van de Afhandeling van de Opslag ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/orders/store-fulfillment.html?lang=nl-NL) beschikbaar in _Video&#39;s en Leerprogramma&#39;s van Adobe Commerce_.
 
 

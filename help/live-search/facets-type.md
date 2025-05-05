@@ -34,7 +34,7 @@ In tegenstelling, [&#128279;](https://developer.adobe.com/commerce/php/architect
 
 ### Facet-labels
 
-Voor [!DNL Commerce] storefronts, wordt het facetetiket bepaald door de [*Eigenschappen van Attributen* ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). Voor opslag met veelvoudige meningen, kunnen de extra etiketten onder *worden bepaald beheren Etiketten*. Voor hoofdloze implementaties, worden de etiketten uitgegeven van de [ facetende werkruimte ](faceting-workspace.md).
+Voor [!DNL Commerce] storefronts, wordt het facetetiket bepaald door de [*Eigenschappen van Attributen* ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=nl-NL). Voor opslag met veelvoudige meningen, kunnen de extra etiketten onder *worden bepaald beheren Etiketten*. Voor hoofdloze implementaties, worden de etiketten uitgegeven van de [ facetende werkruimte ](faceting-workspace.md).
 
 ### Tekst sorteren
 

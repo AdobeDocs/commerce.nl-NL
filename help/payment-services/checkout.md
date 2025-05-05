@@ -22,7 +22,7 @@ Er wordt een foutbericht weergegeven op de uitcheckpagina voor de winkelier. Het
 
 ![ Fout terwijl het controleren ](assets/user-checkout-error.png " Fout terwijl het controleren "){width="600" zoomable="yes"}
 
-Een commentaar betreffende de geannuleerde orde toont ook in Admin voor een specifieke [ orde ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=en).
+Een commentaar betreffende de geannuleerde orde toont ook in Admin voor een specifieke [ orde ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=nl-NL).
 
 ![ Geannuleerde ordecommentaar in Admin voor orde ](assets/admin-checkout-error.png " Geannuleerde ordecommentaar in Admin voor orde "){width="600" zoomable="yes"}
 

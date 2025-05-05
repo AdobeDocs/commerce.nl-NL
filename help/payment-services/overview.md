@@ -54,7 +54,7 @@ Zie [ beleid van de Levenscyclus ](https://experienceleague.adobe.com/docs/comme
 
 ### Welke [!DNL Payment Services] optie is geschikt voor u?
 
->[!VIDEO](https://video.tv.adobe.com/v/3447811)
+>[!VIDEO](https://video.tv.adobe.com/v/3447924?captions=dut)
 
 Zie [ verbinden ](connect.md) voor meer informatie bij vestiging uw [!DNL Payment Services] uitbreiding.
 

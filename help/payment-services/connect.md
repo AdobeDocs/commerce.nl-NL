@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Payment Services] wordt aangedreven door Commerce Services en geïmplementeerd als SaaS (software als service). U verbindt uw instantie van Commerce gebruikend een API sleutel en een privé sleutel, en specificeert de gegevensruimte in de configuratie gebruikend de [ Schakelaar van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/saas.html). **u opstelling deze verbinding slechts eenmaal.**
 
->[!VIDEO](https://video.tv.adobe.com/v/3447835)
+>[!VIDEO](https://video.tv.adobe.com/v/3448023?captions=dut)
 
 >[!INFO]
 >

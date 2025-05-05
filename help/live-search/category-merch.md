@@ -16,7 +16,7 @@ De categorie het Merchandising staat opslageigenaars toe om [!DNL Live Search] I
 
 Deze video is een inleiding op Categorie Merchandising.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424617)
+>[!VIDEO](https://video.tv.adobe.com/v/3448857?captions=dut)
 
 De eigenschap wordt betreden in Admin bij **Marketing** > SEO &amp; Onderzoek > **[!DNL Live Search]** > **Categorie die** verhandelen.
 

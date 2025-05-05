@@ -44,7 +44,7 @@ Deze handleiding heeft geen betrekking op de kernmogelijkheden van [!DNL Adobe C
 
 Als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld, neemt u contact op met uw [!DNL Payment Services] -verkoper of gebruikt u de bronnen in uw [!DNL Payment Services] startpagina:
 
->[!VIDEO](https://video.tv.adobe.com/v/3447836)
+>[!VIDEO](https://video.tv.adobe.com/v/3448233?captions=dut)
 
 Zie [ Beschikbaarheid ](overview.md#availability) om te controleren welke [!DNL Payment Services] optie voor u juist is.
 

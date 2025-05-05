@@ -30,7 +30,7 @@ Updates zijn:
 
 ## 1.0.9 Release
 
-](../assets/fix.svg) Toegevoegde verenigbaarheid voor PHP 8.4 herstellen ![. <!--MDEE-941-->
+![&#128279;](../assets/fix.svg) Toegevoegde verenigbaarheid voor PHP 8.4 herstellen . <!--MDEE-941-->
 
 ## 1.0.8 Release
 

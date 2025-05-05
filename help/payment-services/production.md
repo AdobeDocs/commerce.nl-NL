@@ -26,10 +26,10 @@ Nadat u [ uw Diensten van Commerce ](connect.md#configure-commerce-services) vor
 
    Deze optie is zichtbaar als u [!DNL Payment Services] nog niet hebt geconfigureerd als betalingsmethode voor een of meer van uw websites.
 
-   U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [ betalingsmethode ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods) {target="_blank"} kunt toelaten.
+   U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [ betalingsmethode ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"}  kunt toelaten.
 
 1. Stel **[!UICONTROL Enable]** in op `Yes` in _[!UICONTROL General Configuration]_.
-1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_als_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
+1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_&#x200B;als&#x200B;_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
 
    | Instelling | Beschrijving |
    |---|---|
@@ -104,7 +104,7 @@ Nadat het land is geselecteerd:
 
 1. Ga op de zijbalk Beheerder naar **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**
 
-   De knop _[!UICONTROL Live onboarding]_is niet meer zichtbaar en u ziet een tekstvak &quot;[!UICONTROL Live payments pending]&quot;.
+   De knop _[!UICONTROL Live onboarding]_&#x200B;is niet meer zichtbaar en u ziet een tekstvak &quot;[!UICONTROL Live payments pending]&quot;.
 
    In dat tekstvak wordt je mogelijk ook gevraagd je e-mailadres bij PayPal te bevestigen om de inboeking te voltooien.
 
@@ -156,7 +156,7 @@ Live betalingen inschakelen:
 1. Klik in het Home op **[!UICONTROL Settings]** rechtsboven op de pagina. Zie [ Huis ](payments-home.md) voor meer informatie.
 1. In de _[!UICONTROL General Configuration]_-sectie ingesteld op **[!UICONTROL Payment mode]**`Production` .
 1. Klik op **[!UICONTROL Save]**.
-1. [ ontruim uw geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management) {target="_blank"}.
+1. [ ontruim uw geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management){target="_blank"} .
 
    >[!IMPORTANT]
    >

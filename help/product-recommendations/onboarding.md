@@ -49,4 +49,4 @@ B2B-winkels vereisen vaak complexe logica die de zichtbaarheid en prijsstelling 
 
 >[!NOTE]
 >
->De handelaars kunnen widgets of storefront elementen aanpassen en uitbreiden door de ](../catalog-service/overview.md) Storefront API van de Dienst van de Catalogus te gebruiken [ maar om het even welke aanpassing is buiten werkingsgebied voor het ondersteuningsteam van Adobe.
+>De handelaars kunnen widgets of storefront elementen aanpassen en uitbreiden door de [&#128279;](../catalog-service/overview.md) Storefront API van de Dienst van de Catalogus te gebruiken  maar om het even welke aanpassing is buiten werkingsgebied voor het ondersteuningsteam van Adobe.

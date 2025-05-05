@@ -39,7 +39,7 @@ Aanvankelijk wordt het [ werkingsgebied ](https://experienceleague.adobe.com/doc
 
 ## Datumbereik van metrische gegevens instellen
 
-1. Klik de **![ controle van de selecteur van de Kalender ](assets/icon-calendar.png) van de 0} Kalender {.**
+1. Klik de **![ controle van de selecteur van de Kalender ](assets/icon-calendar.png) van de 0&rbrace; Kalender &lbrace;.**
 
 1. Kies een van de volgende opties:
 
@@ -87,11 +87,11 @@ _de Montages van Aanbevelingen_
    ![ de werkruimte van Aanbevelingen ](assets/recommendation-detail.png)
    _het Detail van het Tarief van de Omzetting van de Homepage_
 
-1. Om het statuut van de aanbeveling te veranderen, activeer **** of **** deactivate.
+1. Om het statuut van de aanbeveling te veranderen, activeer **&#x200B;**&#x200B;of **&#x200B;**&#x200B;deactivate.
 
 ## Aanbeveling bewerken
 
-Van de pagina van de aanbevelingsdetails, geeft de klik **** uit. Meer leren, ga [ Aanbevelingen ](edit.md) uitgeven.
+Van de pagina van de aanbevelingsdetails, geeft de klik **&#x200B;**&#x200B;uit. Meer leren, ga [ Aanbevelingen ](edit.md) uitgeven.
 
 ## Aanbeveling maken
 

@@ -41,6 +41,6 @@ Wanneer uw klanten een profiel op uw Commerce-site maken, wordt een profielrecor
 
    Klik op **[!UICONTROL Create]**. Een aangepaste naamruimte wordt door de Unified Profile Service gebruikt om profielfragmenten aan elkaar te koppelen.
 
-Met het schema, de dataset, en de ruimte van de douanenaam die voor het verslaggegeven van het klantenprofiel wordt gevormd, kunt u [ ](connect-data.md#data-collection) uw instantie van Commerce vormen om die gegevens te verzamelen en te verzenden naar Experience Platform.
+Met het schema, de dataset, en de ruimte van de douanenaam die voor het verslaggegeven van het klantenprofiel wordt gevormd, kunt u [&#128279;](connect-data.md#data-collection) uw instantie van Commerce vormen om die gegevens te verzamelen en te verzenden naar Experience Platform.
 
 Om een schema, dataset, en gegevensstroom voor gedrags en achterkantoorgebeurtenisgegevens tot stand te brengen, zie [ de gebeurtenisschema&#39;s van de tijdreeksen van de updatetijd voor de gegevensopname van Commerce ](update-xdm.md).

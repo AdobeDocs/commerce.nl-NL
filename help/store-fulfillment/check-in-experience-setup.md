@@ -1,6 +1,6 @@
 ---
 title: Inchecken van ervaring instellen
-description: Configureer de selectie van het merk en model van de auto] zodat klanten die de ophaalservice aanvragen, kunnen krullen wanneer ze het formulier voor de ophaalvolgorde invullen.
+description: Configureer de selectie van het merk en model van de auto&rbrack; zodat klanten die de ophaalservice aanvragen, kunnen krullen wanneer ze het formulier voor de ophaalvolgorde invullen.
 role: Admin
 level: Intermediate
 source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1

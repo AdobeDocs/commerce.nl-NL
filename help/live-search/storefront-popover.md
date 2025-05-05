@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # [!DNL Storefront Popover]
 
-Wanneer [!DNL Live Search] wordt geïnstalleerd [ ](install.md), verschijnt a [!DNL popover] in de storefront wanneer de kopers in het [ Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search) vakje typen. Wanneer elk teken wordt getypt, wordt [!DNL popover] bijgewerkt met voorgestelde producten en miniatuurafbeeldingen van de bovenste zoekresultaten.
+Wanneer [!DNL Live Search] wordt geïnstalleerd [&#128279;](install.md), verschijnt a [!DNL popover] in de storefront wanneer de kopers in het [ Onderzoek ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html#quick-search) vakje typen. Wanneer elk teken wordt getypt, wordt [!DNL popover] bijgewerkt met voorgestelde producten en miniatuurafbeeldingen van de bovenste zoekresultaten.
 
 [!DNL Live Search] geeft resultaten voor een query van twee of meer tekens. Voor een gedeeltelijke overeenkomst, is het maximumaantal karakters per woord 20. Het aantal karakters in een &quot;onderzoek aangezien u&quot;vraag typt is niet configureerbaar.
 
@@ -30,7 +30,7 @@ Standaard is de waarde voor Zoeken in catalogus - automatisch aanvullen van limi
 
 1. Op *Admin* sidebar, ga naar **Opslag** > Montages > **Configuratie**.
 1. In het linkerpaneel, breid **Catalogus** uit en kies **Catalogus** van de lijst van montages.
-1. Vouw de *sectie van het Onderzoek van de Catalogus 0} {uit.*
+1. Vouw de *sectie van het Onderzoek van de Catalogus 0&rbrace; &lbrace;uit.*
 1. Plaats de **Autocomplete Grens** aan het aantal lijnen die u in [!DNL popover] wilt toestaan.
 1. Wanneer volledig, klik **sparen Config**.
 

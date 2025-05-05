@@ -48,11 +48,11 @@ bin/magento indexer:set-mode schedule sales_order_data_exporter sales_order_stat
 >
 >Als u geen indexeerders in uw bevel specificeert, worden alle indexeerders bijgewerkt aan de zelfde waarde. Als u een specifieke indexeerder wilt veranderen, moet u het in uw bevel een lijst maken.
 
-Meer leren over het manueel veranderen van de wijze van een indexeerder, zie [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) {target="_blank"} in de ontwikkelaarsdocumentatie vormen. Leren hoe te om het in Admin te veranderen, zie [ het beheer van de Index ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management#change-the-index-mode) {target="_blank"} in de gids van de kerngebruiker.
+Meer leren over het manueel veranderen van de wijze van een indexeerder, zie [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers){target="_blank"}  in de ontwikkelaarsdocumentatie vormen. Leren hoe te om het in Admin te veranderen, zie [ het beheer van de Index ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management#change-the-index-mode){target="_blank"}  in de gids van de kerngebruiker.
 
 ### Gegevens handmatig opnieuw indexeren
 
-U kunt gegevens handmatig opnieuw indexeren in plaats van te wachten tot dit automatisch gebeurt. Zie [ opnieuw indexeren ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) {target="_blank"} in [ de Indexen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers) {target="_blank"} voor meer informatie beheren.
+U kunt gegevens handmatig opnieuw indexeren in plaats van te wachten tot dit automatisch gebeurt. Zie [ opnieuw indexeren ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex){target="_blank"}  in [ de Indexen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers){target="_blank"}  voor meer informatie beheren.
 
 Wanneer de modus `BY SCHEDULE` is ingesteld, worden entiteiten gewijzigd door de systeemtracks en wordt de index voor entiteiten bijgewerkt door de snijtaak op basis van een setschema. Zie [ de Bron van de Looppas van de bevellijn ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#config-cli-cron-group-run) in [ vormen en in werking stellen krun ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)) leren hoe te om indexatie manueel teweeg te brengen gebruikend kroonbanen.
 
@@ -122,7 +122,7 @@ bin/magento cache:clean:payment_services_merchant_scopes
 
 >[!WARNING]
 >
-> De integratie met de verwerking van Niveau 2 en Niveau 3 met PayPal is beschikbaar voor de verkopers van de V.S. slechts. Zie [ betalingsverwerking ](https://developer.paypal.com/docs/checkout/advanced/processing/) {target=_blank} in de documentatie van de Ontwikkelaar van PayPal voor meer informatie.
+> De integratie met de verwerking van Niveau 2 en Niveau 3 met PayPal is beschikbaar voor de verkopers van de V.S. slechts. Zie [ betalingsverwerking ](https://developer.paypal.com/docs/checkout/advanced/processing/){target=_blank}  in de documentatie van de Ontwikkelaar van PayPal voor meer informatie.
 
 Als u L2/L3-verwerkingsgegevens wilt gebruiken voor [!DNL Payment Services] of als u vragen hebt, neemt u contact op met uw [!DNL Payment Services] -accountmanager.
 

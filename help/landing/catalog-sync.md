@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Adobe Commerce gebruikt indexen om catalogusgegevens in tabellen te compileren. Het proces wordt automatisch teweeggebracht door [ gebeurtenissen ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/index-management.html#events-that-trigger-full-reindexing) zoals een verandering in een productprijs of inventarisniveau.
 
-De service Catalog Sync verplaatst productgegevens van een [!DNL Adobe Commerce] -instantie naar het [!DNL Commerce Services] -platform op permanente basis om de gegevens up-to-date te houden. [[!DNL Product Recommendations]](/help/product-recommendations/overview.md) vereist bijvoorbeeld de huidige catalogusinformatie om aanbevelingen met juiste namen, prijzen en beschikbaarheid correct te retourneren. Gebruik het _dashboard van de Synchronisatie van de Catalogus 0} {om het synchronisatieproces of de bevel-lijn interface waar te nemen en te beheren om een catalogussynchronisatie teweeg te brengen en productgegevens voor consumptie door [!DNL Commerce Services] opnieuw te indexeren._ Zie [ bevel-lijn de Verwijzing van de Interface ](../data-export/data-export-cli-commands.md) in de _3} Gids van de Uitvoer van Gegevens SaaS {._
+De service Catalog Sync verplaatst productgegevens van een [!DNL Adobe Commerce] -instantie naar het [!DNL Commerce Services] -platform op permanente basis om de gegevens up-to-date te houden. [[!DNL Product Recommendations]](/help/product-recommendations/overview.md) vereist bijvoorbeeld de huidige catalogusinformatie om aanbevelingen met juiste namen, prijzen en beschikbaarheid correct te retourneren. Gebruik het _dashboard van de Synchronisatie van de Catalogus 0&rbrace; {om het synchronisatieproces of de bevel-lijn interface waar te nemen en te beheren om een catalogussynchronisatie teweeg te brengen en productgegevens voor consumptie door [!DNL Commerce Services] opnieuw te indexeren._ Zie [ bevel-lijn de Verwijzing van de Interface ](../data-export/data-export-cli-commands.md) in de _3} Gids van de Uitvoer van Gegevens SaaS &lbrace;._
 
 ## Het dashboard Catalog Sync openen
 
@@ -55,7 +55,7 @@ Als u een resync van uw catalogus moet in werking stellen alvorens de per uur ge
 >
 > Dwingend een resync teweegbrengt een resync van uw volledige productcatalogus, die lading op hardwaremiddelen kan verhogen.
 
-1. Van het _dashboard van de Synchronisatie van de Catalogus 0} {, uitgezochte **Montages**._
+1. Van het _dashboard van de Synchronisatie van de Catalogus 0&rbrace; &lbrace;, uitgezochte **Montages**._
 
    De _pagina van de Montages van de Synchronisatie van de Catalogus_ verschijnt.
 

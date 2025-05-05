@@ -20,9 +20,9 @@ Er zijn drie niveaus van kaartverwerking beschikbaar door [!DNL Payment Services
 
 >[!NOTE]
 >
->Prijzen van niveau 2 en niveau 3 gelden alleen voor Visa- en MasterCard-transacties. American Express biedt alleen prijsniveau 2. Detectie biedt geen prijzen van niveau 2 of 3. Zie [ betalingsverwerking ](https://developer.paypal.com/docs/checkout/advanced/processing/) {target=_blank} in de documentatie van de Ontwikkelaar van PayPal voor meer informatie.
+>Prijzen van niveau 2 en niveau 3 gelden alleen voor Visa- en MasterCard-transacties. American Express biedt alleen prijsniveau 2. Detectie biedt geen prijzen van niveau 2 of 3. Zie [ betalingsverwerking ](https://developer.paypal.com/docs/checkout/advanced/processing/){target=_blank}  in de documentatie van de Ontwikkelaar van PayPal voor meer informatie.
 
-Zie [ wat IC++ is?](https://www.paypal.com/us/brc/article/what-is-interchange-plus-plus) {target=_blank} in de documentatie voor ontwikkelaars van PayPal voor meer informatie.
+Zie [ wat IC++ is?](https://www.paypal.com/us/brc/article/what-is-interchange-plus-plus){target=_blank}  in de documentatie voor ontwikkelaars van PayPal voor meer informatie.
 
 De verwerkingsgegevens van niveau 2 en niveau 3 stellen handelaren in staat hun IC++-prijzen te verlagen als zij aanvullende informatie verstrekken over de aankoop die het processorrisico vermindert en nuttige aspecten biedt:
 
@@ -42,7 +42,7 @@ Nochtans, bepalen de kaartnetwerken, zoals Visa en Mastercard, uiteindelijk of e
 
 Om in aanmerking te komen voor verwerking op niveau 2 of niveau 3, moeten handelaren de vorige informatie verzenden, hoewel het de kaartnetwerken zijn die uiteindelijk bepalen welk niveau een transactie in aanmerking komt bij de verwerking ervan.
 
-Zie [ Veelgestelde vragen over de verwerking van de Betaling ](https://www.paypal.com/us/cshelp/article/ts2278?_ga=1.131773126.875104296.1712843492) {target=_blank} in de ontwikkelaarsdocumentatie van PayPal voor meer informatie.
+Zie [ Veelgestelde vragen over de verwerking van de Betaling ](https://www.paypal.com/us/cshelp/article/ts2278?_ga=1.131773126.875104296.1712843492){target=_blank}  in de ontwikkelaarsdocumentatie van PayPal voor meer informatie.
 
 Verwerking op niveau 2 en niveau 3 is standaard uitgeschakeld voor [!DNL Payment Services] -handelaren op archiefniveau.
 

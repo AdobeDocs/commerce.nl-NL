@@ -64,7 +64,7 @@ Door de prestaties van de winkel te verbeteren, verbetert Adobe Commerce door mo
 
 * **Beschikbaarheid van de Inventaris** - Voegt extra product en globale configuratieopties aan Adobe Commerce Inventory management toe. Deze opties ondersteunen voorraadtoewijzing op archiefniveau om tijdige lokale uitvoering te stimuleren.
 
-* {de Verbeteringen van de Kaart en van de Controle **- communiceert de snelste beschikbare ophaaltijden, de plaatsen, en de kosten aan klanten tijdens hun online het winkelen zitting.**
+* &lbrace;de Verbeteringen van de Kaart en van de Controle **- communiceert de snelste beschikbare ophaaltijden, de plaatsen, en de kosten aan klanten tijdens hun online het winkelen zitting.**
 
 * **Controle-binnen de Stroom van het Proces** - voegt interfaces toe om het proces van de klantencontrole en de interactie met opslagvennoten te verbeteren wanneer zij voor in-opslag of curbside bestelwagen aankomen.
 

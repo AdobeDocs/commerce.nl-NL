@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Typen Commerce-gegevens
 
-De [ uitbreiding van de Verbinding van Gegevens ](overview.md) verbindt uw gegevens van Commerce met Experience Platform. De gegevens voorgenomen voor gebruik in Experience Platform worden gegroepeerd in twee gedragstypes: tijdreeksgegevens, die tot de **klasse van de Gebeurtenis van de 1} van de Ervaring behoren**, en verslaggegevens, die tot de **Individuele klasse van het Profiel** behoren.
+De [ uitbreiding van de Verbinding van Gegevens ](overview.md) verbindt uw gegevens van Commerce met Experience Platform. De gegevens voorgenomen voor gebruik in Experience Platform worden gegroepeerd in twee gedragstypes: tijdreeksgegevens, die tot de **klasse van de Gebeurtenis van de 1&rbrace; van de Ervaring behoren**, en verslaggegevens, die tot de **Individuele klasse van het Profiel** behoren.
 
 Leer meer over [ gegevensgedrag ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#data-behaviors) en [ klassen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#class) in Experience Platform.
 

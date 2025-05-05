@@ -40,7 +40,7 @@ Sommige soorten aanbevelingen gebruiken gedragsgegevens van uw klanten om machin
 
 Wanneer kunt u beginnen met het gebruiken van aanbevelingen die gedragsgegevens gebruiken? Het hangt ervan af. Dit wordt bedoeld als _Koud Begin_ probleem.
 
-Het _Koude 1} probleem van het Begin van het Begin {verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor productaanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen door de `magento/production-recommendations` module te installeren en te plaatsen.
+Het _Koude 1&rbrace; probleem van het Begin van het Begin &lbrace;verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor productaanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen door de `magento/production-recommendations` module te installeren en te plaatsen.
 
 De volgende tabel bevat een aantal algemene richtlijnen voor de hoeveelheid tijd die nodig is om voldoende gegevens voor elk type aanbeveling te verzamelen:
 

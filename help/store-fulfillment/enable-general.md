@@ -150,7 +150,7 @@ Omdat het dossier van het toepassingslogboek snel kan groeien, laat registreren 
 
 >[!TIP]
 >
->Vraag uw systeembeheerder voor Adobe Commerce-installaties op locatie om logrotatie voor het `var/log/walmart-bopis.log` -bestand in te stellen om de grootte tot een minimum te beperken. Voor Adobe Commerce op-gebouw installaties, zie {de omwenteling van het 0} Logboek ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#server-settings) in de _Gids van de Installatie van Adobe Commerce_. [ Voor Adobe Commerce op de projecten van de wolkeninfrastructuur, zie [ Mening en beheer logboeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html).
+>Vraag uw systeembeheerder voor Adobe Commerce-installaties op locatie om logrotatie voor het `var/log/walmart-bopis.log` -bestand in te stellen om de grootte tot een minimum te beperken. Voor Adobe Commerce op-gebouw installaties, zie {de omwenteling van het 0} Logboek [&#128279;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#server-settings) in de _Gids van de Installatie van Adobe Commerce_.  Voor Adobe Commerce op de projecten van de wolkeninfrastructuur, zie [ Mening en beheer logboeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html).
 
 <table>
 <thead>

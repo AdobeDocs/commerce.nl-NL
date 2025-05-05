@@ -97,7 +97,7 @@ In de rest van deze handleiding worden al deze stappen gedetailleerder doorlopen
 
 >[!NOTE]
 >
->Voor mobiele ontwikkelaars, leer hoe te [ ](./mobile-sdk-epc.md) Adobe Experience Platform Mobile SDK met Commerce integreren.
+>Voor mobiele ontwikkelaars, leer hoe te [&#128279;](./mobile-sdk-epc.md) Adobe Experience Platform Mobile SDK met Commerce integreren.
 
 ## HIPAA-gereedheid
 
@@ -111,5 +111,5 @@ Deze gids is ontworpen voor de Adobe Commerce-handelaar die zijn Commerce-winkel
 
 Gebruik de volgende bronnen als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld:
 
-- [ centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) {target="_blank"}
-- [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) {target="_blank"} - leg een kaartje voor om extra hulp te ontvangen.
+- [ centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html){target="_blank"} 
+- [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket){target="_blank"}  - leg een kaartje voor om extra hulp te ontvangen.

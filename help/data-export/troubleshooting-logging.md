@@ -144,7 +144,7 @@ Wanneer u een gegevensresync teweegbrengt, kan het tot een uur voor de gegevens 
 
 #### Synchronisatie wordt niet uitgevoerd
 
-Als de synchronisatie niet op een programma loopt of niets wordt gesynchroniseerd, zie dit ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce) artikel 0} KnowledgeBase {.[
+Als de synchronisatie niet op een programma loopt of niets wordt gesynchroniseerd, zie dit [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce) artikel 0&rbrace; KnowledgeBase &lbrace;.
 
 #### Synchronisatie is mislukt
 

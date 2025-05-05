@@ -30,7 +30,7 @@ Bij het opvragen genereert [!DNL Live Search] de zoekresultaten in groepen van d
 
 Facetten die voor de [!DNL Commerce] opslag worden teruggegeven worden verwerkt door de onderzoeksadapter, die verzoeken en de resultaten in de opslag teruggeeft. Alle [!DNL Commerce] storefront-facetten worden alfabetisch gesorteerd met opties voor één keuze, ongeacht het invoertype dat aan het overeenkomstige kenmerk is toegewezen. Facetten die beschikbaar zijn in de winkel, worden weergegeven volgens het huidige thema en weerspiegelen eventuele aanpassingen aan de presentatie van gelaagde navigatie.
 
-In tegenstelling, ](https://developer.adobe.com/commerce/php/architecture/technical-vision/web-api/) worden de uitvoeringen zonder kop [ verwerkt door API en steun extra opties. Koploze facetten kunnen alfabetisch of op aantal worden gesorteerd en kunnen opties voor één of meerdere selecties hebben.
+In tegenstelling, [&#128279;](https://developer.adobe.com/commerce/php/architecture/technical-vision/web-api/) worden de uitvoeringen zonder kop  verwerkt door API en steun extra opties. Koploze facetten kunnen alfabetisch of op aantal worden gesorteerd en kunnen opties voor één of meerdere selecties hebben.
 
 ### Facet-labels
 

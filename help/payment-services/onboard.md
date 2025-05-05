@@ -39,7 +39,7 @@ Als u [!DNL Payment Services] wilt gebruiken, moet u alle afhankelijke modules h
 
 De modules van de Verbinding van de Diensten en van identiteitskaart van de Diensten worden automatisch geïnstalleerd tijdens de [ installatie van  [!DNL Payment Services]](install.md).
 
-Wanneer de installatie volledig is, kunt u een nieuwe sectie in de configuratiemontages (**[!UICONTROL Stores]** zien > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**) als u **[!UICONTROL Services]**uitbreidt **[!UICONTROL Commerce Services Connector]**.
+Wanneer de installatie volledig is, kunt u een nieuwe sectie in de configuratiemontages (**[!UICONTROL Stores]** zien > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**) als u **[!UICONTROL Services]**&#x200B;uitbreidt **[!UICONTROL Commerce Services Connector]**.
 
 Leren om tot uw API sleutels te leiden of toegang te hebben, zie [ API geloofsbrieven ](#obtain-api-credentials).
 

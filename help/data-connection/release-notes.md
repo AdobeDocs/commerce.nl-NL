@@ -82,7 +82,7 @@ _12 oktober 2022_
 
 _Maart 21, 2025_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuwe ](../assets/new.svg) Toegevoegde PHP 8.4 steun.
 
@@ -90,7 +90,7 @@ _Maart 21, 2025_
 
 _Januari 17, 2025_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuw ](../assets/new.svg) - voegde de [ HIPAA-klaar uitbreiding ](hipaa-readiness.md) aan [!DNL Data Connection] toe zodat kunnen de handelaren [!DNL Commerce] gegevens van de achterkantoorgebeurtenis met Experience Platform delen en naleving van HIPAA handhaven.
 ![ bevestig ](../assets/fix.svg) - Vloeiende een kwestie waar de [!DNL Data Connection] uitbreiding `eventForwarding` gegevens en het plaatsen van de `HIPAA` vlag voor alle klanten met voeten trad. Nu plaatst de uitbreiding slechts de vlag voor klanten HIPAA.
@@ -99,7 +99,7 @@ _Januari 17, 2025_
 
 _7 Oktober, 2024_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuw ](../assets/new.svg) - Toegevoegde capaciteit om [ attributen van de douaneorde ](custom-attributes.md) aan achterbureaugegevens tot stand te brengen.
 ![ Nieuw ](../assets/new.svg) - Toegevoegde nieuwe [ Lijst van de Attributen van de Orde van de Douane ](connect-data.md#data-customization) om u te helpen om het even welke douanekenmerken bekijken die in [!DNL Commerce] worden gevormd en naar Experience Platform worden verzonden.
@@ -109,7 +109,7 @@ _7 Oktober, 2024_
 
 _Augustus 27, 2024_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuw ](../assets/new.svg) - als u aan bèta deelneemt, zorg ervoor uw `composer.json` dossier het volgende op het wortelniveau heeft: ` "minimum-stability": "beta"`. Voeg ook `composer require "magento/customers-connector: ^1.2.0"` toe om klantprofielen van uw Commerce-exemplaar naar SaaS te verzenden.
 ![ Nieuw ](../assets/new.svg) - Deze versie bevat de flarden die in 3.1.1, 3.1.2, 3.1.3, en 3.1.4 worden vrijgegeven.
@@ -118,7 +118,7 @@ _Augustus 27, 2024_
 
 _9 augustus, 2024_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Repareren ](../assets/fix.svg) - werkte het `experience-platform-connector` metapakket bij om extra ongebruikte gegevensexporteurs en indexeerders te verwijderen.
 
@@ -126,7 +126,7 @@ _9 augustus, 2024_
 
 _22 Juli, 2024_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Repareren ](../assets/fix.svg) - werkte het `experience-platform-connector` metapakket bij om ongebruikte gegevensexporteurs en indexeerders te verwijderen.
 
@@ -134,7 +134,7 @@ _22 Juli, 2024_
 
 _5 Juni, 2024_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Bevestig ](../assets/fix.svg) - Vaste een kwestie waar het verkeerde datumformaat werd gebruikt toen het in werking stellen van a [ historische synchronisatie ](connect-data.md#specify-order-history-date-range).
 ![ Bevestig ](../assets/fix.svg) - Vaste een kwestie waar de [ startCheckout ](events.md#startcheckout) gebeurtenis niet op Adobe Commerce 2.4.7 werd verzonden.
@@ -143,16 +143,16 @@ _5 Juni, 2024_
 
 _4 April, 2024_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor PHP 8.3 voor alle [!DNL Data Connection] uitbreidingen.
-![ Nieuw ](../assets/new.svg) - toegevoegd artikel over hoe te [ ](mobile-sdk-epc.md) Adobe Experience Platform Mobile SDK met Commerce integreren.
+![ Nieuw ](../assets/new.svg) - toegevoegd artikel over hoe te [&#128279;](mobile-sdk-epc.md) Adobe Experience Platform Mobile SDK met Commerce integreren.
 
 ## 3.2.0-bèta2
 
 _Maart 4, 2024_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuw ](../assets/new.svg) - als u aan bèta deelneemt, zorg ervoor uw `composer.json` dossier het volgende op het wortelniveau heeft: ` "minimum-stability": "beta"`. Voeg ook `composer require "magento/customers-connector: ^1.2.0"` toe om klantprofielen van uw Commerce-exemplaar naar SaaS te verzenden.
 ![ Nieuw ](../assets/new.svg) - Toegevoegde capaciteit om [ douanekenmerken ](custom-attributes.md) toe te voegen.
@@ -162,7 +162,7 @@ _Maart 4, 2024_
 
 _16 november 2023_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 ![ Nieuw ](../assets/new.svg) - de schakelaar van Experience Platform is anders genoemd aan [!DNL Data Connection].
 ![ Repareren ](../assets/fix.svg) - Toegevoegde capaciteit om foutenreactie te registreren als IMS van Adobe niet het toegangstoken kan produceren.
@@ -172,19 +172,19 @@ _16 november 2023_
 
 _10 oktober, 2023_
 
-[!BADGE  Verenigbaarheid ]{type=Informative tooltip="Compatibiliteit"}
+[!BADGE &#x200B; Verenigbaarheid &#x200B;]{type=Informative tooltip="Compatibiliteit"}
 
 Dit is een belangrijke versie. [ geeft ](install.md#update-the-data-connection) het wortel composer.json- dossier van uw project uit.
 
 ![ Nieuw ](../assets/new.svg) - Algemene beschikbaarheid om [ historische orde ](connect-data.md#send-historical-order-data) gegevens en status naar Experience Platform te verzenden.
-![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor OAuth 2.0 wanneer u [ ](connect-data.md#connect-commerce-data-to-adobe-experience-platform) de [!DNL Data Connection] uitbreiding vormt.
+![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor OAuth 2.0 wanneer u [&#128279;](connect-data.md#connect-commerce-data-to-adobe-experience-platform) de [!DNL Data Connection] uitbreiding vormt.
 ![ Nieuw ](../assets/new.svg) - Eind steun voor Adobe Commerce 2.4.3.
 
 ## 2.3.0.
 
 _Juni 27, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuw ](../assets/new.svg) - Toegevoegde capaciteit aan [ draai van het verzenden van storefront gebeurtenissen ](connect-data.md#data-collection) aan Experience Platform.
 ![ bevestig ](../assets/fix.svg) - de bijgewerkte configuraties van het Beleid van de Veiligheid van de Inhoud.
@@ -195,7 +195,7 @@ _Juni 27, 2023_
 
 _13 Juni, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuw ](../assets/new.svg) - (Beta) Toegevoegde capaciteit om [ historische orde ](connect-data.md#beta-send-historical-order-data) gegevens en status naar Experience Platform te verzenden.
 
@@ -203,7 +203,7 @@ _13 Juni, 2023_
 
 _Maart 30, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuw ](../assets/new.svg) - Bundelde `commerce-data-export` en `saas-export` gebiedsdelen met de `experience-platform-connector` uitbreiding. Eerder, moest u deze gebiedsdelen afzonderlijk installeren. Deze gebiedsdelen, samen met handelaarconfiguratie, laten server-zijverwerking van [ achterbureaugebeurtenissen ](events-backoffice.md) toe.
 ![ Nieuw ](../assets/new.svg) - Toegevoegde nieuwe geroepen backoffice gebeurtenis [`orderShipmentCompleted`](events-backoffice.md#ordershipmentcompleted).
@@ -212,7 +212,7 @@ _Maart 30, 2023_
 
 _28 februari, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuw ](../assets/new.svg) - Toegevoegde steun voor PHP 8.2 voor alle [!DNL Data Connection] uitbreidingen.
 
@@ -220,7 +220,7 @@ _28 februari, 2023_
 
 _Januari 17, 2023_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuw ](../assets/new.svg) - werkte [[!DNL Data Connection]  uitbreiding Admin ](connect-data.md) bij zodat kunt u uw eigen SDK van het Web van AEP (legering) specificeren.
 ![ Repareren ](../assets/fix.svg) Veranderde in het gebruiken `identityMap` in plaats van `personID` toen het plaatsen van de primaire identiteit voor om het even welke gegevens die aan de rand worden geduwd.
@@ -229,7 +229,7 @@ _Januari 17, 2023_
 
 _10 November, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
 ![ Bevestig ](../assets/fix.svg) - nu wordt de context van Adobe Experience Platform geplaatst slechts nadat de Collector van de Gebeurtenis Storefront en de Gebeurtenis SDK met succes worden geladen.
 
@@ -237,7 +237,7 @@ _10 November, 2022_
 
 _12 oktober 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuw ](../assets/new.svg) - Toegevoegde capaciteit om uw eigen SDK van het Web van AEP te specificeren wanneer [ verbindend ](connect-data.md) uw instantie van Adobe Commerce met Experience Platform.
 ![ Repareren ](../assets/fix.svg) - de bijgewerkte vereisten van het gegevensstroomwerkingsgebied zodat datastream IDs aan de website eerder dan storeview moet worden behandeld.
@@ -246,6 +246,6 @@ _12 oktober 2022_
 
 _9 augustus, 2022_
 
-[!BADGE  Gesteund ]{type=Informative tooltip="Ondersteund"}
+[!BADGE &#x200B; Gesteund &#x200B;]{type=Informative tooltip="Ondersteund"}
 
 ![ Nieuw ](../assets/new.svg) - Algemene beschikbaarheidsversie.

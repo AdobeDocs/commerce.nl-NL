@@ -29,7 +29,7 @@ ht-degree: 32%
    - [Services Connector](/help/landing/saas.md)
 - Gegevensgereedschappen {#data-services}
    - [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html)
-   - [ Prijs die SaaS ](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html) indexeert
+   - [ Prijs die SaaS  indexeert](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html)
    - [Catalogus synchroniseren](/help/landing/catalog-sync.md)
 
 

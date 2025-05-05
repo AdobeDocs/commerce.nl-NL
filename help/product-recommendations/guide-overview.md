@@ -38,5 +38,5 @@ Deze handleiding heeft geen betrekking op de kernmogelijkheden van Adobe Commerc
 
 Gebruik de volgende bronnen als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld:
 
-* [ het centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-tickets) {target="_blank"} - zie de [!DNL Product Recommendations] verwante het oplossen van problemenartikelen.
-* [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) {target="_blank"} - leg een kaartje voor om extra hulp te ontvangen.
+* [ het centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-tickets){target="_blank"}  - zie de [!DNL Product Recommendations] verwante het oplossen van problemenartikelen.
+* [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket){target="_blank"}  - leg een kaartje voor om extra hulp te ontvangen.

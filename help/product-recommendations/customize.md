@@ -34,7 +34,7 @@ Naast het bestand `recommendations.html` bevat de map `ProductRecommendationsLay
 
 ## Positionering van de aanbevolen eenheid
 
-Wanneer u [ ](create.md) creeert een aanbeveling, specificeert u de [ plaats ](placement.md) waar het op de pagina verschijnt. Een aanbevolen eenheid kan boven of onder aan de hoofdinhoudscontainer worden geplaatst. U kunt deze plaatsing echter aanpassen. Als u een type van de aanbeveling van de Bouwer van de Pagina adviserende inhoud creeert, gebruik de hulpmiddelen van de Bouwer van de Pagina om de aanbeveling op de pagina te plaatsen. Bewerk voor alle andere paginatypen de `*.xml` -bestanden die worden gegenereerd wanneer de aanbeveling wordt gemaakt.
+Wanneer u [&#128279;](create.md) creeert een aanbeveling, specificeert u de [ plaats ](placement.md) waar het op de pagina verschijnt. Een aanbevolen eenheid kan boven of onder aan de hoofdinhoudscontainer worden geplaatst. U kunt deze plaatsing echter aanpassen. Als u een type van de aanbeveling van de Bouwer van de Pagina adviserende inhoud creeert, gebruik de hulpmiddelen van de Bouwer van de Pagina om de aanbeveling op de pagina te plaatsen. Bewerk voor alle andere paginatypen de `*.xml` -bestanden die worden gegenereerd wanneer de aanbeveling wordt gemaakt.
 
 1. Ga naar de map `layout` :
 

@@ -16,7 +16,7 @@ Alvorens u de uitbreiding installeert, [ herzie de eerste vereisten ](overview.m
 
 ## De extensie installeren
 
-De [!DNL Data Connection] uitbreiding is beschikbaar bij [ de Marketplace van Adobe ](https://commercemarketplace.adobe.com/magento-experience-platform-connector.html). Wanneer u deze uitbreiding van de bevellijn van de server installeert, verbindt het met uw installatie van Adobe Commerce als a [ dienst ](../landing/saas.md). Wanneer het proces volledig is, **[!DNL Data Connection]** en **de Schakelaar van de Diensten van Commerce** verschijnen op het **4} menu van het Systeem onder** Diensten **in Commerce _Admin_.**
+De [!DNL Data Connection] uitbreiding is beschikbaar bij [ de Marketplace van Adobe ](https://commercemarketplace.adobe.com/magento-experience-platform-connector.html). Wanneer u deze uitbreiding van de bevellijn van de server installeert, verbindt het met uw installatie van Adobe Commerce als a [ dienst ](../landing/saas.md). Wanneer het proces volledig is, **[!DNL Data Connection]** en **de Schakelaar van de Diensten van Commerce** verschijnen op het **4&rbrace; menu van het Systeem onder** Diensten **in Commerce _Admin_.**
 
 ![[!DNL Data Connection] de mening van Admin van de uitbreiding ](assets/epc-adminui.png)
 
@@ -104,7 +104,7 @@ bin/magento config:set adobe_io_events/eventing/enabled 1
 
 ### De B2B-extensie installeren
 
-Voor kooplieden B2B, installeer de volgende uitbreiding om ](events.md#b2b-events) gebeurtenisgegevens van de 0} verzoeklijst {te omvatten.[
+Voor kooplieden B2B, installeer de volgende uitbreiding om [&#128279;](events.md#b2b-events) gebeurtenisgegevens van de 0&rbrace; verzoeklijst &lbrace;te omvatten.
 
 Download de extensie `magento/experience-platform-connector-b2b` door het volgende uit te voeren vanaf de opdrachtregel:
 

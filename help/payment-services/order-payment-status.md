@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # Betalingsstatusrapport bestelling
 
-[!DNL Payment Services] voor [!DNL Adobe Commerce] en [!DNL Magento Open Source] biedt u uitvoerige rapportering aan zodat u een duidelijke mening van de 3} transacties van uw opslag ](transactions.md), orden, en betalingen kunt krijgen.[
+[!DNL Payment Services] voor [!DNL Adobe Commerce] en [!DNL Magento Open Source] biedt u uitvoerige rapportering aan zodat u een duidelijke mening van de 3&rbrace; transacties van uw opslag [&#128279;](transactions.md), orden, en betalingen kunt krijgen.
 
 Er zijn twee beschikbare rapportageweergaven voor de betalingsstatus van bestellingen waarmee u snel de betalingsstatus van uw bestellingen kunt bekijken:
 
-* ](#order-payment-status-data-visualization-view)**- Grafiek beschikbaar op het Huis van de Diensten van de Betaling van de Orde dat een visuele vertegenwoordiging van samengevoegde betalingsstatussen per dag van de mening van het het statusrapport van de Betalingsstatus van de Orde is**[
+* [&#128279;](#order-payment-status-data-visualization-view)**- Grafiek beschikbaar op het Huis van de Diensten van de Betaling van de Orde dat een visuele vertegenwoordiging van samengevoegde betalingsstatussen per dag van de mening van het het statusrapport van de Betalingsstatus van de Orde is**
 * **[de mening van het de statusrapport van de Bestelling van de Bestelling](#order-payment-status-report-view)** - Rapport beschikbaar in de betalingsstatus van de Orde die gedetailleerde betaling toont, gefactureerd, verscheept, teruggave, en geschilstatus voor alle transacties
 
 De weergave van de betalingsstatus van bestellingen helpt u eenvoudig te begrijpen waar een specifieke bestelling zich binnen de bestelling bevindt om de kasstroom te verwerken. Met deze rapporten kunt u snel bestellingen bekijken (op basis van hun betalingsstatus en betalingsdatum) en mogelijke problemen identificeren.
 
-U kunt de betalingsstatussen van de Orde ](#download-order-payment-statuses) in een .csv dossierformaat voor gebruik in bestaande boekhouding of de software van het ordebeheer downloaden.[
+U kunt de betalingsstatussen van de Orde [&#128279;](#download-order-payment-statuses) in een .csv dossierformaat voor gebruik in bestaande boekhouding of de software van het ordebeheer downloaden.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ De weergave voor de visualisatie van betalingsstatusgegevens voor bestellingen b
 
 De weergave van het rapport Betalingsstatus bestellen is beschikbaar in de weergave Home of Payment Services. Het omvat gedetailleerde statussen - betaling, gefactureerd, verscheept, terugbetaling, geschil, en meer-voor alle transacties.
 
-Op _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Orders]_>**[!UICONTROL View Report]**om de gedetailleerde lijst van het de statusrapport van de Betalingsstatus van de Orde te zien.
+Op _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Orders]_>**[!UICONTROL View Report]**&#x200B;om de gedetailleerde lijst van het de statusrapport van de Betalingsstatus van de Orde te zien.
 
 ![ de betalingstatustransacties van de Orde in Admin ](assets/orders-report-data.png){width="800" zoomable="yes"}
 
@@ -143,7 +143,7 @@ In de mening van het het statusrapport van de Betalingsstatus van de Orde, kunt 
 
 ![ de bronnen van Gegevens selectie ](assets/datasource.png){width="300" zoomable="yes"}
 
-Als _[!UICONTROL Live]_de geselecteerde gegevensbron is, kunt u rapportinformatie voor uw opslag zien die [!DNL Payment Services] in productiemodus gebruiken. Als_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u rapportinformatie voor zandbakwijze zien.
+Als _[!UICONTROL Live]_&#x200B;de geselecteerde gegevensbron is, kunt u rapportinformatie voor uw opslag zien die [!DNL Payment Services] in productiemodus gebruiken. Als&#x200B;_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u rapportinformatie voor zandbakwijze zien.
 
 Gegevensbronselecties werken als volgt:
 
@@ -154,7 +154,7 @@ Gegevensbronselecties werken als volgt:
 U kunt als volgt de gegevensbron voor uw [!UICONTROL Order Payment Status] -rapport selecteren:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > **[!UICONTROL Orders]** > **[!UICONTROL View Report]**.
-1. Klik op het selectorfilter _[!UICONTROL Data source]_en selecteer **[!UICONTROL Live]**of **[!UICONTROL Sandbox]**.
+1. Klik op het selectorfilter _[!UICONTROL Data source]_&#x200B;en selecteer **[!UICONTROL Live]**&#x200B;of **[!UICONTROL Sandbox]**.
 
    De rapportresultaten regenereren op basis van de geselecteerde gegevensbron.
 
@@ -174,7 +174,7 @@ In de weergave Betalingsstatusrapport bestellen kunt u de resultaten filteren di
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Orders]_>**[!UICONTROL View Report]**.
 1. Klik op de kiezer **[!UICONTROL Filter]** .
 1. Wissel de _opties van de Status van het Betalen_ om rapportresultaten voor slechts geselecteerde status van de ordebetaling te zien.
-1. Het rapport van de mening resulteert binnen een waaier van het ordebedrag door a _[!UICONTROL Min Order Amount]_of _ [!UICONTROL Max Order Amount_] in te gaan.
+1. Het rapport van de mening resulteert binnen een waaier van het ordebedrag door a _[!UICONTROL Min Order Amount]_&#x200B;of _ [!UICONTROL Max Order Amount_] in te gaan.
 1. Klik op **[!UICONTROL Hide filters]** om het filter te verbergen.
 
 ### Kolommen tonen en verbergen
@@ -244,10 +244,10 @@ Betalingsstatusrapporten voor bestellingen bevatten de volgende informatie.
 
 | Kolom | Beschrijving |
 | ------------ | -------------------- |
-| [!UICONTROL Order ID] | Commerce order ID <br> <br> om verwante [ orde info ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) te zien {target="_blank"}, klik identiteitskaart |
+| [!UICONTROL Order ID] | Commerce order ID <br> <br> om verwante [ orde info ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"} te zien , klik identiteitskaart |
 | [!UICONTROL Order Date] | Tijdstempel van besteldatum |
 | [!UICONTROL Authorized Date] | Tijdstempel van betalingsvergunning |
-| [!UICONTROL Order Status] | Huidige Commerce [ ordestatus ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status) {target="_blank"} |
+| [!UICONTROL Order Status] | Huidige Commerce [ ordestatus ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-status){target="_blank"}  |
 | [!UICONTROL Invoiced] | Factuurstatus van bestelling—*[!UICONTROL No]*, *[!UICONTROL Partial]* of *[!UICONTROL Yes]* |
 | [!UICONTROL Shipped] | Verzendstatus van bestelling—*[!UICONTROL No]*, *[!UICONTROL Partial]* of *[!UICONTROL Yes]* |
 | [!UICONTROL Order Amt] | Totaalbedrag van de beschikking |

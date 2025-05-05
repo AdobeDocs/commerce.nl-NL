@@ -23,11 +23,11 @@ In dit onderwerp leert u hoe u de storefront-gebeurteniswaarden die door de exte
 
 Commerce-gebeurtenisgegevens verzamelen:
 
-- Installeer de [ SDK van de Gebeurtenissen van Adobe Commerce ](https://github.com/adobe/commerce-events/tree/main/packages/storefront-events-sdk). Voor PHP storefronts, zie [ ](install.md) onderwerp installeren. Voor PWA Studio storefronts, zie de [ gids van PWA Studio ](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/aep/).
+- Installeer de [ SDK van de Gebeurtenissen van Adobe Commerce ](https://github.com/adobe/commerce-events/tree/main/packages/storefront-events-sdk). Voor PHP storefronts, zie [&#128279;](install.md) onderwerp installeren. Voor PWA Studio storefronts, zie de [ gids van PWA Studio ](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/aep/).
 
   >[!NOTE]
   >
-  > Vorm **[ ](connect-data.md) identiteitskaart van de Organisatie en identiteitskaart DataStream niet.**
+  > Vorm **[&#128279;](connect-data.md) identiteitskaart van de Organisatie en identiteitskaart DataStream niet.**
 
 ## Commerce-storefrongegevens toewijzen aan Adobe Experience Platform
 
@@ -43,7 +43,7 @@ Om Commerce storefront gegevens aan Adobe Experience Platform in kaart te brenge
 
 1. [ publiceer markering ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) aan uw ontwikkelomgeving.
 
-1. Volg de **stappen 1} hieronder van de Toewijzing van de Gebeurtenis 0} om gegevenselementen en regels voor specifieke gebeurtenissen te vormen.**
+1. Volg de **stappen 1&rbrace; hieronder van de Toewijzing van de Gebeurtenis 0&rbrace; om gegevenselementen en regels voor specifieke gebeurtenissen te vormen.**
 
 ### Gebeurtenistoewijzing
 
@@ -1328,7 +1328,7 @@ Storefront-gebeurtenissen bevatten profielgegevens die zijn gebaseerd op de veld
 >
 >Als u een vorige instelling hebt die afhankelijk is van verschillende velden, kunt u deze instellingen blijven gebruiken.
 
-- `personalEmail` - Alleen van toepassing op accountgebeurtenissen. Volg de stappen, de regels, en de acties hierboven geschetst [ ](#createaccount)
+- `personalEmail` - Alleen van toepassing op accountgebeurtenissen. Volg de stappen, de regels, en de acties hierboven geschetst [&#128279;](#createaccount)
 - `identityMap` - Is van toepassing op alle andere storefront-gebeurtenissen. Zie het volgende voorbeeld.
 
 ### Voorbeeld
@@ -1418,7 +1418,7 @@ Wanneer u de extensie [!DNL Data Connection] in Adobe Commerce installeert, is d
    ![ creeer volgt geen gegevenselement ](assets/element-dnt-cookie.png)
    _creeer volgt geen gegevenselement_
 
-1. Creeer het 1} gegevenselement van de Code van de Douane van de a **Kern (`%consent%`) dat `out` terugkeert als het koekje wordt geplaatst en `in` anders:**
+1. Creeer het 1&rbrace; gegevenselement van de Code van de Douane van de a **Kern (`%consent%`) dat `out` terugkeert als het koekje wordt geplaatst en `in` anders:**
 
    ![ creeer het element van toestemmingsgegevens ](assets/element-consent-dnt-cookie.png)
    _creeer het element van toestemmingsgegevens_

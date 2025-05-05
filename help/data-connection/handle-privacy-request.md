@@ -24,7 +24,7 @@ Raadpleeg de documentatie bij Adobe Experience Platform voor meer informatie ove
 U kunt afzonderlijke aanvragen voor toegang tot en verwijdering van consumentengegevens uit [!DNL Commerce] op twee manieren verzenden:
 
 * Door **UI van Privacy Service**. Zie de documentatie [ hier ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide#_blank).
-* Door **Privacy Service API**. Zie hier de documentatie [ ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) en API informatie [ ](https://developer.adobe.com/experience-platform-apis/#_blank).
+* Door **Privacy Service API**. Zie hier de documentatie [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank) en API informatie [&#128279;](https://developer.adobe.com/experience-platform-apis/#_blank).
 
 Privacy Service steunt twee soorten verzoeken: **gegevenstoegang** en **gegevensschrapping**.
 

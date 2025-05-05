@@ -67,7 +67,7 @@ Pas de schuifregelaar aan om maximaal 20 producten weer te geven in de aanbevole
 
 Om het even welke veranderingen die aan product [ filters ](filters.md) worden aangebracht worden weerspiegeld in de _geadviseerde productvoorproef_. Alleen producten die overeenkomen met inclusiefilters mogen worden aanbevolen. Producten die overeenkomen met uitsluitingsfilters worden niet aanbevolen.
 
-De _3} lusjes van de Uitbreidingen_ en _van de Uitsluitingen {maken een lijst van de beschikbare filters van elk type._ In de lijst wordt elk actief filter gemarkeerd met een blauwe stip.
+De _3&rbrace; lusjes van de Uitbreidingen_ en _van de Uitsluitingen &lbrace;maken een lijst van de beschikbare filters van elk type._ In de lijst wordt elk actief filter gemarkeerd met een blauwe stip.
 
 - Klik op de filternaam om de details van elk filter weer te geven.
 - Om de filterstatus te veranderen, plaats **filter** knevel aan de `on` of `off` positie toelaten.

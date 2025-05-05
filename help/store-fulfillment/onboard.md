@@ -49,6 +49,6 @@ Ga aan de slag met [!DNL Store Fulfillment for Adobe Commerce by Walmart Commerc
 
 1. [ creeer gebruikers en rollen voor de Winkel bijstaat app ](user-setup.md).
 
-1.  [!DNL Store Assist]  app 1} van de Download van het Spoor {[ aan uw gewenste apparaat. De app is beschikbaar op zowel de Apple app (iOS) als Google Play (Android™) ](app-setup.md) winkels.
+1. [!DNL Store Assist]  app 1&rbrace; van de Download van het Spoor &lbrace;[ aan uw gewenste apparaat. De app is beschikbaar op zowel de Apple app (iOS) als Google Play (Android™) ](app-setup.md) winkels.
 
 Nadat u met succes hebt geïnstalleerd, gevormd, voltooid op het instappen, en toegang tot [!DNL Store Assist] app hebt, kunt u [ beginnen creërend orden en het testen ](test-and-deploy.md).

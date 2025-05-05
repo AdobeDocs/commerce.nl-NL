@@ -35,11 +35,11 @@ composer require walmart/magento-bopis-metapackage:1.0.0
 
 - **Toegang tot de Opslag die door het softwarearchief van de Technologieën van Commerce van het Spoor (.zip- dossier)** wordt ontvangen - tijdens het onboarding en enablement proces, werk met uw Manager van de Rekening om toegang tot het installatiedossier voor de uitbreiding van de Afhandeling van de Opslag te krijgen.
 
-- **de rekeningsinformatie van Adobe Commerce** - Installerend de [!DNL Store Fulfillment] oplossing vereist a [[!DNL Commerce]  rekening ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create) {target="_blank"}. U hebt een account-id en gebruikersgegevens nodig met de toegang tot het [!DNL Adobe Commerce] -project door Eigenaar of Beheerder.
+- **de rekeningsinformatie van Adobe Commerce** - Installerend de [!DNL Store Fulfillment] oplossing vereist a [[!DNL Commerce]  rekening ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create){target="_blank"} . U hebt een account-id en gebruikersgegevens nodig met de toegang tot het [!DNL Adobe Commerce] -project door Eigenaar of Beheerder.
 
 - Voor [!DNL Adobe Commerce] in projecten met cloudinfrastructuur moeten softwareinstallatieprogramma&#39;s beheerderstoegang tot het Cloud-project hebben. Zie [ gebruikerstoegang beheren ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access).
 
-- **Ervaring gebruikend Composer en[!DNL Commerce CLI]** - zie [ Algemene Installatie CLI ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) {target="_blank"} voor informatie over het gebruiken van deze hulpmiddelen om uitbreidingen op het [!DNL Adobe Commerce] platform te installeren en te beheren.
+- **Ervaring gebruikend Composer en[!DNL Commerce CLI]** - zie [ Algemene Installatie CLI ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions){target="_blank"}  voor informatie over het gebruiken van deze hulpmiddelen om uitbreidingen op het [!DNL Adobe Commerce] platform te installeren en te beheren.
 
 - **Ervaring die derdeuitbreidingen op Adobe Commerce** installeert - voor verwijzing, zie de documentatie van Adobe Commerce.
 
@@ -188,7 +188,7 @@ Verifieer bij de Adobe Commerce-server of de modules voor de extensie Store Fulf
 
 ### Aanvullende stappen
 
-Indien nodig, gebruik de [ opstelling :static-content: ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/cli-reference/commerce-on-premises) {target="_blank"} CLI bevel opstelt om statische meningsdossiers aan uw productiemilieu op te stellen.
+Indien nodig, gebruik de [ opstelling :static-content: ](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/cli-reference/commerce-on-premises){target="_blank"}  CLI bevel opstelt om statische meningsdossiers aan uw productiemilieu op te stellen.
 
 ```bash
 php bin/magento setup:static-content:deploy -f

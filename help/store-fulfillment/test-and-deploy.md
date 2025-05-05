@@ -54,7 +54,7 @@ Dit steekproeftestplan bestrijkt de volgende functionele gebieden:
 | Beheerder | Machtigingen voor App-uitvoering opslaan | Beheerder |
 | Adobe Commerce Frontend | Producttypen | Klant, beheerder |
 | Frontend Controle </br> controle-binnen Vorm | Inchecken | Klant, beheerder |
-| App Winkelassistentie | Het Stadium van de Bestelling </br> van de Beweging {</br> en Handoff</br> | Winkelkoppeling |
+| App Winkelassistentie | Het Stadium van de Bestelling </br> van de Beweging &lbrace;</br> en Handoff</br> | Winkelkoppeling |
 
 ### API-inventarisatie
 

@@ -64,12 +64,12 @@ Nadat de app Store Assist is ingesteld en geconfigureerd, kunnen Store Associate
 
 - Verifieer dat het mobiele apparaat aan de [ hardware en softwarevereisten ](solution-requirements.md#store-assist-app-requirements) voor de oplossing van de Afhandeling van de Opslag voldoet.
 
-- Download de Opslag bijstaat app van [ Apple App Store ](https://apps.apple.com/us/app/store-assist-by-walmart/id1609281539) {target="_blank"} of de [ opslag van Google Play ](https://play.google.com/store/apps/details?id=com.walmart.faas.storeassist) {target="_blank"}.
+- Download de Opslag bijstaat app van [ Apple App Store ](https://apps.apple.com/us/app/store-assist-by-walmart/id1609281539){target="_blank"}  of de [ opslag van Google Play ](https://play.google.com/store/apps/details?id=com.walmart.faas.storeassist){target="_blank"} .
 
 - Voor het aanmelden bij Store Associates is de volgende informatie vereist:
 
    - **[!UICONTROL Company name]** die is gekoppeld aan het account Winkelassistentie
 
-   - **- gebruikersbenaming en wachtwoordgeloofsbrieven voor hun rekening van de Bewaarplaats van 0} bijstaat.**
+   - **- gebruikersbenaming en wachtwoordgeloofsbrieven voor hun rekening van de Bewaarplaats van 0&rbrace; bijstaat.**
 
   Een beheerder van Adobe Commerce kan [!DNL Store Assist app] gebruikersrekeningen voor alle opslagplaatsen tot stand brengen en beheren die [ In-Store Bestelwagen ](merchant-store-configuration.md#pickup-location-configuration) hebben die in de montages van de Bewaarplaatsen wordt toegelaten Admin.

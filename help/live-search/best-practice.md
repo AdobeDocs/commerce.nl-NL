@@ -128,7 +128,7 @@ Het is van cruciaal belang om een weloverwogen standaard zoekregel vast te stell
 - Geef een lichte prioriteit aan producten met hogere winstmarges zonder de relevantie in gevaar te brengen.
 - Markeer producten die te koop zijn of deel uitmaken van speciale promoties.
 - Stel zoekregels tijdens promotie- of verkoopperiodes automatisch in door het datumbereik tijdens de promotieperiode te gebruiken.
-- De onderzoeksresultaten van het dagonderzoek die op individueel verkoopgedrag worden gebaseerd dat [ intelligente rangschikking ](rules-add.md#intelligent-ranking), zoals &quot;voor u&quot;wordt geadviseerd, &quot;het meest bekeken&quot;etc. gebruikt. Om winkelgedrag aan te passen, moet u ervoor zorgen dat de gebeurtenis correct wordt uitgevoerd. Voor Luminantietransacties is de optie Gebeurtenis beschikbaar buiten de box. Voor hoofdloze of douaneimplementaties, moet u het voorkomen ](events.md) uitvoeren dat op uw specifieke behoeften wordt gebaseerd. [
+- De onderzoeksresultaten van het dagonderzoek die op individueel verkoopgedrag worden gebaseerd dat [ intelligente rangschikking ](rules-add.md#intelligent-ranking), zoals &quot;voor u&quot;wordt geadviseerd, &quot;het meest bekeken&quot;etc. gebruikt. Om winkelgedrag aan te passen, moet u ervoor zorgen dat de gebeurtenis correct wordt uitgevoerd. Voor Luminantietransacties is de optie Gebeurtenis beschikbaar buiten de box. Voor hoofdloze of douaneimplementaties, moet u het voorkomen [&#128279;](events.md) uitvoeren dat op uw specifieke behoeften wordt gebaseerd. 
 
 Meer informatie over zoekregels:
 
@@ -195,4 +195,4 @@ U kunt deze metrische gegevens gebruiken om uw onderzoeksfunctionaliteit op de v
 - Analyseer populaire zoektermen en productgegevens om belangrijke trefwoorden te identificeren. Optimaliseer uw product doorzoekbare attributen met deze sleutelwoorden om onderzoeksrelevantie te verbeteren.
 - Analyseer regelmatig uw resultaatgegevens om veranderende tendensen, verkoopvoorkeur en gedrag te begrijpen, hoogste onderzoekstermijnen te identificeren, en kwesties te ontdekken. Met deze feedbacklus kunt u uw zoekregels en productaanbiedingen voortdurend verfijnen en verbeteren
 
-Als u de juiste gegevens wilt ophalen in uw [!DNL Live Search] -rapport, moet u ervoor zorgen dat de gebeurtenis correct is geïmplementeerd. Voor Luminantietransacties is de optie Gebeurtenis beschikbaar buiten de box. Voor hoofdloze of douaneimplementaties, moet u het voorkomen ](events.md) uitvoeren dat op uw specifieke behoeften wordt gebaseerd. [
+Als u de juiste gegevens wilt ophalen in uw [!DNL Live Search] -rapport, moet u ervoor zorgen dat de gebeurtenis correct is geïmplementeerd. Voor Luminantietransacties is de optie Gebeurtenis beschikbaar buiten de box. Voor hoofdloze of douaneimplementaties, moet u het voorkomen [&#128279;](events.md) uitvoeren dat op uw specifieke behoeften wordt gebaseerd. 

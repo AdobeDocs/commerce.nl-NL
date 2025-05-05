@@ -34,7 +34,7 @@ Of u nu een kleine onderneming, een medio-markt contant of een grote onderneming
 * [**de opties van de Betaling**](payments-options.md) - plaats de betalingsopties om de methodes beschikbaar voor uw opslag (of multistore) klanten aan te passen.
 * **het beheer van de kasstroom financiële rapportering** - synchroniseer [ betalingsdetails ](order-payment-status.md) met orden om volledige transparantie aan het verwerkte volume, het betalingssaldo, [ saldi, ](payouts.md), en gedetailleerde [ transactie-vlakke rapportering ](transactions.md) voor financiële afstemming en het uiterste in transactiezicht te krijgen.
 * **Transparante tarifering** - het Tarief is duidelijk en vooraan; wat u ziet is wat u krijgt.
-* **- verwijder de Efficiënte controleervaring van 0} {om het even welke barrières aan een snelle en eenvoudige controle, en creeer loyale klanten, met [ kaart die ](vaulting.md) en [ Onmiddellijke Aankoop ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase.html) in kluizen (die door gebrek voor Adobe Commerce wordt toegelaten) eigenschappen.**
+* **- verwijder de Efficiënte controleervaring van 0&rbrace; &lbrace;om het even welke barrières aan een snelle en eenvoudige controle, en creeer loyale klanten, met [ kaart die ](vaulting.md) en [ Onmiddellijke Aankoop ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/checkout-instant-purchase.html) in kluizen (die door gebrek voor Adobe Commerce wordt toegelaten) eigenschappen.**
 
 ## Beschikbaarheid
 

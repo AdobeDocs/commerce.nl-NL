@@ -135,7 +135,7 @@ Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt ge
 - `.ds-plp-facets__pills`
 - `.ds-sdk-pill`
 
-](assets/plp-css-facets-pill.png){width="350"} pillen van 0} Facet![
+![&#128279;](assets/plp-css-facets-pill.png){width="350"} pillen van 0&rbrace; Facet
 
 - `.ds-sdk-pill__label`
 - `.ds-sdk-pill__cta`

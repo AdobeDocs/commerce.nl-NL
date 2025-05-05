@@ -39,7 +39,7 @@ Het facet wordt toegevoegd aan de bodem van de *Dynamische lijst van Facetten* e
 ## Stap 2: Eigenschappen van facetten bewerken (optioneel)
 
 1. Om de faceteigenschappen uit te geven, klik **Meer** (![ Meer selecteur ](assets/btn-more.png)) opties in de uiterst juiste kolom.
-1. Voor het menu, geeft de klik **** uit. Pas vervolgens de volgende eigenschappen naar wens aan.
+1. Voor het menu, geeft de klik **&#x200B;**&#x200B;uit. Pas vervolgens de volgende eigenschappen naar wens aan.
 
    * Etiket - ([ Koploze ](facets-type.md) slechts) ga het facetetiket in dat u wilt gebruiken.
    * Sorteertype - Facetten worden alfabetisch gesorteerd voor alle [!DNL Commerce] storefronts. Voor implementaties zonder kop kunnen facetten alfabetisch of op aantal worden gesorteerd. Opties: Alfabetisch, Aantal (alleen zonder kop)

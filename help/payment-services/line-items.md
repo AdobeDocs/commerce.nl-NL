@@ -22,7 +22,7 @@ Deze informatie is nuttig voor de klantendienst, orderbeheer, en juiste het fact
 
 Deze functie is standaard ingeschakeld voor [!DNL Payment Services] . Lijstitems weergeven:
 
-1. Navigeer aan uw [ handelsPAL dashboard ](https://www.paypal.com/merchant/) {target=_blank}.
+1. Navigeer aan uw [ handelsPAL dashboard ](https://www.paypal.com/merchant/){target=_blank} .
 
 1. Klik **Activiteit** > **Alle transacties**.
 
@@ -122,11 +122,11 @@ Het `upc` -object bevat de volgende kenmerken:
 
 +++
 
-Zie {de ontwikkelaarsdocumentatie van 0} PayPal over lijnpunten ](https://developer.paypal.com/docs/api/orders/v2/#definition-line_item) {target=_blank} voor meer informatie over deze gebieden en hun beperkingen.[
+Zie {de ontwikkelaarsdocumentatie van 0} PayPal over lijnpunten [&#128279;](https://developer.paypal.com/docs/api/orders/v2/#definition-line_item){target=_blank}  voor meer informatie over deze gebieden en hun beperkingen.
 
 ## Regelitems beheren
 
-Adobe Commerce [ berekent belasting die op het totale bedrag voor elke rij ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages) wordt gebaseerd {target=_blank}, die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
+Adobe Commerce [ berekent belasting die op het totale bedrag voor elke rij ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd , die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
 
 > Voorbeeld van regelitems met afrondingsproblemen in de dashboardweergave voor handelsdoeleinden
 

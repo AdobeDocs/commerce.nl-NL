@@ -109,7 +109,7 @@ Omdat dit aanbevelingen type niet op de meeste catalogi van toepassing is, wordt
 
 >[!NOTE]
 >
-> Het _Visuele gelijkenis_ aanbevelingen type is beschikbaar wanneer u [ ](install-configure.md) het als facultatieve module installeert.
+> Het _Visuele gelijkenis_ aanbevelingen type is beschikbaar wanneer u [&#128279;](install-configure.md) het als facultatieve module installeert.
 
 1. Op _Admin_ sidebar, ga **de Marketing** > _Bevorderingen_ > **Aanbevelingen van het Product** om het _dashboard van de Aanbevelingen van het Product_ te tonen.
 

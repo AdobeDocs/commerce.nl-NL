@@ -18,15 +18,15 @@ Beveiliging is van het grootste belang in [!DNL Payment Services] en er worden g
 
 [!DNL Adobe Commerce] en [!DNL Magento Open Source] bieden ondersteuning voor verschillende beveiligingsfuncties.
 
-Zie [ Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) {target="_blank"} in de gids van de kerngebruiker om veiligheid beste praktijken te herzien, en te leren hoe te om zittingen Admin en geloofsbrieven te beheren, CAPTCHA uit te voeren, en websitebeperkingen te beheren.
+Zie [ Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security){target="_blank"}  in de gids van de kerngebruiker om veiligheid beste praktijken te herzien, en te leren hoe te om zittingen Admin en geloofsbrieven te beheren, CAPTCHA uit te voeren, en websitebeperkingen te beheren.
 
 ## PCI-compatibiliteit
 
 De betaalkaartindustrie (PCI) heeft een reeks vereisten vastgesteld voor bedrijven die betalingen via een creditcard via internet accepteren. Naast het handhaven van een veilige omgeving, zijn de handelaren die de informatie van de klantencreditcard behandelen verantwoordelijk voor het voldoen aan sommige standaardrichtlijnen.
 
-Zie {de Richtlijnen van de Naleving van 0} PCI ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci) {target="_blank"} voor meer informatie.[
+Zie {de Richtlijnen van de Naleving van 0} PCI [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}  voor meer informatie.
 
-De handelaren kunnen a [ zelfbeoordelingsvragenlijst (SAQ) voltooien ](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment) {target="_blank"}, die een zelfbevestigingshulpmiddel is om veiligheid voor kaarthoudergegevens te beoordelen.
+De handelaren kunnen a [ zelfbeoordelingsvragenlijst (SAQ) voltooien ](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"} , die een zelfbevestigingshulpmiddel is om veiligheid voor kaarthoudergegevens te beoordelen.
 
 ### Creditcardvelden
 
@@ -63,13 +63,13 @@ Met PayPal-betalingsknoppen worden er geen gegevens doorgegeven die door een PCI
 
 Om veiligheidsredenen geeft PayPal het factuuradres niet door tijdens het afrekenen. Land, e-mail en naam zijn de enige factuurgegevens die worden gebruikt. U kunt desgewenst het PayPal-afhandeling van uw site inschakelen om het volledige factureringsadres te retourneren door contact op te nemen met PayPal en een controleproces te voltooien.
 
-PayPal heeft ook geïntegreerde fraudebescherming die computerleren gebruikt om fraude te bestrijden. Zie de documentatie van de Bescherming van de Verkoper van PayPal [ ](https://www.paypal.com/us/webapps/mpp/security/seller-protection) voor meer informatie.
+PayPal heeft ook geïntegreerde fraudebescherming die computerleren gebruikt om fraude te bestrijden. Zie de documentatie van de Bescherming van de Verkoper van PayPal [&#128279;](https://www.paypal.com/us/webapps/mpp/security/seller-protection) voor meer informatie.
 
 ## Fraudebescherming
 
 U kunt geautomatiseerde fraudebescherming voor de Diensten van de Betaling met de [ Ondertekenende uitbreiding ](https://commercemarketplace.adobe.com/signifyd-module-connect.html) toelaten. Zie [ Ondertekenende fraudebescherming ](fraud-protection.md) voor meer informatie.
 
-PayPal verstrekt andere opties voor [ fraudebescherming ](https://www.paypal.com/us/cshelp/article/what-is-fraud-protection-help1014) {target=_blank} in hun ontwikkelaarsdocumentatie:
+PayPal verstrekt andere opties voor [ fraudebescherming ](https://www.paypal.com/us/cshelp/article/what-is-fraud-protection-help1014){target=_blank}  in hun ontwikkelaarsdocumentatie:
 
-* Zie [ geavanceerde fraudebescherming ](https://www.paypal.com/us/enterprise/fraud-protection-advanced#fraud-protection-advanced) {target=_blank} voor meer informatie.
-* Zie [ de bescherming van de Woordenbelasting ](https://www.paypal.com/us/cshelp/article/what-is-chargeback-protection-help608) {target=_blank} voor meer informatie.
+* Zie [ geavanceerde fraudebescherming ](https://www.paypal.com/us/enterprise/fraud-protection-advanced#fraud-protection-advanced){target=_blank}  voor meer informatie.
+* Zie [ de bescherming van de Woordenbelasting ](https://www.paypal.com/us/cshelp/article/what-is-chargeback-protection-help608){target=_blank}  voor meer informatie.

@@ -513,9 +513,9 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 ## B2B-gebeurtenissen
 
-![ B2B voor Adobe Commerce ](../assets/b2b.svg) voor B2B handelaren, moet u [ ](install.md#install-the-b2b-extension) de `experience-platform-connector-b2b` uitbreiding installeren om tot deze gebeurtenissen toegang te hebben.
+![ B2B voor Adobe Commerce ](../assets/b2b.svg) voor B2B handelaren, moet u [&#128279;](install.md#install-the-b2b-extension) de `experience-platform-connector-b2b` uitbreiding installeren om tot deze gebeurtenissen toegang te hebben.
 
-De B2B gebeurtenissen bevatten ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html) informatie van de 0} verzoeklijst {, zoals als een verzoeklijst werd gecreeerd, aan, of geschrapt van werd toegevoegd. [ Door gebeurtenissen te volgen specifiek voor aanvraaglijsten, kunt u zien welke producten uw klanten vaak kopen en campagnes tot stand brengen die op die gegevens worden gebaseerd.
+De B2B gebeurtenissen bevatten [&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html) informatie van de 0&rbrace; verzoeklijst &lbrace;, zoals als een verzoeklijst werd gecreeerd, aan, of geschrapt van werd toegevoegd.  Door gebeurtenissen te volgen specifiek voor aanvraaglijsten, kunt u zien welke producten uw klanten vaak kopen en campagnes tot stand brengen die op die gegevens worden gebaseerd.
 
 ### createRequisitionList
 

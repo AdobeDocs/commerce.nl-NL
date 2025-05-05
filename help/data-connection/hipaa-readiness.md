@@ -26,7 +26,7 @@ In dit artikel leert u:
 
 ## Installatie
 
-Als u toe:voegen-op van de gezondheidszorg voor Adobe [!DNL Commerce] kocht, installeerde u zeer waarschijnlijk reeds de [ HIPAA-Klaar uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#installation). Om ervoor te zorgen dat uw [!DNL Commerce] gegevens van de achterkantoorgebeurtenis HIPAA-klaar zijn, moet u ook de [!DNL Data Connection] uitbreiding met de extra **3} uitbreiding van HIPAA van de Diensten van Gegevens installeren {.** De **uitbreiding van HIPAA van de Diensten van Gegevens** zorgt ervoor dat om het even welke achterkantoorgegevens u naar Experience Platform verzendt HIPAA-klaar is. Leer [ hoe te om de uitbreiding ](install.md#install-the-data-services-hipaa-extension) te installeren.
+Als u toe:voegen-op van de gezondheidszorg voor Adobe [!DNL Commerce] kocht, installeerde u zeer waarschijnlijk reeds de [ HIPAA-Klaar uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#installation). Om ervoor te zorgen dat uw [!DNL Commerce] gegevens van de achterkantoorgebeurtenis HIPAA-klaar zijn, moet u ook de [!DNL Data Connection] uitbreiding met de extra **3&rbrace; uitbreiding van HIPAA van de Diensten van Gegevens installeren &lbrace;.** De **uitbreiding van HIPAA van de Diensten van Gegevens** zorgt ervoor dat om het even welke achterkantoorgegevens u naar Experience Platform verzendt HIPAA-klaar is. Leer [ hoe te om de uitbreiding ](install.md#install-the-data-services-hipaa-extension) te installeren.
 
 >[!IMPORTANT]
 >

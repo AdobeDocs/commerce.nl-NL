@@ -29,7 +29,7 @@ In deze sectie leert u hoe u uw bestaande schema bijwerkt of een schema maakt om
 
 >[!NOTE]
 >
->Zie {de gebeurtenisgegevens van het 0} tijdreeksenprofiel ](#time-series-profile-event-data) leren hoe te om profiel-specifieke gebieden toe te voegen.[
+>Zie {de gebeurtenisgegevens van het 0} tijdreeksenprofiel [&#128279;](#time-series-profile-event-data) leren hoe te om profiel-specifieke gebieden toe te voegen.
 
 1. Als u reeds geen schema hebt, [ creeer ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#create) met de klasse die aan **wordt geplaatst de Gebeurtenis van de Ervaring**.
 
@@ -62,9 +62,9 @@ In deze sectie leert u hoe u uw bestaande schema bijwerkt of een schema maakt om
 
    De gegevensstroom door:sturen de verzamelde gegevens aan de dataset. De gegevens worden vertegenwoordigd in de dataset die op het geselecteerde schema wordt gebaseerd.
 
-Met de schema&#39;s, datasets, en gegevensstromen die voor gedrag en achterbureaugegevens worden gevormd, kunt u [ ](connect-data.md#data-collection) uw instantie van Commerce vormen om die gegevens te verzamelen en te verzenden naar Experience Platform.
+Met de schema&#39;s, datasets, en gegevensstromen die voor gedrag en achterbureaugegevens worden gevormd, kunt u [&#128279;](connect-data.md#data-collection) uw instantie van Commerce vormen om die gegevens te verzamelen en te verzenden naar Experience Platform.
 
-Om de het profielinformatie van uw klant te omvatten, zie {de gebeurtenisgegevens van het tijdreeksprofiel van 0} ](#time-series-profile-event-data).[
+Om de het profielinformatie van uw klant te omvatten, zie {de gebeurtenisgegevens van het tijdreeksprofiel van 0} [&#128279;](#time-series-profile-event-data).
 
 ## Gebeurtenisgegevens tijdreeksprofiel
 
@@ -117,6 +117,6 @@ Als u [ server-zijprofielgebeurtenisgegevens ](events-backoffice.md#customer-pro
 
    De gegevensstroom door:sturen de verzamelde gegevens aan de dataset. De gegevens worden vertegenwoordigd in de dataset die op het geselecteerde schema wordt gebaseerd.
 
-Met de schema&#39;s, datasets, en gegevensstromen die voor de gegevens van het klantenprofiel worden gevormd, kunt u [ ](connect-data.md#data-collection) uw instantie van Commerce vormen om die gegevens te verzamelen en te verzenden naar Experience Platform.
+Met de schema&#39;s, datasets, en gegevensstromen die voor de gegevens van het klantenprofiel worden gevormd, kunt u [&#128279;](connect-data.md#data-collection) uw instantie van Commerce vormen om die gegevens te verzamelen en te verzenden naar Experience Platform.
 
 Om een schema, dataset, en gegevensstroom voor profielverslaggegevens tot stand te brengen, zie [ profielrecordgegevens naar Experience Platform ](profile-data.md) verzenden.

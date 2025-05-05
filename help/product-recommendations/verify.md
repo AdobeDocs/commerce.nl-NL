@@ -29,9 +29,9 @@ Om ervoor te zorgen dat de gebeurtenissen op pagina&#39;s over uw plaats (huis, 
 
 1. Zorg ervoor dat u eventuele advertentieblokkers in uw browser uitschakelt en cookies op de site accepteert.
 1. In Chrome, kies **aanpassen en Google Chrome** (de drie verticale punten in de hogere juiste hoek van browser) dan selecteren **Meer Hulpmiddelen** > **Hulpmiddelen van de Ontwikkelaar**.
-1. Kies het **lusje en de filter van het Netwerk** {voor `tp2`.
+1. Kies het **lusje en de filter van het Netwerk** &lbrace;voor `tp2`.
 1. Laad de pagina opnieuw.
-1. U zou vraag onder `tp2` in de **2} kolom van de Naam {moeten zien.**
+1. U zou vraag onder `tp2` in de **2&rbrace; kolom van de Naam &lbrace;moeten zien.**
 
 ![ het Vuren gebeurtenissen ](assets/filter-tp2.png)
 _verifieer dat de gebeurtenissen_ ontsteken
@@ -48,7 +48,7 @@ Installeer de [ Debugger van de Analyse van de Snowplow uitbreiding voor Chrome 
 
 1. Onder de **kolom van de Gebeurtenis**, uitgezochte **Gestructureerde Gebeurtenis**.
 
-1. De rol neer tot u **Gegevens van de Context _n_**ziet. Zoek de storefront instantie in het **Schema**.
+1. De rol neer tot u **Gegevens van de Context _n_**&#x200B;ziet. Zoek de storefront instantie in het **Schema**.
 
 1. Verifieer dat [ identiteitskaart van de Ruimte van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) correct wordt geplaatst.
 

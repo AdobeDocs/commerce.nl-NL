@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!INFO]
 >
-> Zie onze ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector.html?lang=en) video van de Schakelaar van de Diensten 0} {voor extra informatie.[[!DNL Adobe Commerce] 
+> Zie onze [&#128279;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector.html?lang=en) video van de Schakelaar van de Diensten 0&rbrace; &lbrace;voor extra informatie.[!DNL Adobe Commerce] 
 
 * Als u *reeds uw instantie* hebt verbonden, door uw API geloofsbrieven te verkrijgen en te gebruiken en de Diensten van Commerce te vormen, kunt u aan [ vestiging uw het testen zandbak ](https://experienceleague.adobe.com/docs/commerce/payment-services/get-started/sandbox.html) te werk gaan.
 * Als u nog *uw instantie* moet verbinden, zie de informatie in dit onderwerp over [ het verkrijgen API geloofsbrieven ](#obtain-api-credentials) en [ het vormen de Diensten van Commerce ](#configure-commerce-services).
-* Als u *onzeker bent of uw instantie* wordt aangesloten, navigeer aan **Systeem** > de Diensten > **Verbinding van de Diensten van Commerce** en bekijk de openbare en privé API zeer belangrijke waarden in de [!UICONTROL Sandbox Keys] en [!UICONTROL Production Keys] secties, en *Project* en *gebieden van de Ruimte van 10} Gegevens in de [!UICONTROL SaaS Identifier] sectie.* Als deze waarden aanwezig zijn, wordt de instantie verbonden.
+* Als u *onzeker bent of uw instantie* wordt aangesloten, navigeer aan **Systeem** > de Diensten > **Verbinding van de Diensten van Commerce** en bekijk de openbare en privé API zeer belangrijke waarden in de [!UICONTROL Sandbox Keys] en [!UICONTROL Production Keys] secties, en *Project* en *gebieden van de Ruimte van 10&rbrace; Gegevens in de [!UICONTROL SaaS Identifier] sectie.* Als deze waarden aanwezig zijn, wordt de instantie verbonden.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Nu u uw geloofsbrieven hebt verkregen, kunt u uw project SaaS en de Ruimte van G
 
    >[!INFO]
    >
-   > Zie onze ](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector.html?lang=en#configuration-faqs) video van de Schakelaar van de Diensten 0} {voor extra informatie.[[!DNL Adobe Commerce] 
+   > Zie onze [&#128279;](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector.html?lang=en#configuration-faqs) video van de Schakelaar van de Diensten 0&rbrace; &lbrace;voor extra informatie.[!DNL Adobe Commerce] 
 
 ## Endpoint
 

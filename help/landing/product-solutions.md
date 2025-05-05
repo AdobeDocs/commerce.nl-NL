@@ -35,11 +35,11 @@ In de volgende tabel worden de badges gedefinieerd die in Adobe Commerce-documen
 
 >[!ENDSHADEBOX]
 
-#### [!BADGE  slechts SaaS ]{type=Positive tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+#### [!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 Deze badge identificeert documentatie voor [ Adobe Commerce as a Cloud Service ](../cloud-service/overview.md) en [ Adobe Commerce Optimizer ](../optimizer/overview.md) slechts projecten. Deze projecten worden ontvangen op een wolk-inheemse, volledig beheerde software-as-a-dienst (SaaS) oplossing waar Adobe voor meeste operationele aspecten-zoals ononderbroken updates, veiligheid controle, en scalability-zodat de klanten zich op handel eerder dan infrastructuur kunnen concentreren.
 
-#### [!BADGE  slechts PaaS ]{type=Informative tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+#### [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Deze badge identificeert documentatie met betrekking tot [ Adobe Commerce op Cloud ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) en op-gebouw slechts projecten. Adobe Commerce on Cloud-projecten worden gehost op een volledig beheerde platform-as-a-service (PaS)-oplossing in de cloud met alle kernfuncties van Adobe Commerce in een vooraf ingericht omgeving. De projecten op-gebouw worden ontvangen op klant-beheerde infrastructuur.
 

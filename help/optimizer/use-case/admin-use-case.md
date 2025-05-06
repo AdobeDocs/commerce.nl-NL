@@ -186,7 +186,7 @@ Laten wij een nieuw beleid tot stand brengen genoemd *de categorieën van het De
 
 ### Een kanaal maken
 
-Creeer een nieuw kanaal voor de *handelaar 0} Celport {en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* de Categorieën van het Deel van de Knol *.*
+Creeer een nieuw kanaal voor de *handelaar 0&rbrace; Celport &lbrace;en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* de Categorieën van het Deel van de Knol *.*
 
 1. Vouw in de linkernavigatie de sectie **[!UICONTROL Catalog]** uit en klik op **[!UICONTROL Channels]** .
 
@@ -270,7 +270,7 @@ Het definitieve stuk van dit leerprogramma impliceert het bijwerken van de store
    - `ac-environment-id`: `"Fwus6kdpvYCmeEdcCX7PZg"`
    - `ac-price-book-id`: `"west_coast_inc"`
 
-+++
+   +++
 
 1. Vervang de `ac-channel-id` -waarde door de ColdPort-kanaal-id die u eerder hebt gekopieerd.
 1. Vervang de waarde `ac-environment-id` door de huurder-id voor de instantie [!DNL Adobe Commerce Optimizer] . U kunt de id vinden in het instapkaartbericht voor het programma Vroege toegang of door contact op te nemen met uw Adobe-accountvertegenwoordiger.

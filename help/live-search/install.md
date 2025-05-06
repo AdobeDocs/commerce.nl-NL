@@ -181,7 +181,7 @@ U kunt deze nieuwe voorwaarden implementeren op de pagina met zoekresultaten. U 
 
 De Adobe Commerce API-sleutel en de bijbehorende persoonlijke sleutel zijn vereist om [!DNL Live Search] te verbinden met een installatie van Adobe Commerce. De API-sleutel wordt gegenereerd en onderhouden in de account van de [!DNL Commerce] -licentienemer, die deze kan delen met de ontwikkelaar of de systeemintegrator. De ontwikkelaar kan vervolgens de SaaS-gegevensruimten maken en beheren namens de licentiehouder. Als u al een set API-sleutels hebt, hoeft u deze niet opnieuw te genereren.
 
-Leer hoe te om uw API sleutels in het [ 1} artikel van de Schakelaar van de Diensten van Commerce te vormen.](../landing/saas.md)
+Leer hoe te om uw API sleutels in het [ 1&rbrace; artikel van de Schakelaar van de Diensten van Commerce te vormen.](../landing/saas.md)
 
 ## 3. Synchroniseer uw catalogusgegevens
 
@@ -217,7 +217,7 @@ U kunt synchronisatiebevelen ook in werking stellen en het synchronisatieproces 
 
 #### Updates voor toekomstige producten
 
-Na de eerste synchronisatie kan het tot 15 minuten duren voordat de incrementele productupdates beschikbaar komen voor het zoeken naar een winkel. Om meer te leren, zie {de Updates van het Product van 0} Streaming ](indexing.md) in de Indexerende documentatie.[
+Na de eerste synchronisatie kan het tot 15 minuten duren voordat de incrementele productupdates beschikbaar komen voor het zoeken naar een winkel. Om meer te leren, zie {de Updates van het Product van 0} Streaming [&#128279;](indexing.md) in de Indexerende documentatie.
 
 ## 4. Controleer of de gegevens zijn geëxporteerd
 
@@ -472,7 +472,7 @@ Nadat Live zoeken is ingeschakeld, worden met de extensie Gegevens exporteren Co
 
 ### Inventory management
 
-[!DNL Live Search] steunt [ Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u ](install.md#updating-live-search) de gebiedsdeelmodule `commerce-data-export` aan versie 102.2.0+ bijwerken.[
+[!DNL Live Search] steunt [ Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u [&#128279;](install.md#updating-live-search) de gebiedsdeelmodule `commerce-data-export` aan versie 102.2.0+ bijwerken.
 
 [!DNL Live Search] retourneert een Booleaanse waarde die aangeeft of een product beschikbaar is in Inventory management, maar die geen informatie bevat over de bron die de voorraad heeft.
 

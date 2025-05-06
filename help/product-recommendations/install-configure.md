@@ -120,4 +120,4 @@ Voeg `commerce.adobe.io` toe aan de lijst van gewenste personen om productaanbev
 
 ## Verwijderen [!DNL Product Recommendations] {#uninstall}
 
-Indien noodzakelijk, kunt u ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) de product-aanbevelingen module [ desinstalleren.
+Indien noodzakelijk, kunt u [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) de product-aanbevelingen module  desinstalleren.

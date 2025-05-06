@@ -16,7 +16,7 @@ Installeer de Dienst van de Catalogus om productgegevens van een instantie van C
 
 >[!NOTE]
 >
->Als uw Commerce-exemplaar gebruikmaakt van Live Search of Productaanbevelingen, wordt de catalogusservice automatisch geïnstalleerd of bijgewerkt wanneer u deze services onboardt of upgradet. Zie voor meer informatie de installatie-instructies voor [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/install) en Productaanbevelingen[](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+>Als uw Commerce-exemplaar gebruikmaakt van Live Search of Productaanbevelingen, wordt de catalogusservice automatisch geïnstalleerd of bijgewerkt wanneer u deze services onboardt of upgradet. Zie voor meer informatie de installatie-instructies voor [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/install) en Productaanbevelingen[&#128279;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 
 
@@ -64,7 +64,7 @@ Om aan de slag te gaan voor [!DNL Catalog Service] Adobe Commerce, zijn de volge
 
 >[!ENDSHADEBOX]
 
-Installeer de recentste versie van de uitbreiding van de Diensten van de Catalogus (`magento/catalog-service`) op een instantie van Adobe Commerce die Adobe Commerce versie 2.4.4 of later in werking stelt. De dienst van de Catalogus wordt geleverd als composer metapakket van de {](https://repo.magento.com) bewaarplaats 0} repo.magento.com.[
+Installeer de recentste versie van de uitbreiding van de Diensten van de Catalogus (`magento/catalog-service`) op een instantie van Adobe Commerce die Adobe Commerce versie 2.4.4 of later in werking stelt. De dienst van de Catalogus wordt geleverd als composer metapakket van de {[&#128279;](https://repo.magento.com) bewaarplaats 0} repo.magento.com.
 
 >[!BEGINTABS]
 

@@ -113,7 +113,7 @@ Als u een SaaS-project wilt selecteren of maken, vraagt u de [!DNL Commerce] API
 
    Als u het **[!UICONTROL Commerce Services Connector]** gedeelte niet ziet in de [!DNL Commerce] configuratie, installeert u de modules voor de [!DNL Commerce] gewenste [[!DNL Commerce] service](#availableservices). Zorg er ook voor dat het `magento/module-services-id` pakket is geïnstalleerd.
 
-1. Plak de belangrijkste waarden in de _[!UICONTROL Sandbox API Keys]_secties en_[!UICONTROL Production API Keys]_ .
+1. Plak de belangrijkste waarden in de _[!UICONTROL Sandbox API Keys]_&#x200B;secties en&#x200B;_[!UICONTROL Production API Keys]_ .
 
    - Privésleutels moeten aan het begin van de sleutel en `----END PRIVATE KEY----` aan het einde van de sleutel worden opgenomen`----BEGIN PRIVATE KEY---`.
    - Als u geen kopie van de daadwerkelijke sleutels heeft, vraagt u de accounteigenaar erom en voert u de waarden vervolgens in de configuratie in.

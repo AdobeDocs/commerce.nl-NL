@@ -39,13 +39,13 @@ Dit diagram illustreert de gegevensstroom tussen [!DNL Adobe Commerce as a Cloud
 
 ## Commerce Storefront
 
-Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
+Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront?lang=nl-NL) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
 
 Commerce Storefront heeft een volledig ontkoppelde architectuur die alle Merchandising Services en gegevens biedt via een GraphQL API-laag. Deze architectuur staat teams toe om hun frontends onafhankelijk van de Stichting van Commerce te ontwikkelen, die de behendigheid verstrekt om nieuwe aanraakpunten met nieuwe technologieën te bouwen en te testen.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts) voor begeleiding bij het overgaan.
+>[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=nl-NL#existing-storefronts) voor begeleiding bij het overgaan.
 
 ## Handelsbemiddeling en betalingsdiensten
 
@@ -60,7 +60,7 @@ Adobe biedt een uitgebreide reeks intelligente, composable merchandising-service
 
 Vereenvoudig het beheer van bedrijfsmiddelen met behulp van een robuust DAM-systeem (Digital Asset Management) dat kan worden geïntegreerd met Adobe Experience Manager voor het beheer van rich media-inhoud. De native mini-DAM biedt ook elementaire hulpmiddelen voor middelenbeheer voor het opslaan en beheren van digitale middelen.
 
-Zie [ activabeheer ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration) om meer te leren.
+Zie [ activabeheer ](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration) om meer te leren.
 
 ## Developer Platform
 
@@ -115,7 +115,7 @@ De ontwikkelaars kunnen uitvoerige [ GraphQL en REST APIs ](https://developer.ad
 
 ## Experience Cloud-integratie
 
-[!DNL Adobe Commerce as a Cloud Service] integreert met alle oplossingen van Experience Cloud om [ gepersonaliseerde handelservaringen bij schaal ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu) te leveren.
+[!DNL Adobe Commerce as a Cloud Service] integreert met alle oplossingen van Experience Cloud om [ gepersonaliseerde handelservaringen bij schaal ](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu) te leveren.
 
 [ Verbinding van Gegevens ](../data-connection/overview.md) ontgrendelt inzichten over het kopen van uw klanten gedrag zodat u gepersonaliseerde het winkelen ervaringen over alle kanalen met andere producten van de Ervaring van Adobe Digital kunt tot stand brengen.
 
@@ -139,14 +139,14 @@ In de volgende secties vindt u informatie over de voordelen die [!DNL Adobe Comm
 
 ## Nieuwe functieoplossingen
 
-[ Admin UI ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen. In de volgende tabel worden de functies en vervangende oplossingen beschreven die beschikbaar zijn in [!DNL Adobe Commerce as a Cloud Service] :
+[ Admin UI ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen. In de volgende tabel worden de functies en vervangende oplossingen beschreven die beschikbaar zijn in [!DNL Adobe Commerce as a Cloud Service] :
 
 | Functie | Oplossing | Beschikbaarheid | Details |
 |---------|----------|--------------|--------|
-| [ Digitaal activabeheer ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management) | [ Visuals van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration) of mini-DAM | Beschikbaar | Een krachtig DAM-systeem (Digital Asset Management) dat kan worden geïntegreerd met Adobe Experience Manager voor het beheer van rich media-inhoud. De mini-DAM biedt ook de basisfuncties voor middelenbeheer voor het opslaan en beheren van digitale middelen. |
-| [ Systeem van het Beheer van de Inhoud (CMS) ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
-| [ Inhoud het opvoeren ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/staging/content-staging) | [ de Dienst van de Catalogus ](../catalog-service/overview.md) | Roadmap | Een hulpprogramma voor catalogusbeheer dat is gekoppeld aan Adobe Experience Platform en dat het beheer van grote catalogi mogelijk maakt. |
-| [ de Bouwer van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
-| [ Betalingen ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments) | [ de Diensten van de Betaling voor Adobe Commerce ](../payment-services/overview.md) | Beschikbaar | Een geïntegreerde betalingsdienst die veilige en efficiënte transacties vergemakkelijkt. |
-| [ URL herschrijft ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
-| [ Visuele Merchandiser ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser) | [ de Dienst van de Catalogus ](../catalog-service/overview.md) | Roadmap | Een hulpprogramma voor catalogusbeheer dat is gekoppeld aan Adobe Experience Platform en dat het beheer van grote catalogi mogelijk maakt. |
+| [ Digitaal activabeheer ](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management) | [ Visuals van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration) of mini-DAM | Beschikbaar | Een krachtig DAM-systeem (Digital Asset Management) dat kan worden geïntegreerd met Adobe Experience Manager voor het beheer van rich media-inhoud. De mini-DAM biedt ook de basisfuncties voor middelenbeheer voor het opslaan en beheren van digitale middelen. |
+| [ Systeem van het Beheer van de Inhoud (CMS) ](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/guide-overview) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
+| [ Inhoud het opvoeren ](https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/staging/content-staging) | [ de Dienst van de Catalogus ](../catalog-service/overview.md) | Roadmap | Een hulpprogramma voor catalogusbeheer dat is gekoppeld aan Adobe Experience Platform en dat het beheer van grote catalogi mogelijk maakt. |
+| [ de Bouwer van de Pagina ](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/guide-overview) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
+| [ Betalingen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/payments) | [ de Diensten van de Betaling voor Adobe Commerce ](../payment-services/overview.md) | Beschikbaar | Een geïntegreerde betalingsdienst die veilige en efficiënte transacties vergemakkelijkt. |
+| [ URL herschrijft ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) | [ Commerce Storefront ](https://www.aem.live/) | Beschikbaar | Een eenvoudige CMS waarmee gebruikers eenvoudig documenten en website-inhoud kunnen maken en beheren met behulp van op documenten gebaseerde ontwerpen. Alternatief, een Universele Redacteur die voor geavanceerdere inhoudbeheer en aanpassing over veelvoudige platforms toestaat. |
+| [ Visuele Merchandiser ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser) | [ de Dienst van de Catalogus ](../catalog-service/overview.md) | Roadmap | Een hulpprogramma voor catalogusbeheer dat is gekoppeld aan Adobe Experience Platform en dat het beheer van grote catalogi mogelijk maakt. |

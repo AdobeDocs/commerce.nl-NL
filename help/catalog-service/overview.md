@@ -3,13 +3,13 @@ title: '[!DNL Catalog Service]'
 description: '[!DNL Catalog Service] voor Adobe Commerce biedt een manier om de inhoud van de pagina''s met productweergave en de productlijst veel sneller op te halen dan de GraphQL-query''s van de native Adobe Commerce.'
 role: Admin, Developer
 recommendations: noCatalog
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 525e3ff0-efa6-48c7-9111-d0b00f42957a
+source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Catalog Service] voor Adobe Commerce
 
@@ -84,5 +84,7 @@ De Catalogusdienst verzekert nauwkeurige prijsupdates en berekeningen door prijz
 > De klanten van Commerce met [!DNL Catalog Service] kunnen uit snellere prijsveranderingen en synchronisatietijd op hun websites met [ SaaS prijsindexer ](../price-index/price-indexing.md) voordeel halen.
 
 ## Implementatie
+
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Het installatieproces vereist configuratie van de [ Schakelaar van de Diensten van Commerce ](../landing/saas.md). Wanneer dat is voltooid, is de volgende stap dat een systeemintegrator de storefront-code bijwerkt om de [!DNL Catalog Service] query&#39;s op te nemen. Alle [!DNL Catalog Service] query&#39;s worden gerouteerd naar de GraphQL-gateway. De URL wordt tijdens het instapproces opgegeven.

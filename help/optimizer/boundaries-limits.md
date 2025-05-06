@@ -2,9 +2,10 @@
 title: Grenzen en grenzen
 description: Leer over de grenzen en de grenzen voor  [!DNL Adobe Commerce Optimizer]  om ervoor te zorgen het aan de behoeften van uw zaken voldoet.
 role: Admin, Developer
-source-git-commit: 45a43fe2ada206515c512a04aa6e9072e08844cc
+exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
+source-git-commit: 149b87fc822e5d07eed36f3d6a38c80e7b493214
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -28,10 +29,7 @@ Hieronder vindt u grenzen en beperkingen voor Adobe Commerce Optimizer.
 
 ## Prijzen
 
-- Het maximumaantal prijzenboeken is 30.000. Het basisniveau van prijzenboeken mag niet hoger zijn dan 100 en moet de regel volgen waarin (het aantal prijzenboeken) x (het aantal kanalen) kleiner dan of gelijk aan 100 moet zijn.
-- De gegarandeerde prijs voor de inname van diervoeder bedraagt 5000 records per minuut.
-- Eén prijsnotering mag niet meer dan tien kortingen hebben.
-- Het basisaantal prijsupdates per dag is 5.000.000.
+- Het maximumaantal prijzenboeken is 1.000.
 
 ## Zoeken en opslaan
 
@@ -53,6 +51,6 @@ Hieronder vindt u grenzen en beperkingen voor Adobe Commerce Optimizer.
 - Voor productdetectie worden op kenmerken gebaseerde merchandising en prijsinstellingen niet ondersteund.
 - Voor aanbevelingen:
 
-   - ACO steunt het _Onlangs bekeken_ aanbevelingen type voor EA
+   - [!DNL Adobe Commerce Optimizer] steunt het _onlangs Bekeken_ aanbevelingstype voor vroege toegang.
    - Er is geen ondersteuning voor de opname of uitsluiting van categorieën of kenmerken.
    - U kunt geen voorvertoning van aanbevelingen weergeven in [!DNL Adobe Commerce Optimizer] .

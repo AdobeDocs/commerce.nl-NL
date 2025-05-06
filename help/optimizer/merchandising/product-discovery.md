@@ -2,9 +2,10 @@
 title: Productdetectie
 description: Productdetectie biedt een snelle, relevante en intuïtieve zoekervaring.
 recommendations: noCatalog
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+exl-id: b9429ccb-947b-462c-8b34-63fb53d015f6
+source-git-commit: 149b87fc822e5d07eed36f3d6a38c80e7b493214
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -37,3 +38,7 @@ De belangrijkste **pagina van de Ontdekking van het Product** bevat de volgende 
 - [Synoniemen](../../live-search/synonyms.md)
 - [Merchandising zoeken](../../live-search/rules.md)
 - [Instellingen](../../live-search/settings.md)
+
+## Beperking
+
+Voor productdetectie worden op kenmerken gebaseerde marketing- en prijsinstellingen niet ondersteund.

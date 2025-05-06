@@ -3,9 +3,10 @@ title: Aan de slag met  [!DNL Adobe Commerce Optimizer]
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 hide: true
 recommendations: noCatalog
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
+source-git-commit: ac79c8aa43ced017743fbef1f181b4eaf8e0a754
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Deze handleiding begeleidt u bij het maken van en werken met een [!DNL Adobe Com
 
 >[!TAB Administrator and merchant workflow]
 
-This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/nl/enterprise/admin-guide.html) for more information about administrator workflows.
+This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/enterprise/admin-guide.html) for more information about administrator workflows.
 
 NEED DIAGRAM
 
@@ -50,6 +51,10 @@ Nadat de [!DNL Adobe Commerce Optimizer] -instanties gereed zijn, geeft het [!DN
 | [!DNL Adobe Commerce Optimizer] UI | `https://experience.adobe.com/#/@commerceprojectbeacon/commerce-optimizer-studio?tenant=<tenantId>` | Toegang Commerce Optimizer UI voor het beheren van uw catalogus over:<br> 1. Handelsregels (productontdekking, productaanbevelingen).<br> 2. Catalogusbeheer (kanaal en beleid maken).<br> 3. Gegevens-inzichten (de status van de inname van catalogusgegevens weergeven). |
 | Storefront-API&#39;s | `https://na1-sandbox.api.commerce.adobe.com/<tenantId>/graphql` | Open de API&#39;s die nodig zijn voor het instellen van uw Commerce-winkel, aangedreven door Edge Delivery Services. |
 | API&#39;s voor gegevensinvoer uit catalogi | `https://na1-sandbox.api.commerce.adobe.com/<tenantId>/v1/catalog/<entity>` | Open de API&#39;s die nodig zijn om uw catalogusgegevens in te voeren. |
+
+>[!NOTE]
+>
+>Zie de [ ontwikkelaardocumentatie ](https://developer-stage.adobe.com/commerce/services/composable-catalog/) om meer over APIs nodig voor de opstelling van de storefront en catalogusopname te leren.
 
 Als vroege toegangsdeelnemer, zult u een e-mail met een veilige verbinding ontvangen die, samen met uw token IMS, u aan [!DNL Adobe Commerce Optimizer] laat registreren of API vraag maken.
 

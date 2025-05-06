@@ -2,9 +2,10 @@
 title: Aanbevelingen
 description: Aanbevelingen zijn een krachtig marketinginstrument dat u kunt gebruiken om conversies te verhogen, inkomsten te verhogen en de betrokkenheid van winkels te stimuleren.
 recommendations: noCatalog
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+exl-id: 04228203-37a3-4535-ad61-d5e586e57d63
+source-git-commit: 149b87fc822e5d07eed36f3d6a38c80e7b493214
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -31,3 +32,11 @@ Vanuit de werkruimte kunt u:
 - [ geef ](../../product-recommendations/edit.md) een bestaande aanbeveling uit.
 
 U geeft deze productaanbevelingen op uw winkel weer met de aanbevelingen in de winkel.
+
+## Beperkingen
+
+In het volgende voorbeeld worden de beperkingen voor aanbevelingen voor vroege toegang vermeld.
+
+- [!DNL Adobe Commerce Optimizer] steunt het _onlangs Bekeken_ aanbevelingstype.
+- Er is geen ondersteuning voor de opname of uitsluiting van categorieën of kenmerken.
+- U kunt geen voorvertoning van aanbevelingen weergeven in [!DNL Adobe Commerce Optimizer] .

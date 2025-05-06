@@ -4,9 +4,10 @@ description: Leer hoe te om  [!DNL Adobe Commerce Optimizer]  te gebruiken om uw
 hide: true
 role: Admin, Developer
 feature: Personalization, Integration
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
+source-git-commit: 149b87fc822e5d07eed36f3d6a38c80e7b493214
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
@@ -78,7 +79,7 @@ Carvelo wil onderdelen van de drie merken (Aurora, Bolt en Cruz) verkopen via de
 Uiteindelijk heeft Carvelo twee belangrijke doelstellingen:
 
 1. Een &quot;globale&quot; website onderhouden met alle SKU&#39;s voor alle drie de merken.
-1. Geef een pad voor dealers om hun eigen winkeliers op te zetten op basis van unieke SKU-zichtbaarheid en -prijzen voor elke SKU voor elke dealership.
+1. Geef een pad voor dealers om hun eigen winkeliers op te zetten op basis van unieke SKU-zichtbaarheid en -prijzen voor elke SKU voor elke dealership. Alles bij gebruik van één basiscatalogus, waardoor dubbel werk met catalogi wordt voorkomen.
 
 >[!ENDSHADEBOX]
 
@@ -185,7 +186,7 @@ Laten wij een nieuw beleid tot stand brengen genoemd *de categorieën van het De
 
 ### Een kanaal maken
 
-Creeer een nieuw kanaal voor de *handelaar 0&rbrace; Celport &lbrace;en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* de Categorieën van het Deel van de Knol *.*
+Creeer een nieuw kanaal voor de *handelaar 0} Celport {en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* de Categorieën van het Deel van de Knol *.*
 
 1. Vouw in de linkernavigatie de sectie **[!UICONTROL Catalog]** uit en klik op **[!UICONTROL Channels]** .
 
@@ -269,12 +270,14 @@ Het definitieve stuk van dit leerprogramma impliceert het bijwerken van de store
    - `ac-environment-id`: `"Fwus6kdpvYCmeEdcCX7PZg"`
    - `ac-price-book-id`: `"west_coast_inc"`
 
-   +++
++++
 
 1. Vervang de `ac-channel-id` -waarde door de ColdPort-kanaal-id die u eerder hebt gekopieerd.
-1. Vervang zo nodig de waarde `ac-environment-id` door de huurder-id voor de instantie [!DNL Adobe Commerce Optimizer] . U kunt de id vinden in het instapkaartbericht voor het programma Vroege toegang of door contact op te nemen met uw Adobe-accountvertegenwoordiger.
+1. Vervang de waarde `ac-environment-id` door de huurder-id voor de instantie [!DNL Adobe Commerce Optimizer] . U kunt de id vinden in het instapkaartbericht voor het programma Vroege toegang of door contact op te nemen met uw Adobe-accountvertegenwoordiger.
 
-   Zorg ervoor dat de waarde `commerce-endpoint` overeenkomt met het GraphQL-eindpunt voor uw [!DNL Adobe Commerce Optimizer] -instantie.
+   >[!IMPORTANT]
+   >
+   >Zorg ervoor dat de waarde `commerce-endpoint` overeenkomt met het GraphQL-eindpunt voor uw [!DNL Adobe Commerce Optimizer] -instantie. Dit staat in uw welkomstbericht.
 
 1. Vervang de waarde `ac-price-book-id` door `"east_coast_inc"` .
 1. Sla het bestand op.

@@ -3,9 +3,10 @@ title: Beleid
 description: Leer hoe te om beleid te gebruiken om gegevens binnen een kanaal te filtreren om ervoor te zorgen dat de gegevens naar de juiste bestemming worden verzonden.
 hide: true
 recommendations: noCatalog
-source-git-commit: 425c801a852de566120504563e256b0351df588e
+exl-id: 05bbad1a-d612-41a4-9575-543f507089c3
+source-git-commit: a731d978aa180633431b0dd9dde5439c286461a2
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -32,12 +33,12 @@ Een filter bestaat uit de volgende onderdelen:
 |---|---|---|
 | **Attribuut** | The product attribute used for filtering. | `part_category` |
 | **Exploitant** | De voorwaarde die op het attribuut wordt toegepast. | `IN`, `EQUALS`, `CONTAINS` |
-| **bron van de Waarde** | Geeft aan of de waarden `STATIC` of `TRIGGER` zijn. | `STATIC` |
+| **bron van de Waarde** | Geeft aan of de waarden `STATIC` of `TRIGGER` zijn. | `STATIC` [ Leer meer ](#value-source-types) |
 | **Waarde** | De specifieke waarden die aan de voorwaarde voldoen. | `brakes, suspension` |
 
 ### Voorbeeld
 
-Een filter met het kenmerk `part_category` , een operator voor `IN` en values `brakes, suspension` zorgt ervoor dat alleen producten die als remmen en ophanging zijn gecategoriseerd, in het beleid worden opgenomen.
+Een filter met het kenmerk `part_category` , een operator van `IN` en values `brakes, suspension` zorgt ervoor dat alleen producten met een kenmerk `part_category` dat de waarde `brake` of `suspension` heeft, door het beleid worden gefilterd en weergegeven.
 
 ### Brontypen van waarden
 
@@ -83,7 +84,7 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 
@@ -124,7 +125,7 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 

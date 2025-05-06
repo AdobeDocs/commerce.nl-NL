@@ -4,7 +4,7 @@ description: Leer hoe u uw Adobe Commerce- of Magento Open Source-exemplaar kunt
 feature: Services, Saas
 role: Admin, User
 exl-id: 1aa6ba8b-be39-496e-b83d-a4a7db9f5dd8
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce on Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en on-premises projecten."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce on Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en on-premises projecten."
 source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
 workflow-type: tm+mt
 source-wordcount: '1420'
@@ -25,7 +25,7 @@ Hieronder vindt u een overzicht van de [!DNL Commerce] functies waartoe u toegan
 | [[!DNL Product Recommendations]](/help/product-recommendations/overview.md) mogelijk gemaakt door Adobe Sensei | Adobe Commerce |
 | [[!DNL Live Search]](/help/live-search/overview.md) mogelijk gemaakt door Adobe Sensei | Adobe Commerce |
 | [[!DNL Payment Services]](/help/payment-services/overview.md) | Adobe Commerce en Magento Open Source |
-| [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/intro) | Adobe Commerce |
+| [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/nl/docs/commerce-operations/tools/site-wide-analysis-tool/intro) | Adobe Commerce |
 | [[!DNL Catalog Service]](/help/catalog-service/overview.md) | Adobe Commerce |
 | [[!DNL Data Connection]](/help/data-connection/overview.md) | Adobe Commerce |
 
@@ -39,7 +39,7 @@ In de volgende secties wordt elk van deze elementen nader besproken.
 
 ## Credentials {#apikey}
 
-De productie en zandbak API sleutels worden geproduceerd van de [!DNL Commerce] rekening van de [ vergunningseigenaar ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/onboarding). Het Commerce-account wordt geïdentificeerd door een unieke [!DNL Commerce] ID (MageID). De eigenaar van de licentie voor de organisatie van de handelaar kan API-sleutels genereren voor services zoals productaanbevelingen of Live Search, zolang de account zich in goede staat bevindt.
+De productie en zandbak API sleutels worden geproduceerd van de [!DNL Commerce] rekening van de [ vergunningseigenaar ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/start/onboarding). Het Commerce-account wordt geïdentificeerd door een unieke [!DNL Commerce] ID (MageID). De eigenaar van de licentie voor de organisatie van de handelaar kan API-sleutels genereren voor services zoals productaanbevelingen of Live Search, zolang de account zich in goede staat bevindt.
 
 De sleutels kunnen op een &quot;behoefte-aan-weet&quot;basis met het systeemintegrator of ontwikkelingsteam worden gedeeld dat projecten en milieu&#39;s namens de vergunninghouder beheert. Ontwikkelaars die [!DNL Shared Access] hebben gekregen van de eigenaar van de licentie, kunnen de sleutels niet namens hen genereren, zelfs niet als de organisatie van de handelaar aanwezig is in het vervolgkeuzemenu van [!DNL Switch Accounts] .
 
@@ -80,12 +80,12 @@ Daarnaast hebben integrators van oplossingen ook het recht om [!DNL Commerce Ser
 
 [!DNL Commerce] -instanties moeten worden geconfigureerd met een SaaS-project en een SaaS-gegevensruimte, zodat [!DNL Commerce Services] gegevens naar de juiste locatie kan verzenden. Een SaaS-project groepeert alle SaaS-gegevensruimten. De SaaS gegevensruimten worden gebruikt om gegevens te verzamelen en op te slaan die [!DNL Commerce Services] toelaat om te werken. Sommige van deze gegevens kunnen worden geëxporteerd uit de [!DNL Commerce] -instantie en sommige kunnen worden verzameld op basis van winkelgedrag in de winkel. Die gegevens blijven vervolgens bewaard om de cloudopslag te beveiligen.
 
-Voor [!DNL Product Recommendations] bevat de SaaS-gegevensruimte catalogus- en gedragsgegevens. U kunt a [!DNL Commerce] instantie aan aSaaS gegevensruimte richten door het [ te selecteren ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas) in de [!DNL Commerce] configuratie.
+Voor [!DNL Product Recommendations] bevat de SaaS-gegevensruimte catalogus- en gedragsgegevens. U kunt a [!DNL Commerce] instantie aan aSaaS gegevensruimte richten door het [ te selecteren ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/services/saas) in de [!DNL Commerce] configuratie.
 
 >[!WARNING]
 >
 > Gebruik uw **gegevens van productieSaaS** slechts op uw productie [!DNL Commerce] installatie om gegevensbotsingen te vermijden. Anders loopt u het risico dat u gegevens van uw productiesite verontreinigt met testgegevens, wat implementatievertragingen veroorzaakt. De gegevens van uw productieproduct kunnen bijvoorbeeld per ongeluk worden overschreven door opvoergegevens, zoals ophalings-URL&#39;s.
-> Als dit zou moeten gebeuren, [ voorlegt een verzoek van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) om gegevensschoonmaak te verzoeken.
+> Als dit zou moeten gebeuren, [ voorlegt een verzoek van de Steun ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview) om gegevensschoonmaak te verzoeken.
 
 ### SaaS-gegevensruimteprovisioning
 
@@ -93,13 +93,13 @@ Alle Adobe Commerce-merchants hebben toegang tot één productiedataruimte en tw
 
 U kunt de het testen gegevensruimten in om het even welke niet productiemilieu gebruiken zolang u niet de zelfde gegevensruimte in veelvoudige milieu&#39;s tezelfdertijd gebruikt. Om de ruimte van testgegevens in een verschillende milieu te gebruiken, voer een gegevensschoonmaakbeurt uit alvorens u selecteert en de gegevensruimte in die milieu vormt.
 
-Voor de Pro projecten van de Wolk van de Handel van Adobe met veelvoudige het opvoeren milieu&#39;s, kunt u extra het testen gegevensruimten voor elk het opvoeren milieu verzoeken door [ een verzoek van de Steun ](https://experienceleague.adobe.com/home?support-tab=home#support) voor te leggen. Als u echter maar één testomgeving hebt en extra testgegevenspaties nodig hebt, hebt u de volgende opties:
+Voor de Pro projecten van de Wolk van de Handel van Adobe met veelvoudige het opvoeren milieu&#39;s, kunt u extra het testen gegevensruimten voor elk het opvoeren milieu verzoeken door [ een verzoek van de Steun ](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) voor te leggen. Als u echter maar één testomgeving hebt en extra testgegevenspaties nodig hebt, hebt u de volgende opties:
 - Neem contact op met het team voor succes van de klant of met de door u aangewezen manager voor succes van de klant om een extra testomgeving aan te vragen.
-- [ legt een verzoek van de Steun ](https://experienceleague.adobe.com/home?support-tab=home#support) voor om de extra het testen gegevensruimte te verzoeken en op de bedrijfsrechtvaardiging voor het extra datasnelheid te wijzen. Dit verzoek moet worden goedgekeurd.
+- [ legt een verzoek van de Steun ](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) voor om de extra het testen gegevensruimte te verzoeken en op de bedrijfsrechtvaardiging voor het extra datasnelheid te wijzen. Dit verzoek moet worden goedgekeurd.
 
-Magento Open Source-klanten die gebruikmaken van Adobe Payment Services kunnen ook een extra gegevensruimte aanvragen. Neem contact op met het betalingsteam voor voorafgaande goedkeuring van de extra gegevensruimten voordat u een [ondersteuningsverzoek](https://experienceleague.adobe.com/home?support-tab=home#support) indient om de testgegevensruimte aan te vragen.
+Magento Open Source-klanten die gebruikmaken van Adobe Payment Services kunnen ook een extra gegevensruimte aanvragen. Neem contact op met het betalingsteam voor voorafgaande goedkeuring van de extra gegevensruimten voordat u een [ondersteuningsverzoek](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) indient om de testgegevensruimte aan te vragen.
 
-Klanten die eigenaar zijn van meerdere cloudprojecten of on-premises (live/productie) installaties, kunnen ook extra productie- en testgegevensruimten aanvragen voor elk project of exemplaar door [een ondersteuningsverzoek in](https://experienceleague.adobe.com/home?support-tab=home#support) te dienen.
+Klanten die eigenaar zijn van meerdere cloudprojecten of on-premises (live/productie) installaties, kunnen ook extra productie- en testgegevensruimten aanvragen voor elk project of exemplaar door [een ondersteuningsverzoek in](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) te dienen.
 
 ### Selecteer of maak een SaaS-project {#createsaasenv}
 
@@ -136,7 +136,7 @@ Alle SaaS-projecten die aan uw sleutels zijn gekoppeld, worden weergegeven in he
 
 >[!NOTE]
 >
->Als u afzonderlijke exemplaren hebt om te integreren met Commerce Services, [dient u een ondersteuningsticket](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) in om een nieuw SaaS-project aan te vragen voor elk extra exemplaar. Nadat de ondersteuning het SaaS-project heeft gemaakt, configureert u de Commerce Services-integratie voor het exemplaar met behulp van dezelfde API-sleutel en selecteert u het nieuwe SaaS-project voor de gegevensruimte.
+>Als u afzonderlijke exemplaren hebt om te integreren met Commerce Services, [dient u een ondersteuningsticket](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) in om een nieuw SaaS-project aan te vragen voor elk extra exemplaar. Nadat de ondersteuning het SaaS-project heeft gemaakt, configureert u de Commerce Services-integratie voor het exemplaar met behulp van dezelfde API-sleutel en selecteert u het nieuwe SaaS-project voor de gegevensruimte.
 
 >[!WARNING]
 >
@@ -150,4 +150,4 @@ Als u uw Adobe Commerce-exemplaar wilt verbinden met de Adobe Experience Platfor
 
 ## SaaS-gegevens exporteren
 
-Wanneer uw [!DNL Commerce] -instantie verbinding heeft gemaakt met [!DNL Commerce Services] , exporteert het SaaS-gegevensexportproces Commerce-gegevens van uw [!DNL Commerce] -server naar [!DNL Commerce SaaS Services] , zodat deze kunnen worden gesynchroniseerd met verbonden Commerce Services. In Admin, kunt u synchronisatiestatus controleren gebruikend het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard). Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](../data-export/overview.md).
+Wanneer uw [!DNL Commerce] -instantie verbinding heeft gemaakt met [!DNL Commerce Services] , exporteert het SaaS-gegevensexportproces Commerce-gegevens van uw [!DNL Commerce] -server naar [!DNL Commerce SaaS Services] , zodat deze kunnen worden gesynchroniseerd met verbonden Commerce Services. In Admin, kunt u synchronisatiestatus controleren gebruikend het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard). Voor details, zie de [ Gids van de Uitvoer van Gegevens SaaS ](../data-export/overview.md).

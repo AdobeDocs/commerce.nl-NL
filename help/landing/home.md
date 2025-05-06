@@ -103,7 +103,7 @@ Adobe provides a collection of Commerce services, integration services, and data
       </a>
       <div>
           <a href="../landing/saas.md">
-         <strong> Verbinding van de Diensten van Commerce </strong> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
+         <strong> Verbinding van de Diensten van Commerce </strong> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
          </a>
       </div>
       <p>
@@ -144,11 +144,11 @@ Adobe provides a collection of Commerce services, integration services, and data
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
       <img alt="Gegevenssynchronisatie controleren" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
          <strong>Data Management Dashboard</strong>
          </a>
       </div>

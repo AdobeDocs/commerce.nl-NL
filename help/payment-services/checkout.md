@@ -1,8 +1,9 @@
 ---
 title: Uitchecken in  [!DNL Payment Services]
 description: Pas  [!DNL Payment Services]  controle aan om de behoeften van uw klant te passen.
-feature: Payments, Checkout
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+feature: Payments, Checkout, Paas, Saas
+exl-id: 47df165f-2145-4e0e-b272-54b8e768cf19
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Er wordt een foutbericht weergegeven op de uitcheckpagina voor de winkelier. Het
 
 ![ Fout terwijl het controleren ](assets/user-checkout-error.png " Fout terwijl het controleren "){width="600" zoomable="yes"}
 
-Een commentaar betreffende de geannuleerde orde toont ook in Admin voor een specifieke [ orde ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=nl-NL).
+Een commentaar betreffende de geannuleerde orde toont ook in Admin voor een specifieke [ orde ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=en).
 
 ![ Geannuleerde ordecommentaar in Admin voor orde ](assets/admin-checkout-error.png " Geannuleerde ordecommentaar in Admin voor orde "){width="600" zoomable="yes"}
 

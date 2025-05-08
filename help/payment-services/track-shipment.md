@@ -1,8 +1,9 @@
 ---
 title: Uw verzendingen bijhouden in  [!DNL Payment Services]
 description: Pas  [!DNL Payment Services]  zendingen en het volgen informatie aan die in het PayPal Merchant Dashboard wordt getoond.
-feature: Payments
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+feature: Payments, Paas, Saas
+exl-id: 17aede1f-56ae-441a-b723-3193e865e469
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Met [!DNL Payment Services] kunnen verkopers de trackinggegevens voor een zending bekijken op hun PayPal Merchant Dashboard.
 
-Zie [ overbrengingen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/shipments){target=_blank}  onderwerp voor meer informatie over het ladingsnet voor Adobe Commerce.
+Zie [ transporten ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments){target=_blank} onderwerp voor meer informatie over het ladingsnet voor Adobe Commerce.
 
 ## Hoe je verzending kunt volgen werkt
 
@@ -47,4 +48,4 @@ De volgende instructies doorlopen u het proces voor het maken van een verzending
 
 ### Verenigbaarheid met derden
 
-Om het even welke derdeuitbreiding is compatibel met de functionaliteit wanneer een ladingsentiteit door [ Commerce API ](https://developer.adobe.com/commerce/webapi/rest/attributes/#ShipmentRepositoryInterface){target=_blank}  wordt gecreeerd.
+Om het even welke derdeuitbreiding is compatibel met de functionaliteit wanneer een ladingsentiteit door [ Commerce API ](https://developer.adobe.com/commerce/webapi/rest/attributes/#ShipmentRepositoryInterface){target=_blank} wordt gecreeerd.

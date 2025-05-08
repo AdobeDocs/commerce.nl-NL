@@ -1,9 +1,10 @@
 ---
 title: Regelitems voor  [!DNL Payment Services]
 description: Leer over lijnpunten voor  [!DNL Payment Services]  en hoe te om lijnpunten in het handelaardashboard te bekijken.
-feature: Payments
+feature: Payments, Paas, Saas
 role: User
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: f690ff94-f83d-4525-9d52-1dea25a71060
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Deze informatie is nuttig voor de klantendienst, orderbeheer, en juiste het fact
 
 Deze functie is standaard ingeschakeld voor [!DNL Payment Services] . Lijstitems weergeven:
 
-1. Navigeer aan uw [ handelsPAL dashboard ](https://www.paypal.com/merchant/){target=_blank} .
+1. Navigeer aan uw [ handelsPAL dashboard ](https://www.paypal.com/merchant/){target=_blank}.
 
 1. Klik **Activiteit** > **Alle transacties**.
 
@@ -122,11 +123,11 @@ Het `upc` -object bevat de volgende kenmerken:
 
 +++
 
-Zie {de ontwikkelaarsdocumentatie van 0} PayPal over lijnpunten [&#128279;](https://developer.paypal.com/docs/api/orders/v2/#definition-line_item){target=_blank}  voor meer informatie over deze gebieden en hun beperkingen.
+Zie [ PayPal ontwikkelaarsdocumentatie over lijnpunten ](https://developer.paypal.com/docs/api/orders/v2/#definition-line_item){target=_blank} voor meer informatie over deze gebieden en hun beperkingen.
 
 ## Regelitems beheren
 
-Adobe Commerce [ berekent belasting die op het totale bedrag voor elke rij ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd , die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
+Adobe Commerce [ berekent belasting die op het totale bedrag voor elke rij ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd, die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
 
 > Voorbeeld van regelitems met afrondingsproblemen in de dashboardweergave voor handelsdoeleinden
 

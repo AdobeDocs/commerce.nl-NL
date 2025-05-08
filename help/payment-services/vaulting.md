@@ -1,8 +1,9 @@
 ---
 title: Creditcard vauleren
 description: Klanten kunnen hun creditcardgegevens opslaan voor toekomstige aankopen.
-feature: Payments, Checkout
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: b4060307-ffcd-41cb-9b9d-a2fef02f23bd
+feature: Payments, Checkout, Paas, Saas
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Logged-binnen klanten kunnen een betalingsmethode in het **Mijn dashboard van de
 
 1. Navigeer naar **[!UICONTROL Stored Payment Methods]** in de linkernavigatie om alle opgeslagen betalingsmethoden te bekijken.
 
-   Zie [ Opgeslagen Methoden van de Betaling ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/stored-payment-methods) voor meer informatie.
+   Zie [ Opgeslagen Methoden van de Betaling ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/stored-payment-methods) voor meer informatie.
 
 1. De klant klikt op **[!UICONTROL Add New Card]** om een nieuwe kaart op te slaan.
 
@@ -72,10 +73,10 @@ U kunt alleen in Admin gearchiveerde kaarten gebruiken als de klant zowel een be
 
 U kunt als volgt een bestelling voor een klant maken in de Admin met de gefactureerde creditcard:
 
-1. [ creeer een orde en voeg producten ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=nl-NL) toe.
+1. [ creeer een orde en voeg producten ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html) toe.
 1. Selecteer **[!UICONTROL Stored Cards]** als betalingsmethode in _[!UICONTROL Payment & Shipping Information]_.
 1. Selecteer de gewenste betalingsmethode voor creditcard.
-1. Na de voltooiing van andere noodzakelijke stappen voor de orde, [ voorlegt het ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=nl-NL#step-3%3A-submit-the-order).
+1. Na de voltooiing van andere noodzakelijke stappen voor de orde, [ voorlegt het ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=en#step-3%3A-submit-the-order).
 
    ![ Van het gebruik in kaart gebrachte kredietkaart in Admin voor klant ](assets/admin-vaultedcard.png){width="600" zoomable="yes"}
 

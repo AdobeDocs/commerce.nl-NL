@@ -3,8 +3,9 @@ title: Uitbetalingsrapport
 description: Gebruik het rapport Uitbetalingen voor volledige transparantie met betrekking tot het bedrag van de betaling, het verwerkte volume en gedetailleerde rapportage over het transactieniveau voor financiële afstemming.
 role: User
 level: Intermediate
-feature: Payments, Checkout
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: f3f99474-cd28-4c8f-b0ea-dca8e014b108
+feature: Payments, Checkout, Paas, Saas
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Er zijn twee beschikbare meningen van de het rapportering van Uitbetalingen om u toe te laten om diepgaande informatie over al uw uitbetalingen te zien:
 
-* [&#128279;](#payouts-data-visualization-view)**- Grafiek beschikbaar op het Huis van de Diensten van de Betaling dat een visuele vertegenwoordiging van samengevoegde bedragen per dag van de het rapportmening van Uitbetalingen is**
+* ](#payouts-data-visualization-view)**- Grafiek beschikbaar op het Huis van de Diensten van de Betaling dat een visuele vertegenwoordiging van samengevoegde bedragen per dag van de het rapportmening van Uitbetalingen is**[
 * **[het rapportmening van Uitbetalingen](#payouts-report-view)** - Rapport beschikbaar in Uitbetalingen die gedetailleerde uitbetalingsinformatie voor alle transacties toont
 
 In de weergave Uitbetalingen worden uitgebreide uitbetalingsgegevens in één oogopslag weergegeven, zodat u volledig transparant kunt zijn over het bedrag van de betaling, het verwerkte volume en gedetailleerde rapportage over het transactieniveau voor financiële afstemming.
@@ -26,7 +27,7 @@ U kunt [ betalingstransacties van de downloaduitbetaling ](#download-transaction
 
 >[!NOTE]
 >
->De rapporten van uitbetalingen tonen slechts orden die worden gevangen (betalingsactie wordt geplaatst aan [`Authorize and Capture` ](https://experienceleague.adobe.com/docs/commerce/payment-services/get-started/production.html?lang=nl-NL#set-payment-services-as-payment-method)) - of [ duidelijk als `Invoiced` ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice).
+>De rapporten van uitbetalingen tonen slechts orden die worden gevangen (betalingsactie wordt geplaatst aan [`Authorize and Capture` ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/production.html#set-payment-services-as-payment-method)) - of [ duidelijk als `Invoiced` ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice).
 
 ## Weergave gegevensvisualisatie uitbetaling
 
@@ -68,7 +69,7 @@ De weergave voor de visualisatie van betalingsgegevens bevat de volgende informa
 
 De weergave van het betalingsrapport is beschikbaar in de weergave Uitbetalingen van betalingsservices. Deze bevat alle beschikbare informatie over de betalingen voor je winkel(s).
 
-Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**&#x200B;om de gedetailleerde lijst van Uitbetalingen te zien rapportmening.
+Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**om de gedetailleerde lijst van Uitbetalingen te zien rapportmening.
 
 ![ de transacties van de Uitbetaling in Admin ](assets/payouts-report-new.png){width="800" zoomable="yes"}
 
@@ -88,7 +89,7 @@ In de het rapportmening van Uitbetalingen, kunt u de gegevensbron selecteren— 
 
 ![ de bronnen van Gegevens selectie ](assets/datasource.png){width="300" zoomable="yes"}
 
-Als _[!UICONTROL Live]_&#x200B;de geselecteerde gegevensbron is, kunt u rapportinformatie voor opslag in productiemodus zien. Als&#x200B;_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u de opslag van rapportinformatie op zandbakwijze zien.
+Als _[!UICONTROL Live]_de geselecteerde gegevensbron is, kunt u rapportinformatie voor opslag in productiemodus zien. Als_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u de opslag van rapportinformatie op zandbakwijze zien.
 
 Gegevensbronselecties werken als volgt:
 
@@ -154,7 +155,7 @@ Uitbetalingsrapporten bevatten de volgende informatie.
 | [!UICONTROL Code] | De code van de transactie die of Krediet (*CR*) of Debit (*DR.*) wijst |
 | [!UICONTROL Reference ID] | Oorspronkelijke transactie-id waarvoor deze gebeurtenis verband houdt |
 | [!UICONTROL Invoice] | Factuur-id (één per bestelling) van de transactie |
-| [!UICONTROL Commerce order] | Commerce-order-id <br> <br> om verwante [ orde info ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/orders) te zien, klik identiteitskaart |
+| [!UICONTROL Commerce order] | Commerce-order-id <br> <br> om verwante [ orde info ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) te zien, klik identiteitskaart |
 | [!UICONTROL Commerce trans] | Commerce-transactie-id |
 | [!UICONTROL Pay method] | Het type van creditcard—*[!UICONTROL BANK]*, *[!UICONTROL PAYPAL]*, *[!UICONTROL CREDIT_CARD]* - en bijbehorende kaartleverancier (zoals *Visa* of *MasterCard*) |
 | [!UICONTROL TRANS AMT] | Bedrag van de transactie |

@@ -1,11 +1,13 @@
 ---
 title: Installeren  [!DNL Payment Services]
 description: Installeer de uitbreiding van de Diensten van Betalingen.
+exl-id: babaa91a-9376-4acb-b934-a89f9df52016
 role: Admin
-feature: Payments, Checkout, Install, Upgrade
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+feature: Payments, Checkout, Install, Upgrade, Paas
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -16,13 +18,13 @@ Voer een paar instapstappen uit om te beginnen met het gebruik van Betalingsserv
 
 >[!INFO]
 >
-> Zie ons [  [!DNL Payment Services]  voor Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-payment-services) video voor extra informatie vormen.
+> Zie ons [  [!DNL Payment Services]  voor Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-payment-services) video voor extra informatie vormen.
 
 Het downloaden en installeren van de extensie [!DNL Payment Services] voor [!DNL Adobe Commerce] en [!DNL Magento Open Source] is een eerste vereiste stap voor het gebruik van [!DNL Payment Services] .
 
 ## De extensie downloaden
 
-U moet de uitbreiding van [ Commerce Marketplace ](https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html?lang=nl-NL) eerst downloaden alvorens het te installeren.
+U moet de uitbreiding van [ Commerce Marketplace ](https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html) eerst downloaden alvorens het te installeren.
 
 1. Navigeer aan de [ uitbreiding van de Diensten van de Betaling in Commerce Marketplace ](https://commercemarketplace.adobe.com/magento-payment-services.html).
 1. Als u de editie en versie wilt kiezen, schakelt u **[!UICONTROL Edition]** en **[!UICONTROL Your store version]** in op de gewenste selecties.
@@ -41,9 +43,9 @@ U kunt de [!DNL Payment Services] uitbreiding voor zowel [!DNL Adobe Commerce] o
 
 Composer gebruikt deze toetsen tijdens de eerste installatie van [!DNL Adobe Commerce] of in situaties waarin de Composer-toetsen niet eerder in het `auth.json` -bestand zijn opgeslagen.
 
-Zie [ uw authentificatietoetsen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) voor meer informatie over het verkrijgen van de sleutels van de Samensteller krijgen.
+Zie [ uw authentificatietoetsen ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) voor meer informatie over het verkrijgen van de sleutels van de Samensteller krijgen.
 
-Zie [ installeren een uitbreiding ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions) voor meer informatie over wat te overwegen alvorens een uitbreiding te downloaden en te installeren.
+Zie [ installeren een uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) voor meer informatie over wat te overwegen alvorens een uitbreiding te downloaden en te installeren.
 
 ### [!DNL Adobe Commerce] op cloudinfrastructuur
 
@@ -154,7 +156,7 @@ Om te zien welke Composer sleutels worden gevormd:
    cat /path/to/auth.json
    ```
 
-1. Zie [ welke sleutels met uw rekening van Commerce `MageID` ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) worden geassocieerd.
+1. Zie [ welke sleutels met uw rekening van Commerce `MageID` ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) worden geassocieerd.
 
 ### Onvoldoende geheugen voor PHP
 
@@ -164,7 +166,7 @@ Als je de volgende foutmelding ziet, heb je onvoldoende geheugen voor PHP:
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
-[ verhoog de geheugengrens ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure/app/php-settings#increase-php-memory-limit) voor PHP op uw milieu in `php.ini`.
+[ verhoog de geheugengrens ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings#increase-php-memory-limit) voor PHP op uw milieu in `php.ini`.
 
 U kunt ook de geheugenlimiet opgeven met deze opdracht: `php -d memory_limit=-1 [path to composer]/composer require magento/payment-services` .
 

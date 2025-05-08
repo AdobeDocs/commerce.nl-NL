@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Met [!DNL Payment Services] kunnen verkopers de trackinggegevens voor een zending bekijken op hun PayPal Merchant Dashboard.
 
-Zie [ transporten ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/shipments){target=_blank} onderwerp voor meer informatie over het ladingsnet voor Adobe Commerce.
+Zie [ transporten ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/shipments){target=_blank} onderwerp voor meer informatie over het ladingsnet voor Adobe Commerce.
 
 ## Hoe je verzending kunt volgen werkt
 

@@ -26,7 +26,7 @@ Als u [!DNL Payment Services] wilt gebruiken, moet u eerst een verbinding maken 
 
    >[!TIP]
    >
-   > Zie onze [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) zelfstudie van de Schakelaar van de Diensten van 0&rbrace; Adobe Commerce &lbrace;voor extra informatie.
+   > Zie onze [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) zelfstudie van de Schakelaar van de Diensten van 0&rbrace; Adobe Commerce &lbrace;voor extra informatie.
 
 1. Als u reeds uw instantie hebt verbonden, navigeer aan [ het instappen ](onboard.md) pagina voor volgende stappen.
 
@@ -96,13 +96,13 @@ Zie [ verbinden ](connect.md) voor meer informatie bij vestiging uw [!DNL Paymen
 
 >[!ENDTABS]
 
-Zie het [ beleid van de Levenscyclus ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html) en de [[!DNL Payment Services]  versienota&#39;s ](release-notes.md) pagina&#39;s voor meer versie en versie-specifieke informatie.
+Zie het [ beleid van de Levenscyclus ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=nl-NL) en de [[!DNL Payment Services]  versienota&#39;s ](release-notes.md) pagina&#39;s voor meer versie en versie-specifieke informatie.
 
 Om de volledige instructies te krijgen en het onboarding proces te beginnen, zie [ Begonnen met  [!DNL Payment Services]](onboard.md) worden.
 
 ### Geaccepteerde kredietkaarten en valuta&#39;s
 
-[!DNL Payment Services] keurt de valuta&#39;s van de landen [ goed waarin het ](#availability) beschikbaar is. Zie [ configuratie van de Valuta ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html) voor meer informatie bij vestiging deviezen.
+[!DNL Payment Services] keurt de valuta&#39;s van de landen [ goed waarin het ](#availability) beschikbaar is. Zie [ configuratie van de Valuta ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html?lang=nl-NL) voor meer informatie bij vestiging deviezen.
 
 Raadpleeg de volgende pagina&#39;s voor meer informatie over de valuta&#39;s en betalingsmethoden die beschikbaar zijn bij PayPal-producten en -services:
 

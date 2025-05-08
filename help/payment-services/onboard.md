@@ -42,7 +42,7 @@ In dit stroomdiagram wordt het proces van de onboarding-sandbox weergegeven met 
 1. [ opstelling de zandbakdienst ](sandbox.md#enable-sandbox-testing) (of, alternatief, ga aan [ toelatend levende betalingen ](sandbox.md#enable-live-payments) als u functionaliteit in een ander milieu) met een betaalverwerkingsrekening van PayPal van de test hebt getest.
 1. De Betalingen van de test in a [ zandbak ](sandbox.md#test-in-sandbox-environment) milieu.
 
-[![ leer meer ](assets/learn-more-button.svg) ](https://helpx.adobe.com/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
+[![ leer meer ](assets/learn-more-button.svg) ](https://helpx.adobe.com/nl/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
 
 >[!TAB  Productie ]
 
@@ -83,7 +83,7 @@ In dit stroomdiagram worden de sandboxstappen weergegeven die zijn vereist voor 
 1. [ opstelling de zandbakdienst ](sandbox.md#enable-sandbox-testing) (of, alternatief, ga aan [ toelatend levende betalingen ](sandbox.md#enable-live-payments) als u functionaliteit in een ander milieu) met een betaalverwerkingsrekening van PayPal van de test hebt getest.
 1. De Betalingen van de test in a [ zandbak ](sandbox.md#test-in-sandbox-environment) milieu.
 
-[![ leer meer ](assets/learn-more-button.svg) ](https://helpx.adobe.com/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
+[![ leer meer ](assets/learn-more-button.svg) ](https://helpx.adobe.com/nl/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
 
 >[!TAB  Productie ]
 
@@ -110,7 +110,7 @@ Dit stroomdiagram toont het algemene proces voor het inschakelen van [!DNL Payme
 
 >[!MORELIKETHIS]
 >
-> * [ los  [!DNL Payment Services]  installatie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=en) problemen op
-> * [ niet geverifieerde Paypal- zandbakrekening ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html)
-> * [ Vertraagde  [!DNL Payment Services]  rapportgegevens ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html)
-> * [ Kredietkaart van de Test ontbreekt met PayPal wanneer het verwerken van betalingen in een milieu Sandbox ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=en)
+> * [ los  [!DNL Payment Services]  installatie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=nl-NL) problemen op
+> * [ niet geverifieerde Paypal- zandbakrekening ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html?lang=nl-NL)
+> * [ Vertraagde  [!DNL Payment Services]  rapportgegevens ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html?lang=nl-NL)
+> * [ Kredietkaart van de Test ontbreekt met PayPal wanneer het verwerken van betalingen in een milieu Sandbox ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=nl-NL)

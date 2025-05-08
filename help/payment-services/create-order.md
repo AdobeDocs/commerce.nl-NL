@@ -14,7 +14,7 @@ ht-degree: 1%
 
 U kunt de Diensten van de Betaling aan uw behoeften aanpassen gebruikend [[!DNL Payment Services]  montages ](settings.md).
 
-Met [!DNL Payment Services] for [!DNL Adobe Commerce] and [!DNL Magento Open Source] kunt u een bestelling rechtstreeks via de beheerder uitvoeren door een handelaar voor klanten die hulp nodig hebben. Het **[!UICONTROL Create New Order]** -formulier bevat alle informatie die nodig is om het normale uitbetalingsproces te voltooien, inclusief de gehoste velden met creditcardgegevens. Zie [ Creërend een orde ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"} voor gedetailleerde informatie over de vereiste stappen.
+Met [!DNL Payment Services] for [!DNL Adobe Commerce] and [!DNL Magento Open Source] kunt u een bestelling rechtstreeks via de beheerder uitvoeren door een handelaar voor klanten die hulp nodig hebben. Het **[!UICONTROL Create New Order]** -formulier bevat alle informatie die nodig is om het normale uitbetalingsproces te voltooien, inclusief de gehoste velden met creditcardgegevens. Zie [ Creërend een orde ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"} voor gedetailleerde informatie over de vereiste stappen.
 
 ## Gehoste creditcardvelden
 
@@ -22,6 +22,6 @@ Met [!DNL Payment Services] for [!DNL Adobe Commerce] and [!DNL Magento Open Sou
 
 1. Voor _Admin_ sidebar, breid **[!UICONTROL Sales]** uit en kies **[!UICONTROL Orders]**.
 1. Klik op **[!UICONTROL Create New Order]**.
-1. Volledige secties zoals nodig voor de orde (details die in [ worden verklaard die een orde ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"} creëren).
+1. Volledige secties zoals nodig voor de orde (details die in [ worden verklaard die een orde ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"} creëren).
 1. In de sectie _[!UICONTROL Payment Method]_&#x200B;kunt u [!DNL Payment Services] als betalingsmethode gebruiken.
 1. Klik op **[!UICONTROL Submit Order]**.

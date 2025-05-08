@@ -3,7 +3,7 @@ title: Beveiliging en naleving
 description: Beoordeel de beveiligings- en compatibiliteitsvereisten voor uw site.
 exl-id: 083c5a12-1d78-48b5-b9e3-612b104ce7e0
 feature: Payments, Checkout, Compliance
-redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html
+redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html?lang=nl-NL
 source-git-commit: 9f7690ae325853b9b4a590b3d1cd538909a26462
 workflow-type: tm+mt
 source-wordcount: '571'
@@ -19,13 +19,13 @@ Beveiliging is van het grootste belang in [!DNL Payment Services] en er worden g
 
 [!DNL Adobe Commerce] en [!DNL Magento Open Source] bieden ondersteuning voor verschillende beveiligingsfuncties.
 
-Zie [ Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security){target="_blank"} in de gids van de kerngebruiker om veiligheid beste praktijken te herzien, en te leren hoe te om zittingen Admin en geloofsbrieven te beheren, CAPTCHA uit te voeren, en websitebeperkingen te beheren.
+Zie [ Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security){target="_blank"} in de gids van de kerngebruiker om veiligheid beste praktijken te herzien, en te leren hoe te om zittingen Admin en geloofsbrieven te beheren, CAPTCHA uit te voeren, en websitebeperkingen te beheren.
 
 ## PCI-compatibiliteit
 
 De betaalkaartindustrie (PCI) heeft een reeks vereisten vastgesteld voor bedrijven die betalingen via een creditcard via internet accepteren. Naast het handhaven van een veilige omgeving, zijn de handelaren die de informatie van de klantencreditcard behandelen verantwoordelijk voor het voldoen aan sommige standaardrichtlijnen.
 
-Zie {de Richtlijnen van de Naleving van 0} PCI [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"} voor meer informatie.
+Zie {de Richtlijnen van de Naleving van 0} PCI [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"} voor meer informatie.
 
 De handelaren kunnen a [ zelfbeoordelingsvragenlijst (SAQ) voltooien ](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"}, die een zelfbevestigingshulpmiddel is om veiligheid voor kaarthoudergegevens te beoordelen.
 

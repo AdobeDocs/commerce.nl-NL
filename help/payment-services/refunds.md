@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Restituties
 
-Restituties voor [!DNL Payment Services] -orders worden in de beheerfunctie gemaakt als onderdeel van het creditcardproces. Een creditnota is een document dat het bedrag toont dat aan de klant, voor een volledige of gedeeltelijke terugbetaling verschuldigd is, die op een aankoop kan worden toegepast of direct aan de klant kan worden teruggegeven. De memo&#39;s van het krediet kunnen slechts voor orden worden uitgegeven die [ ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice){target="_blank"} worden gefactureerd.
+Restituties voor [!DNL Payment Services] -orders worden in de beheerfunctie gemaakt als onderdeel van het creditcardproces. Een creditnota is een document dat het bedrag toont dat aan de klant, voor een volledige of gedeeltelijke terugbetaling verschuldigd is, die op een aankoop kan worden toegepast of direct aan de klant kan worden teruggegeven. De memo&#39;s van het krediet kunnen slechts voor orden worden uitgegeven die [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice){target="_blank"} worden gefactureerd.
 
 Zie [ Memo&#39;s van het Krediet ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos){target="_blank"} in onze gids van de kerngebruiker voor meer informatie en te leren om creditmemo&#39;s uit te geven en te drukken.
 

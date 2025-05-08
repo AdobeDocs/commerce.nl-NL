@@ -77,7 +77,7 @@ Als deze optie is ingeschakeld, is de knop [!DNL Google Pay] zichtbaar vanaf de 
 
 U kunt [!UICONTROL PayPal payment buttons] configureren in de winkelconfiguratie of in [!DNL Payment Services] Home. Zie [ Montages ](settings.md#payment-buttons) voor meer informatie.
 
-Leer over beschikbaarheid van betalingsmethodes door land in de documentatie van de Methodes van de Betaling van PayPal [ ](https://developer.paypal.com/docs/checkout/payment-methods/).
+Leer over beschikbaarheid van betalingsmethodes door land in de documentatie van de Methodes van de Betaling van PayPal [&#128279;](https://developer.paypal.com/docs/checkout/payment-methods/).
 
 #### [!DNL PayPal] knop
 
@@ -123,14 +123,14 @@ Zo kunt u:
 
 1. Zorg ervoor dat uw opslag [ op productiemodus ](settings.md#enable-payment-services) is.
 1. [ vorm de gewenste PayPal betalingsknopen ](settings.md#payment-buttons) in Montages.
-1. Draai _weg_ de **[[!UICONTROL Show PayPal Credit and Debit card button]](settings.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_sectie.
+1. Draai _weg_ de **[[!UICONTROL Show PayPal Credit and Debit card button]](settings.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_&#x200B;sectie.
 
 Om **betalingen met uw bestaande creditcardleverancier _en_ PayPal betaalknopen** te vangen:
 
 1. Zorg ervoor dat uw opslag [ op productiemodus ](settings.md#enable-payment-services) is.
 1. [ vorm de gewenste PayPal betalingsknopen ](settings.md#payment-buttons).
-1. Draai _weg_ de **[[!UICONTROL PayPal Show Credit and Debit card button]](settings.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_sectie.
-1. Draai _van_ de **[[!UICONTROL Show on checkout page]](settings.md#credit-card-fields)** optie in de _[!UICONTROL Credit card fields]_sectie en gebruik uw [ bestaande rekening van de creditcardleverancier ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments).
+1. Draai _weg_ de **[[!UICONTROL PayPal Show Credit and Debit card button]](settings.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_&#x200B;sectie.
+1. Draai _van_ de **[[!UICONTROL Show on checkout page]](settings.md#credit-card-fields)** optie in de _[!UICONTROL Credit card fields]_&#x200B;sectie en gebruik uw [ bestaande rekening van de creditcardleverancier ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments).
 
 ## Afhandelingsopties
 

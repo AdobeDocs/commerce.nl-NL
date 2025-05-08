@@ -38,7 +38,7 @@ In dit stroomdiagram wordt het proces van de onboarding-sandbox weergegeven met 
 
 **Aan boord nemende stappen voor versies v2.4.7+ Deel 1: Sandbox**
 
-1. [ verbind uw instantie ](connect.md#configure-commerce-services) met de Diensten van Commerce. Deze verbinding moet slechts eenmaal per Commerce-exemplaar worden voltooid. [!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
+1. [ verbind uw instantie ](connect.md#configure-commerce-services) met de Diensten van Commerce. Deze verbinding moet slechts eenmaal per Commerce-exemplaar worden voltooid. [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
 1. [ opstelling de zandbakdienst ](sandbox.md#enable-sandbox-testing) (of, alternatief, ga aan [ toelatend levende betalingen ](sandbox.md#enable-live-payments) als u functionaliteit in een ander milieu) met een betaalverwerkingsrekening van PayPal van de test hebt getest.
 1. De Betalingen van de test in a [ zandbak ](sandbox.md#test-in-sandbox-environment) milieu.
 
@@ -63,7 +63,7 @@ In dit stroomdiagram worden de productiestappen weergegeven die nodig zijn om [!
 
 >[!ENDTABS]
 
-### Adobe Commerce of Magento Open Source | v2.4.0-2.4.6 [!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
+### Adobe Commerce of Magento Open Source | v2.4.0-2.4.6 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
 
 Deze stroomdiagrammen tonen het algemene proces voor het aan boord gaan van [!DNL Payment Services] met Adobe Commerce of Magento Open Source versies 2.4.0 tot 2.4.6. Het is nodig om [!DNL Payment Services] te downloaden en installeren om aan het instappen te beginnen.
 

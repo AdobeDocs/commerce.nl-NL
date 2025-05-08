@@ -14,8 +14,8 @@ ht-degree: 0%
 
 U kunt de dienst in productie zetten en het [ onboarding proces ](onboard.md) voltooien, per de stappen in dit onderwerp, na u:
 
-* [!BADGE  PaaS slechts ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeer ](install.md) de uitbreiding van de Diensten van de Betaling
-* [!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ vormt en verbindt ](connect.md) uw instantie
+* [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeer ](install.md) de uitbreiding van de Diensten van de Betaling
+* [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ vormt en verbindt ](connect.md) uw instantie
 * [ Opstelling ](sandbox.md) en [ test ](test-validate.md) uw zandbak
 
 ## [!DNL Payment Services] instellen als betalingsmethode
@@ -30,7 +30,7 @@ Nadat u [ uw Diensten van Commerce ](connect.md#configure-commerce-services) vor
    U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [ betalingsmethode ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"} kunt toelaten.
 
 1. Stel **[!UICONTROL Enable]** in op `Yes` in _[!UICONTROL General Configuration]_.
-1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_als_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
+1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_&#x200B;als&#x200B;_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
 
    | Instelling | Beschrijving |
    |---|---|
@@ -105,7 +105,7 @@ Nadat het land is geselecteerd:
 
 1. Ga op de zijbalk Beheerder naar **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**
 
-   De knop _[!UICONTROL Live onboarding]_is niet meer zichtbaar en u ziet een tekstvak &quot;[!UICONTROL Live payments pending]&quot;.
+   De knop _[!UICONTROL Live onboarding]_&#x200B;is niet meer zichtbaar en u ziet een tekstvak &quot;[!UICONTROL Live payments pending]&quot;.
 
    In dat tekstvak wordt je mogelijk ook gevraagd je e-mailadres bij PayPal te bevestigen om de inboeking te voltooien.
 

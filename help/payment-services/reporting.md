@@ -33,7 +33,7 @@ U kunt het rapport Transacties downloaden in de .csv-bestandsindeling voor gebru
 
 De weergave van het Transactierapport is beschikbaar in de weergave Transacties van Betalingsdiensten. Het bevat alle beschikbare informatie over transacties voor je winkel(s).
 
-Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**om de gedetailleerde het rapportmening van Transacties in de tabelvorm te zien.
+Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**&#x200B;om de gedetailleerde het rapportmening van Transacties in de tabelvorm te zien.
 
 ![ het rapportmening van Transacties ](assets/transactions-report-view.png){width="800" zoomable="yes"}
 
@@ -55,7 +55,7 @@ In de het rapportmening van Transacties, kunt u de gegevensbron selecteren— **
 
 ![ de bronnen van Gegevens selectie ](assets/datasource.png){width="300" zoomable="yes"}
 
-Als _[!UICONTROL Live]_de geselecteerde gegevensbron is, kunt u rapportinformatie voor uw opslag zien die [!DNL Payment Services] in productiemodus gebruiken. Als_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u rapportinformatie voor uw zandbakwijze zien.
+Als _[!UICONTROL Live]_&#x200B;de geselecteerde gegevensbron is, kunt u rapportinformatie voor uw opslag zien die [!DNL Payment Services] in productiemodus gebruiken. Als&#x200B;_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u rapportinformatie voor uw zandbakwijze zien.
 
 Gegevensbronselecties werken als volgt:
 
@@ -85,14 +85,14 @@ In de weergave van het Transactierapport kunt u de resultaten filteren die u wil
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**.
 1. Klik op de kiezer **[!UICONTROL Filter]** .
-1. Schakel de optie _[!UICONTROL Transaction Result]_in of uit om alleen de resultaten van geselecteerde ordertransacties te bekijken.
-1. Schakel de opties van _[!UICONTROL Payment Method]_in om de rapportresultaten voor het type betaling te bekijken dat voor de transactie wordt gebruikt.
+1. Schakel de optie _[!UICONTROL Transaction Result]_&#x200B;in of uit om alleen de resultaten van geselecteerde ordertransacties te bekijken.
+1. Schakel de opties van _[!UICONTROL Payment Method]_&#x200B;in om de rapportresultaten voor het type betaling te bekijken dat voor de transactie wordt gebruikt.
 1. Schakel de _[!UICONTROL Payment Detail]_-opties in of uit om aanvullende informatie weer te geven over het gebruikte type betaling, indien beschikbaar.
 1. Ga het Min van de Orde van de a __ of _Max Bedrag van de Orde_ in om rapportresultaten binnen die waaier van het ordebedrag te zien.
-1. Voer een _[!UICONTROL Order ID]_in om te zoeken naar een specifieke transactie.
-1. Introduceer _[!UICONTROL Card Last Four]_om naar een specifieke creditcard of bankpas te zoeken.
-1. Voer een _[!UICONTROL Customer ID]_in om alle transacties van een bepaalde klant weer te geven.
-1. Voer _[!UICONTROL Customer Email]_in om transacties voor die e-mail te filteren.
+1. Voer een _[!UICONTROL Order ID]_&#x200B;in om te zoeken naar een specifieke transactie.
+1. Introduceer _[!UICONTROL Card Last Four]_&#x200B;om naar een specifieke creditcard of bankpas te zoeken.
+1. Voer een _[!UICONTROL Customer ID]_&#x200B;in om alle transacties van een bepaalde klant weer te geven.
+1. Voer _[!UICONTROL Customer Email]_&#x200B;in om transacties voor die e-mail te filteren.
 1. Klik op **[!UICONTROL Hide filters]** om het filter te verbergen.
 
 ### Kolommen tonen en verbergen
@@ -107,7 +107,7 @@ Het rapport van Transacties toont alle beschikbare kolommen van informatie door 
 
 ### Rapportgegevens bijwerken
 
-De het rapportmening van Transacties toont een _[!UICONTROL Last updated]_timestamp die de laatste tijd toont dat de rapportinformatie werd bijgewerkt. Door gebrek, worden het rapportgegevens van Transacties auto-verfrist om de drie uur.
+De het rapportmening van Transacties toont een _[!UICONTROL Last updated]_&#x200B;timestamp die de laatste tijd toont dat de rapportinformatie werd bijgewerkt. Door gebrek, worden het rapportgegevens van Transacties auto-verfrist om de drie uur.
 
 U kunt ook manueel dwingen verfrist zich van de rapportgegevens om de meest bijgewerkte rapportinformatie te zien.
 

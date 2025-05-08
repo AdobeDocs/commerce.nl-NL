@@ -54,7 +54,7 @@ Adobe biedt een uitgebreide reeks intelligente, composable merchandising-service
 - [ Levend Onderzoek ](../live-search/overview.md) - lever slimmere, snellere en relevante resultaten voor kopers met dit AI-Gerichte onderzoekshulpmiddel.
 - [ Aanbevelingen van het Product ](../product-recommendations/overview.md) - voeg op AI-Gebaseerde aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
 - [ Merchandising de Diensten die door Kanalen en Beleid ](../catalog-service/guide-overview.md) worden aangedreven - beheer grote en complexe productcatalogi met flexibele gegevens modellering om hoogst presterende, flexibele handelscatalogi te leveren die met bedrijfsstructuur en go-aan-markt strategieën worden gericht. Gebruik met [ Commerce Optimizer ](../optimizer/overview.md) om catalogusprestaties te optimaliseren en omzettingspercentages te verbeteren.
-- ](../payment-services/guide-overview.md) - De klantentevredenheid van de 1} Aandrijving van de Betaling van de Diensten van de 1} - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.[
+- [&#128279;](../payment-services/guide-overview.md) - De klantentevredenheid van de 1&rbrace; Aandrijving van de Betaling van de Diensten van de 1&rbrace; - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.
 
 ## Productvisa
 

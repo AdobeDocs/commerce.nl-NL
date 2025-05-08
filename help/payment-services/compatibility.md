@@ -22,11 +22,11 @@ Als u [!DNL Payment Services] wilt gebruiken, moet u eerst een verbinding maken 
 
 1. Als u onzeker bent of uw instantie wordt aangesloten, navigeer aan **Systeem** > de Diensten > **de Schakelaar van de Diensten van Commerce** en bekijk de openbare en privé API zeer belangrijke waarden in de Sandbox Sleutels en de secties van de Sleutels van de Productie, en de gebieden van de Ruimte van het Project en van Gegevens in de sectie van het Herkenningsteken SaaS. Als deze waarden aanwezig zijn, wordt de instantie verbonden.
 
-1. Als u nog uw instantie moet verbinden, bekijk de instructies op de ](../landing/saas.md) pagina van de Schakelaar van de Diensten van 0} Commerce {.[
+1. Als u nog uw instantie moet verbinden, bekijk de instructies op de [&#128279;](../landing/saas.md) pagina van de Schakelaar van de Diensten van 0&rbrace; Commerce &lbrace;.
 
    >[!TIP]
    >
-   > Zie onze ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) zelfstudie van de Schakelaar van de Diensten van 0} Adobe Commerce {voor extra informatie.[
+   > Zie onze [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector) zelfstudie van de Schakelaar van de Diensten van 0&rbrace; Adobe Commerce &lbrace;voor extra informatie.
 
 1. Als u reeds uw instantie hebt verbonden, navigeer aan [ het instappen ](onboard.md) pagina voor volgende stappen.
 

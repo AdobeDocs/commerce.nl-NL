@@ -2,9 +2,10 @@
 title: Winefront instellen
 description: Leer hoe te opstelling uw  [!DNL Adobe Commerce Optimizer]  storefront.
 role: Developer
-source-git-commit: 425c801a852de566120504563e256b0351df588e
+exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
+source-git-commit: f1aa8439d6322e5278ab787f5cd096e16b7813a2
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
@@ -15,26 +16,24 @@ ht-degree: 0%
 >
 >Deze documentatie beschrijft een product in vroege-toegangsontwikkeling en weerspiegelt niet alle functionaliteit voorgenomen voor algemene beschikbaarheid.
 
-Dit leerprogramma toont aan hoe te opstelling en gebruik [ Adobe Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL) wordt aangedreven om een uitvoerbare, scalable, en veilige Commerce storefront tot stand te brengen die door gegevens van uw [!DNL Adobe Commerce Optimizer] instantie wordt aangedreven.
+Dit leerprogramma toont aan hoe te opstelling en gebruik [ Adobe Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) wordt aangedreven om een uitvoerbare, scalable, en veilige Commerce storefront tot stand te brengen die door gegevens van uw [!DNL Adobe Commerce Optimizer] instantie wordt aangedreven.
 
 
 ## Vereisten
 
 * Zorg ervoor dat u een rekening GitHub (github.com) hebt die bewaarplaatsen kan tot stand brengen en voor lokale ontwikkeling gevormd.
 
-* Word vertrouwd met het basiswerkschema en de woordenschat met betrekking tot het creëren van een storefront voor de Diensten van de Levering van de Rand van Adobe door het [ Overzicht ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started?lang=nl-NL) in de documentatie van de Opslag van Adobe Commerce te herzien.
+* Leer over de concepten en het werkschema om Commerce storefronts op de Diensten van de Levering van de Rand van Adobe te ontwikkelen door het [ Overzicht ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started) in de documentatie van de Storefront van Adobe Commerce te herzien.
 * De ontwikkelomgeving instellen
 
 
 ### De ontwikkelomgeving instellen
 
-Installeer de vereiste versie van Node.js en de Sidekick-browserextensie om uw ontwikkelomgeving in te stellen.
+Installeer Node.js en de Sidekick browser extensie die nodig is om uw [!DNL Adobe Commerce Optimizer] winkel op Edge Delivery Services te ontwikkelen en te testen.
 
 #### Node.js installeren
 
-Als u uw [!DNL Adobe Commerce Optimizer] winkel lokaal wilt ontwikkelen en testen op een Edge Delivery Services-project, hebt u Node.js versie 22.13.1 LTS nodig.
-
-Voer zo nodig de volgende stappen uit om Node Version Manager (NVM) en de vereiste Node.js-versie te installeren.
+Installeer Node Version Manager (NVM) en de vereiste Node.js-versie (22.13.1 LTS).
 
 1. Installeer Node Version Manager (NVM).
 
@@ -60,48 +59,46 @@ Voer zo nodig de volgende stappen uit om Node Version Manager (NVM) en de vereis
 
 >[!TIP]
 >
->Deze instelling is bedoeld voor ontwikkeling met [!DNL Adobe Commerce Optimizer] en de Adobe Commerce Edge Delivery Service Store. De extra middelen om uw [!DNL Adobe Commerce Optimizer] oplossing uit te breiden en aan te passen zijn beschikbaar door [ App Builder voor Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) en [ API Net voor Adobe Developer App Builder ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh). Neem voor toegang tot en gebruiksinformatie contact op met uw Adobe-accountvertegenwoordiger.
+>Dit is het installatieproces van [!DNL Adobe Commerce Optimizer] voor de Adobe Commerce Edge Delivery Service Store. De extra middelen om uw [!DNL Adobe Commerce Optimizer] oplossing uit te breiden en aan te passen zijn beschikbaar door [ App Builder voor Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) en [ API Net voor Adobe Developer App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh). Neem voor toegang tot en gebruiksinformatie contact op met uw Adobe-accountvertegenwoordiger.
 
 #### Sidekick installeren
 
-Installeer de Sidekick-browserextensie om winkelinhoud te bewerken, voor te vertonen en te publiceren. Zie [ de installatieinstructies van Sidekick ](https://www.aem.live/docs/sidekick#installation).
+Installeer de Sidekick-browserextensie om inhoud te bewerken, voor te vertonen en te publiceren naar de winkel. Zie [ de installatieinstructies van Sidekick ](https://www.aem.live/docs/sidekick#installation).
 
 
 ## Je winkel maken
 
-De winkel die u voor uw [!DNL Adobe Commerce Optimizer] -project maakt, wordt gemaakt met behulp van een aangepaste versie van de Adobe Commerce op Edge Delivery Services Storefront boilerplate. De bouwsteenplaat is een reeks dossiers en omslagen die een uitgangspunt voor de bouw van uw opslagront verstrekken.
-
-Dit storefront installatieproces wordt specifiek aangepast voor [!DNL Adobe Commerce Optimizer] projecten. De stroom is verschillend dan de stroom voor standaard [ Adobe Commerce op de opstelling van Edge Delivery Services Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL).
+De winkel die u voor uw [!DNL Adobe Commerce Optimizer] -project maakt, gebruikt een aangepaste versie van de Adobe Commerce op Edge Delivery Services Storefront boilerplate. De bouwsteenplaat is een reeks dossiers en omslagen die een uitgangspunt voor storefront ontwikkeling verstrekken. Dit opstellingsproces is verschillend dan het standaardopstellingsproces voor een [ Adobe Commerce op Edge Delivery Services Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/).
 
 >[!NOTE]
 >
->Dit leerprogramma gebruikt macOS, Chrome, en de Code van Visual Studio als ontwikkelomgeving. Deze instelling komt tot uiting in de schermvastleggingen en -instructies. U kunt een verschillend werkend systeem, browser, en coderedacteur gebruiken, maar UI u ziet en de stappen u moet nemen variëren dienovereenkomstig.
+>Dit leerprogramma gebruikt macOS, Chrome, en de Code van Visual Studio als ontwikkelomgeving. Deze instelling komt tot uiting in de schermvastleggingen en -instructies. U kunt een verschillend werkend systeem, browser, en coderedacteur gebruiken, maar UI u ziet en de stappen u neemt variëren dienovereenkomstig.
 
 ### Workflowoverzicht
 
-Voer de volgende stappen uit om een winkelvoetnoot in te stellen die u met Adobe Commerce Optimizer wilt gebruiken.
+Voer de volgende stappen uit om een winkelvoetnoot in te stellen die u met [!DNL Adobe Commerce Optimizer] wilt gebruiken.
 
 1. **[creeer een inhoudsomslag](#step-1-create-a-content-folder)** - creeer een gedeelde inhoudsomslag in de Aandrijving van Google of SharePoint. Deze map bevat de voorbeeldinhoud en elementen voor uw winkel.
 
-1. **[creeer een codebewaarplaats](#step-1-create-a-code-repository)** - creeer een bewaarplaats GitHub van Adobe Commerce + Edge Delivery Services boilerplate malplaatje. Neem alle vertakkingen van de bronopslagplaats op.
-1. **[werk storefront boilerplate](#step-2-update-the-storefront-boilerplate)** bij - werk het malplaatje van het douaneboilerplate op de `aco` tak van de opslagplaats bij om uw inhoudsomslag met de storefront te verbinden, en herzie de storefront configuratie die gegevens van de de demoinstantie van Adobe Commerce Optimizer aan uw storefront levert.
-1. **[upload de bijgewerkte storefront boilerplate code](#step-3-upload-the-updated-boilerplate-code)** - vervang de code op de `main` tak met de bijgewerkte code van de `aco` tak.
-1. **[voeg app CodeSync](#step-4-add-the-aem-code-sync-app)** toe - verbind uw bewaarplaats met de Dienst van Edge Delivery. Sluit de toepassing Codesynchronisatie pas aan nadat u de broncode hebt aangepast en de code naar de `main` -vertakking hebt verplaatst.
-1. **[Voorproef en publiceer uw inhoud](#step-5-preview-and-publish-your-content)** - gebruik de uitbreiding van Sidekick om de plaatsinhoud van de inhoudsomslag aan de winkel voor te vertonen en te publiceren.
-1. **[voorproef uw plaats en meningssteekproefgegevens](#step-6-preview-your-site-and-view-sample-data)** - verbind met uw storefront plaats om de steekproefinhoud en de gegevens van de [!DNL Adobe Commerce Optimizer] demoinstantie te bekijken.
-1. **[ontwikkelt de storefront in uw lokale milieu](#step-7-develop-the-storefront-in-your-local-environmentdevelop-the-storefront-in-your-local-environment)** - installeer de vereiste gebiedsdelen. Start de lokale ontwikkelingsserver en werk de storefront-configuratie bij om verbinding te maken met de [!DNL Adobe Commerce Optimizer] -instantie die Adobe voor u heeft ingericht.
-1. **[beheer plaatsinhoud](#step-8-manage-site-content)** - leer meer over het bijwerken van en het beheren van plaatsinhoud.
+1. **[creeer een codebewaarplaats](#step-2-create-a-code-repository)** - creeer een bewaarplaats GitHub van Adobe Commerce + Edge Delivery Services boilerplate malplaatje. Neem alle vertakkingen van de bronopslagplaats op.
+1. **[werk storefront boilerplate](#step-3-update-the-storefront-boilerplate)** bij - werk het malplaatje van het douaneboilerplate op de `aco` tak bij om uw inhoudsomslag met de storefront te verbinden.
+1. **[upload de bijgewerkte storefront boilerplate code](#step-4-upload-the-updated-boilerplate-code)** - vervang de code op de `main` tak met de bijgewerkte code van de `aco` tak.
+1. **[voeg app CodeSync](#step-5-add-the-aem-code-sync-app)** toe - verbind uw bewaarplaats met de Dienst van Edge Delivery. Sluit de toepassing Codesynchronisatie pas aan nadat u de broncode hebt aangepast en de code naar de `main` -vertakking hebt verplaatst.
+1. **[Voorproef en publiceer uw inhoud](#step-6-preview-and-publish-your-content)** - gebruik de uitbreiding van Sidekick om de plaatsinhoud van de inhoudsomslag aan de winkel voor te vertonen en te publiceren.
+1. **[voorproef uw plaats en meningssteekproefgegevens](#step-7-preview-your-site)** - verbind met uw storefront plaats om de steekproefinhoud en de gegevens van de [!DNL Adobe Commerce Optimizer] demoinstantie te bekijken.
+1. **[ontwikkelt de storefront in uw lokale milieu](#step-8-develop-the-storefront-in-your-local-environment)** - installeer de vereiste gebiedsdelen. Start de lokale ontwikkelingsserver en werk de storefront-configuratie bij om verbinding te maken met de [!DNL Adobe Commerce Optimizer] -instantie die Adobe voor u heeft ingericht.
+1. **[Volgende stappen](#next-steps)** - leer meer over het beheren van en het tonen van inhoud en gegevens in de storefront.
 
 ### Stap 1: Een inhoudsmap maken
 
 Volg de instructies in de Adobe Commerce Storefront-documentatie om een gedeelde inhoudsmap toe te voegen in Google Drive of SharePoint en de voorbeeldinhoud toe te voegen. De voorbeeldinhoud bestaat uit afbeeldingen, tekst en andere elementen waaruit uw site bestaat.
 
-* [ creeer en deel een Aandrijving van Google of de omslag van SharePoint ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#create-and-share-folder)
-* [ Laad de steekproefinhoud ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#add-sample-content) in uw omslag.
+* [ creeer en deel een Aandrijving van Google of de omslag van SharePoint ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#create-and-share-folder)
+* [ Laad de steekproefinhoud ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#add-sample-content) in uw omslag.
 
 ### Stap 2: Een gegevensopslagruimte maken
 
-Creeer een codebewaarplaats in GitHub gebruikend het Edge Delivery Services + Adobe Commerce Boilerplate malplaatje. Deze sjabloon bevat de bouwsteencode voor uw winkelcentrum.
+Creeer een opslagboilerplate codebewaarplaats in GitHub gebruikend het Edge Delivery Services + Adobe Commerce Boilerplate malplaatje.
 
 1. Login aan uw rekening GitHub.
 
@@ -111,7 +108,7 @@ Creeer een codebewaarplaats in GitHub gebruikend het Edge Delivery Services + Ad
 
    ![[!DNL Create github repo from storefront boilerplate template]](./assets/storefront-create-github-repo.png){width="700" zoomable="yes"}
 
-   Hierdoor wordt de configuratiepagina van de repository geopend.
+   De configuratiepagina van de repository wordt weergegeven.
 
    ![[!DNL Configure github repo to pull all branches from boilerplate repo]](./assets/storefront-configure-github-repo.png){width="700" zoomable="yes"}
 
@@ -126,20 +123,13 @@ Creeer een codebewaarplaats in GitHub gebruikend het Edge Delivery Services + Ad
 
 1. Selecteer **creeer bewaarplaats**.
 
-   Na een minuut of twee wordt de nieuwe opslagplaats geopend.
+   Na enkele minuten wordt de nieuwe opslagplaats geopend.
 
-   Negeer alle meldingen van een pull-verzoek die in de nieuwe repo worden weergegeven.
+   Negeer om het even welke berichten van het trekkingsverzoek die in het GitHub gebruikersinterface worden getoond.
 
 ### Stap 3: De storefront boilerplate bijwerken
 
-In deze sectie voert u de volgende taken uit:
-
-* Bekijk de vertakking `aco` van uw opslagplaats om de aangepaste sjabloon voor boilerplate voor [!DNL Adobe Commerce Optimizer] -projecten bij te werken
-* Sluit de inhoudsmap aan op de winkel door het bestand `fstab.yaml` bij te werken zodat deze naar de inhoudsmap verwijst.
-* Controleer het configuratiebestand van de storefront, `config.json`
-* Configureer de Sidekick-extensie voor het bewerken, voorvertonen en publiceren van inhoud vanuit de map met gedeelde inhoud.
-
-U hebt de volgende informatie nodig om deze stappen te voltooien:
+U hebt de volgende informatie nodig om de storefront boilerplate-code bij te werken:
 
 * **GitHub bewaarplaats URL van Stap 2** - `github.com/{ORG}/{SITE}`
 
@@ -175,9 +165,9 @@ U hebt de volgende informatie nodig om deze stappen te voltooien:
    cp default-fstab.yaml fstab.yaml
    ```
 
-1. Werk het storefront configuratiedossier bij om aan uw inhoud URL te richten.
+1. Werk het montagepunt in het storefront configuratiedossier bij om aan uw inhoud URL te richten.
 
-   1. Open het {[&#128279;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#vocabulary) configuratiedossier 0} fstab.yaml.
+   1. Open het {](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) configuratiedossier 0} fstab.yaml.[
 
       ```json
       mountpoints:
@@ -187,22 +177,22 @@ U hebt de volgende informatie nodig om deze stappen te voltooien:
        /products/: /products/default
       ```
 
-   1. Vervang `{YOUR_MOUNTPOINT_URL}` door de URL van het contentbeheersysteem.
+   1. Vervang `{YOUR_MOUNTPOINT_URL}` door de URL van de inhoudsmap.
 
       Als u bijvoorbeeld Google Drive gebruikt, moet de bijgewerkte code er als volgt uitzien.
 
       ```json
        mountpoints:
-        /: https://drive.google.com/drive/folders/{YOUR_FOLDER_ID}
+        /: https://drive.google.com/drive/folders/1HXPWdQT-EK09IxVQV5HBSHN4QCA1a56Y
       ```
 
    1. Sla het bestand op.
 
 #### De configuratie van de gegevensverbinding controleren
 
-Met de gegevensverbinding wordt communicatie tot stand gebracht tussen Adobe Commerce Optimizer en de winkel, zodat catalogusgegevens naadloos naar de opslagomgeving stromen. Dit proces vult diverse storefront interfaces, met inbegrip van de onderzoekscomponent, productlijst, en de pagina&#39;s van productdetails die voor [!DNL Adobe Commerce Optimizer] worden vereist.
+De configuratie van de gegevensverbinding maakt communicatie mogelijk tussen de storefront en de opgegeven [!DNL Adobe Commerce Optimizer] -instantie. Deze verbinding laat catalogusgegevens toe om aan de winkel te stromen en diverse storefront interfaces, met inbegrip van de onderzoekscomponent, productlijst, en de pagina&#39;s van productdetails te bevolken.
 
-Voor de eerste storefront-instelling biedt Adobe een standaardconfiguratiebestand dat verbinding maakt met een Adobe Commerce Optimizer-demo-instantie met voorbeeldgegevens.
+Voor de eerste setup van de winkel maakt u verbinding met de standaardinstantie [!DNL Adobe Commerce Optimizer] met voorbeeldgegevens.
 
 ```json
 {
@@ -234,29 +224,21 @@ Voor de eerste storefront-instelling biedt Adobe een standaardconfiguratiebestan
 }
 ```
 
-Bekijk het bestand met de storefront-configuratie in uw opslagplaats om te begrijpen hoe de gegevensverbinding tot stand is gebracht.
+In dit bestand geven de volgende sleutelwaarden de [!DNL Adobe Commerce Optimizer] -instantie op waarmee verbinding moet worden gemaakt en bepalen de gegevens die naar de storefront stromen:
 
-1. Navigeer in de gegevensopslagruimte naar de hoofdmap.
+* `commerce-endpoint` geeft de instantie aan waarmee verbinding moet worden gemaakt. Deze is ingesteld op het gebruik van de standaardinstantie [!DNL Adobe Commerce Optimizer] . Dit eindpunt wordt gebruikt om catalogusgegevens terug te winnen.
+* `ac-environment-id` is de huurder-id voor de instantie [!DNL Adobe Commerce Optimizer] .
+* `headers` bepaalt de gegevens die van de instantie naar de storefront stromen.
+   * `ac-channel-id` is ingesteld op `west_coast_inc`
+   * `ac-price-book-id` is ingesteld op `west_coast_inc`
+   * `ac-scope-locale` is ingesteld op `en-US`
+   * `ac-price-book-id` is ingesteld op `west_coast_inc`
 
-1. Open het `config.json` -bestand.
-
-   In dit bestand geven de volgende sleutelwaarden de Adobe Commerce Optimizer-instantie op waarmee verbinding moet worden gemaakt en bepalen de gegevens die naar de opslagomgeving stromen:
-
-   * `commerce-endpoint` definieert de Adobe Commerce Optimizer-instantie waarmee verbinding moet worden gemaakt.
-   * `headers` bepaalt de gegevens die naar de storefront stromen.
-      * `ac-channel-id` is ingesteld op `west_coast_inc`
-      * `ac-price-book-id` is ingesteld op `west_coast_inc`
-      * `ac-scope-locale` is ingesteld op `en-US`
-      * `ac-price-book-id` is ingesteld op `west_coast_inc`
-
-   Met deze waarden stelt u de kanaal-id, de landinstelling en de id van het prijzenboek in om catalogusgegevens naar een specifiek verkoopkanaal te verzenden en filtert u die gegevens op basis van opgegeven waarden voor de landinstelling en het prijzenboek. Later leert u hoe u de Adobe Commerce Optimizer-instantie kunt wijzigen en de kopteksten kunt bijwerken om te definiëren welke gegevens aan de winkel worden geleverd.
-
-1. Nadat u het bestand hebt bekeken, sluit u het en gaat u verder met de zelfstudie.
-
+Met deze waarden stelt u de kanaal-id, de landinstelling en de id van het prijzenboek in om catalogusgegevens naar een specifiek verkoopkanaal te verzenden en filtert u die gegevens op basis van opgegeven waarden voor de landinstelling en het prijzenboek. Later werkt u het eindpunt bij om verbinding te maken met de instantie [!DNL Adobe Commerce Optimizer] die Adobe voor u heeft ingericht, en vervangt u de headerwaarden om de gegevens van die instantie op te halen.
 
 #### De Sidekick-extensie configureren
 
-Voeg de projectconfiguratie voor de uitbreiding van Sidekick toe. Sidekick wordt gebruikt om uw winkelinhoud te bewerken, voor te vertonen en te publiceren. Deze configuratie zorgt ervoor dat u Sidekick kunt gebruiken voor het beheer van inhoud in uw gedeelde inhoudsmap en op sitepagina&#39;s die naar de testomgeving en productieomgeving worden gepubliceerd.
+Voeg de projectconfiguratie voor de uitbreiding van Sidekick toe. Deze configuratie zorgt ervoor dat Sidekick beschikbaar is om inhoud voor uw winkelproject te beheren.
 
 >[!NOTE]
 >
@@ -296,13 +278,47 @@ Voeg de projectconfiguratie voor de uitbreiding van Sidekick toe. Sidekick wordt
 
    Zie de [ documentatie van de Bibliotheek van Sidekick ](https://www.aem.live/docs/sidekick-library) voor meer informatie.
 
-   +++
++++
 
 1. Werk de `url` zeer belangrijke waarden met de waarden voor uw bewaarplaats GitHub bij.
 
-   * `{ORG}` is de naam of gebruikersnaam van de gegevensopslagruimte voor uw gegevensopslagruimte
+   * Vervang de `{ORG}` -tekenreeks door de organisatie of gebruikersnaam voor de gegevensopslagruimte.
 
-   * `{SITE}` is de naam van de opslagplaats
+   * De `{SITE}` -tekenreeks vervangen door de naam van de gegevensopslagruimte
+
+   +++Voorbeeld van bijgewerkt configuratiebestand
+
+   Als uw GitHub-opslagplaats `aco-storefront` heet en uw organisatie `early-adopter` is, zou de bijgewerkte URL er als volgt moeten uitzien:
+
+   ```json
+   {
+     "project": "Boilerplate",
+     "plugins": [
+       {
+         "id": "cif",
+         "title": "Commerce",
+         "environments": [
+           "edit"
+         ],
+         "url": "https://main--aco-storefront--early-adopter.aem.live/tools/picker/dist/index.html",
+         "isPalette": true,
+         "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
+       },
+       {
+         "id": "personalisation",
+         "title": "Personalisation",
+         "environments": [
+           "edit"
+         ],
+         "url": "https://main--aco-storefront--early-adopter.aem.live/tools/segments/dist/index.html",
+         "isPalette": true,
+         "paletteRect": "top: 54px; left: 5px; bottom: 5px; width: 300px; height: calc(100% - 59px); border-radius: var(--hlx-sk-button-border-radius); overflow: hidden; resize: horizontal;"
+       }
+     ]
+   }
+   ```
+
++++
 
 1. Sla het bestand op.
 
@@ -316,11 +332,26 @@ Als u de aangepaste storefront boilerplate-code wilt gebruiken, overschrijft u d
    git add .
    ```
 
+1. Controleer of u de twee bijgewerkte bestanden vastlegt.
+
+   ```bash
+   git status
+   On branch aco
+   Your branch is up to date with 'origin/aco'.
+   
+   Changes to be committed:
+    (use "git restore --staged <file>..." to unstage)
+        new file:   fstab1.yaml
+        modified:   tools/sidekick/config.json
+   ```
+
+1. Leg de wijzigingen in de `aco` -vertakking vast.
+
    ```bash
    git commit -m "Update storefront boilerplate for Adobe Commerce Optimizer"
    ```
 
-1. Verplaats de wijzigingen op de `aco` -vertakking en overschrijf de `main` -vertakking:
+1. Overschrijf de tekstbouwsteen op de `main` -vertakking met de wijzigingen in de `aco` -vertakking.
 
    ```bash
    git push origin aco:main -f
@@ -346,7 +377,7 @@ Verbind uw opslagplaats met de Edge Delivery Service door de AEM Code Sync GitHu
 
 ### Stap 6: De inhoud voorvertonen en publiceren
 
-Als u inhoud wilt toevoegen aan uw winkel, moet u een voorbeeld van de inhoud bekijken en deze publiceren met de Sidekick-extensie.
+Als u inhoud wilt toevoegen aan uw winkel, bekijkt u een voorvertoning van de inhoud van de winkel en publiceert u deze met de Sidekick-extensie.
 
 1. Open de inhoudsmap in Google Drive of Sharepoint.
 
@@ -354,24 +385,26 @@ Als u inhoud wilt toevoegen aan uw winkel, moet u een voorbeeld van de inhoud be
 
    ![[!DNL Turn on Sidekick from browser toolbar]](./assets/storefront-enable-sidekick-toolbar.png){width="700" zoomable="yes"}
 
+   Als u niet het pictogram van Sidekick ziet, verifieer dat het de configuratiedossier van Sidekick, `tools/Sidekick/config.json` op de `main` tak van uw bewaarplaats GitHub [ correct ](#configure-the-sidekick-extension) wordt gevormd.
+
 1. Gebruik de werkbalk Sidekick om een voorvertoning van uw inhoud weer te geven en deze te publiceren.
 
    ![[ Uitgezochte dossiers aan voorproef en te publiceren ]](./assets/storefront-content-preview-publish.png){width="700" zoomable="yes"}
 
-1. Selecteer bestanden in elke map afzonderlijk en gebruik de werkbalk Sidekick om een voorvertoning weer te geven van alle bestanden en deze te publiceren.
+   Selecteer de bestanden in elke map afzonderlijk en gebruik de werkbalk Sidekick om een voorvertoning weer te geven van alle bestanden en deze te publiceren.
 
    * **Voorproef** - uploadt inhoud aan het opvoeren milieu. De staging-URL&#39;s van de Storefront eindigen met `.aem.page`.
 
    * **publiceer** - uploadt inhoud aan het productiemilieu. Productie-URL&#39;s eindigen met `aem.live` .
 
-Voor meer informatie, zie de [&#128279;](https://www.aem.live/docs/sidekick) documentatie van Adobe Experience Manager  Sidekick.
+Voor meer informatie, zie de ](https://www.aem.live/docs/sidekick) documentatie van Adobe Experience Manager [ Sidekick.
 
 ### Stap 7: Een voorvertoning van uw site weergeven
 
-Geef een voorvertoning van uw site weer om te controleren of de voorbeeldinhoud en de Adobe Commerce Optimizer-demo-gegevens correct worden weergegeven.
+Controleer of zowel de inhoud van het voorbeeld als de gegevens van de Adobe Commerce Optimizer-demo-instantie correct worden weergegeven.
 
 * **inhoud van de Steekproef** wordt gediend van uw gedeelde inhoudsomslag. Dit omvat de paginalay-outs, banners en andere inhoud die u met Sidekick hebt gepubliceerd.
-* **gegevens van de Steekproef** wordt gediend van de [!DNL Adobe Commerce Optimizer] demo instantie. Gegevens omvatten productgegevens met productkenmerken, afbeeldingen, productbeschrijvingen en prijzen die zijn gevuld op basis van de waarden die zijn opgegeven in het configuratiebestand van de winkel, `config.json` .
+* **gegevens van de Steekproef** wordt gediend van de [!DNL Adobe Commerce Optimizer] demo instantie. De gegevens omvatten productgegevens met productkenmerken, beelden, productbeschrijvingen, en prijzen bevolkt gebaseerd op de kopbalwaarden die in het archiefrontconfiguratiedossier, `config.json` worden gespecificeerd.
 
 
 #### Maak verbinding met uw site om voorbeeldinhoud en -gegevens weer te geven
@@ -382,15 +415,15 @@ Geef een voorvertoning van uw site weer om te controleren of de voorbeeldinhoud 
 
    ![[!DNL ACO storefront site with boilerplate]](./assets/aco-storefront-site-boilerplate.png){width="700" zoomable="yes"}
 
-   Als de pagina een 404 retourneert, controleert u of u de inhoud hebt gepubliceerd met de Sidekick-extensie. Controleer ook of het bijgewerkte `fstab.yaml` -bestand de URL voor de inhoudsmap gebruikt.
+   Als de pagina een 404 retourneert, controleert u of u de inhoud hebt gepubliceerd met de Sidekick-extensie. Controleer ook of het montagepunt in het bijgewerkte `fstab.yaml` -bestand verwijst naar de inhoudsmap die u hebt gemaakt.
 
-1. Bekijk de voorbeeldcatalogusgegevens die afkomstig zijn van uw Commerce Optimizer demo-instantie.
+1. De voorbeeldcatalogusgegevens weergeven die afkomstig zijn van de standaardinstantie van Commerce Optimizer.
 
    1. Zoek naar `tires` om een drop-down lijst van beschikbare bandproducten te zien.
 
    ![[!DNL Discover Adobe Commerce Optimizer products]](./assets/storefront-site-with-aco-data.png){width="700" zoomable="yes"}
 
-   De zoekcomponent maakt deel uit van de storefront boilerplate-code. De gegevens van onderzoeksresultaten zijn bevolkt gebaseerd op de storefront configuratie.
+   De zoekcomponent maakt deel uit van de storefront boilerplate-code. De gegevens van de zoekresultaten worden gevuld op basis van de storefront-configuratie in `config.json` .
 
    1. Pers **gaat** binnen om de pagina van de productlijst te bekijken.
 
@@ -398,24 +431,21 @@ Geef een voorvertoning van uw site weer om te controleren of de voorbeeldinhoud 
 
    1. Bekijk een pagina met productdetails door een bandenproduct op de pagina te selecteren.
 
-      Als je de winkel verkent, merk je op dat sommige componenten niet werken. Als u bijvoorbeeld een product aan het winkelwagentje toevoegt, wordt een fout geretourneerd en werken de onderdelen van het accountbeheer niet. Dit komt doordat deze componenten niet zijn geconfigureerd om gegevens van een Commerce-backend te ontvangen. De gegevens uit uw Adobe Commerce Optimizer-instantie vullen alleen de pagina&#39;s met zoekcomponenten, productlijsten en productdetails in.
+      Als je de winkel verkent, merk je op dat sommige componenten niet werken. Als u bijvoorbeeld een product aan het winkelwagentje toevoegt, wordt een fout geretourneerd en werken de onderdelen van het accountbeheer niet. Deze problemen doen zich voor omdat deze componenten niet zijn geconfigureerd om gegevens van een Commerce-backend te ontvangen. De gegevens uit de [!DNL Adobe Commerce Optimizer] -instantie vullen alleen de pagina&#39;s met zoekcomponenten, productlijsten en productdetails in.
 
    1. Na het verkennen van de storefront, ga met het leerprogramma verder.
 
 
 ### Stap 8: De storefront in uw lokale omgeving ontwikkelen
 
-In deze sectie experimenteert u met de storefront-configuratie in uw lokale ontwikkelomgeving door de storefront aan te sluiten op de [!DNL Adobe Commerce Optimizer] -instantie die Adobe voor u heeft ingericht.
+In deze sectie, werkt u de storefrontconfiguratie van uw lokale ontwikkelomgeving bij.
 
-Om de verbinding te maken, hebt u het eindpunt van GraphQL voor de Diensten van de Verkoop nodig die in uw aan boord komende e-mail werd verstrekt.
-
-```text
-https://na1-sandbox.api.commerce.adobe.com/{tenantId}/graphql
-```
+* Werk de storefront configuratie bij om met het eindpunt van GraphQL voor de [!DNL Adobe Commerce Optimizer] instantie te verbinden die Adobe voor u leverde.
+* Werk de koptekstwaarden bij om gegevens van uw instantie op te halen.
 
 #### Lokale ontwikkeling starten
 
-1. In uw winde, checkout de belangrijkste tak van uw GitHub codebewaarplaats.
+1. In uw winde, controleer de belangrijkste tak van uw GitHub codebewaarplaats.
 
    ```bash
    git checkout main
@@ -479,14 +509,14 @@ Werk het storefront configuratiedossier bij en voorproef de veranderingen in uw 
 
       ![ Lege onderzoeksresultaten met ongeldige kopbalwaarden ](./assets/storefront-configuration-with-incorrect-headers.png){width="675" zoomable="yes"}
 
-      De zoekopdracht levert geen resultaten op omdat de kopteksten in het configuratiebestand van de storefront de headerwaarden gebruiken die op de demo-instantie zijn gebaseerd. Nu de configuratie naar de voor u ingerichte [!DNL Adobe Commerce Optimizer] -instantie wijst, zijn deze waarden ongeldig.
+      De zoekopdracht levert geen resultaten op omdat de headerwaarden in het configuratiebestand van de winkel zijn gebaseerd op de standaardinstantie. Nu de configuratie naar de voor u ingerichte [!DNL Adobe Commerce Optimizer] -instantie wijst, zijn deze waarden ongeldig.
 
 ### Volgende stappen
 
-Zie het [ de gebruikscase van begin tot eind van de Beheerder van de Opslag en van de Catalogus ](./use-case/admin-use-case.md) leren hoe te om inhoud in uw storefront te tonen door de storefrontconfiguratie bij te werken gebruikend waarden van uw [!DNL Adobe Commerce Optimizer] instantie.
+Zie [ het gebruiksgeval van begin tot eind van de Beheerder van de Opslag en van de Catalogus ](./use-case/admin-use-case.md) om meer over het beheren van en het tonen van inhoud en gegevens in de storefront te leren.
 
 >[!MORELIKETHIS]
 >
->* Als u van plan bent om [!DNL Adobe Commerce Optimizer] zonder Adobe Commerce te gebruiken backend, zie de [ Adobe Experience Manager storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) om meer over het bijwerken van plaatsinhoud te leren en met uw Commerce frontend componenten en achterste gegevens te integreren.
+>* [ Adobe Experience Manager storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met uw Commerce frontend componenten en backend gegevens te integreren.
 ></br></br>
->* Als u van plan bent om [!DNL Adobe Commerce Optimizer] met een Adobe Commerce achterkant te gebruiken, zie de [ documentatie van de Storefront van Adobe Commerce ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) leren hoe te om inhoud bij te werken en storefront componenten voor rekeningsbeheer, controle, en andere mogelijkheden te vormen.
+>* [ de documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met Adobe Commerce frontend componenten en backend gegevens te integreren.

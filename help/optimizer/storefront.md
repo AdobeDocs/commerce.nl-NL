@@ -167,7 +167,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
 
 1. Werk het montagepunt in het storefront configuratiedossier bij om aan uw inhoud URL te richten.
 
-   1. Open het {](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) configuratiedossier 0} fstab.yaml.[
+   1. Open het {[&#128279;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) configuratiedossier 0} fstab.yaml.
 
       ```json
       mountpoints:
@@ -278,7 +278,7 @@ Voeg de projectconfiguratie voor de uitbreiding van Sidekick toe. Deze configura
 
    Zie de [ documentatie van de Bibliotheek van Sidekick ](https://www.aem.live/docs/sidekick-library) voor meer informatie.
 
-+++
+   +++
 
 1. Werk de `url` zeer belangrijke waarden met de waarden voor uw bewaarplaats GitHub bij.
 
@@ -318,7 +318,7 @@ Voeg de projectconfiguratie voor de uitbreiding van Sidekick toe. Deze configura
    }
    ```
 
-+++
+   +++
 
 1. Sla het bestand op.
 
@@ -397,7 +397,7 @@ Als u inhoud wilt toevoegen aan uw winkel, bekijkt u een voorvertoning van de in
 
    * **publiceer** - uploadt inhoud aan het productiemilieu. Productie-URL&#39;s eindigen met `aem.live` .
 
-Voor meer informatie, zie de ](https://www.aem.live/docs/sidekick) documentatie van Adobe Experience Manager [ Sidekick.
+Voor meer informatie, zie de [&#128279;](https://www.aem.live/docs/sidekick) documentatie van Adobe Experience Manager  Sidekick.
 
 ### Stap 7: Een voorvertoning van uw site weergeven
 

@@ -16,14 +16,14 @@ ht-degree: 0%
 >
 >Deze documentatie beschrijft een product in vroege-toegangsontwikkeling en weerspiegelt niet alle functionaliteit voorgenomen voor algemene beschikbaarheid.
 
-Dit leerprogramma toont aan hoe te opstelling en gebruik [ Adobe Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) wordt aangedreven om een uitvoerbare, scalable, en veilige Commerce storefront tot stand te brengen die door gegevens van uw [!DNL Adobe Commerce Optimizer] instantie wordt aangedreven.
+Dit leerprogramma toont aan hoe te opstelling en gebruik [ Adobe Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL) wordt aangedreven om een uitvoerbare, scalable, en veilige Commerce storefront tot stand te brengen die door gegevens van uw [!DNL Adobe Commerce Optimizer] instantie wordt aangedreven.
 
 
 ## Vereisten
 
 * Zorg ervoor dat u een rekening GitHub (github.com) hebt die bewaarplaatsen kan tot stand brengen en voor lokale ontwikkeling gevormd.
 
-* Leer over de concepten en het werkschema om Commerce storefronts op de Diensten van de Levering van de Rand van Adobe te ontwikkelen door het [ Overzicht ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started) in de documentatie van de Storefront van Adobe Commerce te herzien.
+* Leer over de concepten en het werkschema om Commerce storefronts op de Diensten van de Levering van de Rand van Adobe te ontwikkelen door het [ Overzicht ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started?lang=nl-NL) in de documentatie van de Storefront van Adobe Commerce te herzien.
 * De ontwikkelomgeving instellen
 
 
@@ -59,7 +59,7 @@ Installeer Node Version Manager (NVM) en de vereiste Node.js-versie (22.13.1 LTS
 
 >[!TIP]
 >
->Dit is het installatieproces van [!DNL Adobe Commerce Optimizer] voor de Adobe Commerce Edge Delivery Service Store. De extra middelen om uw [!DNL Adobe Commerce Optimizer] oplossing uit te breiden en aan te passen zijn beschikbaar door [ App Builder voor Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) en [ API Net voor Adobe Developer App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh). Neem voor toegang tot en gebruiksinformatie contact op met uw Adobe-accountvertegenwoordiger.
+>Dit is het installatieproces van [!DNL Adobe Commerce Optimizer] voor de Adobe Commerce Edge Delivery Service Store. De extra middelen om uw [!DNL Adobe Commerce Optimizer] oplossing uit te breiden en aan te passen zijn beschikbaar door [ App Builder voor Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) en [ API Net voor Adobe Developer App Builder ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh). Neem voor toegang tot en gebruiksinformatie contact op met uw Adobe-accountvertegenwoordiger.
 
 #### Sidekick installeren
 
@@ -68,7 +68,7 @@ Installeer de Sidekick-browserextensie om inhoud te bewerken, voor te vertonen e
 
 ## Je winkel maken
 
-De winkel die u voor uw [!DNL Adobe Commerce Optimizer] -project maakt, gebruikt een aangepaste versie van de Adobe Commerce op Edge Delivery Services Storefront boilerplate. De bouwsteenplaat is een reeks dossiers en omslagen die een uitgangspunt voor storefront ontwikkeling verstrekken. Dit opstellingsproces is verschillend dan het standaardopstellingsproces voor een [ Adobe Commerce op Edge Delivery Services Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/).
+De winkel die u voor uw [!DNL Adobe Commerce Optimizer] -project maakt, gebruikt een aangepaste versie van de Adobe Commerce op Edge Delivery Services Storefront boilerplate. De bouwsteenplaat is een reeks dossiers en omslagen die een uitgangspunt voor storefront ontwikkeling verstrekken. Dit opstellingsproces is verschillend dan het standaardopstellingsproces voor een [ Adobe Commerce op Edge Delivery Services Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL).
 
 >[!NOTE]
 >
@@ -93,8 +93,8 @@ Voer de volgende stappen uit om een winkelvoetnoot in te stellen die u met [!DNL
 
 Volg de instructies in de Adobe Commerce Storefront-documentatie om een gedeelde inhoudsmap toe te voegen in Google Drive of SharePoint en de voorbeeldinhoud toe te voegen. De voorbeeldinhoud bestaat uit afbeeldingen, tekst en andere elementen waaruit uw site bestaat.
 
-* [ creeer en deel een Aandrijving van Google of de omslag van SharePoint ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#create-and-share-folder)
-* [ Laad de steekproefinhoud ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#add-sample-content) in uw omslag.
+* [ creeer en deel een Aandrijving van Google of de omslag van SharePoint ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#create-and-share-folder)
+* [ Laad de steekproefinhoud ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#add-sample-content) in uw omslag.
 
 ### Stap 2: Een gegevensopslagruimte maken
 
@@ -167,7 +167,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
 
 1. Werk het montagepunt in het storefront configuratiedossier bij om aan uw inhoud URL te richten.
 
-   1. Open het {[&#128279;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) configuratiedossier 0} fstab.yaml.
+   1. Open het {[&#128279;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#vocabulary) configuratiedossier 0} fstab.yaml.
 
       ```json
       mountpoints:
@@ -517,6 +517,6 @@ Zie [ het gebruiksgeval van begin tot eind van de Beheerder van de Opslag en van
 
 >[!MORELIKETHIS]
 >
->* [ Adobe Experience Manager storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met uw Commerce frontend componenten en backend gegevens te integreren.
+>* [ Adobe Experience Manager storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) om meer over het bijwerken van plaatsinhoud te leren en met uw Commerce frontend componenten en backend gegevens te integreren.
 ></br></br>
->* [ de documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met Adobe Commerce frontend componenten en backend gegevens te integreren.
+>* [ de documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) om meer over het bijwerken van plaatsinhoud te leren en met Adobe Commerce frontend componenten en backend gegevens te integreren.

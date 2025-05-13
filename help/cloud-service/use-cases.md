@@ -3,9 +3,9 @@ title: Gebruik hoofdletters
 description: Leer hoe te om praktische gebruiksgevallen en gesteunde bedrijfsscenario's met  [!DNL Adobe Commerce as a Cloud Service] te verwezenlijken.
 role: User, Leader
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-source-git-commit: d5935f4d080c3be1f51bf8916575a3b2f357ee22
+source-git-commit: f01e9ae84830ab265c8b6557ec81e5594179fb10
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Deze workflow laat zien hoe een klant een product kan kopen bij de winkel en hoe
 
 ### Betalingsdiensten inschakelen
 
-1. In Commerce Admin, navigeer aan [!UICONTROL **Montages**] > [!UICONTROL **de Methoden van de Betaling**].
+1. In Commerce Admin, navigeer aan [!UICONTROL **Opslag**] > [!UICONTROL Settings] > [!UICONTROL **Configuratie**] > [!UICONTROL **de Methoden van de Betaling**].
 
 1. In de [!UICONTROL **Algemene sectie van de Configuratie**], ga uw `Payment Services Sandbox ID` en `Payment Services Sandbox Key` in. U kunt deze IDs krijgen door de stappen te volgen die in [ worden beschreven Sandbox onboarding ](../payment-services/sandbox.md#sandbox-onboarding)
 
@@ -191,7 +191,7 @@ Overweeg een scenario waarin u de achtergrond van een productafbeelding snel wil
 
 1. Klik [!UICONTROL **sparen**] opnieuw om de veranderingen te bewaren.
 
-1. In [!UICONTROL **sparen activa**] dialoog, selecteer de omslag van de Bestemming van Commerce [!UICONTROL **&#x200B;**].
+1. In [!UICONTROL **sparen activa**] dialoog, selecteer de omslag van de Bestemming van Commerce [!UICONTROL ****].
 
    ![ sparen als nieuwe activa ](./assets/save-as-new-asset.png){width="600" zoomable="yes"}
 
@@ -199,7 +199,7 @@ Overweeg een scenario waarin u de achtergrond van een productafbeelding snel wil
 
 #### De afbeelding toevoegen aan Commerce AEM Assets
 
-1. Van het [ Comité van de Navigatie ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel) van AEM as a Cloud Service, uitgezochte **Assets** > **Dossiers** > **Commerce** en klik op de activa u in de vorige sectie creeerde.
+1. Van het [ Comité van de Navigatie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel) van AEM as a Cloud Service, uitgezochte **Assets** > **Dossiers** > **Commerce** en klik op de activa u in de vorige sectie creeerde.
 
    ![ handelsomslag ](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
@@ -249,7 +249,7 @@ Adobe Commerce Generate Variations gebruikt Generative AI om het genereren van i
 
 ### Tekst genereren
 
-1. Open uw storefront plaats gebruikend de [ Universele Redacteur ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction).
+1. Open uw storefront plaats gebruikend de [ Universele Redacteur ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction).
 
 1. Selecteer het tekstblok dat u wilt bewerken.
 
@@ -263,7 +263,7 @@ Adobe Commerce Generate Variations gebruikt Generative AI om het genereren van i
 
 ### Inhoud en afbeeldingen genereren
 
-1. Open [ produceer Variaties ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)
+1. Open [ produceer Variaties ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)
 
 1. Selecteer het [!UICONTROL **malplaatje van de Banner van de Hero**].
 

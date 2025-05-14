@@ -1,9 +1,10 @@
 ---
 title: Instellingen
 description: Leer hoe te om de bron van uw  [!DNL Product Recommendations]  gegevens te veranderen en hoe te om visuele aanbevelingen toe te laten.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: fe37624d-c53e-40cd-b182-10f62cba74c0
+source-git-commit: c11e3fbc871600f413867e0c5c0b75ad705cf115
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Staging-orders worden opgenomen met de testvolgorde `environmentId` . Zij heeft 
 
 >[!NOTE]
 >
->Wanneer het gebruiken van de Aanbevelingen van het Product door REST, kan de `alternateEnvironmentId` parameter worden gebruikt om andere dataspaces te specificeren. Deze parameter is niet beschikbaar wanneer u productaanbevelingen gebruikt via GraphQL.
+>Wanneer het gebruiken van de Aanbevelingen van het Product door REST, kan de `alternateEnvironmentId` parameter worden gebruikt om andere dataspaces te specificeren. Wanneer het gebruiken van de Aanbevelingen van het Product door [ GraphQL ](https://developer.adobe.com/commerce/services/graphql/recommendations/recommendations/), is deze parameter niet beschikbaar.
 
 ## Kies de bron voor aanbevelingen
 

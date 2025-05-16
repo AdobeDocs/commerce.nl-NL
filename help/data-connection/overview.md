@@ -98,7 +98,7 @@ In de rest van deze handleiding worden al deze stappen gedetailleerder doorlopen
 
 >[!NOTE]
 >
->Voor mobiele ontwikkelaars, leer hoe te [ ](./mobile-sdk-epc.md) Adobe Experience Platform Mobile SDK met Commerce integreren.
+>Voor mobiele ontwikkelaars, leer hoe te [&#128279;](./mobile-sdk-epc.md) Adobe Experience Platform Mobile SDK met Commerce integreren.
 
 ## HIPAA-gereedheid
 

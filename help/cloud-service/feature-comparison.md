@@ -17,8 +17,8 @@ ht-degree: 0%
 Adobe Commerce biedt drie implementatiemodellen:
 
 - [ Adobe Commerce as a Cloud Service ](overview.md) (SaaS)
-- [ Adobe Commerce op Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) (PAAS)
-- [ Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) (op-gebouw)
+- [ Adobe Commerce op Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/overview) (PAAS)
+- [ Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/overview) (op-gebouw)
 
 Deze vergelijking concentreert zich op de verschillen tussen software-as-a-dienst (SaaS) en platform-as-a-dienst (PaaS) modellen, die verschillende niveaus van aanpassing, rekbaarheid, en controle over uw handelsimplementatie verstrekken.
 
@@ -28,7 +28,7 @@ Deze vergelijking concentreert zich op de verschillen tussen software-as-a-diens
 
 ## Functies voor opslagbeheer
 
-[ Commerce Admin UI ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen.
+[ Commerce Admin UI ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen.
 
 In de volgende tabel worden de functies en vervangende oplossingen beschreven die beschikbaar zijn in [!DNL Adobe Commerce as a Cloud Service] :
 
@@ -42,31 +42,31 @@ In de volgende tabel worden de functies en vervangende oplossingen beschreven di
     </thead>
     <tbody>
         <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management">Digitaal middelenbeheer</a></td>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration">Productvisa</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management">Digitaal middelenbeheer</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/aem-asset-management/aem-assets-integration">Productvisa</a></td>
             <td>Een krachtig DAM-systeem (Digital Asset Management) dat kan worden geïntegreerd met Adobe Experience Manager voor het beheer van rich media-inhoud. De standaard functie voor digitaal bestand- en middelenbeheer biedt ook de standaardfuncties voor middelenbeheer voor het opslaan en beheren van digitale elementen.</td>
         </tr>
         <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview">Inhoudsbeheersysteem (CMS)</a></td>
-            <td rowspan="3"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/merchants/get-started/">Storefront Builder</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/guide-overview">Inhoudsbeheersysteem (CMS)</a></td>
+            <td rowspan="3"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/merchants/get-started/?lang=nl-NL">Storefront Builder</a></td>
             <td rowspan="3">Een CMS die gebruikers toestaat om storefront inhoud tot stand te brengen en te beheren gemakkelijk gebruikend document creatie of Visuele Redacteur en omvat inheemse experimenteringsmogelijkheden.</td>
         </tr>
         <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview">Page Builder</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/guide-overview">Page Builder</a></td>
         </tr>
         <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL herschrijft</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL herschrijft</a></td>
         </tr>
         <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/staging/content-staging">Inhoud stapelen</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/staging/content-staging">Inhoud stapelen</a></td>
             <td rowspan="2"><a href="../catalog-service/overview.md">Catalogusservice</a></td>
             <td rowspan="2">Een uitgebreide weergave-model (alleen-lezen) service voor het beheer van catalogusgegevens en het renderen van productgerelateerde winkelervaringen.</td>
         </tr>
         <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser">Visual Merchandiser</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser">Visual Merchandiser</a></td>
         </tr>
         <tr>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments">Betalingen</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/payments">Betalingen</a></td>
             <td><a href="../payment-services/guide-overview.md">Betalingsdiensten</a></td>
             <td>Een geïntegreerde betalingsdienst die veilige en efficiënte transacties vergemakkelijkt.</td>
         </tr>
@@ -172,7 +172,7 @@ De volgende lijst vergelijkt platformcapaciteiten en rekbaarheidseigenschappen o
     <tfoot>
         <tr>
             <td colspan="3">
-                <sup> 1 </sup> Kern <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview"> B2B eigenschappen </a>, als bedrijfbeheer en het citeren, zijn beschikbaar uit-van-de-doos in SaaS. Voor industriespecifieke aanpassingen kunnen echter aanvullende implementatieoverwegingen nodig zijn.
+                <sup> 1 </sup> Kern <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/guide-overview"> B2B eigenschappen </a>, als bedrijfbeheer en het citeren, zijn beschikbaar uit-van-de-doos in SaaS. Voor industriespecifieke aanpassingen kunnen echter aanvullende implementatieoverwegingen nodig zijn.
                 <br><br>
                 <sup> 2 </sup> de modelrekbaarheid van Gegevens in SaaS steunt <a href="https://developer.adobe.com/commerce/services/cloud/guides/custom-attributes/"> uitbreidend kernentiteiten </a> voorbij product en klant, met inbegrip van B2B entiteiten. Nochtans, industrie-specifieke gegevensmodellen (bijvoorbeeld, dealer-specifieke attributen) zouden extra architecturale overwegingen kunnen vereisen.
                 <br><br>

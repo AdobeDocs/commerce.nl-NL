@@ -2,9 +2,10 @@
 title: Migreren naar  [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe te aan  [!DNL Adobe Commerce as a Cloud Service] migreren.
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: 34057c1e55ff117ea7aab4407f31548ce826691b
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -68,7 +69,7 @@ Bij het migreren van uw huidige Adobe Commerce-instantie naar een nieuwe [!DNL A
 
    * [ Adobe Commerce op de Architectuur van de Diensten van de Wolk ](./overview.md) - herzie de platformarchitectuur en hoe het van uw huidige instantie van Adobe Commerce verschilt.
    * [ het Kader van de Rekbaarheid van Adobe Commerce ](https://developer.adobe.com/commerce/extensibility/) - identificeer hoe u uw huidige aanpassingen wilt overgaan.
-   * [ Commerce Storefront aangedreven door Edge Delivery ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) - herzie de geadviseerde storefront oplossing.
+   * [ Commerce Storefront aangedreven door Edge Delivery ](https://experienceleague.adobe.com/developer/commerce/storefront/) - herzie de geadviseerde storefront oplossing.
 
 1. Controleer de compatibiliteit van uw aanpassingen:
 
@@ -90,7 +91,7 @@ In de volgende stappen wordt het ontwikkelings- en uitvoeringsproces van de migr
 
 1. Stel een van de volgende op GraphQL gebaseerde winkeliers in:
 
-   * [ creeer een Commerce storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL)
+   * [ creeer een Commerce storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)
    * [ Gebruik PWA Studio om een douane op GraphQL-Gebaseerde opslag tot stand te brengen ](https://developer.adobe.com/commerce/pwa-studio/)
 
 1. Uw gegevens migreren van uw vorige Commerce-instantie naar ACCS:

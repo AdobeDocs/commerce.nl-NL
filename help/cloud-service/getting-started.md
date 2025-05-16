@@ -3,9 +3,10 @@ title: Aan de slag met  [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce as a Cloud Service].
 role: Admin, Developer, User
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-source-git-commit: 9b90e6f79a394ec0941c9e48aee3859f0bcdedd5
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: 34057c1e55ff117ea7aab4407f31548ce826691b
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Klik op de onderstaande tabbladen om workflowoverzichten op hoog niveau weer te 
 
 >[!TAB  Beheerder en handelaarwerkschema ]
 
-Dit diagram biedt een overzicht op hoog niveau van de manier waarop beheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
+Dit diagram biedt een overzicht op hoog niveau van de manier waarop beheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
 
 ![[!DNL Adobe Commerce as a Cloud Service] merchant flow diagram ](./assets/merchant-flow.svg){zoomable="yes"}
 
@@ -77,7 +78,7 @@ Dit diagram biedt een overzicht op hoog niveau van de manier waarop ontwikkelaar
 
 1. _(Facultatief)_ als u steekproefproductgegevens voor het testen en het leren doeleinden wilt omvatten, de uitgezochte [!UICONTROL **Opslag van Adobe**] van de [!UICONTROL **gegevens van de Test**] dropdown.
 
-   U kunt deze optie overslaan, maar uw winkel heeft geen producten als u dat doet. U zult uw catalogus [&#128279;](#import-your-catalog) moeten  invoeren om de volledige storefront ervaring te zien.
+   U kunt deze optie overslaan, maar uw winkel heeft geen producten als u dat doet. U zult uw catalogus ](#import-your-catalog) moeten [ invoeren om de volledige storefront ervaring te zien.
 
 1. Klik [!UICONTROL **toevoegen Instantie**].
 
@@ -103,7 +104,7 @@ Standaard bevatten [!DNL Adobe Commerce as a Cloud Service] -instanties geen pro
 
 U kunt uw catalogus op twee manieren importeren in [!DNL Adobe Commerce as a Cloud Service] :
 
-* [**Admin van Commerce** ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
+* [**Admin van Commerce** ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
 * [**de Invoer JSON API** ](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - VERTONEN API die u toestaat om uw catalogusgegevens programmatically in te voeren.
 
 <!-- TODO

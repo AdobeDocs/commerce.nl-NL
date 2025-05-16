@@ -4,9 +4,10 @@ description: Deze pagina biedt een overzicht van de opties voor middelenbeheer d
 hide: true
 hidefromtoc: true
 exl-id: 4d76ff70-29de-4d6e-8ec2-43e9e76af3a0
-source-git-commit: d38066b6db7da5bb029391716063ed098be1f519
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: 34057c1e55ff117ea7aab4407f31548ce826691b
 workflow-type: tm+mt
-source-wordcount: '17'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---

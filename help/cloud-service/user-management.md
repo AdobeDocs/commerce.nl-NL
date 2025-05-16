@@ -22,7 +22,7 @@ Voor dit proces is een IMS-organisatie met toegang tot [!DNL Adobe Commerce as a
 >
 >Om veelvoudige gebruikers gelijktijdig toe te voegen, kunt u a [ bulkupload CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"} uitvoeren.
 > 
-> U kunt veelvoudige gebruikers aan een rol ook toevoegen door a [ gebruikersgroep ](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} te creëren. Dan kunt u [!UICONTROL **Adobe Commerce as a Cloud Service toevoegen - 1} product van de Achtergrond aan de gebruikersgroep.**]
+> U kunt veelvoudige gebruikers aan een rol ook toevoegen door a [ gebruikersgroep ](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} te creëren. Dan kunt u [!UICONTROL **Adobe Commerce as a Cloud Service toevoegen - 1&rbrace; product van de Achtergrond aan de gebruikersgroep.**]
 
 ## Rollen begrijpen
 
@@ -30,7 +30,7 @@ De volgende rollen zijn beschikbaar voor [!DNL Adobe Commerce as a Cloud Service
 
 * **Gebruikers** - de gebruikers hebben toegang Admin tot Commerce Admin, maar kunnen toegang op productniveau in Admin Console niet beheren. De gebruikers kunnen credits ook gebruiken om [ instanties ](./getting-started.md#create-an-instance) in [!DNL Commerce Cloud Manager] tot stand te brengen.
 
-* **](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} de Ontwikkelaars van 0} Ontwikkelaars {hebben gebruikerstoestemmingen en aan de instantie van Commerce als ontwikkelaarsgebruiker toegevoegd.[** Dit betekent zij kunnen [ Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"} gebruiken, [ gebeurtenissen ](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} vormen, en [ Webhooks ](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"} creëren.
+* **[&#128279;](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} de Ontwikkelaars van 0&rbrace; Ontwikkelaars &lbrace;hebben gebruikerstoestemmingen en aan de instantie van Commerce als ontwikkelaarsgebruiker toegevoegd.** Dit betekent zij kunnen [ Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"} gebruiken, [ gebeurtenissen ](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} vormen, en [ Webhooks ](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"} creëren.
 
 * Beheerders - Er zijn drie verschillende typen beheerders:
    * [ beheerders van het Systeem ](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - het systeemadmin heeft toegang tot alle producten en productprofielen in de organisatie door Admin Console.

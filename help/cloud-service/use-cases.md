@@ -192,7 +192,7 @@ Overweeg een scenario waarin u de achtergrond van een productafbeelding snel wil
 
 1. Klik [!UICONTROL **sparen**] opnieuw om de veranderingen te bewaren.
 
-1. In [!UICONTROL **sparen activa**] dialoog, selecteer de omslag van de Bestemming van Commerce [!UICONTROL ****].
+1. In [!UICONTROL **sparen activa**] dialoog, selecteer de omslag van de Bestemming van Commerce [!UICONTROL **&#x200B;**].
 
    ![ sparen als nieuwe activa ](./assets/save-as-new-asset.png){width="600" zoomable="yes"}
 

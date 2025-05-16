@@ -2,7 +2,8 @@
 title: '[!DNL Catalog Service] Overzicht van hulplijnen'
 description: '[!DNL Catalog Service for Adobe Commerce] biedt een manier om de inhoud van de pagina''s met productweergaven en de productlijst sneller op te halen dan de native Adobe Commerce GraphQL-query''s.'
 recommendations: noCatalog
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 1a83bbc5-8901-49c0-8d8f-daec415edf70
+source-git-commit: 8e3e71c7de56b367a73ab048fa13ba2cdeb55f41
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -22,15 +23,15 @@ Deze handleiding is bedoeld voor beheerders van Adobe [!DNL Commerce] . Dit omva
 
 | Hulplijn | Beschrijving |
 |------ | ----------- |
-| [ Adobe Commerce 2.4 Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce.html?lang=nl-NL) | Bedrijfsgerichte documentatie voor zowel Adobe Commerce als Magento Open Source |
+| [ Adobe Commerce 2.4 Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce.html) | Bedrijfsgerichte documentatie voor zowel Adobe Commerce als Magento Open Source |
 | [ Adobe Commerce 2.4 de Gids van de Ontwikkelaar ](https://developer.adobe.com/commerce/docs) | Documentatie gericht op ontwikkelaars die wordt gebruikt om Adobe Commerce of Magento Open Source te bouwen en aan te passen |
 
 ## Ondersteuning
 
-Het [ onboarding proces ](https://experienceleague.adobe.com/docs/commerce/catalog-service/installation.html?lang=nl-NL) wordt ontworpen om u door de vereiste stappen voor vestiging te begeleiden en het toelaten van de [!DNL Catalog Service] functionaliteit.
+Het [ onboarding proces ](https://experienceleague.adobe.com/docs/commerce/catalog-service/installation.html) wordt ontworpen om u door de vereiste stappen voor vestiging te begeleiden en het toelaten van de [!DNL Catalog Service] functionaliteit.
 
 Gebruik de volgende bronnen als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld:
 
-* [ centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=nl-NL) voor de artikelen van het Oplossen van problemen.
-* [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.
+* [ centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) voor de artikelen van het Oplossen van problemen.
+* [ kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - leg een kaartje voor om extra hulp te ontvangen.
 * Sluit zich aan bij het technische team van Adobe Commerce, en de gebruikers van de de opslagdiensten van SaaS in [ #storefront-services ](https://magentocommeng.slack.com/archives/C03HVPG8RS4) openbare kanaal van Slack om bijgewerkt te zijn.

@@ -35,7 +35,7 @@ Als u in het leren van meer over het [!DNL Adobe Commerce Optimizer] vroege toeg
 
 Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450226)
+>[!VIDEO](https://video.tv.adobe.com/v/3450469?captions=dut)
 
 ## Wie profiteert het meest van [!DNL Adobe Commerce Optimizer]?
 

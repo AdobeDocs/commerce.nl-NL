@@ -3,9 +3,10 @@ title: Categorieverhandeling
 description: Het Verkopen van de Categorie van het gebruik  [!DNL Live Search]  voor een snellere het winkelen ervaring.
 gourl: ls_catalog_merchandising
 exl-id: b2645096-aafc-4d68-8adc-ab5410a9dfb6
-source-git-commit: e5e5443e0bdb12e4774856336157067b4ff6eb7c
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 59aa4ae67a1a8a853b72d78cd65a6cc44a6bc662
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ De categorie het Merchandising staat opslageigenaars toe om [!DNL Live Search] I
 
 Deze video is een inleiding op Categorie Merchandising.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448857?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424617)
 
 De eigenschap wordt betreden in Admin bij **Marketing** > SEO &amp; Onderzoek > **[!DNL Live Search]** > **Categorie die** verhandelen.
 

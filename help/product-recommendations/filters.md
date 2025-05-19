@@ -42,7 +42,7 @@ De logische operatoren `AND` en `OR` worden gebruikt om meerdere voorwaarden sam
 
 ### Categorie
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Filtert producten op basis van hun categorie. Het categoriefilter gebruikt directe categorietoewijzingen en hun subcategorieën. Als u bijvoorbeeld een uitsluitingsvoorwaarde inschakelt voor categorie `Gear` , worden producten die zijn toegewezen aan `Gear` en alle bijbehorende subcategorieën, zoals `Gear/Bags` of `Gear/Fitness Equipment` , uitgesloten. Hetzelfde geldt voor een inclusiefilter op een categorie. Als u bijvoorbeeld een inclusievoorwaarde voor categorie `Gear` inschakelt, worden producten opgenomen die zijn toegewezen aan `Gear` en alle bijbehorende subcategorieën, zoals `Gear/Bags` of `Gear/Fitness Equipment` .
 
@@ -50,7 +50,7 @@ In het categorieveld worden categorieën weergegeven die bij de huidige voorvert
 
 >[!NOTE]
 >
->Voor kooplieden B2B, blijft het filter van de Categorie aan om het even welke [ klant-specifieke productcategorieën ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html) u hebt gevormd.
+>Voor kooplieden B2B, blijft het filter van de Categorie aan om het even welke [ klant-specifieke productcategorieën ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=nl-NL) u hebt gevormd.
 
 Adobe Commerce raadt u aan de volgende configuratie voor categoriefilters te gebruiken wanneer u aanbevelingen op uw paginatypen toepast:
 
@@ -72,23 +72,23 @@ Productfilters geven aan welke specifieke producten in aanmerking komen of niet 
 
 ### Type
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Een filter op basis van het producttype omvat of sluit alle producten van een specifiek type uit. De gesteunde types omvatten _eenvoudig_, _configureerbaar_, _virtueel_, _downloadbaar_, of _geschenkkaart_. _Bundel_, _gegroepeerde_, en de types van douaneproduct worden niet gesteund.
 
 ### Zichtbaarheid
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 De producten van filters die op zicht, zoals worden gebaseerd: _Catalogus_, _Onderzoek_, of allebei.
 
 ### Prijs
 
-Een filter op basis van de productprijs gebruikt de uiteindelijke prijs om de vergelijking uit te voeren. De uiteindelijke prijs omvat alle kortingen of speciale prijzen die beschikbaar zijn voor anonieme kopers. Voor kooplieden B2B, wijst de getoonde prijs op de [ klant-specifieke groepsprijzen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) u hebt gevormd.
+Een filter op basis van de productprijs gebruikt de uiteindelijke prijs om de vergelijking uit te voeren. De uiteindelijke prijs omvat alle kortingen of speciale prijzen die beschikbaar zijn voor anonieme kopers. Voor kooplieden B2B, wijst de getoonde prijs op de [ klant-specifieke groepsprijzen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=nl-NL) u hebt gevormd.
 
 ### Status van voorraad
 
 De volgende uitsluitingsfilters kunnen worden gebruikt om producten te filteren op basis van de voorraadstatus:
 
 - Niet in voorraad - (alleen Uitsluiting) Omvat geen producten die niet in voorraad zijn.
-- Lage voorraad - (Uitsluiting alleen) Omvat geen producten die weinig voorraad hebben. De lage voorraadstatus is gebaseerd op _slechts X verlaten de waarde van de Drempel_ in [ configuratie van de Inventaris ](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html).
+- Lage voorraad - (Uitsluiting alleen) Omvat geen producten die weinig voorraad hebben. De lage voorraadstatus is gebaseerd op _slechts X verlaten de waarde van de Drempel_ in [ configuratie van de Inventaris ](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html?lang=nl-NL).

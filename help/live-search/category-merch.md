@@ -3,7 +3,7 @@ title: Categorieverhandeling
 description: Het Verkopen van de Categorie van het gebruik  [!DNL Live Search]  voor een snellere het winkelen ervaring.
 gourl: ls_catalog_merchandising
 exl-id: b2645096-aafc-4d68-8adc-ab5410a9dfb6
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 59aa4ae67a1a8a853b72d78cd65a6cc44a6bc662
 workflow-type: tm+mt
 source-wordcount: '1118'

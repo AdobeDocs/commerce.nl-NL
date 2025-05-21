@@ -6,7 +6,7 @@ exl-id: 15399216-6a96-4d0b-bbc1-293190cb9e14
 source-git-commit: 29374c45f57e923666e255bfefadd9a1e736cfef
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Met [!DNL Live Search] kunt u:
 
 >[!IMPORTANT]
 >
->Adobe Commerce biedt opties voor het zoeken naar sites. Vóór implementatie, herzie de [ Grenzen en 1&rbrace; informatie van Grens &lbrace;om ervoor te zorgen dat [!DNL Live Search] geschikt voor uw bedrijfsbehoeften is.](boundaries-limits.md)
+>Adobe Commerce biedt opties voor het zoeken naar sites. Vóór implementatie, herzie de [ Grenzen en 1} informatie van Grens {om ervoor te zorgen dat [!DNL Live Search] geschikt voor uw bedrijfsbehoeften is.](boundaries-limits.md)
 
 ## Architectuur
 
@@ -35,13 +35,13 @@ De kant van Adobe Commerce van de architectuur omvat het ontvangen van het onder
 
 Met de focus op snelheid, relevantie en gebruiksgemak is [!DNL Live Search] een gamewisselaar voor zowel kopers als handelaren. Bekijk de volgende video en bekijk een snelle rondleiding van [!DNL Live Search] vanuit de winkel.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452575?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
 
-Voor een meer diepgaande video over het gebruiken van en het vormen van Levend Onderzoek, zie [ Volledige Demonstratie op  [!DNL Live Search] ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) onderwerp.
+Voor een meer diepgaande video over het gebruiken van en het vormen van Levend Onderzoek, zie [ Volledige Demonstratie op  [!DNL Live Search] ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) onderwerp.
 
 ### Zoeken terwijl u typt
 
-[!DNL Live Search] antwoordt met gesuggereerde producten en een duimnagelbeeld van hoogste onderzoeksresultaten in a [ popover ](storefront-popover.md) als het type van kopers vragen in het [ Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search) vakje. De [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/storefront/storefront) paginasvertoningen van het 0&rbrace; productdetail &lbrace;wanneer de kopers een gesuggereerd of gekenmerkt product klikken.  A _Mening alle_ verbinding in footer van popover toont de pagina van onderzoeksresultaten.
+[!DNL Live Search] antwoordt met gesuggereerde producten en een duimnagelbeeld van hoogste onderzoeksresultaten in a [ popover ](storefront-popover.md) als het type van kopers vragen in het [ Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) vakje. De ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront) paginasvertoningen van het 0} productdetail {wanneer de kopers een gesuggereerd of gekenmerkt product klikken. [ A _Mening alle_ verbinding in footer van popover toont de pagina van onderzoeksresultaten.
 
 [!DNL Live Search] retourneert de resultaten &quot;search as you type&quot; voor een query van twee of meer tekens. Voor een gedeeltelijke overeenkomst, is het maximumaantal karakters per woord 20. Het aantal karakters in de vraag is niet configureerbaar. De popover bevat de velden `name` , `sku` en `category_ids` .
 
@@ -81,7 +81,7 @@ Het verhandelen [ regels ](rules.md) vorm de het winkelen ervaring met als-toen 
 
 ### Ondersteuning voor zoektermen
 
-[!DNL Live Search] steunt Commerce [ herleidt van de onderzoekstermijn ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-terms). Gebruikers kunnen bijvoorbeeld zoeken naar een term zoals &quot;Verzendkosten&quot; en deze rechtstreeks doorsturen naar de pagina Verzendkosten.
+[!DNL Live Search] steunt Commerce [ herleidt van de onderzoekstermijn ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms). Gebruikers kunnen bijvoorbeeld zoeken naar een term zoals &quot;Verzendkosten&quot; en deze rechtstreeks doorsturen naar de pagina Verzendkosten.
 
 ## Componenten Live zoeken
 
@@ -101,4 +101,4 @@ Het verhandelen [ regels ](rules.md) vorm de het winkelen ervaring met als-toen 
 
 Als u gedurende 90 opeenvolgende dagen geen zoekquery naar de catalogusgegevens in uw testomgeving verzendt, worden de catalogusgegevens ingesteld op de slaapstand en worden er geen gegevens geretourneerd voor zoekopdrachten. Dit beleid heeft geen invloed op catalogusgegevens in uw productieomgeving.
 
-Om de catalogusgegevens in uw het testen milieu opnieuw te activeren, [ voorlegt een steunverzoek ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Live Search]&quot;en omvat milieu IDs. De catalogusgegevens in de testomgeving moeten binnen een paar uur worden hersteld.
+Om de catalogusgegevens in uw het testen milieu opnieuw te activeren, [ voorlegt een steunverzoek ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Live Search]&quot;en omvat milieu IDs. De catalogusgegevens in de testomgeving moeten binnen een paar uur worden hersteld.

@@ -84,7 +84,7 @@ Voor [!DNL Product Recommendations] bevat de SaaS-gegevensruimte catalogus- en g
 >[!WARNING]
 >
 > Gebruik uw **gegevens van productieSaaS** slechts op uw productie [!DNL Commerce] installatie om gegevensbotsingen te vermijden. Anders loopt u het risico dat u gegevens van uw productiesite verontreinigt met testgegevens, wat implementatievertragingen veroorzaakt. De gegevens van uw productieproduct kunnen bijvoorbeeld per ongeluk worden overschreven door opvoergegevens, zoals ophalings-URL&#39;s.
-> > Als dit zou moeten gebeuren, [ voorlegt een verzoek van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) om gegevensschoonmaak te verzoeken.
+> &#x200B;> Als dit zou moeten gebeuren, [ voorlegt een verzoek van de Steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) om gegevensschoonmaak te verzoeken.
 
 ### SaaS-gegevensruimteprovisioning
 
@@ -114,7 +114,7 @@ Als u een SaaS-project wilt selecteren of maken, vraagt u de API-sleutel [!DNL C
 
    Als u niet de **[!UICONTROL Commerce Services Connector]** sectie in de [!DNL Commerce] configuratie ziet, installeer de [!DNL Commerce] modules voor uw gewenste [[!DNL Commerce]  dienst ](#availableservices). Controleer ook of het pakket `magento/module-services-id` is geïnstalleerd.
 
-1. Plak de hoofdwaarden in de secties _[!UICONTROL Sandbox API Keys]_en_[!UICONTROL Production API Keys]_ .
+1. Plak de hoofdwaarden in de secties _[!UICONTROL Sandbox API Keys]_&#x200B;en&#x200B;_[!UICONTROL Production API Keys]_ .
 
    - Persoonlijke sleutels moeten `----BEGIN PRIVATE KEY---` aan het begin van de toets en `----END PRIVATE KEY----` aan het einde van de toets bevatten.
    - Als u geen exemplaar van de daadwerkelijke sleutels hebt, vraag de Eigenaar van de Rekening voor hen, dan stop de waarden in de configuratie.
@@ -125,7 +125,7 @@ Als u een SaaS-project wilt selecteren of maken, vraagt u de API-sleutel [!DNL C
 
 1. Klik **sparen**.
 
-Om het even welke projecten SaaS die met uw sleutels worden geassocieerd verschijnen op het **1} gebied van het Project {in de** **sectie van het Herkenningsteken SaaS.**
+Om het even welke projecten SaaS die met uw sleutels worden geassocieerd verschijnen op het **1&rbrace; gebied van het Project &lbrace;in de** **sectie van het Herkenningsteken SaaS.**
 
 1. Als geen projecten SaaS bestaan, leidt de klik **tot Project**. Dan op het **gebied van het Project**, ga een naam voor uw project SaaS in.
 

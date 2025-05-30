@@ -32,8 +32,8 @@ Volg de instructies voor het [ type van synoniem ](synonyms-type.md) dat u wilt 
 
    ![ voeg synoniem in twee richtingen ](assets/synonym-add-two-way.png) toe
 
-1. Ga de **termijn of de uitdrukking 0} van het Sleutelwoord {in te passen.**
-1. Ga de **termijn(en) in van de uitbreiding 0} {die u als synoniemen voor het sleutelwoord wilt toevoegen.** Scheid meerdere termen met een komma.
+1. Ga de **termijn of de uitdrukking 0&rbrace; van het Sleutelwoord &lbrace;in te passen.**
+1. Ga de **termijn(en) in van de uitbreiding 0&rbrace; &lbrace;die u als synoniemen voor het sleutelwoord wilt toevoegen.** Scheid meerdere termen met een komma.
 In dit voorbeeld is het trefwoord dat moet overeenkomen &#39;broek&#39; en zijn de uitbreidingstermijnen &#39;brousers, slacks&#39;.
 
    ![ In twee richtingen synoniem voorbeeld ](assets/synonym-add-two-way-example.png)

@@ -1,14 +1,13 @@
 ---
 user-guide-title: '[!DNL Catalog Service] Handleiding'
 user-guide-description: Deze gids verstrekt gedetailleerde instructies om  [!DNL Catalog Service]  voor Adobe Commerce te gebruiken.
-breadcrumb-title: '[!DNL Catalog Service] Handleiding'
 hide: true
 role: Admin
 feature: Services, Catalog Service
-source-git-commit: 3d76363c2dcbd65a5b54b2b958e23e495460d26d
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 12%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
@@ -22,6 +21,6 @@ ht-degree: 12%
    - [Catalogusservice en API-net](mesh.md)
    - [Hoofdletters/kleine letters gebruiken: prijzen met accijnzen weergeven](taxes.md)
 - [Aanvullende informatie](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
 
 

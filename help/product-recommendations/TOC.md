@@ -1,13 +1,12 @@
 ---
 user-guide-title: '[!DNL Product Recommendations] Handleiding'
 user-guide-description: Deze gids verstrekt gedetailleerde instructies om  [!DNL Product Recommendations]  van Adobe Commerce te gebruiken.
-breadcrumb-title: '[!DNL Product Recommendations] Handleiding'
 role: Admin
 feature: Services, Recommendations
-source-git-commit: f67010c80c3dedcf3c431cb7dc6e4e7b0cdbde09
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,4 +36,4 @@ ht-degree: 10%
    - [Verifiëren](verify.md)
    - [Aanpassen](customize.md)
    - [Cookie-beperkingen verwerken](setting-cookie.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

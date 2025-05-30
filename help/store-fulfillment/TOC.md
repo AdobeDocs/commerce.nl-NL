@@ -1,15 +1,14 @@
 ---
 user-guide-title: '[!DNL Store FulFillment Guide]'
 user-guide-description: Gedetailleerde informatie over het installeren, configureren en gebruiken van Store Fulfillment voor Adobe Commerce-winkels.
-breadcrumb-title: Store Fulfillment voor Adobe Commerce
 index: true
 feature: Shipping/Delivery
 role: Admin, User
 recommendations: noDisplay
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 5%
+source-wordcount: '79'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 5%
    - [Afhandeling van Connect Store](connect-set-up-service.md)
    - [Testen en implementeren](test-and-deploy.md)
 - [Overzicht van configuratie](service-config-settings-overview.md)
-- Configuratie opslaan {#store-configuration}
+- Winkelconfiguratie {#store-configuration}
    - [Algemene configuratie](enable-general.md)
    - [E-mailsjablonen verkopen](sales-emails.md)
    - [Merchant Store (bronnen)](merchant-store-configuration.md)

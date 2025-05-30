@@ -1,13 +1,12 @@
 ---
 user-guide-title: '[!DNL Data Export] Guide for SaaS Services'
 user-guide-description: Deze gids verstrekt gedetailleerde instructies voor het gebruiken van de  [!DNL Data Export]  uitbreiding voor de diensten van Adobe Commerce SaaS.
-breadcrumb-title: '[!DNL Data Export] Guide for SaaS Services'
 role: Admin
 feature: Services
-source-git-commit: 54474408897c2b8462a064400fa53a2e9040db47
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 5%
 
 - [Overzicht van de handleiding](overview.md)
 - [Gegevenssynchronisatie](data-synchronization.md)
-- Exportplanning en -prestaties {#performance}
+- Planning en prestaties exporteren {#performance}
    - [Gegevensvolume en verzendingstijd schatten](estimate-data-volume-sync-time.md)
    - [Exportprestaties verbeteren](customize-export-processing.md)
 - [feeds synchroniseren met de Commerce CLI](data-export-cli-commands.md)
@@ -25,4 +24,4 @@ ht-degree: 5%
    - [SaaS-gegevens exporteren uitbreiden en aanpassen](extensibility-and-customizations.md)
    - [Productkenmerk dynamisch toevoegen](add-attribute-dynamically.md)
 - [Aanvullende informatie](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

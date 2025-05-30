@@ -1,13 +1,12 @@
 ---
 user-guide-title: '[!DNL Live Search] Handleiding'
 user-guide-description: Deze gids verstrekt gedetailleerde instructies om  [!DNL Live Search]  van Adobe Commerce te gebruiken.
-breadcrumb-title: '[!DNL Live Search] Handleiding'
 role: Admin
 feature: Services, Search
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 5%
+source-wordcount: '75'
+ht-degree: 4%
 
 ---
 
@@ -23,9 +22,9 @@ ht-degree: 5%
    - [Storefront-widgets](storefront-widgets.md)
    - [Pagina met productaanbiedingen](plp-styling.md)
    - [Storefront  [!DNL Popover]](storefront-popover.md)
-- Admin {#live-search-admin}
+- Beheerder {#live-search-admin}
    - [Prestaties](performance.md)
-   - Facets {#facets}
+   - Facetten {#facets}
       - [Overzicht](facets.md)
       - [Workspace](faceting-workspace.md)
       - [Typen factoren](facets-type.md)
@@ -36,7 +35,7 @@ ht-degree: 5%
       - [Typen synoniemen](synonyms-type.md)
       - [Synoniemen toevoegen](synonyms-add.md)
       - [Synoniemen beheren](synonyms-manage.md)
-   - Zoeken in Merchandising {#rules}
+   - Merchandising zoeken {#rules}
       - [Overzicht](rules.md)
       - [Workspace](rules-workspace.md)
       - [Regels toevoegen](rules-add.md)
@@ -46,4 +45,4 @@ ht-degree: 5%
    - [GraphQL](graphql.md)
    - [Instellingen](settings.md)
 - [Gebeurtenissen](events.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

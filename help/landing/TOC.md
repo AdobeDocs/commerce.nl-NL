@@ -1,34 +1,33 @@
 ---
-user-guide-title: Data Services voor Adobe Commerce
+user-guide-title: Services-hulplijnen
 user-guide-description: Documentatie en bronnen voor gehoste services die uitgebreide mogelijkheden bieden voor Adobe Commerce en Magento Open Source.
-title: Services voor Adobe Commerce
 role: Admin, Leader, User
-feature: Personalization, Integration
+feature: Integration, Personalization, Services, Saas
 recommendations: noDisplay
-source-git-commit: a6cb62e63a057cdad092bcc283c86c6aa003d438
+source-git-commit: 2b948cd07020b1f53616fe201dcc5781ca2f9bcc
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Data Services voor Adobe Commerce-documentatie {#user-guides}
+# Adobe Commerce Services-hulplijnen {#user-guides}
 
 - [Overzicht](home.md)
 - Gegevens vrijgeven {#release-information}
    - [Opmerkingen bij de release](/help/landing/release-notes-all.md)
 - [Productoplossingen](product-solutions.md)
 - Commerce-services {#commerce-services}
-   - [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL)
-   - [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=nl-NL)
-   - [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=nl-NL)
-   - [[!DNL Payment Services]](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL)
+   - [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)
+   - [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
+   - [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+   - [[!DNL Payment Services]](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 - Integratiediensten {#integration-services}
-   - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html?lang=nl-NL)
+   - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html)
    - [Services Connector](/help/landing/saas.md)
 - Gegevensgereedschappen {#data-services}
-   - [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html?lang=nl-NL)
-   - [ Prijs die SaaS  indexeert](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html?lang=nl-NL)
+   - [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html)
+   - [ Prijs die SaaS ](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html) indexeert
    - [Catalogus synchroniseren](/help/landing/catalog-sync.md)
 
 

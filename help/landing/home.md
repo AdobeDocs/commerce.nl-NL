@@ -1,21 +1,20 @@
 ---
-title: Services-documentatie
-description: Browse Adobe Commerce product documentation for Commerce SaaS Services
+title: Home met servicehulplijnen
+description: Bladeren door Adobe Commerce-productdocumentatie voor Commerce SaaS Services
 seo-title: Services for Adobe Commerce
 seo-description: Access the product documentation for hosted services that help Adobe Commerce merchants support key components of their business.
-breadcrumb-title: Documentatie
 recommendations: noCatalog
 exl-id: 507af1fa-9f3e-41bc-9aaf-cd89839aae0b
-source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
+source-git-commit: 2b948cd07020b1f53616fe201dcc5781ca2f9bcc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Services Guides
+# Adobe Commerce Services-hulplijnen
 
-Adobe provides a collection of Commerce services, integration services, and data tools to help merchants support key components of their business.
+Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstools om handelaren te helpen belangrijke onderdelen van hun bedrijf te ondersteunen.
 
 >[!NOTE]
 >
@@ -57,11 +56,11 @@ Adobe provides a collection of Commerce services, integration services, and data
       </a>
       <div>
          <a href="../catalog-service/overview.md">
-         <strong>Catalog Service</strong>
+         <strong> de Dienst van de Catalogus </strong>
          </a>
       </div>
       <p>
-         <em>Give your customers an optimized product experience while boosting performance, improving scalability, and increasing conversions.</em>
+         <em> geef uw klanten een geoptimaliseerde productervaring terwijl het opvoeren van prestaties, verbeterend scalability, en verhogend omzettingen.</em>
       </p>
    </td>
    <td valign="top">
@@ -103,11 +102,11 @@ Adobe provides a collection of Commerce services, integration services, and data
       </a>
       <div>
           <a href="../landing/saas.md">
-         <strong> Verbinding van de Diensten van Commerce </strong> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
+         <strong> Verbinding van de Diensten van Commerce </strong> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
          </a>
       </div>
       <p>
-         <em>Configure authentication to enable secure communication between Adobe Commerce and connected services. For each environment, specify the data space ID for Commerce services data storage.</em>
+         <em> vorm authentificatie om veilige communicatie tussen Adobe Commerce en de verbonden diensten toe te laten. Voor elke milieu, specificeer identiteitskaart van de gegevensruimte voor de opslag van de dienstengegevens van Commerce.</em>
       </p>
    </td>
 </tr>
@@ -119,7 +118,7 @@ Adobe provides a collection of Commerce services, integration services, and data
 <tr style="border: 0;">
    <td valign="top">
        <a href="../data-export/overview.md">
-      <img alt="SaaS Data Export Feed management" src="../assets/icons/FeedManagement.svg" width="40">
+      <img alt="Beheer van SaaS-gegevensuitvoer" src="../assets/icons/FeedManagement.svg" width="40">
       </a>
       <div>
          <a href="../data-export/overview.md">
@@ -144,20 +143,20 @@ Adobe provides a collection of Commerce services, integration services, and data
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
       <img alt="Gegevenssynchronisatie controleren" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
-         <strong>Data Management Dashboard</strong>
+          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+         <strong> Dashboard van het Beheer van Gegevens </strong>
          </a>
       </div>
       <p>
-         <em>Easily track Commerce data sync and trigger resynchronization from a unified dashboard in the Commerce Admin. Get valuable insights about data availability for timely display to your shoppers.</em>
+         <em> volgt gemakkelijk de gegevenssynchronisatie van Commerce en brengt resynchronisatie van een verenigd dashboard in Commerce Admin teweeg. Krijg waardevolle inzichten over gegevensbeschikbaarheid voor geschikte vertoning aan uw kopers.</em>
       </p>
    </td>
 </table>
 
 >[!NOTE]
 >
->The Data Management Dashboard is available at no additional cost to Commerce merchants using Product Recommendations v6.0.0, Live Search v4.1.0, or Catalog Service v1.17 with an active license. De handelaren die vroegere de dienstversies gebruiken kunnen [ Synchronisatie van de Catalogus gebruiken ](../landing/catalog-sync.md) om gegevenssynchronisatie te beheren en te volgen.
+>Het gegevensbeheerdashboard is zonder extra kosten beschikbaar voor Commerce-handelaren die productaanbevelingen v6.0.0, Live Search v4.1.0 of Catalog Service v1.17 gebruiken met een actieve licentie. De handelaren die vroegere de dienstversies gebruiken kunnen [ Synchronisatie van de Catalogus gebruiken ](../landing/catalog-sync.md) om gegevenssynchronisatie te beheren en te volgen.

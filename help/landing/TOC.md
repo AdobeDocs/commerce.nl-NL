@@ -18,16 +18,16 @@ ht-degree: 0%
    - [Opmerkingen bij de release](/help/landing/release-notes-all.md)
 - [Productoplossingen](product-solutions.md)
 - Commerce-services {#commerce-services}
-   - [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html)
-   - [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
-   - [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
-   - [[!DNL Payment Services]](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+   - [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=nl-NL)
+   - [[!DNL Product Recommendations]](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=nl-NL)
+   - [[!DNL Catalog Service]](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=nl-NL)
+   - [[!DNL Payment Services]](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=nl-NL)
 - Integratiediensten {#integration-services}
-   - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html)
+   - [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/overview.html?lang=nl-NL)
    - [Services Connector](/help/landing/saas.md)
 - Gegevensgereedschappen {#data-services}
-   - [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html)
-   - [ Prijs die SaaS  indexeert](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html)
+   - [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html?lang=nl-NL)
+   - [ Prijs die SaaS  indexeert](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html?lang=nl-NL)
    - [Catalogus synchroniseren](/help/landing/catalog-sync.md)
 
 

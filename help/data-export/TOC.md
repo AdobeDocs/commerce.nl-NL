@@ -24,4 +24,4 @@ ht-degree: 0%
    - [SaaS-gegevens exporteren uitbreiden en aanpassen](extensibility-and-customizations.md)
    - [Productkenmerk dynamisch toevoegen](add-attribute-dynamically.md)
 - [Aanvullende informatie](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)

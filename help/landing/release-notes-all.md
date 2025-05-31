@@ -31,7 +31,7 @@ Gebruik de volgende lijst om versienota&#39;s en belangrijke informatie met betr
         <p>Leer over de recentste verbeteringen van de integratieservices die onze Commerce Services in staat stellen om met andere diensten en Adobe uitbreidingen en producten te verbinden.</p>
           <ul>
             <li><a href="https://experienceleague.adobe.com/docs/commerce/data-connection/release-notes.html?lang=nl-NL">[!DNL Data Connection]</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/saas.html">[!DNL Services Connector]</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/commerce/user-guides/saas.html?lang=nl-NL">[!DNL Services Connector]</a></li>
           </ul>
       </td>
       <td><strong> de diensten van Gegevens </strong>

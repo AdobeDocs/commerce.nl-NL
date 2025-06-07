@@ -2,9 +2,10 @@
 title: SaaS-gegevens voor het exporteren van gegevens uitbreiden en aanpassen
 description: Leer hoe te om de  [!DNL SaaS Data Export]  voedergegevens uit te breiden en aan te passen.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 694bd281-12c5-415c-a251-b4251e2edea7
+source-git-commit: ac6c690f87e3df2ac4997d80453028829be8e657
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,7 @@ De ontwikkelaars kunnen productattributen toevoegen die van het [ gebied van pro
 
 ### Kenmerk toevoegen aan Adobe Commerce
 
-U kunt een productkenmerk toevoegen vanuit Commerce Admin of via een aangepaste PHP-module het kenmerk definiëren en Adobe Commerce bijwerken. Dit is de eenvoudigste methode voor het toevoegen van een productkenmerk, omdat u het kenmerk en alle vereiste metagegevens kunt toevoegen. Het nieuwe attribuut en zijn meta-gegevenseigenschappen worden uitgevoerd naar de diensten SaaS automatisch tijdens de volgende geplande synchronisatie.
+U kunt een productkenmerk toevoegen vanuit Commerce Admin of via een aangepaste PHP-module het kenmerk definiëren en Adobe Commerce bijwerken. Het toevoegen van het kenmerk vanuit Commerce Admin is de eenvoudigste methode, omdat u het kenmerk en alle vereiste metagegevens tegelijk kunt toevoegen. Het nieuwe attribuut en zijn meta-gegevenseigenschappen worden uitgevoerd naar de diensten SaaS automatisch tijdens de volgende geplande synchronisatie.
 
 #### Het productkenmerk maken via de beheerfunctie
 
@@ -58,19 +59,19 @@ U kunt een productkenmerk toevoegen vanuit Commerce Admin of via een aangepaste 
 
 1. Voeg het kenmerk desgewenst toe aan een kenmerkset.
 
-Zie [ productattributen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create) in de *Gids van Admin van Adobe Commerce* creëren.
+Zie [ productattributen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create) in de *Gids van Admin van Adobe Commerce* creëren.
 
 #### Creeer programmatically de productattributen
 
 Voeg via programmacode een productkenmerk toe door een gegevenspatch te maken die `DataPatchInterface` implementeert en instantieer een kopie van de klasse `EavSetup Factory` binnen de constructor om de kenmerkopties te configureren.
 
-Wanneer u de kenmerkopties definieert, zijn alle kenmerkparameters behalve `type` , `label` en `input` optioneel. Definieer de volgende aanvullende opties en eventuele andere opties die afwijken van de standaardinstellingen.
+Wanneer u de kenmerkopties definieert, zijn alle kenmerkparameters behalve `type` , `label` en `input` optioneel. Definieer de volgende aanvullende parameters en eventuele andere parameters die afwijken van de standaardinstellingen.
 
-- Zorg ervoor dat de eigenschap wordt geëxporteerd naar storefront-services tijdens gegevenssynchronisatie door `user_defined` = `1` in te stellen
-- Stel `used_in_product_listing` = `1` in om ervoor te zorgen dat het kenmerk toegankelijk is binnen de databasequery van de productlijst.
+- **`user_defined`=`1`** - Exporteer het kenmerk naar de opslagservice tijdens de gegevenssynchronisatie
+- **`used_in_product_listing`=`1`** - Maak het kenmerk toegankelijk binnen de databasequery van de productlijst
 
 Voor informatie over het creëren van gegevenspatches, zie [ gegevens en schemapatches ontwikkelen ](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/) in de *Gids van de Ontwikkelaar PHP*.
 
 ### Het kenmerk product dynamisch toevoegen
 
-Voor details over het creëren van productkenmerken dynamisch zonder nieuwe Attributen te introduceren Eav, zie [ attributen dynamisch ](add-attribute-dynamically.md) toevoegen.
+Voor details over het creëren van productattributen dynamisch zonder nieuwe Attributen EAV te introduceren, zie [ attributen dynamisch ](add-attribute-dynamically.md) toevoegen.

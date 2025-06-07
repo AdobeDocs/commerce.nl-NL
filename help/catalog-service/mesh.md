@@ -3,9 +3,10 @@ title: '[!DNL Catalog Service and API Mesh]'
 description: '[!DNL API Mesh] voor Adobe Commerce biedt een manier om meerdere gegevensbronnen te integreren via een gemeenschappelijk GraphQL-eindpunt.'
 role: Admin, Developer
 feature: Services, API Mesh, Catalog Service
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 903f4f96-6dba-4c45-8106-76d9845544ec
+source-git-commit: ca0b2b2a158b9a376724b30c80a6bf9a60e3d1ba
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -16,26 +17,31 @@ Het [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/gra
 
 ![ diagram van de architectuur van de Catalogus ](assets/catalog-service-architecture-mesh.png)
 
-De eerste stap voor het gebruik van het API-net met de Catalogusservice is het aansluiten van het API-net op uw instantie. Zie gedetailleerde instructies in [ een Net ](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/) creëren.
+Om API Net met de Dienst van de Catalogus te gebruiken, moet u API Net met uw instantie verbinden, en dan de bron van het API Net [ CommerceCatalogServiceGraph ](https://github.com/adobe/api-mesh-sources/blob/main/connectors/) toevoegen die de configuratie om met de Dienst van de Catalogus verstrekt te verbinden.
 
-Om de opstelling te voltooien, installeer het [ pakket van Adobe Developer CLI ](https://developer.adobe.com/runtime/docs/guides/tools/cli_install/).
+## Sluit API-net aan en configureer dit.
 
-Als Net is geconfigureerd op Adobe I/O Runtime, voert u de volgende opdracht uit die een `CommerceCatalogServiceGraph` -bron aan het net toevoegt.
+1. Verbind API Net met uw instantie van Adobe Commerce door de instructies te volgen om [ een Net ](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/) in de _Gids van de Ontwikkelaar van het Netwerk van API te creëren_.
 
-```bash
-aio api-mesh:source:install "CommerceCatalogServiceGraph" -f variables.json
-```
+   Als dit uw eerste keer gebruikend API Net is, voltooi het [ Begonnen proces ](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/) alvorens u het netwerk creeert.
 
-Waar `variables.json` een afzonderlijk bestand is waarin veelgebruikte waarden voor Adobe I/O Runtime worden opgeslagen.
-De API-sleutel kan bijvoorbeeld in het bestand worden opgeslagen:
+1. Maak een JSON-bestand, zoals `variables.json` , dat de API-sleutel voor catalogusservice voor uw project bevat met de volgende indeling.
 
-```json
-{
-    "CATALOG_SERVICE_API_KEY":"your_api_key"
-}
-```
+   ```json
+   {
+       "CATALOG_SERVICE_API_KEY":"your_api_key"
+   }
+   ```
 
-Nadat u deze opdracht hebt uitgevoerd, moet de Catalogusservice via het API-net worden uitgevoerd. U kunt de opdracht `aio api-mesh:get` uitvoeren om de configuratie van het bijgewerkte net weer te geven.
+1. Voeg de `CommerceCatalogServiceGraph` bron aan uw netwerk toe gebruikend [ Adobe I/O Verlengbare CLI ](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli).
+
+   ```bash
+   aio api-mesh source install "CommerceCatalogServiceGraph" -f variables.json
+   ```
+
+   De optie `-f variables.json` biedt de sleutelwaarde van de API van de Catalogusservice die nodig is om de configuratie bij te werken.
+
+Nadat u deze opdracht hebt uitgevoerd, moet de Catalogusservice via het API-net worden uitgevoerd. Gebruik de opdracht `aio api-mesh get` om de configuratie van het bijgewerkte net weer te geven.
 
 ## Voorbeelden van API-net
 

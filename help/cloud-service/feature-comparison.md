@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Adobe Commerce biedt drie implementatiemodellen:
 
-- [!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} [ Adobe Commerce as a Cloud Service ](overview.md) (SaaS)
-- [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Adobe Commerce op Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) (PaaS)
+- [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} [ Adobe Commerce as a Cloud Service ](overview.md) (SaaS)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Adobe Commerce op Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) (PaaS)
 - [ Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) (op-gebouw)
 
 Deze vergelijking concentreert zich op de verschillen tussen software-as-a-dienst (SaaS) en platform-as-a-dienst (PaaS) modellen, die verschillende niveaus van aanpassing, rekbaarheid, en controle over uw handelsimplementatie verstrekken.

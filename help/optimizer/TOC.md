@@ -5,9 +5,9 @@ hide: true
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
+source-git-commit: 06fc665062703422a3f9afde03cb7ffcc873ef4a
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '40'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 2%
 
 - [Overzicht](overview.md)
 - [Aan de slag](get-started.md)
+- [Gebruikersbeheer](user-management.md)
 - [Grenzen en beperkingen](boundaries-limits.md)
 - Merchandising {#merchandising}
    - [Overzicht](./merchandising/overview.md)

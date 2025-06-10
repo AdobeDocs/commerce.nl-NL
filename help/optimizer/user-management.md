@@ -21,7 +21,7 @@ U kunt gebruikers aan om het even welke volgende rollen toewijzen:
 
 * **Gebruiker** - de gebruikers hebben toegang tot [!DNL Adobe Commerce Optimizer] UI om catalogusmeningen en het verhandelen regels, en de metriek van spoorprestaties te bekijken en te beheren.
 
-* **](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} Ontwikkelaars van 0} de Ontwikkelaar {hebben gebruikerstoestemmingen en toegang tot Adobe Developer Console.[** Dit betekent dat zij projecten kunnen maken en referenties kunnen configureren voor het gebruik van ontwikkelaarsgereedschappen zoals de API&#39;s en SDK&#39;s van [!DNL Adobe Commerce Optimizer] en uitbreidbaarheidsprogramma&#39;s van Adobe, zoals App Builder en API Mesh.
+* **[&#128279;](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} Ontwikkelaars van 0&rbrace; de Ontwikkelaar &lbrace;hebben gebruikerstoestemmingen en toegang tot Adobe Developer Console.** Dit betekent dat zij projecten kunnen maken en referenties kunnen configureren voor het gebruik van ontwikkelaarsgereedschappen zoals de API&#39;s en SDK&#39;s van [!DNL Adobe Commerce Optimizer] en uitbreidbaarheidsprogramma&#39;s van Adobe, zoals App Builder en API Mesh.
 
 * **Admin** - er zijn drie verschillende soorten admin rollen:
    * [ beheerders van het Systeem ](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - het systeemadmin heeft toegang tot alle producten en productprofielen in de organisatie door Adobe Admin Console.

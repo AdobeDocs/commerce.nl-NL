@@ -1,7 +1,7 @@
 ---
 title: Gebruikersbeheer
 description: Leer hoe te om gebruikers in  [!DNL Adobe Commerce Optimizer] te beheren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: ca5dedd75444ee1c8b0c4239302f4b6770aa882a
 workflow-type: tm+mt
 source-wordcount: '500'
@@ -21,10 +21,10 @@ U kunt gebruikers aan om het even welke volgende rollen toewijzen:
 
 * **Gebruiker** - de gebruikers hebben toegang tot [!DNL Adobe Commerce Optimizer] UI om catalogusmeningen en het verhandelen regels, en de metriek van spoorprestaties te bekijken en te beheren.
 
-* **[&#128279;](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} Ontwikkelaars van 0&rbrace; de Ontwikkelaar &lbrace;hebben gebruikerstoestemmingen en toegang tot Adobe Developer Console.** Dit betekent dat zij projecten kunnen maken en referenties kunnen configureren voor het gebruik van ontwikkelaarsgereedschappen zoals de API&#39;s en SDK&#39;s van [!DNL Adobe Commerce Optimizer] en uitbreidbaarheidsprogramma&#39;s van Adobe, zoals App Builder en API Mesh.
+* **[&#128279;](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} Ontwikkelaars van 0&rbrace; de Ontwikkelaar &lbrace;hebben gebruikerstoestemmingen en toegang tot Adobe Developer Console.** Dit betekent dat zij projecten kunnen maken en referenties kunnen configureren voor het gebruik van ontwikkelaarsgereedschappen zoals de API&#39;s en SDK&#39;s van [!DNL Adobe Commerce Optimizer] en uitbreidbaarheidsprogramma&#39;s van Adobe, zoals App Builder en API Mesh.
 
 * **Admin** - er zijn drie verschillende soorten admin rollen:
-   * [ beheerders van het Systeem ](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - het systeemadmin heeft toegang tot alle producten en productprofielen in de organisatie door Adobe Admin Console.
+   * [ beheerders van het Systeem ](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html){target="_blank"} - het systeemadmin heeft toegang tot alle producten en productprofielen in de organisatie door Adobe Admin Console.
    * [ Admins van het Product ](#add-a-product-admin) - de beheerders van het Product kunnen [ gebruikers, rollen, en toestemmingen voor het product ](#add-users-and-admins) in [!DNL Adobe Admin Console] beheren.
    * [ het profielbeheerders van het Product ](#add-users-developers-and-product-profile-admins) - de profielbeheerders van het Product kunnen gebruikers voor het product in [!DNL Adobe Admin Console] beheren.
 
@@ -75,6 +75,6 @@ Gebruik de volgende instructies om gebruikers en ontwikkelaars toe te voegen aan
 
 U kunt meerdere gebruikers efficiënter toevoegen met een van de volgende methoden:
 
-* Gebruik **voegt Gebruikers door CSV** eigenschap in Adobe Admin Console toe om a [ bulkCSV uit te voeren uploadt ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"}.
-* Voeg veelvoudige gebruikers aan een rol toe door a [ gebruikersgroep ](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} te creëren. Dan, voeg [!UICONTROL **Adobe Commerce as a Cloud Service toe - steun**] product aan de gebruikersgroep.
+* Gebruik **voegt Gebruikers door CSV** eigenschap in Adobe Admin Console toe om a [ bulkCSV uit te voeren uploadt ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html){target="_blank"}.
+* Voeg veelvoudige gebruikers aan een rol toe door a [ gebruikersgroep ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html){target="_blank"} te creëren. Dan, voeg [!UICONTROL **Adobe Commerce as a Cloud Service toe - steun**] product aan de gebruikersgroep.
 

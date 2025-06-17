@@ -3,9 +3,9 @@ title: Winefront instellen
 description: Leer hoe te opstelling uw  [!DNL Adobe Commerce Optimizer]  storefront.
 role: Developer
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
-source-git-commit: 785bc4e71431a4e62df2ef7b0b75d66f8bf34579
+source-git-commit: 134e5faeb13c37e10ccd14ae2b43f788c7d39d06
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 >
 >Deze documentatie beschrijft een product in vroege-toegangsontwikkeling en weerspiegelt niet alle functionaliteit voorgenomen voor algemene beschikbaarheid.
 
-Dit leerprogramma toont aan hoe te opstelling en gebruik [ Adobe Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL) wordt aangedreven om een uitvoerbare, scalable, en veilige Commerce storefront tot stand te brengen die door gegevens van uw [!DNL Adobe Commerce Optimizer] instantie wordt aangedreven.
+Dit leerprogramma toont aan hoe te opstelling en gebruik [ Adobe Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) wordt aangedreven om een uitvoerbare, scalable, en veilige Commerce storefront tot stand te brengen die door gegevens van uw [!DNL Adobe Commerce Optimizer] instantie wordt aangedreven.
 
 
 ## Vereisten
 
 * Zorg ervoor dat u een rekening GitHub (github.com) hebt die bewaarplaatsen kan tot stand brengen en voor lokale ontwikkeling gevormd.
 
-* Leer over de concepten en het werkschema om Commerce storefronts op de Diensten van de Levering van de Rand van Adobe te ontwikkelen door het [ Overzicht ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started?lang=nl-NL) in de documentatie van de Storefront van Adobe Commerce te herzien.
+* Leer over de concepten en het werkschema om Commerce storefronts op de Diensten van de Levering van de Rand van Adobe te ontwikkelen door het [ Overzicht ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started) in de documentatie van de Storefront van Adobe Commerce te herzien.
 * De ontwikkelomgeving instellen
 
 
@@ -59,7 +59,7 @@ Installeer Node Version Manager (NVM) en de vereiste Node.js-versie (22.13.1 LTS
 
 >[!TIP]
 >
->De extra middelen om uw [!DNL Adobe Commerce Optimizer] oplossing uit te breiden en aan te passen zijn beschikbaar door [ App Builder voor Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) en [ API Net voor Adobe Developer App Builder ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh). Neem voor toegang tot en gebruiksinformatie contact op met uw Adobe-accountvertegenwoordiger.
+>De extra middelen om uw [!DNL Adobe Commerce Optimizer] oplossing uit te breiden en aan te passen zijn beschikbaar door [ App Builder voor Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) en [ API Net voor Adobe Developer App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/api-mesh/getting-started-api-mesh). Neem voor toegang tot en gebruiksinformatie contact op met uw Adobe-accountvertegenwoordiger.
 
 #### Sidekick installeren
 
@@ -67,7 +67,7 @@ Installeer de Sidekick-browserextensie om inhoud te bewerken, voor te vertonen e
 
 ## Je winkel maken
 
-De winkel die u voor uw [!DNL Adobe Commerce Optimizer] -project maakt, gebruikt een aangepaste versie van de Adobe Commerce op Edge Delivery Services Storefront boilerplate. De bouwsteenplaat is een reeks dossiers en omslagen die een uitgangspunt voor storefront ontwikkeling verstrekken. Dit opstellingsproces is verschillend dan het standaardopstellingsproces voor een [ Adobe Commerce op Edge Delivery Services Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL).
+De winkel die u voor uw [!DNL Adobe Commerce Optimizer] -project maakt, gebruikt een aangepaste versie van de Adobe Commerce op Edge Delivery Services Storefront boilerplate. De bouwsteenplaat is een reeks dossiers en omslagen die een uitgangspunt voor storefront ontwikkeling verstrekken. Dit opstellingsproces is verschillend dan het standaardopstellingsproces voor een [ Adobe Commerce op Edge Delivery Services Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/).
 
 >[!NOTE]
 >
@@ -158,7 +158,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
 
 1. Werk het montagepunt in het storefront configuratiedossier bij om aan uw inhoud URL te richten.
 
-   1. Open het {[&#128279;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL#vocabulary) configuratiedossier 0} fstab.yaml.
+   1. Open het {](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) configuratiedossier 0} fstab.yaml.[
 
       ```yaml
       mountpoints:
@@ -225,7 +225,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
 
    Zie de [ documentatie van de Bibliotheek van Sidekick ](https://www.aem.live/docs/sidekick-library) voor meer informatie.
 
-   +++
++++
 
 1. Werk de `url` zeer belangrijke waarden met de waarden voor uw bewaarplaats GitHub bij.
 
@@ -265,7 +265,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
    }
    ```
 
-   +++
++++
 
 1. Sla het bestand op.
 
@@ -324,14 +324,15 @@ Verbind uw opslagplaats met de Edge Delivery Service door de AEM Code Sync GitHu
 
 ### Stap 6: Inhoud toevoegen
 
-Creëer en initialiseer uw storefront-inhoud in de documentauteur-omgeving die wordt gehost op `https://da.live` met het gereedschap voor het klonen van de demosite. Met dit gereedschap importeert u de voorbeeldinhoud naar de documentauteur en voltooit u het voorbeeld- en publicatieproces voor de inhoud van alle documenten in de voorbeeldinhoud. De voorbeeldinhoud bevat de paginalay-outs, banners, labels en andere elementen om uw winkelachtergrond te vullen.
+Maak en initialiseer uw winkelinhoud in de ontwerpomgeving van het document die wordt gehost op `https://da.live` met het gereedschap Sitemaker. Met dit gereedschap importeert u de voorbeeldinhoud naar de documentauteur en voltooit u het voorbeeld- en publicatieproces voor de inhoud van alle documenten in de voorbeeldinhoud. De voorbeeldinhoud bevat de paginalay-outs, banners, labels en andere elementen om uw winkelachtergrond te vullen.
 
-1. Open het [ hulpmiddel van de de kloon van de duo inhoud ](https://da.live/app/hlxsites/aem-boilerplate-commerce/tools/site-creator/site-creator).
+1. Open het [ hulpmiddel van de plaatsschepper ](https://da.live/hlxsites/aem-boilerplate-commerce/tools/site-creator/site-creator).
 
-   ![[!DNL AEM demo content clone tool]](./assets/storefront-demo-content-clone-tool.png){width="700" zoomable="yes"}
+1. De opslagplaats configureren:
 
-1. Plak GitHub URL voor uw storefront boilerplate project in het [!UICONTROL **GitHub URL van het Project**] gebied.
-
+   * Selecteer **[!UICONTROL Use Existing Repository]** .
+   * Voer **[!UICONTROL Organization/Username]** in voor uw storefront boilerplate-project.
+   * Voer de **[!UICONTROL Repository Name]** in.
 
 1. De invoer, voorproef, en publiceert de inhoud aan het milieu van de Auteur van het Document door **te selecteren leidt plaats**.
 
@@ -472,4 +473,4 @@ Zie [ het gebruiksgeval van begin tot eind van de Beheerder van de Opslag en van
 
 >[!MORELIKETHIS]
 >
-> Zie de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) om meer over het bijwerken van plaatsinhoud te leren en met Commerce frontend componenten en backend gegevens te integreren.
+> Zie de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met Commerce frontend componenten en backend gegevens te integreren.

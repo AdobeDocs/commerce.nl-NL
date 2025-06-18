@@ -22,7 +22,7 @@ Wanneer de **integratie van de Selecteur van Activa 0&rbrace; AEM wordt gevormd,
 
 >[!NOTE]
 >
-> De AEM Asset Selector is een frontend AEM-element voor de integratie van AEM Assets met ontwerptoepassingen. Voor meer informatie over deze component, zie de [ Micro-Frontend de Selector van Activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank} in de *Gids van de Gebruiker van AEM as a Cloud Service*.
+> De AEM Asset Selector is een frontend AEM-element voor de integratie van AEM Assets met ontwerptoepassingen. Voor meer informatie over deze component, zie de [ Micro-Frontend de Selector van Activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank} in de *Gids van de Gebruiker van AEM as a Cloud Service*.
 
 ## Belangrijkste voordelen
 

@@ -59,7 +59,7 @@ U kunt een productkenmerk toevoegen vanuit Commerce Admin of via een aangepaste 
 
 1. Voeg het kenmerk desgewenst toe aan een kenmerkset.
 
-Zie [ productattributen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create) in de *Gids van Admin van Adobe Commerce* creëren.
+Zie [ productattributen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create) in de *Gids van Admin van Adobe Commerce* creëren.
 
 #### Creeer programmatically de productattributen
 

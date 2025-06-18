@@ -85,6 +85,6 @@ De Catalogusdienst verzekert nauwkeurige prijsupdates en berekeningen door prijz
 
 ## Implementatie
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Het installatieproces vereist configuratie van de [ Schakelaar van de Diensten van Commerce ](../landing/saas.md). Wanneer dat is voltooid, is de volgende stap dat een systeemintegrator de storefront-code bijwerkt om de [!DNL Catalog Service] query&#39;s op te nemen. Alle [!DNL Catalog Service] query&#39;s worden gerouteerd naar de GraphQL-gateway. De URL wordt tijdens het instapproces opgegeven.

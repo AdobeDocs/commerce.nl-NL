@@ -64,7 +64,7 @@ Om aan de slag te gaan met [!DNL Catalog Service] voor Adobe Commerce, zijn de v
 
 >[!ENDSHADEBOX]
 
-Installeer de recentste versie van de uitbreiding van de Diensten van de Catalogus (`magento/catalog-service`) op een instantie van Adobe Commerce die Adobe Commerce versie 2.4.4 of later in werking stelt. De dienst van de Catalogus wordt geleverd als composer metapakket van de {](https://repo.magento.com) bewaarplaats 0} repo.magento.com.[
+Installeer de recentste versie van de uitbreiding van de Diensten van de Catalogus (`magento/catalog-service`) op een instantie van Adobe Commerce die Adobe Commerce versie 2.4.4 of later in werking stelt. De dienst van de Catalogus wordt geleverd als composer metapakket van de {[&#128279;](https://repo.magento.com) bewaarplaats 0} repo.magento.com.
 
 >[!BEGINTABS]
 
@@ -172,7 +172,7 @@ Van Commerce Admin, kunt u het synchronisatieproces controleren gebruikend het [
 
 De [!DNL Catalog Service] GraphQL API is toegankelijk vanaf het ` https://catalog-service.adobe.io/graphql` -eindpunt via POST-opdrachten via HTTPS.
 
-In uw GraphQL-query&#39;s moet u meerdere HTTP-headers opgeven, inclusief de openbare API-sleutel die u hebt toegevoegd aan de Adobe Commerce Services Connector-configuratie in de Admin. Voor details, zie de ](https://developer.adobe.com/commerce/webapi/graphql/schema/) documentatie 1} van GraphQL van de Diensten 0} Storefront.[
+In uw GraphQL-query&#39;s moet u meerdere HTTP-headers opgeven, inclusief de openbare API-sleutel die u hebt toegevoegd aan de Adobe Commerce Services Connector-configuratie in de Admin. Voor details, zie de [&#128279;](https://developer.adobe.com/commerce/webapi/graphql/schema/) documentatie 1&rbrace; van GraphQL van de Diensten 0&rbrace; Storefront.
 
 ### Configuratie van firewall
 

@@ -23,4 +23,4 @@ ht-degree: 0%
 - [Gebruik hoofdletters](use-cases.md)
 - [Gedeelde verantwoordelijkheid](shared-responsibility.md)
 - [Migratie](migration.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)

@@ -64,7 +64,7 @@ De integratie van Commerce met Experience Manager Assets mogelijk maken is een d
 
 1. [ vorm uw project van AEM Assets om de meta-gegevens van Commerce ](get-started/configure-aem.md) te steunen.
 
-1. [!BADGE  PaaS slechts ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeert de pakketten van Adobe Commerce ](get-started/configure-commerce.md).
+1. [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeert de pakketten van Adobe Commerce ](get-started/configure-commerce.md).
 
 1. [ vorm de integratie ](get-started/setup-synchronization.md).
 

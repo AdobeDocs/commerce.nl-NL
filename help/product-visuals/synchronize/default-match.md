@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Standaard automatische vergelijking
 
-De [!DNL Product Visuals] integratie verstrekt een standaard automatisch passend makend mechanisme (**[!UICONTROL Match by product SKU]**) dat op de **** meta-gegevensconfiguratie van AEM Assets wordt gebaseerd. Deze regel laat naadloze synchronisatie tussen **Adobe Commerce** en **AEM Assets** toe, die ervoor zorgen dat de productbeelden automatisch met de correcte handelende entiteiten worden verbonden.
+De [!DNL Product Visuals] integratie verstrekt een standaard automatisch passend makend mechanisme (**[!UICONTROL Match by product SKU]**) dat op de **&#x200B;**&#x200B;meta-gegevensconfiguratie van AEM Assets wordt gebaseerd. Deze regel laat naadloze synchronisatie tussen **Adobe Commerce** en **AEM Assets** toe, die ervoor zorgen dat de productbeelden automatisch met de correcte handelende entiteiten worden verbonden.
 
 
 ## Het mechanisme voor automatische overeenkomsten configureren

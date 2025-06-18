@@ -5,7 +5,7 @@ role: Admin, User
 level: Intermediate
 exl-id: 108f2b24-39c1-4c87-8deb-d82ee1c24d55
 feature: Payments, Checkout, Configuration, Paas, Saas
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 9e7eb509aa19f3382d36221ac0c7dcf2130e8d8d
 workflow-type: tm+mt
 source-wordcount: '2420'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 U kunt [!DNL Payment Services] naar wens aanpassen met nuttige instellingen in het dialoogvenster [!DNL Payment Services] Home.
 
-Als u [!DNL Payment Services] for [!DNL Adobe Commerce] en [!DNL Magento Open Source] click **[!UICONTROL Settings]** wilt configureren. Deze configuratieopties zijn slechts op het milieu van toepassing dat op het _[!UICONTROL Payment mode]_&#x200B;gebied van de[_ Algemene _configuratieopties ](#configure-general-settings) wordt geplaatst.
+Als u [!DNL Payment Services] for [!DNL Adobe Commerce] en [!DNL Magento Open Source] click **[!UICONTROL Settings]** wilt configureren. Deze configuratieopties zijn slechts op het milieu van toepassing dat op het _[!UICONTROL Payment mode]_gebied van de[_ Algemene _configuratieopties ](#configure-general-settings) wordt geplaatst.
 
 Voor multi-store of erfenisconfiguratie zie [ in Admin ](configure-admin.md) vormen.
 
@@ -34,13 +34,13 @@ U kunt [!DNL Payment Services] inschakelen voor uw website en tests met sandboxe
 
    ![ Reageer montagesmening ](assets/react-settings-view.png){width="500" zoomable="yes"}
 
-   De sectie _[!UICONTROL General]_&#x200B;bevat instellingen die worden gebruikt om [!DNL Payment Services] in te schakelen als betalingsmethode.
+   De sectie _[!UICONTROL General]_bevat instellingen die worden gebruikt om [!DNL Payment Services] in te schakelen als betalingsmethode.
 
-1. Als u [!DNL Payment Services] wilt inschakelen als betalingsmethode voor uw winkel, schakelt u _[!UICONTROL General]_&#x200B;in de sectie **[!UICONTROL Enable Payment Services as payment method]**&#x200B;in op `Yes` .
+1. Als u [!DNL Payment Services] wilt inschakelen als betalingsmethode voor uw winkel, schakelt u _[!UICONTROL General]_in de sectie **[!UICONTROL Enable Payment Services as payment method]**in op `Yes` .
 
 1. Als u nog [!DNL Payment Services] voor uw opslag test, plaats **de wijze van de Betaling** aan `Sandbox`. Als u live betalingen wilt inschakelen, stelt u deze in op `Production` .
 
-1. Uw **[!UICONTROL Payment Services Sandbox ID]** en **[!UICONTROL Payment Services Production ID]** waarden worden automatisch bevolkt zodra u de [ Schakelaar van de Diensten van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-merchant-services/user-guides/integration-services/saas){target=_blank} opstelde en het [!DNL Payment Services] dashboard voor het eerst bezoekt. Doe dit om het instappen voor uw zandbak en/of productiemilieu&#39;s te beëindigen. Deze waarden koppelen uw SaaS-id aan [!DNL Payment Services] .
+1. Uw **[!UICONTROL Payment Services Sandbox ID]** en **[!UICONTROL Payment Services Production ID]** waarden worden automatisch bevolkt zodra u de [ Schakelaar van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas){target=_blank} opstelde en het [!DNL Payment Services] dashboard voor het eerst bezoekt. Doe dit om het instappen voor uw zandbak en/of productiemilieu&#39;s te beëindigen. Deze waarden koppelen uw SaaS-id aan [!DNL Payment Services] .
 
    >[!WARNING]
    >
@@ -120,7 +120,7 @@ Zie [ de opties van Betalingen ](payments-options.md#credit-card-fields) voor me
 | Veld | Toepassingsgebied | Beschrijving |
 |---|---|---|
 | [!UICONTROL Title] | winkelweergave | Voeg de tekst die tijdens het afrekenen wordt weergegeven als titel voor deze betalingsoptie toe aan de weergave Betalingsmethode. Opties: [!UICONTROL text field] |
-| [!UICONTROL Payment Action] | website | De [ betalingsactie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"} voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | website | De [ betalingsactie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"} voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Sort order] | winkelweergave | De sorteervolgorde voor de opgegeven betalingsmethode op de uitcheckpagina. `Numeric Only` value |
 | [!UICONTROL 3DS Secure authentication] | website | Laat of maak [ 3DS Veilige authentificatie ](security.md#3ds) toe onbruikbaar. Opties: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | website | In- of uitschakelen van creditcardvelden voor weergave op de afhandelingspagina. Opties: [!UICONTROL Off] / [!UICONTROL On] |
@@ -132,13 +132,15 @@ Zie [ de opties van Betalingen ](payments-options.md#credit-card-fields) voor me
 
 Met de betalingsoptie [!UICONTROL Apple Pay] voor knoppen kunt u via de Safari-browser een [!UICONTROL Apple Pay] betalingsknop opgeven voor het uitchecken van de winkel (voor maximaal 99 domeinen per zakelijke account).
 
-U kunt Apple slechts gebruiken betaalt als u [ Apple voltooit betaal zelfregistratie via PayPal ](https://developer.paypal.com/docs/checkout/apm/apple-pay/#register-your-live-domain) en dan [ vorm Apple betaalt ](settings.md/#payment-buttons) voor uw opslag. Zie [ de opties van Betalingen ](payments-options.md#apple-pay-button) voor meer informatie.
+U kunt Apple slechts gebruiken betaalt als u [ Apple voltooit betaal zelfregistratie via PayPal ](https://developer.paypal.com/docs/checkout/apm/apple-pay/#register-your-live-domain) en dan [ vorm Apple betaalt ](settings.md/#payment-buttons) voor uw opslag.
+
+Zie [ de opties van Betalingen ](payments-options.md#apple-pay-button) voor meer informatie.
 
 U kunt de knopbetalingsoptie [!UICONTROL Apple Pay] inschakelen en configureren:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**.
 1. Selecteer in het vervolgkeuzemenu van **[!UICONTROL Scope]** de winkelweergave waarvoor u een betalingsmethode wilt inschakelen.
-1. Bewerk in de sectie **[!UICONTROL Apple Pay]** de waarde in het veld _[!UICONTROL Checkout title]_&#x200B;om de naam te wijzigen van de betalingsmethode die tijdens het uitchecken wordt weergegeven.
+1. Bewerk in de sectie **[!UICONTROL Apple Pay]** de waarde in het veld _[!UICONTROL Checkout title]_om de naam te wijzigen van de betalingsmethode die tijdens het uitchecken wordt weergegeven.
 1. Om [ te plaatsen de betalingsactie ](production.md#set-payment-services-as-payment-method), knevel **[!UICONTROL Payment action]** aan `Authorize` of `Authorize and Capture`.
 1. Schakel de kiezer van **[!UICONTROL Show Apple Pay on checkout page]** in of uit om Apple Pay op de afhandelingspagina in of uit te schakelen.
 1. Schakel de kiezer van **[!UICONTROL Show Apple Pay on product detail page]** in of uit om Apple Pay op de pagina met productdetails in of uit te schakelen.
@@ -156,7 +158,7 @@ U kunt de knopbetalingsoptie [!UICONTROL Apple Pay] inschakelen en configureren:
 | Veld | Toepassingsgebied | Beschrijving |
 |---|---|---|
 | [!UICONTROL Checkout title] | winkelweergave | Voeg de tekst die tijdens het afrekenen wordt weergegeven als titel voor deze betalingsoptie toe aan de weergave Betalingsmethode. Opties: [!UICONTROL text field] |
-| [!UICONTROL Payment Action] | website | De [ betalingsactie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions) voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | website | De [ betalingsactie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions) voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Show on checkout page] | website | Schakel de button Apple Pay in of uit om op de afhandelingspagina weer te geven. Opties: [!UICONTROL Off] / [!UICONTROL On] |
 | [!UICONTROL Show on checkout page] | website | Schakel de button Apple Pay in of uit om weer te geven op de pagina met productdetails. Opties: [!UICONTROL Off] / [!UICONTROL On] |
 | [!UICONTROL Show on mini cart preview] | website | Schakel de button Apple Pay in of uit om de voorvertoning van de mini-winkelwagen weer te geven. Opties: [!UICONTROL Off] / [!UICONTROL On] |
@@ -203,10 +205,10 @@ U kunt de betalingsopties van de PayPal-betalingsknoppen inschakelen en configur
 | Veld | Toepassingsgebied | Beschrijving |
 |---|---|---|
 | [!UICONTROL Title] | winkelweergave | Voeg tijdens het afrekenen de tekst toe die als titel voor deze betalingsoptie moet worden weergegeven in de weergave Betalingsmethode. Opties: tekstveld |
-| [!UICONTROL Payment Action] | website | De [ betalingsactie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"} voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
+| [!UICONTROL Payment Action] | website | De [ betalingsactie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"} voor de gespecificeerde betalingsmethode. Opties: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL Sort order] | winkelweergave | De sorteervolgorde voor de opgegeven betalingsmethode op de uitcheckpagina. `Numeric Only` value |
-| [!UICONTROL Show PayPal buttons on checkout page] | winkelweergave | Schakel [!DNL PayPal payment buttons] in of uit op de uitcheckpagina. Opties: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | winkelweergave | Schakel [!DNL PayPal payment buttons] in of uit op de pagina met productdetails. Opties: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on checkout page] | winkelweergave | Schakel [!DNL PayPal payment buttons] in of uit op de uitcheckpagina. Opties: [!UICONTROL  Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | winkelweergave | Schakel [!DNL PayPal payment buttons] in of uit op de pagina met productdetails. Opties: [!UICONTROL  Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | winkelweergave | Schakel [!DNL PayPal payment buttons] in of uit in de voorvertoning van de miniwinkelwagentje. Opties: [!UICONTROL Off] / [!UICONTROL On] |
 | [!UICONTROL Show PayPal buttons on cart page] | winkelweergave | Schakel [!DNL PayPal payment buttons] in of uit op de tekstpagina. Opties: [!UICONTROL Off] / [!UICONTROL On] |
 | [!UICONTROL Show PayPal Pay Later button] | winkelweergave | De weergave van betalingsopties voor latere betalingen in- of uitschakelen wanneer betalingsknoppen worden weergegeven. Opties: [!UICONTROL Off] / [!UICONTROL On] |
@@ -218,7 +220,7 @@ U kunt de betalingsopties van de PayPal-betalingsknoppen inschakelen en configur
 
 ### Knopstijl
 
-U kunt ook de opties voor _[!UICONTROL Button style]_&#x200B;van de betaalknoppen configureren:
+U kunt ook de opties voor _[!UICONTROL Button style]_van de betaalknoppen configureren:
 
 1. Selecteer `Vertical` of `Horizontal` om de **[!UICONTROL Layout]** te wijzigen.
 
@@ -242,7 +244,7 @@ U kunt ook de opties voor _[!UICONTROL Button style]_&#x200B;van de betaalknoppe
 
 1. [ duw het geheime voorgeheugen ](#flush-the-cache).
 
-U kunt het stileren van de betalingsknoop [ in de configuratie van de Oudheid in Admin ](configure-admin.md#configure-paypal-smart-buttons) of hier in [!DNL Payment Services Home] vormen. Zie {de stijlgids van de Knopen van 0} PayPal [&#128279;](https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/) voor meer informatie over het stileren van PayPal betalingsknopen.
+U kunt het stileren van de betalingsknoop [ in de configuratie van de Oudheid in Admin ](configure-admin.md#configure-paypal-smart-buttons) of hier in [!DNL Payment Services Home] vormen. Zie {de stijlgids van de Knopen van 0} PayPal ](https://developer.paypal.com/docs/checkout/standard/customize/buttons-style-guide/) voor meer informatie over het stileren van PayPal betalingsknopen.[
 
 #### Configuratieopties
 
@@ -260,14 +262,14 @@ U kunt het stileren van de betalingsknoop [ in de configuratie van de Oudheid in
 
 Om ervoor te zorgen dat Admin-gebruikers in Commerce Admin orders kunnen maken en beheren, schakelt u [!DNL Payment Services] -specifieke bronnen in voor gebruikersrollen.
 
-Zie {de rollen van 0} Gebruiker [&#128279;](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html?lang=nl-NL) leren hoe te om rollen te beheren.
+Zie {de rollen van 0} Gebruiker ](https://experienceleague.adobe.com/docs/commerce-admin/systems/user-accounts/permissions-user-roles.html) leren hoe te om rollen te beheren.[
 
 Wanneer u bronnen toewijst aan de rol, moet u het volgende selecteren:
 
-- **betaal met[!DNL Payment Services]** - Deze middel zorgt ervoor dat wanneer u een orde in Admin creeert, [!DNL Payment Services] creditcards beschikbaar als betalingsmethode zijn. Als u het **1&rbrace; oudermiddel van Acties &lbrace;selecteert, zal dit middel ook worden geselecteerd.**
+- **betaal met[!DNL Payment Services]** - Deze middel zorgt ervoor dat wanneer u een orde in Admin creeert, [!DNL Payment Services] creditcards beschikbaar als betalingsmethode zijn. Als u het **1} oudermiddel van Acties {selecteert, zal dit middel ook worden geselecteerd.**
 - **[!DNL Payment Services]** - Dit middel omvat het **dashboard** en **Proxy van de Diensten SaaS** middelen, die ook moeten worden geselecteerd. Zij zorgen ervoor dat [!DNL Payment Services] in het _Verkoop_ menu verschijnt.
 
-  {de middelen van de Diensten van 0} Betaling ![&#128279;](assets/roles-payments.png){width="400" zoomable="yes"}
+  {de middelen van de Diensten van 0} Betaling ](assets/roles-payments.png){width="400" zoomable="yes"}![
 
 ## De cache leegmaken
 
@@ -278,7 +280,7 @@ Als u de configuratie in _Montages_ verandert, bijvoorbeeld het van een knevel v
 
 Als om het even welk Type van Geheime voorgeheugen in de lijst van het Beheer van het Geheime voorgeheugen een `INVALIDATED` status heeft, zou uw opslag niet de meest recente configuratie voor dat punt kunnen tonen. Duw het geheime voorgeheugen om uw opslag bij te werken om de recentste configuratie te tonen.
 
-Om ervoor te zorgen dat uw opslag de correcte configuratie toont, verwijder periodiek [ het geheime voorgeheugen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management).
+Om ervoor te zorgen dat uw opslag de correcte configuratie toont, verwijder periodiek [ het geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management).
 
 ## Kaart vauleren
 
@@ -300,10 +302,10 @@ Zie [ 3DS in Veiligheid ](security.md#3ds) voor meer informatie.
 
 ## Meerdere PayPal-accounts gebruiken
 
-In [!UICONTROL Payment Services], kunt u veelvoudige rekeningen gebruiken PayPal binnen **één** commerciële rekening op het websiteniveau. Bijvoorbeeld, als u uw opslag(s) in veelvoudige landen (die verschillende [ munten ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/currency/currency) gebruiken) in werking stelt of Adobe Commerce voor sommige delen van uw zaken maar niet _allen_ wilt gebruiken, kunt u opstelling uw handelende rekening om veelvoudige rekeningen te gebruiken PayPal.
+In [!UICONTROL Payment Services], kunt u veelvoudige rekeningen gebruiken PayPal binnen **één** commerciële rekening op het websiteniveau. Bijvoorbeeld, als u uw opslag(s) in veelvoudige landen (die verschillende [ munten ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency) gebruiken) in werking stelt of Adobe Commerce voor sommige delen van uw zaken maar niet _allen_ wilt gebruiken, kunt u opstelling uw handelende rekening om veelvoudige rekeningen te gebruiken PayPal.
 
-Zie [ Plaats, Opslag, en het Toepassingsgebied van de Mening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL) voor meer informatie over de hiërarchie van websites, opslag, en opslagmeningen.
+Zie [ Plaats, Opslag, en het Toepassingsgebied van de Mening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) voor meer informatie over de hiërarchie van websites, opslag, en opslagmeningen.
 
 Zie [ bevel-lijn configuratie ](configure-cli.md#configure-scope-via-cli) voor meer informatie bij het vormen van werkingsgebied voor veelvoudige rekeningen PayPal via CLI.
 
-Uw vertegenwoordiger van de Verkoop kan een nieuw [ werkingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) voor uw handelaarrekening en op de extra plaats met PayPal tot stand brengen zodat om het even welke PayPal knopen u vormt om op uw plaats te verschijnen zal tonen. Neem contact op met uw verkoper voor hulp bij het gebruik van meerdere PayPal-accounts voor uw websites.
+Uw vertegenwoordiger van de Verkoop kan een nieuw [ werkingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) voor uw handelaarrekening en op de extra plaats met PayPal tot stand brengen zodat om het even welke PayPal knopen u vormt om op uw plaats te verschijnen zal tonen. Neem contact op met uw verkoper voor hulp bij het gebruik van meerdere PayPal-accounts voor uw websites.

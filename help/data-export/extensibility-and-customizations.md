@@ -3,7 +3,7 @@ title: SaaS-gegevens voor het exporteren van gegevens uitbreiden en aanpassen
 description: Leer hoe te om de  [!DNL SaaS Data Export]  voedergegevens uit te breiden en aan te passen.
 role: Admin, Developer
 exl-id: 694bd281-12c5-415c-a251-b4251e2edea7
-source-git-commit: ac6c690f87e3df2ac4997d80453028829be8e657
+source-git-commit: ff5c717dbdd638e114bccc3f6dec26f4be269194
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De extensie [!DNL Commerce Data Export] biedt een manier om gegevens uit de [!DNL Commerce] -toepassing te exporteren naar Commerce Services, zoals Live zoeken, Catalog Service en Productaanbevelingen. Indien nodig, kunt u de voedergegevens uitbreiden en aanpassen om extra attributengegevens op te nemen of de verzamelde gegevens te wijzigen.
 
-Na het toevoegen van attributengegevens, is het toegankelijk van het [ attributengebied ](https://developer.adobe.com/commerce/services/graphql/catalog-service/products/#productviewattribute-type) in het schema van GraphQL voor storefront de dienst.
+Na het toevoegen van attributengegevens, is het toegankelijk van het [ attributengebied ](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/#productviewattribute-type) in het schema van GraphQL voor storefront de dienst.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Voeg de attributen aan de vraag van het Attribuut van het Product (`Magento\Cata
 
 ## Productkenmerken toevoegen aan Adobe Commerce
 
-De ontwikkelaars kunnen productattributen toevoegen die van het [ gebied van productkenmerken ](https://developer.adobe.com/commerce/services/graphql/catalog-service/products/#output-fields) toegankelijk zijn door één van de volgende methodes te gebruiken:
+De ontwikkelaars kunnen productattributen toevoegen die van het [ gebied van productkenmerken ](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/#output-fields) toegankelijk zijn door één van de volgende methodes te gebruiken:
 
 - Voeg het kenmerk toe aan Adobe Commerce voor opname in de `products` -voedergegevens die zijn geëxporteerd naar Commerce-winkelservices.
 - Voeg het kenmerk dynamisch toe tijdens de feed-synchronisatie met een plug-in.
@@ -59,7 +59,7 @@ U kunt een productkenmerk toevoegen vanuit Commerce Admin of via een aangepaste 
 
 1. Voeg het kenmerk desgewenst toe aan een kenmerkset.
 
-Zie [ productattributen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create) in de *Gids van Admin van Adobe Commerce* creëren.
+Zie [ productattributen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create) in de *Gids van Admin van Adobe Commerce* creëren.
 
 #### Creeer programmatically de productattributen
 

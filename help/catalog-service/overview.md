@@ -4,7 +4,7 @@ description: '[!DNL Catalog Service] voor Adobe Commerce biedt een manier om de 
 role: Admin, Developer
 recommendations: noCatalog
 exl-id: 525e3ff0-efa6-48c7-9111-d0b00f42957a
-source-git-commit: be1c739f3821a5f1e846b3026088e3a3ff45a60f
+source-git-commit: ff5c717dbdd638e114bccc3f6dec26f4be269194
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Complexe productopties worden verenigd en onderscheiden door hun gedrag, niet do
 
 #### Kenmerken van de productweergave
 
-Zowel hebben de eenvoudige als de complexe producten klant-bepaalde attributen die op de winkelfront kunnen worden getoond. Deze attributen zijn teruggekeerd als [ ProductViewAttributes ](https://developer.adobe.com/commerce/services/graphql/catalog-service/products/#productviewattribute-type). In Adobe Commerce worden de beschikbare kenmerken gedefinieerd wanneer het product wordt gemaakt. U kunt aanvullende kenmerken toevoegen vanuit de Adobe Commerce-backend of via programmacode. Zie [ de gegevens van de de uitvoervoer van SaaS uitbreiden en aanpassen ](../data-export/extensibility-and-customizations.md).
+Zowel hebben de eenvoudige als de complexe producten klant-bepaalde attributen die op de winkelfront kunnen worden getoond. Deze attributen zijn teruggekeerd als [ ProductViewAttributes ](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/#productviewattribute-type). In Adobe Commerce worden de beschikbare kenmerken gedefinieerd wanneer het product wordt gemaakt. U kunt aanvullende kenmerken toevoegen vanuit de Adobe Commerce-backend of via programmacode. Zie [ de gegevens van de de uitvoervoer van SaaS uitbreiden en aanpassen ](../data-export/extensibility-and-customizations.md).
 
 >[!TIP]
 >
@@ -85,6 +85,6 @@ De Catalogusdienst verzekert nauwkeurige prijsupdates en berekeningen door prijz
 
 ## Implementatie
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 Het installatieproces vereist configuratie van de [ Schakelaar van de Diensten van Commerce ](../landing/saas.md). Wanneer dat is voltooid, is de volgende stap dat een systeemintegrator de storefront-code bijwerkt om de [!DNL Catalog Service] query&#39;s op te nemen. Alle [!DNL Catalog Service] query&#39;s worden gerouteerd naar de GraphQL-gateway. De URL wordt tijdens het instapproces opgegeven.

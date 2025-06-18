@@ -56,7 +56,7 @@ Om van deze integratie te profiteren, moeten de ondernemingen aan de volgende ve
 
 Bekijk deze video om te leren hoe Adobe Commerce en AEM Assets samenwerken om inhoudsworkflows te stroomlijnen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3447837)
+>[!VIDEO](https://video.tv.adobe.com/v/3447889?captions=dut)
 
 ## Volgende stappen
 

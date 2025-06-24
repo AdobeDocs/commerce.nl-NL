@@ -1,7 +1,7 @@
 ---
 title: Aanbevelingsfilters
 description: Leer hoe te om filters te gebruiken om te controleren welke producten in  [!DNL Adobe Commerce Optimizer]  aanbevelingen verschijnen.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 746c016f149fb49b9c483968a8a5f40196b163ed
 workflow-type: tm+mt
 source-wordcount: '432'

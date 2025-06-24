@@ -1,7 +1,7 @@
 ---
 title: Metrieverslag met succes
 description: De pagina van het metriekrapport van het Succes verstrekt insight in de belangrijkste prestatiesmetriek voor uw  [!DNL Adobe Commerce Optimizer]  opslag.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: b462980c12342ae2fe6d24272c56c6a9d9b21989
 workflow-type: tm+mt
 source-wordcount: '418'

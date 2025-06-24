@@ -3,7 +3,7 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: f49a86b8793e2d91413acfbc0b922cb94db67362
 workflow-type: tm+mt
 source-wordcount: '753'
@@ -45,7 +45,7 @@ Elke rol speelt een integraal onderdeel uit van het succesvol instappen en start
 
 Beheerders zijn verantwoordelijk voor het instellen van instanties, het beheren van gebruikers, groepen en rechten voor uw organisatie.
 
-- **[heb toegang tot Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html)** - beheer Adobe Entitlements over uw volledige organisatie. Zie [ gebruikersbeheer ](./user-management.md) leren hoe u of het product van uw organisatie admin of systeem admin gebruikers aan het [!DNL Adobe Commerce Optimizer] product kunt toevoegen.
+- **[heb toegang tot Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/admin-guide.html)** - beheer Adobe Entitlements over uw volledige organisatie. Zie [ gebruikersbeheer ](./user-management.md) leren hoe u of het product van uw organisatie admin of systeem admin gebruikers aan het [!DNL Adobe Commerce Optimizer] product kunt toevoegen.
 
 - **creeer een instantie** - [!DNL Adobe Commerce Optimizer] instanties gebruiken een op krediet-gebaseerd systeem. U kunt meerdere Sandbox- en Production-instanties maken, waarbij elke instantie één corresponderend krediet nodig heeft. Het bedrag aan kredieten dat u aanvankelijk hebt, is afhankelijk van uw abonnement. [ leer meer ](#create-an-instance).
 

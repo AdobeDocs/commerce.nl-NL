@@ -24,4 +24,4 @@ ht-degree: 0%
 - Migratie {#migration}
    - [Overzicht](migration/overview.md)
    - [Bulkgegevensmigratie](migration/bulk-data.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)

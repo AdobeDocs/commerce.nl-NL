@@ -63,7 +63,7 @@ Ontwikkelaars maken projecten en referenties, installeren extensies, voeren cata
 
   De catalogusgegevens die worden opgenomen zijn zichtbaar in de [ pagina van de gegevenssynchronisatie ](./setup/data-sync.md).
 
-- **opstelling de storefront** - alvorens u opstelling de storefront, moet u eerst een instantie tot stand brengen, die een taak typisch door de 2} beheerder van uw organisatie ](#administrator) wordt uitgevoerd. [ Met uw gecreeerde instantie, bent u bereid om met [ vestiging ](./storefront.md) te werk te gaan uw Opslag van Commerce die door Edge Delivery Services wordt aangedreven.
+- **opstelling de storefront** - alvorens u opstelling de storefront, moet u eerst een instantie tot stand brengen, die een taak typisch door de 2&rbrace; beheerder van uw organisatie [&#128279;](#administrator) wordt uitgevoerd.  Met uw gecreeerde instantie, bent u bereid om met [ vestiging ](./storefront.md) te werk te gaan uw Opslag van Commerce die door Edge Delivery Services wordt aangedreven.
 
 ### Merchandiser
 

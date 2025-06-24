@@ -35,7 +35,7 @@ Alle filterbare productkenmerken kunnen als facet worden gebruikt. Facetten help
 
 1. Zoek het facet dat u wilt bewerken.
 1. Klik (![ meer selecteur ](../../assets/btn-more.png)) meer selecteur.
-1. Voor het menu, geeft de klik **** uit. Pas vervolgens de volgende eigenschappen naar wens aan:
+1. Voor het menu, geeft de klik **&#x200B;**&#x200B;uit. Pas vervolgens de volgende eigenschappen naar wens aan:
 
    - Label - Voer het facetlabel in dat u wilt gebruiken.
    - Type sorteren - Kies een van de volgende opties:

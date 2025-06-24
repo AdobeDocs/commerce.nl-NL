@@ -17,7 +17,7 @@ De **synchronisatie van Gegevens** pagina toont een overzicht van de synchronisa
 
 De **pagina van de Synchronisatie van Gegevens** verstrekt waardevolle inzichten in de beschikbaarheid van productgegevens voor uw opslag, die ervoor zorgen dat het aan uw kopers kan onmiddellijk worden getoond.
 
-De **pagina van de Synchronisatie van 0} Gegevens {wordt gevestigd bij *Opstelling* >** synchronisatie van Gegevens **.**
+De **pagina van de Synchronisatie van 0&rbrace; Gegevens &lbrace;wordt gevestigd bij *Opstelling* >** synchronisatie van Gegevens **.**
 
 ![ de Synchronisatie van Gegevens ](../assets/data-sync.png)
 

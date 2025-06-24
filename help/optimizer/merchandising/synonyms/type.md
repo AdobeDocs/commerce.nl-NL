@@ -29,7 +29,7 @@ Een eenrichtingssynoniem is een subset van een trefwoord, maar heeft een specifi
 
 ## Synoniemgedrag van meerdere woorden
 
-Voor synoniemen met meerdere woorden beschouwt [!DNL Adobe Commerce Optimizer] het synoniem als een woordgroep. Bijvoorbeeld, als u een bidirectionele synoniem **het dineren van de lijst van de ruimte** ![ 2-wegenkiezer ](../../assets/btn-two-way.png) **keukenlijst** ![ 2-wegenkiezer ](../../assets/btn-two-way.png) **eetlijst** creeert, dan [!DNL Adobe Commerce Optimizer] onderzoeken over alle gebieden die aan zoekbaar voor het voorkomen van **eetbare kamerlijst** of **worden geplaatst 3} keukenlijst** of **eetlijst**.
+Voor synoniemen met meerdere woorden beschouwt [!DNL Adobe Commerce Optimizer] het synoniem als een woordgroep. Bijvoorbeeld, als u een bidirectionele synoniem **het dineren van de lijst van de ruimte** ![ 2-wegenkiezer ](../../assets/btn-two-way.png) **keukenlijst** ![ 2-wegenkiezer ](../../assets/btn-two-way.png) **eetlijst** creeert, dan [!DNL Adobe Commerce Optimizer] onderzoeken over alle gebieden die aan zoekbaar voor het voorkomen van **eetbare kamerlijst** of **worden geplaatst 3&rbrace; keukenlijst** of **eetlijst**.
 
 Als geen synoniem wordt gecreeerd en een verkoopster zoekt naar **keukenlijst**, [!DNL Adobe Commerce Optimizer] zoekt overal de termijnen op de doorzoekbare gebieden, zelfs over verschillende gebieden, bijvoorbeeld **lijst** op het naamgebied en **keuken** in het meta sleutelwoord.
 

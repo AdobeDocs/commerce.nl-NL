@@ -19,7 +19,7 @@ De *prestaties van het Onderzoek* pagina verstrekt insight in de onderzoekstermi
 - Omrekeningskoers
 - Resultaatsnelheid nul
 
-](../assets/search-performance.png){zoomable="yes"} prestaties van het 0} Onderzoek![
+![&#128279;](../assets/search-performance.png){zoomable="yes"} prestaties van het 0&rbrace; Onderzoek
 
 >[!IMPORTANT]
 >

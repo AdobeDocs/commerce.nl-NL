@@ -79,7 +79,7 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 
@@ -120,7 +120,7 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 

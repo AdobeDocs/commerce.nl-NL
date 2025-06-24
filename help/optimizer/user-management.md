@@ -44,7 +44,7 @@ U kunt gebruikers aan om het even welke volgende rollen toewijzen:
 
 >[!BEGINSHADEBOX  &quot;Eerste vereisten&quot;]
 >
-De volgende provisioning is vereist voor gebruikersbeheer:
+>De volgende provisioning is vereist voor gebruikersbeheer:
 
 - IMS-organisatie ingericht voor [!DNL Adobe Commerce Optimizer]
 - Een Adobe Experience Cloud-account in dezelfde IMS-organisatie met de systeem- of productbeheerrol

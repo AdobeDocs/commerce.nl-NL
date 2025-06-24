@@ -123,7 +123,7 @@ Of gebeurtenissen kunnen handmatig worden ingesteld:
 1. Als de regel veelvoudige vragen heeft, test elk die door de regel zou kunnen worden beïnvloed.
 1. Wanneer volledig, klik **sparen en publiceer**.
 
-   De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.*
+   De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.*
 
 1. Hoewel de actieve regels onmiddellijk in werking treden, zou u tot 15 minuten kunnen moeten wachten op de caching vraagresultaten in de storefront om worden verfrist.
 
@@ -143,7 +143,7 @@ Volg deze instructies om de eigenschappen van bestaande regels bij te werken.
 1. Werk de naam, de begin- en einddatum en beschrijvingsvelden naar wens bij. Alle regelnamen moeten uniek zijn.
 1. Test de regel.
 1. Publiceer de wijzigingen.
-De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.* Hoewel de actieve regels onmiddellijk in werking treden, zou het tot 15 minuten voor caching vraagresultaten in de storefront kunnen verfrissen vergen.
+De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.* Hoewel de actieve regels onmiddellijk in werking treden, zou het tot 15 minuten voor caching vraagresultaten in de storefront kunnen verfrissen vergen.
 
 ### Details weergeven
 

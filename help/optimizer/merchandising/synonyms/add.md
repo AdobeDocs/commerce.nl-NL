@@ -30,8 +30,8 @@ Volg de instructies voor het [ type van synoniem ](type.md) dat u wilt tot stand
 
    ![ voeg synoniem in twee richtingen ](../../assets/synonym-add-two-way.png) toe
 
-1. Ga de **termijn of de uitdrukking 0} van het Sleutelwoord {in te passen.**
-1. Ga de **termijn(en) in van de uitbreiding 0} {die u als synoniemen voor het sleutelwoord wilt toevoegen.** Scheid meerdere termen met een komma.
+1. Ga de **termijn of de uitdrukking 0&rbrace; van het Sleutelwoord &lbrace;in te passen.**
+1. Ga de **termijn(en) in van de uitbreiding 0&rbrace; &lbrace;die u als synoniemen voor het sleutelwoord wilt toevoegen.** Scheid meerdere termen met een komma.
 In dit voorbeeld is het trefwoord dat moet overeenkomen &#39;broek&#39; en zijn de uitbreidingstermijnen &#39;brousers, slacks&#39;.
 
    ![ In twee richtingen synoniem voorbeeld ](../../assets/synonym-add-two-way-example.png)
@@ -62,7 +62,7 @@ In dit voorbeeld is het trefwoord dat moet overeenkomen &#39;broek&#39; en zijn 
 
 ## Stap 3: Wijzigingen publiceren
 
-1. Wanneer uw synoniemen volledig zijn, publiceer ****.
+1. Wanneer uw synoniemen volledig zijn, publiceer **&#x200B;**.
 1. Wacht maximaal twee uur totdat uw updates beschikbaar zijn in de winkel.
 
 ## Veldbeschrijvingen

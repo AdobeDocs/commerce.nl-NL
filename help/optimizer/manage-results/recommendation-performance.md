@@ -61,7 +61,7 @@ U kunt meerdere waarden configureren voor elk van de filters. Zie de [ lijst hie
 
 1. In de lijst, klik het (![ Meer selecteur ](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
 
-1. Om het statuut van de aanbeveling te veranderen, activeer **** of **** deactivate.
+1. Om het statuut van de aanbeveling te veranderen, activeer **&#x200B;**&#x200B;of **&#x200B;**&#x200B;deactivate.
 
 ## Aanbevelingen maken of beheren
 

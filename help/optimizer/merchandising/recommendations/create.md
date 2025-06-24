@@ -18,7 +18,7 @@ _eenheid van de Aanbeveling_
 
 Wanneer u de aanbevelingseenheid activeert, begint Adobe Commerce [ gegevens ](../../manage-results/recommendation-performance.md) te verzamelen om beelden, meningen, klikken, etc. te meten. De lijst van Aanbevelingen toont de metriek voor elke aanbeveling eenheid om u te helpen geïnformeerde bedrijfsbesluiten nemen.
 
-1. Op _Adobe Commerce Optimizer_ sidebar, ga _het Merchandising_ > **Aanbevelingen** om de _7} werkruimte van Aanbevelingen {te tonen._
+1. Op _Adobe Commerce Optimizer_ sidebar, ga _het Merchandising_ > **Aanbevelingen** om de _7&rbrace; werkruimte van Aanbevelingen &lbrace;te tonen._
 
 1. Klik **creëren aanbeveling**.
 

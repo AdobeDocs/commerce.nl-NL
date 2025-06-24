@@ -76,7 +76,7 @@ Dit diagram biedt een overzicht op hoog niveau van de manier waarop ontwikkelaar
 
 1. _(Facultatief)_ als u steekproefproductgegevens voor het testen en het leren doeleinden wilt omvatten, de uitgezochte [!UICONTROL **Opslag van Adobe**] van de [!UICONTROL **gegevens van de Test**] dropdown.
 
-   U kunt deze optie overslaan, maar uw winkel heeft geen producten als u dat doet. U zult uw catalogus ](#import-your-catalog) moeten [ invoeren om de volledige storefront ervaring te zien.
+   U kunt deze optie overslaan, maar uw winkel heeft geen producten als u dat doet. U zult uw catalogus [&#128279;](#import-your-catalog) moeten  invoeren om de volledige storefront ervaring te zien.
 
 1. Klik [!UICONTROL **toevoegen Instantie**].
 

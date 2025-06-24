@@ -2,9 +2,9 @@
 title: Migreren naar  [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe te aan  [!DNL Adobe Commerce as a Cloud Service] migreren.
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Architect
-source-git-commit: 8b492853442dc64eb9e9592bdf2b695f65d625b8
+source-git-commit: 506873780783e26841943a4b43dbc955c73f6f62
 workflow-type: tm+mt
 source-wordcount: '3030'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Migreren naar [!DNL Adobe Commerce as a Cloud Service]
-
-{{accs-early-access}}
 
 [!DNL Adobe Commerce as a Cloud Service] biedt een uitgebreide gids voor ontwikkelaars die van een bestaande Adobe Commerce PaaS-implementatie overstappen op het nieuwe Adobe Commerce as a Cloud Service-aanbod (SaaS). Adobe Commerce as a Cloud Service is een belangrijke stap op weg naar een volledig beheerd, versieloos SaaS-model, dat verbeterde prestaties, schaalbaarheid, vereenvoudigde bewerkingen en een strakkere integratie met de bredere Adobe Experience Cloud biedt.
 
@@ -25,8 +23,8 @@ ht-degree: 0%
 
 **Zeer belangrijke verschillen**
 
-* [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **PaaS (Huidige)**: Merchant beheert toepassingscode, verbeteringen, het patchen, infrastructuurconfiguratie binnen het ontvangen milieu van Adobe. [ Gedeeld verantwoordelijkheidsmodel ](https://experienceleague.adobe.com/nl/docs/commerce-operations/security-and-compliance/shared-responsibility) voor de diensten (MySQL, Elasticsearch, en anderen).
-* [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} **SaaS (Nieuw - [!DNL Adobe Commerce as a Cloud Service])**: Adobe beheert volledig de kerntoepassing, de infrastructuur, en de updates. Merchants richten zich op aanpassing via rekbaarheidspunten (APIs, App Builder, UI SDKs). De code van de kerntoepassing is vergrendeld.
+* [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **PaaS (Huidige)**: Merchant beheert toepassingscode, verbeteringen, het patchen, infrastructuurconfiguratie binnen het ontvangen milieu van Adobe. [ Gedeeld verantwoordelijkheidsmodel ](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility) voor de diensten (MySQL, Elasticsearch, en anderen).
+* [!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} **SaaS (Nieuw - [!DNL Adobe Commerce as a Cloud Service])**: Adobe beheert volledig de kerntoepassing, de infrastructuur, en de updates. Merchants richten zich op aanpassing via rekbaarheidspunten (APIs, App Builder, UI SDKs). De code van de kerntoepassing is vergrendeld.
 
 **Architecturale implicaties**
 
@@ -38,7 +36,7 @@ ht-degree: 0%
 **Nieuwe tooling &amp; concepten**
 * [ Adobe Developer App Builder ](https://developer.adobe.com/app-builder/) en [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway)
 * [Commerce Optimizer](../../optimizer/overview.md)
-* [ Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
+* [ Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/)
 * Zelfbediening levering met de [ Manager van Commerce Cloud ](../getting-started.md#create-an-instance)
 
 ## Migratiepaden
@@ -168,7 +166,7 @@ Deze optie dient als overgangsstap, voortbouwend op een bestaande integratie waa
 
 * **de gegevenssynchronisatie van de Catalogus**: Verzeker uw instantie van Adobe Commerce PaaS product en catalogusgegevens aan uw bestaande dienst van de Catalogus SaaS van Adobe Commerce blijft synchroniseren. Dit baseert zich typisch op gevestigde schakelaars of modules binnen uw instantie PaaS. De dienst van de Catalogus SaaS blijft de gebiedende bron voor onderzoek en het verhandelen functies, die zijn gegevens uit uw steun PaaS afleiden.
 * **API Net voor optimalisering**: Terwijl de hoofdloze opslag (op Edge Delivery Services) en andere diensten gegevens van de dienst van de Catalogus SaaS direct konden verbruiken, adviseert Adobe hoogst gebruikend API Net (binnen App Builder). API Mesh kan APIs van de dienst van Catalog SaaS met andere noodzakelijke APIs van uw backend van PaaS (bijvoorbeeld, voorraadcontroles in real time van het transactionele gegevensbestand of de attributen van het douaneproduct niet volledig die aan de dienst van Catalog SaaS worden herhaald) verenigen in één enkel, presterend GraphQL eindpunt. Dit staat ook voor gecentraliseerde caching, authentificatie, en reactietransformatie toe.
-* **integreer Levende Onderzoek en de Aanbevelingen van het Product**: Vorm Levende Onderzoek en de diensten SaaS van de Aanbevelingen van het Product aan [ direct catalogusgegevens ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/install#configure-the-data) van uw bestaande dienst van Adobe Commerce Catalog SaaS, die beurtelings door uw achterste van PaaS bevolkt is.
+* **integreer Levende Onderzoek en de Aanbevelingen van het Product**: Vorm Levende Onderzoek en de diensten SaaS van de Aanbevelingen van het Product aan [ direct catalogusgegevens ](https://experienceleague.adobe.com/en/docs/commerce/live-search/install#configure-the-data) van uw bestaande dienst van Adobe Commerce Catalog SaaS, die beurtelings door uw achterste van PaaS bevolkt is.
 
 **Voordeel**: Dit verstrekt een snellere weg aan een headless storefront en geavanceerde SaaS handelend eigenschappen door de bestaande en operationele dienst van Catalog SaaS en zijn integratiepijpleiding met uw backend van PaaS leveraging. Het blijft echter afhankelijk van de PaaS-backend voor de primaire bron van catalogusgegevens en biedt niet de samenvoegingsmogelijkheden met meerdere bronnen die inherent zijn aan het nieuwe Composable Catalog Data Model. Deze optie is een geldige opstap naar een vollediger composable architectuur.
 

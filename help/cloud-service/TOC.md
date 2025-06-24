@@ -4,9 +4,9 @@ user-guide-description: Deze gids verstrekt gedetailleerde instructies voor het 
 hide: true
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: c820fa2995486027a1c048da21dc9db6f9cbb85c
+source-git-commit: 3f3d87585378d334d90c9dc1bdcb67a9cd00eff6
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
@@ -22,5 +22,7 @@ ht-degree: 0%
 - [Beheer van bedrijfsmiddelen](assets-management.md)
 - [Gebruik hoofdletters](use-cases.md)
 - [Gedeelde verantwoordelijkheid](shared-responsibility.md)
-- [Migratie](migration.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)
+- Migratie {#migration}
+   - [Overzicht](migration/overview.md)
+   - [Bulkgegevensmigratie](migration/bulk-data.md)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

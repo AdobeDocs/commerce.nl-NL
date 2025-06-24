@@ -1,75 +1,123 @@
 ---
-title: Aan de slag met  [!DNL Adobe Commerce Optimizer]
+title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
-hide: true
+role: Admin, Developer
 recommendations: noCatalog
-exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: 9c3f5d1d5e7fd57d2306502d654a854bc5c66c71
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: f49a86b8793e2d91413acfbc0b922cb94db67362
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
 
 # Aan de slag
 
->[!NOTE]
->
->Deze documentatie beschrijft een product in vroege-toegangsontwikkeling en weerspiegelt niet alle functionaliteit voorgenomen voor algemene beschikbaarheid.
+In dit artikel wordt uitgelegd hoe u snel kunt werken met [!DNL Adobe Commerce Optimizer] . Terwijl deze gids zich op handelaren en beheerderrollen concentreert, omvat het korte taken op hoog niveau die een ontwikkelaar zou uitvoeren. Zie de [ ontwikkelaardocumentatie ](https://developer-stage.adobe.com/commerce/services/composable-catalog/) voor gedetailleerde ontwikkelaar-specifieke inhoud.
 
-Deze handleiding begeleidt u bij het maken van en werken met een [!DNL Adobe Commerce Optimizer] -instantie.
+## Wat is uw rol?
 
-<!--Click the tabs below to see high-level workflow overviews for the following user types:
+Bij het instellen van [!DNL Adobe Commerce Optimizer] worden meestal de volgende teamleden betrokken:
 
-- Administrators
-- Merchants
-- Developers
+- Beheerder
+- Ontwikkelaar
+- Merchandiser
 
->[!BEGINTABS]
+Elk teamlid heeft zijn eigen set rollen en verantwoordelijkheden zoals beschreven in de volgende tabel:
 
->[!TAB Administrator and merchant workflow]
+| Rol/rollen | Taak |
+|---|---|
+| Beheerder | Met Admin Console kunt u beheerders, gebruikersgroepen, gebruikers en ontwikkelaars &#x200B;. |
+|  | Maak een nieuwe [!DNL Adobe Commerce Optimizer] -instantie in Commerce Cloud Manager. &#x200B; |
+|  | Stel uw beleid en catalogusweergaven in. |
+| Ontwikkelaar | Gebruik Developer Console om een project te maken, ontwikkelaars-API toegang te verlenen en de vereiste toepassingen en aanpassingen te installeren. |
+|  | Maak verbinding met uw back office systeem (kar, kassa) met behulp van API Mesh en App Builder &#x200B;. |
+|  | Maak een overzicht van de catalogusgegevens van uw bestaande handelsoplossing(en) met behulp van de &#x200B; Gegevensverwerking van de Diensten Merchandising |
+|  | Winefront instellen |
+| Merchandiser | &#x200B; voor productdetectie instellen. |
+|  | Aanbevelingen voor producten instellen. |
 
-This diagram provides a high-level overview of how administrators and merchants access and manage [!DNL Adobe Commerce Optimizer] instances. See the [Adobe Admin Console Guide](https://helpx.adobe.com/nl/enterprise/admin-guide.html) for more information about administrator workflows.
+Elke rol speelt een integraal onderdeel uit van het succesvol instappen en starten van uw [!DNL Adobe Commerce Optimizer] -omgeving. Het volgende diagram toont een begin op hoog niveau om werkschema voor elke rol in uw organisatie te beëindigen:
 
-NEED DIAGRAM
+![ Werkschema op hoog niveau ](./assets/high-level-workflow.png){zoomable="yes"}
 
->[!TAB Developer workflow]
+### Beheerder
 
-This diagram provides a high-level overview of how developers create integrations for [!DNL Adobe Commerce Optimizer] using App Builder. See the [API documentation](https://developer.adobe.com/commerce/webapi/rest/) for more information.
+Beheerders zijn verantwoordelijk voor het instellen van instanties, het beheren van gebruikers, groepen en rechten voor uw organisatie.
 
-NEED DIAGRAM
+- **[heb toegang tot Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html)** - beheer Adobe Entitlements over uw volledige organisatie. Zie [ gebruikersbeheer ](./user-management.md) leren hoe u of het product van uw organisatie admin of systeem admin gebruikers aan het [!DNL Adobe Commerce Optimizer] product kunt toevoegen.
 
->[!ENDTABS]
--->
+- **creeer een instantie** - [!DNL Adobe Commerce Optimizer] instanties gebruiken een op krediet-gebaseerd systeem. U kunt meerdere Sandbox- en Production-instanties maken, waarbij elke instantie één corresponderend krediet nodig heeft. Het bedrag aan kredieten dat u aanvankelijk hebt, is afhankelijk van uw abonnement. [ leer meer ](#create-an-instance).
 
-## Inrichting
+- **heb toegang tot een instantie** - nadat u een instantie creeert, kunt u tot het van [!UICONTROL Commerce Cloud Manager] toegang hebben. [ leer meer ](#access-an-instance).
 
-Nadat de [!DNL Adobe Commerce Optimizer] -instanties gereed zijn, geeft het [!DNL Adobe Commerce Optimizer] -inrichtingsteam u de volgende eindpunten:
+- **de catalogusmeningen en het beleid van de Opstelling** - leer hoe te [ uw catalogusmeningen en beleid ](./setup/catalog-view.md) bepalen. De catalogus bevat niet alleen uw productgegevens, maar helpt u ook uw bedrijfsstructuur te definiëren.
 
-| Item | Voorbeeld-URL | Doel |
-|---|---|---|
-| [!DNL Adobe Commerce Optimizer] UI | `https://experience.adobe.com/#/@commerceprojectbeacon/commerce-optimizer-studio?tenant=<tenantId>` | Toegang Commerce Optimizer UI voor het beheren van uw catalogus over:<br> 1. Handelsregels (productontdekking, productaanbevelingen).<br> 2. Catalogusbeheer (kanaal en beleid maken).<br> 3. Gegevens-inzichten (de status van de inname van catalogusgegevens weergeven). |
-| Storefront-API&#39;s | `https://na1-sandbox.api.commerce.adobe.com/<tenantId>/graphql` | Open de API&#39;s die nodig zijn voor het instellen van uw Commerce-winkel, aangedreven door Edge Delivery Services. |
-| API&#39;s voor gegevensinvoer uit catalogi | `https://na1-sandbox.api.commerce.adobe.com/<tenantId>/v1/catalog/<entity>` | Open de API&#39;s die nodig zijn om uw catalogusgegevens in te voeren. |
+### Ontwikkelaar
 
->[!NOTE]
->
->Zie de [ ontwikkelaardocumentatie ](https://developer-stage.adobe.com/commerce/services/composable-catalog/) om meer over APIs nodig voor de opstelling van de storefront en catalogusopname te leren.
+Ontwikkelaars maken projecten en referenties, installeren extensies, voeren catalogusgegevens in en voeren algemene taken uit op het gebied van platformarchitectuur. Zie de [ ontwikkelaardocumentatie ](https://developer-stage.adobe.com/commerce/services/composable-catalog/) voor gedetailleerde ontwikkelaar-specifieke inhoud.
 
-Als vroege toegangsdeelnemer, zult u een e-mail met een veilige verbinding ontvangen die, samen met uw token IMS, u aan [!DNL Adobe Commerce Optimizer] laat registreren of API vraag maken.
+- **Toegang Developer Console** - heb toegang tot [ Developer Console ](https://developer.adobe.com/developer-console/docs/guides/getting-started) om een project voor [!DNL Adobe Commerce Optimizer] tot stand te brengen, toegangstokens te produceren, en vereiste toepassingen en aanpassingen te installeren.
 
-## De storefront instellen
+- **Samenvatting catalogusgegevens** - zie de [ Inname API van Gegevens ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/using-the-api/) documentatie leren hoe u catalogusgegevens in [!DNL Adobe Commerce Optimizer] kunt invoeren.
 
-Nu u een [!DNL Adobe Commerce Optimizer] instantie hebt, bent u bereid om [ vestiging ](./storefront.md) te werk te gaan uw Opslag van Commerce die door Edge Delivery Services wordt aangedreven.
+  De catalogusgegevens die worden opgenomen zijn zichtbaar in de [ pagina van de gegevenssynchronisatie ](./setup/data-sync.md).
 
-## Beschikbare catalogusgegevens voor deelnemers die vroegtijdig toegang hebben
+- **opstelling de storefront** - alvorens u opstelling de storefront, moet u eerst een instantie tot stand brengen, die een taak typisch door de 2} beheerder van uw organisatie ](#administrator) wordt uitgevoerd. [ Met uw gecreeerde instantie, bent u bereid om met [ vestiging ](./storefront.md) te werk te gaan uw Opslag van Commerce die door Edge Delivery Services wordt aangedreven.
 
-Als vroege toegangsdeelnemer, bevat de [!DNL Adobe Commerce Optimizer] instantie modelcatalogusgegevens die op het [ het gebruiksgeval van het Carvelo ](./use-case/admin-use-case.md) worden gebaseerd. De modelgegevens, samen met enkele vooraf geconfigureerde kanalen en beleidsregels, helpen u vertrouwd te raken met de gebruikersinterface van [!DNL Adobe Commerce Optimizer] .
+### Merchandiser
 
-<!--Ingest catalog data
+De handelaar gebruikt verkoopgegevens en analyses om strategische besluiten over productplaatsing, tarifering, en promoties op de winkel te nemen, terwijl ook het optimaliseren van winkelervaring door productontdekking en aanbevelingen.
 
-By default, [!DNL Adobe Commerce Optimizer] instances do not include any product data.
+- **het productontdekking en aanbevelingen van de Opstelling** - leer hoe te [ gepersonaliseerde ervaringen ](./merchandising/overview.md) voor uw klanten door productontdekking en aanbevelingen creëren.
 
-See the [Ingestion API](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/using-the-api/) documentation to learn how you can import your catalog data into [!DNL Adobe Commerce Optimizer].
+## Een instantie maken
 
-The catalog data that you ingest is visible in the [data insights](./insights-overview.md) page. Additionally, you can use the [Catalog](./catalog-overview.md) page to define the channels and policies.-->
+1. Login aan uw [ Adobe Experience Cloud ](https://experience.adobe.com/) rekening.
+
+1. Onder [!UICONTROL Quick access], klik [!UICONTROL **Commerce**] om [!UICONTROL Commerce Cloud Manager] te openen.
+
+   In [!UICONTROL Commerce Cloud Manager] wordt een lijst weergegeven met [!DNL Adobe Commerce] -instanties die beschikbaar zijn in uw Adobe IMS-organisatie, inclusief beide instanties die zijn ingericht voor [!DNL Adobe Commerce Optimizer] en [!DNL Adobe Commerce as a Cloud Service] .
+
+1. Klik [!UICONTROL **toevoegen Instantie**] in de hoger-juiste hoek van het scherm.
+
+   ![ creeer instantie ](./assets/create-aco-instance.png){width="100%" align="center" zoomable="yes"}
+
+1. Selecteer [!UICONTROL **Commerce Optimizer**].
+
+1. Ga a **Naam** en **Beschrijving** voor uw instantie in.
+
+1. Selecteer het gebied waar u uw instantie wilt ontvangen.
+
+   >[!NOTE]
+   >
+   >Nadat u een instantie hebt gemaakt, kunt u het gebied niet meer wijzigen.
+
+1. Kies één van het volgende [!UICONTROL **Type van Milieu**] voor uw instantie:
+
+   - [!UICONTROL **Sandbox**] - Ideaal voor ontwerp en testende doeleinden. U moet de [!DNL Adobe Commerce Optimizer] -reis beginnen met de sandboxomgeving.
+   - [!UICONTROL **Productie**] - voor levende opslag en klant-onder ogen ziet plaatsen.
+
+   >[!NOTE]
+   >
+   >Sandbox-exemplaren zijn momenteel beperkt tot de regio Noord-Amerika.
+
+1. Klik [!UICONTROL **toevoegen Instantie**].
+
+   Het nieuwe exemplaar is nu beschikbaar in Cloud Manager.
+
+1. Klik op het informatiepictogram naast de instantienaam om instantiedetails weer te geven, inclusief de eindpunten van de GraphQL- en Catalogusservice, de URL voor toegang tot de Adobe Commerce Optimizer-toepassing en de instantie-id (huurder-id).
+
+   ![ creeer instantie ](./assets/aco-instance-details.png){width="100%" align="center" zoomable="yes"}
+
+## Een instantie openen
+
+1. Login aan uw [ Adobe Experience Cloud ](https://experience.adobe.com/) rekening.
+
+1. Onder [!UICONTROL Quick access], klik [!UICONTROL **Commerce**] om [!UICONTROL Commerce Cloud Manager] te openen.
+
+   In [!UICONTROL Commerce Cloud Manager] wordt een lijst weergegeven met instanties die beschikbaar zijn in uw Adobe IMS-organisatie.
+
+1. Als u de [!UICONTROL Commerce Optimizer] -toepassing wilt openen die aan een instantie is gekoppeld, klikt u op de instantienaam.
+
+

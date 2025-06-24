@@ -1,22 +1,28 @@
 ---
 title: Overzicht van Merchandising
-description: Leer hoe u persoonlijke ervaringen voor uw klanten kunt creëren door producten te ontdekken en aanbevelingen te doen.
-hide: true
+description: Leer over het verhandelen eigenschappen in  [!DNL Adobe Commerce Optimizer].
 recommendations: noCatalog
-source-git-commit: d716dd9d75beb642bfad30271b6ecd3490ee7328
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: 356b10704c9e7c7329d3e9c0e10baa15d5142ec0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
 # Merchandising
 
->[!NOTE]
->
->Deze documentatie beschrijft een product in vroege-toegangsontwikkeling en weerspiegelt niet alle functionaliteit voorgenomen voor algemene beschikbaarheid.
+In deze sectie leert u hoe u persoonlijke ervaringen voor uw klanten kunt creëren door productontdekking en aanbevelingen.
 
-Maak persoonlijke ervaringen voor uw klanten dankzij productontdekking en aanbevelingen.
+## Productdetectie
 
-- **Ontdekking van het Product** - verbetert uw functionaliteit van het plaatsonderzoek, die een naadloze en efficiënte verkoopervaring verzekert die omzettingspercentages maximaliseert. Het stelt handelaren in staat ervoor te zorgen dat kopers de juiste producten op het juiste moment krijgen.
-- **Aanbevelingen** - gebruikt kunstmatige intelligentie en machine-leert algoritmen om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Deze gegevens resulteren in een bijzonder aantrekkelijke, relevante en gepersonaliseerde ervaring wanneer ze worden gecombineerd met uw catalogus. Aanbevelingen worden in de winkel weergegeven als eenheden met labels, zoals &quot;Klanten die dit product ook hebben bekeken&quot;. U kunt aanbevelingen rechtstreeks vanuit [!DNL Adobe Commerce Optimizer] maken, beheren en implementeren.
+Productdetectie verbetert de zoekfunctionaliteit van uw site en zorgt voor een naadloze en efficiënte verkoopervaring die de conversietarieven maximaliseert. Het stelt handelaren in staat ervoor te zorgen dat kopers de juiste producten op het juiste moment krijgen.
+
+Met productdetectie stelt u facetten, regels en synoniemen in op:
+
+- Creëer zinvolle zoekervaringen om kopers te helpen bij het vinden van wat ze willen, zo weinig mogelijk.
+- Profiteer van dynamische facettering op basis van AI en herrangschikking van zoekresultaten als reactie op winkelgedrag tijdens een sessie.
+
+## Aanbevelingen
+
+De aanbevelingen gebruiken kunstmatige intelligentie en machine-leert algoritmen om een diepgaande analyse van samengevoegde bezoekersgegevens uit te voeren. Deze gegevens resulteren in een bijzonder aantrekkelijke, relevante en gepersonaliseerde ervaring wanneer ze worden gecombineerd met uw catalogus. Aanbevelingen worden in de winkel weergegeven als eenheden met labels, zoals &quot;Klanten die dit product ook hebben bekeken&quot;. U kunt aanbevelingen rechtstreeks vanuit [!DNL Adobe Commerce Optimizer] maken, beheren en implementeren.

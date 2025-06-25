@@ -159,7 +159,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
 
 1. Werk het montagepunt in het storefront configuratiedossier bij om aan uw inhoud URL te richten.
 
-   1. Open het {](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) configuratiedossier 0} fstab.yaml.[
+   1. Open het {[&#128279;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/#vocabulary) configuratiedossier 0} fstab.yaml.
 
       ```yaml
       mountpoints:
@@ -226,7 +226,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
 
    Zie de [ documentatie van de Bibliotheek van Sidekick ](https://www.aem.live/docs/sidekick-library) voor meer informatie.
 
-+++
+   +++
 
 1. Werk de `url` zeer belangrijke waarden met de waarden voor uw bewaarplaats GitHub bij.
 
@@ -266,7 +266,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
    }
    ```
 
-+++
+   +++
 
 1. Sla het bestand op.
 

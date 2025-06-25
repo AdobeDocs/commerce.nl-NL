@@ -3,14 +3,14 @@ title: Opmerkingen bij de release met productvisa
 description: Raadpleeg de releaseopmerkingen voor informatie over alle AEM Assets Integration-releases.
 feature: CMS, Media, Release Notes
 exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
-source-git-commit: 9ec5f872e2679ff023a599c3aacecbb6e5a6c6ee
+source-git-commit: 73317ee8de377636f0156e9bc9564eb27fbc6b1f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
-# Opmerkingen bij de release van producten
+# Opmerkingen bij de release met productvisa
 
 Deze releaseopmerkingen beschrijven de eerste release van productvisa en bevatten:
 
@@ -20,7 +20,7 @@ Deze releaseopmerkingen beschrijven de eerste release van productvisa en bevatte
 
 Voor eigenschapveranderingen en moeilijke situaties die buiten de regelmatige versie van de eigenschapversie worden vrijgegeven, herzie de _Gehoste de dienstupdates_ secties.
 
-Leer meer over aanstaande versies, productsteun, en welke versies van Adobe Commerce de uitbreiding van de Integratie van AEM Assets steunen, zie het programma van de Versie van Adobe Commerce [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/planning/schedule) en [ de 3&rbrace; onderwerpen van de Beschikbaarheid van het Product.](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/product-availability)
+Leer meer over aanstaande versies, productsteun, en welke versies van Adobe Commerce de uitbreiding van de Integratie van AEM Assets steunen, zie het programma van de Versie van Adobe Commerce [ ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) en [ de 3} onderwerpen van de Beschikbaarheid van het Product.](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)
 
 ## Gehoste service-updates
 
@@ -38,7 +38,7 @@ _11 Februari, 2025_
 
 _11 Juni, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
 
 ![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue ACAP-1041 --> Toegevoegde steun voor Adobe Commerce 2.4.8 en PHP 8.4.
 
@@ -46,9 +46,9 @@ _11 Juni, 2025_
 
 _23 April, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
 
-![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue ACAP-955 --> nu, a [ Douane URL van het Domein van de Douane ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets/getting-started/setup-synchronization#configure-the-custom-domain-url) kan in plaats van de Levering URL van AEM worden gebruikt. Als een handelaar a **Naam van het Domein van de Douane** in hun dashboard van AEM plaatst, is het noodzakelijk om dit **Domein URL van de Douane** in Commerce toe te voegen.
+![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue ACAP-955 --> nu, a [ Douane URL van het Domein van de Douane ](https://experienceleague.adobe.com/en/docs/commerce/product-visuals/get-started/setup-synchronization#optional-configure-the-custom-domain-url) kan in plaats van de Levering URL van AEM worden gebruikt. Als een handelaar a **Naam van het Domein van de Douane** in hun dashboard van AEM plaatst, is het noodzakelijk om dit **Domein URL van de Douane** in Commerce toe te voegen.
 
 ![ Vaste kwestie ](../assets/fix.svg)<!-- Issue ACAP-987 --> Verbeterde algemene logboeken voor de synchronisatieprocessen van AEM Assets.
 
@@ -56,14 +56,14 @@ _23 April, 2025_
 
 _Maart 12, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
 
-![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue ACAP-xx --> nu, wordt identiteitskaart van de Cliënt IMS van de selecteur van Assets [&#128279;](https://experienceleague.adobe.com/en/docs/commerce/aem-assets/getting-started/setup-synchronization) vereist door de Selecteur van Assets om afbeelding van AEM Assets met productcategorieën en de Bouwer van de Pagina toe te laten geproduceerde inhoud.
+![ Nieuwe kwestie ](../assets/new.svg)<!-- Issue ACAP-xx --> nu, wordt identiteitskaart van de Cliënt IMS van de selecteur van Assets [ ](https://experienceleague.adobe.com/en/docs/commerce/product-visuals/get-started/setup-synchronization) vereist door de Selecteur van Assets om afbeelding van AEM Assets met productcategorieën en de Bouwer van de Pagina toe te laten geproduceerde inhoud.
 
 ## v1.0.20
 
 _11 Februari, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versie 2.4.5 van Adobe Commerce en recentere versies.
 
 ![ Nieuwe ](../assets/new.svg)<!-- Issue ACAP-xx --> Algemene beschikbaarheidsversie.

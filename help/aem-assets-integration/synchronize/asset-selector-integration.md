@@ -20,11 +20,11 @@ Wanneer de **integratie van de Selecteur van Activa 0&rbrace; AEM wordt gevormd,
 
 * U kunt categorieafbeeldingen zonder moeite beheren en ervoor zorgen dat deze overeenkomen met de richtlijnen voor merk en campagne.
 * [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} wijst activa direct in de Bouwer van de Pagina voor visueel rijke inhoud toe.
-* [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} wijs Assets direct in Commerce Storefront toe die door Edge Delivery Services voor visueel verrijkt inhoud wordt aangedreven.
+* [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} wijs Assets direct in Commerce Storefront toe die door Edge Delivery Services voor visueel verrijkt inhoud wordt aangedreven.
 
 >[!NOTE]
 >
-> De AEM Asset Selector is een frontend AEM-element voor de integratie van AEM Assets met ontwerptoepassingen. Voor meer informatie over deze component, zie de [ Micro-Frontend de Selector van Activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank} in de *Gids van de Gebruiker van AEM as a Cloud Service*.
+> De AEM Asset Selector is een frontend AEM-element voor de integratie van AEM Assets met ontwerptoepassingen. Voor meer informatie over deze component, zie de [ Micro-Frontend de Selector van Activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank} in de *Gids van de Gebruiker van AEM as a Cloud Service*.
 
 ## Belangrijkste voordelen
 

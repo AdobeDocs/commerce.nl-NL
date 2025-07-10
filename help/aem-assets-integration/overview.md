@@ -34,11 +34,11 @@ Als u deze integratie wilt benutten met Product Visuals of AEM Assets, moeten be
 
 >[!TAB  Visuals van het Product ]
 
-[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Visuals van het Product die door AEM Assets worden aangedreven, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media) (Deze vergunningen zijn beschikbaar uit-van-de-doos met [!DNL Adobe Commerce as a Cloud Service] en [!DNL Adobe Commerce Optimizer]).
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Visuals van het Product die door AEM Assets worden aangedreven, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media) (Deze vergunningen zijn beschikbaar uit-van-de-doos met [!DNL Adobe Commerce as a Cloud Service] en [!DNL Adobe Commerce Optimizer]).
 
 >[!TAB  AEM Assets ]
 
-[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ AEM Dynamische Media ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ AEM Dynamische Media ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} Adobe Commerce 2.4.5+
 
@@ -46,11 +46,11 @@ Als u deze integratie wilt benutten met Product Visuals of AEM Assets, moeten be
 
 * Composer 2.x
 
-[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Adobe Experience Manager wordt provisioned met [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Adobe Experience Manager wordt provisioned met [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
 
 >[!ENDTABS]
 
-De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [ IMS Organisatie ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) hebben waar het project van AEM Assets provisioned is.
+De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [ IMS Organisatie ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) hebben waar het project van AEM Assets provisioned is.
 
 >[!BEGINSHADEBOX]
 
@@ -62,7 +62,7 @@ De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [ IM
 
 ![ controle ](assets/icon-check.png) **Adobe Beheerde Model van de Steun** - de Hulp en het oplossen van problemen worden behandeld direct door Adobe, die vrede van mening en gestroomlijnde probleemresolutie verstrekt.
 
-![ controle ](assets/icon-check.png) **de mogelijkheden van de Bouwer van Adobe Storefront** - de oplossing van het digitale activabeheer (DAM) staat het gebruik van activa als beelden, video&#39;s, en andere media op de [ Bouwer van de Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/#userlabs-commerce-genai-product-visuals) toe.
+![ controle ](assets/icon-check.png) **de mogelijkheden van de Bouwer van Adobe Storefront** - de oplossing van het digitale activabeheer (DAM) staat het gebruik van activa als beelden, video&#39;s, en andere media op de [ Bouwer van de Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/?lang=nl-NL#userlabs-commerce-genai-product-visuals) toe.
 
 >[!ENDSHADEBOX]
 
@@ -82,4 +82,4 @@ De integratie van Commerce met Experience Manager Assets mogelijk maken is een d
 
 ## Ondersteuning
 
-Als u informatie nodig hebt of vragen hebt die niet in deze gids worden behandeld, contacteer uw vertegenwoordiger van de Integratie van AEM Assets of creeer a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) om extra hulp te ontvangen.
+Als u informatie nodig hebt of vragen hebt die niet in deze gids worden behandeld, contacteer uw vertegenwoordiger van de Integratie van AEM Assets of creeer a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) om extra hulp te ontvangen.

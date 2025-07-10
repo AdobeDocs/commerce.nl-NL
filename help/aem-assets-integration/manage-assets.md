@@ -79,7 +79,7 @@ De vereniging aan het geselecteerde beeld zal in Adobe Commerce als direct URL w
 
 >[!TIP]
 >
-> [ DA.live (Document Authoring) ](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/#dalive-document-authoring){target=_blank} verstrekt ook een selecteur van Activa om gegevens te verrijken.
+> [ DA.live (Document Authoring) ](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/?lang=nl-NL#dalive-document-authoring){target=_blank} verstrekt ook een selecteur van Activa om gegevens te verrijken.
 
 ## Productvideo&#39;s
 
@@ -149,7 +149,7 @@ Nadat u de [ selecteur van Activa van AEM ](synchronize/asset-selector-integrati
 
 1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Voor meer informatie over het creëren van een categorie, zie [ de categorieinhoud ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content) in de **Gids van het Beheer van de Catalogus van Commerce** voltooien.
+   Voor meer informatie over het creëren van een categorie, zie [ de categorieinhoud ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content) in de **Gids van het Beheer van de Catalogus van Commerce** voltooien.
 
 ## Middelen bijwerken
 
@@ -157,6 +157,6 @@ Nadat u middelen in AEM Assets hebt bijgewerkt en goedgekeurd, worden de updates
 
 Raadpleeg de volgende documentatie bij AEM Assets voor meer informatie.
 
-* [ het Opverwerken van digitale activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+* [ het Opverwerken van digitale activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-* [ keur activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed
+* [ keur activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed

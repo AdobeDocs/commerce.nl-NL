@@ -20,7 +20,7 @@ In deze releaseopmerkingen wordt de eerste release van AEM Assets Integration be
 
 Voor eigenschapveranderingen en moeilijke situaties die buiten de regelmatige versie van de eigenschapversie worden vrijgegeven, herzie de _Gehoste de dienstupdates_ secties.
 
-Leer meer over aanstaande versies, productsteun, en welke versies van Adobe Commerce de uitbreiding van de Integratie van AEM Assets steunen, zie het programma van de Versie van Adobe Commerce [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) en [ de 3&rbrace; onderwerpen van de Beschikbaarheid van het Product.](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability)
+Leer meer over aanstaande versies, productsteun, en welke versies van Adobe Commerce de uitbreiding van de Integratie van AEM Assets steunen, zie het programma van de Versie van Adobe Commerce [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/planning/schedule) en [ de 3&rbrace; onderwerpen van de Beschikbaarheid van het Product.](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/product-availability)
 
 ## Gehoste service-updates
 

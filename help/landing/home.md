@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Access the product documentation for hosted services that help Adobe Commerce merchants support key components of their business.
 recommendations: noCatalog
 exl-id: 507af1fa-9f3e-41bc-9aaf-cd89839aae0b
-source-git-commit: 526d15950fe77ac8c384d1fd670394695a824260
+source-git-commit: 525ad18961f46379360049b1bf49c18b208bf051
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -51,20 +51,17 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
       </p>
    </td>
    <td valign="top">
-      <a href="../product-visuals/overview.md">
-      <img alt="Zichtbaar" src="../assets/icons/images.svg" width="40">
+      <a href="../catalog-service/overview.md">
+      <img alt="Catalogusgegevens voor verbonden services" src="../assets/icons/DataBook.svg" width="40">
       </a>
       <div>
-         <a href="../product-visuals/overview.md">
-         <strong> Visuals van het Product </strong>
+         <a href="../catalog-service/overview.md">
+         <strong> de Dienst van de Catalogus </strong>
          </a>
       </div>
       <p>
-         <em> vereenvoudig digitaal activabeheer gebruikend een systeem dat met Adobe Experience Manager voor het beheren van rijke media inhoud integreert.</em>
+         <em> geef uw klanten een geoptimaliseerde productervaring terwijl het opvoeren van prestaties, verbeterend scalability, en verhogend omzettingen.</em>
       </p>
-   </td>
-   <td valign="top">
-      <!-- Empty cell to maintain table structure -->
    </td>
 </tr>
 <tr style="border: 0;">
@@ -95,19 +92,6 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
       </p>
    </td>
    <td valign="top">
-      <a href="../catalog-service/overview.md">
-      <img alt="Catalogusgegevens voor verbonden services" src="../assets/icons/DataBook.svg" width="40">
-      </a>
-      <div>
-         <a href="../catalog-service/overview.md">
-         <strong> de Dienst van de Catalogus </strong>
-         </a>
-      </div>
-      <p>
-         <em> geef uw klanten een geoptimaliseerde productervaring terwijl het opvoeren van prestaties, verbeterend scalability, en verhogend omzettingen.</em>
-      </p>
-   </td>
-   <td valign="top">
       <a href="../payment-services/guide-overview.md">
       <img alt="Creditcardbetalingen" src="../assets/icons/CreditCard.svg" width="40">
       </a>
@@ -133,7 +117,7 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
       </a>
       <div>
          <a href="../data-connection/overview.md">
-         <strong>[!DNL Data Connection]</strong> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op Cloud projecten (Adobe-Beheerde infrastructuur PaaS) en op-gebouw slechts projecten."}
+         <strong>[!DNL Data Connection]</strong> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op Cloud projecten (Adobe-Beheerde infrastructuur PaaS) en op-gebouw slechts projecten."}
          </a>
       </div>
       <p>
@@ -146,11 +130,24 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
       </a>
       <div>
           <a href="../landing/saas.md">
-         <strong> Verbinding van de Diensten van Commerce </strong> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
+         <strong> Verbinding van de Diensten van Commerce </strong> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
          </a>
       </div>
       <p>
          <em> vorm authentificatie om veilige communicatie tussen Adobe Commerce en de verbonden diensten toe te laten. Voor elke milieu, specificeer identiteitskaart van de gegevensruimte voor de opslag van de dienstengegevens van Commerce.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../aem-assets-integration/overview.md">
+      <img alt="Zichtbaar" src="../assets/icons/images.svg" width="40">
+      </a>
+      <div>
+          <a href="../aem-assets-integration/overview.md">
+         <strong> de integratie van AEM Assets </strong>
+         </a>
+      </div>
+      <p>
+         <em> vereenvoudig digitaal activabeheer gebruikend een systeem dat met Adobe Experience Manager voor het beheren van rijke media inhoud integreert.</em>
       </p>
    </td>
 </tr>
@@ -187,11 +184,11 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
       <img alt="Gegevenssynchronisatie controleren" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
          <strong> Dashboard van het Beheer van Gegevens </strong>
          </a>
       </div>

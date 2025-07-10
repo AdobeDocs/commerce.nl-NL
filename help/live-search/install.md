@@ -3,7 +3,7 @@ title: Aan de slag met  [!DNL Live Search]
 description: Leer de systeemvereisten en installatiestappen voor  [!DNL Live Search]  van Adobe Commerce.
 role: Admin, Developer
 exl-id: 45b985f1-9afb-4a07-93e8-f2fe231c5400
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: d07f36a71247a96bc2dd950867c2862205238d88
 workflow-type: tm+mt
 source-wordcount: '3139'
@@ -61,11 +61,11 @@ Op een hoog niveau is het vereist dat u: [!DNL Live Search]
 >
 >Vanaf [!DNL Live Search] 4.0.0, wordt de Adapter van het Onderzoek verouderd. In de toekomst wordt de zoekadapter alleen bijgewerkt om beveiligingsproblemen te verhelpen.
 
-1. Bevestig dat [ gewassenbanen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen.
+1. Bevestig dat [ gewassenbanen ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [ indexeerders ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) lopen.
 
    >[!IMPORTANT]
    >
-   >Gezien de aankondiging van het einde van Elasticsearch 7 voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x zoekmachine migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een productverbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) in de _Gids van de Verbetering_.
+   >Gezien de aankondiging van het einde van Elasticsearch 7 voor augustus 2023 wordt aanbevolen dat alle Adobe Commerce-klanten naar de OpenSearch 2.x zoekmachine migreren. Voor informatie over het migreren van uw onderzoeksmotor tijdens een productverbetering, zie [ Migrerend aan OpenSearch ](https://experienceleague.adobe.com/nl/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) in de _Gids van de Verbetering_.
 
 1. Download het `live-search` pakket van de [ Marketplace van Adobe ](https://commercemarketplace.adobe.com/magento-live-search.html).
 
@@ -95,7 +95,7 @@ Op een hoog niveau is het vereist dat u: [!DNL Live Search]
    bin/magento setup:upgrade
    ```
 
-1. Verifieer dat de volgende [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
+1. Verifieer dat de volgende [ indexeerders ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
 
    - Productfeed
    - Diervoeders voor productvarianten
@@ -151,7 +151,7 @@ Deze bèta steunt drie nieuwe mogelijkheden in [`productSearch` vraag ](https://
 
 Deze nieuwe voorwaarden verbeteren het het filtreren van de onderzoeksvraag mechanisme om onderzoeksresultaten te raffineren. Deze nieuwe voorwaarden hebben geen invloed op de hoofdzoekquery.
 
-U kunt deze nieuwe voorwaarden implementeren op de pagina met zoekresultaten. U kunt bijvoorbeeld een nieuwe sectie toevoegen op de pagina waar de gebruiker de zoekresultaten verder kan verfijnen. Je kunt kopers toestaan specifieke productkenmerken te selecteren, zoals &#39;Fabrikant&#39;, &#39;Onderdeelnummer&#39; en &#39;Beschrijving&#39;. Daarna zoeken ze binnen die kenmerken met behulp van de `contains` - of `startsWith` -voorwaarden. Zie de gids Admin voor een lijst van doorzoekbare [ attributen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types).
+U kunt deze nieuwe voorwaarden implementeren op de pagina met zoekresultaten. U kunt bijvoorbeeld een nieuwe sectie toevoegen op de pagina waar de gebruiker de zoekresultaten verder kan verfijnen. Je kunt kopers toestaan specifieke productkenmerken te selecteren, zoals &#39;Fabrikant&#39;, &#39;Onderdeelnummer&#39; en &#39;Beschrijving&#39;. Daarna zoeken ze binnen die kenmerken met behulp van de `contains` - of `startsWith` -voorwaarden. Zie de gids Admin voor een lijst van doorzoekbare [ attributen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types).
 
 1. Om bèta te installeren, voeg de volgende gebiedsdeel aan uw project toe:
 
@@ -159,11 +159,11 @@ U kunt deze nieuwe voorwaarden implementeren op de pagina met zoekresultaten. U 
    composer require magento/module-live-search-search-types:"^1.0.0-beta1"
    ```
 
-1. Leg de wijzigingen in uw `composer.json` - en `composer.lock` -bestanden vast en duw deze in uw cloudproject. [ leer meer ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension).
+1. Leg de wijzigingen in uw `composer.json` - en `composer.lock` -bestanden vast en duw deze in uw cloudproject. [ leer meer ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension).
 
    Deze bètaversie voegt selectievakjes **[!UICONTROL Search types]** voor **[!UICONTROL Autocomplete]** , **[!UICONTROL Contains]** en **[!UICONTROL Starts with]** in Admin toe. Het werkt ook de [`productSearch` ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) GraphQL API bij om deze nieuwe onderzoeksmogelijkheden te omvatten.
 
-1. In Admin, [ plaats een productattribuut ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties) om het onderzoeksvermogen voor dat attribuut te zoeken en te specificeren, zoals **Bevat** (gebrek) of **Begint met**. U kunt een maximum van zes attributen specificeren die voor **worden toegelaten bevat** en zes attributen die voor **worden toegelaten begint met**. Voor bèta moet u er rekening mee houden dat de beheerder deze beperking niet afdwingt, maar dat deze wel wordt afgedwongen in API-zoekopdrachten.
+1. In Admin, [ plaats een productattribuut ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties) om het onderzoeksvermogen voor dat attribuut te zoeken en te specificeren, zoals **Bevat** (gebrek) of **Begint met**. U kunt een maximum van zes attributen specificeren die voor **worden toegelaten bevat** en zes attributen die voor **worden toegelaten begint met**. Voor bèta moet u er rekening mee houden dat de beheerder deze beperking niet afdwingt, maar dat deze wel wordt afgedwongen in API-zoekopdrachten.
 
    ![ specificeer onderzoeksvermogen ](./assets/search-filters-admin.png)
 
@@ -209,7 +209,7 @@ Wanneer u deze opdrachten uitvoert, begint de eerste synchronisatie van de catal
 
 ### Synchronisatievoortgang controleren
 
-U kunt de gegevens bekijken die worden gesynchroniseerd en worden gedeeld gebruikend het [ Dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard). Dit dashboard biedt waardevolle inzichten in de beschikbaarheid van productgegevens voor uw winkel, zodat deze direct aan uw klanten kunnen worden weergegeven.
+U kunt de gegevens bekijken die worden gesynchroniseerd en worden gedeeld gebruikend het [ Dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard). Dit dashboard biedt waardevolle inzichten in de beschikbaarheid van productgegevens voor uw winkel, zodat deze direct aan uw klanten kunnen worden weergegeven.
 
 ![ Dashboard van het Beheer van Gegevens ](assets/data-management-dashboard.png)
 
@@ -232,12 +232,12 @@ Als u wilt controleren of uw catalogusgegevens uit Adobe Commerce zijn geëxport
   >
   >Als u een `table does not exist` -fout krijgt, zoekt u naar items in de tabellen `catalog_data_exporter_products` en `catalog_data_exporter_product_attributes` . Deze tabelnamen worden gebruikt in eerdere [!DNL Live Search] versies dan 4.2.1.
 
-- Gebruik [ playground van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/graphql) met de standaardvraag (zie [ verwijzing van GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) voor meer details) om het volgende te verifiëren:
+- Gebruik [ playground van GraphQL ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/graphql) met de standaardvraag (zie [ verwijzing van GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) voor meer details) om het volgende te verifiëren:
 
    - Het aantal geretourneerde producten ligt dicht bij wat u voor de winkelweergave verwacht.
    - Facetten worden geretourneerd.
 
-Voor extra hulp, zie [[!DNL Live Search]  niet gesynchroniseerde catalogus ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync) in de Kennisbank van de Steun.
+Voor extra hulp, zie [[!DNL Live Search]  niet gesynchroniseerde catalogus ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync) in de Kennisbank van de Steun.
 
 ## &#x200B;5. Vorm de gegevens
 
@@ -257,7 +257,7 @@ Als u een [!DNL Live Search] -versie hebt die ouder is dan 4.0.0+, moet u de wid
 
 Wanneer u deze configuratie wijzigt, verschijnt het bericht `Page cache is invalidated` . U moet de Magento Cache leegmaken om de wijziging op te slaan.
 
-1. Heb toegang tot de [ pagina van het Beheer van het Geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management) door één van het volgende te doen:
+1. Heb toegang tot de [ pagina van het Beheer van het Geheime voorgeheugen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management) door één van het volgende te doen:
 
    - Klik op de koppeling **[!UICONTROL Cache Management]** in het bericht boven de werkruimte.
    - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
@@ -268,7 +268,7 @@ Wanneer u deze configuratie wijzigt, verschijnt het bericht `Page cache is inval
 
 ### Categorieën toewijzen
 
-De producten die in [!DNL Live Search] zijn teruggekeerd moeten aan a [ worden toegewezen categorie ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories). In Luma worden producten bijvoorbeeld ingedeeld in categorieën zoals &quot;Mannen&quot;, &quot;Vrouwen&quot; en &quot;Luma&quot;. Subcategorieën worden ook ingesteld voor Tops, Bottoms en Watches. Deze categorietoewijzingen verbeteren de granulariteit bij het filteren.
+De producten die in [!DNL Live Search] zijn teruggekeerd moeten aan a [ worden toegewezen categorie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/categories/categories). In Luma worden producten bijvoorbeeld ingedeeld in categorieën zoals &quot;Mannen&quot;, &quot;Vrouwen&quot; en &quot;Luma&quot;. Subcategorieën worden ook ingesteld voor Tops, Bottoms en Watches. Deze categorietoewijzingen verbeteren de granulariteit bij het filteren.
 
 ## &#x200B;6. Test de verbinding
 
@@ -352,7 +352,7 @@ Als u een update wilt uitvoeren naar een belangrijke versie zoals 3.1.1 en 4.0.0
 
 ## [!DNL Live Search] verwijderen
 
-Om [!DNL Live Search] te desinstalleren, verwijs naar [ modules van de Desinstallatie ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules).
+Om [!DNL Live Search] te desinstalleren, verwijs naar [ modules van de Desinstallatie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/uninstall-modules).
 
 ## [!DNL Live Search] pakketten
 
@@ -361,7 +361,7 @@ De extensie [!DNL Live Search] bestaat uit de volgende pakketten:
 | Pakket | Beschrijving |
 |--- |--- |
 | `module-live-search` | Staat verkopers toe om hun onderzoeksmontages voor facetting, synoniemen, vraagregels, etc. te vormen, en verleent toegang tot read-only GraphQL playground om vragen van *te testen Admin*. |
-| `module-live-search-adapter` | Routes onderzoeksverzoeken van de storefront aan de [!DNL Live Search] dienst en geeft de resultaten in de storefront terug. <br /> - de doorblader van de Categorie - Routes verzoekt van de storefront [ hoogste navigatie ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) aan de onderzoeksdienst.<br /> - Globaal onderzoek - Routes verzoekt van de [ snelle onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) doos in het hoger-recht van de storefront aan de [!DNL Live Search] dienst. |
+| `module-live-search-adapter` | Routes onderzoeksverzoeken van de storefront aan de [!DNL Live Search] dienst en geeft de resultaten in de storefront terug. <br /> - de doorblader van de Categorie - Routes verzoekt van de storefront [ hoogste navigatie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-top) aan de onderzoeksdienst.<br /> - Globaal onderzoek - Routes verzoekt van de [ snelle onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search) doos in het hoger-recht van de storefront aan de [!DNL Live Search] dienst. |
 | `module-live-search-storefront-popover` | De pop-up &#39;&#39;Zoeken terwijl u typt&#39;&#39; vervangt de standaard snelle zoekopdracht en retourneert gegevens en miniaturen van de bovenste zoekresultaten. |
 
 ## [!DNL Live Search] afhankelijkheden
@@ -472,7 +472,7 @@ Nadat Live zoeken is ingeschakeld, worden met de extensie Gegevens exporteren Co
 
 ### Inventory management
 
-[!DNL Live Search] steunt [ Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u [ de gebiedsdeelmodule ](install.md#updating-live-search) aan versie 102.2.0+ bijwerken.`commerce-data-export`
+[!DNL Live Search] steunt [ Inventory management ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u [ de gebiedsdeelmodule ](install.md#updating-live-search) aan versie 102.2.0+ bijwerken.`commerce-data-export`
 
 [!DNL Live Search] retourneert een Booleaanse waarde die aangeeft of een product beschikbaar is in Inventory management, maar die geen informatie bevat over de bron die de voorraad heeft.
 
@@ -509,7 +509,7 @@ Deze module voegt extra contexten aan de vragen van GraphQL toe:
 
 ### B2B-ondersteuning
 
-[!DNL Live Search] steunt [ functionaliteit B2B ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview) met extra [ beperkingen ](boundaries-limits.md#b2b-and-category-permissions).
+[!DNL Live Search] steunt [ functionaliteit B2B ](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/guide-overview) met extra [ beperkingen ](boundaries-limits.md#b2b-and-category-permissions).
 
 ### PWA-ondersteuning
 
@@ -541,4 +541,4 @@ Als u [!DNL Live Search] wilt gebruiken met PWA Studio, moeten integrators ook:
 
 ### Cookies
 
-[!DNL Live Search] verzamelt gegevens over gebruikersinteractie als onderdeel van de basisfunctionaliteit en cookies worden gebruikt om deze gegevens op te slaan. Wanneer de gebruiker om het even welke gebruikersinformatie verzamelt, moet de gebruiker ermee instemmen om koekjes op te slaan. [!DNL Live Search] en [!DNL Product Recommendations] delen de gegevensstroom en dus hetzelfde cookiemechanisme. Lees meer over het in [ de Beperkingen van de Koekjescookie ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie).
+[!DNL Live Search] verzamelt gegevens over gebruikersinteractie als onderdeel van de basisfunctionaliteit en cookies worden gebruikt om deze gegevens op te slaan. Wanneer de gebruiker om het even welke gebruikersinformatie verzamelt, moet de gebruiker ermee instemmen om koekjes op te slaan. [!DNL Live Search] en [!DNL Product Recommendations] delen de gegevensstroom en dus hetzelfde cookiemechanisme. Lees meer over het in [ de Beperkingen van de Koekjescookie ](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/developer/setting-cookie).

@@ -2,7 +2,7 @@
 title: Wat is Adobe Commerce Optimizer?
 description: Leer over  [!DNL Adobe Commerce Optimizer]  en zijn belangrijkste eigenschappen.
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 source-git-commit: 877f3c377715f204904eefe3b93d796084721aa7
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Met [!DNL Adobe Commerce Optimizer] kunt u:
 
 Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450469?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
 
 ## Wie profiteert het meest van [!DNL Adobe Commerce Optimizer]?
 

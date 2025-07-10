@@ -3,9 +3,10 @@ title: Extensie Catalogusadapter
 description: Catalogusadapter gebruiken om prijzen te renderen van Commerce Services
 seo-title: Catalog Adapter Extension
 seo-description: Using Catalog Adapter to render prices from Commerce Services
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: e42101fa-9c30-482c-a649-44dc35376abb
+source-git-commit: 74f6cb64724194651c4eeb538c0c69142b01ac5d
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ U kunt prijsindexering in de toepassing van Commerce opnieuw toelaten door de ui
 ## Vereisten
 
 - Adobe Commerce 2.4.4+
-- Een van de volgende Commerce Services hebben geïnstalleerd:
+- Voor uw Adobe Commerce-omgeving moet een van de volgende Commerce-services zijn ingeschakeld en geconfigureerd:
 
    - [Live zoeken](../live-search/install.md)
    - [Aanbevelingen voor producten](../product-recommendations/install-configure.md)
@@ -55,7 +56,7 @@ Gebruik deze methode om [!DNL Catalog Adapter] voor een Commerce Cloud-instantie
 
    >[!NOTE]
    >
-   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
+   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
 
 1. Bekijk de omgevingsvertakking voor update met de Adobe Commerce Cloud CLI.
 
@@ -85,7 +86,7 @@ Gebruik deze methode om [!DNL Catalog Adapter] voor een Commerce Cloud-instantie
    git push origin <branch-name>
    ```
 
-   Het duwen van de updates aan het wolkenmilieu stelt het [ proces van de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Het duwen van de updates aan het wolkenmilieu stelt het [ proces van de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB  op-gebouw ]
 
@@ -166,4 +167,3 @@ Hier volgen enkele veelvoorkomende `[!DNL Catalog Adapter]` scenario&#39;s.
 - Geen beroep op de standaard Adobe Commerce-productprijsindexer
 
 1. Installeer de module `magento/module-price-indexer-disabler` vanuit het [!DNL Catalog Adapter] -pakket.
-

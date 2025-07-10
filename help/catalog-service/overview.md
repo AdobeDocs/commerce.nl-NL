@@ -1,45 +1,79 @@
 ---
 title: '[!DNL Catalog Service]'
-description: '[!DNL Catalog Service] voor Adobe Commerce biedt een manier om de inhoud van de pagina''s met productweergave en de productlijst veel sneller op te halen dan de GraphQL-query''s van de native Adobe Commerce.'
+description: Versnel uw Adobe Commerce-winkel met  [!DNL Catalog Service]  - een krachtige GraphQL API die de laadtijden van pagina's voor productpagina's, categoriepagina's en zoekresultaten verkort.
 role: Admin, Developer
 recommendations: noCatalog
 exl-id: 525e3ff0-efa6-48c7-9111-d0b00f42957a
-source-git-commit: ff5c717dbdd638e114bccc3f6dec26f4be269194
+source-git-commit: e582bff6ee8ee7c4213f04bdab984efa94333fb6
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
 
 # [!DNL Catalog Service] voor Adobe Commerce
 
-De extensie [!DNL Catalog Service] for Adobe Commerce biedt rijke view-model (alleen-lezen) catalogusgegevens om productgerelateerde winkelervaringen snel en volledig te renderen, waaronder:
+[!DNL Catalog Service] voor Adobe Commerce-extensie verbetert de laadtijden van winkels door geoptimaliseerde, alleen-lezen catalogusgegevens te verschaffen via een speciale GraphQL API. Deze service is specifiek ontworpen om de productgerelateerde paginaervaring te verbeteren, waardoor pagina&#39;s sneller worden geladen en de conversiesnelheden zijn verbeterd.
 
-* Productdetailpagina&#39;s
-* Productlijst en categoriepagina&#39;s
-* Resultaatpagina&#39;s zoeken
-* Productcarrousels
-* Productvergelijkingspagina&#39;s
-* Alle andere pagina&#39;s die productgegevens weergeven, zoals pagina&#39;s met een cart-, volgorde- en wenslijst
+De rijke mening-modelgegevens die door [!DNL Catalog Service] worden verstrekt omvatten productdetails, attributen, inventaris, en prijzen, die snelle teruggave van product-gerelateerde storefront ervaringen zoals toelaten:
+
+- Productdetailpagina&#39;s
+- Productlijst en categoriepagina&#39;s
+- Resultaatpagina&#39;s zoeken
+- Productcarrousels
+- Productvergelijkingspagina&#39;s
+- Alle andere pagina&#39;s die productgegevens weergeven, zoals pagina&#39;s met een cart-, volgorde- en wenslijst
+
+
+## Belangrijkste voordelen en functies
+
+- **Snellere paginaladingen**: Geoptimaliseerde vragen voor tot 10X snellere de terugwinning van catalogusgegevens in vergelijking met het kernsysteem van GraphQL
+- **Verbeterde omzettingspercentages**: De snellere ladingtijden leiden tot betere gebruikerservaring
+- **Vereenvoudigde producttypes**: Het verenigde schema dat op eenvoudige en complexe producttypes wordt gebaseerd vermindert ingewikkeldheid voor ontwikkelaars
+- **Verbeterde prijsprecisie**: Steun voor 16 cijferwaarden met 4 decimalen
+- **Ontkoppelde architectuur**: Het afzonderlijke systeem van GraphQL voor catalogusgegevens verzekert hoge prestaties zonder de verrichtingen van kernCommerce te beïnvloeden
+- **Real-time gegevenssynchronisatie**: De dienst van de Catalogus wordt gehouden synchroon met de toepassing van Adobe Commerce door de uitbreiding van de Uitvoer van Gegevens SaaS, die ervoor zorgt dat de vragen de huidigste catalogusgegevens terugkeren
+- **Dashboard van het Beheer van Gegevens**: De verrichtingen van de gegevenssynchronisatie van de interface van Adobe Commerce Admin controleren en beheren
+- **API de integratie van het Net**: Naar keuze integreren met [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) om de systemen van Adobe Commerce GraphQL met andere interne en derde APIs te combineren om het schema van GraphQL van de Dienst van de Catalogus uit te breiden en douanegegevens of functionaliteit toe te voegen
+
+
+## Overzicht van architectuur
 
 [!DNL Catalog Service] gebruikt [ GraphQL ](https://graphql.org/) om catalogusgegevens met inbegrip van producten, productattributen, inventaris, en prijzen te verzoeken en te ontvangen. GraphQL is een querytaal die een front-end client gebruikt om te communiceren met de API (Application Programming Interface) die op een back-end zoals Adobe Commerce is gedefinieerd. GraphQL is een veelgebruikte communicatiemethode omdat deze lichtgewichtgericht is en een systeemintegrator de inhoud en volgorde van elke reactie kan opgeven.
 
-Adobe Commerce heeft twee GraphQL-systemen. Het kernGraphQL systeem verstrekt een brede waaier van vragen (lees verrichtingen) en mutaties (schrijf verrichtingen) die een verkoopster toestaan om met vele soorten pagina&#39;s, met inbegrip van product, klantenrekening, kar, controle, en meer in wisselwerking te staan. Nochtans, worden de vragen die productinformatie terugkeren niet geoptimaliseerd voor snelheid. Het GraphQL-systeem voor services kan alleen query&#39;s uitvoeren op producten en gerelateerde informatie. Deze query&#39;s leveren meer op dan vergelijkbare core query&#39;s.
+Adobe Commerce biedt twee GraphQL-systemen voor verschillende doeleinden:
+
+### Core GraphQL System
+
+- **Doel**: Volledig-gekenmerkte API voor alle verrichtingen van Commerce
+- **Mogelijkheden**: Vragen (lees) en mutaties (schrijf) voor producten, klanten, kar, controle, en meer
+- **Beperking**: De vragen van het product worden niet geoptimaliseerd voor snelheid
+- **geval van het Gebruik**: De algemene verrichtingen van Commerce en schrijven verrichtingen
+
+### Catalogusservice GraphQL-systeem
+
+- **Doel**: De krachtige vragen van de productcatalogus slechts
+- **Mogelijkheden**: Read-only vragen voor producten, attributen, inventaris, en prijzen
+- **Voordeel**: Aanzienlijk sneller dan kernsysteem voor productgegevens
+- **Geval van het Gebruik**: De productervaringen van de Storefront waar de snelheid kritiek is
 
 De gegevens beschikbaar aan de Dienst van de Catalogus worden geleverd door de uitbreiding van de Uitvoer van Gegevens SaaS. Deze extensie synchroniseert gegevens tussen de Commerce-toepassing en de aangesloten Commerce Services om ervoor te zorgen dat query&#39;s naar de services die GraphQL API-eindpunten retourneert, de meest recente catalogusgegevens retourneren. Voor informatie over het beheren van en het oplossen van problemenSaaS gegevens de uitvoerverrichtingen, zie de [ Gids van de Uitvoer van Gegevens SaaS ](../data-export/overview.md).
 
 [!DNL Catalog Service] klanten kunnen [ SaaS prijsindexeerder ](../price-index/price-indexing.md) gebruiken, die snellere prijsupdates en synchronisatietijd verstrekt.
 
-## Architectuur
+## Architectuurgegevens
 
-In het volgende diagram worden de twee GraphQL-systemen weergegeven:
+In het volgende diagram worden de architecturale verschillen tussen het GraphQL-kernsysteem en het GraphQL-systeem van Catalog Service weergegeven, waarbij wordt getoond hoe ze samenwerken om de prestaties van winkels te optimaliseren:
 
 ![ diagram van de architectuur van de Catalogus ](assets/catalog-service-architecture.png)
 
-In het kernGraphQL systeem, verzendt PWA een verzoek naar de toepassing van Commerce, die elk verzoek ontvangt, verwerkt het, misschien verzendend een verzoek door veelvoudige subsystems, dan keert een antwoord op storefront terug. Deze ronde trip kan leiden tot een trage laadtijd voor de pagina, wat kan leiden tot lagere conversiesnelheden.
+### De werking van de systemen
 
-[!DNL Catalog Service] is een Gateway van de Diensten Storefront. De dienst heeft toegang tot een afzonderlijk gegevensbestand dat productdetails en verwante informatie, zoals productattributen, varianten, prijzen, en categorieën bevat. De service houdt de database via indexering synchroon met de Adobe Commerce.
-Omdat de dienst directe communicatie met de toepassing overslaat, kan het de latentie van de verzoek en reactiecyclus verminderen.
+**Systeem van de Kern GraphQL (Traditionele Benadering):**
+De Progressieve Web App (PWA) verzendt verzoeken rechtstreeks naar de toepassing van Commerce, die elk verzoek door veelvoudige subsystemen alvorens een reactie terugkeert verwerkt. Deze stap voor ronde reizen in meerdere stappen kan leiden tot een trage laadtijd van de pagina, wat kan leiden tot lagere conversiesnelheden.
+
+**de Dienst van de Catalogus (Geoptimaliseerde Benadering):**
+De Dienst van de Catalogus doet dienst als Gateway van de Diensten Storefront die tot een specifieke, geoptimaliseerde gegevensbestand toegang heeft die productdetails, attributen, varianten, prijzen, en categorieën bevatten. De service zorgt voor synchronisatie met Adobe Commerce via automatische indexering, waarbij de traditionele aanvraagresponscyclus wordt overgeslagen om de latentie aanzienlijk te verminderen.
 
 De kern en de dienstGraphQL systemen communiceren niet direct met elkaar. U hebt toegang tot elk systeem via een andere URL en voor aanroepen is andere headerinformatie nodig. De twee GraphQL-systemen zijn ontworpen om samen te worden gebruikt. Het GraphQL-systeem van [!DNL Catalog Service] maakt het basissysteem sterker, zodat producten sneller kunnen worden opgeslagen.
 
@@ -57,11 +91,15 @@ Aangezien Catalog Service als service werkt, hoeven integrators zich niet zorgen
 
 Het schema vermindert de diversiteit van producttypen tot twee gebruiksgevallen:
 
-* Eenvoudige producten zijn producten die worden gedefinieerd met één prijs en hoeveelheid. De Catalogusservice wijst de eenvoudige, virtuele, downloadbare en cadeau-kaartproducttypen toe aan `simpleProductViews` .
+- **Eenvoudige producten** - de Dienst van de Catalogus brengt de eenvoudige, virtuele, downloadbare, en de producttypes van cadeaukaart van Adobe Commerce aan `simpleProductViews` in kaart. Dit type heeft:
+   - Eén enkele vaste prijs en hoeveelheid
+   - Een reguliere prijs (vóór kortingen) en eindprijs (na kortingen)
+   - Ondersteuning voor productkenmerken, zoals kleur, grootte en andere kenmerken
 
-* Complexe producten bestaan uit meerdere eenvoudige producten. De componenten eenvoudige producten kunnen verschillende prijzen hebben. Een complex product kan ook worden bepaald zodat de verkoopster de hoeveelheid componenten eenvoudige producten kan specificeren. De Catalogusservice wijst de configureerbare, bundel- en gegroepeerde producttypen toe aan `complexProductViews` .
-
-Complexe productopties worden verenigd en onderscheiden door hun gedrag, niet door type. Elke optiewaarde vertegenwoordigt een eenvoudig product. Deze optie heeft toegang tot de eenvoudige productkenmerken, inclusief prijs. Wanneer de verkoper alle opties voor een complex product selecteert, wijst de combinatie geselecteerde opties naar een specifiek eenvoudig product. Het eenvoudige product blijft dubbelzinnig totdat de gebruiker een waarde voor alle beschikbare opties selecteert.
+- **Complexe producten** - de Dienst van de Catalogus brengt de configureerbare Adobe Commerce, bundel, en gegroepeerde producttypes aan `complexProductViews` in kaart. De complexe producten zijn inzamelingen van veelvoudige eenvoudige producten die samen kunnen worden gevormd of worden gebundeld.
+   - Elk onderdeel van een eenvoudig product kan een eigen prijs hebben.
+   - Klanten kunnen de hoeveelheden voor afzonderlijke producten opgeven.
+   - Productopties (zoals grootte, kleur, materiaal) zijn verenigd en werken op dezelfde manier, ongeacht het producttype. Elke optie wijst naar een specifiek eenvoudig product met zijn eigen kenmerken en prijs. Het eindproduct blijft ongedefinieerd totdat de gebruiker alle vereiste opties selecteert.
 
 #### Kenmerken van de productweergave
 
@@ -85,6 +123,11 @@ De Catalogusdienst verzekert nauwkeurige prijsupdates en berekeningen door prijz
 
 ## Implementatie
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+Het implementatieproces omvat:
 
-Het installatieproces vereist configuratie van de [ Schakelaar van de Diensten van Commerce ](../landing/saas.md). Wanneer dat is voltooid, is de volgende stap dat een systeemintegrator de storefront-code bijwerkt om de [!DNL Catalog Service] query&#39;s op te nemen. Alle [!DNL Catalog Service] query&#39;s worden gerouteerd naar de GraphQL-gateway. De URL wordt tijdens het instapproces opgegeven.
+1. [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **[installeert en vormt de Dienst van de Catalogus](installation.md)** - installeert en vormt de uitbreiding van de Dienst van de Catalogus en opstelling de verbinding SaaS gebruikend [!DNL Commerce Services Connector].
+2. **de storefrontcode van de Update**: Integreer de vragen van GraphQL van de Dienst van de Catalogus in uw frontend.
+3. **vragen van de Route**: Alle vragen van de Dienst van de Catalogus gaan door de gateway van GraphQL (URL die tijdens onboarding wordt verstrekt)
+4. **Monitor en los gegevenssynchronisatie** problemen op: Verifieer betere prestaties en monitorresultaten
+
+

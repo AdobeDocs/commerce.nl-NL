@@ -19,14 +19,14 @@ Nadat [!DNL Catalog Service] is ingeschakeld, kunt u de service openen en gebrui
 [!DNL Catalog Service] is beschikbaar als een GraphQL API die u kunt benaderen vanuit de Commerce Admin of vanuit elke frontend-toepassing die GraphQL-query&#39;s ondersteunt. De service is beschikbaar in zowel SaaS- als PaaS-omgevingen.
 
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 | Omgeving | Endpoint |
 |------------ | ----------: |
 | **het Testen** | `https://catalog-service-sandbox.adobe.io/graphql` |
 | **Productie** | `https://catalog-service.adobe.io/graphql` |
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 | Omgeving | Endpoint |
 | ------------ | --------:|

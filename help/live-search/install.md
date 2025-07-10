@@ -181,7 +181,7 @@ U kunt deze nieuwe voorwaarden implementeren op de pagina met zoekresultaten. U 
 
 De Adobe Commerce API-sleutel en de bijbehorende persoonlijke sleutel zijn vereist om [!DNL Live Search] te verbinden met een installatie van Adobe Commerce. De API-sleutel wordt gegenereerd en onderhouden in de account van de [!DNL Commerce] -licentienemer, die deze kan delen met de ontwikkelaar of de systeemintegrator. De ontwikkelaar kan vervolgens de SaaS-gegevensruimten maken en beheren namens de licentiehouder. Als u al een set API-sleutels hebt, hoeft u deze niet opnieuw te genereren.
 
-Leer hoe te om uw API sleutels in het [ 1} artikel van de Schakelaar van de Diensten van Commerce te vormen.](../landing/saas.md)
+Leer hoe te om uw API sleutels in het [ 1&rbrace; artikel van de Schakelaar van de Diensten van Commerce te vormen.](../landing/saas.md)
 
 ## &#x200B;3. Synchroniseer uw catalogusgegevens
 

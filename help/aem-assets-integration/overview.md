@@ -34,19 +34,19 @@ Als u deze integratie wilt benutten met Product Visuals of AEM Assets, moeten be
 
 >[!TAB  Visuals van het Product ]
 
-[!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Visuals van het Product die door AEM Assets worden aangedreven, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media) (Deze vergunningen zijn beschikbaar uit-van-de-doos met [!DNL Adobe Commerce as a Cloud Service] en [!DNL Adobe Commerce Optimizer]).
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Visuals van het Product die door AEM Assets worden aangedreven, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media) (Deze vergunningen zijn beschikbaar uit-van-de-doos met [!DNL Adobe Commerce as a Cloud Service] en [!DNL Adobe Commerce Optimizer]).
 
 >[!TAB  AEM Assets ]
 
-[!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ AEM Dynamische Media ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ AEM Dynamische Media ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
-[!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} Adobe Commerce 2.4.5+
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} Adobe Commerce 2.4.5+
 
 * PHP 8.1, 8.2, 8.3 en 8.4
 
 * Composer 2.x
 
-[!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Adobe Experience Manager wordt provisioned met [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Adobe Experience Manager wordt provisioned met [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
 
 >[!ENDTABS]
 
@@ -76,7 +76,7 @@ De integratie van Commerce met Experience Manager Assets mogelijk maken is een d
 
 1. [ vorm uw project van AEM Assets om de meta-gegevens van Commerce ](get-started/configure-aem.md) te steunen.
 
-1. [!BADGE  PaaS slechts ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeert de pakketten van Adobe Commerce ](get-started/configure-commerce.md).
+1. [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeert de pakketten van Adobe Commerce ](get-started/configure-commerce.md).
 
 1. [ vorm de integratie ](get-started/setup-synchronization.md).
 

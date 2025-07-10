@@ -55,7 +55,7 @@ Adobe Commerce verstrekt de Bouwer van de Pagina als systeem van het a **inhouds
 
 ### AEM Asset Selector gebruiken in Page Builder
 
-[!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} om de **Selector van Activa van AEM** voor het inbedden van beelden te gebruiken:
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} om de **Selector van Activa van AEM** voor het inbedden van beelden te gebruiken:
 
 1. Navigeer aan om het even welke sectie in **Adobe Commerce Admin** die `content enrichment` gebruikend **Bouwer van de Pagina** steunt.
 

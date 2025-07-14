@@ -2,9 +2,9 @@
 title: Regels toevoegen
 description: Leer hoe u regels voor het wijzigen van zoekopdrachten maakt.
 exl-id: 7175ccf7-d838-43b0-a176-957e7db040e0
-source-git-commit: 449b281e46d16de56f4c3d2e01e7165c59ee78a2
+source-git-commit: 00c6d728b1bc425c873bdf46293085b8da242782
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Om een regel te bouwen, moet de eerste stap de regelredacteur gebruiken om de vo
 ## Een regel toevoegen
 
 1. In Admin, ga naar **Marketing** > SEO &amp; Onderzoek > **[!DNL Live Search]**.
-1. Plaats het **Reikwijdte** om de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) te identificeren waar de regel van toepassing is.
+1. Plaats het **Reikwijdte** om de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) te identificeren waar de regel van toepassing is.
 1. Klik de **Merchandising van het Onderzoek** werkruimte.
 1. Klik **toevoegen regel** om de regelredacteur te lanceren.
 
@@ -98,9 +98,13 @@ Selecteer het type strategie voor de regel. De **Test uw regel** venster toont d
 
    1. Selecteer **Slaat** > _Attributen_ > **Product** op.
    1. Zoek naar de attributen, zoals &quot;naam&quot;.
-   1. In de **Informatie van Attributen** > **&#x200B;**&#x200B;pagina van Eigenschappen Storefront, plaats het onderzoeksgewicht minder dan of gelijk aan `5`.
+   1. In de **Informatie van Attributen** > **** pagina van Eigenschappen Storefront, plaats het onderzoeksgewicht minder dan of gelijk aan `5`.
 
       ![ Product - het Gewicht van het Onderzoek ](assets/set-search-weight.png)
+
+>[!NOTE]
+>
+>De zoekervaring met winkelobjecten wordt beïnvloed door het samenwerken van meerdere configuraties, zoals facetten, synoniemen en regels voor zoeken/categoriesamenwerking. Dit kan leiden tot resultaten die afwijken van de resultaten die worden gezien bij het testen van afzonderlijke configuraties in Admin. Terwijl het testen Admin specifieke configuratiegebieden isoleert, past de opslag alle relevante configuraties samen toe, resulterend in een complexere en realistische onderzoeksoutput.
 
 ## Handmatige classificatie
 
@@ -149,7 +153,7 @@ De informatie die hier is ingegaan verschijnt in het [ paneel van de Details van
 1. Als de regel veelvoudige vragen heeft, test elk die door de regel zou kunnen worden beïnvloed.
 1. Wanneer volledig, klik **sparen en publiceer**.
 
-   De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.*
+   De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.*
 
 1. Hoewel de actieve regels onmiddellijk in werking treden, zou u tot 15 minuten kunnen moeten wachten op de caching vraagresultaten in de storefront om worden verfrist.
 

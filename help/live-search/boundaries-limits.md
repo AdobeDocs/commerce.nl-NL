@@ -3,9 +3,9 @@ title: Grenzen en grenzen
 description: Leer over de grenzen en de grenzen voor  [!DNL Live Search]  om ervoor te zorgen het aan de behoeften van uw zaken voldoet.
 role: Admin, Developer
 exl-id: 28b8d98f-0784-4c4d-b382-81c01838e0de
-source-git-commit: ff5c717dbdd638e114bccc3f6dec26f4be269194
+source-git-commit: 70ff444afbe7ddf41e966e479e03975a02f4e10f
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 
 ## Algemeen
 
-- De [ Geavanceerde module van het Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search) wordt onbruikbaar gemaakt wanneer [!DNL Live Search] wordt geïnstalleerd, en de Geavanceerde verbinding van het Onderzoek in storefront wordt verwijderd.
-- [ het Tarief van de Rij ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/pricing/product-price-tier) wordt niet gesteund op het [!DNL Live Search] gebied en de Widget van de Pagina van het Product van de Lijst.
+- De [ Geavanceerde module van het Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) wordt onbruikbaar gemaakt wanneer [!DNL Live Search] wordt geïnstalleerd, en de Geavanceerde verbinding van het Onderzoek in storefront wordt verwijderd.
+- [ het Tarief van de Rij ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier) wordt niet gesteund op het [!DNL Live Search] gebied en de Widget van de Pagina van het Product van de Lijst.
 - Productprijzen omvatten btw, maar [!DNL Live Search] kan de btw niet als een afzonderlijke waarde weergeven.
 - Zoeken naar inhoud (CMS-pagina&#39;s en -blokken) wordt niet ondersteund.
 - Het maximumaantal resultaten dat kan worden gepagineerd, is 10.000. Om ervoor te zorgen dat kopers geen diepe paginering hoeven te gebruiken wanneer een categorie of zoekresultaat een groot aantal producten bevat, moet u zinvolle manieren bieden om producten te filteren.
@@ -25,7 +25,7 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 - De zoekadapter ondersteunt geen productkenmerken die zijn gemaakt met een aangepast bronmodel en die als facetten worden gebruikt. Om deze functionaliteit te steunen, moet u het [ product gebruiken dat van de Pagina Widget ](plp-styling.md) van de Pagina een lijst maakt.
 - Aangepaste producttypen worden niet ondersteund.
 - Aangepaste kenmerken die via programmacode met `"is_user_defined": false` zijn gemaakt, worden niet ondersteund.
-- U kunt resultaten filtreren gebruikend &quot;begint met&quot;of &quot;bevat&quot;voorwaarden met sommige beperkingen zoals die [ hier ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#limitations) worden beschreven.
+- U kunt resultaten filtreren gebruikend &quot;begint met&quot;of &quot;bevat&quot;voorwaarden met sommige beperkingen zoals die in de [ ontwikkelaarsdocumentatie ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#limitations) worden beschreven.
 - U kunt prestatiemetriek slechts volgen binnen het laatste jaar.
 - Als een zoekquery meerdere woorden bevat, worden deze door de lege ruimte tussen de woorden als aparte zoektermen behandeld. Het gebruik [ synoniemen ](./synonyms.md) als u voor multiword onderzoeksvragen wilt rekenschap geven.
 
@@ -42,7 +42,7 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 ## Facetten
 
 - Een maximum van 100 attributen kan als facetten van de 200 filterbare attributen worden gevormd die kunnen worden geïndexeerd.
-- Binnen een facet kunnen maximaal 100 emmers worden geretourneerd. Als u meer dan 100 emmers moet terugkeren, [ creeer een steunkaartje ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) zodat kan Adobe het prestatieseffect analyseren en bepalen als het haalbaar is om deze grens voor uw milieu te verhogen.
+- Binnen een facet kunnen maximaal 100 emmers worden geretourneerd. Als u meer dan 100 emmers moet terugkeren, [ creeer een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) zodat kan Adobe het prestatieseffect analyseren en bepalen als het haalbaar is om deze grens voor uw milieu te verhogen.
 - Dynamische facetten kunnen prestatieproblemen veroorzaken in grote indexen en indexen met hoge rangorde. Als u dynamische facetten hebt gemaakt en u merkt dat de prestaties achteruitgaan of dat de pagina niet wordt geladen met time-outfouten, kunt u proberen uw facetten te wijzigen in vastgezet om te bepalen of dat het prestatieprobleem verhelpt.
 - De voorraadstatus (`quantity_and_stock_status`) wordt niet ondersteund als facet. U kunt `inStock: 'true'` gebruiken om te filteren uit aandelenproducten. Dit wordt vanuit het vak in de module `LiveSearchAdapter` ondersteund wanneer &quot;Display out of stock products&quot; is ingesteld op &quot;True&quot; in [!DNL Commerce] Admin.
 - Datumtypekenmerken worden niet als facet ondersteund.
@@ -77,12 +77,12 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 ## B2B- en categoriemachtigingen
 
 - Producten worden niet weergegeven als deze niet worden toegevoegd aan een standaard gedeelde catalogus.
-- Om klantengroepen te beperken die [ categorietoestemmingen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/categories/category-permissions) gebruiken:
+- Om klantengroepen te beperken die [ categorietoestemmingen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) gebruiken:
    - De producten moeten aan de wortelcategorie worden toegewezen. (**Nota:** u kunt deze beperking verwijderen door de uitbreiding van de Uitvoer van Gegevens SaaS aan versie 103.4.0+ bij te werken. Zie [ de uitbreiding van de gegevensuitvoer beheren ](../data-export/manage-extension.md).
    - Aan de klantengroep &quot;Niet aangemeld&quot; moeten de machtigingen &quot;Toestaan&quot; worden toegekend.
-   - Om producten tot de &quot;niet Gelogde&quot;klantengroep te beperken, ga naar elke categorie en plaats toestemming voor elke [ klantengroep ](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage).
+   - Om producten tot de &quot;niet Gelogde&quot;klantengroep te beperken, ga naar elke categorie en plaats toestemming voor elke [ klantengroep ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage).
 - Ondersteuning van de buitenverpakking voor B2B met de PLP-widget op PWA Studio wordt momenteel niet ondersteund. Nochtans, kunt u [ gebruiken API ](install.md#pwa-support) om deze functionaliteit uit te voeren.
-- De facetten van de categorie in [!DNL Live Search] zouden categorieën kunnen tonen die niet aan een specifieke [ klantengroep ](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage) kunnen tonen.
+- De facetten van de categorie in [!DNL Live Search] zouden categorieën kunnen tonen die niet aan een specifieke [ klantengroep ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage) kunnen tonen.
 - [!DNL Live Search] kan maximaal 1.000 klantengroepen ondersteunen.
 
 ## [!DNL Storefront popover]
@@ -97,9 +97,9 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 
 Raadpleeg de volgende artikelen in de knowledgebase voor hulp bij het oplossen van enkele veelvoorkomende problemen in [!DNL Live Search] :
 
-- [[!DNL Live Search]  niet gesynchroniseerde catalogus ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync)
-- [[!DNL Live Search]  dashboard en het rangschikken van het onderzoeksresultaat is onjuist ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect)
-- [[!DNL Live Search]  vertoningen uit-van-voorraad producten ongeacht de montages van de voorraadstatus in Admin ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-displays-out-of-stock-products)
-- [[!DNL Live Search]  worden de facetten niet alfabetisch gesorteerd ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-facets-not-sorted)
+- [[!DNL Live Search]  niet gesynchroniseerde catalogus ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync)
+- [[!DNL Live Search]  dashboard en het rangschikken van het onderzoeksresultaat is onjuist ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect)
+- [[!DNL Live Search]  vertoningen uit-van-voorraad producten ongeacht de montages van de voorraadstatus in Admin ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-displays-out-of-stock-products)
+- [[!DNL Live Search]  worden de facetten niet alfabetisch gesorteerd ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-facets-not-sorted)
 
-Als u extra hulp nodig hebt, contacteer [ steun ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
+Als u extra hulp nodig hebt, contacteer [ steun ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).

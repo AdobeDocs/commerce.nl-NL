@@ -1,9 +1,10 @@
 ---
 title: Instellingen
 description: Vorm montages voor de  [!DNL Live Search]  dienst.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 6387a365-7e23-4023-95ac-27908164d81c
+source-git-commit: 70ff444afbe7ddf41e966e479e03975a02f4e10f
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -23,8 +24,8 @@ De taalinstelling vertelt de [!DNL Live Search] -service welke taal moet worden 
 U kunt het aantal groepen voor het prijsbereik opgeven en aangeven hoe de prijswaarden eronder worden verdeeld. Elke prijsklasse overlapt de vorige groep met één. Vijf groepen met een interval van 20 maken bijvoorbeeld de volgende prijsbereiken: 0-20, 20-40, 40-60, 60-80 en >80. Als de catalogus niet genoeg producten bevat om alle gedefinieerde bereiken te vullen, wordt de weergave van de beschikbare groepen dienovereenkomstig aangepast. Bijvoorbeeld: 0-20, 60-80, >80.
 
 1. In Admin, ga **Marketing** > *SEO &amp; Onderzoek* > **[!DNL Live Search]**.
-1. Op de **1&rbrace; werkruimte van Montages &lbrace;onder *Vergemakkelijking van de Prijs*, doe het volgende:**
-   * Ga het **Aantal selecties** in, of prijsgroeperingen om beschikbaar te zijn. Er kunnen maximaal 50 prijsgroepen worden gedefinieerd.
+1. Op de **1} werkruimte van Montages {onder** Vergemakkelijking van de Prijs *, doe het volgende:*
+   * Ga het **Aantal selecties** in, of prijsgroeperingen om beschikbaar te zijn. Met [!DNL Live Search] 4.4.0 kunt u maximaal 100 prijsgroepen definiëren. Eerdere versies maakten 50 prijsgroepen mogelijk.
    * Ga de **waarde van het Interval**, of prijswaaier voor elke groep in. De maximumwaarde is 40.000.000.
 1. Klik **sparen**.
 
@@ -34,7 +35,7 @@ U kunt het aantal groepen voor het prijsbereik opgeven en aangeven hoe de prijsw
 
 | Veld | Beschrijving |
 |--- |--- |
-| Aantal selecties | Hiermee geeft u het aantal groepen voor prijsbereik op dat als zoekfilters in de winkel kan worden gebruikt. Standaardwaarde: 8, Maximumwaarde: 50 |
+| Aantal selecties | Hiermee geeft u het aantal groepen voor prijsbereik op dat als zoekfilters in de winkel kan worden gebruikt. Standaardwaarde: 8, maximale waarde: 100 (vanaf [!DNL Live Search] 4.4.0) |
 | Interval, waarde | Hiermee geeft u het prijsinterval voor elke groep op. Vijf selecties met een intervalwaarde van 20 maken bijvoorbeeld vijf groepen van 0-20, 20-40, 40-60, 60-80 en >80. Standaardwaarde: 5, Maximumwaarde: 40.000.000 |
 
 ## Taal

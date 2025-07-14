@@ -98,7 +98,7 @@ Selecteer het type strategie voor de regel. De **Test uw regel** venster toont d
 
    1. Selecteer **Slaat** > _Attributen_ > **Product** op.
    1. Zoek naar de attributen, zoals &quot;naam&quot;.
-   1. In de **Informatie van Attributen** > **** pagina van Eigenschappen Storefront, plaats het onderzoeksgewicht minder dan of gelijk aan `5`.
+   1. In de **Informatie van Attributen** > **&#x200B;**&#x200B;pagina van Eigenschappen Storefront, plaats het onderzoeksgewicht minder dan of gelijk aan `5`.
 
       ![ Product - het Gewicht van het Onderzoek ](assets/set-search-weight.png)
 
@@ -153,7 +153,7 @@ De informatie die hier is ingegaan verschijnt in het [ paneel van de Details van
 1. Als de regel veelvoudige vragen heeft, test elk die door de regel zou kunnen worden beïnvloed.
 1. Wanneer volledig, klik **sparen en publiceer**.
 
-   De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.*
+   De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.*
 
 1. Hoewel de actieve regels onmiddellijk in werking treden, zou u tot 15 minuten kunnen moeten wachten op de caching vraagresultaten in de storefront om worden verfrist.
 

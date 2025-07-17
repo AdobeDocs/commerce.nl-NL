@@ -3,9 +3,9 @@ title: Gegevens verzamelen
 description: Leer hoe de gebeurtenissen gegevens voor  [!DNL Product Recommendations] verzamelen.
 feature: Services, Recommendations, Eventing
 exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
-source-git-commit: 94d2a9911ab10d164d75779d1f310e5bdf2aea74
+source-git-commit: fe96b2922583c0fcb0fcadbdacead6267806f44b
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Sommige soorten aanbevelingen gebruiken gedragsgegevens van uw klanten om machin
 
 Wanneer kunt u beginnen met het gebruiken van aanbevelingen die gedragsgegevens gebruiken? Het hangt ervan af. Dit wordt bedoeld als _Koud Begin_ probleem.
 
-Het _Koude 1&rbrace; probleem van het Begin van het Begin &lbrace;verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor productaanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen door de `magento/production-recommendations` module te installeren en te plaatsen.
+Het _Koude 1} probleem van het Begin van het Begin {verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor productaanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen door de `magento/production-recommendations` module te installeren en te plaatsen.
 
 De volgende tabel bevat een aantal algemene richtlijnen voor de hoeveelheid tijd die nodig is om voldoende gegevens voor elk type aanbeveling te verzamelen:
 
@@ -88,9 +88,11 @@ De [ Verzameling van de Gebeurtenis van Adobe Commerce Storefront ](https://deve
 | `rec-click` | De verkoopster klikt op een product in de aanbevolen eenheid. |
 | `view` | Verzonden wanneer de aanbevelingen-eenheid voor ten minste 50 procent zichtbaar wordt, bijvoorbeeld door naar beneden te schuiven. Als een aanbevolen eenheid bijvoorbeeld twee regels heeft, wordt een `view` -gebeurtenis verzonden wanneer één regel plus één pixel van de tweede regel zichtbaar wordt voor de gebruiker. Als de gebruiker de pagina meerdere keren omhoog en omlaag schuift, wordt de gebeurtenis `view` net zo vaak verzonden als de gebruiker de hele aanbevolen eenheid weer op de pagina ziet. |
 
->[!NOTE]
->
->Metrische gegevens voor productaanbevelingen zijn geoptimaliseerd voor Luma-winkels. Als uw opslag met PWA Studio wordt uitgevoerd, verwijs naar de [ documentatie van PWA ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). Als u een douane frontend technologie zoals React of Vue JS gebruikt, leer hoe te om [ Aanbevelingen van het Product in een headless ](headless.md) milieu te integreren.
+Hoewel de metriek van de Aanbeveling van het Product voor Opslagronts Luma wordt geoptimaliseerd, werken zij ook met andere storefront implementaties:
+
+- [ Edge Delivery Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/)
+- [ PWA Studio ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)
+- [Aangepaste voorzijde (Reageren, waarde JS)](headless.md)
 
 #### Vereiste dashboardgebeurtenissen
 
@@ -138,4 +140,4 @@ In deze tabel worden de gebeurtenissen beschreven die door elk type aanbeveling 
 
 >[!NOTE]
 >
->Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.
+>Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.

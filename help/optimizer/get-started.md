@@ -3,11 +3,11 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: f1861e890ec661d441b6f2c9b0c0cd54b4c20ece
+source-git-commit: f920cfe7cd433e85f343fefe1062a1972e5e5e5f
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Voer de volgende essentiële stappen uit om uw [!DNL Adobe Commerce Optimizer] -
 Nadat u de instantie hebt gemaakt:
 
 1. [ beheer uw instantie ](#manage-an-instance) van de Manager van Commerce Cloud.
-1. Opstelling catalogusmeningen en beleid gebruikend de [ gids van de Mening van de Catalogus ](./setup/catalog-view.md).
 1. Vorm gebruikerstoegang gebruikend de [ gids van het Beheer van de Gebruiker ](./user-management.md).
 
 ### Stap 3. Voorbeeldgegevens toevoegen (optioneel)
@@ -146,15 +145,12 @@ De steekproefgegevens zijn gebaseerd op het [ bedrijfscase van het Carvelo ](./u
 
 1. Heb toegang tot de bewaarplaats GitHub:
    - Bezoek de [ Opslag van de Ingestie van de Gegevens van de Catalogus van de Steekproef ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)
-   - Volg de installatie-instructies in het README-bestand van de gegevensopslagruimte.
 
-2. Voer de inname uit:
-   - Gebruik de beschikbare scripts om voorbeeldgegevens in uw Adobe Commerce Optimizer-testomgeving te laden.
-   - Verifieer dat de gegevens in uw [ Synchronisatie van Gegevens ](./setup/data-sync.md) pagina verschijnen.
+1. Volg de installatie-instructies in het README-bestand van de gegevensopslagruimte.
 
-3. Opruimen (optioneel):
-
-   Verwijder de voorbeeldgegevens met behulp van het script `reset.js` dat is opgenomen in de broncode van de voorbeeld-gegevensloader.
+   - De gegevensinvoer configureren en uitvoeren
+   - Catalogusbeleid en weergaven configureren met behulp van voorbeeldgegevens
+   - Voorbeeldgegevens opschonen (optioneel)
 
 ## Volgende stappen
 
@@ -190,5 +186,5 @@ Na voltooiing van de installatie:
 ### Hulp vragen
 
 - **Middelen van de Ontwikkelaar**: [ Documentatie van de Ontwikkelaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog/)
-- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
+- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

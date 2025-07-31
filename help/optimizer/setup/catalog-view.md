@@ -3,11 +3,11 @@ title: Catalogusweergave
 description: Leer welke catalogusweergaven zijn en hoe u deze kunt maken om uw productcatalogus te ordenen op basis van de bedrijfsstructuur, het beleid en de prijzen.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
-source-git-commit: f67a5327b742338655b0f7ffa4076a174219f711
+source-git-commit: 2e47c770d204c9c7f959893704dd0ebcc6ac792a
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Voordat u een catalogusweergave maakt, moet u controleren of:
 
 - [ Gemaakt beleid ](policies.md) om productfilters te bepalen
 
-- [ de boeken van de opstellingsprijs ](pricebooks.md) voor het tarief
+- [ Verwoekerde prijsboeken ](pricebooks.md) voor het tarief
 
 1. Van het linkermenu, ga naar _opstelling van de Opslag_, en klik **[!UICONTROL Catalog views]**.
 
@@ -49,14 +49,16 @@ Voordat u een catalogusweergave maakt, moet u controleren of:
 1. Configureer de details van de catalogusweergave:
 
    - **Naam** - ga de naam van de catalogusmening in, bijvoorbeeld `Celport`. &#x200B;
-   - **de bronnen van de Catalogus** - voeg de catalogusbron (scène) toe, bijvoorbeeld `en-US`. De pers **gaat** binnen.
+   - **de bronnen van de Catalogus** - selecteer de catalogusbron (scène), bijvoorbeeld `en-US`.
    - **Beleid** - gebruik drop-down om het relevante beleid te selecteren. Bijvoorbeeld &#39;Merk&#39;, &#39;Model&#39;. &#x200B;Zorg ervoor u reeds [ een beleid ](policies.md) creeerde.
 
 1. Selecteer het prijzenboek om aan de catalogusmening te verbinden.
 
-1. Klik op **[!UICONTROL Add]** om de catalogusweergave te maken met het gekoppelde prijzenboek en het gekoppelde beleid.
+   - **gebruik alle beschikbare prijsboeken** - Deze optie trekt prijsgegevens van alle beschikbare prijsboeken.
+   - **staat geselecteerde prijsboeken slechts toe** - Deze optie toont **toegestane prijsboeken** dialoog toevoegen waar u kunt selecteren welk specifiek prijsboek voor de catalogusmening te gebruiken.
+   - **maak prijzen**-Deze optie onbruikbaar op dit ogenblik niet beschikbaar.
 
-   Als de **[!UICONTROL Add]** knoop niet actief is, zorg ervoor dat de catalogusbron behoorlijk wordt toegevoegd door uw curseur op het gebied van de bronnen van de Catalogus te plaatsen en **te drukken gaat** binnen. &#x200B;
+1. Klik op **[!UICONTROL Add]** om de catalogusweergave te maken met de gekoppelde prijsboeken en het bijbehorende beleid.
 
 De pagina van de catalogusweergaven wordt bijgewerkt om de nieuwe catalogusweergave weer te geven. &#x200B;
 
@@ -71,7 +73,7 @@ Catalogusweergaven maken deel uit van het Merchandising Services-framework dat h
 ### Hoe het werkt
 
 **1. Gegevensinname**
-Catalogusgegevens van PIM, ERP en andere systemen worden opgenomen in het framework Merchandising Services. Elke SKU bevat locale informatie en productkenmerken die aan catalogusmeningen, beleid, en scènes in kaart brengen. Voor meer informatie over gegevensopname, zie de [ documentatie van de ontwikkelaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog).
+Catalogusgegevens van PIM, ERP en andere systemen worden opgenomen in het framework Merchandising Services. Elke SKU bevat locale informatie en productkenmerken die aan catalogusmeningen, beleid, en scènes in kaart brengen. Voor meer informatie over gegevensopname, zie de [ documentatie van de ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/).
 
 **2. Unified Base-catalogus**
 De ingesloten gegevens leiden tot een verenigde basiscatalogus in de de gegevenspijpleiding van de Dienst van de Catalogus. Met deze ene bron voorkomt u dubbele gegevens in verschillende bedrijfseenheden.
@@ -80,7 +82,7 @@ De ingesloten gegevens leiden tot een verenigde basiscatalogus in de de gegevens
 Meerdere catalogusweergaven vertegenwoordigen verschillende bedrijfseenheden (bijvoorbeeld &quot;Texas Retail&quot;, &quot;Texas Retail Seasonal&quot;). Landinstellingen, beleidsregels en prijzenboeken kunnen worden gedeeld door catalogusweergaven voor flexibiliteit.
 
 **4. Levering via meerdere kanalen**
-De gefilterde catalogusgegevens worden geleverd aan verschillende bestemmingen, waaronder Edge Delivery Services-winkels, -markten, -advertentieplatforms en aangepaste microwinkels. Voor meer informatie over de levering van catalogusgegevens, zie de [ ontwikkelaardocumentatie ](https://developer-stage.adobe.com/commerce/services/composable-catalog).
+De gefilterde catalogusgegevens worden geleverd aan verschillende bestemmingen, waaronder Edge Delivery Services-winkels, -markten, -advertentieplatforms en aangepaste microwinkels. Voor meer informatie over de levering van catalogusgegevens, zie de [ ontwikkelaardocumentatie ](https://developer.adobe.com/commerce/services/optimizer/).
 
 ### Belangrijkste onderdelen
 
@@ -126,4 +128,4 @@ De gefilterde catalogusgegevens worden geleverd aan verschillende bestemmingen, 
 
 >[!INFO]
 >
->Voor gedetailleerde informatie over de opname en levering van catalogusgegevens, zie de [ documentatie van de ontwikkelaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog).
+>Voor gedetailleerde informatie over de opname en levering van catalogusgegevens, zie de [ documentatie van de ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/).

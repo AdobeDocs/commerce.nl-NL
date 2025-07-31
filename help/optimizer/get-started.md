@@ -3,11 +3,11 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: 036e04a02edadf4b8a48fc38e784d9dde734ba45
+source-git-commit: f1861e890ec661d441b6f2c9b0c0cd54b4c20ece
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Handelaars optimaliseren en personaliseren de boodschapervaring door productontd
 
 1. Toegang tot uw instantie:
 
-   Klik op de instantienaam om de [!DNL Adobe Commerce Optimizer] -toepassing te openen.
+   Klik op de instantienaam om de [!DNL Adobe Commerce Optimizer] -toepassing te openen. Binnen de toepassing kunt u tussen verschillende [!DNL Adobe Commerce Optimizer] -instanties schakelen met behulp van de vervolgkeuzelijst boven aan de pagina:
+
+   ![ Schakelaar van de Instantie ](./assets/context-switcher.png){zoomable="yes"}
+
+   Alle weergegeven exemplaren behoren tot dezelfde organisatie. U kunt tussen instanties schakelen om gegevens en montages voor elk te bekijken, zoals tussen zandbak en productiemilieu&#39;s.
 
 1. Instantiedetails ophalen:
    - Klik op het informatiepictogram naast de instantienaam.
@@ -186,5 +190,5 @@ Na voltooiing van de installatie:
 ### Hulp vragen
 
 - **Middelen van de Ontwikkelaar**: [ Documentatie van de Ontwikkelaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog/)
-- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
+- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

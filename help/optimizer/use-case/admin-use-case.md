@@ -3,10 +3,11 @@ title: Gebruiksscenario van begin tot einde voor Storefront en Catalog Administr
 description: Leer hoe te om  [!DNL Adobe Commerce Optimizer]  te gebruiken om uw catalogus te beheren gebruikend catalogusmeningen en beleid en hoe te opstelling uw opslag die op uw catalogusconfiguratie wordt gebaseerd.
 role: Admin, Developer
 feature: Personalization, Integration
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 474426ef1f99eed8d2c1b5d736332aaa666872fa
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
+source-git-commit: 5c745a8b6b3c289cb52ad7756ec521b0df96c053
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2158'
 ht-degree: 0%
 
 ---
@@ -32,11 +33,11 @@ Voordat u met deze zelfstudie begint, moet u controleren of aan de volgende voor
 - **Toestemmingen van de Gebruiker**
    - Toegang voor beheerders tot Adobe Admin Console
    - Zie [ Gebruikersbeheer ](../user-management.md) voor rekeningsopstelling
-   - Als u geen toegang hebt, contacteer uw Adobe rekeningsvertegenwoordiger of voltooi de [ Vroege vorm van het Programma van de Toegang ](https://experienceleague.adobe.com/go/aco-early-access-program)
+   - Neem contact op met uw Adobe-accountvertegenwoordiger als u geen toegang hebt.
 
 - **Gegevens van de Steekproef**
    - Carvelo Automobiel catalogusgegevens die in uw instantie zijn geladen
-   - Volg instructies in de [ bewaarplaats van de catalogusgegevens van de Steekproef ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)
+   - Volg de instructies in de [ bewaarplaats van de catalogusgegevens van de Steekproef ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)
    - U kunt voorbeeldgegevens na voltooiing verwijderen met het meegeleverde script `reset.js`
 
 - **Milieu Storefront**
@@ -46,7 +47,7 @@ Voordat u met deze zelfstudie begint, moet u controleren of aan de volgende voor
 
 ## Laten we beginnen
 
-In dit geval werkt u met het volgende:
+In dit geval gebruikt u het volgende:
 
 1. [!DNL Adobe Commerce Optimizer] UI - Opstelling catalogusmeningen en beleid om de complexe catalogus operationele opstelling voor het de gebruikscase van Carvelo te beheren.
 
@@ -54,7 +55,7 @@ In dit geval werkt u met het volgende:
 
 >[!NOTE]
 >
-> Leer over de dossiers van de storefrontconfiguratie door [ te herzien verken boilerplate ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=nl-NL) onderwerp in de documentatie van de Storefront van Adobe Commerce.
+> Leer over de dossiers van de storefrontconfiguratie door [ te herzien verken boilerplate ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/) onderwerp in de documentatie van de Storefront van Adobe Commerce.
 
 ### ‌ Key-trajecten
 
@@ -156,7 +157,7 @@ Met [!DNL Adobe Commerce Optimizer] zal de commercebeheerder:
 1. Creeer een nieuw beleid genoemd *de categorieën van het Deel van de Knoophaven* voor Celport om slechts rem en hangingsdelen te verkopen.
 1. Maak een nieuwe catalogusweergave voor de Celport-winkel.
 
-   Deze catalogusmening gebruikt uw onlangs gecreeerd beleid *de categorieën van het Deel van de Knol* en de bestaande *OostCoast Inc Banden* om ervoor te zorgen dat Celport slechts de merken van Bolt en van Cruz als deel van de overeenkomst met East Coast Inc. kan verkopen. De de catalogusmening van Celport zal het `east_coast_inc` prijsboek gebruiken om productprijsprogramma&#39;s te steunen die zich aan merkvergunningsovereenkomsten richten.
+   Deze catalogusmening gebruikt uw onlangs gecreeerd beleid *de categorieën van het Deel van de Knol* en de bestaande *OostCoast Inc Banden* om ervoor te zorgen dat Celport slechts de merken van Bolt en van Cruz als deel van de overeenkomst met East Coast Inc. kan verkopen. De de catalogusmening van Celport gebruikt het `east_coast_inc` prijsboek om productprijzenprogramma&#39;s te steunen die zich met merkvergunningsovereenkomsten richten.
 1. Werk de configuratie van de handelsafzet bij om gegevens van de de catalogusmening te gebruiken Celport die u creeerde.
 
 Aan het einde van deze sectie zal Celport klaar zijn om de producten van Carvelo te verkopen.
@@ -215,7 +216,7 @@ Laten wij een nieuw beleid tot stand brengen genoemd *de categorieën van het De
 
 ### Een catalogusweergave maken
 
-Creeer een nieuwe catalogusmening voor de *handelaar 0&rbrace; Celport &lbrace;en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* Categorieën van het Deel van de Knoop *.*
+Creeer een nieuwe catalogusmening voor de *handelaar 0} Celport {en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* Categorieën van het Deel van de Knoop *.*
 
 1. In het linkerspoor, breid de _opstellings_ sectie van de Opslag uit en klik **[!UICONTROL Catalog views]**.
 
@@ -228,17 +229,13 @@ Creeer een nieuwe catalogusmening voor de *handelaar 0&rbrace; Celport &lbrace;e
 1. Details van catalogusweergave invullen:
 
    - **Naam** = *Celport*
-   - **de bronnen van de Catalogus** = *nl-NL* (slag gaat binnen)
+   - **de bronnen van de Catalogus** = *en-US*
    - **Beleid** (gebruiksdrop) = *de Randen van Coast Inc van het Oosten*; *de categorieën van het Deel van de Knol*; *Merk*; *Model*                          
 1. Klik op **[!UICONTROL Add]** om de catalogusweergave te maken.
 
    De pagina met catalogusweergaven wordt bijgewerkt om de nieuwe catalogusweergave weer te geven.
 
    ![ Bijgewerkte Lijst van de Mening van de Catalogus ](../assets/updated-catalog-view-list.png)
-
-   >[!NOTE]
-   >
-   >Als de **[!UICONTROL Add]** knoop niet blauw is, zorg ervoor dat de catalogusbron door uw curseur in de **[!UICONTROL Catalog sources]** sectie te plaatsen en **te drukken** ingaat.
 
 1. Hiermee wordt de weergave-id van de Celport-catalogus opgehaald.
 
@@ -371,7 +368,7 @@ Nu u de storefront-configuratie hebt bijgewerkt om de Celport-catalogusweergave 
 
    ![ Van het Product van Remmen het Noteren Pagina ](../assets/brakes-listing-page.png)
 
-   Klik op een afbeelding voor remonderdelen om de productdetails weer te geven met prijsinformatie en noteer de prijsinformatie van het product.
+   Klik op een afbeelding van een remonderdeel om de productdetails met prijsinformatie te bekijken en de productprijsinformatie te noteren.
 
 1. Zoek naar `tires`. Dit is een andere onderdelencategorie die beschikbaar is in de gebruikscase-gegevens van uw [!DNL Adobe Commerce Optimizer] -instantie.
 
@@ -403,7 +400,7 @@ Als er tijdens deze zelfstudie problemen optreden, kunt u de volgende oplossinge
 
 **Probleem:** sparen knoop is niet actief
 
-- **Oplossing:** zorg ervoor de beleidsnaam is ingegaan en alle vereiste gebieden zijn voltooid
+- **Oplossing:** zorg ervoor dat de beleidsnaam is ingegaan en alle vereiste gebieden worden voltooid
 
 **Probleem:** Filter werkt niet zoals verwacht
 
@@ -411,13 +408,9 @@ Als er tijdens deze zelfstudie problemen optreden, kunt u de volgende oplossinge
 
 ### Weergaveproblemen met catalogus
 
-**Probleem:** de mening van de Catalogus verschijnt niet in lijst
+**Probleem:** de mening van de Catalogus verschijnt niet in de lijst
 
 - **Oplossing:** verifieer dat alle bijbehorende beleid wordt toegelaten en behoorlijk gevormd
-
-**Probleem:** voeg knoop toe is niet blauw
-
-- **Oplossing:** verzeker de catalogusbron door uw curseur op het gebied te plaatsen en te drukken binnengaan wordt geselecteerd
 
 ### Problemen met configuratie Storefront
 
@@ -427,7 +420,7 @@ Als er tijdens deze zelfstudie problemen optreden, kunt u de volgende oplossinge
 
 **Probleem:** Geen producten die tonen
 
-- **Oplossing:** verifieer dat identiteitskaart van het prijsboek één beschikbaar in uw instantie van Adobe Commerce Optimizer aanpast
+- **Oplossing:** verifieer dat identiteitskaart van het prijzenboek in uw instantie van Adobe Commerce Optimizer beschikbaar aanpast
 
 **Probleem:** Onderzoek terugkerend geen resultaten
 
@@ -451,7 +444,5 @@ Ga als volgt te werk om meer te leren over Adobe Commerce Optimizer:
 - Verken [ het koopvaardiseren eigenschappen ](../merchandising/overview.md) om de het winkelen ervaring te personaliseren
 - Leer over [ geavanceerde beleidsconfiguraties ](../setup/policies.md)
 - Opstelling [ extra catalogusmeningen ](../setup/catalog-view.md) voor andere dealership
-- Herzie de [ API documentatie ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/) voor programmatic catalogusbeheer
-- Leer hoe u drop-in componenten voor uw Edge Delivery Services-winkel kunt configureren om aangepaste storefront-ervaringen te maken voor productdetectie, aanbevelingen en andere opslagmogelijkheden. Zie de [ documentatie Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=nl-NL)
-
-
+- Herzie de [ API documentatie ](https://developer.adobe.com/commerce/services/optimizer/) voor programmatic catalogusbeheer
+- Leer hoe u drop-in componenten voor uw Edge Delivery Services-winkel kunt configureren om aangepaste storefront-ervaringen te maken voor productdetectie, aanbevelingen en andere opslagmogelijkheden. Zie de [ documentatie Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/)

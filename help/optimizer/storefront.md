@@ -226,7 +226,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
 
    Zie de [ documentatie van de Bibliotheek van Sidekick ](https://www.aem.live/docs/sidekick-library) voor meer informatie.
 
-+++
+   +++
 
 1. Werk de `url` zeer belangrijke waarden met de waarden voor uw bewaarplaats GitHub bij.
 
@@ -266,7 +266,7 @@ U hebt de volgende informatie nodig om de storefront boilerplate-code bij te wer
    }
    ```
 
-+++
+   +++
 
 1. Sla het bestand op.
 

@@ -216,7 +216,7 @@ Laten wij een nieuw beleid tot stand brengen genoemd *de categorieën van het De
 
 ### Een catalogusweergave maken
 
-Creeer een nieuwe catalogusmening voor de *handelaar 0} Celport {en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* Categorieën van het Deel van de Knoop *.*
+Creeer een nieuwe catalogusmening voor de *handelaar 0&rbrace; Celport &lbrace;en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* Categorieën van het Deel van de Knoop *.*
 
 1. In het linkerspoor, breid de _opstellings_ sectie van de Opslag uit en klik **[!UICONTROL Catalog views]**.
 

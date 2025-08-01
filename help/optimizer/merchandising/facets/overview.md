@@ -41,7 +41,7 @@ Zie de [ Meta-gegevens API van de Ingestie van Gegevens ](https://developer.adob
 
 ## Standaardeigenschappen van niet-systeemkenmerken
 
-In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven. Het plaatsen van het *Gebruik in het 1} attributenbezit van het Onderzoek {aan* maakt de attributen doorzoekbaar in `Yes`.[!DNL Adobe Commerce Optimizer]
+In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven. Het plaatsen van het *Gebruik in het 1&rbrace; attributenbezit van het Onderzoek &lbrace;aan* maakt de attributen doorzoekbaar in `Yes`.[!DNL Adobe Commerce Optimizer]
 
 | Kenmerkcode | Doorzoekbaar |
 |--- |--- |

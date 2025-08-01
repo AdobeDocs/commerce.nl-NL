@@ -4,7 +4,7 @@ description: Leer over de belangrijkste eigenschappen en de voordelen van  [!DNL
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User, Leader
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: cd5244d67f67c6f1e8a10f09a39f33073fcea9af
 workflow-type: tm+mt
 source-wordcount: '1239'
@@ -32,13 +32,13 @@ Dit diagram illustreert de gegevensstroom tussen [!DNL Adobe Commerce as a Cloud
 
 ## Commerce Storefront
 
-Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
+Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront?lang=nl-NL) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
 
 Commerce Storefront heeft een volledig ontkoppelde architectuur die alle Merchandising Services en gegevens biedt via een GraphQL API-laag. Deze architectuur staat teams toe om hun frontends onafhankelijk van de Stichting van Commerce te ontwikkelen, die de behendigheid verstrekt om nieuwe aanraakpunten met nieuwe technologieën te bouwen en te testen.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts) voor begeleiding bij het overgaan.
+>[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=nl-NL#existing-storefronts) voor begeleiding bij het overgaan.
 
 ## Handelsbemiddeling en betalingsdiensten
 
@@ -121,7 +121,7 @@ De ontwikkelaars kunnen uitvoerige [ GraphQL ](https://developer.adobe.com/comme
 
 <!-- ## Experience Cloud integration
 
-[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [Data Connection](../data-connection/overview.md) unlocks insights about your shoppers' buying behavior so that you can create personalized shopping experiences across all channels with other Adobe Digital Experience products. -->
 

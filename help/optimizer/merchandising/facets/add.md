@@ -1,10 +1,11 @@
 ---
 title: Facturen maken en beheren
 description: Leer hoe te om facetten in  [!DNL Adobe Commerce Optimizer] toe te voegen en te beheren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 3020386cd051b4453ed6b90d2c694a5bb31dfb24
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: d6b7ff1f-a9b8-4fb8-8bd3-b3596695045c
+source-git-commit: ad8fb7d1d7e1ad124647ba84377079dcfbd46a3c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,9 @@ Alle filterbare productkenmerken kunnen als facet worden gebruikt. Facetten help
 
    Het facet wordt toegevoegd aan de bodem van de *Dynamische facetten* lijst en *publiceert veranderingen* knoop wordt beschikbaar.
 
-1. Als het facet u wilt toevoegen niet kan worden gevonden, zorg ervoor de [ productattributen ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/#operation/createProductMetadata) de volgende reeks heeft:
+1. Als het facet u wilt toevoegen niet kan worden gevonden, gebruik [ Meta-gegevens API ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata) om de `searchable` parameter te plaatsen:
 
-   - `searchable` = `Yes`
+   `"searchable": true`
 
    De volgende keer dat de catalogus wordt gesynchroniseerd met [!DNL Adobe Commerce Optimizer], wordt het facet beschikbaar in de winkel. Als de facet niet beschikbaar na twee uren is, zie [ gegevenssynchronisatie ](../../setup/data-sync.md).
 
@@ -35,7 +36,7 @@ Alle filterbare productkenmerken kunnen als facet worden gebruikt. Facetten help
 
 1. Zoek het facet dat u wilt bewerken.
 1. Klik (![ meer selecteur ](../../assets/btn-more.png)) meer selecteur.
-1. Voor het menu, geeft de klik **&#x200B;**&#x200B;uit. Pas vervolgens de volgende eigenschappen naar wens aan:
+1. Voor het menu, geeft de klik **** uit. Pas vervolgens de volgende eigenschappen naar wens aan:
 
    - Label - Voer het facetlabel in dat u wilt gebruiken.
    - Type sorteren - Kies een van de volgende opties:

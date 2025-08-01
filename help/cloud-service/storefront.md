@@ -3,8 +3,8 @@ title: Winefront instellen
 description: Leer hoe te om het steigereedschap in werking te stellen om uw  [!DNL Adobe Commerce as a Cloud Service]  storefront te opstelling.
 role: Developer
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: c608d9e82a892e40d362065c229b8d451ed3dbfb
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: c10d3b6a88fefb8680a039347960bfc7cfa13153
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In de volgende stappen wordt getoond hoe u snel een Adobe Commerce Storefront kunt instellen die wordt aangedreven door Edge Delivery met de opdracht `aio commerce init` . Met dit proces wordt het volgende ingesteld:
 
-* [ Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL) wordt aangedreven - een uitvoerende, scalable, en veilige opslagplaats die door Adobe Edge Delivery Services wordt aangedreven.
+* [ Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) wordt aangedreven - een uitvoerende, scalable, en veilige opslagplaats die door Adobe Edge Delivery Services wordt aangedreven.
 * [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/mesh/) - een API platform dat ontwikkelaars toestaat om veelvoudige gegevensbronnen in één enkel eindpunt van GraphQL te combineren. API Mesh organiseert de API van derden met Adobe API via één gateway. Één vraag aan het enige eindpunt van GraphQL kan resultaten van veelvoudige bronnen terugkeren.
 * [ Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/) - een inzameling van ontwikkelaarshulpmiddelen met toegang tot APIs, gebeurtenissen, runtime functies, en stop- ins, die u kunt gebruiken om projecten voor de toepassingen van Adobe te bouwen.
 * [ Adobe I/O Runtime ](https://developer.adobe.com/runtime/docs/) - een serverloze motor voor het opstellen van douanecode die aan gebeurtenissen antwoordt en functies in de wolk uitvoert.
@@ -90,7 +90,7 @@ Voordat u de opdracht `aio commerce init` uitvoert, moet u aan de volgende voorw
 
 ## De opdracht `aio commerce init` uitvoeren
 
-Als u de volgende opdracht uitvoert, wordt een basisstructuur voor uw Commerce-winkel gemaakt. Deze steigers bieden een uitstekende startplaats voor het bouwen en begrijpen van uw winkel. Voor meer informatie over het werken met de storefront, zie de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL).
+Als u de volgende opdracht uitvoert, wordt een basisstructuur voor uw Commerce-winkel gemaakt. Deze steigers bieden een uitstekende startplaats voor het bouwen en begrijpen van uw winkel. Voor meer informatie over het werken met de storefront, zie de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/).
 
 
 1. Voer de opdracht `init` uit:
@@ -109,7 +109,7 @@ Als u de volgende opdracht uitvoert, wordt een basisstructuur voor uw Commerce-w
       * Als u deze optie selecteert, wordt u gevraagd om de AEM Code Sync beide in een browservenster te installeren. U moet de gegevensopslagruimte opgeven die u hebt gemaakt en de beide autoriseren. Ga terug naar de CLI en voer `y` in om de installatie van de AEM Code Sync bot te bevestigen.
    * **kies een beschikbare huurder van Adobe Commerce** - selecteer een bestaande huurder van Commerce in de geselecteerde organisatie.
       * Als u deze optie selecteert, moet u het project en de werkruimte selecteren om een net binnen tot stand te brengen.
-   * **verstrek uw eigen Adobe Commerce huurder API URL** - selecteer deze optie als u een Vroege deelnemer van het Programma van de Toegang bent. Voer de API-URL in die u in uw Adobe hebt opgegeven.
+   * **verstrek uw eigen Adobe Commerce huurder API URL** - selecteer deze optie als u een deelnemer van het Programma van de Toegang van het Proefproject bent. Voer de API-URL in die u in uw Adobe hebt opgegeven.
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ Als u de volgende opdracht uitvoert, wordt een basisstructuur voor uw Commerce-w
    * Een voorvertoning van uw winkel weergeven: `https://main--<repo name>--<username or org>.aem.page/`
    * Lokaal uitvoeren: `aio commerce:dev`
 
-Om uw storefront aan te passen, verwijs naar de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL).
+Om uw storefront aan te passen, verwijs naar de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/).
 
 ## Problemen oplossen
 

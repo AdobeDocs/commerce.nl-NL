@@ -2,9 +2,10 @@
 title: De exportprestaties van SaaS-gegevens verbeteren
 description: Leer hoe te om de prestaties van de gegevensuitvoer van SaaS voor de Diensten van Commerce te verbeteren door de multi-thread wijze van de gegevensuitvoer te gebruiken.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 7151118c-5e30-44d0-b515-5801a73e44ec
+source-git-commit: b8b7af1119163589b7d83654b13edae656fea339
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Herinner dat de doordachte planning, met inbegrip van het schatten van gegevensv
 
 >[!NOTE]
 >
->Adobe raadt u aan voorzichtig te zijn wanneer u multithread-verwerking gebruikt. Dit vermogen is een vroege toegangseigenschap die nog wordt verbeterd. Als u multi-threading configureert voor snellere prestaties, kunt u de meegeleverde Adobe Commerce Services-instructies activeren om misbruik van het systeem tijdens het invoeren van gegevens te voorkomen. Deze instructies beperken gebruikers ook van het activeren van synchronisatiewijzigingen die het systeem kunnen overladen. Wanneer de instructies worden geactiveerd, worden aanvragen geblokkeerd en retourneert het systeem 429 fouten. Als u deze fouten ontmoet, pas uw configuratie aan, en voorleg een steunkaartje voor hulp.
+>Adobe raadt u aan voorzichtig te zijn wanneer u multithread-verwerking gebruikt. Als u multi-threading configureert voor snellere prestaties, kunt u de meegeleverde Adobe Commerce Services-instructies activeren om misbruik van het systeem tijdens het invoeren van gegevens te voorkomen. Deze instructies beperken gebruikers ook van het activeren van synchronisatiewijzigingen die het systeem kunnen overladen. Wanneer de instructies worden geactiveerd, worden aanvragen geblokkeerd en retourneert het systeem 429 fouten. Als u deze fouten ontmoet, pas uw configuratie aan, en voorleg een steunkaartje voor hulp.
 
 ## Multithreading configureren
 
@@ -63,7 +64,7 @@ De opties op de opdrachtregel overschrijven de configuratie voor gegevensexport 
 
 Als u alle bewerkingen voor het exporteren van gegevens wilt verwerken met multithreading, kunnen systeemintegrators of ontwikkelaars het aantal threads en de batch-grootte voor elke feed in de Commerce-toepassingsconfiguratie wijzigen.
 
-Deze veranderingen kunnen worden toegepast door douanewaarden aan de [ systeemsectie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system) van het configuratiedossier toe te voegen, `app/etc/config.php`.
+Deze veranderingen kunnen worden toegepast door douanewaarden aan de [ systeemsectie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system) van het configuratiedossier toe te voegen, `app/etc/config.php`.
 
 **Voorbeeld: Het vormen multithreading voor producten en prijzen**
 

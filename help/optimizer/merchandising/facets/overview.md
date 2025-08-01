@@ -1,10 +1,11 @@
 ---
 title: Overzicht van facetten
 description: Leer over facetten in  [!DNL Adobe Commerce Optimizer]  en hoe zij onderzoeksresultaten verbeteren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 3020386cd051b4453ed6b90d2c694a5bb31dfb24
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: cf16626e-8f85-47ca-b973-891b16c31fe3
+source-git-commit: ad8fb7d1d7e1ad124647ba84377079dcfbd46a3c
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -29,16 +30,18 @@ Facetsamenvoeging wordt als volgt uitgevoerd: als de winkel drie facetten (categ
 
 ## Standaardkenmerkwaarden
 
-De volgende [ productattributen ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/#operation/createProductMetadata) worden gebruikt door [!DNL Adobe Commerce Optimizer] en door gebrek toegelaten.
+De volgende productkenmerken worden standaard gebruikt door [!DNL Adobe Commerce Optimizer] en ingeschakeld.
 
 | Eigenschap | Beschrijving | Kenmerk |
 |---|---|---|
 | Sorteerbaar | Wordt gebruikt voor sorteren in de productlijst | `price` |
 | Doorzoekbaar | Gebruiken in Zoeken | `price` <br />`sku`<br />`name` |
 
+Zie de [ Meta-gegevens API van de Ingestie van Gegevens ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata) om meer over productattributen en hun eigenschappen te leren.
+
 ## Standaardeigenschappen van niet-systeemkenmerken
 
-In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven. Het plaatsen van het *Gebruik in het 1&rbrace; attributenbezit van het Onderzoek &lbrace;aan `Yes` maakt de attributen doorzoekbaar in [!DNL Adobe Commerce Optimizer].*
+In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven. Het plaatsen van het *Gebruik in het 1} attributenbezit van het Onderzoek {aan* maakt de attributen doorzoekbaar in `Yes`.[!DNL Adobe Commerce Optimizer]
 
 | Kenmerkcode | Doorzoekbaar |
 |--- |--- |

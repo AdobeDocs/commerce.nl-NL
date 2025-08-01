@@ -1,8 +1,9 @@
 ---
 title: Zoekprestaties
 description: De pagina met zoekprestaties biedt insight toegang tot de zoektermen die kopers gebruiken.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: f49a86b8793e2d91413acfbc0b922cb94db67362
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: 75b43c6f-d876-4379-ad70-5c2a2f29a5ac
+source-git-commit: b8b7af1119163589b7d83654b13edae656fea339
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 0%
@@ -19,7 +20,7 @@ De *prestaties van het Onderzoek* pagina verstrekt insight in de onderzoekstermi
 - Omrekeningskoers
 - Resultaatsnelheid nul
 
-![&#128279;](../assets/search-performance.png){zoomable="yes"} prestaties van het 0&rbrace; Onderzoek
+![ prestaties van het 0} Onderzoek](../assets/search-performance.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -51,7 +52,7 @@ In het volgende gedeelte vindt u strategieën waarmee u de zoekfunctionaliteit v
 Er zijn verschillende belangrijke factoren die de relevantie en doeltreffendheid van de zoekresultaten bepalen:
 
 - Goed gestructureerde productgegevens zorgen ervoor dat de onderzoeksalgoritmen producten aan vragen effectief kunnen aanpassen. Lage productgegevens leiden tot minder relevante zoekresultaten. Om het succes van uw koopwaar direct te beïnvloeden strategie:
-   - Opstelling de correcte [ attributen zoals doorzoekbaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/#tag/Metadata) met hun overeenkomstige gewicht.
+   - Opstelling de correcte [ attributen zoals doorzoekbaar ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata) met hun overeenkomstige gewicht.
    - Zorg ervoor dat de gegevens binnen die kenmerken relevant zijn.
 - Een goed ontworpen zoekervaring is een vertrouwensbasis met klanten en geeft het vertrouwen dat ze zullen vinden wat ze nodig hebben.
 - De regels van het onderzoek zijn kritiek aangezien zij de zichtbaarheid van bepaalde producten kunnen verhogen die op populariteit, nieuwe aankomst, promotiecriteria of een andere handelsstrategie worden gebaseerd om aan uw bedrijfsvereisten te voldoen.
@@ -97,7 +98,7 @@ Om uw onderzoeksfunctionaliteit te optimaliseren, gebruik [ synoniemen en spelli
 
 ## De relevantie van zoekresultaten verbeteren
 
-Om de relevantie van het onderzoeksresultaat te verbeteren, voer efficiënte [ onderzoeksregels ](../merchandising/rules/overview.md) uit en gebruik productmeta-gegevens om nauwkeurige en gedetailleerde [ attributen te verzekeren zijn doorzoekbaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/#tag/Metadata).
+Om de relevantie van het onderzoeksresultaat te verbeteren, voer efficiënte [ onderzoeksregels ](../merchandising/rules/overview.md) uit en gebruik productmeta-gegevens om nauwkeurige en gedetailleerde [ attributen te verzekeren zijn doorzoekbaar ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata).
 
 ### Afbeeldingen
 
@@ -109,7 +110,7 @@ Zorg ervoor dat de configureerbare producten van het kindproducten beelden met d
 
 ### Productmetagegevens gebruiken
 
-Zorg ervoor dat de nauwkeurige en gedetailleerde product [ attributen opstelling zoals doorzoekbaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/#tag/Metadata) zijn. SKU-, naam- en categoriekenmerken kunnen standaard worden doorzocht en kunnen niet worden uitgesloten van de zoekopdracht. U bereikt de beste resultaten als u geen spaties gebruikt in uw SKU&#39;s.
+Zorg ervoor dat de nauwkeurige en gedetailleerde product [ attributen opstelling zoals doorzoekbaar ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata) zijn. SKU-, naam- en categoriekenmerken kunnen standaard worden doorzocht en kunnen niet worden uitgesloten van de zoekopdracht. U bereikt de beste resultaten als u geen spaties gebruikt in uw SKU&#39;s.
 
 Om zoekrelevantie te vergroten, wijst u een gewicht toe aan elk doorzoekbaar kenmerk. Kenmerken met een hogere dikte moeten in de zoekresultaten hoger worden weergegeven. Sorteren op relevantie wordt beïnvloed door meerdere criteria, zoals zoekgewicht. Dit betekent dat kenmerken met een lager zoekgewicht soms nog relevanter kunnen zijn dan kenmerken met een hoger zoekgewicht. Andere criteria kunnen het aantal overeenkomsten in een bepaald kenmerk, de positie van de gevonden zoekterm en de algemene tekststructuur vóór en na een zoekterm bevatten.
 
@@ -117,8 +118,8 @@ Zorg ervoor dat elk product relevante inhoud binnen elk doorzoekbaar kenmerk hee
 
 Meer informatie over productkenmerken voor zoekopdrachten:
 
-- [ vastgestelde attributen als doorzoekbaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/#tag/Metadata)
-- [ Wijs gewicht aan attributen ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/api-reference/#operation/createProductMetadata) toe
+- [ vastgestelde attributen als doorzoekbaar ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata)
+- [ Wijs gewicht aan attributen ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata) toe
 
 ## Veldomschrijvingen
 

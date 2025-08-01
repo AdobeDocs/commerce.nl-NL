@@ -3,11 +3,11 @@ title: Prijsboeken
 description: Leer hoe te om prijsboeken in  [!DNL Adobe Commerce Optimizer] te beheren.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: a1849830-3d0e-4df9-ab73-380659c3f9dc
-source-git-commit: 513ed97442bfffe74d64f4eb0484cfa8f25b5ecc
+source-git-commit: 502d8d21ff052f4ecb212176459b38ce51f85dfc
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Met prijzenboeken kunt u productprijzen voor een catalogusbron definiëren voor 
 
 Het basisprijzenboek definieert de valuta voor zichzelf en al zijn kinderprijzenboeken. De boeken van de kindprijs erven deze munt en kunnen niet het met voeten treden.
 
-Zie de [ ontwikkelaarsdocumentatie ](https://developer.adobe.com/commerce/services/reference/rest/) leren om, prijzenboeken [!DNL Adobe Commerce Optimizer] tot stand te brengen bij te werken en te schrappen gebruikend het Prijsboek API.
+Zie de [ ontwikkelaarsdocumentatie ](https://developer.adobe.com/commerce/services/reference/rest/) leren hoe te om, prijzenboeken voor [!DNL Adobe Commerce Optimizer] tot stand te brengen bij te werken en te schrappen het gebruiken van de Boek API van de Prijs.
 
 ## Belangrijkste concepten
 

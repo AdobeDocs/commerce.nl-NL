@@ -3,11 +3,11 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: f920cfe7cd433e85f343fefe1062a1972e5e5e5f
+source-git-commit: b0ce0a399e89baaeabe87c53d069df866378f8c8
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ De ontwikkelaars behandelen technische implementatie en gegevensintegratie, met 
 | Taak | Beschrijving | Koppeling |
 |---|---|---|
 | **Toegang Developer Console** | Projecten maken en referenties genereren | [ Developer Console ](https://developer.adobe.com/developer-console/docs/guides/getting-started) |
-| **Ingest Gegevens van de Catalogus** | Productgegevens van bestaande systemen importeren | [ Ingestie API van Gegevens ](https://developer-stage.adobe.com/commerce/services/composable-catalog/data-ingestion/using-the-api/) |
+| **Ingest Gegevens van de Catalogus** | Productgegevens van bestaande systemen importeren | [ Ingestie API van Gegevens ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/) |
 | **Opstellings Storefront** | Edge Delivery Services-storefront configureren | [ Opstelling Storefront ](./storefront.md) |
 
 ### Merchandisertaken
@@ -143,14 +143,14 @@ De steekproefgegevens zijn gebaseerd op het [ bedrijfscase van het Carvelo ](./u
 
 **Laad de steekproefgegevens:**
 
-1. Heb toegang tot de bewaarplaats GitHub:
-   - Bezoek de [ Opslag van de Ingestie van de Gegevens van de Catalogus van de Steekproef ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)
+1. Heb toegang tot de [ Ingestie van de Gegevens van de Catalogus van de Steekproef ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion) bewaarplaats GitHub.
 
-1. Volg de installatie-instructies in het README-bestand van de gegevensopslagruimte.
+1. Volg de installatie-instructies in het README-bestand van de gegevensopslagruimte om de volgende taken uit te voeren:
 
-   - De gegevensinvoer configureren en uitvoeren
-   - Catalogusbeleid en weergaven configureren met behulp van voorbeeldgegevens
-   - Voorbeeldgegevens opschonen (optioneel)
+   - Uw omgeving instellen
+   - Voltooi het proces voor gegevensinvoer
+   - Catalogusweergaven en -beleid maken met behulp van voorbeeldgegevens
+   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0} Gegevens te controleren {](./setup/data-sync.md)
 
 ## Volgende stappen
 
@@ -185,6 +185,6 @@ Na voltooiing van de installatie:
 
 ### Hulp vragen
 
-- **Middelen van de Ontwikkelaar**: [ Documentatie van de Ontwikkelaar ](https://developer-stage.adobe.com/commerce/services/composable-catalog/)
-- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
+- **Middelen van de Ontwikkelaar**: [ Documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/)
+- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

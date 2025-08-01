@@ -64,7 +64,7 @@ De opties op de opdrachtregel overschrijven de configuratie voor gegevensexport 
 
 Als u alle bewerkingen voor het exporteren van gegevens wilt verwerken met multithreading, kunnen systeemintegrators of ontwikkelaars het aantal threads en de batch-grootte voor elke feed in de Commerce-toepassingsconfiguratie wijzigen.
 
-Deze veranderingen kunnen worden toegepast door douanewaarden aan de [ systeemsectie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system) van het configuratiedossier toe te voegen, `app/etc/config.php`.
+Deze veranderingen kunnen worden toegepast door douanewaarden aan de [ systeemsectie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system) van het configuratiedossier toe te voegen, `app/etc/config.php`.
 
 **Voorbeeld: Het vormen multithreading voor producten en prijzen**
 

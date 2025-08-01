@@ -2,11 +2,11 @@
 title: Migreren naar  [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe te aan  [!DNL Adobe Commerce as a Cloud Service] migreren.
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Architect
-source-git-commit: 506873780783e26841943a4b43dbc955c73f6f62
+source-git-commit: 2ecf5e0960b2e63cc95016e8ee5509b3c475de13
 workflow-type: tm+mt
-source-wordcount: '3030'
+source-wordcount: '3031'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 **Zeer belangrijke verschillen**
 
-* [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **PaaS (Huidige)**: Merchant beheert toepassingscode, verbeteringen, het patchen, infrastructuurconfiguratie binnen het ontvangen milieu van Adobe. [ Gedeeld verantwoordelijkheidsmodel ](https://experienceleague.adobe.com/nl/docs/commerce-operations/security-and-compliance/shared-responsibility) voor de diensten (MySQL, Elasticsearch, en anderen).
-* [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} **SaaS (Nieuw - [!DNL Adobe Commerce as a Cloud Service])**: Adobe beheert volledig de kerntoepassing, de infrastructuur, en de updates. Merchants richten zich op aanpassing via rekbaarheidspunten (APIs, App Builder, UI SDKs). De code van de kerntoepassing is vergrendeld.
+* [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **PaaS (Huidige)**: Merchant beheert toepassingscode, verbeteringen, het patchen, infrastructuurconfiguratie binnen het ontvangen milieu van Adobe. [ Gedeeld verantwoordelijkheidsmodel ](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility) voor de diensten (MySQL, Elasticsearch, en anderen).
+* [!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} **SaaS (Nieuw - [!DNL Adobe Commerce as a Cloud Service])**: Adobe beheert volledig de kerntoepassing, de infrastructuur, en de updates. Merchants richten zich op aanpassing via rekbaarheidspunten (APIs, App Builder, UI SDKs). De code van de kerntoepassing is vergrendeld.
 
 **Architecturale implicaties**
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 **Nieuwe tooling &amp; concepten**
 * [ Adobe Developer App Builder ](https://developer.adobe.com/app-builder/) en [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway)
 * [Commerce Optimizer](../../optimizer/overview.md)
-* [ Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
+* [ Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/)
 * Zelfbediening levering met de [ Manager van Commerce Cloud ](../getting-started.md#create-an-instance)
 
 ## Migratiepaden
@@ -49,7 +49,7 @@ Als alternatief voor een volledige migratie biedt [!DNL Adobe Commerce as a Clou
 
 ![ stijgende migratie ](../assets/incremental.png){width="600" zoomable="yes"}
 
-* **Commerce Optimizer** - Deze benadering staat u toe om zich herhalend te migreren, door Commerce Optimizer als overgangsfase te gebruiken om complexe aanpassingen en gegevens aan [!DNL Adobe Commerce as a Cloud Service] bij uw eigen tempo te bewegen. Commerce Optimizer biedt toegang tot Merchandising Services via Catalog Channels and Policies, Commerce Storefront van Edge Delivery en Product Visuals van AEM Assets.
+* **Commerce Optimizer** - Deze benadering staat u toe om zich herhalend te migreren, door Commerce Optimizer als overgangsfase te gebruiken om complexe aanpassingen en gegevens aan [!DNL Adobe Commerce as a Cloud Service] bij uw eigen tempo te bewegen. Commerce Optimizer biedt toegang tot Merchandising Services, aangedreven door Catalog Views and Policies, Commerce Storefront van Edge Delivery en Product Visuals van AEM Assets.
 
 ![ iteratieve migratie ](../assets/optimizer.png){width="600" zoomable="yes"}
 
@@ -166,7 +166,7 @@ Deze optie dient als overgangsstap, voortbouwend op een bestaande integratie waa
 
 * **de gegevenssynchronisatie van de Catalogus**: Verzeker uw instantie van Adobe Commerce PaaS product en catalogusgegevens aan uw bestaande dienst van de Catalogus SaaS van Adobe Commerce blijft synchroniseren. Dit baseert zich typisch op gevestigde schakelaars of modules binnen uw instantie PaaS. De dienst van de Catalogus SaaS blijft de gebiedende bron voor onderzoek en het verhandelen functies, die zijn gegevens uit uw steun PaaS afleiden.
 * **API Net voor optimalisering**: Terwijl de hoofdloze opslag (op Edge Delivery Services) en andere diensten gegevens van de dienst van de Catalogus SaaS direct konden verbruiken, adviseert Adobe hoogst gebruikend API Net (binnen App Builder). API Mesh kan APIs van de dienst van Catalog SaaS met andere noodzakelijke APIs van uw backend van PaaS (bijvoorbeeld, voorraadcontroles in real time van het transactionele gegevensbestand of de attributen van het douaneproduct niet volledig die aan de dienst van Catalog SaaS worden herhaald) verenigen in één enkel, presterend GraphQL eindpunt. Dit staat ook voor gecentraliseerde caching, authentificatie, en reactietransformatie toe.
-* **integreer Levende Onderzoek en de Aanbevelingen van het Product**: Vorm Levende Onderzoek en de diensten SaaS van de Aanbevelingen van het Product aan [ direct catalogusgegevens ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/install#configure-the-data) van uw bestaande dienst van Adobe Commerce Catalog SaaS, die beurtelings door uw achterste van PaaS bevolkt is.
+* **integreer Levende Onderzoek en de Aanbevelingen van het Product**: Vorm Levende Onderzoek en de diensten SaaS van de Aanbevelingen van het Product aan [ direct catalogusgegevens ](https://experienceleague.adobe.com/en/docs/commerce/live-search/install#configure-the-data) van uw bestaande dienst van Adobe Commerce Catalog SaaS, die beurtelings door uw achterste van PaaS bevolkt is.
 
 **Voordeel**: Dit verstrekt een snellere weg aan een headless storefront en geavanceerde SaaS handelend eigenschappen door de bestaande en operationele dienst van Catalog SaaS en zijn integratiepijpleiding met uw backend van PaaS leveraging. Het blijft echter afhankelijk van de PaaS-backend voor de primaire bron van catalogusgegevens en biedt niet de samenvoegingsmogelijkheden met meerdere bronnen die inherent zijn aan het nieuwe Composable Catalog Data Model. Deze optie is een geldige opstap naar een vollediger composable architectuur.
 
@@ -183,7 +183,7 @@ Dit is de strategische, toekomstbestendige aanpak voor het inzetten van Adobe Co
       * **gebeurtenis-gedreven** (door App Builder): Gebruik Adobe I/O Events van uw instantie PaaS om openbaar-beschikbare of de toepassingen van de douaneApp Builder van Adobe teweeg te brengen. Deze toepassingen transformeren en duwen gegevensveranderingen (creeer, werk, en schrapping) aan CCDM door zijn APIs bij.
       * **Inname van de Partij**: Voor grote aanvankelijke ladingen of periodieke bulkupdates, gebruiks veilige dossieroverdrachten (bijvoorbeeld, CSV of JSON) aan een opvoerend gebied, dat door de innameservices van Adobe Experience Platform (AEP) in CCDM wordt verwerkt.
       * **Directe API integratie** (met de Orchestratie van App Builder): Voor complexere scenario&#39;s, kan App Builder als orchestratielaag dienst doen, die directe API vraag aan uw steun PaaS maken, die de gegevens transformeert, en het duwt aan CCDM.
-* **de mening van de Catalogus en beleidsdefinitie**: Vorm catalogusmeningen (logische groeperingen voor unieke cataloguspresentatie, zoals opslagmeningen, gebieden, en B2B/B2C segmenten) en bepaal beleid (regelreeksen voor productpresentatie, het filtreren, en het merchandising) binnen CCDM. Dit maakt dynamische controle mogelijk over productassortiment en weergavelogica per kanaal.
+* **de mening van de Catalogus en beleidsdefinitie**: Vorm catalogusmeningen (logische groeperingen voor unieke cataloguspresentatie, zoals opslagmeningen, gebieden, en B2B/B2C segmenten) en bepaal beleid (regelreeksen voor productpresentatie, het filtreren, en het merchandising) binnen CCDM. Hierdoor is dynamische controle mogelijk over productassortiment en wordt logica per catalogusweergave weergegeven.
 * **integreer Levende Onderzoek en de Aanbevelingen van het Product**: Zodra de catalogusgegevens in CCDM aanwezig zijn, integreer de op SaaS-Gebaseerde Levende diensten van het Onderzoek en van de Aanbevelingen van het Product van Adobe. Deze hefboomwerking Adobe Sensei AI en machine het leren modellen voor superieure onderzoeksrelevantie en gepersonaliseerde aanbevelingen, die gegevens direct van CCDM verbruiken.
 
 **Voordeel**: Door catalogusbeheer en ontdekking in CCDM en de bijbehorende diensten te onttrekken SaaS, bereikt u betere prestaties, aanwinst AI-gedreven handelsafzettingsmogelijkheden, beduidend ladingsverrichtingen van uw erfenisbackend, en laat robuuste &quot;schil-off&quot;van de top-of-funnel ervaring toe.

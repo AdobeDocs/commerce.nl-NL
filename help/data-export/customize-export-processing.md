@@ -1,18 +1,18 @@
 ---
 title: De exportprestaties van SaaS-gegevens verbeteren
-description: Leer hoe te om de prestaties van de gegevensuitvoer van SaaS voor de Diensten van Commerce te verbeteren door de multi-thread wijze van de gegevensuitvoer te gebruiken.
+description: Leer hoe te om de prestaties van de gegevensuitvoer van SaaS voor de Diensten van Commerce te verbeteren door een multithread gegevensuitvoerwijze te gebruiken.
 role: Admin, Developer
 exl-id: 7151118c-5e30-44d0-b515-5801a73e44ec
-source-git-commit: b8b7af1119163589b7d83654b13edae656fea339
+source-git-commit: 9b28da0bf861a266e9d679ba59470f46d9a89c1c
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
 # De exportprestaties van SaaS-gegevens verbeteren
 
-**Multithread gegevens de uitvoerwijze** versnelt het uitvoerproces door voedergegevens in partijen te verdelen en hen parallel te verwerken.
+**Multithread de uitvoerwijze van gegevens** versnelt het uitvoerproces door voedergegevens in partijen te verdelen en hen gelijktijdig te verwerken.
 
 De ontwikkelaars of systeemintegrators kunnen prestaties verbeteren door de multi-draadgegevens te gebruiken uitvoeren wijze in plaats van de standaard single-thread wijze. In single-thread wijze, is er geen parallellisatie van het proces van de voedervoorlegging. Bovendien, wegens de vastgestelde standaardgrenzen, zijn alle cliënten beperkt tot het gebruiken van slechts één draad. In de meeste gevallen is het niet nodig de configuratie aan te passen.
 
@@ -64,7 +64,7 @@ De opties op de opdrachtregel overschrijven de configuratie voor gegevensexport 
 
 Als u alle bewerkingen voor het exporteren van gegevens wilt verwerken met multithreading, kunnen systeemintegrators of ontwikkelaars het aantal threads en de batch-grootte voor elke feed in de Commerce-toepassingsconfiguratie wijzigen.
 
-Deze veranderingen kunnen worden toegepast door douanewaarden aan de [ systeemsectie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system) van het configuratiedossier toe te voegen, `app/etc/config.php`.
+Deze veranderingen kunnen worden toegepast door douanewaarden aan de [ systeemsectie ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system) van het configuratiedossier toe te voegen, `app/etc/config.php`.
 
 **Voorbeeld: Het vormen multithreading voor producten en prijzen**
 

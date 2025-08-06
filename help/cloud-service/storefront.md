@@ -3,7 +3,7 @@ title: Winefront instellen
 description: Leer hoe te om het steigereedschap in werking te stellen om uw  [!DNL Adobe Commerce as a Cloud Service]  storefront te opstelling.
 role: Developer
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 47eb8ee55bb093767f76aa23df8bb347ee280aae
 workflow-type: tm+mt
 source-wordcount: '737'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In de volgende stappen wordt getoond hoe u snel een Adobe Commerce Storefront kunt instellen die wordt aangedreven door Edge Delivery met de opdracht `aio commerce init` . Met dit proces wordt het volgende ingesteld:
 
-* [ Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/) wordt aangedreven - een uitvoerende, scalable, en veilige opslagplaats die door Adobe Edge Delivery Services wordt aangedreven.
+* [ Commerce Storefront die door Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL) wordt aangedreven - een uitvoerende, scalable, en veilige opslagplaats die door Adobe Edge Delivery Services wordt aangedreven.
 * [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/mesh/) - een API platform dat ontwikkelaars toestaat om veelvoudige gegevensbronnen in één enkel eindpunt van GraphQL te combineren. API Mesh organiseert de API van derden met Adobe API via één gateway. Één vraag aan het enige eindpunt van GraphQL kan resultaten van veelvoudige bronnen terugkeren.
 * [ Adobe Developer Console ](https://developer.adobe.com/developer-console/docs/guides/) - een inzameling van ontwikkelaarshulpmiddelen met toegang tot APIs, gebeurtenissen, runtime functies, en stop- ins, die u kunt gebruiken om projecten voor de toepassingen van Adobe te bouwen.
 * [ Adobe I/O Runtime ](https://developer.adobe.com/runtime/docs/) - een serverloze motor voor het opstellen van douanecode die aan gebeurtenissen antwoordt en functies in de wolk uitvoert.
@@ -90,7 +90,7 @@ Voordat u de opdracht `aio commerce init` uitvoert, moet u aan de volgende voorw
 
 ## De opdracht `aio commerce init` uitvoeren
 
-Als u de volgende opdracht uitvoert, wordt een basisstructuur voor uw Commerce-winkel gemaakt. Deze steigers bieden een uitstekende startplaats voor het bouwen en begrijpen van uw winkel. Voor meer informatie over het werken met de storefront, zie de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/).
+Als u de volgende opdracht uitvoert, wordt een basisstructuur voor uw Commerce-winkel gemaakt. Deze steigers bieden een uitstekende startplaats voor het bouwen en begrijpen van uw winkel. Voor meer informatie over het werken met de storefront, zie de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL).
 
 
 1. Voer de opdracht `init` uit:
@@ -123,7 +123,7 @@ Als u de volgende opdracht uitvoert, wordt een basisstructuur voor uw Commerce-w
    * Een voorvertoning van uw winkel weergeven: `https://main--<repo name>--<username or org>.aem.page/`
    * Lokaal uitvoeren: `aio commerce:dev`
 
-Om uw storefront aan te passen, verwijs naar de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/).
+Om uw storefront aan te passen, verwijs naar de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL).
 
 ## Problemen oplossen
 
@@ -158,4 +158,4 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * Meer leren over het beheren van en het tonen van inhoud en gegevens in de storefront, zie [ het bijwerken van storefront inhoud ](./use-cases.md#update-storefront-content).
 * Voor meer informatie over contextafhankelijke experimenteringseigenschappen, zie [ contextafhankelijke experimentatie ](./use-cases.md#contextual-experimentation).
 * Voor meer informatie bij het gebruiken van Generatieve AI om de inhoudsgeneratie van uitstekende kwaliteit te automatiseren, zie [ Variaties ](./use-cases.md#generate-variations) produceren.
-* Meer leren over het bijwerken van plaatsinhoud en het integreren met Commerce frontend componenten en achterste gegevens, zie de [ documentatie van de Opslag van Adobe Commerce ](https://experienceleague.adobe.com/developer/commerce/storefront/).
+* Meer leren over het bijwerken van plaatsinhoud en het integreren met Commerce frontend componenten en achterste gegevens, zie de [ documentatie van de Opslag van Adobe Commerce ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL).

@@ -15,13 +15,13 @@ ht-degree: 0%
 
 In het volgende voorbeeld worden de Commerce-gedragsgebeurtenissen weergegeven die beschikbaar zijn wanneer u de extensie [!DNL Data Connection] installeert. De gegevens die deze gebeurtenissen verzamelen, worden naar de Adobe Experience Platform verzonden. U kunt [ douanegebeurtenissen ](custom-events.md) ook tot stand brengen om extra gegevens te verzamelen die niet uit de doos worden verstrekt.
 
-Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [ andere gegevens ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html) die door het Web SDK van Adobe Experience Platform worden verstrekt.
+Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [ andere gegevens ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=nl-NL) die door het Web SDK van Adobe Experience Platform worden verstrekt.
 
 De gedragsgebeurtenissen verzamelen geanonimiseerde gedragsgegevens van uw kopers wanneer ze door uw site bladeren. U kunt de gegevens die deze gebeurtenissen verzamelen gebruiken om promoties en campagnes te maken voor een specifieke groep kopers.
 
 >[!NOTE]
 >
->Alle gedragsgebeurtenissen omvatten het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
+>Alle gedragsgebeurtenissen omvatten het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
 
 ## Gebeurtenissen van Storefront
 
@@ -39,7 +39,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.productListAdds` | Geeft aan of een product aan een winkelwagentje is toegevoegd. De waarde `1` geeft aan dat een product is toegevoegd. |
@@ -73,7 +73,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.productListOpens` | Geeft aan of een winkelwagentje is gemaakt. De waarde `1` geeft aan dat een winkelwagentje is gemaakt. |
@@ -107,7 +107,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.productListRemovals` | Geeft aan of een product uit het winkelwagentje is verwijderd. De waarde `1` geeft aan dat een product uit het winkelwagentje is verwijderd. |
@@ -141,7 +141,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.productListViews` | Geeft aan of een productlijst is weergegeven. |
@@ -177,7 +177,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `web.webPageDetails.pageViews` | Geeft aan of een pagina is geladen. Een `value` van `1` geeft aan dat de pagina is geladen. |
@@ -202,7 +202,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.productViews` | Geeft aan of het product is weergegeven. |
@@ -235,7 +235,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.checkouts` | Hiermee wordt aangegeven of een actie is uitgevoerd tijdens het uitcheckproces. |
@@ -269,7 +269,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.purchases` | Geeft aan of een bestelling is geaccepteerd. |
@@ -329,7 +329,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `person` | Een individuele actor, contactpersoon of eigenaar. |
@@ -362,7 +362,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `userAccount` | Hiermee geeft u eventuele loyaliteitsdetails, voorkeuren, aanmeldingsprocessen en andere accountvoorkeuren aan. |
@@ -389,7 +389,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `person` | Een individuele actor, contactpersoon of eigenaar. |
@@ -422,7 +422,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `person` | Een individuele actor, contactpersoon of eigenaar. |
@@ -461,7 +461,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `searchRequest` | Geeft aan of een zoekaanvraag is verzonden. |
@@ -498,7 +498,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `searchResponse` | Geeft aan of een zoekreactie is ontvangen. |
@@ -520,7 +520,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 ![ B2B voor Adobe Commerce ](../assets/b2b.svg) voor B2B handelaren, moet u [&#128279;](install.md#install-the-b2b-extension) de `experience-platform-connector-b2b` uitbreiding installeren om tot deze gebeurtenissen toegang te hebben.
 
-De B2B gebeurtenissen bevatten [ informatie van de 0&rbrace; verzoeklijst &lbrace;, zoals als een verzoeklijst werd gecreeerd, aan, of geschrapt van werd toegevoegd. ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html) Door gebeurtenissen te volgen specifiek voor aanvraaglijsten, kunt u zien welke producten uw klanten vaak kopen en campagnes tot stand brengen die op die gegevens worden gebaseerd.
+De B2B gebeurtenissen bevatten [ informatie van de 0&rbrace; verzoeklijst &lbrace;, zoals als een verzoeklijst werd gecreeerd, aan, of geschrapt van werd toegevoegd. ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html?lang=nl-NL) Door gebeurtenissen te volgen specifiek voor aanvraaglijsten, kunt u zien welke producten uw klanten vaak kopen en campagnes tot stand brengen die op die gegevens worden gebaseerd.
 
 ### createRequisitionList
 
@@ -534,7 +534,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.requisitionListOpens` | Geeft initialisatie van een nieuwe aanvraaglijst aan. |
@@ -560,7 +560,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.requisitionListAdds` | Hiermee wordt de toevoeging van een of meer producten aan een aanvraaglijst aangegeven. |
@@ -596,7 +596,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.requsitionListRemovals` | Geeft aan of een of meer producten uit een aanvraaglijst zijn verwijderd. |
@@ -632,7 +632,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 | Veld | Beschrijving |
 |---|---|
-| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html). |
+| `channel` | Bevat informatie over de bron van de gegevens. Zowel `_id` als `_type` bevatten [ namespaced waarden ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/namespaces.html?lang=nl-NL). |
 | `channel._id` | De unieke id van het kanaal, zoals `"https://ns.adobe.com/xdm/channels/web"` . |
 | `channel._type` | Identificeert de bron van de kanaalgegevens, zoals `"https://ns.adobe.com/xdm/channel-types/web"` . |
 | `commerce.requisitionListDeletes` | Geeft aan dat een aanvraaglijst is verwijderd. |

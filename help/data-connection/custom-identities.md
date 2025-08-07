@@ -37,7 +37,7 @@ Voordat u aangepaste identiteitskenmerken implementeert, moet u controleren of:
 ## Stap 1: Experience Platform-schema configureren
 
 1. Meld u aan bij Adobe Experience Platform en selecteer het Commerce-schema.
-1. [ voeg de gebieden van de douanetechniek ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas?lang=en#custom-fields-for-standard-groups) op het wortelniveau toe:
+1. [ voeg de gebieden van de douanetechniek ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas?lang=en#custom-fields-for-standard-groups) op het wortelniveau toe:
    - `hashedPID` (String) - Primaire identiteitshash
    - `hashedSID` (String) - Secundaire identiteitshash
    - `primaryID` (String) - Naam van primair identiteitsveld

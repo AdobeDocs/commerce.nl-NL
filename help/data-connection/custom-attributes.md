@@ -1,18 +1,23 @@
 ---
-title: Aangepaste orderkenmerken toevoegen
+title: Aangepaste kenmerken toevoegen aan bestellingen
 description: Leer hoe u aangepaste orderkenmerken toevoegt aan uw gegevens op het back-office en deze kenmerken verzendt naar de Experience Platform.
 role: Admin, Developer
 feature: Personalization, Integration
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: dcd0b9e7-8d36-4bde-b226-ac19e83f00e4
+source-git-commit: 5b1387e18e059c938aca600cc31951a3f5289e7e
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '602'
 ht-degree: 2%
 
 ---
 
-# Aangepaste orderkenmerken toevoegen
+# Aangepaste kenmerken toevoegen aan bestellingen
 
 In dit artikel leert u hoe u aangepaste kenmerken kunt toevoegen aan back office-gebeurtenissen. Met aangepaste kenmerken kunt u rijke gegevensinzichten vastleggen om de analysemogelijkheden te verbeteren en persoonlijke ervaringen voor uw klanten verder te creëren.
+
+>[!NOTE]
+>
+>Leer hoe u douaneidentiteiten [ aan profielen kunt ](custom-identities.md) toevoegen.
 
 Aangepaste kenmerken worden op twee niveaus ondersteund:
 
@@ -344,7 +349,7 @@ ComponentRegistrar::register(
 
 Als u er zeker van wilt zijn dat de nieuwe aangepaste orderkenmerken door uw [!DNL Commerce] -schema in Experience Platform kunnen worden opgenomen, moet u het schema uitbreiden en deze aangepaste velden opnemen.
 
-Leren hoe te om een bestaand schema uit te breiden XDM om deze douanegebieden te omvatten, zie [ schema&#39;s in het UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) artikel in de documentatie van Experience Platform creëren en uitgeven. Het veld Tenant-id wordt dynamisch gegenereerd, maar de veldstructuur moet overeenkomen met het voorbeeld in de Experience Platform-documentatie.
+Leren hoe te om een bestaand schema uit te breiden XDM om deze douanegebieden te omvatten, zie [ schema&#39;s in het UI ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) artikel in de documentatie van Experience Platform creëren en uitgeven. Het veld Tenant-id wordt dynamisch gegenereerd, maar de veldstructuur moet overeenkomen met het voorbeeld in de Experience Platform-documentatie.
 
 >[!IMPORTANT]
 >

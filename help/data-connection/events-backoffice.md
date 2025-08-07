@@ -3,9 +3,10 @@ title: Back Office-gebeurtenissen
 description: Leer welke gegevens elke achterkantoorgebeurtenis vangt.
 role: Admin, Developer
 feature: Personalization, Integration, Eventing
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 65cf8150-1a14-4d4c-aa0c-1545109e4fe7
+source-git-commit: 1750aee715946d3a871e021cbbee687f54d1ff09
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3618'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 Hieronder ziet u een lijst met Commerce-back office-gebeurtenissen die beschikbaar zijn wanneer u de extensie [!DNL Data Connection] installeert. De gegevens die deze gebeurtenissen verzamelen, worden naar de Adobe Experience Platform verzonden. U kunt [ douanegebeurtenissen ](custom-events.md) ook tot stand brengen om extra gegevens te verzamelen die niet uit de doos worden verstrekt.
 
-Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [ andere gegevens ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=nl-NL) die door het Web SDK van Adobe Experience Platform worden verstrekt.
+Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [ andere gegevens ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html) die door het Web SDK van Adobe Experience Platform worden verstrekt.
 
-De gebeurtenissen van het achterkantoor bevatten server-zijgegevens. Dit gegeven bestaat uit [ de status van de orde ](#order-status) informatie zoals als een orde werd geplaatst, geannuleerd, terugbetaald, verscheept, of voltooid. De server-zijgegevens omvatten ook [&#128279;](#customer-profile-events) informatie van de de klantenprofielgebeurtenissen van 0&rbrace; &lbrace;, zoals als een rekening werd gecreeerd, bijgewerkt, of geschrapt.
+De gebeurtenissen van het achterkantoor bevatten server-zijgegevens. Dit gegeven bestaat uit [ de status van de orde ](#order-status) informatie zoals als een orde werd geplaatst, geannuleerd, terugbetaald, verscheept, of voltooid. De server-zijgegevens omvatten ook [ informatie van de de klantenprofielgebeurtenissen van 0} {, zoals als een rekening werd gecreeerd, bijgewerkt, of geschrapt.](#customer-profile-events)
 
 >[!NOTE]
 >
->Alle achterkantoorgebeurtenissen omvatten het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
+>Alle achterkantoorgebeurtenissen omvatten het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
 
 ## Status van bestelling
 
@@ -407,7 +408,7 @@ Profielgebeurtenissen die vanaf de server zijn vastgelegd, bevatten accountinfor
 
 >[!NOTE]
 >
->Elke gebeurtenis van het klantenprofiel omvat ook het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het systeem geproduceerde identiteitskaart van de Klant van Commerce als primaire herkenningsteken voor het profiel en een e-mailidentiteitskaart omvat die als secundaire herkenningsteken wordt gebruikt.
+>Elke gebeurtenis van het klantenprofiel omvat ook het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html) gebied, dat het systeem geproduceerde identiteitskaart van de Klant van Commerce als primaire herkenningsteken voor het profiel en een e-mailidentiteitskaart omvat die als secundaire herkenningsteken wordt gebruikt. [ Leer ](custom-identities.md) hoe te om de attributen van de douanetidentity tot stand te brengen om de identificatie van het klantenprofiel te verbeteren.
 
 ### accountCreated
 

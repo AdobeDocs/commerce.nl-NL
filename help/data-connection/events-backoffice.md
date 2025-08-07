@@ -17,7 +17,7 @@ Hieronder ziet u een lijst met Commerce-back office-gebeurtenissen die beschikba
 
 Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [ andere gegevens ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html) die door het Web SDK van Adobe Experience Platform worden verstrekt.
 
-De gebeurtenissen van het achterkantoor bevatten server-zijgegevens. Dit gegeven bestaat uit [ de status van de orde ](#order-status) informatie zoals als een orde werd geplaatst, geannuleerd, terugbetaald, verscheept, of voltooid. De server-zijgegevens omvatten ook [ informatie van de de klantenprofielgebeurtenissen van 0} {, zoals als een rekening werd gecreeerd, bijgewerkt, of geschrapt.](#customer-profile-events)
+De gebeurtenissen van het achterkantoor bevatten server-zijgegevens. Dit gegeven bestaat uit [ de status van de orde ](#order-status) informatie zoals als een orde werd geplaatst, geannuleerd, terugbetaald, verscheept, of voltooid. De server-zijgegevens omvatten ook [ informatie van de de klantenprofielgebeurtenissen van 0&rbrace; &lbrace;, zoals als een rekening werd gecreeerd, bijgewerkt, of geschrapt.](#customer-profile-events)
 
 >[!NOTE]
 >

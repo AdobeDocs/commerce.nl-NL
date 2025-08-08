@@ -3,11 +3,11 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: b0ce0a399e89baaeabe87c53d069df866378f8c8
+source-git-commit: ee11900f0ddf77a8cb7df7d5ae378924bdf1f2d7
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Voordat u begint, moet u controleren of:
 
 - **de rekening van Adobe Experience Cloud** met [!DNL Adobe Commerce Optimizer] rechten
 - **beheerdertoegang van de Organisatie** om instanties tot stand te brengen en gebruikers te beheren
-- **GitHub rekening** (voor het laden van steekproefgegevens en storefront ontwikkeling)
+- **GitHub rekening** voor het laden van steekproefgegevens en storefront ontwikkeling
 - **Basis begrip** van e-commerceconcepten
 
 ## Handleiding Snel starten
@@ -76,6 +76,7 @@ Beheerders beheren instanties, gebruikers en organisatorische instellingen.
 |---|---|---|
 | **beheert Gebruikers** | Gebruikers, ontwikkelaars en beheerders toevoegen | [ Gebruikersbeheer ](./user-management.md) |
 | **creeer Instanties** | Sandbox- en productieomgevingen instellen | [ creeer instantie ](#create-an-instance) |
+| **beheert Instanties** | De status controleren, instantienaam en beschrijving bijwerken en sleutel-URL&#39;s ophalen voor toepassing en API-toegang | [ beheert Instanties ](#manage-instances) |
 | **vorm Toegang** | Catalogusweergaven en -beleid instellen | [ de Weergaven van de Catalogus ](./setup/catalog-view.md) |
 
 ### Ontwikkelingstaken
@@ -86,7 +87,7 @@ De ontwikkelaars behandelen technische implementatie en gegevensintegratie, met 
 |---|---|---|
 | **Toegang Developer Console** | Projecten maken en referenties genereren | [ Developer Console ](https://developer.adobe.com/developer-console/docs/guides/getting-started) |
 | **Ingest Gegevens van de Catalogus** | Productgegevens van bestaande systemen importeren | [ Ingestie API van Gegevens ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/) |
-| **Opstellings Storefront** | Edge Delivery Services-storefront configureren | [ Opstelling Storefront ](./storefront.md) |
+| **Opstelling Storefront** | Edge Delivery Services-storefront configureren | [ Opstelling Storefront ](./storefront.md) |
 
 ### Merchandisertaken
 
@@ -98,38 +99,63 @@ Handelaars optimaliseren en personaliseren de boodschapervaring door productontd
 | **Aanbevelingen** | Aanbevelingen voor producten met een AI-processor instellen | [ Aanbevelingen van het Product ](./merchandising/recommendations/overview.md) |
 | **Prestaties die** volgen | Meting van succes controleren | [ Metriek van het Succes ](./manage-results/success-metrics.md) |
 
-## Een instantie beheren
+## Instanties beheren
+
+Exemplaren beheren vanuit Commerce Cloud Manager.
+
+>[!NOTE]
+>
+>Niet alle Adobe Commerce Optimizer-gebruikers hebben toegang tot Cloud Manager. De toegang hangt van de rol en de toestemmingen af die aan de gebruikersrekening worden toegewezen.
 
 1. Login aan [ Adobe Experience Cloud ](https://experience.adobe.com/).
 
 1. Commerce Cloud Manager openen:
+
    - Onder **Snelle toegang**, klik **Commerce**.
    - Bekijk de beschikbare varianten.
 
-1. Toegang tot uw instantie:
+### Zoeken en filteren
 
-   Klik op de instantienaam om de [!DNL Adobe Commerce Optimizer] -toepassing te openen. Binnen de toepassing kunt u tussen verschillende [!DNL Adobe Commerce Optimizer] -instanties schakelen met behulp van de vervolgkeuzelijst boven aan de pagina:
+Nadat u zich hebt aangemeld, worden op het dashboard alle Commerce-productinstanties weergegeven die in de organisatie beschikbaar zijn.
+De kolom Product geeft aan voor welke Commerce-toepassing de instantie is ingericht.
+
+Gebruik de opties Filter en Zoeken om snel naar specifieke varianten te zoeken. U kunt zoeken op gegevens die zijn gemaakt, regio&#39;s die zijn gemaakt op basis van producttype, omgeving en status.
+
+### De toepassing [!DNL Adobe Commerce Optimizer] openen
+
+Zodra de app is geopend, kunt u eenvoudig schakelen tussen omgevingen als sandbox en productie om gegevens en instellingen voor elke omgeving weer te geven zonder terug te keren naar Commerce Cloud Manager.
+
+1. Klik in Commerce Cloud Manager op de instantienaam om de toepassing [!DNL Adobe Commerce Optimizer] te openen.
+
+1. Schakel tussen [!DNL Adobe Commerce Optimizer] -instanties zonder de toepassing te verlaten.
+
+   De instantie drop-down maakt een lijst van alle Optimizer instanties beschikbaar in de organisatie. Selecteer de instantie die u wilt weergeven.
 
    ![ Schakelaar van de Instantie ](./assets/context-switcher.png){zoomable="yes"}
 
-   Alle weergegeven exemplaren behoren tot dezelfde organisatie. U kunt tussen instanties schakelen om gegevens en montages voor elk te bekijken, zoals tussen zandbak en productiemilieu&#39;s.
+### Instantiedetails ophalen**
 
-1. Instantiedetails ophalen:
-   - Klik op het informatiepictogram naast de instantienaam.
-   - Neem nota van het eindpunt van GraphQL, het eindpunt van de Dienst van de Catalogus voor gegevensopname, en identiteitskaart van de Instantie (die ook als `tenant ID` wordt bekend).
+Bekijk de instantiedetails door op het informatiepictogram naast uw instantienaam te klikken.
 
-   ![ Details van de Instantie ](./assets/aco-instance-details.png){width="60%" zoomable="yes"}
+![ Details van de Instantie ](./assets/aco-instance-details.png){width="60%" zoomable="yes"}
 
-   Het eindpunt en instantieidentiteitskaart (huurder ID) details worden vereist om met frontend toepassingen en achterste systemen te integreren. De URL voor toegang tot de toepassing [!DNL Adobe Commerce Optimizer] wordt hier ook gegeven.
+Let op de volgende belangrijke informatie:
 
-   Niet alle Adobe Commerce Optimizer-gebruikers hebben toegang tot Cloud Manager en de instantiedetails. De toegang hangt van de rol en de toestemmingen af die aan de gebruikersrekening worden toegewezen. Als u geen toegang hebt, neemt u contact op met uw organisatiebeheerder om de instantiedetails op te halen.
+- **het eindpunt van GraphQL** om de catalogusgegevens van Commerce terug te winnen gebruikend Verkoop API
+- **eindpunt van de Dienst van de Catalogus** voor gegevensopname die REST API gebruiken
+- **Commerce Optimizer URL** om tot de [!DNL Adobe Commerce Optimizer] toepassing toegang te hebben
+- **identiteitskaart van de Instantie** unieke huurder identiteitskaart die de instantie identificeert
 
-1. Naam en beschrijving van exemplaar bewerken:
-   - Klik **uitgeven** pictogram naast een instantienaam.
-   - Werk de naam en beschrijving naar wens bij.
-   - Klik **sparen**.
+Het eindpunt en de details van instanceID worden vereist voor het vormen API toegang en het integreren met frontend toepassingen en backendsystemen.
+Als u geen toegang tot de instantiedetails hebt, contacteer uw organisatiebeheerder om de waarden te krijgen.
 
-   U kunt de opties voor zoeken en filteren ook gebruiken om snel naar specifieke varianten te zoeken.
+### Instantienaam en -beschrijving bewerken
+
+Werk indien nodig de instantienaam en beschrijving bij.
+
+1. Klik **uitgeven** pictogram naast een instantienaam.
+1. Werk de **naam van de Instantie** en **Beschrijving** zoals nodig bij.
+1. Klik **sparen**.
 
 ## Voorbeeldgegevens toevoegen
 
@@ -150,7 +176,7 @@ De steekproefgegevens zijn gebaseerd op het [ bedrijfscase van het Carvelo ](./u
    - Uw omgeving instellen
    - Voltooi het proces voor gegevensinvoer
    - Catalogusweergaven en -beleid maken met behulp van voorbeeldgegevens
-   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0&rbrace; Gegevens te controleren &lbrace;](./setup/data-sync.md)
+   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0} Gegevens te controleren {](./setup/data-sync.md)
 
 ## Volgende stappen
 
@@ -186,5 +212,5 @@ Na voltooiing van de installatie:
 ### Hulp vragen
 
 - **Middelen van de Ontwikkelaar**: [ Documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/)
-- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
+- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

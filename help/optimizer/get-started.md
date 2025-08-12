@@ -3,11 +3,11 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: ee11900f0ddf77a8cb7df7d5ae378924bdf1f2d7
+source-git-commit: 87fbd979b0660af1bf3a8786eb1e1f5f79cea043
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Zodra de app is geopend, kunt u eenvoudig schakelen tussen omgevingen als sandbo
 
    ![ Schakelaar van de Instantie ](./assets/context-switcher.png){zoomable="yes"}
 
-### Instantiedetails ophalen**
+### Instantiedetails ophalen
 
 Bekijk de instantiedetails door op het informatiepictogram naast uw instantienaam te klikken.
 
@@ -176,7 +176,7 @@ De steekproefgegevens zijn gebaseerd op het [ bedrijfscase van het Carvelo ](./u
    - Uw omgeving instellen
    - Voltooi het proces voor gegevensinvoer
    - Catalogusweergaven en -beleid maken met behulp van voorbeeldgegevens
-   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0&rbrace; Gegevens te controleren &lbrace;](./setup/data-sync.md)
+   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0} Gegevens te controleren {](./setup/data-sync.md)
 
 ## Volgende stappen
 
@@ -211,6 +211,7 @@ Na voltooiing van de installatie:
 
 ### Hulp vragen
 
-- **Middelen van de Ontwikkelaar**: [ Documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/)
-- **Bron van de Storefront**: [ Documentatie van Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
+- **Middelen van de Ontwikkelaar**: [ documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/)
+- **Bronnen van de Storefront**: [ Commerce storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **Leerprogramma&#39;s**: [ zelfstudies van Commerce Optimizer ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

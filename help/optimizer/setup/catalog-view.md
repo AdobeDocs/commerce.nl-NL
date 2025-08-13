@@ -3,11 +3,11 @@ title: Catalogusweergave
 description: Leer welke catalogusweergaven zijn en hoe u deze kunt maken om uw productcatalogus te ordenen op basis van de bedrijfsstructuur, het beleid en de prijzen.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 76c1b81c-b456-4334-89bd-6027308cbc47
-source-git-commit: 2e47c770d204c9c7f959893704dd0ebcc6ac792a
+source-git-commit: ff53f84b4ab7cfb219aae0e29cc35b23d0f6601b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,43 @@ Voordat u een catalogusweergave maakt, moet u controleren of:
 De pagina van de catalogusweergaven wordt bijgewerkt om de nieuwe catalogusweergave weer te geven. &#x200B;
 
 Nadat u deze stappen hebt uitgevoerd, is de catalogusweergave nu geconfigureerd voor het weergeven van producten en prijzen op basis van uw geselecteerde bronnen en beleid.
+
+## Catalogusweergave beheren
+
+Volg deze instructies om de eigenschappen van bestaande catalogusweergaven bij te werken of weer te geven.
+
+### Catalogusweergave bewerken
+
+1. Voor de *meningen van de Catalogus* werkruimte, vind de catalogusmening in het net dat u wilt uitgeven en klikken **...** om het actiemenu te openen.
+1. Klik **uitgeven** om tot de redacteur van de catalogusmening toegang te hebben.
+1. Werk indien nodig de naam, catalogusbronnen, beleidsregels en informatie over het prijzenboek bij.
+1. Sla de wijzigingen op.
+
+### Catalogusweergave verwijderen
+
+1. In de *meningen van de Catalogus* werkruimte, vind de catalogusmening in het net dat u wilt uitgeven en **klikken...** om het actiemenu te openen.
+1. Klik **Schrapping**.
+
+   Klik op **[!UICONTROL Delete]** wanneer het bevestigingsvenster verschijnt.
+
+### Details weergeven
+
+Deze optie verstrekt een snelle manier om alle parameters van de catalogusmening te zien, terwijl het blijven op de *de meningen van de Catalogus* lijst.
+
+Op de *werkruimte van de meningen van de Catalogus*, vind de catalogusmening in het net dat u wilt uitgeven en het ![ informatiepictogram ](../assets/info-icon.png) klikken.
+
+![ Details van de Mening van de Catalogus ](../assets/catalog-view-details.png)
+
+Van hier kunt u de configuratiedetails van de catalogusmening zien, zoals:
+
+- Weergave-id
+- Naam
+- Catalogusbronnen
+- Beleid
+- Gemaakt op
+- Gewijzigde gegevens
+
+Sommige van deze configuratie-instellingen zijn nodig wanneer u de winkel instelt of de API voor gegevensinvoer gebruikt.
 
 ## Overzicht van architectuur
 

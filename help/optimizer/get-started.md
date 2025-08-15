@@ -3,11 +3,11 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: 87fbd979b0660af1bf3a8786eb1e1f5f79cea043
+source-git-commit: 5cb7dc4d2bd1b9bd43d4a858e4814ca803a49027
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,9 @@ Exemplaren beheren vanuit Commerce Cloud Manager.
 Nadat u zich hebt aangemeld, worden op het dashboard alle Commerce-productinstanties weergegeven die in de organisatie beschikbaar zijn.
 De kolom Product geeft aan voor welke Commerce-toepassing de instantie is ingericht.
 
-Gebruik de opties Filter en Zoeken om snel naar specifieke varianten te zoeken. U kunt zoeken op gegevens die zijn gemaakt, regio&#39;s die zijn gemaakt op basis van producttype, omgeving en status.
+![ Onderzoek en filter van de Instantie ](./assets/search-filter-instances.png){zoomable="yes"}
+
+Met de gereedschappen Filter en Zoeken kunt u snel specifieke varianten zoeken op basis van datum, regio, maker, producttype, omgeving of status.
 
 ### De toepassing [!DNL Adobe Commerce Optimizer] openen
 
@@ -146,8 +148,11 @@ Let op de volgende belangrijke informatie:
 - **Commerce Optimizer URL** om tot de [!DNL Adobe Commerce Optimizer] toepassing toegang te hebben
 - **identiteitskaart van de Instantie** unieke huurder identiteitskaart die de instantie identificeert
 
-Het eindpunt en de details van instanceID worden vereist voor het vormen API toegang en het integreren met frontend toepassingen en backendsystemen.
-Als u geen toegang tot de instantiedetails hebt, contacteer uw organisatiebeheerder om de waarden te krijgen.
+Als u een ontwikkelaar bent, hebt u deze gegevens nodig om uw ontwikkelomgeving in te stellen en verbinding te maken met de API&#39;s van [!DNL Adobe Commerce Optimizer] .
+
+>[!NOTE]
+>
+>Voor toegang tot de instantiedetails hebt u de noodzakelijke toestemmingen in uw organisatie van Adobe IMS nodig. Neem contact op met de systeembeheerder als u de instantiedetails niet ziet of geen toegang hebt tot de toepassing.
 
 ### Instantienaam en -beschrijving bewerken
 
@@ -176,7 +181,7 @@ De steekproefgegevens zijn gebaseerd op het [ bedrijfscase van het Carvelo ](./u
    - Uw omgeving instellen
    - Voltooi het proces voor gegevensinvoer
    - Catalogusweergaven en -beleid maken met behulp van voorbeeldgegevens
-   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0&rbrace; Gegevens te controleren &lbrace;](./setup/data-sync.md)
+   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0} Gegevens te controleren {](./setup/data-sync.md)
 
 ## Volgende stappen
 
@@ -212,6 +217,6 @@ Na voltooiing van de installatie:
 ### Hulp vragen
 
 - **Middelen van de Ontwikkelaar**: [ documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/)
-- **Bronnen van de Storefront**: [ Commerce storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-- **Leerprogramma&#39;s**: [ zelfstudies van Commerce Optimizer ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
+- **Bronnen van de Storefront**: [ Commerce storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **Leerprogramma&#39;s**: [ zelfstudies van Commerce Optimizer ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

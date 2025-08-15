@@ -19,7 +19,7 @@ Dit leerprogramma verstrekt gedetailleerde instructies voor vestiging en het geb
 >[!TIP]
 >
 >Snel het installatieproces van de winkel volgen door met het gereedschap Sitemaker de opslagplaats en de omgeving van de auteur van het document in te stellen
->>automatisch. Vervolgens kunt u deze instructies gebruiken om te begrijpen hoe de winkel is gemaakt en om meer te weten te komen over de componenten waarover u beschikt.
+>&#x200B;>automatisch. Vervolgens kunt u deze instructies gebruiken om te begrijpen hoe de winkel is gemaakt en om meer te weten te komen over de componenten waarover u beschikt.
 
 ## Vereisten
 

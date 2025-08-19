@@ -3,7 +3,7 @@ title: De testsandbox instellen
 description: Gebruik een Paypal- zandbakrekening om  [!DNL Payment Services]  op testwijze te gebruiken.
 exl-id: 99c14b4e-e6cf-48f9-9546-5c0d5c71464d
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Sandbox aan boord voltooien:
       Als u een Paypal- zandbakrekening tijdens het zandbakPayPal op instapend proces creeerde, moet u [ uw onboarding zandbak ](#reset-your-sandbox-account) opnieuw instellen omdat of u kunt uw e-mail niet verifiëren.
 
    1. Selecteer **[!UICONTROL Business]** als het accounttype en klik op **[!UICONTROL Create]** .
-   1. Klik in de sectie _[!UICONTROL Sandbox Accounts]_&#x200B;op de drie stippen in de kolom&#x200B;_[!UICONTROL Manage accounts]_ voor de sandboxaccount die u hebt gemaakt.
+   1. Klik in de sectie _[!UICONTROL Sandbox Accounts]_op de drie stippen in de kolom_[!UICONTROL Manage accounts]_ voor de sandboxaccount die u hebt gemaakt.
    1. Klik op **[!UICONTROL View/edit account]**.
 
       ![ PayPal - Mening/geef zandbakrekening uit ](assets/onboarding-viewedit-sandbox.png){width="300" zoomable="yes"}
@@ -41,7 +41,7 @@ Sandbox aan boord voltooien:
 
    Deze optie is zichtbaar als u de sandbox voor [!DNL Payment Services] nog niet hebt voltooid.
 
-   Een zandbak handelings identiteitskaart wordt auto-geproduceerd en bevolkt in [ montages ](settings.md). Wijzig of wijzig deze id niet.
+   Een zandbak handelings identiteitskaart wordt auto-geproduceerd en bevolkt in [ montages ](configure-admin.md). Wijzig of wijzig deze id niet.
 
    Je krijgt een PayPal-venster te zien waarin je een PayPal-rekening verbindt om betalingen te accepteren.
 

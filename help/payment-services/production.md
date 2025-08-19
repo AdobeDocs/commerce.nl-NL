@@ -3,9 +3,9 @@ title: Laat  [!DNL Payment Services]  voor Productie toe
 description: Voltooi het aan boord gaan proces door  [!DNL Payment Services]  voor productie toe te laten.
 exl-id: 3b1269e8-127b-47f8-9738-9722a5737c63
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: 0f2e9c3a7d990a46bafc5f3b8a083436d42643b5
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 U kunt de dienst in productie zetten en het [ onboarding proces ](onboard.md) voltooien, per de stappen in dit onderwerp, na u:
 
-* [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeer ](install.md) de uitbreiding van de Diensten van de Betaling
-* [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ vormt en verbindt ](connect.md) uw instantie
+* [!BADGE  PaaS slechts ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeer ](install.md) de uitbreiding van de Diensten van de Betaling
+* [!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ vormt en verbindt ](connect.md) uw instantie
 * [ Opstelling ](sandbox.md) en [ test ](test-validate.md) uw zandbak
 
 ## [!DNL Payment Services] instellen als betalingsmethode
@@ -27,10 +27,10 @@ Nadat u [ uw Diensten van Commerce ](connect.md#configure-commerce-services) vor
 
    Deze optie is zichtbaar als u [!DNL Payment Services] nog niet hebt geconfigureerd als betalingsmethode voor een of meer van uw websites.
 
-   U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [ betalingsmethode ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"} kunt toelaten.
+   U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [ betalingsmethode ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"} kunt toelaten.
 
-1. Stel **[!UICONTROL Enable]** in op `Yes` in _[!UICONTROL General Configuration]_.
-1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_&#x200B;als&#x200B;_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
+1. Stel _[!UICONTROL General Configuration]_in op **[!UICONTROL Enable]**in `Yes` .
+1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_als_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
 
    | Instelling | Beschrijving |
    |---|---|
@@ -43,11 +43,11 @@ Nadat u [ uw Diensten van Commerce ](connect.md#configure-commerce-services) vor
 
 1. Klik op **[!UICONTROL Save]**.
 1. Klik op **[!UICONTROL Go to Payment Services]** om terug te gaan naar [!DNL Payment Services] Home.
-1. [ ontruim uw geheime voorgeheugen ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html?lang=nl-NL).
+1. [ ontruim uw geheime voorgeheugen ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html).
 
    Het ontruimen zou na elke configuratieverandering moeten worden gedaan.
 
-Zie [ de Diensten van de Betaling ](settings.md) voor meer informatie over het vormen van de Gebieden van de Kaart en PayPal betalingsknopen vormen.
+Zie [ vormen  [!DNL Payment Services]](configure-admin.md) voor meer informatie over het vormen van de Gebieden van de Kaart en PayPal betalingsknopen.
 
 ## Volledige merchant aan boord
 
@@ -105,7 +105,7 @@ Nadat het land is geselecteerd:
 
 1. Ga op de zijbalk Beheerder naar **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**
 
-   De knop _[!UICONTROL Live onboarding]_&#x200B;is niet meer zichtbaar en u ziet een tekstvak &quot;[!UICONTROL Live payments pending]&quot;.
+   De knop _[!UICONTROL Live onboarding]_is niet meer zichtbaar en u ziet een tekstvak &quot;[!UICONTROL Live payments pending]&quot;.
 
    In dat tekstvak wordt je mogelijk ook gevraagd je e-mailadres bij PayPal te bevestigen om de inboeking te voltooien.
 
@@ -157,7 +157,7 @@ Live betalingen inschakelen:
 1. Klik in het Home op **[!UICONTROL Settings]** rechtsboven op de pagina. Zie [ Huis ](payments-home.md) voor meer informatie.
 1. In de _[!UICONTROL General Configuration]_-sectie ingesteld op **[!UICONTROL Payment mode]**`Production` .
 1. Klik op **[!UICONTROL Save]**.
-1. [ ontruim uw geheime voorgeheugen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
+1. [ ontruim uw geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
 
    >[!IMPORTANT]
    >

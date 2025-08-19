@@ -4,9 +4,9 @@ description: De verwerkingsniveaus van de betaling van de kaart binnen  [!DNL Pa
 role: Admin
 feature: Payments, Paas, Saas
 exl-id: db8993fe-dd6f-48b5-9e7b-69a0f2e08552
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Verwerking van niveau 2 en niveau 3
 
 [!DNL Payment Services] biedt geavanceerde mogelijkheden voor kaartverwerking om handelaren te helpen hun betalingstransacties te optimaliseren en de afwikkelingskosten te verlagen. Er zijn drie niveaus van kaartverwerking beschikbaar, elk met verschillende vereisten van transactiegegevens.
+
+>[!CAUTION]
+>
+> [ Fastlane ](payments-options.md#fastlane-button) de orden omvatten Niveau 2/Niveau 3 geen gegevens, lijnpunten, en waardeverdeling.
 
 ## Gegevensvereisten per verwerkingsniveau
 

@@ -3,9 +3,9 @@ title: Betalingsopties
 description: Stel de betalingsopties in om de beschikbare methoden voor uw winkelklanten aan te passen.
 exl-id: 95e648e6-6cb8-4226-b5ea-e1857212f20a
 feature: Payments, Checkout, Configuration, Paas, Saas
-source-git-commit: 0d00ce6e5291b3753cb7e2ee9e8af262b2c8894f
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,22 @@ Zie [  [!DNL Payment Services]  toelaten voor productie ](../payment-services/pr
 
 ## [!UICONTROL Digital Wallets]
 
+### [!DNL Fastlane] knop
+
+[!DNL Fastlane] biedt een snelle, veilige en probleemloze manier om online te betalen. Tijdens de controle van de Gast van de a ****, kunt u veilig uw kaart en verschepende details voor nog snellere aankopen in de toekomst opslaan.
+
+* **Onmiddellijke toegang voor geverifieerde kopers**: Erken miljoenen van terugkerende klanten en laat naadloze betalingen in seconden toe.
+* **opbrengst van de Verhoging**: Verbeter omzettings en toestemmingstarieven met meer voltooide aankopen.
+* **versnelt controle**: Verminder wrijving met een veilige, wachtwoord-loze login ervaring.
+
+Wanneer [!DNL Fastlane] is ingeschakeld, is de optie [!UICONTROL Credit Card Fields] standaard uitgeschakeld.
+
+>[!NOTE]
+>
+> Fastlane wordt momenteel alleen ondersteund voor Amerikaanse handelaren. Daarom wordt [!UICONTROL 3D Secure authentication] momenteel niet ondersteund.
+
+Zie [ Fastlane door PayPal ](https://www.paypal.com/us/fastlane){target=_blank} onderwerp voor meer informatie.
+
 ### [!DNL Apple Pay] knop
 
 Met [!DNL Apple Pay] kunnen handelaren een veilige, gestroomlijnde afrekenervaring bieden in Safari (voor maximaal 99 domeinen per zakelijke account), waardoor conversies kunnen toenemen. De opgeslagen betalings-, contact- en verzendgegevens van iOS- of macOS-apparaten van klanten in [!DNL Apple Pay] worden automatisch ingevuld, waardoor een snelle, eenmalige afhandeling mogelijk wordt.
@@ -57,7 +73,7 @@ Als deze optie is ingeschakeld, is de knop [!DNL Apple Pay] zichtbaar vanaf de p
 >
 >  Het certificaat voor domeinverificatie in Apple Pay is al opgenomen in de code voor betalingsservices. Controleer of het pad `/.well-known/apple-developer-merchantid-domain-association` een antwoordcode van 200 retourneert. Zie [ PayPal ontwikkelaarsdocumentatie over het Integreren met Apple Pay ](https://developer.paypal.com/docs/checkout/apm/apple-pay/#download-and-host-sandbox-domain-association-file) voor meer informatie over het **de verificatie van het Domein van Apple Pay** certificaat.
 
-Zie [ Montages ](settings.md#apple-pay) voor meer informatie.
+Zie [ Montages ](configure-admin.md#apple-pay) voor meer informatie.
 
 ### [!DNL Google Pay] knop
 
@@ -79,9 +95,9 @@ Als deze optie is ingeschakeld, is de knop [!DNL Google Pay] zichtbaar vanaf de 
 
 ![ PayPal knoop ](assets/paypal-button.png){width="350" zoomable="yes"}
 
-U kunt [!UICONTROL PayPal payment buttons] configureren in de winkelconfiguratie of in [!DNL Payment Services] Home. Zie [ Montages ](settings.md#payment-buttons) voor meer informatie.
+U kunt [!UICONTROL PayPal payment buttons] configureren in de winkelconfiguratie of in [!DNL Payment Services] Home.
 
-Leer over beschikbaarheid van betalingsmethodes door land in de documentatie van de Methodes van de Betaling van PayPal [&#128279;](https://developer.paypal.com/docs/checkout/payment-methods/).
+Leer over beschikbaarheid van betalingsmethodes door land in de documentatie van de Methodes van de Betaling van PayPal [ ](https://developer.paypal.com/docs/checkout/payment-methods/).
 
 #### [!DNL PayPal] knop
 
@@ -109,9 +125,15 @@ Bied uw klanten kortetermijnbetalingen, rentevrije betalingen en andere financie
 
 De knop [!DNL Pay Later] is zichtbaar vanaf de productpagina, de miniwinkelwagentje, het winkelwagentje en de afrekenweergave.
 
-Zie informatie over de Pay Later aanbiedingen in [ PayPal van PayPal biedt later documentatie ](https://developer.paypal.com/docs/checkout/pay-later/us/) aan. Gebruik **Land of gebied** dropdown om een gebied van belang te selecteren.
+Zie informatie over het [ Betaal later aanbiedingen ](https://developer.paypal.com/docs/checkout/pay-later/us/) in de documentatie van de Ontwikkelaar van PayPal. Gebruik **Land of gebied** dropdown om een gebied van belang te selecteren.
 
-Leer om het [!DNL Pay Later] overseinen onbruikbaar te maken of toe te laten door de [ configuratie van Montages ](settings.md#payment-buttons) bij te werken.
+Leer om het [!DNL Pay Later] overseinen onbruikbaar te maken of toe te laten door de [ configuratie van Montages ](configure-admin.md#pay-later-button) bij te werken.
+
+##### Optioneel. Later betalingsbericht configureren
+
+**vorm overseinen** voor [ later betalen ](configure-admin.md#pay-later-button) staat verkopers toe om de standaardstijlen voor deze betalingsoptie te wijzigen. Als u **[!UICONTROL Display Pay Later Message]** aan `Yes` in uw [ configuratie van Montages ](configure-admin.md#pay-later-button) plaatst, wordt een **[!UICONTROL Configure Messaging]** modale knoop getoond zodat kunt u de stijlen voor **[!UICONTROL PayPal Pay Later messaging]** plaatsen.
+
+![ Betaal Later Overseinen ](assets/pay-later-messaging.png){width="500" zoomable="yes"}
 
 ### Alleen PayPal-betalingsknoppen gebruiken
 
@@ -125,16 +147,16 @@ Zo kunt u:
 
 **vangt betalingen met _slechts_ PayPal betaalknopen (_niet_ de optie van de creditcardbetaling van PayPal)**:
 
-1. Zorg ervoor dat uw opslag [ op productiemodus ](settings.md#enable-payment-services) is.
-1. [ vorm de gewenste PayPal betalingsknopen ](settings.md#payment-buttons) in Montages.
-1. Draai _weg_ de **[[!UICONTROL Show PayPal Credit and Debit card button]](settings.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_&#x200B;sectie.
+1. Zorg ervoor dat uw opslag [ op productiemodus ](configure-admin.md#enable-payment-services) is.
+1. [ vorm de gewenste PayPal betalingsknopen ](configure-admin.md#payment-buttons) in Montages.
+1. Draai _weg_ de **[[!UICONTROL Show PayPal Credit and Debit card button]](configure-admin.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_sectie.
 
 Om **betalingen met uw bestaande creditcardleverancier _en_ PayPal betaalknopen** te vangen:
 
-1. Zorg ervoor dat uw opslag [ op productiemodus ](settings.md#enable-payment-services) is.
-1. [ vorm de gewenste PayPal betalingsknopen ](settings.md#payment-buttons).
-1. Draai _weg_ de **[[!UICONTROL PayPal Show Credit and Debit card button]](settings.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_&#x200B;sectie.
-1. Draai _van_ de **[[!UICONTROL Show on checkout page]](settings.md#credit-card-fields)** optie in de _[!UICONTROL Credit card fields]_&#x200B;sectie en gebruik uw [ bestaande rekening van de creditcardleverancier ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html?lang=nl-NL#payments).
+1. Zorg ervoor dat uw opslag [ op productiemodus ](configure-admin.md#enable-payment-services) is.
+1. [ vorm de gewenste PayPal betalingsknopen ](configure-admin.md#payment-buttons).
+1. Draai _weg_ de **[[!UICONTROL PayPal Show Credit and Debit card button]](configure-admin.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_sectie.
+1. Draai _van_ de **[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)** optie in de _[!UICONTROL Credit card fields]_sectie en gebruik uw [ bestaande rekening van de creditcardleverancier ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments).
 
 ## Afhandelingsopties
 

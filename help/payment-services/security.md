@@ -3,10 +3,10 @@ title: Beveiliging en naleving
 description: Beoordeel de beveiligings- en compatibiliteitsvereisten voor uw site.
 exl-id: 083c5a12-1d78-48b5-b9e3-612b104ce7e0
 feature: Payments, Checkout, Compliance
-redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html?lang=nl-NL
-source-git-commit: 9f7690ae325853b9b4a590b3d1cd538909a26462
+redirect_from: https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security.html
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Beveiliging is van het grootste belang in [!DNL Payment Services] en er worden g
 
 [!DNL Adobe Commerce] en [!DNL Magento Open Source] bieden ondersteuning voor verschillende beveiligingsfuncties.
 
-Zie [ Veiligheid ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/security){target="_blank"} in de gids van de kerngebruiker om veiligheid beste praktijken te herzien, en te leren hoe te om zittingen Admin en geloofsbrieven te beheren, CAPTCHA uit te voeren, en websitebeperkingen te beheren.
+Zie [ Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security){target="_blank"} in de gids van de kerngebruiker om veiligheid beste praktijken te herzien, en te leren hoe te om zittingen Admin en geloofsbrieven te beheren, CAPTCHA uit te voeren, en websitebeperkingen te beheren.
 
 ## PCI-compatibiliteit
 
 De betaalkaartindustrie (PCI) heeft een reeks vereisten vastgesteld voor bedrijven die betalingen via een creditcard via internet accepteren. Naast het handhaven van een veilige omgeving, zijn de handelaren die de informatie van de klantencreditcard behandelen verantwoordelijk voor het voldoen aan sommige standaardrichtlijnen.
 
-Zie {de Richtlijnen van de Naleving van 0} PCI [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"} voor meer informatie.
+Zie {de Richtlijnen van de Naleving van 0} PCI [ voor meer informatie.](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}
 
 De handelaren kunnen a [ zelfbeoordelingsvragenlijst (SAQ) voltooien ](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"}, die een zelfbevestigingshulpmiddel is om veiligheid voor kaarthoudergegevens te beoordelen.
 
@@ -39,7 +39,7 @@ PCI 3-D Secure (3DS) maakt kopersverificatie mogelijk met hun creditcardmaatscha
 
 [!UICONTROL Payment Services] biedt 3DS-functionaliteit om handelaren in staat te stellen te voldoen aan de EU-regelgeving en om klanten en handelaren te beschermen tegen frauduleuze activiteiten in hun winkels.
 
-Als u een handelaar binnen de EU of Groot-Brittannië bent waar de 3DS naleving wordt vereist, moet u 3DS (het is `Off` door gebrek) manueel aanzetten in [ Montages ](settings.md#credit-card-fields).
+Als u een handelaar binnen de EU of Groot-Brittannië bent waar 3DS naleving wordt vereist, moet u 3DS (het is `Off` door gebrek) manueel aanzetten in [ Admin van de Configuratie ](configure-admin.md#credit-card-fields).
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ Orders die door het bedrijfs-/winkelpersoneel voor de koper worden geplaatst, zi
 
 >[!MORELIKETHIS]
 >
-> * Zie [ 3DS in montages ](settings.md#3ds) voor meer informatie.
+> * Zie [ 3DS in montages ](configure-admin.md#3ds) voor meer informatie.
 > * Zie [ testkaarten ](https://developer.paypal.com/docs/checkout/advanced/customize/3d-secure/test/) in de ontwikkelaarsdocumentatie van PayPal voor meer informatie over specifieke creditcards voor het testen 3DS.
 
 ### Kaart vauleren
@@ -64,7 +64,7 @@ Met PayPal-betalingsknoppen worden er geen gegevens doorgegeven die door een PCI
 
 Om veiligheidsredenen geeft PayPal het factuuradres niet door tijdens het afrekenen. Land, e-mail en naam zijn de enige factuurgegevens die worden gebruikt. U kunt desgewenst het PayPal-afhandeling van uw site inschakelen om het volledige factureringsadres te retourneren door contact op te nemen met PayPal en een controleproces te voltooien.
 
-PayPal heeft ook geïntegreerde fraudebescherming die computerleren gebruikt om fraude te bestrijden. Zie de documentatie van de Bescherming van de Verkoper van PayPal [&#128279;](https://www.paypal.com/us/webapps/mpp/security/seller-protection) voor meer informatie.
+PayPal heeft ook geïntegreerde fraudebescherming die computerleren gebruikt om fraude te bestrijden. Zie de documentatie van de Bescherming van de Verkoper van PayPal [ ](https://www.paypal.com/us/webapps/mpp/security/seller-protection) voor meer informatie.
 
 ## Fraudebescherming
 

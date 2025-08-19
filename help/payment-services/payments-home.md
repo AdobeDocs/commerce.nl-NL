@@ -5,7 +5,7 @@ role: Admin, User
 level: Intermediate
 exl-id: d7a4c87f-33cb-446a-b442-3cdf05b518a2
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -46,4 +46,4 @@ ht-degree: 0%
 
 ## Instellingen
 
-Klik in de weergave Home op **[!UICONTROL Settings]** . Zie [ Montages ](settings.md) voor meer informatie.
+Klik in de weergave Home op **[!UICONTROL Settings]** . Zie [[!DNL Payment Services]  configuratie ](configure-admin.md) voor meer informatie.

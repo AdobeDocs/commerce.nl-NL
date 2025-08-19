@@ -74,7 +74,7 @@ U kunt alleen in Admin gearchiveerde kaarten gebruiken als de klant zowel een be
 U kunt als volgt een bestelling voor een klant maken in de Admin met de gefactureerde creditcard:
 
 1. [ creeer een orde en voeg producten ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html) toe.
-1. Selecteer _[!UICONTROL Payment & Shipping Information]_als betalingsmethode in **[!UICONTROL Stored Cards]**.
+1. Selecteer _[!UICONTROL Payment & Shipping Information]_&#x200B;als betalingsmethode in **[!UICONTROL Stored Cards]**.
 1. Selecteer de gewenste betalingsmethode voor creditcard.
 1. Na de voltooiing van andere noodzakelijke stappen voor de orde, [ voorlegt het ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order.html?lang=en#step-3%3A-submit-the-order).
 

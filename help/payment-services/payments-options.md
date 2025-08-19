@@ -47,7 +47,7 @@ Zie [  [!DNL Payment Services]  toelaten voor productie ](../payment-services/pr
 
 ### [!DNL Fastlane] knop
 
-[!DNL Fastlane] biedt een snelle, veilige en probleemloze manier om online te betalen. Tijdens de controle van de Gast van de a ****, kunt u veilig uw kaart en verschepende details voor nog snellere aankopen in de toekomst opslaan.
+[!DNL Fastlane] biedt een snelle, veilige en probleemloze manier om online te betalen. Tijdens de controle van de Gast van de a **&#x200B;**, kunt u veilig uw kaart en verschepende details voor nog snellere aankopen in de toekomst opslaan.
 
 * **Onmiddellijke toegang voor geverifieerde kopers**: Erken miljoenen van terugkerende klanten en laat naadloze betalingen in seconden toe.
 * **opbrengst van de Verhoging**: Verbeter omzettings en toestemmingstarieven met meer voltooide aankopen.
@@ -97,7 +97,7 @@ Als deze optie is ingeschakeld, is de knop [!DNL Google Pay] zichtbaar vanaf de 
 
 U kunt [!UICONTROL PayPal payment buttons] configureren in de winkelconfiguratie of in [!DNL Payment Services] Home.
 
-Leer over beschikbaarheid van betalingsmethodes door land in de documentatie van de Methodes van de Betaling van PayPal [ ](https://developer.paypal.com/docs/checkout/payment-methods/).
+Leer over beschikbaarheid van betalingsmethodes door land in de documentatie van de Methodes van de Betaling van PayPal [&#128279;](https://developer.paypal.com/docs/checkout/payment-methods/).
 
 #### [!DNL PayPal] knop
 
@@ -149,14 +149,14 @@ Zo kunt u:
 
 1. Zorg ervoor dat uw opslag [ op productiemodus ](configure-admin.md#enable-payment-services) is.
 1. [ vorm de gewenste PayPal betalingsknopen ](configure-admin.md#payment-buttons) in Montages.
-1. Draai _weg_ de **[[!UICONTROL Show PayPal Credit and Debit card button]](configure-admin.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_sectie.
+1. Draai _weg_ de **[[!UICONTROL Show PayPal Credit and Debit card button]](configure-admin.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_&#x200B;sectie.
 
 Om **betalingen met uw bestaande creditcardleverancier _en_ PayPal betaalknopen** te vangen:
 
 1. Zorg ervoor dat uw opslag [ op productiemodus ](configure-admin.md#enable-payment-services) is.
 1. [ vorm de gewenste PayPal betalingsknopen ](configure-admin.md#payment-buttons).
-1. Draai _weg_ de **[[!UICONTROL PayPal Show Credit and Debit card button]](configure-admin.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_sectie.
-1. Draai _van_ de **[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)** optie in de _[!UICONTROL Credit card fields]_sectie en gebruik uw [ bestaande rekening van de creditcardleverancier ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments).
+1. Draai _weg_ de **[[!UICONTROL PayPal Show Credit and Debit card button]](configure-admin.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_&#x200B;sectie.
+1. Draai _van_ de **[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)** optie in de _[!UICONTROL Credit card fields]_&#x200B;sectie en gebruik uw [ bestaande rekening van de creditcardleverancier ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments).
 
 ## Afhandelingsopties
 

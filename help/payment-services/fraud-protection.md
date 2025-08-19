@@ -33,7 +33,7 @@ U moet rechtstreeks communiceren met Handtekening aan boord van de extensie voor
 Wanneer u aan boord gaat met handtekening, moet u:
 
 1. Neem contact op met de ondertekenaar om een nieuwe account in te stellen.
-1. Door gebrek, wordt het Ondertekenen gevoegd op lijst van gewenste personen [ ](https://github.com/signifyd/magento2/blob/main/docs/RESTRICT-PAYMENTS.md) om ervoor te zorgen het Ondertekenen niet voor andere betalingsopties teweegbrengt het momenteel niet steunt. Als u een bepaalde betalingsmethode wilt verbieden, moet u wijzigingen aanbrengen.
+1. Door gebrek, wordt het Ondertekenen gevoegd op lijst van gewenste personen [&#128279;](https://github.com/signifyd/magento2/blob/main/docs/RESTRICT-PAYMENTS.md) om ervoor te zorgen het Ondertekenen niet voor andere betalingsopties teweegbrengt het momenteel niet steunt. Als u een bepaalde betalingsmethode wilt verbieden, moet u wijzigingen aanbrengen.
 1. Bevestig met Ondertekenen dat PayPal geen bestellingen afwijst die via de instelling voor fraudebescherming van de handelaar in Paypal kunnen worden goedgekeurd door Ondertekenen.
 1. Zorg ervoor dat de extensie Ondertekenen compatibel is met [!DNL Payment Services] :
    * Wanneer het gebruiken van [!DNL Payment Services] op _Levende_ wijze, moet het Ondertekenen op de wijze van de Productie zijn.
@@ -45,12 +45,12 @@ Aangezien Signifyd enige actie onderneemt op uw bestellingen, is het noodzakelij
 
 Deze configuratieopties zijn niet compatibel met Betalingsservices en de integratie Ondertekenen:
 
-* Wanneer [!DNL Payment Services] met de `Authorize` betalingsactie _wordt gevormd en_ Ondertekenen is op `PostAuth` wijze met de _[!UICONTROL Decline Guarantees]_optie die aan **wordt geplaatst creeer creditnota**.
+* Wanneer [!DNL Payment Services] met de `Authorize` betalingsactie _wordt gevormd en_ Ondertekenen is op `PostAuth` wijze met de _[!UICONTROL Decline Guarantees]_&#x200B;optie die aan **wordt geplaatst creeer creditnota**.
 
   Reden: [!DNL Payment Services] maakt een machtigingstransactie die Ondertekenaar vervolgens probeert terug te betalen.
 
 
-* [!DNL Payment Services] wordt gevormd met `Authorize and Capture` betalingsactie _en_ Ondertekenen is op `PostAuth` wijze met de _[!UICONTROL Decline Guarantees]_optie die aan **wordt geplaatst orde**annuleert.
+* [!DNL Payment Services] wordt gevormd met `Authorize and Capture` betalingsactie _en_ Ondertekenen is op `PostAuth` wijze met de _[!UICONTROL Decline Guarantees]_&#x200B;optie die aan **wordt geplaatst orde**&#x200B;annuleert.
 
   Reden: [!DNL Payment Services] maakt een vastlegtransactie die tijdens de ondertekening wordt vermeden.
 

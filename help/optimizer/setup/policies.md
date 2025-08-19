@@ -2,10 +2,11 @@
 title: Beleid
 description: Leer hoe te om beleid in  [!DNL Adobe Commerce Optimizer] tot stand te brengen en te beheren.
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 356b10704c9e7c7329d3e9c0e10baa15d5142ec0
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: 77f524f6-e283-44d2-9c79-9d40f686a7bf
+source-git-commit: 845d93e367c8e2495943afe8c7d5d0a4bde990c2
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -75,11 +76,14 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
    1. **Attribuut** - ga een attribuut van uw catalogus in. Bijvoorbeeld &quot;part_category&quot;. Deze naam moet exact overeenkomen met de naam van het kenmerk in de catalogus.
    1. **Exploitant** - kies de exploitant. Bijvoorbeeld, **IN**. &#x200B;
    1. **waarde Source** - Uitgezochte **STATIC**. &#x200B;
-   1. **Waarde** - ga de waarde(n) binnen de attributen in u eerder specificeerde. Bijvoorbeeld &quot;remmen, ophanging&quot;. &#x200B;Deze namen moeten exact overeenkomen met de namen van de waarden voor het kenmerk dat u eerder hebt opgegeven.
+   1. **Waarde** - ga een waarde van de attributendefinitie in die u eerder specificeerde. Voer bijvoorbeeld &quot;remmen&quot; in om een filter voor remonderdelen te maken. &#x200B;De waarde moet exact overeenkomen met de kenmerknaam.
+   1. Om de waarde te bewaren, druk **binnengaan**.
+
+      Als het beleid wordt ontworpen om door veelvoudige waarden te filtreren, ga elke waarde afzonderlijk in.
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 
@@ -120,7 +124,7 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 

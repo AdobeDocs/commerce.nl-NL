@@ -3,11 +3,11 @@ title: Gebruiksscenario van begin tot einde voor Storefront en Catalog Administr
 description: Leer hoe te om  [!DNL Adobe Commerce Optimizer]  te gebruiken om uw catalogus te beheren gebruikend catalogusmeningen en beleid en hoe te opstelling uw opslag die op uw catalogusconfiguratie wordt gebaseerd.
 role: Admin, Developer
 feature: Personalization, Integration
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
-source-git-commit: 1ab7ee5673f261b43db25caf0ad340a0fd9e3341
+source-git-commit: e5844cad1d666a81042db64e51e124e6444d19ac
 workflow-type: tm+mt
-source-wordcount: '2158'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ In dit geval gebruikt u het volgende:
 
 >[!NOTE]
 >
-> Leer over de dossiers van de storefrontconfiguratie door [ te herzien verken boilerplate ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=nl-NL) onderwerp in de documentatie van de Storefront van Adobe Commerce.
+> Leer over de dossiers van de storefrontconfiguratie door [ te herzien verken boilerplate ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/) onderwerp in de documentatie van de Storefront van Adobe Commerce.
 
 ### ‌ Key-trajecten
 
@@ -185,11 +185,12 @@ Laten wij een nieuw beleid tot stand brengen genoemd *de categorieën van het De
    - **Attribuut** = *part_category*
    - **Exploitant** = **IN**
    - **Waarde Source** = **STATIC**
-   - **Waarde** = *slagen*, *opschorting*
+   - **Waarde** = *slagen*
+   - **Waarde** = *opschorting*
 
    >[!IMPORTANT]
    >
-   >Zorg ervoor dat de kenmerknaam die u opgeeft, exact overeenkomt met de SKU-kenmerknaam in de catalogus.
+   >Elke kenmerkwaarde moet afzonderlijk worden ingevoerd. Na het ingaan van een waarde, druk **binnengaan** om het aan de filterconfiguratie toe te voegen. Voer vervolgens de volgende waarde in. Alle waarden moeten exact overeenkomen met de naam van het SKU-kenmerk in de catalogus.
 
    Meer over het verschil tussen een STATISCHE en TRIGGER waardebron leren, zie [ de types van waardebron ](../setup/policies.md#value-source-types).
 
@@ -216,7 +217,7 @@ Laten wij een nieuw beleid tot stand brengen genoemd *de categorieën van het De
 
 ### Een catalogusweergave maken
 
-Creeer een nieuwe catalogusmening voor de *handelaar 0&rbrace; Celport &lbrace;en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* Categorieën van het Deel van de Knoop *.*
+Creeer een nieuwe catalogusmening voor de *handelaar 0} Celport {en verbind het volgende beleid:* de brandmerken van Coast Inc van Cisco *en* Categorieën van het Deel van de Knoop *.*
 
 1. In het linkerspoor, breid de _opstellings_ sectie van de Opslag uit en klik **[!UICONTROL Catalog views]**.
 
@@ -230,7 +231,8 @@ Creeer een nieuwe catalogusmening voor de *handelaar 0&rbrace; Celport &lbrace;e
 
    - **Naam** = *Celport*
    - **de bronnen van de Catalogus** = *en-US*
-   - **Beleid** (gebruiksdrop) = *de Randen van Coast Inc van het Oosten*; *de categorieën van het Deel van de Knol*; *Merk*; *Model*                          
+   - **Beleid** (gebruiksdrop) = *de Randen van Coast Inc van het Oosten*; *de categorieën van het Deel van de Knol*; *Merk*; *Model*
+                         
 1. Klik op **[!UICONTROL Add]** om de catalogusweergave te maken.
 
    De pagina met catalogusweergaven wordt bijgewerkt om de nieuwe catalogusweergave weer te geven.
@@ -445,4 +447,4 @@ Ga als volgt te werk om meer te leren over Adobe Commerce Optimizer:
 - Leer over [ geavanceerde beleidsconfiguraties ](../setup/policies.md)
 - Opstelling [ extra catalogusmeningen ](../setup/catalog-view.md) voor andere dealership
 - Herzie de [ API documentatie ](https://developer.adobe.com/commerce/services/optimizer/) voor programmatic catalogusbeheer
-- Leer hoe u drop-in componenten voor uw Edge Delivery Services-winkel kunt configureren om aangepaste storefront-ervaringen te maken voor productdetectie, aanbevelingen en andere opslagmogelijkheden. Zie de [ documentatie Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=nl-NL)
+- Leer hoe u drop-in componenten voor uw Edge Delivery Services-winkel kunt configureren om aangepaste storefront-ervaringen te maken voor productdetectie, aanbevelingen en andere opslagmogelijkheden. Zie de [ documentatie Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/)

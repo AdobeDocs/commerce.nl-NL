@@ -3,7 +3,7 @@ title: Gebruiksscenario van begin tot einde voor Storefront en Catalog Administr
 description: Leer hoe te om  [!DNL Adobe Commerce Optimizer]  te gebruiken om uw catalogus te beheren gebruikend catalogusmeningen en beleid en hoe te opstelling uw opslag die op uw catalogusconfiguratie wordt gebaseerd.
 role: Admin, Developer
 feature: Personalization, Integration
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: d11663f8-607e-4f1d-b68f-466a69bcbd91
 source-git-commit: e5844cad1d666a81042db64e51e124e6444d19ac
 workflow-type: tm+mt
@@ -55,7 +55,7 @@ In dit geval gebruikt u het volgende:
 
 >[!NOTE]
 >
-> Leer over de dossiers van de storefrontconfiguratie door [ te herzien verken boilerplate ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/) onderwerp in de documentatie van de Storefront van Adobe Commerce.
+> Leer over de dossiers van de storefrontconfiguratie door [ te herzien verken boilerplate ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=nl-NL) onderwerp in de documentatie van de Storefront van Adobe Commerce.
 
 ### ‌ Key-trajecten
 
@@ -447,4 +447,4 @@ Ga als volgt te werk om meer te leren over Adobe Commerce Optimizer:
 - Leer over [ geavanceerde beleidsconfiguraties ](../setup/policies.md)
 - Opstelling [ extra catalogusmeningen ](../setup/catalog-view.md) voor andere dealership
 - Herzie de [ API documentatie ](https://developer.adobe.com/commerce/services/optimizer/) voor programmatic catalogusbeheer
-- Leer hoe u drop-in componenten voor uw Edge Delivery Services-winkel kunt configureren om aangepaste storefront-ervaringen te maken voor productdetectie, aanbevelingen en andere opslagmogelijkheden. Zie de [ documentatie Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/)
+- Leer hoe u drop-in componenten voor uw Edge Delivery Services-winkel kunt configureren om aangepaste storefront-ervaringen te maken voor productdetectie, aanbevelingen en andere opslagmogelijkheden. Zie de [ documentatie Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=nl-NL)

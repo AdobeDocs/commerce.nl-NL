@@ -26,7 +26,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
 * [Het AEM Assets-project configureren](configure-aem.md)
 
-* [!BADGE  PaaS slechts ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeert de pakketten van Adobe Commerce ](configure-commerce.md) om de uitbreiding toe te voegen en de vereiste geloofsbrieven en de verbindingen te produceren om de uitbreiding te gebruiken.
+* [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeert de pakketten van Adobe Commerce ](configure-commerce.md) om de uitbreiding toe te voegen en de vereiste geloofsbrieven en de verbindingen te produceren om de uitbreiding te gebruiken.
 
 * Volg de stappen die in [ worden beschreven toelaten Dynamische Media Open API ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) onderwerp. Neem de volgende informatie op voor het ondersteuningsteam:
 
@@ -57,7 +57,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
    Voor details over de Selecteur van Activa, zie [ manueel selecterend activa ](../synchronize/asset-selector-integration.md)
 
-1. [!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} Selecteer [[!UICONTROL Commerce integration]](configure-commerce.md#add-the-integration-to-the-commerce-environment) voor het voor authentiek verklaren van verzoeken tussen Commerce en de activa passende dienst.
+1. [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} Selecteer [[!UICONTROL Commerce integration]](configure-commerce.md#add-the-integration-to-the-commerce-environment) voor het voor authentiek verklaren van verzoeken tussen Commerce en de activa passende dienst.
 
 1. Stel **[!UICONTROL Commerce integration]** in op `assets-integration` om de Commerce-integratie te selecteren die u met AEM Assets wilt gebruiken.
 

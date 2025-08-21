@@ -15,13 +15,13 @@ ht-degree: 0%
 
 In het volgende voorbeeld worden de Commerce-gedragsgebeurtenissen weergegeven die beschikbaar zijn wanneer u de extensie [!DNL Data Connection] installeert. De gegevens die deze gebeurtenissen verzamelen, worden naar de Adobe Experience Platform verzonden. U kunt [ douanegebeurtenissen ](custom-events.md) ook tot stand brengen om extra gegevens te verzamelen die niet uit de doos worden verstrekt.
 
-Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [ andere gegevens ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html) die door het Web SDK van Adobe Experience Platform worden verstrekt.
+Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [ andere gegevens ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=nl-NL) die door het Web SDK van Adobe Experience Platform worden verstrekt.
 
 De gedragsgebeurtenissen verzamelen geanonimiseerde gedragsgegevens van uw kopers wanneer ze door uw site bladeren. U kunt de gegevens die deze gebeurtenissen verzamelen gebruiken om promoties en campagnes te maken voor een specifieke groep kopers.
 
 >[!NOTE]
 >
->Alle gedragsgebeurtenissen omvatten het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
+>Alle gedragsgebeurtenissen omvatten het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
 
 ## Gebeurtenissen van Storefront
 
@@ -47,6 +47,6 @@ Zie de [ ontwikkelaardocumentatie ](https://developer.adobe.com/commerce/service
 
 ![ B2B voor Adobe Commerce ](../assets/b2b.svg) voor B2B handelaren, moet u [&#128279;](install.md#install-the-b2b-extension) de `experience-platform-connector-b2b` uitbreiding installeren om tot deze gebeurtenissen toegang te hebben.
 
-De B2B gebeurtenissen bevatten [ informatie van de 0&rbrace; verzoeklijst &lbrace;, zoals als een verzoeklijst werd gecreeerd, aan, of geschrapt van werd toegevoegd. ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html) Door gebeurtenissen te volgen specifiek voor aanvraaglijsten, kunt u zien welke producten uw klanten vaak kopen en campagnes tot stand brengen die op die gegevens worden gebaseerd.
+De B2B gebeurtenissen bevatten [ informatie van de 0&rbrace; verzoeklijst &lbrace;, zoals als een verzoeklijst werd gecreeerd, aan, of geschrapt van werd toegevoegd. ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html?lang=nl-NL) Door gebeurtenissen te volgen specifiek voor aanvraaglijsten, kunt u zien welke producten uw klanten vaak kopen en campagnes tot stand brengen die op die gegevens worden gebaseerd.
 
 Zie de [ ontwikkelaardocumentatie ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#data-connection) om meer over gebeurtenissen te leren B2B.

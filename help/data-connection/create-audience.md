@@ -79,9 +79,9 @@ Gebruik deze gebeurtenisgegevens om op te geven dat het publiek personen bevat m
 
    ![ bouwt Regel ](assets/build-rule.png)
 
-   De **werkruimte van de Bouwer van het Segment** is waar u de regels en de voorwaarden voor uw publiek bepaalt. &#x200B; Deze regels en voorwaarden zijn gebaseerd op gebeurtenis- en profielgegevens uit uw Commerce-winkel en definiëren de criteria die bepalen of een gebruiker voor het publiek in aanmerking komt. U kunt bijvoorbeeld een regel maken die gebruikers bevat die een bepaald product hebben weergegeven, of gebruikers die een aankoop binnen een bepaalde tijdsperiode hebben gedaan. Leer meer over [ de Bouwer van het Segment ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) en regels en voorwaarden.
+   De **werkruimte van de Bouwer van het Segment** is waar u de regels en de voorwaarden voor uw publiek bepaalt. &#x200B; Deze regels en voorwaarden zijn gebaseerd op gebeurtenis- en profielgegevens uit uw Commerce-winkel en definiëren de criteria die bepalen of een gebruiker voor het publiek in aanmerking komt. U kunt bijvoorbeeld een regel maken die gebruikers bevat die een bepaald product hebben weergegeven, of gebruikers die een aankoop binnen een bepaalde tijdsperiode hebben gedaan. Leer meer over [ de Bouwer van het Segment ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder) en regels en voorwaarden.
 
-1. Selecteer de [ Gebeurtenissen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events) tabel.
+1. Selecteer de [ Gebeurtenissen ](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#events) tabel.
 
    ![ het Lusje van Gebeurtenissen ](assets/audience-events-tab.png)
 
@@ -109,7 +109,7 @@ U maakt een publiek beschikbaar in [!DNL Commerce] door het voor de [!DNL Commer
 
 >[!IMPORTANT]
 >
->Als u niet reeds [!DNL Commerce] als beschikbare bestemming hebt geplaatst om gegevens te ontvangen, zie het [ Adobe  [!DNL Commerce]  3&rbrace; onderwerp van de Verbinding &lbrace;.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)
+>Als u niet reeds [!DNL Commerce] als beschikbare bestemming hebt geplaatst om gegevens te ontvangen, zie het [ Adobe  [!DNL Commerce]  3&rbrace; onderwerp van de Verbinding &lbrace;.](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)
 
 1. In het **lusje van Details** van uw publiek, activeert de klik **aan bestemming**.
 
@@ -119,7 +119,7 @@ U maakt een publiek beschikbaar in [!DNL Commerce] door het voor de [!DNL Commer
 
 ## &#x200B;3. Bekijk het publiek in het dashboard Soorten publiek
 
-In [!DNL Commerce], kunt u alle [ actieve ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) publiek bekijken dat voor uw [!DNL Commerce] instantie kan worden gepersonaliseerd gebruikend het **publiek van Real-Time CDP** dashboard.
+In [!DNL Commerce], kunt u alle [ actieve ](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations) publiek bekijken dat voor uw [!DNL Commerce] instantie kan worden gepersonaliseerd gebruikend het **publiek van Real-Time CDP** dashboard.
 
 Om tot het **publiek van Real-Time CDP** dashboard toegang te hebben, ga naar _Admin_ sidebar, dan ga **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
@@ -132,9 +132,9 @@ Zoek in het dashboard naar het publiek dat u hebt gemaakt. Let op: het wordt nie
 In deze sectie ziet u hoe u een regel voor de winkelwagenprijs kunt maken op basis van uw nieuwe publiek.
 
 1. Bevestig dat uw nieuw publiek in het **1&rbrace; dashboard van het Soorten publiek van Real-Time CDP &lbrace;wordt getoond.**
-1. [ creeer een regel van de kartprijs ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create).
-1. [ plaats de voorwaarde ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#use-real-time-cdp-audiences-to-set-a-condition) van de regel van de wortelprijs gebruikend uw nieuw publiek.
-1. [ plaats de actie ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#step-3-define-the-actions) die u wilt voorkomen wanneer het product aan de kar wordt toegevoegd.
+1. [ creeer een regel van de kartprijs ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create).
+1. [ plaats de voorwaarde ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#use-real-time-cdp-audiences-to-set-a-condition) van de regel van de wortelprijs gebruikend uw nieuw publiek.
+1. [ plaats de actie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#step-3-define-the-actions) die u wilt voorkomen wanneer het product aan de kar wordt toegevoegd.
 1. Ga door met het configureren van de regel voor de winkelwagenprijs.
 1. Ga naar de klantenweergave van uw sandboxinstantie.
 1. Voeg het product dat u hebt gemaakt, toe aan de winkelwagen. U ziet dat de prijsregel voor winkelwagentjes is ingeschakeld.

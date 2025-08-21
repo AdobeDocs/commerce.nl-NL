@@ -2,9 +2,9 @@
 title: Instellingen
 description: Leer hoe te om de bron van uw  [!DNL Product Recommendations]  gegevens te veranderen en hoe te om visuele aanbevelingen toe te laten.
 exl-id: fe37624d-c53e-40cd-b182-10f62cba74c0
-source-git-commit: fe5f864262478d1f9e205f2cd275452594cf4675
+source-git-commit: 7d5e3faeef2fb16779d1558027a0b76ff3fe3a38
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Staging-orders worden opgenomen met de testvolgorde `environmentId` . Zij heeft 
 
 Als u de bron van de gegevens van uw productaanbevelingen wilt wijzigen, kiest u de SaaS-gegevensruimte met de gedragsgegevens die u wilt gebruiken. Voordat u begint, moet u ervoor zorgen dat:
 
-- De gegevensinzameling van de opslag moet [ worden gevormd en worden toegelaten ](install-configure.md) voor uw productiemilieu en [ verifieerde ](verify.md) dat het gedragsgegevens worden verzonden naar Adobe Commerce.
+- De gegevensinzameling van de opslag moet [ worden gevormd en worden toegelaten ](install-configure.md) voor uw productiemilieu en [ verifieerde ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/) dat het gedragsgegevens worden verzonden naar Adobe Commerce.
 - De niet-productieomgevingscatalogus moet in wezen hetzelfde zijn als de productiecatalogus. Het gebruik van vergelijkbare catalogi zorgt ervoor dat de eenheden van de productaanbeveling de eenheden in productie dicht navielen.
 
 1. Meld u aan bij de beheerder van uw Adobe Commerce-omgeving die niet voor productie is bedoeld.

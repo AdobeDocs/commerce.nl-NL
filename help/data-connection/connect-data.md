@@ -97,7 +97,7 @@ Download het [ dossier van de werkruimteconfiguratie ](https://developer.adobe.c
 
 In deze sectie geeft u het type gegevens op dat u wilt verzamelen en naar de Experience Platform-rand wilt verzenden. Er zijn drie soorten gegevens:
 
-- **Gedrag** (cliënt-zijgegevens) is gegevens die op storefront worden gevangen. Dit omvat winkelinteracties, zoals `View Page`, `View Product`, `Add to Cart`, en [ de lijstinformatie van de 3} aanvraag ](events.md#b2b-events) (voor B2B handelaren).
+- **Gedrag** (cliënt-zijgegevens) is gegevens die op storefront worden gevangen. Dit omvat winkelinteracties, zoals `View Page`, `View Product`, `Add to Cart`, en [ de lijstinformatie van de 3&rbrace; aanvraag ](events.md#b2b-events) (voor B2B handelaren).
 
 - **het bureau van de rug** (server-zijgegevens) is gegevens die in de servers van Commerce worden gevangen. Dit omvat informatie over de status van een bestelling, zoals of een bestelling is geplaatst, geannuleerd, terugbetaald, verzonden of voltooid. Het omvat ook [ historische ordegegevens ](#send-historical-order-data).
 
@@ -109,7 +109,7 @@ Zie het gebeurtenisonderwerp om meer over [ storefront ](events.md#storefront-ev
 
 >[!NOTE]
 >
->Alle gebieden in de **sectie van de inzameling van 0} Gegevens {zijn op het** 3} werkingsgebied van de Website {van toepassing.****
+>Alle gebieden in de **sectie van de inzameling van 0&rbrace; Gegevens {zijn op het** 3} werkingsgebied van de Website &lbrace;van toepassing.**&#x200B;**
 
 1. Selecteer **gebeurtenissen Storefront** als u storefront gedragsgegevens wilt verzenden.
 
@@ -119,11 +119,11 @@ Zie het gebeurtenisonderwerp om meer over [ storefront ](events.md#storefront-ev
    >
    >Als u **de gebeurtenissen van het achterkantoor** selecteert, worden alle achterkantoorgegevens verzonden naar de rand van Experience Platform. Als een winkelier ervoor kiest zich af te melden voor gegevensverzameling, moet u de privacyvoorkeur van de winkels expliciet instellen in de Experience Platform. Dit is anders dan storefront-gebeurtenissen waarbij de verzamelaar al toestemming afhandelt op basis van de voorkeuren van de winkels. Leer [ meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset.html) over het plaatsen van de privacyvoorkeur van een verkoopster in Experience Platform.
 
-1. (Sla deze stap over als u uw eigen SDK van het Web van AEP. gebruikt) [ creeer ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) een gegevensstroom in Adobe Experience Platform of selecteer een bestaande gegevensstroom u voor inzameling wilt gebruiken. Ga die gegevensstroomidentiteitskaart op het **gebied van identiteitskaart 0} DataStream in.**
+1. (Sla deze stap over als u uw eigen SDK van het Web van AEP. gebruikt) [ creeer ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) een gegevensstroom in Adobe Experience Platform of selecteer een bestaande gegevensstroom u voor inzameling wilt gebruiken. Ga die gegevensstroomidentiteitskaart op het **gebied van identiteitskaart 0&rbrace; DataStream in.**
 
 1. Ga **identiteitskaart van de Dataset** in die u uw gegevens van Commerce wilt bevatten. De id van de gegevensset zoeken:
 
-   1. Open Experience Platform UI en selecteer **Datasets** in de linkernavigatie om het **** dashboard van Datasets {te openen. Het dashboard maakt een lijst van alle beschikbare datasets voor uw organisatie. De details worden getoond voor elke vermelde dataset, met inbegrip van zijn naam, het schema de dataset zich aan, en status van de meest recente versiereeks houdt.
+   1. Open Experience Platform UI en selecteer **Datasets** in de linkernavigatie om het **&#x200B;**&#x200B;dashboard van Datasets &lbrace;te openen. Het dashboard maakt een lijst van alle beschikbare datasets voor uw organisatie. De details worden getoond voor elke vermelde dataset, met inbegrip van zijn naam, het schema de dataset zich aan, en status van de meest recente versiereeks houdt.
    1. Open de dataset verbonden aan uw gegevensstroom.
    1. In de rechterruit, bekijk de details over de dataset. Kopieer de id van de gegevensset.
 
@@ -266,7 +266,7 @@ Op het **lusje van de Aanpassing van Gegevens**, kunt u om het even welke douane
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat gegevensstroomidentiteitskaart u [ ](#data-collection) op het **lusje van de Inzameling van Gegevens** verbonden identiteitskaart met het schema voor het opnemen van douaneattributen specificeerde.
+>Zorg ervoor dat gegevensstroomidentiteitskaart u [&#128279;](#data-collection) op het **lusje van de Inzameling van Gegevens** verbonden identiteitskaart met het schema voor het opnemen van douaneattributen specificeerde.
 
 Wanneer u aangepaste kenmerken voor bestellingen maakt en deze naar de Experience Platform verzendt, moeten de kenmerknamen in Commerce overeenkomen met die in het [!DNL Commerce] -schema op de Experience Platform. Als ze niet overeenkomen, kan het moeilijk zijn om de verschillen vast te stellen. Als u namen verkeerd hebt overtroffen, kan de **lijst van de Attributen van de Orde van de Douane** helpen het probleem oplossen.
 

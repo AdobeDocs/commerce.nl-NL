@@ -56,7 +56,7 @@ Voer de volgende stappen uit om te zorgen dat kenmerken doorzoekbaar zijn:
 
 1. In Admin, ga **>** Attribuut *>* Product **.**
 1. Selecteer het kenmerk dat u wilt doorzoeken, bijvoorbeeld `color` .
-1. Selecteer **Eigenschappen van 0} Storefront en plaats** Gebruik in Onderzoek **aan**.`yes`
+1. Selecteer **Eigenschappen van 0&rbrace; Storefront en plaats** Gebruik in Onderzoek **aan**.`yes`
 
    ![ Workspace ](assets/attribute-searchable.png)
 

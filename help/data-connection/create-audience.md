@@ -73,9 +73,9 @@ Gebruik deze gebeurtenisgegevens om op te geven dat het publiek personen bevat m
 
    ![ creeer Publiek ](assets/browse-create-audience.png)
 
-   De **werkruimtevertoningen van de Bouwer van het 1} Segment.**
+   De **werkruimtevertoningen van de Bouwer van het 1&rbrace; Segment.**
 
-1. In de **werkruimte van de Bouwer van het 1} Segment**, selecteer de **bouwt regel** creatiemethode.
+1. In de **werkruimte van de Bouwer van het 1&rbrace; Segment**, selecteer de **bouwt regel** creatiemethode.
 
    ![ bouwt Regel ](assets/build-rule.png)
 
@@ -85,11 +85,11 @@ Gebruik deze gebeurtenisgegevens om op te geven dat het publiek personen bevat m
 
    ![ het Lusje van Gebeurtenissen ](assets/audience-events-tab.png)
 
-1. Zoek naar het gebeurtenistype &quot;Productweergaven&quot;. Dan, sleep en laat vallen het in de **werkruimte van de Bouwer van het 1} Segment**.
+1. Zoek naar het gebeurtenistype &quot;Productweergaven&quot;. Dan, sleep en laat vallen het in de **werkruimte van de Bouwer van het 1&rbrace; Segment**.
 
-1. Keer terug naar het **lusje van Gebeurtenissen** en onderzoek naar &quot;SKU&quot;terug, dat gegevensgebied onder het `productListItems` gebied is. De belemmering en laat vallen het aan de **werkruimte van de Bouwer van het 1} Segment bovenop de** Mening van het Product **gebeurtenis.**
+1. Keer terug naar het **lusje van Gebeurtenissen** en onderzoek naar &quot;SKU&quot;terug, dat gegevensgebied onder het `productListItems` gebied is. De belemmering en laat vallen het aan de **werkruimte van de Bouwer van het 1&rbrace; Segment bovenop de** Mening van het Product **gebeurtenis.**
 
-   De **de sectievertoningen van Regels van de Gebeurtenis 0} {waar u het specifieke product kunt specificeren u uw publiek van wilt bouwen.**
+   De **de sectievertoningen van Regels van de Gebeurtenis 0&rbrace; &lbrace;waar u het specifieke product kunt specificeren u uw publiek van wilt bouwen.**
 
    ![ Uitgezochte SKU ](assets/audience-addsku.png)
 
@@ -97,11 +97,11 @@ Gebruik deze gebeurtenisgegevens om op te geven dat het publiek personen bevat m
 
    Wanneer het bouwen van een publiek, kunt u een tijdinterval specificeren om recente activiteit te vangen. Door een tijdinterval in te stellen, kunt u gebruikers als doel instellen op basis van hun recente interacties of gedragingen binnen een bepaald tijdsbestek.
 
-1. In de **sectie van de Eigenschappen van het publiek 1} op de rechterkant van de werkruimte, plaats de publiekseigenschappen door een naam, een beschrijving, en een evaluatiemethode voor het publiek te verstrekken.**
+1. In de **sectie van de Eigenschappen van het publiek 1&rbrace; op de rechterkant van de werkruimte, plaats de publiekseigenschappen door een naam, een beschrijving, en een evaluatiemethode voor het publiek te verstrekken.**
 
 1. Klik op **[!UICONTROL Save and Close]** om het publiek op te slaan.
 
-   De details van uw publieksvertoningen op het **dashboard van het publiek 0}.**
+   De details van uw publieksvertoningen op het **dashboard van het publiek 0&rbrace;.**
 
 ### &#x200B;2. Activeer het publiek naar de [!DNL Commerce] -bestemming
 
@@ -109,7 +109,7 @@ U maakt een publiek beschikbaar in [!DNL Commerce] door het voor de [!DNL Commer
 
 >[!IMPORTANT]
 >
->Als u niet reeds [!DNL Commerce] als beschikbare bestemming hebt geplaatst om gegevens te ontvangen, zie het [ Adobe  [!DNL Commerce]  3} onderwerp van de Verbinding {.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)
+>Als u niet reeds [!DNL Commerce] als beschikbare bestemming hebt geplaatst om gegevens te ontvangen, zie het [ Adobe  [!DNL Commerce]  3&rbrace; onderwerp van de Verbinding &lbrace;.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-commerce)
 
 1. In het **lusje van Details** van uw publiek, activeert de klik **aan bestemming**.
 
@@ -131,7 +131,7 @@ Zoek in het dashboard naar het publiek dat u hebt gemaakt. Let op: het wordt nie
 
 In deze sectie ziet u hoe u een regel voor de winkelwagenprijs kunt maken op basis van uw nieuwe publiek.
 
-1. Bevestig dat uw nieuw publiek in het **1} dashboard van het Soorten publiek van Real-Time CDP {wordt getoond.**
+1. Bevestig dat uw nieuw publiek in het **1&rbrace; dashboard van het Soorten publiek van Real-Time CDP &lbrace;wordt getoond.**
 1. [ creeer een regel van de kartprijs ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create).
 1. [ plaats de voorwaarde ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#use-real-time-cdp-audiences-to-set-a-condition) van de regel van de wortelprijs gebruikend uw nieuw publiek.
 1. [ plaats de actie ](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create#step-3-define-the-actions) die u wilt voorkomen wanneer het product aan de kar wordt toegevoegd.

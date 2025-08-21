@@ -22,7 +22,7 @@ Wanneer u de aanbevelingseenheid activeert, begint Adobe Commerce [ gegevens ](w
 >
 >Metrische gegevens voor productaanbevelingen zijn geoptimaliseerd voor Luma-winkels. Als uw storefront niet-Luma gebaseerd is, hoe de gegevens van het metriekspoor van hoe afhangen u [ de gebeurtenisinzameling ](events.md) uitvoert.
 
-1. Op _Admin_ sidebar, ga **Marketing** > _Bevorderingen_ > **Aanbevelingen van het Product** om de _9} werkruimte van de Aanbevelingen van het Product te tonen._
+1. Op _Admin_ sidebar, ga **Marketing** > _Bevorderingen_ > **Aanbevelingen van het Product** om de _9&rbrace; werkruimte van de Aanbevelingen van het Product te tonen._
 
 1. Specificeer de [ Mening van de Opslag ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views) waar u de aanbevelingen aan vertoning wilt.
 

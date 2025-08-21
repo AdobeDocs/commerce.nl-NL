@@ -23,7 +23,7 @@ Met [!DNL Live Search] kunt u:
 
 >[!IMPORTANT]
 >
->Adobe Commerce biedt opties voor het zoeken naar sites. Vóór implementatie, herzie de [ Grenzen en 1} informatie van Grens {om ervoor te zorgen dat ](boundaries-limits.md) geschikt voor uw bedrijfsbehoeften is.[!DNL Live Search]
+>Adobe Commerce biedt opties voor het zoeken naar sites. Vóór implementatie, herzie de [ Grenzen en 1&rbrace; informatie van Grens &lbrace;om ervoor te zorgen dat ](boundaries-limits.md) geschikt voor uw bedrijfsbehoeften is.[!DNL Live Search]
 
 ## Architectuur
 
@@ -41,7 +41,7 @@ Voor een meer diepgaande video over het gebruiken van en het vormen van Levend O
 
 ### Zoeken terwijl u typt
 
-[!DNL Live Search] antwoordt met gesuggereerde producten en een duimnagelbeeld van hoogste onderzoeksresultaten in a [ popover ](storefront-popover.md) als het type van kopers vragen in het [ Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) vakje. De [ paginasvertoningen van het 0} productdetail {wanneer de kopers een gesuggereerd of gekenmerkt product klikken. ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront) A _Mening alle_ verbinding in footer van popover toont de pagina van onderzoeksresultaten.
+[!DNL Live Search] antwoordt met gesuggereerde producten en een duimnagelbeeld van hoogste onderzoeksresultaten in a [ popover ](storefront-popover.md) als het type van kopers vragen in het [ Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) vakje. De [ paginasvertoningen van het 0&rbrace; productdetail &lbrace;wanneer de kopers een gesuggereerd of gekenmerkt product klikken. ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront) A _Mening alle_ verbinding in footer van popover toont de pagina van onderzoeksresultaten.
 
 [!DNL Live Search] retourneert de resultaten &quot;search as you type&quot; voor een query van twee of meer tekens. Voor een gedeeltelijke overeenkomst, is het maximumaantal karakters per woord 20. Het aantal karakters in de vraag is niet configureerbaar. De popover bevat de velden `name` , `sku` en `category_ids` .
 

@@ -52,7 +52,7 @@ U kunt beide handelingen uitvoeren met de beschikbare SDK&#39;s, zoals beschreve
 
 1. Wanneer de gebeurtenissen in brand worden gestoken, gebruik de [ Collector van de Gebeurtenis van Adobe Commerce Storefront ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/) om de gebeurtenissen te behandelen en hen te verzenden naar Adobe Sensei.
 
-1. Nadat het gedragsgegeven wordt verzameld, kunt u [ ](create.md) in Admin [!DNL Product Recommendations] creëren.
+1. Nadat het gedragsgegeven wordt verzameld, kunt u [&#128279;](create.md) in Admin [!DNL Product Recommendations] creëren.
 
 1. Gebruik de [ Aanbevelingen SDK ](https://developer.adobe.com/commerce/services/product-recommendations/) om de aanbevelingen eenheden op de storefront te halen. De SDK retourneert de benodigde productgegevens voor het weergeven van aanbevolen eenheden op een pagina.
 

@@ -2,9 +2,9 @@
 title: Nieuwe aanbeveling maken
 description: Leer hoe u een product aanbevelingseenheid kunt maken.
 exl-id: 1d5f83c4-1613-4236-9d98-d455f45a47da
-source-git-commit: f67010c80c3dedcf3c431cb7dc6e4e7b0cdbde09
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Wanneer u de aanbevelingseenheid activeert, begint Adobe Commerce [ gegevens ](w
 >
 >Metrische gegevens voor productaanbevelingen zijn geoptimaliseerd voor Luma-winkels. Als uw storefront niet-Luma gebaseerd is, hoe de gegevens van het metriekspoor van hoe afhangen u [ de gebeurtenisinzameling ](events.md) uitvoert.
 
-1. Op _Admin_ sidebar, ga **Marketing** > _Bevorderingen_ > **Aanbevelingen van het Product** om de _9&rbrace; werkruimte van de Aanbevelingen van het Product te tonen._
+1. Op _Admin_ sidebar, ga **Marketing** > _Bevorderingen_ > **Aanbevelingen van het Product** om de _9} werkruimte van de Aanbevelingen van het Product te tonen._
 
-1. Specificeer de [ Mening van de Opslag ](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/setup/websites-stores-views) waar u de aanbevelingen aan vertoning wilt.
+1. Specificeer de [ Mening van de Opslag ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views) waar u de aanbevelingen aan vertoning wilt.
 
    >[!NOTE]
    >
-   > De aanbevelingen van de Bouwer van de pagina moeten de eenheden in de standaardarchiefmening worden gecreeerd, maar kunnen dan overal worden gebruikt. Meer leren over het creëren van productaanbevelingen met de Bouwer van de Pagina, zie [ Inhoud toevoegen - de Aanbevelingen van het Product ](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/add-content/recommendations).
+   > De aanbevelingen van de Bouwer van de pagina moeten de eenheden in de standaardarchiefmening worden gecreeerd, maar kunnen dan overal worden gebruikt. Meer leren over het creëren van productaanbevelingen met de Bouwer van de Pagina, zie [ Inhoud toevoegen - de Aanbevelingen van het Product ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations).
 
 1. Klik **creëren Aanbeveling**.
 
@@ -38,14 +38,14 @@ Wanneer u de aanbevelingseenheid activeert, begint Adobe Commerce [ gegevens ](w
 
    >[!NOTE]
    >
-   > De Aanbevelingen van het product worden niet gesteund op de pagina van het Kart wanneer uw opslag aan [ wordt gevormd tonen de het winkelwagentje pagina onmiddellijk na het toevoegen van een product aan de kar ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration).
+   > De Aanbevelingen van het product worden niet gesteund op de pagina van het Kart wanneer uw opslag aan [ wordt gevormd tonen de het winkelwagentje pagina onmiddellijk na het toevoegen van een product aan de kar ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration).
 
    * Startpagina
    * Categorie
    * Productgegevens
    * Kar
    * Bevestiging
-   * [ de Bouwer van de Pagina ](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/add-content/recommendations)
+   * [ de Bouwer van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations)
 
    U kunt maximaal vijf actieve aanbevelingen maken voor elk paginatype en maximaal 25 voor Page Builder. Het paginatype wordt grijs weergegeven wanneer de limiet is bereikt.
 
@@ -172,7 +172,7 @@ In het volgende voorbeeld worden mogelijke redenen en oplossingen voor algemene 
 * **op statisch-gebaseerde** - de lage percentages voor deze indicatoren kunnen door ontbrekende catalogusgegevens voor de getoonde producten worden veroorzaakt. Als deze lager zijn dan u had verwacht, kan dit probleem met een volledige synchronisatie worden verholpen.
 * **op dynamisch-Gebaseerd** - de Lage percentages voor op dynamisch-gebaseerde indicatoren kunnen door worden veroorzaakt:
 
-   * Ontbrekende gebieden in de vereiste [ storefront gebeurtenissen ](events.md) voor de respectieve aanbevelingen types (requestId, productcontext, etc.)
+   * Ontbrekende gebieden in de vereiste [ storefront gebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) voor de respectieve aanbevelingen types (requestId, productcontext, etc.)
    * Het lage verkeer op de opslag zodat is het volume van gedragsgebeurtenissen wij ontvangen laag.
    * De verscheidenheid aan storefront gedragsgebeurtenissen over verschillende producten in uw opslag is laag. Als bijvoorbeeld slechts tien procent van uw producten meestal wordt bekeken of gekocht, zijn de respectievelijke gereedheidsindicatoren laag.
 

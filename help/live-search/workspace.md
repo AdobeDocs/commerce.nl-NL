@@ -2,9 +2,9 @@
 title: Live zoeken instellen
 description: De  [!DNL Live Search]  werkruimte wordt gebruikt om, onderzoeksprestaties te vormen te beheren en te controleren.
 exl-id: 07c32b26-3fa4-4fae-afba-8a10866857c3
-source-git-commit: 54fbf7f65ee5e464a4b61a9df95fef7536f1cedb
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,17 @@ Om ervoor te zorgen dat elk functioneel gebied op de werkruimte de correcte gege
 
 Als u een koploze winkel gebruikt, raadpleegt u de volgende documentatie voor meer informatie over de vereiste gebeurtenissen die u moet toevoegen:
 
-- [ Vereiste gebeurtenissen ](events.md) voor Levend dashboard van het Onderzoek.
+- [ Vereiste gebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search) voor Levend dashboard van het Onderzoek.
 - [ de gebeurtenisinzamelaar van de Storefront ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/) die als voorwaarde moet worden toegevoegd.
 - [ Voorbeelden ](https://github.com/adobe/commerce-events/tree/main/examples) van de gebeurtenisstructuur.
 
 ### Gezondheidszorgklanten
 
-Als u een gezondheidszorgklant bent en u de [ uitbreiding van HIPAA van de Diensten van Gegevens ](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [ uitbreiding van de Verbinding van Gegevens ](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Live Search] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Live Search] . Zie [ algemene configuratie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/general/general#data-services) om meer te leren.
+Als u een gezondheidszorgklant bent en u de [ uitbreiding van HIPAA van de Diensten van Gegevens ](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [ uitbreiding van de Verbinding van Gegevens ](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Live Search] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Live Search] . Zie [ algemene configuratie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services) om meer te leren.
 
 ## Bereik instellen
 
-Aanvankelijk wordt het [ werkingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) van alle [!DNL Live Search] montages geplaatst aan `Default Store View`. Als uw [!DNL Commerce] installatie veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL) waar uw facetmontages van toepassing zijn.
+Aanvankelijk wordt het [ werkingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) van alle [!DNL Live Search] montages geplaatst aan `Default Store View`. Als uw [!DNL Commerce] installatie veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) waar uw facetmontages van toepassing zijn.
 
 ## Menuopties
 
@@ -50,17 +50,17 @@ Aanvankelijk wordt het [ werkingsgebied ](https://experienceleague.adobe.com/doc
 
 ## Kenmerken instellen als doorzoekbaar
 
-Om hoogst-gerichte resultaten te veroorzaken, herzie de reeks [ doorzoekbare ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=nl-NL) (`searchable=true`) productattributen. Om relevantie te verzekeren, maak attributen doorzoekbaar slechts als zij inhoud bevatten die een duidelijke en beknopte betekenis heeft. Vermijd het gebruik van kenmerken die minder nauwkeurige, lange tekst bevatten, zoals `description` . Deze tekst kan de precisie van zoekresultaten verminderen, hoewel deze functie standaard is ingeschakeld. Als iemand bijvoorbeeld zoekt naar &quot;korte broeken&quot; en er overhemden zijn met een beschrijving die de term &quot;korte mouwen&quot; bevat, worden de overhemden opgenomen in de zoekresultaten.
+Om hoogst-gerichte resultaten te veroorzaken, herzie de reeks [ doorzoekbare ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) (`searchable=true`) productattributen. Om relevantie te verzekeren, maak attributen doorzoekbaar slechts als zij inhoud bevatten die een duidelijke en beknopte betekenis heeft. Vermijd het gebruik van kenmerken die minder nauwkeurige, lange tekst bevatten, zoals `description` . Deze tekst kan de precisie van zoekresultaten verminderen, hoewel deze functie standaard is ingeschakeld. Als iemand bijvoorbeeld zoekt naar &quot;korte broeken&quot; en er overhemden zijn met een beschrijving die de term &quot;korte mouwen&quot; bevat, worden de overhemden opgenomen in de zoekresultaten.
 
 Voer de volgende stappen uit om te zorgen dat kenmerken doorzoekbaar zijn:
 
-1. In Admin, ga **> *Attribuut* >** Product **.**
+1. In Admin, ga **>** Attribuut *>* Product **.**
 1. Selecteer het kenmerk dat u wilt doorzoeken, bijvoorbeeld `color` .
-1. Selecteer **Eigenschappen van 0&rbrace; Storefront en plaats** Gebruik in Onderzoek **aan `yes`.**
+1. Selecteer **Eigenschappen van 0} Storefront en plaats** Gebruik in Onderzoek **aan**.`yes`
 
    ![ Workspace ](assets/attribute-searchable.png)
 
-[!DNL Live Search] respecteert ook het [ gewicht ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html?lang=nl-NL#weighted-search) van een productattribuut, zoals die binnen Adobe Commerce wordt geplaatst. Kenmerken met een hogere dikte worden hoger weergegeven in de zoekresultaten.
+[!DNL Live Search] respecteert ook het [ gewicht ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html#weighted-search) van een productattribuut, zoals die binnen Adobe Commerce wordt geplaatst. Kenmerken met een hogere dikte worden hoger weergegeven in de zoekresultaten.
 
 De volgende kenmerken kunnen altijd worden doorzocht:
 
@@ -105,4 +105,4 @@ Prijzen in de aanbiedingspagina van het widgetproduct en in de pop-upmenu&#39;s 
 
 ### Zoektermen
 
-[!DNL Live Search] steunt [ herleidt van de onderzoekstermijn ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=nl-NL) op implementaties waar Adobe Commerce het verpletteren, zoals op Luma en andere op php-Gebaseerde thema&#39;s behandelt.
+[!DNL Live Search] steunt [ herleidt van de onderzoekstermijn ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html) op implementaties waar Adobe Commerce het verpletteren, zoals op Luma en andere op php-Gebaseerde thema&#39;s behandelt.

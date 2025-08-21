@@ -3,16 +3,18 @@ title: Gegevens verzamelen
 description: Leer hoe de gebeurtenissen gegevens voor  [!DNL Product Recommendations] verzamelen.
 feature: Services, Recommendations, Eventing
 exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
-source-git-commit: fe96b2922583c0fcb0fcadbdacead6267806f44b
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
 
 # Gegevens verzamelen
 
-Wanneer u op SaaS gebaseerde Adobe Commerce-functies zoals [[!DNL Product Recommendations]](install-configure.md) of [[!DNL Live Search]](../live-search/install.md) installeert en configureert, implementeren de modules gedragsgegevensverzameling in uw winkel. Dit mechanisme verzamelt geanonimiseerde gedragsgegevens van uw kopers en machten [!DNL Product Recommendations] . De gebeurtenis `view` wordt bijvoorbeeld gebruikt om het `Viewed this, viewed that` aanbeveling-type te berekenen en de gebeurtenis `place-order` wordt gebruikt om het `Bought this, bought that` aanbeveling-type te berekenen.
+Wanneer u [[!DNL Product Recommendations]](install-configure.md) installeert en vormt, stelt de module gedragsgegevensinzameling aan uw storefront op. Dit mechanisme verzamelt geanonimiseerde gedragsgegevens van uw kopers en machten [!DNL Product Recommendations] . De gebeurtenis `view` wordt bijvoorbeeld gebruikt om het `Viewed this, viewed that` aanbeveling-type te berekenen en de gebeurtenis `place-order` wordt gebruikt om het `Bought this, bought that` aanbeveling-type te berekenen.
+
+Zie de [ ontwikkelaardocumentatie ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) om meer over de gedragsgegevens te leren de [!DNL Product Recommendations] gebeurtenissen verzamelen.
 
 >[!NOTE]
 >
@@ -20,7 +22,7 @@ Wanneer u op SaaS gebaseerde Adobe Commerce-functies zoals [[!DNL Product Recomm
 
 ## Gezondheidszorgklanten
 
-Als u een gezondheidszorgklant bent en u de [ uitbreiding van HIPAA van de Diensten van Gegevens ](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [ uitbreiding van de Verbinding van Gegevens ](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Product Recommendations] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u gegevens over storefront-gebeurtenissen wilt blijven vastleggen en verzenden, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Product Recommendations] . Zie [ algemene configuratie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general.html#data-services) om meer te leren.
+Als u een gezondheidszorgklant bent en u de [ uitbreiding van HIPAA van de Diensten van Gegevens ](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [ uitbreiding van de Verbinding van Gegevens ](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Product Recommendations] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Product Recommendations] . Zie [ algemene configuratie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general.html#data-services) om meer te leren.
 
 ## Gegevenstypen en gebeurtenissen
 
@@ -40,7 +42,7 @@ Sommige soorten aanbevelingen gebruiken gedragsgegevens van uw klanten om machin
 
 Wanneer kunt u beginnen met het gebruiken van aanbevelingen die gedragsgegevens gebruiken? Het hangt ervan af. Dit wordt bedoeld als _Koud Begin_ probleem.
 
-Het _Koude 1&rbrace; probleem van het Begin van het Begin &lbrace;verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor productaanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen door de `magento/production-recommendations` module te installeren en te plaatsen.
+Het _Koude 1} probleem van het Begin van het Begin {verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor productaanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen door de `magento/production-recommendations` module te installeren en te plaatsen.
 
 De volgende tabel bevat een aantal algemene richtlijnen voor de hoeveelheid tijd die nodig is om voldoende gegevens voor elk type aanbeveling te verzamelen:
 
@@ -77,61 +79,6 @@ In het geval van onvoldoende gegevensverzameling worden de volgende aanbevelinge
 - `Conversion (view to purchase)`
 - `Conversion (view to cart)`
 
-### Gebeurtenissen
-
-De [ Verzameling van de Gebeurtenis van Adobe Commerce Storefront ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/#quick-start) maakt een lijst van alle gebeurtenissen die aan uw storefront worden opgesteld. In die lijst staat een subset van gebeurtenissen die specifiek zijn voor [!DNL Product Recommendations] . Deze gebeurtenissen verzamelen gegevens wanneer de klanten met aanbevelingen op de storefront in wisselwerking staan en macht de metriek om te analyseren hoe goed uw aanbevelingen presteren.
-
-| Gebeurtenis | Beschrijving |
-| --- | --- |
-| `impression-render` | Verzonden wanneer de aanbeveling-eenheid op de pagina wordt weergegeven. Als een pagina twee aanbevelingen-eenheden heeft (gekocht, weergave-weergave), worden twee `impression-render` -gebeurtenissen verzonden. Deze gebeurtenis wordt gebruikt om metrisch voor beelden te volgen. |
-| `rec-add-to-cart-click` | De verkoopster klikt **toevoegt aan wortel** knoop voor een punt in de aanbeveling eenheid. |
-| `rec-click` | De verkoopster klikt op een product in de aanbevolen eenheid. |
-| `view` | Verzonden wanneer de aanbevelingen-eenheid voor ten minste 50 procent zichtbaar wordt, bijvoorbeeld door naar beneden te schuiven. Als een aanbevolen eenheid bijvoorbeeld twee regels heeft, wordt een `view` -gebeurtenis verzonden wanneer één regel plus één pixel van de tweede regel zichtbaar wordt voor de gebruiker. Als de gebruiker de pagina meerdere keren omhoog en omlaag schuift, wordt de gebeurtenis `view` net zo vaak verzonden als de gebruiker de hele aanbevolen eenheid weer op de pagina ziet. |
-
-Hoewel de metriek van de Aanbeveling van het Product voor Opslagronts Luma wordt geoptimaliseerd, werken zij ook met andere storefront implementaties:
-
-- [ Edge Delivery Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/?lang=nl-NL)
-- [ PWA Studio ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)
-- [Aangepaste voorzijde (Reageren, waarde JS)](headless.md)
-
-#### Vereiste dashboardgebeurtenissen
-
-De volgende gebeurtenissen worden vereist om het [[!DNL Product Recommendations]  dashboard ](workspace.md) te bevolken
-
-| Dashboardkolom | Gebeurtenissen | Veld samenvoegen |
-| ---------------- | --------- | ----------- |
-| Impressies | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render` | `unitId` |
-| Weergaven | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render`, `recs-unit-view` | `unitId` |
-| Klikken | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-item-click`, `recs-add-to-cart-click` | `unitId` |
-| Ontvangsten | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-item-click`, `recs-add-to-cart-click`, `place-order` | `unitId`, `sku`, `parentSku` |
-| LT-ontvangsten | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-item-click`, `recs-add-to-cart-click`, `place-order` | `unitId`, `sku`, `parentSku` |
-| CTR | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render`, `recs-item-click`, `recs-add-to-cart-click` | `unitId`, `sku`, `parentSku` |
-| vCTR | `page-view`, `recs-request-sent`, `recs-response-received`, `recs-unit-render`, `recs-unit-view`, `recs-item-click`, `recs-add-to-cart-click` | `unitId`, `sku`, `parentSku` |
-
-De volgende gebeurtenissen zijn niet specifiek voor productaanbevelingen, maar zijn vereist voor Adobe Sensei om winkelgegevens correct te interpreteren:
-
-- `view`
-- `add-to-cart`
-- `place-order`
-
-#### Type aanbeveling
-
-In deze tabel worden de gebeurtenissen beschreven die door elk type aanbeveling worden gebruikt.
-
-| Type aanbeveling | Gebeurtenissen | Pagina |
-| --- | --- | --- |
-| Meest bekeken | `page-view`<br>`product-view` | Productdetailpagina |
-| Meest aangekocht | `page-view`<br>`place-order` | Winkelwagentje/Afhandeling |
-| Meest toegevoegd aan winkelwagentje | `page-view`<br>`add-to-cart` | De detailpagina van het product <br> product die pagina <br> van de Lijst van de Kar <br> van de Wenslijst van het Product |
-| Bekeken dit, gezien dat | `page-view`<br>`product-view` | Productdetailpagina |
-| Bekijk dit, kocht dat | Recs product | `page-view`<br>`product-view` | De detailpagina van het product <br> Kar/Controle |
-| Dit gekocht | Recs product | `page-view`<br>`product-view` | Productdetailpagina |
-| Trend | `page-view`<br>`product-view` | Productdetailpagina |
-| Conversie: Weergeven voor aankoop | Recs product | `page-view`<br>`product-view` | Productdetailpagina |
-| Conversie: Weergeven voor aankoop | Recs product | `page-view`<br>`place-order` | Winkelwagentje/Afhandeling |
-| Omzetten: Weergeven naar winkelwagentje | Recs product | `page-view`<br>`product-view` | Productdetailpagina |
-| Omzetten: Weergeven naar winkelwagentje | Recs product | `page-view`<br>`add-to-cart` | De detailpagina van het product <br> van de lijst van het Product pagina <br> Kaart <br> Wislijst |
-
 #### Caveats
 
 - Ad blokkers en privacymontages kunnen gebeurtenissen verhinderen worden gevangen en zouden de overeenkomst en opbrengst [ metriek ](workspace.md#column-descriptions) kunnen veroorzaken om worden onderdrukt. Bovendien kunnen bepaalde gebeurtenissen niet worden verzonden omdat de gebruiker de pagina of het netwerk heeft verlaten.
@@ -140,4 +87,4 @@ In deze tabel worden de gebeurtenissen beschreven die door elk type aanbeveling 
 
 >[!NOTE]
 >
->Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.
+>Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.

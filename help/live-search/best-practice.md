@@ -2,9 +2,10 @@
 title: '[!DNL Live Search] Aanbevolen werkwijzen'
 description: Leer de beste praktijken voor het uitvoeren van  [!DNL Live Search]  in uw opslag.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: f7700339-fb13-42fe-a249-17cd4ba36e1b
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -100,7 +101,7 @@ Aanbevolen gebruiksscenario&#39;s voor het instellen van doorzoekopdrachten:
 
 Test altijd de doorverwijzing van zoekopdrachten om te controleren of deze op de juiste wijze werken en tot de meest relevante pagina&#39;s leiden. De prestaties van de systemen voortdurend controleren en waar nodig aanpassingen aanbrengen.
 
-Leer hoe te [ onderzoeksredirects ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-terms) beheren.
+Leer hoe te [ onderzoeksredirects ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms) beheren.
 
 ## De relevantie van zoekresultaten verbeteren
 
@@ -128,7 +129,7 @@ Het is van cruciaal belang om een weloverwogen standaard zoekregel vast te stell
 - Geef een lichte prioriteit aan producten met hogere winstmarges zonder de relevantie in gevaar te brengen.
 - Markeer producten die te koop zijn of deel uitmaken van speciale promoties.
 - Stel zoekregels tijdens promotie- of verkoopperiodes automatisch in door het datumbereik tijdens de promotieperiode te gebruiken.
-- De onderzoeksresultaten van het dagonderzoek die op individueel verkoopgedrag worden gebaseerd dat [ intelligente rangschikking ](rules-add.md#intelligent-ranking), zoals &quot;voor u&quot;wordt geadviseerd, &quot;het meest bekeken&quot;etc. gebruikt. Om winkelgedrag aan te passen, moet u ervoor zorgen dat de gebeurtenis correct wordt uitgevoerd. Voor Luminantietransacties is de optie Gebeurtenis beschikbaar buiten de box. Voor hoofdloze of douaneimplementaties, moet u het voorkomen [&#128279;](events.md) uitvoeren dat op uw specifieke behoeften wordt gebaseerd. 
+- De onderzoeksresultaten van het dagonderzoek die op individueel verkoopgedrag worden gebaseerd dat [ intelligente rangschikking ](rules-add.md#intelligent-ranking), zoals &quot;voor u&quot;wordt geadviseerd, &quot;het meest bekeken&quot;etc. gebruikt. Om winkelgedrag aan te passen, moet u ervoor zorgen dat de gebeurtenis correct wordt uitgevoerd. Voor Luminantietransacties is de optie Gebeurtenis beschikbaar buiten de box. Voor hoofdloze of douaneimplementaties, moet u het voorkomen [ uitvoeren dat op uw specifieke behoeften wordt gebaseerd. ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)
 
 Meer informatie over zoekregels:
 
@@ -139,7 +140,7 @@ Meer informatie over zoekregels:
    - [Maken](rules-add.md)
    - [Bewerken, weergeven, verwijderen](rules-manage.md)
 - Gegevensverzameling
-   - [[!DNL Live Search] -gebeurtenissen](events.md)
+   - [[!DNL Live Search]  gebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search)
    - [ de Collector van de Gebeurtenis van Adobe Commerce ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/)
    - [ de gebeurtenissen van Commerce GitHub ](https://github.com/adobe/commerce-events/tree/main/examples) 
 
@@ -154,7 +155,7 @@ Zorg ervoor dat elk product relevante inhoud binnen elk doorzoekbaar kenmerk hee
 Meer informatie over productkenmerken voor zoekopdrachten:
 
 - [Kenmerken instellen als doorzoekbaar](workspace.md#set-attributes-as-searchable)
-- [ Wijs gewicht aan attributen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search) toe
+- [ Wijs gewicht aan attributen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search) toe
 
 ## Zoekresultaten controleren
 
@@ -195,4 +196,4 @@ U kunt deze metrische gegevens gebruiken om uw onderzoeksfunctionaliteit op de v
 - Analyseer populaire zoektermen en productgegevens om belangrijke trefwoorden te identificeren. Optimaliseer uw product doorzoekbare attributen met deze sleutelwoorden om onderzoeksrelevantie te verbeteren.
 - Analyseer regelmatig uw resultaatgegevens om veranderende tendensen, verkoopvoorkeur en gedrag te begrijpen, hoogste onderzoekstermijnen te identificeren, en kwesties te ontdekken. Met deze feedbacklus kunt u uw zoekregels en productaanbiedingen voortdurend verfijnen en verbeteren
 
-Als u de juiste gegevens wilt ophalen in uw [!DNL Live Search] -rapport, moet u ervoor zorgen dat de gebeurtenis correct is geïmplementeerd. Voor Luminantietransacties is de optie Gebeurtenis beschikbaar buiten de box. Voor hoofdloze of douaneimplementaties, moet u het voorkomen [&#128279;](events.md) uitvoeren dat op uw specifieke behoeften wordt gebaseerd. 
+Als u de juiste gegevens wilt ophalen in uw [!DNL Live Search] -rapport, moet u ervoor zorgen dat de gebeurtenis correct is geïmplementeerd. Voor Luminantietransacties is de optie Gebeurtenis beschikbaar buiten de box. Voor hoofdloze of douaneimplementaties, moet u het voorkomen [ uitvoeren dat op uw specifieke behoeften wordt gebaseerd. ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)

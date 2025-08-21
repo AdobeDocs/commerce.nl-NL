@@ -2,7 +2,7 @@
 title: Koploos
 description: Leer hoe te om  [!DNL Product Recommendations]  in een headless winkel te integreren.
 exl-id: c40dac31-f87e-402a-ba50-e8aa4c1d66aa
-source-git-commit: fe5f864262478d1f9e205f2cd275452594cf4675
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -15,7 +15,7 @@ U kunt [!DNL Product Recommendations] in een headless winkel integreren gebruike
 
 Aangepaste integratoren en ontwikkelaars zonder kop dienen deze Luma- en PWA-instructies te gebruiken als een voorgestelde implementatie. Er zijn vele manieren om de Aanbevelingen van het Product in hoofdloze oplossingen uit te voeren en deze documentatie behandelt niet alle scenario&#39;s. Integratoren moeten gebeurtenissen, ontwerpen en testen voor hun implementaties bestrijken.
 
-[!DNL Product Recommendations] vereist [ gedrag en catalogusgegevens ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html?lang=nl-NL) om te werken. Het synchronisatieproces van catalogusgegevens blijft ongewijzigd in een headless-implementatie, maar er zijn wijzigingen nodig voor het verzamelen van gedragsgegevens.
+[!DNL Product Recommendations] vereist [ gedrag en catalogusgegevens ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html) om te werken. Het synchronisatieproces van catalogusgegevens blijft ongewijzigd in een headless-implementatie, maar er zijn wijzigingen nodig voor het verzamelen van gedragsgegevens.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ U kunt beide handelingen uitvoeren met de beschikbare SDK&#39;s, zoals beschreve
 
 1. [ installeer ](install-configure.md) de [!DNL Product Recommendations] module.
 
-1. Installeer en gebruik [ de Gebeurtenis van Adobe Commerce Storefront SDK ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/) om de [ gedragsgebeurtenissen ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/events.html?lang=nl-NL) in brand te steken.
+1. Installeer en gebruik [ de Gebeurtenis van Adobe Commerce Storefront SDK ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/) om de [ gedragsgebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) in brand te steken.
 
    De minimaal vereiste gebeurtenissen om [!DNL Product Recommendations] -resultaten te retourneren:
 
@@ -52,7 +52,7 @@ U kunt beide handelingen uitvoeren met de beschikbare SDK&#39;s, zoals beschreve
 
 1. Wanneer de gebeurtenissen in brand worden gestoken, gebruik de [ Collector van de Gebeurtenis van Adobe Commerce Storefront ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/) om de gebeurtenissen te behandelen en hen te verzenden naar Adobe Sensei.
 
-1. Nadat het gedragsgegeven wordt verzameld, kunt u [&#128279;](create.md) [!DNL Product Recommendations] in Admin  creëren.
+1. Nadat het gedragsgegeven wordt verzameld, kunt u [ ](create.md) in Admin [!DNL Product Recommendations] creëren.
 
 1. Gebruik de [ Aanbevelingen SDK ](https://developer.adobe.com/commerce/services/product-recommendations/) om de aanbevelingen eenheden op de storefront te halen. De SDK retourneert de benodigde productgegevens voor het weergeven van aanbevolen eenheden op een pagina.
 

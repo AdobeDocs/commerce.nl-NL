@@ -1,9 +1,10 @@
 ---
 title: Typen aanbevelingen
 description: Leer meer over de aanbevelingen die u op verschillende pagina's op uw site kunt implementeren.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: bbb290b0-b50b-43d9-bf71-1813298d5f39
+source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1719'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Als beste praktijk, adviseert Adobe de volgende richtlijnen wanneer het gebruike
 
 >[!NOTE]
 >
->Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [ gebeurtenissen ](events.md).
+>Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [ storefront gebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) in de ontwikkelaarsdocumentatie.
 
 ## Gepersonaliseerd {#personalized}
 
@@ -109,7 +110,7 @@ Omdat dit aanbevelingen type niet op de meeste catalogi van toepassing is, wordt
 
 >[!NOTE]
 >
-> Het _Visuele gelijkenis_ aanbevelingen type is beschikbaar wanneer u [&#128279;](install-configure.md) het als facultatieve module installeert.
+> Het _Visuele gelijkenis_ aanbevelingen type is beschikbaar wanneer u [ ](install-configure.md) het als facultatieve module installeert.
 
 1. Op _Admin_ sidebar, ga **de Marketing** > _Bevorderingen_ > **Aanbevelingen van het Product** om het _dashboard van de Aanbevelingen van het Product_ te tonen.
 

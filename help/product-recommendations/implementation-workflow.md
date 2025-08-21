@@ -1,7 +1,8 @@
 ---
 title: Implementatieworkflow
 description: Leer de stappen om  [!DNL Product Recommendations]  op uw storefront met succes uit te voeren.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 4a784d04-8be6-473f-afb3-264af06c850a
+source-git-commit: a3e19940e2a3d8a240bb17703cfdd9903df311aa
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Product Recommendations] gebruikt zowel gedragsgegevens als catalogusgegevens:
 
-- Gedrag - Gegevens uit de betrokkenheid van een winkelier op uw site, zoals productweergaven, aan een winkelwagentje toegevoegde items en aankopen. Adobe Commerce en Adobe Sensei verzamelen geen persoonlijk identificeerbare informatie.
+- Gedrag - Gegevens uit de betrokkenheid van een klant op uw site, zoals productweergaven, aan een winkelwagentje toegevoegde items en aankopen. Adobe Commerce en Adobe Sensei verzamelen geen persoonlijk identificeerbare informatie.
 
 - Catalogus - Productmetagegevens, zoals naam, prijs en beschikbaarheid.
 
@@ -20,15 +21,15 @@ Wanneer u `magento/product-recommendations module` installeert, aggregeert Adobe
 
 >[!NOTE]
 >
-> Als uw opslag gebruikend PWA Studio wordt uitgevoerd, verwijs naar de [ documentatie van PWA ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). Als u een douane frontend technologie zoals React of Vue JS gebruikt, leer hoe te [&#128279;](headless.md) integreren [!DNL Product Recommendations] in uw headless opslag.
+> Als uw opslag gebruikend PWA Studio wordt uitgevoerd, verwijs naar de [ documentatie van PWA ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). Als u een douane frontend technologie zoals React of Vue JS gebruikt, leer hoe te [ ](headless.md) integreren [!DNL Product Recommendations] in uw headless opslag.
 
 ## Workflow
 
 1. **stelt gegevensinzameling aan productie** op
 
-   Het opstellen [!DNL Product Recommendations] vereist twee belangrijkste [ gegevensbronnen ](type.md): catalogus en gedrag. Omdat productie de enige omgeving is waarin de acties van uw klanten worden vastgelegd en geanalyseerd, moet u zo vroeg mogelijk beginnen met het verzamelen van gegevens over productie. [ Leer ](events.md) hoe Adobe Sensei machine het leren modellen tredt die in hogere kwaliteit aanbevelingen resulteren. Als toegevoegd voordeel, wanneer u gedragsgegevens over productie begint te verzamelen, kunt u [ aanbevelingen ](verify.md) halen die op deze productiegegevens worden gebaseerd terwijl het werken in niet-productiemilieu&#39;s. Vervolgens kunt u testen en experimenteren met verschillende aanbevelingen die worden berekend op basis van echte verkoopgegevens die in productie worden verzameld.
+   Het opstellen [!DNL Product Recommendations] vereist twee belangrijkste [ gegevensbronnen ](type.md): catalogus en gedrag. Omdat productie de enige omgeving is waarin de acties van uw klanten worden vastgelegd en geanalyseerd, moet u zo vroeg mogelijk beginnen met het verzamelen van gegevens over productie. [ Leer ](events.md) hoe Adobe Sensei machine het leren modellen tredt die in hogere kwaliteit aanbevelingen resulteren. Als toegevoegd voordeel, wanneer u gedragsgegevens over productie begint te verzamelen, kunt u [ aanbevelingen ](staging-environment.md#fetch-recommendations-from-production-environment-recommended) halen die op deze productiegegevens worden gebaseerd terwijl het werken in niet-productiemilieu&#39;s. Vervolgens kunt u testen en experimenteren met verschillende aanbevelingen die worden berekend op basis van echte verkoopgegevens die in productie worden verzameld.
 
-   Om gegevensinzameling aan productie op te stellen, moet u [&#128279;](install-configure.md) installeren en vormen [!DNL Product Recommendations] module door een [ API sleutel ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL) te verstrekken.
+   Om gegevensinzameling aan productie op te stellen, moet u [ installeren en vormen ](install-configure.md) module door een [!DNL Product Recommendations] API sleutel [ te verstrekken.](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html)
 
    >[!TIP]
    >
@@ -42,7 +43,7 @@ Wanneer u `magento/product-recommendations module` installeert, aggregeert Adobe
    >
    > Door het malplaatje aan te passen, kunt u uw stijlblad specificeren, beschrijven waar een aanbevelingseenheid op een pagina, etc. verschijnt.
 
-   Zie [&#128279;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/customize.html?lang=nl-NL) aanpassen in de ontwikkelaardocumentatie leren hoe te om deze stap te voltooien.
+   Zie [ ](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/customize.html) aanpassen in de ontwikkelaardocumentatie leren hoe te om deze stap te voltooien.
 
 1. **aanbevelingen van de Test op uw niet-productiemilieu**
 
@@ -52,8 +53,8 @@ Wanneer u `magento/product-recommendations module` installeert, aggregeert Adobe
    >
    > Zorg ervoor dat de niet-productieomgevingscatalogus grotendeels dezelfde is als de catalogus die u in productie hebt. Door vergelijkbare catalogi te gebruiken, zorgt u ervoor dat de producten die in de aanbevolen eenheden worden geretourneerd, de producten op productie nauwkeurig nabootsen.
 
-   Zie [&#128279;](staging-environment.md) gedragsgegevens van 0&rbrace; Vetsen &lbrace;van uw productiemilieu leren hoe te om deze stap te voltooien.
+   Zie [ gedragsgegevens van 0} Vetsen {van uw productiemilieu leren hoe te om deze stap te voltooien.](staging-environment.md)
 
 1. **creeer en stel aanbevelingen aan uw productieopslag op**
 
-   Nu u de inzameling van gedragsgegevens in productie hebt opgesteld, het malplaatje van productaanbevelingen, en geteste aanbevelingen gebruikend werkelijk verkoopgedrag hebt gewijzigd, bent u bereid om al code aan productie te bevorderen en [&#128279;](create.md) levende productaanbevelingen tot stand te brengen.
+   Nu u de inzameling van gedragsgegevens in productie hebt opgesteld, het malplaatje van productaanbevelingen, en geteste aanbevelingen gebruikend werkelijk verkoopgedrag hebt gewijzigd, bent u bereid om al code aan productie te bevorderen en [ ](create.md) levende productaanbevelingen tot stand te brengen.

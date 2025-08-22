@@ -2,7 +2,7 @@
 title: Overzicht van Merchandising
 description: Leer over het verhandelen eigenschappen in  [!DNL Adobe Commerce Optimizer].
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: cc0f280c-3934-47ca-b5dc-d83023d8e2be
 source-git-commit: 17d1872321e664ca58a702b0948fd5e6d2f33202
 workflow-type: tm+mt

@@ -4,27 +4,73 @@ description: Leer over de belangrijkste eigenschappen en de voordelen van  [!DNL
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User, Leader
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: cd5244d67f67c6f1e8a10f09a39f33073fcea9af
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: 8fc46b0b93ac5102477f33bf2a8ae70a7acaf85d
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
+
 
 # [!DNL Adobe Commerce as a Cloud Service] overzicht
 
 [!DNL Adobe Commerce as a Cloud Service] biedt flexibiliteit, schaalbaarheid en efficiëntie door bedrijven in staat te stellen digitale bewerkingen te leveren en snel te schalen en innovatie te versnellen. Adobe-cloudinfrastructuur past automatisch bronnen aan om te voldoen aan de piekvereisten voor verkeer, bestellingen en catalogusbeheer.
 
-In de volgende afbeelding worden de producten gemarkeerd die [!DNL Adobe Commerce as a Cloud Service] van kracht maken:
+In de volgende tabel worden de producten gemarkeerd die van kracht zijn [!DNL Adobe Commerce as a Cloud Service] :
 
-![[!DNL Adobe Commerce as a Cloud Service] productstapel ](./assets/product-stack.svg){align="center" zoomable="yes"}
+<table style="table-layout:auto">
+  <tr>
+    <td>
+      <span style="display: inline-block; width: 20px; height: 20px; background: white; border: 1px solid #d32f2f; border-radius: 50%; margin-right: 8px; vertical-align: middle;">
+        <span style="color: #d32f2f; font-size: 14px; line-height: 18px; display: block; text-align: center;"> ✓ </span>
+      </span>
+      <strong> Commerce Storefront </strong>
+    </td>
+    <td>
+      Naar de klant gerichte interface waar klanten door producten bladeren en producten kopen
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span style="display: inline-block; width: 20px; height: 20px; background: white; border: 1px solid #d32f2f; border-radius: 50%; margin-right: 8px; vertical-align: middle;">
+        <span style="color: #d32f2f; font-size: 14px; line-height: 18px; display: block; text-align: center;"> ✓ </span>
+      </span>
+      <strong> Merchandising Services </strong>
+    </td>
+    <td>
+      De diensten van de steun die productcatalogi, tarifering, en inventaris beheren
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span style="display: inline-block; width: 20px; height: 20px; background: white; border: 1px solid #d32f2f; border-radius: 50%; margin-right: 8px; vertical-align: middle;">
+        <span style="color: #d32f2f; font-size: 14px; line-height: 18px; display: block; text-align: center;"> ✓ </span>
+      </span>
+      <strong> Visuals van het Product </strong>
+    </td>
+    <td>
+      Digitaal middelenbeheer voor productafbeeldingen en media
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <span style="display: inline-block; width: 20px; height: 20px; background: white; border: 1px solid #d32f2f; border-radius: 50%; margin-right: 8px; vertical-align: middle;">
+        <span style="color: #d32f2f; font-size: 14px; line-height: 18px; display: block; text-align: center;"> ✓ </span>
+      </span>
+      <strong> Platform van de Ontwikkelaar </strong>
+    </td>
+    <td>
+      Core development tools and APIs for building custom functionaliteit
+    </td>
+  </tr>
+</table>
 
 ## Architectuur
 
 Bekijk de volgende video voor een korte inleiding op de [!DNL Adobe Commerce as a Cloud Service] -architectuur. Diagrammen die de architectuur illustreren worden verstrekt onder de video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443273?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
 
 Dit diagram illustreert de gegevensstroom tussen [!DNL Adobe Commerce as a Cloud Service] en alle oplossingen van Adobe Experience Cloud.
 
@@ -32,13 +78,13 @@ Dit diagram illustreert de gegevensstroom tussen [!DNL Adobe Commerce as a Cloud
 
 ## Commerce Storefront
 
-Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront?lang=nl-NL) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
+Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
 
 Commerce Storefront heeft een volledig ontkoppelde architectuur die alle Merchandising Services en gegevens biedt via een GraphQL API-laag. Deze architectuur staat teams toe om hun frontends onafhankelijk van de Stichting van Commerce te ontwikkelen, die de behendigheid verstrekt om nieuwe aanraakpunten met nieuwe technologieën te bouwen en te testen.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=nl-NL#existing-storefronts) voor begeleiding bij het overgaan.
+>[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts) voor begeleiding bij het overgaan.
 
 ## Handelsbemiddeling en betalingsdiensten
 
@@ -47,7 +93,7 @@ Adobe biedt een uitgebreide reeks intelligente, composable merchandising-service
 - [ Levend Onderzoek ](../live-search/overview.md) - lever slimmere, snellere en relevante resultaten voor kopers met dit AI-Gerichte onderzoekshulpmiddel.
 - [ Aanbevelingen van het Product ](../product-recommendations/overview.md) - voeg op AI-Gebaseerde aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
 - [ Merchandising de Diensten die door de Weergaven en het Beleid van de Catalogus worden aangedreven ](../optimizer/setup/catalog-view.md) - beheer grote en complexe productcatalogi met flexibele gegevens modellering om hoogst presterende, flexibele handelscatalogi te leveren die met bedrijfsstructuur en go-to-market strategieën worden gericht. Gebruik met [ Commerce Optimizer ](../optimizer/overview.md) om catalogusprestaties te optimaliseren en omzettingspercentages te verbeteren.
-- [ - De klantentevredenheid van de 1&rbrace; Aandrijving van de Betaling van de Diensten van de 1&rbrace; - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.](../payment-services/guide-overview.md)
+- [ - De klantentevredenheid van de 1} Aandrijving van de Betaling van de Diensten van de 1} - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.](../payment-services/guide-overview.md)
 
 ## Productvisa van AEM Assets
 
@@ -61,10 +107,54 @@ De native functies in [!DNL Adobe Commerce as a Cloud Service] bieden ook elemen
 
 ### Productvisa of AEM Assets
 
-In de volgende afbeelding worden beide aanbiedingen weergegeven, afhankelijk van de behoeften van de toeleveringsketen voor inhoud:
+De volgende vergelijking helpt u de beste optie voor uw behoeften van de inhoudsleverancier te selecteren:
 
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <tr style="border: none;">
+    <td style="width: 45%; vertical-align: top; border: 2px solid #e0e0e0; padding: 20px; background: #fafafa;">
+      <p style="color: #d32f2f; border-bottom: 2px solid #d32f2f; padding-bottom: 10px; margin-top: 0;">Productvisa van AEM Assets</h3>
+      <ul style="margin: 0; padding-left: 20px;">
+        <li>Geïntegreerde, geautomatiseerde productimage en video Digital Asset Manager (DAM)</li>
+        <li>Afbeeldingen vergroten, verkleinen, uitsnijden en omzetten</li>
+        <li>Hoge snelheid voor het afspelen van afbeeldingen en video</li>
+        <li>Afbeeldingsindelingen, -formaten en -kwaliteit optimaliseren op basis van de mogelijkheden van de clientbrowser</li>
+        <li>Toegang tot Adobe Express en Adobe Firefly</li>
+        <li>Gebruiksbeperkingen voor de capaciteit voor het leveren van beelden/video en gebruikerstoegang</li>
+        <li>Geïntegreerde middelenkiezer</li>
+      </ul>
+    </td>
+    <td style="width: 10%; text-align: center; vertical-align: middle; font-size: 98px; color: #d32f2f; font-weight: bold;">
+      ›
+    </td>
+    <td style="width: 45%; vertical-align: top; border: 2px solid #e0e0e0; padding: 20px; background: #fafafa;">
+      <p style="color: #d32f2f; border-bottom: 2px solid #d32f2f; padding-bottom: 10px; margin-top: 0;">AEM Assets</h3>
+      <ul style="margin: 0; padding-left: 20px;">
+        <li>Alle mogelijkheden van producthandleidingen</li>
+        <li>Digital Asset Manager (DAM) voor volledige marketing</li>
+        <li>Onbeperkte gebruikers (betaal per gebruiker)</li>
+        <li>Onbeperkte levering van afbeeldingen en video</li>
+        <li>Geavanceerde functionaliteit voor middelenbeheer:</li>
+        <ul>
+          <li>360° centrifuges en interactieve viewers</li>
+          <li>Ondersteuning voor 3D-modellen en overweldigende inhoud</li>
+          <li>PDF-ondersteuning</li>
+          <li>Slim uitsnijden met AI-voeding</li>
+         <li>Dynamische afbeeldingssjablonen</li>
+        <li>Slimme tags toepassen</li>
+        <li>Tracering en analyse van de prestaties van bedrijfsmiddelen</li>
+        </ul>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-![ controle ](assets/compare-offerings.png){width="700" zoomable="yes"}
+<table style="width: 100%; margin: 20px 0;">
+  <tr>
+    <td style="background: #f5f5f5; padding: 15px; text-align: center; font-weight: bold;">
+      Integratie van het merk Adobe is beschikbaar voor eenvoudige migratie tussen aanbiedingen.
+    </td>
+  </tr>
+</table>
 
 Zie de [ integratie van AEM Assets ](../aem-assets-integration/overview.md) gids om meer over te leren hoe te om de Visuals van het Product te integreren die door AEM Assets met [!DNL Adobe Commerce as a Cloud Service] worden aangedreven.
 
@@ -121,7 +211,7 @@ De ontwikkelaars kunnen uitvoerige [ GraphQL ](https://developer.adobe.com/comme
 
 <!-- ## Experience Cloud integration
 
-[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [Data Connection](../data-connection/overview.md) unlocks insights about your shoppers' buying behavior so that you can create personalized shopping experiences across all channels with other Adobe Digital Experience products. -->
 

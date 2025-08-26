@@ -4,7 +4,7 @@ description: Leer over de gebeurtenissen die  [!DNL Adobe Commerce Optimizer]  g
 role: Admin, Developer
 recommendations: noCatalog
 exl-id: c102c558-a680-4622-80f0-6e5c34d497e9
-source-git-commit: f12aff86957c2f8f1f830da6f481d28cd54e1f20
+source-git-commit: 7a77cc79be9b6f835668b394909ea2325b642b03
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -37,7 +37,7 @@ De **tellen van de Gebeurtenis** lusjesporen winkelinteracties, zoals onderzoeke
 
 ## Saniteitscontrole
 
-Het **lusje van de Controle van de Gezondheid van 0&rbrace; &lbrace;biedt inzichten in de gezondheid van elke gedragsgebeurtenis, die nauwkeurige gegevensinzameling en functionaliteit verzekeren. &#x200B;**
+Het **lusje van de Controle van de Gezondheid van 0} {biedt inzichten in de gezondheid van elke gedragsgebeurtenis, die nauwkeurige gegevensinzameling en functionaliteit verzekeren. &#x200B;**
 
 ![ Controle van de Gezondheid ](../../assets/sanity-check.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ Deze lijst beschrijft de gebeurtenissen die door productontdekking [ worden gebr
 | Meest toegevoegd aan winkelwagentje | `page-view`<br>`add-to-cart` | De detailpagina van het product <br> product die pagina <br> van de Lijst van de Kar <br> van de Wenslijst van het Product |
 | Bekeken dit, gezien dat | `page-view`<br>`product-view` | Productdetailpagina |
 
-#### Vereiste dashboardgebeurtenissen
+### Vereiste dashboardgebeurtenissen
 
 Sommige gebeurtenissen worden vereist om het [ dashboard van de onderzoeksprestaties ](../../manage-results/search-performance.md) te bevolken
 
@@ -86,7 +86,7 @@ Sommige soorten aanbevelingen gebruiken gedragsgegevens van uw klanten om machin
 
 Wanneer kunt u beginnen met het gebruiken van aanbevelingen die gedragsgegevens gebruiken? Het hangt ervan af. Dit wordt bedoeld als _Koud Begin_ probleem.
 
-Het _Koude 1&rbrace; probleem van het Begin van het Begin &lbrace;verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor aanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen.
+Het _Koude 1} probleem van het Begin van het Begin {verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor aanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen.
 
 De volgende tabel bevat een aantal algemene richtlijnen voor de hoeveelheid tijd die nodig is om voldoende gegevens voor elk type aanbeveling te verzamelen:
 
@@ -174,4 +174,4 @@ In deze tabel worden de gebeurtenissen beschreven die door elk type aanbeveling 
 
 ## Ondersteuning
 
-Als u om het even welke gegevensdiscrepanties opmerkt of als de aanbevelingen en de onderzoeksresultaten niet zoals verwacht werken, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
+Als u om het even welke gegevensdiscrepanties opmerkt of als de aanbevelingen en de onderzoeksresultaten niet zoals verwacht werken, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).

@@ -3,11 +3,11 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: 89099811cd04b92a56fd3c1bda98c586e988f878
+source-git-commit: 7a77cc79be9b6f835668b394909ea2325b642b03
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -38,24 +38,24 @@ Voer de volgende essentiële stappen uit om uw [!DNL Adobe Commerce Optimizer] -
    ![ creeer instantie ](./assets/create-aco-instance.png){width="60%" zoomable="yes"}
 
 1. Instantie-instellingen configureren:
-   - **Naam van de Instantie**: Beschrijvende naam (bijvoorbeeld, &quot;Mijn Sandbox van het Bedrijf&quot;)
+   - **Naam**: Beschrijvende naam (bijvoorbeeld, &quot;Mijn Sandbox van het Bedrijf&quot;)
    - **Beschrijving**: Korte beschrijving van doel
-   - **Type van Milieu**: Begin met a **zandbak** milieu voor het testen
    - **Gebied**: Selecteer uw aangewezen gebied
+   - **Type van Milieu**: Begin met a **zandbak** milieu voor het testen
 
 1. Klik **toevoegen Instantie**.
 
-   De Cloud Manager wordt bijgewerkt en bevat nu uw nieuwe exemplaar. Voor details bij de toegang tot van en het beheren van het, zie [ een instantie ](#manage-instances) leiden.
+   De Cloud Manager wordt bijgewerkt en bevat nu uw nieuwe exemplaar. Voor details bij de toegang tot van en het beheren van het, zie [ een instantie ](#manage-an-instance) leiden.
 
 >[!NOTE]
 >
->U kunt alleen sandboxomgevingen maken in de Noord-Amerikaanse regio. Wanneer een instantie is gemaakt, kunt u het gebied niet meer wijzigen.
+>Sandbox-exemplaren zijn beperkt tot Noord-Amerika. U kunt het gebied na het maken niet wijzigen.
 
 ### Stap 2. Uw omgeving instellen
 
 Nadat u de instantie hebt gemaakt:
 
-1. [ beheer uw instantie ](#manage-instances) van de Manager van Commerce Cloud.
+1. [ beheer uw instantie ](#manage-an-instance) van de Manager van Commerce Cloud.
 1. Vorm gebruikerstoegang gebruikend de [ gids van het Beheer van de Gebruiker ](./user-management.md).
 
 ### Stap 3. Voorbeeldgegevens toevoegen (optioneel)
@@ -181,7 +181,7 @@ De steekproefgegevens zijn gebaseerd op het [ bedrijfscase van het Carvelo ](./u
    - Uw omgeving instellen
    - Voltooi het proces voor gegevensinvoer
    - Catalogusweergaven en -beleid maken met behulp van voorbeeldgegevens
-   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0&rbrace; Gegevens te controleren &lbrace;](./setup/data-sync.md)
+   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0} Gegevens te controleren {](./setup/data-sync.md)
 
 ## Volgende stappen
 
@@ -217,6 +217,6 @@ Na voltooiing van de installatie:
 ### Hulp vragen
 
 - **Middelen van de Ontwikkelaar**: [ documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/)
-- **Bronnen van de Storefront**: [ Commerce storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-- **Leerprogramma&#39;s**: [ zelfstudies van Commerce Optimizer ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
+- **Bronnen van de Storefront**: [ Commerce storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **Leerprogramma&#39;s**: [ zelfstudies van Commerce Optimizer ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

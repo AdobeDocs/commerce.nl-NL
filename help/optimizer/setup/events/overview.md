@@ -37,7 +37,7 @@ De **tellen van de Gebeurtenis** lusjesporen winkelinteracties, zoals onderzoeke
 
 ## Saniteitscontrole
 
-Het **lusje van de Controle van de Gezondheid van 0} {biedt inzichten in de gezondheid van elke gedragsgebeurtenis, die nauwkeurige gegevensinzameling en functionaliteit verzekeren. &#x200B;**
+Het **lusje van de Controle van de Gezondheid van 0&rbrace; &lbrace;biedt inzichten in de gezondheid van elke gedragsgebeurtenis, die nauwkeurige gegevensinzameling en functionaliteit verzekeren. &#x200B;**
 
 ![ Controle van de Gezondheid ](../../assets/sanity-check.png){zoomable="yes"}
 
@@ -86,7 +86,7 @@ Sommige soorten aanbevelingen gebruiken gedragsgegevens van uw klanten om machin
 
 Wanneer kunt u beginnen met het gebruiken van aanbevelingen die gedragsgegevens gebruiken? Het hangt ervan af. Dit wordt bedoeld als _Koud Begin_ probleem.
 
-Het _Koude 1} probleem van het Begin van het Begin {verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor aanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen.
+Het _Koude 1&rbrace; probleem van het Begin van het Begin &lbrace;verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor aanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen.
 
 De volgende tabel bevat een aantal algemene richtlijnen voor de hoeveelheid tijd die nodig is om voldoende gegevens voor elk type aanbeveling te verzamelen:
 

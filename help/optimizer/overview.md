@@ -2,11 +2,11 @@
 title: Wat is Adobe Commerce Optimizer?
 description: Leer over  [!DNL Adobe Commerce Optimizer]  en zijn belangrijkste eigenschappen.
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
-source-git-commit: 877f3c377715f204904eefe3b93d796084721aa7
+source-git-commit: 69c752322b01985a2eb55de69d4736d75f6bd60a
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Met [!DNL Adobe Commerce Optimizer] kunt u:
 
 Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450469?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
 
 ## Wie profiteert het meest van [!DNL Adobe Commerce Optimizer]?
 
@@ -79,7 +79,7 @@ Definieer de catalogusweergaven en het beleid. De catalogus bevat niet alleen uw
 
 De belangrijkste mogelijkheden omvatten:
 
-- **de catalogusopname van de derde** - de gegevens van de Samenvatting van catalogi van om het even welke derdebron (uw bestaande catalogus van Commerce, PIM, ERP, etc.). Uw catalogusgegevens worden direct opgenomen in de merchandising de dienstenlaag, die een component SaaS genoemd de Diensten van het Merchandising die door de meningen en het Beleid van de Catalogus worden aangedreven (de meningen en het Beleid van de Catalogus) is.
+- **de catalogusopname van de derde** - de gegevens van de Samenvatting van catalogi van om het even welke derdebron (uw bestaande catalogus van Commerce, PIM, ERP, etc.). Uw catalogusgegevens worden direct opgenomen in de merchandising de dienstenlaag, die een component SaaS genoemd de Diensten van de Verkoop die door de meningen en het Beleid van de Catalogus worden aangedreven.
 - **Merchandising de Diensten die door de meningen en het Beleid van de Catalogus** worden aangedreven - Deze oplossing is het grondstuk van [!DNL Adobe Commerce Optimizer]. Merchandising Services aangedreven door catalogusweergaven en -beleid is een zeer schaalbaar, flexibel model voor catalogusgegevens dat meerdere merken, bedrijfseenheden en meertalige gebruiksscenario&#39;s ontgrendelt. Deze diensten van de koophandel verstrekken bouwstenen die de handelaren kunnen gebruiken om catalogi tot stand te brengen en te beheren op schaal. Binnen [!DNL Adobe Commerce Optimizer] kunt u uw catalogus beheren door catalogusweergaven en beleid te maken die uw bedrijfsdoelstellingen het beste definiëren. Bovendien kan de handelaar persoonlijke ervaringen verstrekken om verkeer en betrokkenheid te drijven gebruikend productontdekking, aanbevelingen &#x200B;, en intelligente koophandel.
 - **vóór en na metriek** - verstrekt inzicht in real time in de prestaties van uw handelsinitiatieven. U kunt voor en na resultaten van specifieke KPIs bekijken en het effect van veranderingen evalueren en voor betere resultaten optimaliseren. U kunt de resultaten exporteren in een PDF.
 - **Commerce storefront die door Edge Delivery** wordt aangedreven - met de levering van Edge, kunt u uw plaats snel lanceren gebruikend prebuilt storefront componenten met geïntegreerde handelsfunctionaliteit - met inbegrip van de pagina&#39;s van de productlijst, productdetailpagina&#39;s, kar, en controle.

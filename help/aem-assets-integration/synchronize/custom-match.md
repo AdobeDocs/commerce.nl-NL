@@ -3,16 +3,16 @@ title: Aangepaste automatische matching
 description: Leer hoe aangepaste automatische overeenkomsten vooral handig zijn voor handelaren met complexe matching-logica of voor bedrijven die vertrouwen op een systeem van derden dat geen metagegevens in AEM Assets kan invullen.
 feature: CMS, Media, Integration
 exl-id: e7d5fec0-7ec3-45d1-8be3-1beede86c87d
-source-git-commit: ff6affa5bcc4111e14054f3f6b3ce970619ca295
+source-git-commit: ee1dd902a883e5653a9fb8764fac708975c37091
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
 # Aangepaste automatische matching
 
-Als de standaard automatische passende strategie (**automatische aanpassing OTB**) niet met uw specifieke bedrijfsvereisten wordt gericht, selecteer de optie van de douanegelijke. Deze optie steunt het gebruik van [ Adobe Developer App Builder ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) om een toepassing van de douanematcher te ontwikkelen die complexe passende logica, of activa behandelt die uit een derdesysteem komen dat meta-gegevens in AEM Assets niet kan bevolken.
+Als de standaard automatische passende strategie (**automatische aanpassing OTB**) niet met uw specifieke bedrijfsvereisten wordt gericht, selecteer de optie van de douanegelijke. Deze optie steunt het gebruik van [ Adobe Developer App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) om een toepassing van de douanematcher te ontwikkelen die complexe passende logica, of activa behandelt die uit een derdesysteem komen dat meta-gegevens in AEM Assets niet kan bevolken.
 
 ## Aangepaste automatische overeenkomsten configureren
 
@@ -24,7 +24,7 @@ Als de standaard automatische passende strategie (**automatische aanpassing OTB*
 
 ## Eindpunten voor aangepaste matcher-API
 
-Wanneer u een toepassing van de douanematcher gebruikend [ App Builder ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank} bouwt, moet de toepassing de volgende eindpunten blootstellen:
+Wanneer u een toepassing van de douanematcher gebruikend [ App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank} bouwt, moet de toepassing de volgende eindpunten blootstellen:
 
 * **activa van App Builder aan productURL** eindpunt
 * **het product van App Builder aan activaURL** eindpunt
@@ -76,8 +76,8 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/asset-to-
 
 | Parameter | Gegevenstype | Beschrijving |
 | --- | --- | --- |
-| `assetId` | String | Vertegenwoordigt de bijgewerkte element-id |
-| `eventData` | String | Hiermee wordt de gegevenslading geretourneerd die aan de `assetId` is gekoppeld |
+| `assetId` | String | Vertegenwoordigt de bijgewerkte element-id. |
+| `eventData` | String | Retourneert de gegevenslading die aan de element-id is gekoppeld. |
 
 **Reactie**
 
@@ -136,22 +136,13 @@ exports.main = main;
 **Verzoek**
 
 ```bash
-GET https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-to-asset
+POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-to-asset
 ```
 
 | Parameter | Gegevenstype | Beschrijving |
 | --- | --- | --- |
 | `productSKU` | String | Vertegenwoordigt de bijgewerkte product SKU. |
-| `asset_matches` | String | Retourneert alle elementen die aan een specifieke `productSku` zijn gekoppeld. |
-
-De parameter `asset_matches` bevat de volgende kenmerken:
-
-| Kenmerk | Gegevenstype | Beschrijving |
-| --- | --- | --- |
-| `asset_id` | String | Vertegenwoordigt de bijgewerkte element-id. |
-| `asset_roles` | String | Retourneert alle beschikbare elementrollen. Gebruikt gesteunde [ Commerce activa rollen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles) als `thumbnail`, `image`, `small_image`, en `swatch_image`. |
-| `asset_format` | String | Geeft de beschikbare indelingen voor het element. Mogelijke waarden zijn `image` en `video` . |
-| `asset_position` | String | Hiermee geeft u de positie van het element weer. |
+| `eventData` | String | Keert de gegevensuitlading verbonden aan het Product SKU terug. |
 
 **Reactie**
 
@@ -161,12 +152,30 @@ De parameter `asset_matches` bevat de volgende kenmerken:
   "asset_matches": [
     {
       "asset_id": "{ASSET_ID_1}",
-      "asset_roles": ["thumbnail","image"]
+      "asset_roles": ["thumbnail","image"],
+      "asset_position": 1,
+      "asset_format": image
     },
     {
       "asset_id": "{ASSET_ID_2}",
       "asset_roles": ["thumbnail"]
+      "asset_position": 2,
+      "asset_format": image     
     }
   ]
 }
 ```
+
+| Parameter | Gegevenstype | Beschrijving |
+| --- | --- | --- |
+| `productSKU` | String | Vertegenwoordigt de bijgewerkte product SKU. |
+| `asset_matches` | String | Retourneert alle elementen die aan een specifieke product-SKU zijn gekoppeld. |
+
+De parameter `asset_matches` bevat de volgende kenmerken:
+
+| Kenmerk | Gegevenstype | Beschrijving |
+| --- | --- | --- |
+| `asset_id` | String | Vertegenwoordigt de bijgewerkte element-id. |
+| `asset_roles` | String | Retourneert alle beschikbare elementrollen. Gebruikt gesteunde [ Commerce activa rollen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles) als `thumbnail`, `image`, `small_image`, en `swatch_image`. |
+| `asset_format` | String | Geeft de beschikbare indelingen voor het element. Mogelijke waarden zijn `image` en `video` . |
+| `asset_position` | String | Hiermee geeft u de positie van het element weer. |

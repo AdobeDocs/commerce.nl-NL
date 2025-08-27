@@ -3,7 +3,7 @@ title: Aanvullende informatie
 description: De recentste versieinformatie voor  [!DNL Adobe Commerce Optimizer].
 role: Admin, Architect, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 0b27bd80b6471f83dddb1f2e4a3ece5ebd9d05a0
 workflow-type: tm+mt
 source-wordcount: '103'

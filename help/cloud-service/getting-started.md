@@ -3,10 +3,10 @@ title: Aan de slag met  [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce as a Cloud Service].
 role: Admin, Developer, User
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: d8c0cf5f54a8518b033013cdb24b25f8ff363f02
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: a070fa6ba000e1b101deb3f0a96e53c5f2ece9a4
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Klik op de onderstaande tabbladen om workflowoverzichten op hoog niveau weer te 
 
 >[!TAB  Beheerder en handelaarwerkschema ]
 
-Dit diagram biedt een overzicht op hoog niveau van de manier waarop beheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
+Dit diagram biedt een overzicht op hoog niveau van de manier waarop beheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
 
 ![[!DNL Adobe Commerce as a Cloud Service] merchant flow diagram ](./assets/merchant-flow.svg){zoomable="yes"}
 
@@ -93,13 +93,24 @@ Nadat u een instantie hebt gemaakt, kunt u deze openen vanuit de map [!UICONTROL
 >
 >Klik op het informatiepictogram naast de instantienaam voor informatie over uw instantie, zoals de REST- en GraphQL-eindpunten en de Admin-URL.
 
+De basis-URL&#39;s voor uw beheerder en eindpunten verschillen afhankelijk van het gebied en de omgeving. Hierbij wordt het volgende patroon gebruikt:
+
+* Beheerder
+   * Productiebeheer Noord-Amerika: `https://na1.admin.commerce.adobe.com`
+   * Sandbox Admin. Noord-Amerika: `https://na1-sandbox.admin.commerce.adobe.com`
+   * Europe production Admin: `https://eu1.admin.commerce.adobe.com`
+* REST en GraphQL
+   * GraphQL voor productie in Noord-Amerika: `https://na1.api.commerce.adobe.com`
+   * Noord-Amerika sandbox GraphQL: `https://na1-sandbox.api.commerce.adobe.com`
+   * Europe production GraphQL: `https://eu1.api.commerce.adobe.com`
+
 ## Uw catalogus importeren
 
 Standaard bevatten [!DNL Adobe Commerce as a Cloud Service] -instanties geen productgegevens. U kunt voorbeeldproductgegevens opnemen wanneer u een exemplaar maakt voor test- en leerdoeleinden voordat u uw eigen catalogus importeert.
 
 U kunt uw catalogus op twee manieren importeren in [!DNL Adobe Commerce as a Cloud Service] :
 
-* [**Admin van Commerce** ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
+* [**Admin van Commerce** ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
 * [**de Invoer JSON API** ](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - VERTONEN API die u toestaat om uw catalogusgegevens programmatically in te voeren.
 
 <!-- TODO

@@ -3,9 +3,10 @@ title: Aangepaste gebeurtenissen maken
 description: Leer hoe u aangepaste gebeurtenissen maakt om uw Adobe Commerce-gegevens te koppelen aan andere Adobe DX-producten.
 role: Admin, Developer
 feature: Personalization, Integration, Eventing
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: db782c0a-8f13-4076-9b17-4c5bf98e9d01
+source-git-commit: 81fbcde11da6f5d086c2b94daeffeec60a9fdbcc
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -76,11 +77,7 @@ Overschrijvingen van kenmerken voor standaardgebeurtenissen worden alleen onders
 
 Voor elke gebeurtenis met `customContext` overschrijft de verzamelaar de samenvoegingsvelden die in de relevante context zijn ingesteld met velden in `customContext` . Het gebruik van overschrijvingen is mogelijk wanneer een ontwikkelaar contexten die door andere delen van de pagina zijn ingesteld, opnieuw wil gebruiken en uitbreiden in gebeurtenissen die al worden ondersteund.
 
->[!NOTE]
->
->Wanneer u aangepaste gebeurtenissen overschrijft, moet het doorsturen van gebeurtenissen naar Experience Platform voor dat gebeurtenistype worden uitgeschakeld om dubbeltelling te voorkomen.
-
-Voorbeelden:
+### Voorbeelden
 
 Productweergave met overschrijvingen gepubliceerd via Adobe Commerce Events SDK:
 
@@ -131,6 +128,30 @@ In Experience Platform Edge:
   }
 }
 ```
+
+Opslag op basis van luminantie:
+
+In op Luma gebaseerde winkels worden publicatiegebeurtenissen native geïmplementeerd. Daarom kunt u aangepaste gegevens instellen door `customContext` uit te breiden.
+
+Bijvoorbeeld:
+
+```javascript
+mse.context.setCustom({
+  productListItems: [
+    {
+      productCategories: [
+        {
+          categoryID: "cat_15",
+          categoryName: "summer pants",
+          categoryPath: "pants/mens/summer",
+        },
+      ],
+    },
+  ],
+});
+```
+
+Zie [ de opheffing van de douanegebeurtenis ](https://github.com/adobe/commerce-events/blob/main/examples/events/custom-event-override.md) om meer over de behandeling van douanegegevens te leren.
 
 >[!NOTE]
 >

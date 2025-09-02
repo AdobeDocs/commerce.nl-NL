@@ -2,7 +2,8 @@
 title: '[!DNL SaaS Data Export Guide]'
 description: Leer over het gebruiken van de  [!DNL data export]  uitbreiding voor de diensten van Adobe Commerce SaaS die gegevens tussen Adobe Commerce en de verbonden diensten van Commerce synchroniseert.
 role: Admin, Developer
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 8a0067ba-90a4-48a6-8276-208d09abe6fc
+source-git-commit: 8e3e71c7de56b367a73ab048fa13ba2cdeb55f41
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -24,9 +25,9 @@ SaaS data export wordt geleverd als een PHP extensie. Deze biedt ondersteuning v
 
 - **Handmatige synchronisatie van Admin of de bevellijn**
 
-   - Het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard) in Commerce Admin verstrekt een grafische mening van de synchronisatiestatus. U kunt het dashboard gebruiken om volledige resynchronisatie (_volledige synchronisatie_) van alle voer uit te voeren. Adobe raadt echter aan om alleen volledige synchronisatie uit te voeren wanneer u Adobe Commerce voor de eerste keer verbindt met een Commerce-service. Zie [ Synchronisatieproces ](data-synchronization.md).
+   - Het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard) in Commerce Admin verstrekt een grafische mening van de synchronisatiestatus. U kunt het dashboard gebruiken om volledige resynchronisatie (_volledige synchronisatie_) van alle voer uit te voeren. Adobe raadt echter aan om alleen volledige synchronisatie uit te voeren wanneer u Adobe Commerce voor de eerste keer verbindt met een Commerce-service. Zie [ Synchronisatieproces ](data-synchronization.md).
 
-   - Het [ bevel-lijn van Adobe Commerce hulpmiddel ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/config-cli) (CLI) verstrekt bevelen om specifieke voer te synchroniseren en omvat extra opties om voederverwerking aan te passen.
+   - Het [ bevel-lijn van Adobe Commerce hulpmiddel ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli) (CLI) verstrekt bevelen om specifieke voer te synchroniseren en omvat extra opties om voederverwerking aan te passen.
 
 - **Geautomatiseerde synchronisatie met cron banen**
 

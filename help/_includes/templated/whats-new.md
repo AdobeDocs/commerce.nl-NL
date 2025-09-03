@@ -23,7 +23,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>U kunt het <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront"> hulpmiddel van de plaatsschepper </a> aan opstelling nu gebruiken uw storefront zonder CLI te gebruiken.</p>
+      <td><p>U kunt het <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/storefront"> hulpmiddel van de plaatsschepper </a> aan opstelling nu gebruiken uw storefront zonder CLI te gebruiken.</p>
 </td>
       <td>
         Belangrijke update
@@ -45,7 +45,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegd een onderwerp over hoe te om <a href="https://experienceleague.adobe.com/en/docs/commerce/data-connection/customize-data/custom-identities"> douaneattributen aan profielen </a> toe te voegen.</p>
+      <td><p>Toegevoegd een onderwerp over hoe te om <a href="https://experienceleague.adobe.com/nl/docs/commerce/data-connection/customize-data/custom-identities"> douaneattributen aan profielen </a> toe te voegen.</p>
 </td>
       <td>
         Nieuw onderwerp

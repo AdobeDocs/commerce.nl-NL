@@ -1,5 +1,5 @@
 ---
-source-git-commit: 757c1f430346ef82cba0f708cdd17580d8e6dba9
+source-git-commit: c7c9c19936ed1db8e262daaf391bd2d168b91741
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -23,12 +23,12 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>ONTBREKENDE WAT nieuw is in de major-update PR #197: "removing scaffolder" toegewezen aan jhoover (https://git.corp.adobe.com/AdobeDocs/commerce.en/pull/197)</p>
+      <td><p>U kunt het <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront"> hulpmiddel van de plaatsschepper </a> aan opstelling nu gebruiken uw storefront zonder CLI te gebruiken.</p>
 </td>
       <td>
         Belangrijke update
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-operations.en/commit/bf3954af26fba0aa943261a0673166c0537e692e">begaan</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/bf3954af26fba0aa943261a0673166c0537e692e">begaan</a></td>
     </tr>
   </tbody>
 </table>
@@ -45,12 +45,12 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>ONTBREKENDE whatsnew in nieuw-onderwerp PR #158: "Toevoegend nieuw onderwerp over douaneidentiteiten"toegewezen aan markering (https://git.corp.adobe.com/AdobeDocs/commerce.en/pull/158)</p>
+      <td><p>Toegevoegd een onderwerp over hoe te om <a href="https://experienceleague.adobe.com/en/docs/commerce/data-connection/customize-data/custom-identities"> douaneattributen aan profielen </a> toe te voegen.</p>
 </td>
       <td>
         Nieuw onderwerp
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-operations.en/commit/403b15368c52f3965e65a9175c82c2f6cd1773bb">begaan</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/403b15368c52f3965e65a9175c82c2f6cd1773bb">begaan</a></td>
     </tr>
   </tbody>
 </table>
@@ -72,7 +72,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td>
         Feedback
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-operations.en/commit/ad0c36006a01491aee1ca1643c6a3ab63f39f7e4">begaan</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ad0c36006a01491aee1ca1643c6a3ab63f39f7e4">begaan</a></td>
     </tr>
   </tbody>
 </table>

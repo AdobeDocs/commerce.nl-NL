@@ -14,9 +14,9 @@ ht-degree: 0%
 
 De module Adobe Commerce Extra productkenmerken breidt de invoer van productgegevens uit. Het bevat aanvullende productkenmerken van Adobe Commerce-productconfiguraties:
 
-* [ Belastingclassificatie ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/tax-class)
-* [ Reeks van Attributen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-sets)
-* [ Overzicht ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-options#advanced-product-options)
+* [ Belastingclassificatie ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/taxes/tax-class)
+* [ Reeks van Attributen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-sets)
+* [ Overzicht ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/product-options#advanced-product-options)
 
 Nadat de module is geïnstalleerd, werkt deze automatisch. De aanvullende kenmerken worden tijdens productsynchronisatie vastgelegd en geëxporteerd. Geen extra configuratie wordt vereist.
 
@@ -158,7 +158,7 @@ De extra module van de Attributen van het Product verbetert de bestaande product
 * [ de uitbreiding van de Uitvoer van Gegevens van Adobe Commerce ](manage-extension.md#update-a-module-to-a-specific-version), versie 103.4.11 of later
 * Toegang tot [ repo.magento.com ](https://repo.magento.com)
 
-  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [ uw authentificatiesleutels ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [ Commerce op de Gids van de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 * Toegang tot de opdrachtregel van de Adobe Commerce-toepassingsserver.
 
 ### Installatiestappen
@@ -171,7 +171,7 @@ composer require adobe-commerce/module-extra-product-attributes
 
 Raadpleeg de volgende handleidingen voor gedetailleerde installatiestappen:
 
-* [ installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [ installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 * [ installeer uitbreiding Adobe Commerce op-gebouw ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extension)
 
 ## Productgegevens synchroniseren
@@ -200,9 +200,9 @@ bin/magento saas:resync --feed=productAttributes
 
 * Controleren of de inventarisinstellingen correct zijn geconfigureerd in de beheerder
 * Controleren op overschrijvingen van specifieke inventarissen voor websites
-* Verifieer dat de [ module van Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview) correct werkt
+* Verifieer dat de [ module van Inventory management ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/guide-overview) correct werkt
 
-Voor verdere details, zie de [ Gids van Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview) in de *Commerciële Documentatie van Adobe Commerce*.
+Voor verdere details, zie de [ Gids van Inventory management ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/guide-overview) in de *Commerciële Documentatie van Adobe Commerce*.
 
 **de bedenkingen van Prestaties:**
 

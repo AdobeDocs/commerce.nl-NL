@@ -39,4 +39,4 @@ U kunt om het even welke geïnstalleerde modules van de de uitvoer van handelsge
    composer require magento/commerce-data-export:103.4.11 --with-all-dependencies
    ```
 
-Als de Commerce-instantie wordt geïmplementeerd op de Cloud-infrastructuur, werkt u de extensie bij vanuit de cloud-projectmap. Zie [ Verbetering een uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension) in _Adobe Commerce op de Gids van de Infrastructuur van de Wolk_.
+Als de Commerce-instantie wordt geïmplementeerd op de Cloud-infrastructuur, werkt u de extensie bij vanuit de cloud-projectmap. Zie [ Verbetering een uitbreiding ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension) in _Adobe Commerce op de Gids van de Infrastructuur van de Wolk_.

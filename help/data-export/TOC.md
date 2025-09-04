@@ -25,4 +25,4 @@ ht-degree: 4%
    - [Productkenmerk dynamisch toevoegen](add-attribute-dynamically.md)
    - [Fiscale klasse, kenmerkset en inventarismetagegevens toevoegen](add-tax-attribute-set-inventory-attributes.md)
 - [Aanvullende informatie](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)

@@ -143,7 +143,7 @@ De extra module van de Attributen van het Product verbetert de bestaande product
    * De oorspronkelijke productgegevens ongewijzigd laten
    * Onderhoudt achterwaartse compatibiliteit met bestaande diervoederconsumenten
 
-* **van de Attributen van het Product van 0} Diervoed**: Verbeterd met attributenmeta-gegevens voor de nieuwe attributen`productAttributes`
+* **van de Attributen van het Product van 0&rbrace; Diervoed**: Verbeterd met attributenmeta-gegevens voor de nieuwe attributen`productAttributes`
 
    * Metagegevens voor de drie nieuwe kenmerken in de `productAttributes` feed worden automatisch geregistreerd
    * Verstrekt attributenconfiguratiedetails (gegevenstypes, zichtbaarheidsmontages, etc.)

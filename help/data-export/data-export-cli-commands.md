@@ -2,7 +2,7 @@
 title: feeds synchroniseren met de Commerce CLI
 description: Leer hoe te om bevel-lijn interfacebevelen te gebruiken om voer en processen voor  [!DNL data export extension]  voor de diensten van Adobe Commerce te beheren SaaS.
 exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
-source-git-commit: 0f1d55f81cb030d218f0aa8dfa2af4dfd8f640c1
+source-git-commit: 37d5699315e34f1504602090fae5201ee51cf470
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Met de opdracht `saas:resync` in het `magento/saas-export` -pakket kunt u gegeve
 Adobe raadt u niet aan de opdracht `saas:resync` regelmatig te gebruiken. De typische scenario&#39;s voor het gebruiken van het bevel zijn:
 
 - Eerste synchronisatie
-- De gegevens van de synchronisatie aan een nieuwe gegevensruimte na het veranderen van [ identiteitskaart van de Ruimte van Gegevens SaaS ](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/services/saas)
+- De gegevens van de synchronisatie aan een nieuwe gegevensruimte na het veranderen van [ identiteitskaart van de Ruimte van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
 - Problemen oplossen
 
 Synchronisatiebewerkingen in het `var/log/saas-export.log` -bestand controleren.

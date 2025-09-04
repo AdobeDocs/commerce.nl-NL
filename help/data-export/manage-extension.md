@@ -3,7 +3,7 @@ title: '[!DNL Manage the Data Export extension]'
 description: Leer hoe te om de  [!DNL Data Export]  uitbreiding te bevorderen en de diensten van de gegevensuitvoer te verwijderen of onbruikbaar te maken die niet worden vereist.
 role: Admin, Developer
 exl-id: 94702995-d272-47b9-9560-198eee3250a6
-source-git-commit: ff5c717dbdd638e114bccc3f6dec26f4be269194
+source-git-commit: c7a08cabe07ec94e31e9f4c27448ee0862e62cf2
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U kunt om het even welke geïnstalleerde modules van de de uitvoer van handelsge
 1. Werk de module bij met behulp van Composer vanaf de opdrachtregel:
 
    ```bash
-   composer require magento/module-saas-price:103.3.1 --with-all-dependencies
+   composer require magento/commerce-data-export:103.4.11 --with-all-dependencies
    ```
 
-Als de Commerce-instantie wordt geïmplementeerd op de Cloud-infrastructuur, werkt u de extensie bij vanuit de cloud-projectmap. Zie [ Verbetering een uitbreiding ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension) in _Adobe Commerce op de Gids van de Infrastructuur van de Wolk_.
+Als de Commerce-instantie wordt geïmplementeerd op de Cloud-infrastructuur, werkt u de extensie bij vanuit de cloud-projectmap. Zie [ Verbetering een uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension) in _Adobe Commerce op de Gids van de Infrastructuur van de Wolk_.

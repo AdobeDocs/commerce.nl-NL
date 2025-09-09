@@ -1,8 +1,9 @@
 ---
 title: Instellingen
 description: Configureer instellingen voor  [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 3020386cd051b4453ed6b90d2c694a5bb31dfb24
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: 6ac223de-8e03-4842-8b67-92ce321d323d
+source-git-commit: 652681cc9aef416040ccd470d04bf2540fe97262
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Prijsfacetten geven het aantal prijsgroepen aan en de verdeling van de prijswaar
 U kunt het aantal groepen voor het prijsbereik opgeven en aangeven hoe de prijswaarden eronder worden verdeeld. Elke prijsklasse overlapt de vorige groep met één. Vijf groepen met een interval van 20 maken bijvoorbeeld de volgende prijsbereiken: 0-20, 20-40, 40-60, 60-80 en >80. Als de catalogus niet genoeg producten bevat om alle gedefinieerde bereiken te vullen, wordt de weergave van de beschikbare groepen dienovereenkomstig aangepast. Bijvoorbeeld: 0-20, 60-80, >80.
 
 1. Op de **werkruimte van Montages**, selecteer **[!UICONTROL Search]**, dan onder **Vergemakkelijking van de Prijs**, doe het volgende:
-   - Ga het **Aantal selecties** in, of prijsgroeperingen om beschikbaar te zijn. Er kunnen maximaal 50 prijsgroepen worden gedefinieerd.
+   - Ga het **Aantal selecties** in, of prijsgroeperingen om beschikbaar te zijn. Er kunnen maximaal 100 prijsgroepen worden gedefinieerd.
    - Ga de **waarde van het Interval**, of prijswaaier voor elke groep in. De maximumwaarde is 40.000.000.
 1. Klik **sparen**.
 
@@ -32,7 +33,7 @@ U kunt het aantal groepen voor het prijsbereik opgeven en aangeven hoe de prijsw
 
 | Veld | Beschrijving |
 |--- |--- |
-| Aantal selecties | Hiermee geeft u het aantal groepen voor prijsbereik op dat als zoekfilters in de winkel kan worden gebruikt. Standaardwaarde: 8, Maximumwaarde: 50 |
+| Aantal selecties | Hiermee geeft u het aantal groepen voor prijsbereik op dat als zoekfilters in de winkel kan worden gebruikt. Standaardwaarde: 8, maximumwaarde: 100 |
 | Interval, waarde | Hiermee geeft u het prijsinterval voor elke groep op. Vijf selecties met een intervalwaarde van 20 maken bijvoorbeeld vijf groepen van 0-20, 20-40, 40-60, 60-80 en >80. Standaardwaarde: 5, Maximumwaarde: 40.000.000 |
 
 ## Taal

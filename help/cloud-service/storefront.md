@@ -3,8 +3,8 @@ title: Winefront instellen
 description: Leer hoe te om het steigereedschap in werking te stellen om uw  [!DNL Adobe Commerce as a Cloud Service]  storefront te opstelling.
 role: Developer
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: b0d492ffab2dcf5742772d02bed026e241ac43cd
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: 408f28bdc20708022c8eca0fbfea4adb17014bf7
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om uw Adobe Commerce Storefront met Edge Delivery Services for Adobe Commerce as a Cloud Service (SaaS) in te stellen.
 
-Als u een meer klantgerichte en gedetailleerde analyse wilt, verwijs naar de [ storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL).
+Als u een meer klantgerichte en gedetailleerde analyse wilt, verwijs naar de [ storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/).
 
 1. Open het [ hulpmiddel van de plaatsschepper ](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator).
 
@@ -45,4 +45,4 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * Meer leren over het beheren van en het tonen van inhoud en gegevens in de storefront, zie [ het bijwerken van storefront inhoud ](./use-cases.md#update-storefront-content).
 * Voor meer informatie over contextafhankelijke experimenteringseigenschappen, zie [ contextafhankelijke experimentatie ](./use-cases.md#contextual-experimentation).
 * Voor meer informatie bij het gebruiken van Generatieve AI om de inhoudsgeneratie van uitstekende kwaliteit te automatiseren, zie [ Variaties ](./use-cases.md#generate-variations) produceren.
-* Meer leren over het bijwerken van plaatsinhoud en het integreren met Commerce frontend componenten en achterste gegevens, zie de [ documentatie van de Opslag van Adobe Commerce ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL).
+* Meer leren over het bijwerken van plaatsinhoud en het integreren met Commerce frontend componenten en achterste gegevens, zie de [ documentatie van de Opslag van Adobe Commerce ](https://experienceleague.adobe.com/developer/commerce/storefront/).

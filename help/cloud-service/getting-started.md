@@ -3,7 +3,7 @@ title: Aan de slag met  [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce as a Cloud Service].
 role: Admin, Developer, User
 exl-id: 58d98b9e-b41d-44db-9666-c924a5b005b3
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 061b976872fae614cf1fb3db5aaabd9ffdc5e0f9
 workflow-type: tm+mt
 source-wordcount: '1264'
@@ -58,7 +58,7 @@ Selecteer hieronder een tabblad om werkstroomafbeeldingen op hoog niveau voor de
 
 >[!TAB  de beheerder van het Systeem en handelsstroom ]
 
-Dit diagram biedt een overzicht op hoog niveau van de manier waarop systeembeheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
+Dit diagram biedt een overzicht op hoog niveau van de manier waarop systeembeheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
 
 ![[!DNL Adobe Commerce as a Cloud Service] merchant flow diagram ](./assets/merchant-flow.svg){zoomable="yes"}
 
@@ -198,7 +198,7 @@ Standaard bevatten [!DNL Adobe Commerce as a Cloud Service] -instanties geen pro
 
 U kunt uw catalogus op twee manieren importeren in [!DNL Adobe Commerce as a Cloud Service] :
 
-* [**Admin van Commerce** ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
+* [**Admin van Commerce** ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
 * [**de Invoer JSON API** ](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - VERTONEN API die u toestaat om uw catalogusgegevens programmatically in te voeren.
 
 ### De storefront instellen
@@ -209,4 +209,4 @@ Nu u een instantie hebt gecreeerd, bent u klaar aan [ opstelling uw storefront ]
 
 * [Opmerkingen bij de release](release-notes.md)
 * [Migratiehandleiding](migration/overview.md)
-* [ Commerce Storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+* [ Commerce Storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)

@@ -4,8 +4,8 @@ description: Leer over de belangrijkste eigenschappen en de voordelen van  [!DNL
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Architect, Developer, User, Leader
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 31d1f1fe784247d6db8a26f8a9e6ae0291e416b5
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: 3821893c3df01e2e36ab0142616e52c1c92b4d51
 workflow-type: tm+mt
 source-wordcount: '1406'
 ht-degree: 0%
@@ -58,7 +58,7 @@ In de volgende tabel worden de producten gemarkeerd die van kracht zijn [!DNL Ad
 
 Bekijk de volgende video voor een korte inleiding op de [!DNL Adobe Commerce as a Cloud Service] -architectuur. Diagrammen die de architectuur illustreren worden verstrekt onder de video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443273?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
 
 Dit diagram illustreert de gegevensstroom tussen [!DNL Adobe Commerce as a Cloud Service] en alle oplossingen van Adobe Experience Cloud.
 
@@ -66,22 +66,22 @@ Dit diagram illustreert de gegevensstroom tussen [!DNL Adobe Commerce as a Cloud
 
 ## Commerce Storefront
 
-Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront?lang=nl-NL) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
+Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
 
 Commerce Storefront heeft een volledig ontkoppelde architectuur die alle Merchandising Services en gegevens biedt via een GraphQL API-laag. Deze architectuur staat teams toe om hun frontends onafhankelijk van de Stichting van Commerce te ontwikkelen, die de behendigheid verstrekt om nieuwe aanraakpunten met nieuwe technologieën te bouwen en te testen.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=nl-NL#existing-storefronts) voor begeleiding bij het overgaan.
+>[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts) voor begeleiding bij het overgaan.
 
 ## Handelsbemiddeling en betalingsdiensten
 
 Adobe biedt een uitgebreide reeks intelligente, composable merchandising-services waarmee u uw belangrijkste bedrijfsdoelen kunt ondersteunen. Deze services bieden ook API&#39;s die essentieel zijn voor het optimaliseren van prestaties op schaal.
 
 - [ Levend Onderzoek ](../live-search/overview.md) - lever slimmere, snellere en relevante resultaten voor kopers met dit AI-Gerichte onderzoekshulpmiddel.
-- [ Aanbevelingen van het Product ](../product-recommendations/overview.md) - voeg op AI-Gebaseerde aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
+- [ Aanbevelingen van het Product ](../optimizer/merchandising/recommendations/overview.md) - voeg op AI-Gebaseerde aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
 - [ Merchandising de Diensten die door de Weergaven en het Beleid van de Catalogus worden aangedreven ](../optimizer/setup/catalog-view.md) - beheer grote en complexe productcatalogi met flexibele gegevens modellering om hoogst presterende, flexibele handelscatalogi te leveren die met bedrijfsstructuur en go-to-market strategieën worden gericht. Gebruik met [ Commerce Optimizer ](../optimizer/overview.md) om catalogusprestaties te optimaliseren en omzettingspercentages te verbeteren.
-- [ - De klantentevredenheid van de 1&rbrace; Aandrijving van de Betaling van de Diensten van de 1&rbrace; - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.](../payment-services/guide-overview.md)
+- [ - De klantentevredenheid van de 1} Aandrijving van de Betaling van de Diensten van de 1} - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.](../payment-services/guide-overview.md)
 
 ## Productvisa van AEM Assets
 
@@ -197,7 +197,7 @@ De ontwikkelaars kunnen uitvoerige [ GraphQL ](https://developer.adobe.com/comme
 
 <!-- ## Experience Cloud integration
 
-[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [Data Connection](../data-connection/overview.md) unlocks insights about your shoppers' buying behavior so that you can create personalized shopping experiences across all channels with other Adobe Digital Experience products. -->
 

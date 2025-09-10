@@ -2,7 +2,7 @@
 title: Inleiding tot  [!DNL Product Recommendations]
 description: '[!DNL Product Recommendations] is een krachtig marketinginstrument dat u kunt gebruiken om conversies te verhogen, de inkomsten te verhogen en de betrokkenheid van klanten te stimuleren.'
 recommendations: noCatalog
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 exl-id: 72850cfd-555c-4e0e-ac3e-097e6dac2030
 source-git-commit: 3821893c3df01e2e36ab0142616e52c1c92b4d51
 workflow-type: tm+mt
@@ -27,11 +27,11 @@ Als uw opslag gebruikend PWA Studio wordt uitgevoerd, verwijs naar de [ document
 
 Gegevensverzameling ten behoeve van [!DNL Product Recommendations] omvat geen persoonlijk identificeerbare informatie (PII). Ook, zijn alle gebruikers - herkenningstekens zoals koekje IDs en IP adressen strikt geanonimiseerd. Meer leren, zie het [ Beleid van de Privacy van Adobe ](https://www.adobe.com/privacy/policy.html).
 
-[!DNL Product Recommendations] de gebruikers kunnen naar het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html) voor meer gegevens over gegevens verwijzen synchroniseren.
+[!DNL Product Recommendations] de gebruikers kunnen naar het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=nl-NL) voor meer gegevens over gegevens verwijzen synchroniseren.
 
 ## Productaanbevelingen versus productrelaties
 
-Gezien de voortdurend veranderende complexiteit van online winkelen, is wat het beste werkt voor uw winkel vaak een combinatie van meerdere sleuteltechnologieën. Het gebruiken van zowel [!DNL Product Recommendations] als [ Verhoudingen van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships.html) geeft u meer flexibiliteit wanneer het bevorderen van producten. U kunt [!DNL Product Recommendations] van Adobe Sensei gebruiken om uw aanbevelingen op intelligente wijze op schaal te automatiseren. Dan, kunt u hefboomwerking [ Verwante Regels van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html) wanneer u moet manueel tussenkomen en ervoor zorgen dat een specifieke aanbeveling aan een doelverkoopsegment wordt gemaakt, of wanneer bepaalde bedrijfsdoelstellingen moeten worden verwezenlijkt.
+Gezien de voortdurend veranderende complexiteit van online winkelen, is wat het beste werkt voor uw winkel vaak een combinatie van meerdere sleuteltechnologieën. Het gebruiken van zowel [!DNL Product Recommendations] als [ Verhoudingen van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships.html?lang=nl-NL) geeft u meer flexibiliteit wanneer het bevorderen van producten. U kunt [!DNL Product Recommendations] van Adobe Sensei gebruiken om uw aanbevelingen op intelligente wijze op schaal te automatiseren. Dan, kunt u hefboomwerking [ Verwante Regels van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html?lang=nl-NL) wanneer u moet manueel tussenkomen en ervoor zorgen dat een specifieke aanbeveling aan een doelverkoopsegment wordt gemaakt, of wanneer bepaalde bedrijfsdoelstellingen moeten worden verwezenlijkt.
 
 Met productaanbevelingen kunt u:
 
@@ -49,4 +49,4 @@ Bekijk deze video voor meer informatie over [!DNL Product Recommendations] :
 
 Als u gedurende 90 opeenvolgende dagen geen query verzendt voor de catalogusgegevens in uw testomgeving, worden de catalogusgegevens ingesteld op de slaapstand en worden er geen gegevens geretourneerd voor een query. Dit beleid heeft geen invloed op catalogusgegevens in uw productieomgeving.
 
-Om de catalogusgegevens in uw het testen milieu opnieuw te activeren, [ voorlegt een steunverzoek ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Product Recommendations]&quot;en omvat milieu IDs. De catalogusgegevens in de testomgeving moeten binnen een paar uur worden hersteld.
+Om de catalogusgegevens in uw het testen milieu opnieuw te activeren, [ voorlegt een steunverzoek ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Product Recommendations]&quot;en omvat milieu IDs. De catalogusgegevens in de testomgeving moeten binnen een paar uur worden hersteld.

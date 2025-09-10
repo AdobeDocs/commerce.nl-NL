@@ -43,7 +43,7 @@ Met productaanbevelingen kunt u:
 
 Bekijk deze video voor meer informatie over [!DNL Product Recommendations] :
 
->[!VIDEO](https://video.tv.adobe.com/v/343991?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3449964?quality=12&captions=dut)
 
 ## Beleid voor het bewaren van catalogusgegevens
 

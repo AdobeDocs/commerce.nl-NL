@@ -17,7 +17,7 @@ De aanbevelingen van het product zijn een krachtig marketing hulpmiddel dat u ku
 
 De aanbevelingen van het product worden getoond op de winkel als eenheden met etiketten, zoals &quot;Klanten die dit product ook bekeken&quot;hebben. U kunt rechtstreeks vanuit Adobe Commerce Admin aanbevelingen maken, beheren en implementeren in uw winkelweergaven.
 
-Als uw opslag gebruikend PWA Studio wordt uitgevoerd, verwijs naar de [ documentatie van PWA ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). Als u een douane frontend technologie zoals React of Vue JS gebruikt, leer hoe te [ ](headless.md) integreren [!DNL Product Recommendations] in uw headless opslag.
+Als uw opslag gebruikend PWA Studio wordt uitgevoerd, verwijs naar de [ documentatie van PWA ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). Als u een douane frontend technologie zoals React of Vue JS gebruikt, leer hoe te [&#128279;](headless.md) integreren [!DNL Product Recommendations] in uw headless opslag.
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ description: Leer hoe u aangepaste gebeurtenissen maakt om uw Adobe Commerce-geg
 role: Admin, Developer
 feature: Personalization, Integration, Eventing
 exl-id: db782c0a-8f13-4076-9b17-4c5bf98e9d01
-source-git-commit: 81fbcde11da6f5d086c2b94daeffeec60a9fdbcc
+source-git-commit: 25d796da49406216f26d12e3b1be01902dfe9302
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -73,16 +73,26 @@ In Experience Platform Edge:
 
 ## Overschrijvingen van gebeurtenissen afhandelen (aangepaste kenmerken)
 
-Overschrijvingen van kenmerken voor standaardgebeurtenissen worden alleen ondersteund voor de Experience Platform. Aangepaste gegevens worden niet doorgestuurd naar Commerce-dashboards en metrieke trackers.
+Voor elke gebeurtenis die met een `customContext` is ingesteld, overschrijft of breidt de verzamelaar de velden in de gebeurtenislading van de velden in de `custom context` . Het gebruik van overschrijvingen is mogelijk wanneer een ontwikkelaar contexten die door andere delen van de pagina zijn ingesteld, opnieuw wil gebruiken en uitbreiden in gebeurtenissen die al worden ondersteund.
 
-Voor elke gebeurtenis met `customContext` overschrijft de verzamelaar de samenvoegingsvelden die in de relevante context zijn ingesteld met velden in `customContext` . Het gebruik van overschrijvingen is mogelijk wanneer een ontwikkelaar contexten die door andere delen van de pagina zijn ingesteld, opnieuw wil gebruiken en uitbreiden in gebeurtenissen die al worden ondersteund.
+Overschrijvingen van gebeurtenissen zijn alleen van toepassing wanneer u deze naar Experience Platform doorstuurt. Ze worden niet toegepast op analytische gebeurtenissen van Adobe Commerce en Sensei. De Collector van de Gebeurtenissen van Adobe Commerce [ README ](https://github.com/adobe/commerce-events/blob/e34bcfc0deca8d5ac1f9310fc1ee4c1becf4ffbb/packages/storefront-events-collector/README.md) verstrekt extra info.
 
-### Voorbeelden
+>[!NOTE]
+>
+>Wanneer u `productListItems` uitbreidt met aangepaste kenmerken in Experience Platform-gebeurtenisladingen, dient u producten overeen te laten komen met gebruik van SKU. Deze vereiste geldt niet voor `product-page-view` -gebeurtenissen.
 
-Productweergave met overschrijvingen gepubliceerd via Adobe Commerce Events SDK:
+### Gebruik
 
 ```javascript
-mse.publish.productPageView({
+const mse = window.magentoStorefrontEvents;
+
+mse.publish.productPageView(customCtx);
+```
+
+### Voorbeeld 1 - toevoegen `productCategories`
+
+```javascript
+magentoStorefrontEvents.publish.productPageView({
     productListItems: [
         {
             productCategories: [
@@ -97,45 +107,11 @@ mse.publish.productPageView({
 });
 ```
 
-In Experience Platform Edge:
+### Voorbeeld 2 - aangepaste context toevoegen vóór publicatie van gebeurtenis
 
 ```javascript
-{
-  xdm: {
-    eventType: 'commerce.productViews',
-    identityMap: {
-      ECID: [
-        {
-          id: 'ecid1234',
-          primary: true,
-        }
-      ]
-    },
-    commerce: {
-      productViews: {
-        value : 1,
-      }
-    },
-    productListItems: [{
-        SKU: "1234",
-        name: "leora summer pants",
-        productCategories: [{
-            categoryID: "cat_15",
-            categoryName: "summer pants",
-            categoryPath: "pants/mens/summer",
-        }],
-    }],
-  }
-}
-```
+const mse = window.magentoStorefrontEvents;
 
-Opslag op basis van luminantie:
-
-In op Luma gebaseerde winkels worden publicatiegebeurtenissen native geïmplementeerd. Daarom kunt u aangepaste gegevens instellen door `customContext` uit te breiden.
-
-Bijvoorbeeld:
-
-```javascript
 mse.context.setCustom({
   productListItems: [
     {
@@ -149,9 +125,56 @@ mse.context.setCustom({
     },
   ],
 });
+
+mse.publish.productPageView();
 ```
 
-Zie [ de opheffing van de douanegebeurtenis ](https://github.com/adobe/commerce-events/blob/main/examples/events/custom-event-override.md) om meer over de behandeling van douanegegevens te leren.
+### Voorbeeld 3 - de douanecontext die in de uitgever wordt geplaatst beschrijft de douanecontext eerder in de Laag van Gegevens van de Cliënt van Adobe wordt geplaatst.
+
+In dit voorbeeld, zal de `pageView` gebeurtenis **Naam van de Pagina van de Douane 2** op het `web.webPageDetails.name` gebied hebben.
+
+```javascript
+const mse = window.magentoStorefrontEvents;
+
+mse.context.setCustom({
+  web: {
+    webPageDetails: {
+      name: 'Custom Page Name 1'
+    },
+  },
+});
+
+mse.publish.pageView({
+  web: {
+    webPageDetails: {
+      name: 'Custom Page Name 2'
+    },
+  },
+});
+```
+
+### Voorbeeld 4 - aangepaste context toevoegen aan `productListItems` met gebeurtenissen met meerdere producten
+
+```javascript
+const mse = window.magentoStorefrontEvents;
+
+mse.context.setCustom({
+  productListItems: [
+    {
+      SKU: "24-WB01", //Match SKU to override correct product in event payload
+      productCategory: "Hand Bag", //Custom attribute added to event payload
+      name: "Strive Handbag (CustomName)" //Override existing attribute with custom value in event payload
+    },
+    {
+      SKU: "24-MB04",
+      productCategory: "Backpack Bag",
+      name: "Strive Backpack (CustomName)"
+    },
+  ],
+});
+
+mse.publish.shoppingCartView();
+```
 
 >[!NOTE]
 >

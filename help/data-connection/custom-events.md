@@ -4,9 +4,9 @@ description: Leer hoe u aangepaste gebeurtenissen maakt om uw Adobe Commerce-geg
 role: Admin, Developer
 feature: Personalization, Integration, Eventing
 exl-id: db782c0a-8f13-4076-9b17-4c5bf98e9d01
-source-git-commit: 25d796da49406216f26d12e3b1be01902dfe9302
+source-git-commit: 4e8cf0ad3f8f94d4f59bc8d78a44f4b3e86cbc3e
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ const mse = window.magentoStorefrontEvents;
 mse.publish.productPageView(customCtx);
 ```
 
-### Voorbeeld 1 - toevoegen `productCategories`
+### Voorbeeld 1
+
+In dit voorbeeld wordt aangepaste context toegevoegd bij het publiceren van de gebeurtenis.
 
 ```javascript
 magentoStorefrontEvents.publish.productPageView({
@@ -107,7 +109,9 @@ magentoStorefrontEvents.publish.productPageView({
 });
 ```
 
-### Voorbeeld 2 - aangepaste context toevoegen vóór publicatie van gebeurtenis
+### Voorbeeld 2
+
+In dit voorbeeld wordt aangepaste context toegevoegd voordat de gebeurtenis wordt gepubliceerd.
 
 ```javascript
 const mse = window.magentoStorefrontEvents;
@@ -129,7 +133,9 @@ mse.context.setCustom({
 mse.publish.productPageView();
 ```
 
-### Voorbeeld 3 - de douanecontext die in de uitgever wordt geplaatst beschrijft de douanecontext eerder in de Laag van Gegevens van de Cliënt van Adobe wordt geplaatst.
+### Voorbeeld 3
+
+In dit voorbeeld wordt de aangepaste context in de uitgever ingesteld en wordt de aangepaste context overschreven die eerder is ingesteld in de Adobe Client Data Layer.
 
 In dit voorbeeld, zal de `pageView` gebeurtenis **Naam van de Pagina van de Douane 2** op het `web.webPageDetails.name` gebied hebben.
 
@@ -153,7 +159,9 @@ mse.publish.pageView({
 });
 ```
 
-### Voorbeeld 4 - aangepaste context toevoegen aan `productListItems` met gebeurtenissen met meerdere producten
+### Voorbeeld 4
+
+In dit voorbeeld wordt aangepaste context toegevoegd aan `productListItems` -gebeurtenissen met meerdere producten.
 
 ```javascript
 const mse = window.magentoStorefrontEvents;
@@ -174,6 +182,22 @@ mse.context.setCustom({
 });
 
 mse.publish.shoppingCartView();
+```
+
+Opslag op basis van luminantie:
+
+In op een luminantie gebaseerde opslagruimten worden publicatiegebeurtenissen native geïmplementeerd, zodat u aangepaste gegevens kunt instellen door `customContext` uit te breiden.
+
+Bijvoorbeeld:
+
+```javascript
+mse.context.setCustom({
+  web: {
+    webPageDetails: {
+      name: 'Custom Page Name'
+    },
+  },
+});
 ```
 
 >[!NOTE]

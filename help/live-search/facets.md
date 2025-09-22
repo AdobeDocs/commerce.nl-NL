@@ -61,7 +61,7 @@ De volgende productkenmerken hebben [ storefront eigenschappen ](https://experie
 
 ## Standaardeigenschappen van niet-systeemkenmerken
 
-In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven, inclusief de eigenschappen die specifiek zijn voor de Luminantiemonsteringsgegevens. Het plaatsen van het *Gebruik in het 1} attributenbezit van het Onderzoek {aan* maakt de attributen doorzoekbaar in zowel `Yes` als inheemse Adobe Commerce.[!DNL Live Search]
+In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven, inclusief de eigenschappen die specifiek zijn voor de Luminantiemonsteringsgegevens. Het plaatsen van het *Gebruik in het 1&rbrace; attributenbezit van het Onderzoek &lbrace;aan* maakt de attributen doorzoekbaar in zowel `Yes` als inheemse Adobe Commerce.[!DNL Live Search]
 
 | Kenmerkcode | Doorzoekbaar | Gebruiken in gelaagde navigatie |
 |--- |--- |--- |

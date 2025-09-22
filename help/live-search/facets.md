@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Facetten
 
-Faceting is een methode voor het filteren van hoge prestaties waarbij meerdere dimensies van kenmerkwaarden worden gebruikt als zoekcriteria. Het gefactureerde onderzoek is gelijkaardig, maar aanzienlijk &quot;slimmer&quot;dan de standaard [ gelaagde navigatie ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html). De lijst van beschikbare filters wordt bepaald door de [ filtreerbare attributen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#filterable-attributes) van producten die in de onderzoeksresultaten zijn teruggekeerd.
+Faceting is een methode voor het filteren van hoge prestaties waarbij meerdere dimensies van kenmerkwaarden worden gebruikt als zoekcriteria. Het gefactureerde onderzoek is gelijkaardig, maar aanzienlijk &quot;slimmer&quot;dan de standaard [ gelaagde navigatie ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html?lang=nl-NL). De lijst van beschikbare filters wordt bepaald door de [ filtreerbare attributen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html?lang=nl-NL#filterable-attributes) van producten die in de onderzoeksresultaten zijn teruggekeerd.
 
 [!DNL Live Search] gebruikt de query `productSearch` , die faceting en andere gegevens retourneert die specifiek zijn voor [!DNL Live Search] . Zie [`productSearch` query ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) in de ontwikkelaarsdocumentatie voor codevoorbeelden.
 
@@ -37,8 +37,8 @@ Als u een groot aantal kenmerken hebt om mee te werken, kunt u overwegen kenmerk
 
 | Instelling | Beschrijving |
 |--- |--- |
-| [ de vertoningsmontages van de Categorie ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html) | Anker - `Yes` |
-| [ eigenschappen van Attributen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) | [ het type van Invoer van de Catalogus ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html) - `Yes/No`, `Dropdown`, `Multiple Select`, `Price`, `Visual swatch` (widget slechts), `Text swatch` (widget slechts) |
+| [ de vertoningsmontages van de Categorie ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html?lang=nl-NL) | Anker - `Yes` |
+| [ eigenschappen van Attributen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=nl-NL) | [ het type van Invoer van de Catalogus ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html?lang=nl-NL) - `Yes/No`, `Dropdown`, `Multiple Select`, `Price`, `Visual swatch` (widget slechts), `Text swatch` (widget slechts) |
 | Eigenschappen van kenmerkarchief | Gebruiken in gelaagde navigatie met zoekresultaten - `Yes` |
 
 ## Facetaggregatie
@@ -51,7 +51,7 @@ Facetsamenvoeging wordt als volgt uitgevoerd: als de winkel drie facetten (categ
 
 ## Standaardkenmerkwaarden
 
-De volgende productkenmerken hebben [ storefront eigenschappen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) die door [!DNL Live Search] worden gebruikt en door gebrek worden toegelaten.
+De volgende productkenmerken hebben [ storefront eigenschappen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=nl-NL) die door [!DNL Live Search] worden gebruikt en door gebrek worden toegelaten.
 
 | Eigenschap | Storefront, eigenschap | Kenmerk |
 |---|---|---|

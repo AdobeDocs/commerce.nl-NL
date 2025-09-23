@@ -104,7 +104,7 @@ Om meer groei te verwerven, is uw doel meer nieuwe klanten aan te trekken en aan
 
 - **gegevens van de het onderzoeksprestaties van de Hefboomhefboomwerking**: Gebruik het [ onderzoek prestaties ](../manage-results/search-performance.md) rapport om trending producten en populaire onderzoekstermijnen te identificeren. Maak handelsregels om deze items te markeren.
 
-- **optimaliseer aanbevelingsprestaties**: De prestaties van de aanbeveling van de monitor [ ](../manage-results/recommendation-performance.md) metriek om te identificeren welke aanbevelingstypes het meeste verkeer en omzettingen drijven.
+- **optimaliseer aanbevelingsprestaties**: De prestaties van de aanbeveling van de monitor [&#128279;](../manage-results/recommendation-performance.md) metriek om te identificeren welke aanbevelingstypes het meeste verkeer en omzettingen drijven.
 
 - **benadruk nieuwe en promotionele punten**: De regels van het gebruik van de koophandel om nieuwe producten of promotiepunten in onderzoeksresultaten op te voeren om aandacht van nieuwe bezoekers aan te trekken.
 

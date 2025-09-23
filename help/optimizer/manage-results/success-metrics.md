@@ -1,7 +1,7 @@
 ---
 title: Succeswaarden
 description: De metriek van het succes verstrekt insight in de belangrijkste prestatiesmetriek voor uw  [!DNL Adobe Commerce Optimizer]  opslag.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 7202a531-fec3-4698-89b9-6bdbcc37015e
 source-git-commit: 497f5e887d987435d57a340ef16fcfa561edc545
 workflow-type: tm+mt

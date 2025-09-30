@@ -5,7 +5,7 @@ seo-title: Services for Adobe Commerce
 seo-description: Access the product documentation for hosted services that help Adobe Commerce merchants support key components of their business.
 recommendations: noCatalog
 exl-id: 507af1fa-9f3e-41bc-9aaf-cd89839aae0b
-source-git-commit: e761e54e7bd7997f3f40b1dfc1293012931111b0
+source-git-commit: 8a80f803607e15163d3f75d93727a304917ef4d6
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -117,7 +117,7 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
       </a>
       <div>
          <a href="../data-connection/overview.md">
-         <strong>[!DNL Data Connection]</strong> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op Cloud projecten (Adobe-Beheerde infrastructuur PaaS) en op-gebouw slechts projecten."}
+         <strong>[!DNL Data Connection]</strong> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op Cloud projecten (Adobe-Beheerde infrastructuur PaaS) en op-gebouw slechts projecten."}
          </a>
       </div>
       <p>
@@ -130,7 +130,7 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
       </a>
       <div>
           <a href="../landing/saas.md">
-         <strong> Verbinding van de Diensten van Commerce </strong> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
+         <strong> Verbinding van de Diensten van Commerce </strong> [!BADGE PaaS slechts] {type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}
          </a>
       </div>
       <p>
@@ -184,11 +184,11 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
       <img alt="Gegevenssynchronisatie controleren" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard" target="_blank">
          <strong> Dashboard van het Beheer van Gegevens </strong>
          </a>
       </div>
@@ -204,4 +204,4 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
 
 {{$include /help/_includes/templated/whats-new.md}}
 
-<!-- Last updated from includes: 2025-09-08 14:32:40 -->
+<!-- Last updated from includes: 2025-09-26 20:42:12 -->

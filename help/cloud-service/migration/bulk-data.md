@@ -1,12 +1,12 @@
 ---
 title: Bulkgegevensmigratie
 description: Leer hoe u het Bulk-hulpprogramma voor gegevensmigratie kunt gebruiken om gegevens van uw bestaande Adobe Commerce op Cloud-instantie te migreren naar  [!DNL Adobe Commerce as a Cloud Service] .
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Architect
 exl-id: 81522de9-df54-4651-b8ed-58956376af86
-source-git-commit: 131d3bdb7e6ef2622236ddf08f306639396d6ffa
+source-git-commit: 6396bc5f4b265e2e13328ec1af3b72c0e8e15c9a
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ In de volgende secties worden deze stappen gedetailleerd beschreven.
 
 De beschikbaarheid van het bulkgegevensmigratiehulpmiddel is als volgt:
 
-- **Q4 2025** - om tot het bulkhulpmiddel van de gegevensmigratie toegang te hebben, leg een steunkaartje voor.
-- **Q4 2025** - het bulkhulpmiddel van de gegevensmigratie zal openbaar beschikbaar zijn en zal van deze pagina toegankelijk zijn.
+- **Q4 2025** (nog niet beschikbaar) - na de aanvankelijke versie van het bulkhulpmiddel van de gegevensmigratie, zult u tot het kunnen toegang hebben door een steunkaartje voor te leggen.
+- **Q4 2025** (nog niet beschikbaar) - na de openbare versie van het bulkhulpmiddel van de gegevensmigratie, zal het van deze pagina toegankelijk zijn.
 
 ## Doelomgeving maken
 

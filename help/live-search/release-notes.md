@@ -3,9 +3,9 @@ title: '[!DNL Live Search] Opmerkingen bij de release'
 description: De recentste versieinformatie voor  [!DNL Live Search]  van Adobe Commerce.
 feature: Services, Search, Release Notes
 exl-id: 099cf79c-968c-4381-b66d-7f6141ad2db3
-source-git-commit: ac1f3497292cc586810eb44a408f7d4d7088a96d
+source-git-commit: 6b74580a3135322f222b8cfa5c51277a34e6bb83
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2589'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Updates zijn:
 
 Deze nota&#39;s beschrijven updates die buiten een versioned versie of verbeteringen aan de ontvangen dienst werden gepubliceerd.
 
+_1 Oktober, 2025_
+
+![ Nieuwe ](../assets/new.svg) Toegevoegde nieuwe genoemde sleutel van de gegevensopslag `ds-logged-in` voor klant het programma geopende gegevens.
+
 _29 April, 2025_
 
 ![ bevond ](../assets/fix.svg) Vast een kwestie waar de **Uitvoer naar CSV** rapport over het [**Prestaties**](./performance.md) lusje niet alle gegevens omvatte die in de datumwaaier werden gespecificeerd.
@@ -41,7 +45,7 @@ _3 April, 2025_
 
 _Februari 20, 2025_
 
-![ Nieuwe ](../assets/new.svg) Commerce steunt synoniemen van meerdere woorden. [ leer meer ](synonyms-type.md#multi-word-synonym-behavior). Ondersteuning voor synoniemen met meerdere woorden is alleen beschikbaar na deze releasedatum van 20 februari. Om het even welke bestaande synoniemen van meerdere woorden vereisen een volledige herdex om te werken, die u kunt verzoeken door [ tot een steunkaartje ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) te leiden.
+![ Nieuwe ](../assets/new.svg) Commerce steunt synoniemen van meerdere woorden. [ leer meer ](synonyms-type.md#multi-word-synonym-behavior). Ondersteuning voor synoniemen met meerdere woorden is alleen beschikbaar na deze releasedatum van 20 februari. Om het even welke bestaande synoniemen van meerdere woorden vereisen een volledige herdex om te werken, die u kunt verzoeken door [ tot een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) te leiden.
 
 _Januari 31, 2025_
 
@@ -98,7 +102,7 @@ _27 oktober, 2023_
 
 _5 September, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg) Levend Onderzoek respecteert nu volledig [ wijze van de koekjesbeperking ](install.md#cookies) door gegevensinzameling en opslag in koekjes/lokale opslag te verhinderen wanneer de beperkingen worden toegelaten.
 
@@ -106,15 +110,15 @@ _5 September, 2025_
 
 _Augustus 11, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
-![ Vaste het diensteindpunt van de catalogusdienst van 0&rbrace; herstellen &lbrace;voor zandbakmilieu&#39;s.](../assets/fix.svg)
+![ Vaste het diensteindpunt van de catalogusdienst van 0} herstellen {voor zandbakmilieu&#39;s.](../assets/fix.svg)
 
 ## [!DNL Live Search] 4.4.0
 
 _14 juli 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg) verhoogde de [ prijs groeperende ](./settings.md#price-faceting) grens van 50 tot 100.
 
@@ -122,7 +126,7 @@ _14 juli 2025_
 
 _Maart 11, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Repareren ](../assets/fix.svg) [!DNL Live Search] steunt nu PHP 8.4 voor installaties die Adobe Commerce 2.4.8-beta2 in werking stellen.
 ![ bevestig ](../assets/fix.svg) een kwestie waar de Adapter van het Onderzoek niet compatibel met `psr/http-message:2.0` was.
@@ -131,7 +135,7 @@ _Maart 11, 2025_
 
 _13 Februari, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ bevestig ](../assets/fix.svg) een kwestie waar de pagina van het ordendetail het orderaantal, de datum, en de **[!UICONTROL Reorder]** knoop mist.
 
@@ -139,7 +143,7 @@ _13 Februari, 2025_
 
 _6 Januari, 2025_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ bevestig ](../assets/fix.svg) een kwestie die een fout met de `categoryList` vraag GraphqL op Adobe Commerce versie 2.4.5 en vroeger veroorzaakte.
 
@@ -147,7 +151,7 @@ _6 Januari, 2025_
 
 _31 Juli, 2024_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ bevestig ](../assets/fix.svg) een kwestie waar bepaalde manuscripten niet op de controlepagina laadden.
 ![ bevestig ](../assets/fix.svg) een gebiedsdeelversie in het `composer.json` dossier.
@@ -156,7 +160,7 @@ _31 Juli, 2024_
 
 _31 Mei, 2024_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg) Bijgewerkte Levende uitbreiding van het Onderzoek om PLP widgets versie 2.0.0 te gebruiken.
 
@@ -164,7 +168,7 @@ _31 Mei, 2024_
 
 _Mei 16, 2024_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ### Updates
 
@@ -174,7 +178,7 @@ _Mei 16, 2024_
 
 _Maart 19, 2024_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ### Nieuwe functies
 
@@ -185,11 +189,11 @@ _Maart 19, 2024_
 
 _22 Februari, 2024_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ### Nieuwe functies
 
-![ Nieuw ](../assets/new.svg) [[!DNL Data Management Dashboard] ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-dashboard) is nu beschikbaar. Dit vernieuwde dashboard biedt inzichten in gegevensstromen voor [!DNL Product Recommendations] , [!DNL Live Search] en [!DNL Catalog Service] .
+![ Nieuw ](../assets/new.svg) [[!DNL Data Management Dashboard] ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard) is nu beschikbaar. Dit vernieuwde dashboard biedt inzichten in gegevensstromen voor [!DNL Product Recommendations] , [!DNL Live Search] en [!DNL Catalog Service] .
 
 ### Updates
 
@@ -201,7 +205,7 @@ _22 Februari, 2024_
 
 _13 November, 2023_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ### Nieuwe functies
 
@@ -216,7 +220,7 @@ _13 November, 2023_
 ![ bevestig ](../assets/fix.svg) De [!DNL Live Search] PLP widget wordt nu toegelaten door gebrek voor nieuwe installaties.
 ![ bevestig ](../assets/fix.svg) de Adapter van het Onderzoek wordt afgekeurd. In de toekomst wordt de zoekadapter alleen bijgewerkt om beveiligingsproblemen te verhelpen.
 ![ bevestig ](../assets/fix.svg) opnieuw gevormde CSS stijlen om widgetklassen beter te isoleren.
-![ Kleine insectenmoeilijke situaties van 0&rbrace; herstellen](../assets/fix.svg)
+![ Kleine insectenmoeilijke situaties van 0} herstellen](../assets/fix.svg)
 
 Nadat u versie 3.1.1 of hoger hebt geïnstalleerd, schakelt u de nieuwe indexen in:
 
@@ -232,7 +236,7 @@ Na bevordering, test de bijgewerkte configuratie in QA of het Opvoeren alvorens 
 
 _15 September, 2023_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuwe ](../assets/new.svg) Nieuwe het Merchandising tabel van de Categorie is toegevoegd. Gebruikers kunnen nu intelligente waarderingen en handmatige waarderingen (speld, boost, bury, hide) per categorie toevoegen
 ![ Nieuwe ](../assets/new.svg) Gebruikers kunnen één enkele categorieregel met intelligente of handboek toevoegen rangschikking
@@ -261,7 +265,7 @@ _15 September, 2023_
 
 _September 1, 2023_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 #### Updates
 
@@ -271,7 +275,7 @@ _September 1, 2023_
 
 _7 Augustus, 2023_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 #### Nieuwe functies
 
@@ -285,8 +289,8 @@ _7 Augustus, 2023_
 
 #### Updates
 
-![&#128279;](../assets/fix.svg) de modules van de Dienst van de Catalogus van 0&rbrace; herstellen &lbrace;zijn toegevoegd aan het metapakket om geavanceerde gegevensherwinning te steunen.
-
+![ de modules van de Dienst van de Catalogus van 0} herstellen {zijn toegevoegd aan het metapakket om geavanceerde gegevensherwinning te steunen.
+](../assets/fix.svg)
 ![ bevestig ](../assets/fix.svg) **Mijn de paginanavigatie van de Rekening** niet meer verdwijnt wanneer het gebruiken van de Van de lijst van het Product widget van de Pagina.
 
 Handelaars moeten de extensieversie van [!DNL Live Search] >= 3.0.2 upgraden om toegang te krijgen tot deze functies.
@@ -301,12 +305,12 @@ Google Tag Manager mislukt als u de widget pagina met aanbiedingen van producten
 
 _Maart 14, 2023_
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 #### Nieuwe functies
 
 ![ Nieuwe ](../assets/new.svg) Kaart van het Punt van het Product in de voorproef van Regels
-![ Nieuwe ](../assets/new.svg) [ Van het Product het Van een lijst weergeven widget van de Pagina ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-storefront/plp-styling)
+![ Nieuwe ](../assets/new.svg) [ Van het Product het Van een lijst weergeven widget van de Pagina ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling)
 ![ Nieuwe ](../assets/new.svg) [ Categorie het filtreren opties ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#facets)
 ![ Nieuw ](../assets/new.svg) voegde de capaciteit toe om te slepen en te laten vallen om de gebeurtenissen van de Speld tot stand te brengen
 ![ Nieuwe ](../assets/new.svg) Nieuwe Vastzetten acties:
@@ -314,8 +318,8 @@ _Maart 14, 2023_
 - Aan bovenkant vastzetten - Plaatst product op de eerste positie
 - Vastzetten aan onderzijde - Plaatst het product onder aan de resultaten
 - Een gebeurtenis met één klik vrijmaken
-![ Nieuw ](../assets/new.svg) [ Intelligente Rangschikking voor regels ](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/rules/rules-add)
-![ Nieuw ](../assets/new.svg) [!DNL Live Search] steunt nu volledige [ mogelijkheden van Inventory management &lbrace;in Commerce (vroeger weet als Voorraad Multi-Source, of MSI). ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/introduction) Om volledige steun toe te laten, moet u [ de gebiedsdeelmodule ](install.md#update) aan versie 102.2.0+ bijwerken.`commerce-data-export`
+![ Nieuw ](../assets/new.svg) [ Intelligente Rangschikking voor regels ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add)
+![ Nieuw ](../assets/new.svg) [!DNL Live Search] steunt nu volledige [ mogelijkheden van Inventory management {in Commerce (vroeger weet als Voorraad Multi-Source, of MSI). ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) Om volledige steun toe te laten, moet u [ de gebiedsdeelmodule ](install.md#update) aan versie 102.2.0+ bijwerken.`commerce-data-export`
 
 #### Updates
 
@@ -342,7 +346,7 @@ U wordt aangeraden een upgrade uit te voeren en te testen voordat u naar de prod
 
 ### [!DNL Live Search] 2.0.5
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Repareren ](../assets/fix.svg) - Levend Onderzoek zou een fout werpen wanneer de middelen van SDK niet beschikbaar wegens netwerkkwesties waren. Deze fout is opgelost.
 
@@ -352,7 +356,7 @@ U wordt aangeraden een upgrade uit te voeren en te testen voordat u naar de prod
 
 ### [!DNL Live Search] 2.0.4
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg) Levend Onderzoek steunt nu het filtreren door de &quot;Vertoning uit Producten van het Voorraad&quot;het plaatsen in admin. Als &#39;Weergave van producten uit voorraad&#39; is ingesteld op false, wordt `inStock = true` toegevoegd aan het filter.
 ![ Repareren ](../assets/fix.svg) om prestaties te verbeteren, is het &quot;Suggestions&quot;blok verwijderd uit Live Onderzoek popup. De gegevens worden nog steeds doorgegeven via GraphQL, voor het geval u de functie wilt vervangen.
@@ -366,7 +370,7 @@ De gebruikers worden geadviseerd om te bevorderen en te testen alvorens aan prod
 
 ### [!DNL Live Search] 2.0.3
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 ![ Nieuw ](../assets/new.svg) Levend Onderzoek steunt nu eigenschappen B2B door categorietoestemmingen, gedeelde catalogi, en klantgroep-specifieke tarifering te erkennen.
 
@@ -376,7 +380,7 @@ De gebruikers worden geadviseerd om te bevorderen en te testen alvorens aan prod
 
 ### [!DNL Live Search] 2.0
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
 Bestaande [!DNL Live Search] -installaties moeten worden bijgewerkt naar [!DNL Live Search] 2.0.0 om te kunnen profiteren van de volgende nieuwe functies, oplossingen en verbeteringen:
 
@@ -385,34 +389,34 @@ Bestaande [!DNL Live Search] -installaties moeten worden bijgewerkt naar [!DNL L
 ![ Nieuw ](../assets/new.svg) Het aantal beschikbare lijnen in [[!DNL storefront popover]](overview.md) kan van *Admin* worden gevormd.
 ![ Nieuwe ](../assets/new.svg) Beta [ PWA ](https://developer.adobe.com/commerce/pwa-studio/) gesteund voor [!DNL Live Search].
 ![ Nieuw ](../assets/new.svg) het [!DNL Live Search] installatieproces wordt bijgewerkt met geavanceerde procesveranderingen.
-![ herstellen ](../assets/fix.svg) [ verwijderde verbinding van het Geavanceerd Onderzoek ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search) &lbrace;van storefront footer.
+![ herstellen ](../assets/fix.svg) [ verwijderde verbinding van het Geavanceerd Onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) {van storefront footer.
 ![ Bug ](../assets/bug.svg) de volgende productattributen worden niet gesteund door [ Commerce GraphQL API ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) wanneer gebruikt met betrekking tot de bètaversie van PWA: `description`, `name`, `short_description`
 ![ Bug ](../assets/bug.svg) De bètaversie van PWA voor [!DNL Live Search] steunt [ gebeurtenis behandeling ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/) niet.
 
 ### [!DNL Live Search] 1.3.1
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
-![ herstellen ](../assets/fix.svg) [ keert de prijsattributen van de Douane niet meer een fout terug wanneer gevormd als a ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types) facet [&#128279;](facets-add.md).
-
-![ bevestig ](../assets/fix.svg) Vaste kwestie die een fout veroorzaakte om voor te komen wanneer geen [ muntsymbool ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration#step-5-customize-currency-symbols-optional) (`data-currency-symbol`) beschikbaar is.
-![ Repareren ](../assets/fix.svg) [[!DNL Storefront popover]](storefront-popover.md) toont nu de [ Speciale Prijs ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/pricing/product-price-special) (minimumdefinitieve prijs) wanneer beschikbaar.
+![ herstellen ](../assets/fix.svg) [ keert de prijsattributen van de Douane niet meer een fout terug wanneer gevormd als a ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types) facet [.
+](facets-add.md)
+![ bevestig ](../assets/fix.svg) Vaste kwestie die een fout veroorzaakte om voor te komen wanneer geen [ muntsymbool ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration#step-5-customize-currency-symbols-optional) (`data-currency-symbol`) beschikbaar is.
+![ Repareren ](../assets/fix.svg) [[!DNL Storefront popover]](storefront-popover.md) toont nu de [ Speciale Prijs ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-special) (minimumdefinitieve prijs) wanneer beschikbaar.
 
 ### [!DNL Live Search] 1.3.0
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
 ![ Nieuwe ](../assets/new.svg) [ Prestaties ](performance.md) rapporterend dashboard verstrekt insight in onderzoekstermijnen die de kopers gebruiken.
 ![ Nieuwe ](../assets/new.svg) [!DNL Live Search] [ Gebeurtenissen Storefront SDK ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/) verleent toegang tot een gemeenschappelijke gegevenslaag met gebeurtenis het publiceren en de abonnementsdiensten, en metriek.
 ![ Repareren ](../assets/fix.svg) [[!DNL Storefront popover]](storefront-popover.md) heeft een nieuwe `active` klasse voor de `.search-autocomplete` container die zicht controleert.
-![ Repareren ](../assets/fix.svg) in de storefront, wordt de [ 3&rbrace; voettekstverbinding van de Termen van het Onderzoek &lbrace;verwijderd en zijn geheim voorgeheugen onbruikbaar gemaakt voor ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-terms) installaties.
+![ Repareren ](../assets/fix.svg) in de storefront, wordt de [ 3} voettekstverbinding van de Termen van het Onderzoek {verwijderd en zijn geheim voorgeheugen onbruikbaar gemaakt voor ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms) installaties.
 [!DNL Live Search]
 ![ Bug ](../assets/bug.svg) Reparatie voor de handvatten van de Adapter van het Onderzoek dubbele producten.
-![ Bug ](../assets/bug.svg) [!DNL Live Search] steunt [ enig-bron ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/sources/sources-manage) (fysieke) inventarisplaatsen met veelvoudige (virtuele) [ voorraden ](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/stocks/stocks-manage). Meerdere inventarisbronnen worden nu niet ondersteund.
+![ Bug ](../assets/bug.svg) [!DNL Live Search] steunt [ enig-bron ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/sources/sources-manage) (fysieke) inventarisplaatsen met veelvoudige (virtuele) [ voorraden ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage). Meerdere inventarisbronnen worden nu niet ondersteund.
 
 ### [!DNL Live Search] 1.2.0
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
 ![ Nieuwe ](../assets/new.svg) [[!DNL Storefront popover]](storefront-popover.md) vertoningen gesuggereerde producten en duimnagelbeelden van hoogste onderzoeksresultaten als kopers typekeuringen in het vakje van het Onderzoek.
 ![ Nieuwe ](../assets/new.svg) Commerce *Admin* zittingsverblijven open tijdens uitgebreide periodes van toetsenbordinactiviteit
@@ -425,10 +429,10 @@ Bestaande [!DNL Live Search] -installaties moeten worden bijgewerkt naar [!DNL L
 
 ### [!DNL Live Search] 1.1.0
 
-[!BADGE &#x200B; Ondersteunde &#x200B;]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
+[!BADGE  Ondersteunde ]{type="Informative" tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
-![ Bug ](../assets/bug.svg) de [!DNL Live Search] dienst steunt slechts de [ basismunt ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration) van de installatie van Adobe Commerce.
-![ Bug ](../assets/bug.svg) wanneer het toevoegen van een facet, werkt het Diervoer van de Attributen van het Product niet correct bij wanneer reeks aan `Update on Save`. Om dit probleem te vermijden, ga naar [ het Beheer van de Index ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) en plaats de Diersoort van de Attributen van het Product aan `Update by Schedule`.
+![ Bug ](../assets/bug.svg) de [!DNL Live Search] dienst steunt slechts de [ basismunt ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration) van de installatie van Adobe Commerce.
+![ Bug ](../assets/bug.svg) wanneer het toevoegen van een facet, werkt het Diervoer van de Attributen van het Product niet correct bij wanneer reeks aan `Update on Save`. Om dit probleem te vermijden, ga naar [ het Beheer van de Index ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) en plaats de Diersoort van de Attributen van het Product aan `Update by Schedule`.
 ![ Bug ](../assets/bug.svg) [!DNL Live Search] synoniemen worden bepaald per opslagmening, maar momenteel opgeslagen per website en geïdentificeerd met een combinatie van `environmentId` en `storeViewCode`. Dit heeft tot gevolg dat alle websites en winkelweergaven in de Adobe Commerce-installatie synoniemen delen. De meest recente reeks synoniemen voor de archiefmening krijgt belangrijkheid.
 ![ Bug ](../assets/bug.svg) als een synoniem termijn veelvoudige woorden bevat, wordt elk woord behandeld als afzonderlijk synoniem. Als u bijvoorbeeld &#39;tijdstuk&#39; definieert als een synoniem van &#39;watch&#39;, worden zowel &#39;time&#39; als &#39;piece&#39; beschouwd als synoniemen van &#39;watch&#39;.
 
@@ -439,5 +443,5 @@ Bestaande [!DNL Live Search] -installaties moeten worden bijgewerkt naar [!DNL L
 Meer informatie:
 
 - [ de Documentatie van de Ontwikkelaar van Adobe Commerce ](https://developer.adobe.com/commerce/docs)
-- [ de Gids van de Gebruiker van Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce)
+- [ de Gids van de Gebruiker van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce)
 - [[!DNL Live Search]  op Marketplace ](https://commercemarketplace.adobe.com/magento-live-search.html)

@@ -2,11 +2,11 @@
 title: Gebruikersbeheer
 description: Leer hoe te om gebruikers in  [!DNL Adobe Commerce as a Cloud Service] te beheren.
 exl-id: 9bc80fe6-6dfd-4bb3-8dc5-d5efd8a8d90c
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Admin
-source-git-commit: 492a22cd1fd8a63d3f4e55a3ddb81621439b624b
+source-git-commit: 00d31ca7e4e81ecbc34373ce95b1256a7ae012db
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Voor dit proces is een IMS-organisatie met toegang tot [!DNL Adobe Commerce as a
 
 >[!TIP]
 >
->Om veelvoudige gebruikers gelijktijdig toe te voegen, kunt u a [ bulkupload CSV ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html){target="_blank"} uitvoeren.
+>Om veelvoudige gebruikers gelijktijdig toe te voegen, kunt u a [ bulkupload CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"} uitvoeren.
 > 
-> U kunt veelvoudige gebruikers aan een rol ook toevoegen door a [ gebruikersgroep ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html){target="_blank"} te creëren. Dan kunt u [!UICONTROL **Adobe Commerce toevoegen - de Manager van Commerce Cloud**] product aan de gebruikersgroep.
+> U kunt veelvoudige gebruikers aan een rol ook toevoegen door a [ gebruikersgroep ](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} te creëren. Dan kunt u [!UICONTROL **Adobe Commerce toevoegen - de Manager van Commerce Cloud**] product aan de gebruikersgroep.
 
 ## Rollen begrijpen
 
@@ -29,16 +29,24 @@ De volgende rollen zijn beschikbaar voor [!DNL Adobe Commerce as a Cloud Service
 
 * **Gebruikers** - de gebruikers hebben toegang Admin tot Commerce Admin, maar kunnen toegang op productniveau in Admin Console niet beheren. De gebruikers kunnen credits ook gebruiken om [ instanties ](./getting-started.md#create-an-instance) in [!DNL Commerce Cloud Manager] tot stand te brengen.
 
-* [**&#x200B;** de Ontwikkelaars van 0&rbrace; Ontwikkelaars &lbrace;hebben gebruikerstoestemmingen en aan de instantie van Commerce als ontwikkelaarsgebruiker toegevoegd. ](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} Dit betekent zij kunnen [ Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"} gebruiken, [ gebeurtenissen ](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} vormen, en [ Webhooks ](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"} creëren.
+  >[!NOTE]
+  >
+  >Alle Commerce-gebruikers, inclusief ontwikkelaars en beheerders, moeten ook de gebruikersrol hebben die aan hen is toegewezen. Dit is vereist voor Commerce-standaardmachtigingen.
+
+* [**** de Ontwikkelaars van 0} Ontwikkelaars {hebben gebruikerstoestemmingen en aan de instantie van Commerce als ontwikkelaarsgebruiker toegevoegd. ](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} Dit betekent zij kunnen [ Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/){target="_blank"} gebruiken, [ gebeurtenissen ](https://developer.adobe.com/commerce/extensibility/events/){target="_blank"} vormen, en [ Webhooks ](https://developer.adobe.com/commerce/extensibility/webhooks/){target="_blank"} creëren.
 
 * Beheerders - Er zijn drie verschillende typen beheerders:
-   * [ beheerders van het Systeem ](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html){target="_blank"} - het systeemadmin heeft toegang tot alle producten en productprofielen in de organisatie door Admin Console.
-   * [ Admins van het Product ](#add-a-product-admin) - de beheerders van het Product kunnen [ gebruikers, rollen, en toestemmingen voor het product ](#add-users-and-admins) in [!DNL Adobe Admin Console] beheren en [ gebruikers in Commerce beheren Admin ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}.
-   * [ het profielbeheerders van het Product ](#add-users-developers-and-product-profile-admins) - de profielbeheerders van het Product hebben geen toegang tot Adobe Commerce Admin, maar kunnen gebruikers voor het product in [!DNL Adobe Admin Console] beheren.
+   * [ beheerders van het Systeem ](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - het systeemadmin heeft toegang tot alle producten en productprofielen in de organisatie door Admin Console.
+   * [ Admins van het Product ](#add-a-product-admin) - de beheerders van het Product kunnen [ gebruikers, rollen, en toestemmingen voor het product ](#add-users) in [!DNL Adobe Admin Console] beheren en [ gebruikers in Commerce beheren Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-users-all#create-a-user){target="_blank"}.
+   * [ het profielbeheerders van het Product ](#add-developers-and-product-profile-admins) - de profielbeheerders van het Product hebben geen toegang tot Adobe Commerce Admin, maar kunnen gebruikers voor het product in [!DNL Adobe Admin Console] beheren.
 
 Voor gedetailleerde informatie over de toestemmingen die aan elke rol binnen Adobe Commerce worden verleend, verwijs naar [ gebruikerstoestemmingen ](#user-permissions).
 
 ## Een productbeheerder toevoegen
+
+>[!NOTE]
+>
+>Wijs product toe beheert de [ rol van de Gebruiker ](#add-users) alvorens hen als productbeheerders toe te voegen. De gebruikersrol is vereist voor eenvoudige Commerce-machtigingen.
 
 1. Ga naar https://adminconsole.adobe.com en meld u aan met uw Adobe ID.
 
@@ -54,9 +62,9 @@ Voor gedetailleerde informatie over de toestemmingen die aan elke rol binnen Ado
 
 1. Ga de gebruikersbenaming of e-mailadres van de gebruikers in u als beheerders wilt toevoegen en [!UICONTROL **sparen**] klikken.
 
-## Gebruikers, ontwikkelaars en beheerders van productprofielen toevoegen
+## Gebruikers toevoegen
 
-De volgende instructies geven informatie over het toevoegen van gebruikers en ontwikkelaars aan de [!DNL Commerce Cloud Manager] en Commerce Admin. Met de interface van [!DNL Commerce Cloud Manager] kunt u Commerce-instanties maken en beheren.
+De volgende instructies geven informatie over het toevoegen van gebruikers aan de [!DNL Commerce Cloud Manager] en de Commerce Admin. Met de interface van [!DNL Commerce Cloud Manager] kunt u Commerce-instanties maken en beheren. Dit proces is vereist voor alle gebruikers, inclusief ontwikkelaars en beheerders.
 
 >[!NOTE]
 >
@@ -72,15 +80,23 @@ De volgende instructies geven informatie over het toevoegen van gebruikers en on
 
 1. Klik het [!UICONTROL **Gebrek - het productprofiel van Cloud Manager**].
 
-1. Selecteer de [!UICONTROL **Gebruikers**], [!UICONTROL **Ontwikkelaars**], of [!UICONTROL **Admins**] lusje en klik [!UICONTROL **voegt Gebruikers**] toe of [!UICONTROL **voegt Ontwikkelaars**] toe of [!UICONTROL **voegt Admins**] toe.
-
-   >[!NOTE]
-   >
-   >Admins die van dit scherm worden toegevoegd zijn [ productprofielbeheerders ](#understanding-roles) en hebben geen toegang tot Commerce Admin.
+1. Selecteer het [!UICONTROL **lusje van Gebruikers**] en klik [!UICONTROL **toevoegen Gebruikers**].
 
    ![ uitgezochte lusje ](./assets/tab-select.png){width=600 zoomable="yes"}
 
 1. Ga de gebruikersbenaming of e-mailadres van de gebruikers in u als beheerders wilt toevoegen en [!UICONTROL **sparen**] klikken.
+
+### Ontwikkelaars en beheerders van productprofielen toevoegen
+
+Om ontwikkelaars en productprofielbeheerders toe te voegen, herhaal [ gebruikers ](#add-users) proces toevoegen, maar selecteer [!UICONTROL **Ontwikkelaars**] of [!UICONTROL **Admins**] lusje in plaats van het [!UICONTROL **Gebruikers**] lusje.
+
+>[!NOTE]
+>
+>Beheerders van productprofielen hebben geen toegang tot de Commerce-beheerder. Verwijs naar [ Begrijpend rollen ](#understanding-roles) voor meer informatie.
+>
+>Wijs ontwikkelaars de rol van de Gebruiker toe alvorens hen als ontwikkelaars toe te voegen. De gebruikersrol is vereist voor eenvoudige Commerce-machtigingen.
+
+![ uitgezochte lusje ](./assets/tab-select.png){width=600 zoomable="yes"}
 
 ## Rolresources
 
@@ -141,17 +157,17 @@ Beheerders hebben toegang tot alle machtigingen.
 
 De volgende instellingen zijn vereist voor [!DNL Adobe Experience Manager Assets] - en [!DNL Product Visuals powered by AEM Assets] -gebruikers.
 
-Als uw rekening toegang tot [ Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service) heeft en u een gebruiker wilt toestaan om tot de geavanceerde eigenschappen van [ AEM Assets ](https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/overview){target="_blank"} samen met [!DNL Adobe Commerce as a Cloud Service] toegang te hebben, gebruik het volgende proces:
+Als uw rekening toegang tot [ Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) heeft en u een gebruiker wilt toestaan om tot de geavanceerde eigenschappen van [ AEM Assets ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/overview){target="_blank"} samen met [!DNL Adobe Commerce as a Cloud Service] toegang te hebben, gebruik het volgende proces:
 
 >[!NOTE]
 >
->De gebruikers zonder aangewezen activa toestemmingen zullen tot geavanceerde eigenschappen van [!DNL AEM Assets], zoals [ AI beeldgeneratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem){target="_blank"}, [ geproduceerde variaties ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor){target="_blank"} en meer niet kunnen toegang hebben.
+>De gebruikers zonder aangewezen activa toestemmingen zullen tot geavanceerde eigenschappen van [!DNL AEM Assets], zoals [ AI beeldgeneratie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem){target="_blank"}, [ geproduceerde variaties ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor){target="_blank"} en meer niet kunnen toegang hebben.
 
 >[!TIP]
 >
->Om veelvoudige gebruikers gelijktijdig toe te voegen, kunt u a [ bulkupload CSV ](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html){target="_blank"} uitvoeren.
+>Om veelvoudige gebruikers gelijktijdig toe te voegen, kunt u a [ bulkupload CSV ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"} uitvoeren.
 >
->U kunt veelvoudige gebruikers aan een rol ook toevoegen door a [ gebruikersgroep ](https://helpx.adobe.com/nl/enterprise/using/user-groups.html){target="_blank"} te creëren. Dan kunt u [!UICONTROL **Adobe Experience Manager as a Cloud Service toevoegen - Cloud Manager**] product aan de gebruikersgroep.
+>U kunt veelvoudige gebruikers aan een rol ook toevoegen door a [ gebruikersgroep ](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} te creëren. Dan kunt u [!UICONTROL **Adobe Experience Manager as a Cloud Service toevoegen - Cloud Manager**] product aan de gebruikersgroep.
 
 1. Ga naar https://adminconsole.adobe.com en meld u aan met uw Adobe ID.
 
@@ -178,7 +194,7 @@ Als uw rekening toegang tot [ Adobe Experience Manager as a Cloud Service ](http
 
    >[!NOTE]
    >
-   >Voor meer informatie over hoe deze toestemmingen uw toegang tot AEM Assets beïnvloeden, verwijs naar [ Profielen van het Product van Cloud Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles#cloud-manager-product-profiles){target="_blank"}.
+   >Voor meer informatie over hoe deze toestemmingen uw toegang tot AEM Assets beïnvloeden, verwijs naar [ Profielen van het Product van Cloud Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles#cloud-manager-product-profiles){target="_blank"}.
 
 1. Klik [!UICONTROL **toepassen**].
 
@@ -196,15 +212,15 @@ Na het toevoegen van een gebruiker aan AEM Assets, kunnen zij tot de [!DNL Exper
 
 1. Van de [!UICONTROL **Cloud Manager**] pagina, klik [!UICONTROL **voeg Programma**] toe om begonnen te worden.
 
-1. [ creeer een nieuw programma ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/journey/create-program){target="_blank"}.
+1. [ creeer een nieuw programma ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/create-program){target="_blank"}.
 
-1. [ creeer een nieuw milieu ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/screens-as-cloud-service/onboarding-screens-cloud/creating-an-environment){target="_blank"}.
+1. [ creeer een nieuw milieu ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/screens-as-cloud-service/onboarding-screens-cloud/creating-an-environment){target="_blank"}.
 
 1. Na het creëren van het milieu, terugkeer aan [ Admin Console ](https://adminconsole.adobe.com){target="_blank"} en selecteer [!UICONTROL **Adobe Experience Manager as a Cloud Service**].
 
 1. U moet nu nieuwe productprofielen zien. Selecteer die `- author -` bevat. Bijvoorbeeld `<environment-name> - author - <program-id> - <environment-id>` .
 
-1. [ voegt gebruikers aan het productprofiel ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-manager/content/requirements/users-and-roles){target="_blank"} toe.
+1. [ voegt gebruikers aan het productprofiel ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/requirements/users-and-roles){target="_blank"} toe.
 
-* [ vorm AEM Assets om de meta-gegevens van Commerce te steunen ](https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/configure-aem)
-* [ integreer AEM Assets met Commerce voor activasynchronisatie ](https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/setup-synchronization)
+* [ vorm AEM Assets om de meta-gegevens van Commerce te steunen ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aem)
+* [ integreer AEM Assets met Commerce voor activasynchronisatie ](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/setup-synchronization)

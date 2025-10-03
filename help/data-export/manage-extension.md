@@ -3,16 +3,16 @@ title: '[!DNL Manage the Data Export extension]'
 description: Leer hoe te om de  [!DNL Data Export]  uitbreiding te bevorderen en de diensten van de gegevensuitvoer te verwijderen of onbruikbaar te maken die niet worden vereist.
 role: Admin, Developer
 exl-id: 94702995-d272-47b9-9560-198eee3250a6
-source-git-commit: c7a08cabe07ec94e31e9f4c27448ee0862e62cf2
+source-git-commit: ea722d5e427e5bf536b9f2d2322f0dabb2981c77
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # De SaaS-extensie voor gegevensexport beheren
 
-De extensie [!DNL data export] voor SaaS-services is een verzameling modules waarmee gegevens kunnen worden verzameld en gesynchroniseerd tussen Adobe Commerce en verbonden Commerce Services.
+De [[!DNL data export]  uitbreiding ](https://github.com/magento/commerce-data-export) voor de diensten SaaS is een inzameling van modules die gegevensinzameling en synchronisatie tussen Adobe Commerce en de verbonden Diensten van Commerce toelaten.
 
 Specifieke modules zijn opgenomen in de metapakketten voor dergelijke extensies voor Adobe Commerce Services
 als [ Levend Onderzoek ](/help/live-search/overview.md), [ Aanbevelingen van het Product ](/help/product-recommendations/overview.md), en [ de Dienst van de Catalogus ](/help/catalog-service/overview.md). Als u deze diensten gebruikt, wordt geen afzonderlijke installatie vereist om de uitbreiding van de Uitvoer van Gegevens toe te laten.
@@ -36,7 +36,7 @@ U kunt om het even welke geïnstalleerde modules van de de uitvoer van handelsge
 1. Werk de module bij met behulp van Composer vanaf de opdrachtregel:
 
    ```bash
-   composer require magento/commerce-data-export:103.4.11 --with-all-dependencies
+   composer require magento/module-data-exporter:103.0.4 --with-all-dependencies
    ```
 
-Als de Commerce-instantie wordt geïmplementeerd op de Cloud-infrastructuur, werkt u de extensie bij vanuit de cloud-projectmap. Zie [ Verbetering een uitbreiding ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension) in _Adobe Commerce op de Gids van de Infrastructuur van de Wolk_.
+Als de Commerce-instantie wordt geïmplementeerd op de Cloud-infrastructuur, werkt u de extensie bij vanuit de cloud-projectmap. Zie [ Verbetering een uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension) in _Adobe Commerce op de Gids van de Infrastructuur van de Wolk_.

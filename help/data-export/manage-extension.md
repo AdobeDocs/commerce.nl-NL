@@ -12,16 +12,16 @@ ht-degree: 0%
 
 # De SaaS-extensie voor gegevensexport beheren
 
-De [[!DNL data export]  uitbreiding ](https://github.com/magento/commerce-data-export) voor de diensten SaaS is een inzameling van modules die gegevensinzameling en synchronisatie tussen Adobe Commerce en de verbonden Diensten van Commerce toelaten.
+De [[!DNL data export]  uitbreiding &#x200B;](https://github.com/magento/commerce-data-export) voor de diensten SaaS is een inzameling van modules die gegevensinzameling en synchronisatie tussen Adobe Commerce en de verbonden Diensten van Commerce toelaten.
 
 Specifieke modules zijn opgenomen in de metapakketten voor dergelijke extensies voor Adobe Commerce Services
-als [ Levend Onderzoek ](/help/live-search/overview.md), [ Aanbevelingen van het Product ](/help/product-recommendations/overview.md), en [ de Dienst van de Catalogus ](/help/catalog-service/overview.md). Als u deze diensten gebruikt, wordt geen afzonderlijke installatie vereist om de uitbreiding van de Uitvoer van Gegevens toe te laten.
+als [&#x200B; Levend Onderzoek &#x200B;](/help/live-search/overview.md), [&#x200B; Aanbevelingen van het Product &#x200B;](/help/product-recommendations/overview.md), en [&#x200B; de Dienst van de Catalogus &#x200B;](/help/catalog-service/overview.md). Als u deze diensten gebruikt, wordt geen afzonderlijke installatie vereist om de uitbreiding van de Uitvoer van Gegevens toe te laten.
 
 ## Functies voor het exporteren van Commerce-gegevens verwijderen of uitschakelen
 
 Als u niet één van de geïnstalleerde modules van de de uitvoer van handelsgegevens nodig hebt, gebruik het `magento:module:disable` bevel CLI om het onbruikbaar te maken.
 
-Bijvoorbeeld, is er a [ Categorieën API ](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/categories/) die intern de gegevens van de categorietoestemming gebruikt. Als u deze API niet gebruikt, kunt u de gegevensexport uitschakelen voor de feed voor categorietoestemming.
+Bijvoorbeeld, is er a [&#x200B; Categorieën API &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/categories/) die intern de gegevens van de categorietoestemming gebruikt. Als u deze API niet gebruikt, kunt u de gegevensexport uitschakelen voor de feed voor categorietoestemming.
 
 ```shell script
 bin/magento module:disable Magento_CategoryPermissionDataExporter Magento_SaaSCategoryPermissions
@@ -39,4 +39,4 @@ U kunt om het even welke geïnstalleerde modules van de de uitvoer van handelsge
    composer require magento/module-data-exporter:103.0.4 --with-all-dependencies
    ```
 
-Als de Commerce-instantie wordt geïmplementeerd op de Cloud-infrastructuur, werkt u de extensie bij vanuit de cloud-projectmap. Zie [ Verbetering een uitbreiding ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension) in _Adobe Commerce op de Gids van de Infrastructuur van de Wolk_.
+Als de Commerce-instantie wordt geïmplementeerd op de Cloud-infrastructuur, werkt u de extensie bij vanuit de cloud-projectmap. Zie [&#x200B; Verbetering een uitbreiding &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#upgrade-an-extension) in _Adobe Commerce op de Gids van de Infrastructuur van de Wolk_.

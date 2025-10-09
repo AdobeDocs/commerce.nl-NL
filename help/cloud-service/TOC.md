@@ -26,4 +26,4 @@ ht-degree: 0%
    - [Bulkgegevensmigratie](migration/bulk-data.md)
    - [Coderingsgereedschappen](migration/coding-tools.md)
 - [Opmerkingen bij de release](release-notes.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)

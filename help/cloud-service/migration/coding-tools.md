@@ -1,18 +1,18 @@
 ---
-title: Coderingsgereedschappen voor extensies
+title: AI-coderingsgereedschappen voor extensies
 description: Leer hoe u de AI-gereedschappen gebruikt om Commerce App Builder-extensies te maken.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Architect
 hide: true
 hidefromtoc: true
-source-git-commit: 6d2debaeefd65d273c1e0e92f9a7b03740b11520
+source-git-commit: e032571ba0dd8a2f71813f9e3114afa3f7d617bf
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
 
-# Coderingsgereedschappen voor extensies
+# AI-coderingsgereedschappen voor extensies
 
 Wanneer u naar [!DNL Adobe Commerce as a Cloud Service] migreert, kunt u de AI-coderingsgereedschappen gebruiken om bestaande [!DNL Adobe Commerce] PHP-extensies om te zetten in [!DNL Adobe Developer App Builder] -extensies. Deze kan ook worden gebruikt om nieuwe [!DNL App Builder] extensies te maken.
 
@@ -25,26 +25,26 @@ Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
 
 ## Vereisten
 
-* [&#x200B; Cursor &#x200B;](https://cursor.com/download)
-* [&#x200B; Node.js &#x200B;](https://nodejs.org/en/download): De versie van LTS
-* De Manager van het pakket: [&#x200B; npm &#x200B;](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [&#x200B; garen &#x200B;](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
-* [&#x200B; Git &#x200B;](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
+* [ Cursor ](https://cursor.com/download)
+* [ Node.js ](https://nodejs.org/en/download): De versie van LTS
+* De Manager van het pakket: [ npm ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [ garen ](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* [ Git ](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
 
 ## Installatie
 
-1. Installeer de recentste [&#x200B; CLI van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli) globaal:
+1. Installeer de recentste [ CLI van Adobe I/O ](https://github.com/adobe/aio-cli) globaal:
 
    ```bash
    npm install -g @adobe/aio-cli
    ```
 
-1. Installeer de [&#x200B; insteekmodule van Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce):
+1. Installeer de [ insteekmodule van Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce):
 
    ```bash
    aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce
    ```
 
-1. Kloon de de integratiestarterkit van Commerce [&#x200B; &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
+1. Kloon de de integratiestarterkit van Commerce [ ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
 
    ```bash
    git clone git@github.com:adobe/commerce-integration-starter-kit.git
@@ -138,7 +138,7 @@ Voordat u een ontwikkelingssessie start:
 
 Tijdens de ontwikkeling:
 
-* Vertrouw het vier-fase [&#x200B; protocol &#x200B;](#protocol)
+* Vertrouw het vier-fase [ protocol ](#protocol)
 * Implementatieplannen aanvragen voor complexe ontwikkeling
 * MCP-gereedschappen gebruiken indien beschikbaar
 * Elke functie na implementatie testen
@@ -162,10 +162,10 @@ Hierdoor kunt u ook Adobe-sjablonen gebruiken en bouwen op beproefde patronen en
 
 Raadpleeg de volgende bronnen om aan de slag te gaan:
 
-* [&#x200B; Startuitrusting van de Integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
-* [&#x200B; Adobe Commerce starter kit malplaatjes &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
-* [&#x200B; de steekproeftoepassingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
+* [ Startuitrusting van de Integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
+* [ Adobe Commerce starter kit malplaatjes ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
+* [ de aanzetmalplaatjes van Adobe I/O Events ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [ de steekproeftoepassingen van App Builder ](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### Waarom u deze middelen zou moeten gebruiken
 
@@ -191,7 +191,7 @@ Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensyst
 
 ### Implementatieplannen aanvragen voor complexe ontwikkeling
 
-Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [&#x200B; Fase 2 &#x200B;](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
+Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [ Fase 2 ](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
 
 ```terminal
 Create a detailed implementation plan for this complex development.

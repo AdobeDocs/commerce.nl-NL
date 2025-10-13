@@ -2,7 +2,7 @@
 title: Winefront instellen
 description: Leer hoe te opstelling uw  [!DNL Adobe Commerce Optimizer]  storefront.
 role: Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
 source-git-commit: c00cb55bd7b61d6506ee8b9b81d28118c1adde00
 workflow-type: tm+mt
@@ -216,26 +216,26 @@ Voordat u verdergaat met de volgende stappen, moet u controleren of de winkel co
 
 Als er problemen blijven optreden:
 
-* Herzie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/)
+* Herzie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
 * Controle de [&#x200B; de ontwikkelaarsgids van Adobe Commerce Optimizer &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
-* Bezoek de [&#x200B; middelen van de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
+* Bezoek de [&#x200B; middelen van de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
 
 ## Volgende stappen
 
 Nadat u uw winkel hebt ingesteld en geverifieerd, kunt u:
 
-1. **[installeer Sidekick &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#install-and-configure-sidekick)** - Browser uitbreiding voor het uitgeven, het previewing, en het publiceren inhoud direct van uw website
+1. **[installeer Sidekick &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL#install-and-configure-sidekick)** - Browser uitbreiding voor het uitgeven, het previewing, en het publiceren inhoud direct van uw website
 
-2. **[opstelling een lokale ontwikkelomgeving &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment)** - creeer een lokaal milieu om uw storefront code en inhoud aan te passen
+2. **[opstelling een lokale ontwikkelomgeving &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL#set-up-local-environment)** - creeer een lokaal milieu om uw storefront code en inhoud aan te passen
 
 ### Leren en verkennen
 
 * **[voltooi het gebruiksgeval van begin tot eind](./use-case/admin-use-case.md)** - Leer meer over storefront opstelling en catalogusbeheer gebruikend [!DNL Adobe Commerce Optimizer]
 
-* **[verken storefront aanpassing &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/)** - leer geavanceerde opstelling en configuratieopties
+* **[verken storefront aanpassing &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=nl-NL)** - leer geavanceerde opstelling en configuratieopties
 
-* **[drop-ins van Commerce van het Gebruik om storefront ervaring &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/) aan te passen** - voeg pre-gebouwde componenten toe om uw storefront ervaring te verbeteren
+* **[drop-ins van Commerce van het Gebruik om storefront ervaring &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=nl-NL) aan te passen** - voeg pre-gebouwde componenten toe om uw storefront ervaring te verbeteren
 
 >[!MORELIKETHIS]
 >
-> Zie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met Commerce frontend componenten en backend gegevens te integreren.
+> Zie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) om meer over het bijwerken van plaatsinhoud te leren en met Commerce frontend componenten en backend gegevens te integreren.

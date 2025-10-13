@@ -4,9 +4,9 @@ description: De recentste versieinformatie voor  [!DNL Data Export Extension]  v
 feature: Services, Release Notes
 recommendations: noCatalog
 exl-id: 8ae51d3d-8c12-4607-b7e5-985033143a84
-source-git-commit: e81eded54df197c92548aae4636da0e885406b60
+source-git-commit: 9cca531a5f50850366a1c942fcda71eacecef5d0
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Updates zijn:
 
 ## Huidige hoofdversie
 
+## 103.4.14 Release
+
+![ bevestig ](../assets/fix.svg) een kwestie opgelost waar de [ 3} baan van de meningsindexeerder kon ontbreken als de ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) lijst mist. `cde_product_overrides_feed_cl` De oplossing zorgt voor een stabiele omkering en voorkomt mislukte taken met betrekking tot deze tabel in omgevingen met meerdere huurders.&quot; <!--MDEE-1175-->
+
 ## 103.4.13 Release
 
 ![ bevestig ](../assets/fix.svg) Vaste kwestie waar het uitgeven van de montages van de Configuratie van het Web de Index van de Diervoeders van het Product om veroorzaakte terug te stellen. <!--MDEE-1154-->
@@ -39,7 +43,7 @@ Updates zijn:
 
 ## 103.4.11 Release
 
-![ Nieuwe ](../assets/new.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+![ Nieuwe ](../assets/new.svg) [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 Extra ondersteuning voor extra productkenmerken om belastingklasse, kenmerkset en inventarisgegevens van Commerce-productconfiguraties in de productfeed op te nemen. Klanten die deze kenmerken in productexportfeeds willen opnemen, moeten de module Extra productkenmerken aan hun Adobe Commerce-project toevoegen. Zie [ belastingklasse toevoegen, plaatste attributen, en inventarisattributen ](add-tax-attribute-set-inventory-attributes.md).<!--MDEE-1135-->
 ![ Repareren ](../assets/fix.svg) loste een kwestie op die onjuiste synchronisatie van geschrapte productupdates veroorzaakte als een fout tijdens een volledige productindex voorkwam. Nu worden alle productverwijderingen correct gesynchroniseerd, zelfs als er een fout optreedt tijdens het indexeringsproces. <!--MDEE-1144-->
 
@@ -100,7 +104,7 @@ Extra ondersteuning voor extra productkenmerken om belastingklasse, kenmerkset e
 
 ## 103.3.21 Release
 
-![ Toegevoegde functionaliteit van 0&rbrace; Repareren ](../assets/new.svg), `products`, en `productOverrides` voer gedeeltelijk synchroniseert dat op een gespecificeerde lijst van productSKUs wordt gebaseerd. `productAttributes` Gebruik de nieuwe functionaliteit door de optie `--by-ids` aan de opdracht resync CLI toe te voegen: <!--MDEE-606-->
+![ Toegevoegde functionaliteit van 0} Repareren ](../assets/new.svg), `products`, en `productOverrides` voer gedeeltelijk synchroniseert dat op een gespecificeerde lijst van productSKUs wordt gebaseerd. `productAttributes` Gebruik de nieuwe functionaliteit door de optie `--by-ids` aan de opdracht resync CLI toe te voegen: <!--MDEE-606-->
 
 ```shell
 bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
@@ -120,7 +124,7 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 
 ## 103.3.18 Release
 
-![ het Staging updates van 0&rbrace; herstellen &lbrace;voor product en categorieentiteiten wordt nu correct teweeggebracht op de gegevensupdates van de Uitvoer van Gegevens.](../assets/fix.svg)<!--MDEE-963-->
+![ het Staging updates van 0} herstellen {voor product en categorieentiteiten wordt nu correct teweeggebracht op de gegevensupdates van de Uitvoer van Gegevens.](../assets/fix.svg)<!--MDEE-963-->
 
 ## 103.3.17 Release
 
@@ -128,7 +132,7 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 
 ## 103.3.16 Release
 
-![ de waarden van de Optie van 0&rbrace; herstellen &lbrace;kunnen leeg voor configureerbare producten voor veelvoudige opslagmeningen zijn. ](../assets/fix.svg)<!--MDEE-926-->
+![ de waarden van de Optie van 0} herstellen {kunnen leeg voor configureerbare producten voor veelvoudige opslagmeningen zijn. ](../assets/fix.svg)<!--MDEE-926-->
 
 ## 103.3.15 Release
 
@@ -165,14 +169,14 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 
 ## 103.3.8 Release
 
-![ Uitgeschakelde configuratieopties van 0&rbrace; herstellen &lbrace;worden niet meer uitgevoerd als actieve opties.](../assets/fix.svg)<!--MDEE-812-->
+![ Uitgeschakelde configuratieopties van 0} herstellen {worden niet meer uitgevoerd als actieve opties.](../assets/fix.svg)<!--MDEE-812-->
 ![ herstellen ](../assets/fix.svg) de Opties en de waarden worden nu bijgewerkt op een configureerbaar product wanneer de veranderingen in een kindproduct worden aangebracht. <!--MDEE-835-->
 ![ Nieuw ](../assets/new.svg) voegde de capaciteit toe om de extra gegevens van het systeemattribuut in de voer van productattributen te omvatten.
 
 ## 103.3.7 Release
 
 ![ bevestig ](../assets/fix.svg) Verwijderde onnodige gebiedsdelen uit de module InventoryDataExporter.
-![ Gewijzigde vereiste versies voor inventarismodules inbegrepen in de module CatalogInventoryDataExporter van de Reparatie ](../assets/fix.svg) &lbrace;om Adobe Commerce versie 2.4.4 te steunen.
+![ Gewijzigde vereiste versies voor inventarismodules inbegrepen in de module CatalogInventoryDataExporter van de Reparatie ](../assets/fix.svg) {om Adobe Commerce versie 2.4.4 te steunen.
 
 ## 103.3.6 Release
 
@@ -188,7 +192,7 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 
 ## 103.3.4 Release
 
-![ Toegevoegde steun van 0&rbrace; Repareren voor het controleregistreren van de gegevensoverdracht door een mechanisme toe te voegen om een ](../assets/fix.svg) gebeurtenis te verzenden telkens als het gegeven van de instantie van Commerce aan de dienst van Commerce wordt overgebracht `data_sent_outside`<!--MDEE-785-->
+![ Toegevoegde steun van 0} Repareren voor het controleregistreren van de gegevensoverdracht door een mechanisme toe te voegen om een ](../assets/fix.svg) gebeurtenis te verzenden telkens als het gegeven van de instantie van Commerce aan de dienst van Commerce wordt overgebracht `data_sent_outside`<!--MDEE-785-->
 
 ## 103.3.3 Release
 
@@ -224,7 +228,7 @@ bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 - wijzigen, logtabelnamen - volgt hetzelfde naamgevingspatroon als de voedertabellen, maar als u de namen van logtabellen wijzigt, wordt een achtervoegsel `_cl` toegevoegd.  Bijvoorbeeld `catalog_data_exporter_products_cl` -> `cde-products_feed_cl`
 Als u aangepaste code hebt die naar een van deze entiteiten verwijst, werkt u de verwijzingen bij met de nieuwe namen om ervoor te zorgen dat de code correct blijft functioneren.
 
-![ Repareer ](../assets/fix.svg) gebied van de Reeks `modified_at` &lbrace;in voedergegevens slechts voor voer dat het vereist.
+![ Repareer ](../assets/fix.svg) gebied van de Reeks `modified_at` {in voedergegevens slechts voor voer dat het vereist.
 
 ![ verbeter ](../assets/fix.svg) wijzig de `productAttributes` vraag om slechts productattributen terug te winnen.
 
@@ -243,7 +247,7 @@ Als u aangepaste code hebt die naar een van deze entiteiten verwijst, werkt u de
 ## 103.2.3 Release
 
 ![ bevestig ](../assets/fix.svg) Vaste prijs van websiteniveau.
-![ Toegevoegde mutex van 0&rbrace; herstellen &lbrace;voor alle voer dat wordt verwerkt.](../assets/fix.svg)
+![ Toegevoegde mutex van 0} herstellen {voor alle voer dat wordt verwerkt.](../assets/fix.svg)
 
 
 ## 103.2.2 Release
@@ -252,7 +256,7 @@ Als u aangepaste code hebt die naar een van deze entiteiten verwijst, werkt u de
 
 ![ Elimineerde harde gebiedsdeel van CommerceInventoryDataExporter aan modules MSI.](../assets/fix.svg)
 
-![ Verbeterde ](../assets/fix.svg) logboeken van 0&rbrace; herstellen &lbrace;om meer informatie te verzamelen en door verschillende het uitvoeren stadia te organiseren.`commerce-data-exporter`
+![ Verbeterde ](../assets/fix.svg) logboeken van 0} herstellen {om meer informatie te verzamelen en door verschillende het uitvoeren stadia te organiseren.`commerce-data-exporter`
 
 ## 103.2.1 Release
 

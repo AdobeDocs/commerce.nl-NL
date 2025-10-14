@@ -18,14 +18,14 @@ Nadat [!DNL Catalog Service] is ingeschakeld, kunt u de service openen en gebrui
 
 [!DNL Catalog Service] is beschikbaar als een GraphQL API die u kunt benaderen vanuit de Commerce Admin of vanuit elke frontend-toepassing die GraphQL-query&#39;s ondersteunt. De service is beschikbaar in zowel SaaS- als PaaS-omgevingen.
 
-[!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
 | Omgeving | Endpoint |
 | ------------ | ----------: |
 | **het Testen** | `https://catalog-service-sandbox.adobe.io/graphql` |
 | **Productie** | `https://catalog-service.adobe.io/graphql` |
 
-[!BADGE  slechts SaaS ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
 | Omgeving | Endpoint |
 | ----------- | --------:|
@@ -42,13 +42,13 @@ https://<region>-<environment>.api.commerce.adobe.com/<tenantId>/graphql
 - `<environment>` is het omgevingstype, zoals `sandbox` . Als het milieu productie is, wordt deze waarde weggelaten.
 - `<tenantId>` is de unieke id voor de specifieke instantie van uw organisatie in de Adobe Experience Cloud.
 
-Voor details over het gebruiken van de Dienst GraphQL API van de Catalogus, zie de [ Dienst van de Catalogus voor de Gids van Adobe Commerce ](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/) in de *documentatie van de Ontwikkelaar van Adobe Commerce*.
+Voor details over het gebruiken van de Dienst GraphQL API van de Catalogus, zie de [&#x200B; Dienst van de Catalogus voor de Gids van Adobe Commerce &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/) in de *documentatie van de Ontwikkelaar van Adobe Commerce*.
 
 ## Integreren met een headless winkel of services van derden
 
 Om met een koploze winkel te integreren, moet u de storefront configuratie bijwerken om communicatie tussen de storefront en [!DNL Catalog Service] toe te laten om product en categoriegegevens terug te winnen.
 
-Als u Adobe Commerce storefront op Edge Delivery Services gebruikt, voeg het eindpunt van de Dienst van de Catalogus aan de storefrontconfiguratie toe. Voor details, zie de [ documentatie van Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/#storefront-configuration).
+Als u Adobe Commerce storefront op Edge Delivery Services gebruikt, voeg het eindpunt van de Dienst van de Catalogus aan de storefrontconfiguratie toe. Voor details, zie de [&#x200B; documentatie van Edge Delivery Services &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/#storefront-configuration).
 
 Voor andere integratie, zie de documentatie van de projectopstelling voor details over hoe te om integratie tussen de dienst en achterste gegevensbronnen te vormen.
 
@@ -58,10 +58,10 @@ Als u [!DNL Catalog Service] wilt toestaan via een firewall, voegt u `commerce.a
 
 ## Catalogusservice en API-net
 
-Het [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/) laat ontwikkelaars toe om privé of derde APIs en andere interfaces met de producten van Adobe te integreren gebruikend Adobe IO.
+Het [&#x200B; API Net voor Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/) laat ontwikkelaars toe om privé of derde APIs en andere interfaces met de producten van Adobe te integreren gebruikend Adobe IO.
 
-Zie het [[!DNL Catalog Service]  en API Net ](mesh.md) onderwerp voor installatie en configuratiedetails.
+Zie het [[!DNL Catalog Service]  en API Net &#x200B;](mesh.md) onderwerp voor installatie en configuratiedetails.
 
 ## Het dashboard voor gegevensbeheer gebruiken
 
-Gebruik het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard) om gegevenssynchronisatie tussen [!DNL Catalog Service] en uw instantie van Adobe Commerce te controleren. Het dashboard biedt inzicht in het gegevensoverdrachtsproces, waaronder de status van gegevensexport en een lijst van gesynchroniseerde producten.
+Gebruik het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-dashboard) om gegevenssynchronisatie tussen [!DNL Catalog Service] en uw instantie van Adobe Commerce te controleren. Het dashboard biedt inzicht in het gegevensoverdrachtsproces, waaronder de status van gegevensexport en een lijst van gesynchroniseerde producten.

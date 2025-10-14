@@ -22,6 +22,6 @@ ht-degree: 10%
    - [Catalogusservice en API-net](mesh.md)
    - [Hoofdletters/kleine letters gebruiken: prijzen met accijnzen weergeven](taxes.md)
 - [Aanvullende informatie](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)
 
 

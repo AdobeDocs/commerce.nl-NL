@@ -17,19 +17,19 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
-> [ Fastlane ](payments-options.md#fastlane-button) de orden omvatten Niveau 2/Niveau 3 geen gegevens, lijnpunten, en waardeverdeling.
+> [&#x200B; Fastlane &#x200B;](payments-options.md#fastlane-button) de orden omvatten Niveau 2/Niveau 3 geen gegevens, lijnpunten, en waardeverdeling.
 
 ## Gegevensvereisten per verwerkingsniveau
 
-![ het rapport van Transacties ](assets/level-processing-details.png){width="500" zoomable="yes"}
+![&#x200B; het rapport van Transacties &#x200B;](assets/level-processing-details.png){width="500" zoomable="yes"}
 
 [!DNL Payment Services] verzamelt deze gegevens en geeft een gedetailleerde rapportage van uw betalingstransacties.
 
 ## Beschikbare verwerkingsniveaus per kaartnetwerk
 
-![ de details van de Kaart ](assets/cards-details-level-processing.png){width="500" zoomable="yes"}
+![&#x200B; de details van de Kaart &#x200B;](assets/cards-details-level-processing.png){width="500" zoomable="yes"}
 
-Zie [ betalingsverwerking ](https://developer.paypal.com/docs/checkout/advanced/processing/){target=_blank} in de documentatie van de Ontwikkelaar van PayPal voor meer informatie.
+Zie [&#x200B; betalingsverwerking &#x200B;](https://developer.paypal.com/docs/checkout/advanced/processing/){target=_blank} in de documentatie van de Ontwikkelaar van PayPal voor meer informatie.
 
 ### Niveau 1
 
@@ -43,17 +43,17 @@ Niveau 1 is de meest voorkomende, vereist minder informatie en brengt daarom in 
 * Fraude voorkomen, processorrisico verlagen
 * Transactiebeveiliging verbeteren
 
-Zie [ wat IC++ is?](https://www.paypal.com/us/brc/article/what-is-interchange-plus-plus){target=_blank} in de documentatie voor ontwikkelaars van PayPal voor meer informatie.
+Zie [&#x200B; wat IC++ is?](https://www.paypal.com/us/brc/article/what-is-interchange-plus-plus){target=_blank} in de documentatie voor ontwikkelaars van PayPal voor meer informatie.
 
 ## Betalingstransacties met kaart van niveau 2 en niveau 3 in [!DNL Payment Services]
 
 Om in aanmerking te komen voor verwerking op niveau 2 of niveau 3, moeten handelaren de vorige informatie verzenden, hoewel het de kaartnetwerken zijn die uiteindelijk bepalen welk niveau een transactie in aanmerking komt bij de verwerking ervan.
 
-Zie [ Veelgestelde vragen over de verwerking van de Betaling ](https://www.paypal.com/us/cshelp/article/ts2278?_ga=1.131773126.875104296.1712843492){target=_blank} in de ontwikkelaarsdocumentatie van PayPal voor meer informatie.
+Zie [&#x200B; Veelgestelde vragen over de verwerking van de Betaling &#x200B;](https://www.paypal.com/us/cshelp/article/ts2278?_ga=1.131773126.875104296.1712843492){target=_blank} in de ontwikkelaarsdocumentatie van PayPal voor meer informatie.
 
 Verwerking op niveau 2 en niveau 3 is standaard uitgeschakeld voor [!DNL Payment Services] -handelaren op archiefniveau.
 
-De verwerking van niveau 2 en niveau 3 zijn beschikbaar als u reeds IC++ tarifering gebruikt. Om deze eigenschap toe te laten kunt u dit via de [ bevel-lijn Interface (CLI ](configure-cli.md) doen.
+De verwerking van niveau 2 en niveau 3 zijn beschikbaar als u reeds IC++ tarifering gebruikt. Om deze eigenschap toe te laten kunt u dit via de [&#x200B; bevel-lijn Interface (CLI &#x200B;](configure-cli.md) doen.
 
 >[!IMPORTANT]
 >

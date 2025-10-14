@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Gebeurtenissen zijn een essentieel hulpmiddel om de winkelervaring te verbeteren en conversies te stimuleren door real-time gegevensinzichten te benutten.
 
-[!DNL Adobe Commerce Optimizer] implementeert automatisch storefront-gebeurtenissen op uw site. Deze gebeurtenissen leggen gegevens vast uit de interacties van kopers op uw site. Deze geanonimiseerde gegevensmachten [ aanbevelingen ](../../manage-results/recommendation-performance.md), [ productontdekking ](../../manage-results/search-performance.md), en [ succesmetriek ](../../manage-results/success-metrics.md).
+[!DNL Adobe Commerce Optimizer] implementeert automatisch storefront-gebeurtenissen op uw site. Deze gebeurtenissen leggen gegevens vast uit de interacties van kopers op uw site. Deze geanonimiseerde gegevensmachten [&#x200B; aanbevelingen &#x200B;](../../manage-results/recommendation-performance.md), [&#x200B; productontdekking &#x200B;](../../manage-results/search-performance.md), en [&#x200B; succesmetriek &#x200B;](../../manage-results/success-metrics.md).
 
 >[!NOTE]
 >
->Gegevensverzameling omvat geen persoonlijk identificeerbare informatie (PII). Alle gebruikers-id&#39;s, zoals cookie-id&#39;s en IP-adressen, worden strikt geanonimiseerd. [ leer meer ](https://www.adobe.com/privacy/experience-cloud.html).
+>Gegevensverzameling omvat geen persoonlijk identificeerbare informatie (PII). Alle gebruikers-id&#39;s, zoals cookie-id&#39;s en IP-adressen, worden strikt geanonimiseerd. [&#x200B; leer meer &#x200B;](https://www.adobe.com/privacy/experience-cloud.html).
 
 De **pagina van Gebeurtenissen** laat u de gegevens waarnemen van de storefront gebeurtenis die worden verzameld. Met een weergave in de verzameling van gebeurtenisgegevens kunnen handelaren controleren of ze storefront-gebeurtenissen correct hebben geïmplementeerd en of gebeurtenissen correct worden vastgelegd. Op deze pagina kunnen verkopers mogelijke problemen identificeren en stappen ondernemen om gebeurtenisproblemen op te lossen.
 
@@ -27,7 +27,7 @@ De **pagina van Gebeurtenissen** laat u de gegevens waarnemen van de storefront 
 
 De **tellen van de Gebeurtenis** lusjesporen winkelinteracties, zoals onderzoeken, klikken, en aankopen, om u te helpen tendensen analyseren en de het winkelen ervaring verbeteren.
 
-![ Tellingen van de Gebeurtenis ](../../assets/event-counts.png){zoomable="yes"}
+![&#x200B; Tellingen van de Gebeurtenis &#x200B;](../../assets/event-counts.png){zoomable="yes"}
 
 | Veld | Beschrijving |
 |---|---|
@@ -39,7 +39,7 @@ De **tellen van de Gebeurtenis** lusjesporen winkelinteracties, zoals onderzoeke
 
 Het **lusje van de Controle van de Gezondheid van 0&rbrace; &lbrace;biedt inzichten in de gezondheid van elke gedragsgebeurtenis, die nauwkeurige gegevensinzameling en functionaliteit verzekeren. &#x200B;**
 
-![ Controle van de Gezondheid ](../../assets/sanity-check.png){zoomable="yes"}
+![&#x200B; Controle van de Gezondheid &#x200B;](../../assets/sanity-check.png){zoomable="yes"}
 
 | Veld | Beschrijving |
 |---|---|
@@ -47,13 +47,13 @@ Het **lusje van de Controle van de Gezondheid van 0&rbrace; &lbrace;biedt inzich
 | **Ontdekking van het Product** | Geeft de vereiste gebeurtenissen weer om de zoekresultaten van het product aan te passen. De **kolom van de Status** wijst erop als de gebeurtenissen werden ontvangen. |
 | **Aanbevelingen** | Toont de vereiste gebeurtenissen om productaanbevelingen aan te passen. De **kolom van de Status** wijst erop als de gebeurtenissen werden ontvangen. |
 
-De volgende secties beschrijven gebeurtenisdetails voor [ productontdekking ](#product-discovery) en [ aanbevelingen ](#recommendations).
+De volgende secties beschrijven gebeurtenisdetails voor [&#x200B; productontdekking &#x200B;](#product-discovery) en [&#x200B; aanbevelingen &#x200B;](#recommendations).
 
 ### Productdetectie
 
 Bij productdetectie worden gebeurtenissen gebruikt om zoekalgoritmen zoals &quot;Meest bekeken&quot; en &quot;Dit bekeken, bekeken&quot; aan te sturen.
 
-Deze lijst beschrijft de gebeurtenissen die door productontdekking [ worden gebruikt rangschikkend strategieën ](../../merchandising/rules/add.md#intelligent-ranking).
+Deze lijst beschrijft de gebeurtenissen die door productontdekking [&#x200B; worden gebruikt rangschikkend strategieën &#x200B;](../../merchandising/rules/add.md#intelligent-ranking).
 
 | Rangschikkingsstrategie | Gebeurtenissen | Pagina |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ Deze lijst beschrijft de gebeurtenissen die door productontdekking [ worden gebr
 
 #### Vereiste dashboardgebeurtenissen
 
-Sommige gebeurtenissen worden vereist om het [ dashboard van de onderzoeksprestaties ](../../manage-results/search-performance.md) te bevolken
+Sommige gebeurtenissen worden vereist om het [&#x200B; dashboard van de onderzoeksprestaties &#x200B;](../../manage-results/search-performance.md) te bevolken
 
 | Dashboardgebied | Gebeurtenissen | Veld samenvoegen |
 | ------------------- | ------------- | ---------- |
@@ -103,11 +103,11 @@ Andere variabelen die van invloed kunnen zijn op de tijd die nodig is om te trai
 - Sommige aanbevelingen typen sneller dan andere
 - [!DNL Adobe Commerce Optimizer] verwerkt de gedragsgegevens om de vier uur opnieuw. Aanbevelingen worden nauwkeuriger naarmate ze langer op uw site worden gebruikt.
 
-Om u te helpen de opleidingsvooruitgang van elk aanbevelingstype visualiseren, [ creeer aanbeveling ](../../merchandising/recommendations/create.md#readiness-indicators) de indicatoren van de paginabereidheid.
+Om u te helpen de opleidingsvooruitgang van elk aanbevelingstype visualiseren, [&#x200B; creeer aanbeveling &#x200B;](../../merchandising/recommendations/create.md#readiness-indicators) de indicatoren van de paginabereidheid.
 
 Terwijl gegevens worden verzameld op uw livesite en de modellen voor het leren van machines een training zijn, kunt u andere test- en configuratietaken voltooien die nodig zijn om aanbevelingen op te stellen. Tegen de tijd dat u met dit werk wordt gedaan, zullen de modellen genoeg gegevens hebben om nuttige aanbevelingen tot stand te brengen, die u toestaan om hen aan uw winkel op te stellen.
 
-Als uw plaats niet genoeg verkeer (meningen, aankopen, tendensen) voor de meeste product SKUs krijgt, zouden er niet genoeg gegevens kunnen zijn om het het leren proces te voltooien. Hierdoor kan de gereedheidsindicator in de werkruimte Aanbevelingen vastzitten. De gereedheidsindicatoren zijn bedoeld om handelaren een ander gegevenspunt te bieden bij het kiezen van het aanbevolen type voor hun winkel. De getallen zijn een leidraad en mogen nooit 100% bedragen. [ Leer meer ](../../merchandising/recommendations/create.md#readiness-indicators) over bereidheid indicatoren.
+Als uw plaats niet genoeg verkeer (meningen, aankopen, tendensen) voor de meeste product SKUs krijgt, zouden er niet genoeg gegevens kunnen zijn om het het leren proces te voltooien. Hierdoor kan de gereedheidsindicator in de werkruimte Aanbevelingen vastzitten. De gereedheidsindicatoren zijn bedoeld om handelaren een ander gegevenspunt te bieden bij het kiezen van het aanbevolen type voor hun winkel. De getallen zijn een leidraad en mogen nooit 100% bedragen. [&#x200B; Leer meer &#x200B;](../../merchandising/recommendations/create.md#readiness-indicators) over bereidheid indicatoren.
 
 #### Aanbevelingen voor back-up
 
@@ -125,7 +125,7 @@ In het geval van onvoldoende gegevensverzameling worden de volgende aanbevelinge
 
 #### Aanbevelingsspecifieke gebeurtenissen
 
-De volgende lijst maakt een lijst van de gebeurtenissen die worden teweeggebracht wanneer de kopers met aanbeveling op de storefront in wisselwerking staan. De gebeurtenisgegevens verzamelde bevoegdheden de [ metriek ](../../manage-results/recommendation-performance.md) om te analyseren hoe goed uw aanbevelingen presteren.
+De volgende lijst maakt een lijst van de gebeurtenissen die worden teweeggebracht wanneer de kopers met aanbeveling op de storefront in wisselwerking staan. De gebeurtenisgegevens verzamelde bevoegdheden de [&#x200B; metriek &#x200B;](../../manage-results/recommendation-performance.md) om te analyseren hoe goed uw aanbevelingen presteren.
 
 | Gebeurtenis | Beschrijving |
 | --- | --- |
@@ -136,7 +136,7 @@ De volgende lijst maakt een lijst van de gebeurtenissen die worden teweeggebrach
 
 #### Vereiste dashboardgebeurtenissen
 
-De volgende gebeurtenissen worden vereist om het [ dashboard van de Prestaties van Aanbevelingen te bevolken ](../../manage-results/recommendation-performance.md)
+De volgende gebeurtenissen worden vereist om het [&#x200B; dashboard van de Prestaties van Aanbevelingen te bevolken &#x200B;](../../manage-results/recommendation-performance.md)
 
 | Dashboardkolom | Gebeurtenissen | Veld samenvoegen |
 | ---------------- | --------- | ----------- |
@@ -174,4 +174,4 @@ In deze tabel worden de gebeurtenissen beschreven die door elk type aanbeveling 
 
 ## Ondersteuning
 
-Als u om het even welke gegevensdiscrepanties opmerkt of als de aanbevelingen en de onderzoeksresultaten niet zoals verwacht werken, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
+Als u om het even welke gegevensdiscrepanties opmerkt of als de aanbevelingen en de onderzoeksresultaten niet zoals verwacht werken, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).

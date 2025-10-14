@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Hieronder vindt u een lijst met aanbevolen procedures voor het maken van synoniemen.
 
-- In [!DNL Adobe Commerce Optimizer] worden spelfouten standaard beheerd. U kunt synoniemen instellen om woorden op te nemen die mogelijk door kopers worden gebruikt die afwijken van de woorden die in uw catalogus zijn opgegeven. Je wilt geen uitverkoop verliezen omdat iemand op zoek is naar een &quot;sofa&quot;, terwijl je product wordt aangeboden als een &quot;bank&quot;. U kunt een brede waaier van onderzoekstermijnen vangen door alle mogelijke woorden in te gaan die de klanten zouden kunnen gebruiken om uw producten te vinden. U kunt synoniemen [ plaatsen als één manier of twee manier ](add.md#step-2-define-the-synonym-by-type) om resultaten te verbeteren.
+- In [!DNL Adobe Commerce Optimizer] worden spelfouten standaard beheerd. U kunt synoniemen instellen om woorden op te nemen die mogelijk door kopers worden gebruikt die afwijken van de woorden die in uw catalogus zijn opgegeven. Je wilt geen uitverkoop verliezen omdat iemand op zoek is naar een &quot;sofa&quot;, terwijl je product wordt aangeboden als een &quot;bank&quot;. U kunt een brede waaier van onderzoekstermijnen vangen door alle mogelijke woorden in te gaan die de klanten zouden kunnen gebruiken om uw producten te vinden. U kunt synoniemen [&#x200B; plaatsen als één manier of twee manier &#x200B;](add.md#step-2-define-the-synonym-by-type) om resultaten te verbeteren.
 
 - Wijs merknamen en afkortingen toe aan hun volledige namen, bijvoorbeeld &quot;HP&quot;aan &quot;Hewlett-Packard&quot;en gemeenschappelijke productbijnamen, bijvoorbeeld &quot;iPhone&quot;aan &quot;Apple iPhone&quot;.
 

@@ -20,7 +20,7 @@ Adobe Commerce Optimizer biedt een groot aantal aanbevelingen die u op verschill
 
 >[!NOTE]
 >
->Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [ gebeurtenissen ](../../setup/events/overview.md).
+>Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [&#x200B; gebeurtenissen &#x200B;](../../setup/events/overview.md).
 
 ## Gepersonaliseerd {#personalized}
 

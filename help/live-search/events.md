@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # [!DNL Live Search] Gebeurtenissen
 
-Zie de [ ontwikkelaardocumentatie ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search) om over de gedragsgegevens te leren de [!DNL Live Search] gebeurtenissen verzamelen.
+Zie de [&#x200B; ontwikkelaardocumentatie &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search) om over de gedragsgegevens te leren de [!DNL Live Search] gebeurtenissen verzamelen.

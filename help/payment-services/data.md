@@ -26,7 +26,7 @@ De id&#39;s zijn gemakkelijk toegankelijk in zowel de zakelijke activiteitengege
 
 De `invoice_id` en `custom_id` worden onder aan de details van de zakelijke activiteit weergegeven voor een uitbetaling:
 
-![`custom_id` in details met betrekking tot handelsactiviteit ](assets/merchant-activity-ids.png){width="600" zoomable="yes"}
+![`custom_id` in details met betrekking tot handelsactiviteit &#x200B;](assets/merchant-activity-ids.png){width="600" zoomable="yes"}
 
 `custom_id` en `invoice_id` in de details in de website van PayPal:
 
@@ -79,5 +79,5 @@ De `invoice_id` en `custom_id` worden onder aan de details van de zakelijke acti
 
 Zie de REST APIs-documentatie van PayPal voor meer informatie:
 
-* [`purchase_unit` , waarin `custom_id` en `invoice_id` zich bevinden ](https://developer.paypal.com/docs/api/orders/v2/#definition-purchase_unit)
-* [ toon orderdetails ](https://developer.paypal.com/docs/api/orders/v2/#orders_get)
+* [`purchase_unit` , waarin `custom_id` en `invoice_id` zich bevinden &#x200B;](https://developer.paypal.com/docs/api/orders/v2/#definition-purchase_unit)
+* [&#x200B; toon orderdetails &#x200B;](https://developer.paypal.com/docs/api/orders/v2/#orders_get)

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uitchecken in [!DNL Payment Services]
 
-U kunt de afhandeling voor Adobe Commerce [!DNL Payment Services] zo configureren dat deze het beste aansluit bij uw klanten. De functionaliteit zoals [ orde auto-ongeldig maakt ](#order-auto-voided-if-error) en [ creditcardhet vaulteren ](#credit-card-vaulting) zorgt ervoor uw klanten een vlotte gebruikerservaring hebben.
+U kunt de afhandeling voor Adobe Commerce [!DNL Payment Services] zo configureren dat deze het beste aansluit bij uw klanten. De functionaliteit zoals [&#x200B; orde auto-ongeldig maakt &#x200B;](#order-auto-voided-if-error) en [&#x200B; creditcardhet vaulteren &#x200B;](#credit-card-vaulting) zorgt ervoor uw klanten een vlotte gebruikerservaring hebben.
 
 ## Volgorde automatisch ongeldig maken als er een fout optreedt
 
@@ -21,11 +21,11 @@ Als tijdens het uitchecken een fout optreedt, wordt de volgorde door [!DNL Payme
 
 Er wordt een foutbericht weergegeven op de uitcheckpagina voor de winkelier. Het bericht kan variëren.
 
-![ Fout terwijl het controleren ](assets/user-checkout-error.png " Fout terwijl het controleren "){width="600" zoomable="yes"}
+![&#x200B; Fout terwijl het controleren &#x200B;](assets/user-checkout-error.png " Fout terwijl het controleren "){width="600" zoomable="yes"}
 
-Een commentaar betreffende de geannuleerde orde toont ook in Admin voor een specifieke [ orde ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=nl-NL).
+Een commentaar betreffende de geannuleerde orde toont ook in Admin voor een specifieke [&#x200B; orde &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html?lang=nl-NL).
 
-![ Geannuleerde ordecommentaar in Admin voor orde ](assets/admin-checkout-error.png " Geannuleerde ordecommentaar in Admin voor orde "){width="600" zoomable="yes"}
+![&#x200B; Geannuleerde ordecommentaar in Admin voor orde &#x200B;](assets/admin-checkout-error.png " Geannuleerde ordecommentaar in Admin voor orde "){width="600" zoomable="yes"}
 
 Als een winkelier autorisatie voor een bestelling krijgt, maar de bestelling niet is gemaakt en omgezet in een `Capture` , wordt de bestelling automatisch ongeldig gemaakt. Dit proces zorgt ervoor dat er geen krediet op de creditcard van de winkels wordt gereserveerd en vermijdt de provisie voor de betalingsaanbieder die ontstaat wanneer de machtiging aan het einde van de standaardperiode van 29 dagen wordt ingetrokken.
 
@@ -46,4 +46,4 @@ Wanneer een klant de afrekenstroom op de productpagina invoert, wordt de afhande
 
 Klanten kunnen hun creditcardgegevens voor toekomstige aankopen op websiteniveau (elke winkel binnen dezelfde zakelijke account) invullen (of &quot;opslaan&quot;).
 
-Zie [ Kredietkaart het vauleren ](vaulting.md) voor meer informatie
+Zie [&#x200B; Kredietkaart het vauleren &#x200B;](vaulting.md) voor meer informatie

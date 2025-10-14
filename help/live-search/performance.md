@@ -16,9 +16,9 @@ De *werkruimte van Prestaties* verstrekt inzicht in de onderzoekstermijnen die d
 * Resultaten nul
 * Populaire resultaten
 
-![ Prestaties ](assets/performance-unique-searches.png)
+![&#x200B; Prestaties &#x200B;](assets/performance-unique-searches.png)
 
-U kunt ook naar het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=nl-NL) voor meer gegevens over gegevens het synchroniseren verwijzen.
+U kunt ook naar het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=nl-NL) voor meer gegevens over gegevens het synchroniseren verwijzen.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ U kunt ook naar het [ dashboard van het Beheer van Gegevens ](https://experience
 
 ## Een rapport weergeven
 
-1. Om de **waaier van de Datum** in te gaan, klik de kalender (![ Kalender ](assets/btn-calendar.png)) en doe één van het volgende:
+1. Om de **waaier van de Datum** in te gaan, klik de kalender (![&#x200B; Kalender &#x200B;](assets/btn-calendar.png)) en doe één van het volgende:
 
    * Als u één datum wilt opgeven, dubbelklikt u op de datum in de kalender.
    * Als u een datumbereik wilt opgeven, klikt u op de eerste en laatste datum in de kalender.

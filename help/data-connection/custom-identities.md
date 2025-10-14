@@ -17,7 +17,7 @@ Met aangepaste profielkenmerken kunt u de identificatie van uw klantprofiel in E
 
 >[!NOTE]
 >
->Leer hoe u douaneattributen [ aan orden kunt ](custom-attributes.md) toevoegen.
+>Leer hoe u douaneattributen [&#x200B; aan orden kunt &#x200B;](custom-attributes.md) toevoegen.
 
 ## Voordelen
 
@@ -37,13 +37,13 @@ Voordat u aangepaste identiteitskenmerken implementeert, moet u controleren of:
 ## Stap 1: Experience Platform-schema configureren
 
 1. Meld u aan bij Adobe Experience Platform en selecteer het Commerce-schema.
-1. [ voeg de gebieden van de douanetechniek ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas?lang=en#custom-fields-for-standard-groups) op het wortelniveau toe:
+1. [&#x200B; voeg de gebieden van de douanetechniek &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas?lang=en#custom-fields-for-standard-groups) op het wortelniveau toe:
    - `hashedPID` (String) - Primaire identiteitshash
    - `hashedSID` (String) - Secundaire identiteitshash
    - `primaryID` (String) - Naam van primair identiteitsveld
    - `secondaryID` (String) - Naam van secundair identiteitsveld
 
-![ de Configuratie van het Schema van Experience Platform ](./assets/aep-schema-configuration.png)
+![&#x200B; de Configuratie van het Schema van Experience Platform &#x200B;](./assets/aep-schema-configuration.png)
 
 >[!NOTE]
 >

@@ -18,7 +18,7 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
 
 >[!NOTE]
 >
->Adobe raadt aan een upgrade uit te voeren naar de nieuwste ondersteunde versie van alle Commerce-services. Zie de [ versienota&#39;s ](release-notes-all.md).
+>Adobe raadt aan een upgrade uit te voeren naar de nieuwste ondersteunde versie van alle Commerce-services. Zie de [&#x200B; versienota&#39;s &#x200B;](release-notes-all.md).
 
 ## Commerce-services
 
@@ -200,7 +200,7 @@ Adobe biedt een verzameling Commerce-services, integratieservices en gegevenstoo
 
 >[!NOTE]
 >
->Het gegevensbeheerdashboard is zonder extra kosten beschikbaar voor Commerce-handelaren die productaanbevelingen v6.0.0, Live Search v4.1.0 of Catalog Service v1.17 gebruiken met een actieve licentie. De handelaren die vroegere de dienstversies gebruiken kunnen [ Synchronisatie van de Catalogus gebruiken ](../landing/catalog-sync.md) om gegevenssynchronisatie te beheren en te volgen.
+>Het gegevensbeheerdashboard is zonder extra kosten beschikbaar voor Commerce-handelaren die productaanbevelingen v6.0.0, Live Search v4.1.0 of Catalog Service v1.17 gebruiken met een actieve licentie. De handelaren die vroegere de dienstversies gebruiken kunnen [&#x200B; Synchronisatie van de Catalogus gebruiken &#x200B;](../landing/catalog-sync.md) om gegevenssynchronisatie te beheren en te volgen.
 
 {{$include /help/_includes/templated/whats-new.md}}
 

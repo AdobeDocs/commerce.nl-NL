@@ -23,13 +23,13 @@ De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce Optimi
 
 ### EU-regio nu beschikbaar
 
-Ondersteuning voor de regio van de Europese Unie (eu1) voor IMS-organisaties van klanten is nu beschikbaar. U kunt **Europese Unie** nu selecteren als a **Gebied** wanneer [ toevoegend een instantie van Commerce Optimizer ](./get-started.md#step-1-create-an-instance) in Cloud Manager. De regio van de Europese Unie is alleen beschikbaar voor productieomgevingen.
+Ondersteuning voor de regio van de Europese Unie (eu1) voor IMS-organisaties van klanten is nu beschikbaar. U kunt **Europese Unie** nu selecteren als a **Gebied** wanneer [&#x200B; toevoegend een instantie van Commerce Optimizer &#x200B;](./get-started.md#step-1-create-an-instance) in Cloud Manager. De regio van de Europese Unie is alleen beschikbaar voor productieomgevingen.
 
 De basis-productie-URL&#39;s voor de regio van de Europese Unie zijn:
 
 * Admin: `https://eu1.admin.commerce.adobe.com`
 * REST en GraphQL: `https://eu1.api.commerce.adobe.com`
 
-![ creeer instantie ](./assets/create-instance.png){width="600" align="center" zoomable="yes"}
+![&#x200B; creeer instantie &#x200B;](./assets/create-instance.png){width="600" align="center" zoomable="yes"}
 
 >[!ENDSHADEBOX]

@@ -13,7 +13,7 @@ ht-degree: 0%
 [!DNL Live Search] gebruikt een verscheidenheid van facettypes en zij verschijnen in de *lijst van Filters* slechts wanneer relevant. De lijst met beschikbare facetten verandert afhankelijk van de geretourneerde producten. De volgende kenmerken beïnvloeden hun presentatie en gedrag:
 
 * Vastgezette facetten - De meest gebruikte facetten kunnen aan de bovenkant van de lijst worden vastgezet. De resterende facetten worden vermeld in *het type van de Soort* orde na de vastgezette facetten.
-* Dynamische facetten - de attributen van het Product die [ Adobe Sensei ](https://www.adobe.com/sensei.html) het meest relevant voor een productreeks en vraag vindt. De berekening houdt rekening met de attributenmeta-gegevens van de volledige catalogus en bepaalt bij vraagtijd de meest relevante facetten voor de vraag.
+* Dynamische facetten - de attributen van het Product die [&#x200B; Adobe Sensei &#x200B;](https://www.adobe.com/sensei.html) het meest relevant voor een productreeks en vraag vindt. De berekening houdt rekening met de attributenmeta-gegevens van de volledige catalogus en bepaalt bij vraagtijd de meest relevante facetten voor de vraag.
 
   >[!NOTE]
   >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Bij het opvragen genereert [!DNL Live Search] de zoekresultaten in groepen van dynamische en populaire facetten.
 
-![ Facets - Prijs ](assets/storefront-search-results-run-price.png)
+![&#x200B; Facets - Prijs &#x200B;](assets/storefront-search-results-run-price.png)
 
 ## Opties voor Storefront en headless
 
@@ -34,7 +34,7 @@ In tegenstelling, [&#128279;](https://developer.adobe.com/commerce/php/architect
 
 ### Facet-labels
 
-Voor [!DNL Commerce] storefronts, wordt het facetetiket bepaald door de [*Eigenschappen van Attributen* ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=nl-NL). Voor opslag met veelvoudige meningen, kunnen de extra etiketten onder *worden bepaald beheren Etiketten*. Voor hoofdloze implementaties, worden de etiketten uitgegeven van de [ facetende werkruimte ](faceting-workspace.md).
+Voor [!DNL Commerce] storefronts, wordt het facetetiket bepaald door de [*Eigenschappen van Attributen* &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=nl-NL). Voor opslag met veelvoudige meningen, kunnen de extra etiketten onder *worden bepaald beheren Etiketten*. Voor hoofdloze implementaties, worden de etiketten uitgegeven van de [&#x200B; facetende werkruimte &#x200B;](faceting-workspace.md).
 
 ### Tekst sorteren
 

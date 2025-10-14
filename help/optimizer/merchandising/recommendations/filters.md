@@ -34,7 +34,7 @@ De logische operatoren `AND` en `OR` worden gebruikt om meerdere voorwaarden sam
 
 ## Filtertypen
 
-![ Filters ](../../assets/rec-conditions.png)
+![&#x200B; Filters &#x200B;](../../assets/rec-conditions.png)
 
 ### Product
 

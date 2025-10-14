@@ -17,10 +17,10 @@ Filter- en facetfunctionaliteit is een essentieel onderdeel van uw [!DNL Adobe C
 
 ## Tips om facetten te optimaliseren
 
-- Bepaal de meest relevante en nuttige attributen voor uw producten, zoals titel, categorie, merk, prijswaaier, kleur, en grootte en plaats hen als [ dynamische facetten ](type.md). 
+- Bepaal de meest relevante en nuttige attributen voor uw producten, zoals titel, categorie, merk, prijswaaier, kleur, en grootte en plaats hen als [&#x200B; dynamische facetten &#x200B;](type.md). 
 - Stel productkenmerken in en sorteer deze op dezelfde manier in uw catalogus en zijn van groot belang voor uw producten om de relevantie en filtermogelijkheden voor uw klanten te verbeteren.
 - Zorg ervoor dat facetlabels gemakkelijk te begrijpen zijn en consistent op de hele site worden genoemd. Gebruik bijvoorbeeld Prijsbereik in plaats van Kosten.
-- Vermijd overweldigende kopers door het aantal facetten te beperken tot de belangrijkste. Te veel opties kunnen moeheid bij de beslissing veroorzaken. Standaard is [!DNL Adobe Commerce Optimizer] beperkt tot maximaal 100 kenmerken die zijn geconfigureerd als facetten en 30 emmers die binnen elk facet worden geretourneerd. Leer meer over [ facetbeperkingen ](../../boundaries-limits.md#catalog-views-and-policies). 
+- Vermijd overweldigende kopers door het aantal facetten te beperken tot de belangrijkste. Te veel opties kunnen moeheid bij de beslissing veroorzaken. Standaard is [!DNL Adobe Commerce Optimizer] beperkt tot maximaal 100 kenmerken die zijn geconfigureerd als facetten en 30 emmers die binnen elk facet worden geretourneerd. Leer meer over [&#x200B; facetbeperkingen &#x200B;](../../boundaries-limits.md#catalog-views-and-policies). 
 - Kopers toestaan om meerdere filtercriteria tegelijk te selecteren om de resultaten te verfijnen. Zo kunt u kopers zowel de kleuren &quot;Rood&quot; als &quot;Blauw&quot; laten selecteren.
 - Geef het aantal beschikbare producten naast elke facetoptie weer om kopers een idee te geven van de zoekresultaten die ze kunnen verwachten.
 - Inklapbare facetsecties implementeren om de interface schoon en beheerbaar te houden, met name op mobiele apparaten.

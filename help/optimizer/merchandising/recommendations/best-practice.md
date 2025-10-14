@@ -31,7 +31,7 @@ Met zoveel soorten aanbevelingen waaruit u kunt kiezen, wat moet u op elke pagin
 | Productpagina | `Viewed this, viewed that` |
 | Kar | `Bought this, bought that` |
 
-U kunt de [ metriek ](../../manage-results/recommendation-performance.md) volgen en aanpassen indien nodig. Denk eraan dat experimenteren de sleutel is.
+U kunt de [&#x200B; metriek &#x200B;](../../manage-results/recommendation-performance.md) volgen en aanpassen indien nodig. Denk eraan dat experimenteren de sleutel is.
 
 ## Aanbevelingslabels
 

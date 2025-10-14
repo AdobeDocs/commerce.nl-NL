@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Verhoog de betrokkenheid van klanten door uw eigen gekrulde lijst met [!DNL Adobe Commerce Optimizer] synoniemen toe te voegen. U kunt maximaal 200 synoniemen per winkel toevoegen.
 
-![ Synonym Workspace ](../../assets/synonym-workspace.png)
+![&#x200B; Synonym Workspace &#x200B;](../../assets/synonym-workspace.png)
 
 ## Stap 1: Een synoniem toevoegen
 
@@ -22,35 +22,35 @@ Verhoog de betrokkenheid van klanten door uw eigen gekrulde lijst met [!DNL Adob
 
 ## Stap 2: De synoniem door type bepalen
 
-Volg de instructies voor het [ type van synoniem ](type.md) dat u wilt tot stand brengen.
+Volg de instructies voor het [&#x200B; type van synoniem &#x200B;](type.md) dat u wilt tot stand brengen.
 
 ### Synoniem in twee richtingen
 
 1. Accepteer de standaard **2-weg** optie.
 
-   ![ voeg synoniem in twee richtingen ](../../assets/synonym-add-two-way.png) toe
+   ![&#x200B; voeg synoniem in twee richtingen &#x200B;](../../assets/synonym-add-two-way.png) toe
 
 1. Ga de **termijn of de uitdrukking 0&rbrace; van het Sleutelwoord &lbrace;in te passen.**
 1. Ga de **termijn(en) in van de uitbreiding 0&rbrace; &lbrace;die u als synoniemen voor het sleutelwoord wilt toevoegen.** Scheid meerdere termen met een komma.
 In dit voorbeeld is het trefwoord dat moet overeenkomen &#39;broek&#39; en zijn de uitbreidingstermijnen &#39;brousers, slacks&#39;.
 
-   ![ In twee richtingen synoniem voorbeeld ](../../assets/synonym-add-two-way-example.png)
+   ![&#x200B; In twee richtingen synoniem voorbeeld &#x200B;](../../assets/synonym-add-two-way-example.png)
 
 1. Wanneer volledig, klik **sparen**.
 
    De reeks synoniemen verschijnt in de lijst met een tweerichtingspijl tussen elke termijn die betekent de termijnen onderling verwisselbaar zijn.
 
-   ![ synoniem met twee richtingen ](../../assets/synonym-two-way.png)
+   ![&#x200B; synoniem met twee richtingen &#x200B;](../../assets/synonym-two-way.png)
 
 ### Eenvoudige synoniem
 
 1. Klik het **unidirectionele** synoniem type.
 
-   ![ voeg eenrichtingssynoniem ](../../assets/synonym-add-one-way.png) toe
+   ![&#x200B; voeg eenrichtingssynoniem &#x200B;](../../assets/synonym-add-one-way.png) toe
 
 1. Ga het **Sleutelwoord** in en **de voorwaarden van de Uitbreiding**. Scheid meerdere termen met een komma.
 
-   ![ Eenwegs synoniem voorbeeld ](../../assets/synonym-add-one-way-example.png)
+   ![&#x200B; Eenwegs synoniem voorbeeld &#x200B;](../../assets/synonym-add-one-way-example.png)
 
    In dit voorbeeld is het trefwoord &#39;broek&#39; en zijn de eenmalige uitbreidingstermen &#39;capris, peddle-push&#39; elk een subset van &#39;broek&#39;, maar met een specifieke betekenis.
 
@@ -58,7 +58,7 @@ In dit voorbeeld is het trefwoord dat moet overeenkomen &#39;broek&#39; en zijn 
 
    De reeks synoniemen verschijnt in de lijst met een eenrichtingspijl die van de uitbreidingstermijnen aan het sleutelwoord richt om erop te wijzen de termijnen subsets van het sleutelwoord zijn. Een plusteken scheidt elke uitbreidingstermijn.
 
-   ![ unidirectionele synoniem ](../../assets/synonym-one-way.png)
+   ![&#x200B; unidirectionele synoniem &#x200B;](../../assets/synonym-one-way.png)
 
 ## Stap 3: Wijzigingen publiceren
 
@@ -69,13 +69,13 @@ In dit voorbeeld is het trefwoord dat moet overeenkomen &#39;broek&#39; en zijn 
 
 | Veld | Beschrijving |
 |--- |--- |
-| [ Type ](type.md) | Hiermee wordt bepaald of synoniemen dezelfde betekenis hebben als het trefwoord of een subset van het trefwoord zijn. Opties:<br /> 2-weg (gebrek) - Termen die de zelfde betekenis zoals het sleutelwoord hebben en de zelfde onderzoeksresultaten <br /> in één richting terugkeren - Termen die een ondergroep van het sleutelwoord zijn. Eenwegssynoniemen retourneren een uitgebreidere lijst met specifieke producten. |
+| [&#x200B; Type &#x200B;](type.md) | Hiermee wordt bepaald of synoniemen dezelfde betekenis hebben als het trefwoord of een subset van het trefwoord zijn. Opties:<br /> 2-weg (gebrek) - Termen die de zelfde betekenis zoals het sleutelwoord hebben en de zelfde onderzoeksresultaten <br /> in één richting terugkeren - Termen die een ondergroep van het sleutelwoord zijn. Eenwegssynoniemen retourneren een uitgebreidere lijst met specifieke producten. |
 | Trefwoord | Een woord dat vaak wordt gekoppeld aan een selectie producten in uw catalogus. |
 | Uitbreiding | Aanvullende termen met dezelfde of een vergelijkbare betekenis als het trefwoord. |
 
 ## Synoniemen beheren
 
-Volg deze instructies om bestaande [!DNL Adobe Commerce Optimizer] [ synoniemen ](overview.md) te beheren.
+Volg deze instructies om bestaande [!DNL Adobe Commerce Optimizer] [&#x200B; synoniemen &#x200B;](overview.md) te beheren.
 
 ## Synoniem zoeken
 

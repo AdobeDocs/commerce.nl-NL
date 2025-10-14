@@ -58,4 +58,4 @@ ht-degree: 1%
 - [Instellingen](settings.md)
 - Hoofdletters gebruiken {#use-case}
    - [Gebruiksscenario van begin tot einde voor Storefront en Catalog Administrator](./use-case/admin-use-case.md)
-- [ Gids van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/)
+- [&#x200B; Gids van de Ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)

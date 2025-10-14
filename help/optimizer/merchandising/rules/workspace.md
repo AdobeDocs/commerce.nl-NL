@@ -19,11 +19,11 @@ De *Merchandising Regels* werkruimte maakt een lijst van de huidige selectie van
 - Regels verwijderen
 - Toegang tot de regeleditor
 
-![ Merchandising Rules Workspace ](../../assets/rules-workspace.png)
+![&#x200B; Merchandising Rules Workspace &#x200B;](../../assets/rules-workspace.png)
 
 ## Kolommen tonen/verbergen
 
-1. In de hoger-juiste hoek, klik **tonen/verbergen** ![ selecteur van de Kolom ](../../assets/btn-show-hide-columns.png) kolommen.
+1. In de hoger-juiste hoek, klik **tonen/verbergen** ![&#x200B; selecteur van de Kolom &#x200B;](../../assets/btn-show-hide-columns.png) kolommen.
 
 1. Voer in het menu een van de volgende handelingen uit:
 
@@ -48,7 +48,7 @@ De *Merchandising Regels* werkruimte maakt een lijst van de huidige selectie van
 
 In het deelvenster Details worden de naam, de status, de voorwaarden en gebeurtenissen van de regel, de begin- en einddatum, de beschrijving en de datum die het laatst is bewerkt weergegeven. Regels kunnen worden ingeschakeld, bewerkt en verwijderd in het deelvenster Details.
 
-1. Op de *Merchandising regels* werkruimte, vind de regel in het net dat u wilt bekijken en klikken (![ Meer selecteur ](../../assets/btn-more.png)) pictogram.
+1. Op de *Merchandising regels* werkruimte, vind de regel in het net dat u wilt bekijken en klikken (![&#x200B; Meer selecteur &#x200B;](../../assets/btn-more.png)) pictogram.
 
    U kunt een van de volgende handelingen uitvoeren in het menu:
 
@@ -70,11 +70,11 @@ In het deelvenster Details worden de naam, de status, de voorwaarden en gebeurte
 
 | Besturing | Beschrijving |
 |--- |--- |
-| Regel toevoegen | Opent de [ regelredacteur ](add.md). |
+| Regel toevoegen | Opent de [&#x200B; regelredacteur &#x200B;](add.md). |
 | Status | Hiermee filtert u de lijst met regels op status. Opties: Alle, Actief, Inactief, Gepland |
-| ![ de selecteur van de Kolom ](../../assets/btn-show-hide-columns.png) | Hiermee geeft u de kolommen op die zichtbaar zijn in het raster. Opties: Laatst bijgewerkt, Begindatum, Einddatum, Status |
+| ![&#x200B; de selecteur van de Kolom &#x200B;](../../assets/btn-show-hide-columns.png) | Hiermee geeft u de kolommen op die zichtbaar zijn in het raster. Opties: Laatst bijgewerkt, Begindatum, Einddatum, Status |
 | Zoeken | Zoekt naar een regel op volledige naam of gedeeltelijke gelijke. |
-| ![ Meer selecteur ](../../assets/btn-more.png) | Toont een menu van meer acties die op de geselecteerde regel kunnen worden toegepast. Opties: bewerken, details weergeven, verwijderen |
+| ![&#x200B; Meer selecteur &#x200B;](../../assets/btn-more.png) | Toont een menu van meer acties die op de geselecteerde regel kunnen worden toegepast. Opties: bewerken, details weergeven, verwijderen |
 
 ## Regeldetails
 

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Adobe Commerce biedt drie implementatiemodellen:
 
-- [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} [ Adobe Commerce as a Cloud Service ](overview.md) (SaaS)
-- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [ Adobe Commerce op Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/overview) (PaaS)
-- [ Adobe Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/overview) (op-gebouw)
+- [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} [&#x200B; Adobe Commerce as a Cloud Service &#x200B;](overview.md) (SaaS)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [&#x200B; Adobe Commerce op Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/overview) (PaaS)
+- [&#x200B; Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/overview) (op-gebouw)
 
 Deze vergelijking concentreert zich op de verschillen tussen software-as-a-dienst (SaaS) en platform-as-a-dienst (PaaS) modellen, die verschillende niveaus van aanpassing, rekbaarheid, en controle over uw handelsimplementatie verstrekken.
 
@@ -26,7 +26,7 @@ Deze vergelijking concentreert zich op de verschillen tussen software-as-a-diens
 
 ## Functies voor opslagbeheer
 
-[ Commerce Admin UI ](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen.
+[&#x200B; Commerce Admin UI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die een aantal bekende functies in Adobe Commerce op Cloud en op locatie uitgevoerde projecten vervangen.
 
 In de volgende tabel worden de functies en vervangende oplossingen beschreven die beschikbaar zijn in [!DNL Adobe Commerce as a Cloud Service] :
 
@@ -189,4 +189,4 @@ De volgende lijst vergelijkt platformcapaciteiten en rekbaarheidseigenschappen o
 >- Kijk naar API-net voor uitbreiding van de API-functionaliteit.
 >- Bewaking van de Adobe-ontwikkelingen op het huidige platform en van de nieuwe capaciteitsuitbreidingen.
 >- Evalueer industriespecifieke gegevensmodelvereisten tegen beschikbare rekbaarheidsopties.
->- Overweeg het goedkeuren van [ Merchandising de Diensten die door de Weergaven en het Beleid van de Catalogus worden aangedreven ](../optimizer/setup/catalog-view.md).
+>- Overweeg het goedkeuren van [&#x200B; Merchandising de Diensten die door de Weergaven en het Beleid van de Catalogus worden aangedreven &#x200B;](../optimizer/setup/catalog-view.md).

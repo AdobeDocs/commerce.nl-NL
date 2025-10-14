@@ -18,7 +18,7 @@ Met prijzenboeken kunt u productprijzen voor een catalogusbron definiëren voor 
 
 Het basisprijzenboek definieert de valuta voor zichzelf en al zijn kinderprijzenboeken. De boeken van de kindprijs erven deze munt en kunnen niet het met voeten treden.
 
-Zie de [ ontwikkelaarsdocumentatie ](https://developer.adobe.com/commerce/services/reference/rest/) leren hoe te om, prijzenboeken voor [!DNL Adobe Commerce Optimizer] tot stand te brengen bij te werken en te schrappen het gebruiken van de Boek API van de Prijs.
+Zie de [&#x200B; ontwikkelaarsdocumentatie &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/) leren hoe te om, prijzenboeken voor [!DNL Adobe Commerce Optimizer] tot stand te brengen bij te werken en te schrappen het gebruiken van de Boek API van de Prijs.
 
 ## Belangrijkste concepten
 

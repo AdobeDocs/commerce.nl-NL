@@ -17,14 +17,14 @@ In deze releaseopmerkingen worden de nieuwste versies van de extensie [!DNL Cata
 
 Updates zijn:
 
-![ Nieuwe ](../assets/new.svg) Nieuwe eigenschappen
-![ bevestig ](../assets/fix.svg) Bevestigingen en verbeteringen
-![ Bug ](../assets/bug.svg) Bekende kwesties
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Nieuwe eigenschappen
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Bevestigingen en verbeteringen
+![&#x200B; Bug &#x200B;](../assets/bug.svg) Bekende kwesties
 
 
 >[!NOTE]
 >
->De [ uitbreiding van de Adapter van de Catalogus ](catalog-adapter.md) maakt prijsindexering van Adobe Commerce onbruikbaar. Als u de toepassing hebt geïnstalleerd, kunt u de versie controleren die op uw systeem is geïnstalleerd met behulp van composer. In sommige gevallen kunt u de extensie van de catalogusadapter op uw systeem upgraden om oplossingen of nieuwe mogelijkheden op te halen zonder de Commerce Service-versie bij te werken.
+>De [&#x200B; uitbreiding van de Adapter van de Catalogus &#x200B;](catalog-adapter.md) maakt prijsindexering van Adobe Commerce onbruikbaar. Als u de toepassing hebt geïnstalleerd, kunt u de versie controleren die op uw systeem is geïnstalleerd met behulp van composer. In sommige gevallen kunt u de extensie van de catalogusadapter op uw systeem upgraden om oplossingen of nieuwe mogelijkheden op te halen zonder de Commerce Service-versie bij te werken.
 
 ## Huidige hoofdversie
 
@@ -34,4 +34,4 @@ Updates zijn:
 
 ## 1.0.8 Release
 
-![ beval ](../assets/fix.svg) een kwestie vast die een fout in het uitzonderingslogboek veroorzaakte wanneer het toevoegen van configureerbare productvarianten met numerieke SKUs aan de wenslijst. <!--MDEE-876-->
+![&#x200B; beval &#x200B;](../assets/fix.svg) een kwestie vast die een fout in het uitzonderingslogboek veroorzaakte wanneer het toevoegen van configureerbare productvarianten met numerieke SKUs aan de wenslijst. <!--MDEE-876-->

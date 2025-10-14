@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Ondertekening van de fraudebescherming
 
-U kunt geautomatiseerde fraudebescherming voor [!DNL Payment Services] met de [ Ondertekenende uitbreiding ](https://commercemarketplace.adobe.com/signifyd-module-connect.html) toelaten.
+U kunt geautomatiseerde fraudebescherming voor [!DNL Payment Services] met de [&#x200B; Ondertekenende uitbreiding &#x200B;](https://commercemarketplace.adobe.com/signifyd-module-connect.html) toelaten.
 
 Adobe Commerce ondersteunt ondertekenende versies 5.4.0 en hoger. [!DNL Payment Services] biedt ondersteuning voor pre-auth- en post-auth-ondertekeningsstromen.
 
@@ -22,9 +22,9 @@ De integratie Ondertekenen/[!DNL Payment Services] biedt dekking voor creditcard
 
 >[!CAUTION]
 >
-> [ Fastlane ](payments-options.md#fastlane-button) is niet compatibel met Ondertekenen.
+> [&#x200B; Fastlane &#x200B;](payments-options.md#fastlane-button) is niet compatibel met Ondertekenen.
 
-Zie [ Ondertekende documentatie ](https://community.signifyd.com/support/s/article/magento-2-extension-install-guide?language=en_US#downloadandinstallingmagento2extension) leren over het installeren van en het vormen van de uitbreiding.
+Zie [&#x200B; Ondertekende documentatie &#x200B;](https://community.signifyd.com/support/s/article/magento-2-extension-install-guide?language=en_US#downloadandinstallingmagento2extension) leren over het installeren van en het vormen van de uitbreiding.
 
 ## Onboarding
 
@@ -55,6 +55,6 @@ Deze configuratieopties zijn niet compatibel met Betalingsservices en de integra
   Reden: [!DNL Payment Services] maakt een vastlegtransactie die tijdens de ondertekening wordt vermeden.
 
 
-Zie Ondertekenende documentatie voor informatie over [ vormend de uitbreiding ](https://community.signifyd.com/support/s/article/magento-2-extension-install-guide?language=en_US#configuringmagento2extension).
+Zie Ondertekenende documentatie voor informatie over [&#x200B; vormend de uitbreiding &#x200B;](https://community.signifyd.com/support/s/article/magento-2-extension-install-guide?language=en_US#configuringmagento2extension).
 
-Zie Ondertekenende documentatie aan [ meer over de ordewerkschema&#39;s ](https://community.signifyd.com/support/s/article/magento-2-extension-install-guide?language=en_US#howmagento2works) leren.
+Zie Ondertekenende documentatie aan [&#x200B; meer over de ordewerkschema&#39;s &#x200B;](https://community.signifyd.com/support/s/article/magento-2-extension-install-guide?language=en_US#howmagento2works) leren.

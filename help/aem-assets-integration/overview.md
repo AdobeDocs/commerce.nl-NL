@@ -16,7 +16,7 @@ De vraag naar gepersonaliseerde inhoud neemt snel toe terwijl de marketingbudget
 
 Neem bijvoorbeeld een retailer met 1.000 producten. Zelfs voordat u rekening houdt met variaties in kenmerken, neemt het aantal vereiste digitale elementen aanzienlijk toe wanneer u rekening houdt met verschillende regio&#39;s, klantsegmenten en inspanningen op het gebied van personalisatie. Dit kan tot een overweldigend aantal activa variëren, die in miljoenen bereiken.
 
-![ overzicht ](assets/product-visuals-example.png){width="700" zoomable="yes"}
+![&#x200B; overzicht &#x200B;](assets/product-visuals-example.png){width="700" zoomable="yes"}
 
 De integratie van AEM Assets pakt deze uitdaging aan door workflows voor middelenbeheer te automatiseren. De integratie zorgt ervoor dat digitale elementen, zoals productafbeeldingen en marketinginhoud, dynamisch worden gekoppeld aan de juiste handelsentiteiten, waaronder producten en categorieën in Adobe Commerce, op basis van SKU of andere sleutelkenmerken. Dit proces stroomlijnt verrichtingen en verbetert efficiency door toe te laten:
 
@@ -34,11 +34,11 @@ Als u deze integratie wilt benutten met Product Visuals of AEM Assets, moeten be
 
 >[!TAB  Visuals van het Product ]
 
-[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Visuals van het Product die door AEM Assets worden aangedreven, en [ Dynamische Media van AEM ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media) (Deze vergunningen zijn beschikbaar uit-van-de-doos met [!DNL Adobe Commerce as a Cloud Service] en [!DNL Adobe Commerce Optimizer]).
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Visuals van het Product die door AEM Assets worden aangedreven, en [&#x200B; Dynamische Media van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media) (Deze vergunningen zijn beschikbaar uit-van-de-doos met [!DNL Adobe Commerce as a Cloud Service] en [!DNL Adobe Commerce Optimizer]).
 
 >[!TAB  AEM Assets ]
 
-[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [ AEM Dynamische Media ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Actieve vergunningen voor Adobe Commerce, Adobe Experience Manager Assets, en [&#x200B; AEM Dynamische Media &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/administering-dynamic-media).
 
 [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} Adobe Commerce 2.4.5+
 
@@ -46,23 +46,23 @@ Als u deze integratie wilt benutten met Product Visuals of AEM Assets, moeten be
 
 * Composer 2.x
 
-[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Adobe Experience Manager wordt provisioned met [ Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Adobe Experience Manager wordt provisioned met [&#x200B; Adobe Experience Manager Assets as a Cloud Service &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
 
 >[!ENDTABS]
 
-De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [ IMS Organisatie ](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) hebben waar het project van AEM Assets provisioned is.
+De gebruiker die van Adobe Commerce de integratie vormt moet toegang tot de [&#x200B; IMS Organisatie &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255) hebben waar het project van AEM Assets provisioned is.
 
 >[!BEGINSHADEBOX]
 
 ## Belangrijkste zakelijke voordelen
 
-![ controle ](assets/icon-check.png) **Geen Extra Kosten** - Deze integratie wordt verstrekt kosteloos voor verkopers die aan de vergunningsvereisten voldoen.
+![&#x200B; controle &#x200B;](assets/icon-check.png) **Geen Extra Kosten** - Deze integratie wordt verstrekt kosteloos voor verkopers die aan de vergunningsvereisten voldoen.
 
-![ controle ](assets/icon-check.png) **Officiële Oplossing van Adobe** - ontwikkeld, gehandhaafd, en volledig gesteund door Adobe, die stabiliteit en groepering met toekomstige platformverhogingen verzekeren.
+![&#x200B; controle &#x200B;](assets/icon-check.png) **Officiële Oplossing van Adobe** - ontwikkeld, gehandhaafd, en volledig gesteund door Adobe, die stabiliteit en groepering met toekomstige platformverhogingen verzekeren.
 
-![ controle ](assets/icon-check.png) **Adobe Beheerde Model van de Steun** - de Hulp en het oplossen van problemen worden behandeld direct door Adobe, die vrede van mening en gestroomlijnde probleemresolutie verstrekt.
+![&#x200B; controle &#x200B;](assets/icon-check.png) **Adobe Beheerde Model van de Steun** - de Hulp en het oplossen van problemen worden behandeld direct door Adobe, die vrede van mening en gestroomlijnde probleemresolutie verstrekt.
 
-![ controle ](assets/icon-check.png) **de mogelijkheden van de Bouwer van Adobe Storefront** - de oplossing van het digitale activabeheer (DAM) staat het gebruik van activa als beelden, video&#39;s, en andere media op de [ Bouwer van de Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/?lang=nl-NL#userlabs-commerce-genai-product-visuals) toe.
+![&#x200B; controle &#x200B;](assets/icon-check.png) **de mogelijkheden van de Bouwer van Adobe Storefront** - de oplossing van het digitale activabeheer (DAM) staat het gebruik van activa als beelden, video&#39;s, en andere media op de [&#x200B; Bouwer van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/?lang=nl-NL#userlabs-commerce-genai-product-visuals) toe.
 
 >[!ENDSHADEBOX]
 
@@ -74,12 +74,12 @@ Bekijk deze video om te leren hoe Adobe Commerce en AEM Assets samenwerken om in
 
 De integratie van Commerce met Experience Manager Assets mogelijk maken is een driestappenproces:
 
-1. [ vorm uw project van AEM Assets om de meta-gegevens van Commerce ](get-started/configure-aem.md) te steunen.
+1. [&#x200B; vorm uw project van AEM Assets om de meta-gegevens van Commerce &#x200B;](get-started/configure-aem.md) te steunen.
 
-1. [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeert de pakketten van Adobe Commerce ](get-started/configure-commerce.md).
+1. [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [&#x200B; installeert de pakketten van Adobe Commerce &#x200B;](get-started/configure-commerce.md).
 
-1. [ vorm de integratie ](get-started/setup-synchronization.md).
+1. [&#x200B; vorm de integratie &#x200B;](get-started/setup-synchronization.md).
 
 ## Ondersteuning
 
-Als u informatie nodig hebt of vragen hebt die niet in deze gids worden behandeld, contacteer uw vertegenwoordiger van de Integratie van AEM Assets of creeer a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) om extra hulp te ontvangen.
+Als u informatie nodig hebt of vragen hebt die niet in deze gids worden behandeld, contacteer uw vertegenwoordiger van de Integratie van AEM Assets of creeer a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) om extra hulp te ontvangen.

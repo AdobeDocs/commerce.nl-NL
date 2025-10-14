@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Commerce-gegevens verzamelen met Adobe Experience Platform-tags
 
-Terwijl u de [!DNL Data Connection] uitbreiding kunt gebruiken om te publiceren en aan storefront gebeurtenissen in te tekenen, zouden sommige handelaren reeds een oplossing van de gegevensinzameling, zoals de [ markeringen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/data-collection/tags/create-a-property.html?lang=nl-NL) kunnen gebruiken. Voor die handelaren biedt Adobe Commerce een alleen-publicatieoptie in de extensie [!DNL Data Connection] die de Adobe Commerce Event SDK gebruikt.
+Terwijl u de [!DNL Data Connection] uitbreiding kunt gebruiken om te publiceren en aan storefront gebeurtenissen in te tekenen, zouden sommige handelaren reeds een oplossing van de gegevensinzameling, zoals de [&#x200B; markeringen van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/data-collection/tags/create-a-property.html?lang=nl-NL) kunnen gebruiken. Voor die handelaren biedt Adobe Commerce een alleen-publicatieoptie in de extensie [!DNL Data Connection] die de Adobe Commerce Event SDK gebruikt.
 
-![[!DNL Data Connection] Gegevensstroom van extensies ](assets/tags-data-flow.png)
+![[!DNL Data Connection] Gegevensstroom van extensies &#x200B;](assets/tags-data-flow.png)
 _[!DNL Data Connection]Gegevensstroom van extensies met tags_
 
 In dit onderwerp leert u hoe u de storefront-gebeurteniswaarden die door de extensie [!DNL Data Connection] worden geboden, kunt toewijzen aan de Adobe Experience Platform-tagoplossing die u al gebruikt.
@@ -23,7 +23,7 @@ In dit onderwerp leert u hoe u de storefront-gebeurteniswaarden die door de exte
 
 Commerce-gebeurtenisgegevens verzamelen:
 
-- Installeer de [ SDK van de Gebeurtenissen van Adobe Commerce ](https://github.com/adobe/commerce-events/tree/main/packages/storefront-events-sdk). Voor PHP storefronts, zie [&#128279;](install.md) onderwerp installeren. Voor PWA Studio storefronts, zie de [ gids van PWA Studio ](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/aep/).
+- Installeer de [&#x200B; SDK van de Gebeurtenissen van Adobe Commerce &#x200B;](https://github.com/adobe/commerce-events/tree/main/packages/storefront-events-sdk). Voor PHP storefronts, zie [&#128279;](install.md) onderwerp installeren. Voor PWA Studio storefronts, zie de [&#x200B; gids van PWA Studio &#x200B;](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/aep/).
 
   >[!NOTE]
   >
@@ -33,15 +33,15 @@ Commerce-gebeurtenisgegevens verzamelen:
 
 Om Commerce storefront gegevens aan Adobe Experience Platform in kaart te brengen, vorm en installeer het volgende van binnen de markeringen van Adobe Experience Platform:
 
-1. [ opstelling een markeringsbezit ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=nl-NL) in de Inzameling van Gegevens van Adobe Experience Platform.
+1. [&#x200B; opstelling een markeringsbezit &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=nl-NL) in de Inzameling van Gegevens van Adobe Experience Platform.
 
 1. Onder **Authoring**, uitgezochte **Uitbreidingen** en installeer en vorm de volgende uitbreidingen:
 
-   - [ de Laag van Gegevens van de Cliënt van Adobe ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html?lang=nl-NL)
+   - [&#x200B; de Laag van Gegevens van de Cliënt van Adobe &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/client-data-layer/overview.html?lang=nl-NL)
 
-   - [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL)
+   - [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=nl-NL)
 
-1. [ publiceer markering ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL) aan uw ontwikkelomgeving.
+1. [&#x200B; publiceer markering &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL) aan uw ontwikkelomgeving.
 
 1. Volg de **stappen 1&rbrace; hieronder van de Toewijzing van de Gebeurtenis 0&rbrace; om gegevenselementen en regels voor specifieke gebeurtenissen te vormen.**
 
@@ -57,11 +57,11 @@ Omdat gegevensverzameling met tags verschilt van het gebruik van de Adobe Commer
 
 Wanneer u de gegevenselementen en regels in Adobe Experience Platform-tags bijwerkt met Adobe Commerce-specifieke gebeurtenisgegevens, worden een aantal veelvoorkomende stappen uitgevoerd.
 
-Laten we bijvoorbeeld de Adobe Commerce `signOut` -gebeurtenis toevoegen aan Adobe Experience Platform-tags. De hieronder geschetste stappen, behalve specifieke waarden u plaatst, beschrijven hoe te om [ gegevenselementen ](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html?lang=nl-NL#data-element) toe te voegen en [ regels ](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html?lang=nl-NL#create-a-rule), die op alle gebeurtenissen van Adobe Commerce van toepassing zijn u aan markeringen toevoegt.
+Laten we bijvoorbeeld de Adobe Commerce `signOut` -gebeurtenis toevoegen aan Adobe Experience Platform-tags. De hieronder geschetste stappen, behalve specifieke waarden u plaatst, beschrijven hoe te om [&#x200B; gegevenselementen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html?lang=nl-NL#data-element) toe te voegen en [&#x200B; regels &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/collection/e2e.html?lang=nl-NL#create-a-rule), die op alle gebeurtenissen van Adobe Commerce van toepassing zijn u aan markeringen toevoegt.
 
 1. Een gegevenselement maken:
 
-   ![ creeer Nieuw Element van Gegevens ](assets/create-new-data-elements.png)
+   ![&#x200B; creeer Nieuw Element van Gegevens &#x200B;](assets/create-new-data-elements.png)
    _creeer Nieuw Element van Gegevens_
 
 1. Plaats **Naam** aan `sign out`.
@@ -74,14 +74,14 @@ Laten we bijvoorbeeld de Adobe Commerce `signOut` -gebeurtenis toevoegen aan Ado
 
 1. Onder **userAccount** > **logout**, plaats de **waarde** in **Logout van de Bezoeker** aan `1`.
 
-   ![ Ondertekeningswaarde van de Update ](assets/signout-value.png)
+   ![&#x200B; Ondertekeningswaarde van de Update &#x200B;](assets/signout-value.png)
    _Ondertekeningswaarde van de Update_
 
 1. Selecteer **sparen**.
 
 1. Een regel maken:
 
-   ![ creeer Nieuwe Regel ](assets/create-new-rule.png)
+   ![&#x200B; creeer Nieuwe Regel &#x200B;](assets/create-new-rule.png)
    _creeer Nieuwe Regel_
 
 1. Selecteer **toevoegen** onder **GEBEURTENISSEN**.
@@ -1337,7 +1337,7 @@ In de volgende stappen wordt getoond hoe u een `pageView` -gebeurtenis configure
 
 1. Gegevenselement configureren met aangepaste code voor ECID:
 
-   ![ vorm gegevenselement met douanecode ](assets/set-custom-code-ecid.png)
+   ![&#x200B; vorm gegevenselement met douanecode &#x200B;](assets/set-custom-code-ecid.png)
    _vorm gegevenselement met douanecode_
 
 1. Selecteer [!UICONTROL Open Editor] en voeg de volgende aangepaste code toe:
@@ -1364,12 +1364,12 @@ In de volgende stappen wordt getoond hoe u een `pageView` -gebeurtenis configure
 
 1. XDM-schema bijwerken met `identityMap` ingesteld als ECID:
 
-   ![ plaats identityMap als ECID ](assets/identity-map-data-element.png)
+   ![&#x200B; plaats identityMap als ECID &#x200B;](assets/identity-map-data-element.png)
    _plaats identityMap als ECID_
 
 1. Bepaal regelacties die ECID terugwinnen:
 
-   ![ wint ECID ](assets/rule-retrieve-ecid.png) terug
+   ![&#x200B; wint ECID &#x200B;](assets/rule-retrieve-ecid.png) terug
    _wint ECID_ terug
 
 ## Identiteit instellen in back office-gebeurtenissen
@@ -1378,7 +1378,7 @@ In tegenstelling tot storefront-gebeurtenissen die ECID gebruiken om profielinfo
 
 1. Maak een identiteitskaartelement.
 
-   ![ kaart van de bureauidentiteit van het bureau ](assets/custom-code-backoffice.png)
+   ![&#x200B; kaart van de bureauidentiteit van het bureau &#x200B;](assets/custom-code-backoffice.png)
    _creeer achterbureauidentiteitskaart_
 
 1. Selecteer [!UICONTROL Open Editor] en voeg de volgende aangepaste code toe:
@@ -1406,26 +1406,26 @@ return IdentityMap;
 
 1. Voeg dit nieuwe element toe aan elk `identityMap` veld.
 
-   ![ werk elke identityMap ](assets/add-element-back-office.png) bij
+   ![&#x200B; werk elke identityMap &#x200B;](assets/add-element-back-office.png) bij
    _werk elke identityMap_ bij
 
 ## Vaststelling van de toestemming
 
-Wanneer u de extensie [!DNL Data Connection] in Adobe Commerce installeert, is de toestemming voor het verzamelen van gegevens standaard ingeschakeld. Uitschakelen wordt beheerd via het [`mg_dnt` cookie ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) . U kunt de hier beschreven stappen volgen als u `mg_dnt` gebruikt om toestemming te beheren. De [ documentatie van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/consent/supporting-consent.html?lang=nl-NL) heeft verscheidene extra opties om toestemming te beheren.
+Wanneer u de extensie [!DNL Data Connection] in Adobe Commerce installeert, is de toestemming voor het verzamelen van gegevens standaard ingeschakeld. Uitschakelen wordt beheerd via het [`mg_dnt` cookie &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) . U kunt de hier beschreven stappen volgen als u `mg_dnt` gebruikt om toestemming te beheren. De [&#x200B; documentatie van SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/consent/supporting-consent.html?lang=nl-NL) heeft verscheidene extra opties om toestemming te beheren.
 
 1. Creeer a **het gegevenselement van de Code van de Douane van de Kern** (`%do not track cookie%`) voor het `mg_dnt` koekje:
 
-   ![ creeer volgt geen gegevenselement ](assets/element-dnt-cookie.png)
+   ![&#x200B; creeer volgt geen gegevenselement &#x200B;](assets/element-dnt-cookie.png)
    _creeer volgt geen gegevenselement_
 
 1. Creeer het 1&rbrace; gegevenselement van de Code van de Douane van de a **Kern (`%consent%`) dat `out` terugkeert als het koekje wordt geplaatst en `in` anders:**
 
-   ![ creeer het element van toestemmingsgegevens ](assets/element-consent-dnt-cookie.png)
+   ![&#x200B; creeer het element van toestemmingsgegevens &#x200B;](assets/element-consent-dnt-cookie.png)
    _creeer het element van toestemmingsgegevens_
 
 1. Adobe Experience Platform Web SDK Extension configureren met het gegevenselement `%consent%` :
 
-   ![ Update SDK met toestemming ](assets/config-sdk-consent.png)
+   ![&#x200B; Update SDK met toestemming &#x200B;](assets/config-sdk-consent.png)
    _Update SDK met toestemming_
 
 ## Waarschuwingen

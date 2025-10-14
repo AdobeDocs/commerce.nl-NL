@@ -34,12 +34,12 @@ De rijke mening-modelgegevens die door [!DNL Catalog Service] worden verstrekt o
 - **Ontkoppelde architectuur**: Het afzonderlijke systeem van GraphQL voor catalogusgegevens verzekert hoge prestaties zonder de verrichtingen van kernCommerce te beïnvloeden
 - **Real-time gegevenssynchronisatie**: De dienst van de Catalogus wordt gehouden synchroon met de toepassing van Adobe Commerce door de uitbreiding van de Uitvoer van Gegevens SaaS, die ervoor zorgt dat de vragen de huidigste catalogusgegevens terugkeren
 - **Dashboard van het Beheer van Gegevens**: De verrichtingen van de gegevenssynchronisatie van de interface van Adobe Commerce Admin controleren en beheren
-- **API de integratie van het Net**: Naar keuze integreren met [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) om de systemen van Adobe Commerce GraphQL met andere interne en derde APIs te combineren om het schema van GraphQL van de Dienst van de Catalogus uit te breiden en douanegegevens of functionaliteit toe te voegen
+- **API de integratie van het Net**: Naar keuze integreren met [&#x200B; API Net voor Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) om de systemen van Adobe Commerce GraphQL met andere interne en derde APIs te combineren om het schema van GraphQL van de Dienst van de Catalogus uit te breiden en douanegegevens of functionaliteit toe te voegen
 
 
 ## Overzicht van architectuur
 
-[!DNL Catalog Service] gebruikt [ GraphQL ](https://graphql.org/) om catalogusgegevens met inbegrip van producten, productattributen, inventaris, en prijzen te verzoeken en te ontvangen. GraphQL is een querytaal die een front-end client gebruikt om te communiceren met de API (Application Programming Interface) die op een back-end zoals Adobe Commerce is gedefinieerd. GraphQL is een veelgebruikte communicatiemethode omdat deze lichtgewichtgericht is en een systeemintegrator de inhoud en volgorde van elke reactie kan opgeven.
+[!DNL Catalog Service] gebruikt [&#x200B; GraphQL &#x200B;](https://graphql.org/) om catalogusgegevens met inbegrip van producten, productattributen, inventaris, en prijzen te verzoeken en te ontvangen. GraphQL is een querytaal die een front-end client gebruikt om te communiceren met de API (Application Programming Interface) die op een back-end zoals Adobe Commerce is gedefinieerd. GraphQL is een veelgebruikte communicatiemethode omdat deze lichtgewichtgericht is en een systeemintegrator de inhoud en volgorde van elke reactie kan opgeven.
 
 Adobe Commerce biedt twee GraphQL-systemen voor verschillende doeleinden:
 
@@ -57,15 +57,15 @@ Adobe Commerce biedt twee GraphQL-systemen voor verschillende doeleinden:
 - **Voordeel**: Aanzienlijk sneller dan kernsysteem voor productgegevens
 - **Geval van het Gebruik**: De productervaringen van de Storefront waar de snelheid kritiek is
 
-De gegevens beschikbaar aan de Dienst van de Catalogus worden geleverd door de uitbreiding van de Uitvoer van Gegevens SaaS. Deze extensie synchroniseert gegevens tussen de Commerce-toepassing en de aangesloten Commerce Services om ervoor te zorgen dat query&#39;s naar de services die GraphQL API-eindpunten retourneert, de meest recente catalogusgegevens retourneren. Voor informatie over het beheren van en het oplossen van problemenSaaS gegevens de uitvoerverrichtingen, zie de [ Gids van de Uitvoer van Gegevens SaaS ](../data-export/overview.md).
+De gegevens beschikbaar aan de Dienst van de Catalogus worden geleverd door de uitbreiding van de Uitvoer van Gegevens SaaS. Deze extensie synchroniseert gegevens tussen de Commerce-toepassing en de aangesloten Commerce Services om ervoor te zorgen dat query&#39;s naar de services die GraphQL API-eindpunten retourneert, de meest recente catalogusgegevens retourneren. Voor informatie over het beheren van en het oplossen van problemenSaaS gegevens de uitvoerverrichtingen, zie de [&#x200B; Gids van de Uitvoer van Gegevens SaaS &#x200B;](../data-export/overview.md).
 
-[!DNL Catalog Service] klanten kunnen [ SaaS prijsindexeerder ](../price-index/price-indexing.md) gebruiken, die snellere prijsupdates en synchronisatietijd verstrekt.
+[!DNL Catalog Service] klanten kunnen [&#x200B; SaaS prijsindexeerder &#x200B;](../price-index/price-indexing.md) gebruiken, die snellere prijsupdates en synchronisatietijd verstrekt.
 
 ## Architectuurgegevens
 
 In het volgende diagram worden de architecturale verschillen tussen het GraphQL-kernsysteem en het GraphQL-systeem van Catalog Service weergegeven, waarbij wordt getoond hoe ze samenwerken om de prestaties van winkels te optimaliseren:
 
-![ diagram van de architectuur van de Catalogus ](assets/catalog-service-architecture.png)
+![&#x200B; diagram van de architectuur van de Catalogus &#x200B;](assets/catalog-service-architecture.png)
 
 ### De werking van de systemen
 
@@ -77,7 +77,7 @@ De Dienst van de Catalogus doet dienst als Gateway van de Diensten Storefront di
 
 De kern en de dienstGraphQL systemen communiceren niet direct met elkaar. U hebt toegang tot elk systeem via een andere URL en voor aanroepen is andere headerinformatie nodig. De twee GraphQL-systemen zijn ontworpen om samen te worden gebruikt. Het GraphQL-systeem van [!DNL Catalog Service] maakt het basissysteem sterker, zodat producten sneller kunnen worden opgeslagen.
 
-U kunt naar keuze uitvoeren [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/) om de twee systemen van Adobe Commerce GraphQL met privé en derde APIs en andere softwareinterfaces te integreren gebruikend Adobe Developer. Het netwerk kan worden gevormd om vraag te verzekeren die aan elk eindpunt wordt verpletterd bevat de correcte vergunningsinformatie in de kopballen.
+U kunt naar keuze uitvoeren [&#x200B; API Net voor Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) om de twee systemen van Adobe Commerce GraphQL met privé en derde APIs en andere softwareinterfaces te integreren gebruikend Adobe Developer. Het netwerk kan worden gevormd om vraag te verzekeren die aan elk eindpunt wordt verpletterd bevat de correcte vergunningsinformatie in de kopballen.
 
 ## Architectuurgegevens
 
@@ -103,11 +103,11 @@ Het schema vermindert de diversiteit van producttypen tot twee gebruiksgevallen:
 
 #### Kenmerken van de productweergave
 
-Zowel hebben de eenvoudige als de complexe producten klant-bepaalde attributen die op de winkelfront kunnen worden getoond. Deze attributen zijn teruggekeerd als [ ProductViewAttributes ](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/#productviewattribute-type). In Adobe Commerce worden de beschikbare kenmerken gedefinieerd wanneer het product wordt gemaakt. U kunt aanvullende kenmerken toevoegen vanuit de Adobe Commerce-backend of via programmacode. Zie [ de gegevens van de de uitvoervoer van SaaS uitbreiden en aanpassen ](../data-export/extensibility-and-customizations.md).
+Zowel hebben de eenvoudige als de complexe producten klant-bepaalde attributen die op de winkelfront kunnen worden getoond. Deze attributen zijn teruggekeerd als [&#x200B; ProductViewAttributes &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/products/#productviewattribute-type). In Adobe Commerce worden de beschikbare kenmerken gedefinieerd wanneer het product wordt gemaakt. U kunt aanvullende kenmerken toevoegen vanuit de Adobe Commerce-backend of via programmacode. Zie [&#x200B; de gegevens van de de uitvoervoer van SaaS uitbreiden en aanpassen &#x200B;](../data-export/extensibility-and-customizations.md).
 
 >[!TIP]
 >
->In plaats van het toevoegen van gegevenstypes aan de Commerce achterkant, kunt u [ API Net met de Dienst van de Catalogus gebruiken ](mesh.md) om het schema van GraphQL van de Dienst van de Catalogus uit te breiden om gegevens toe te voegen of bestaande catalogusgegevens te vormen om nieuwe functionaliteit toe te laten.
+>In plaats van het toevoegen van gegevenstypes aan de Commerce achterkant, kunt u [&#x200B; API Net met de Dienst van de Catalogus gebruiken &#x200B;](mesh.md) om het schema van GraphQL van de Dienst van de Catalogus uit te breiden om gegevens toe te voegen of bestaande catalogusgegevens te vormen om nieuwe functionaliteit toe te laten.
 
 ### Prijzen
 
@@ -119,7 +119,7 @@ De Catalogusdienst verzekert nauwkeurige prijsupdates en berekeningen door prijz
 
 >[!NOTE]
 >
-> De klanten van Commerce met [!DNL Catalog Service] kunnen uit snellere prijsveranderingen en synchronisatietijd op hun websites met [ SaaS prijsindexer ](../price-index/price-indexing.md) voordeel halen.
+> De klanten van Commerce met [!DNL Catalog Service] kunnen uit snellere prijsveranderingen en synchronisatietijd op hun websites met [&#x200B; SaaS prijsindexer &#x200B;](../price-index/price-indexing.md) voordeel halen.
 
 ## Implementatie
 

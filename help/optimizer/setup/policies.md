@@ -29,7 +29,7 @@ Een filter bestaat uit de volgende onderdelen:
 |---|---|---|
 | **Attribuut** | The product attribute used for filtering. | `part_category` |
 | **Exploitant** | De voorwaarde die op het attribuut wordt toegepast. | `IN`, `EQUALS`, `CONTAINS` |
-| **bron van de Waarde** | Geeft aan of de waarden `STATIC` of `TRIGGER` zijn. | `STATIC` [ Leer meer ](#value-source-types) |
+| **bron van de Waarde** | Geeft aan of de waarden `STATIC` of `TRIGGER` zijn. | `STATIC` [&#x200B; Leer meer &#x200B;](#value-source-types) |
 | **Waarde** | De specifieke waarden die aan de voorwaarde voldoen. | `brakes, suspension` |
 
 ### Voorbeeld
@@ -44,7 +44,7 @@ Het beleid met a **bron van de Waarde** van **STATIC** wordt beschouwd als unive
 
 Het beleid met a **bron van de Waarde** van **TRIGGER** wordt bedoeld als exclusief beleid. Dit betekent dat de catalogusweergave dat beleid alleen zal uitvoeren wanneer de trigger is opgegeven in de header van de API-aanroep. Op de winkel betekent dit dat de informatie wordt weergegeven op basis van wat de verkoper selecteert. Bijvoorbeeld, in het volgende beeld, zijn er twee drop-down menu&#39;s: **Merk** en **Model**.
 
-![ Trigger waardebron op storefront ](../assets/policy-trigger.png)
+![&#x200B; Trigger waardebron op storefront &#x200B;](../assets/policy-trigger.png)
 
 **Merk** en **Model** worden bepaalde trekkers:
 

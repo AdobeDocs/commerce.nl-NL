@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**:
 
-   ![ mening van het Huis ](assets/home-view.png){width="700" zoomable="yes"}
+   ![&#x200B; mening van het Huis &#x200B;](assets/home-view.png){width="700" zoomable="yes"}
 
 1. In deze mening van het Huis, kunt u tot _mening toegang hebben van het Huis_, __ leren over [!DNL Payment Services], de uitbreiding _Montages_ vormen, of _Hulp_ krijgen.
 
@@ -46,4 +46,4 @@ ht-degree: 0%
 
 ## Instellingen
 
-Klik in de weergave Home op **[!UICONTROL Settings]** . Zie [[!DNL Payment Services]  configuratie ](configure-admin.md) voor meer informatie.
+Klik in de weergave Home op **[!UICONTROL Settings]** . Zie [[!DNL Payment Services]  configuratie &#x200B;](configure-admin.md) voor meer informatie.

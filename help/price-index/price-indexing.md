@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Met SaaS-indexering worden de prestaties van de site geoptimaliseerd door bronintensieve taken (zoals indexering en prijsberekening) te offloaden van de Commerce-toepassing naar de Adobe Cloud-infrastructuur. Deze benadering stelt handelaren in staat snel middelen te schalen om indexatietijden van prijzen te versnellen en prijsupdates sneller aan de winkel en de verbonden diensten van Commerce te leveren.
 
-Het volgende diagram toont de indexerende gegevensstroom aan de diensten SaaS wanneer Commerce het [ prijs indexerende ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers) proces inbegrepen in de toepassing van Commerce gebruikt:
+Het volgende diagram toont de indexerende gegevensstroom aan de diensten SaaS wanneer Commerce het [&#x200B; prijs indexerende &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/manage-indexers) proces inbegrepen in de toepassing van Commerce gebruikt:
 
-![ Standaardgegevensstroom ](assets/old_way.png)
+![&#x200B; Standaardgegevensstroom &#x200B;](assets/old_way.png)
 
-Als SaaS-prijsindexering is ingeschakeld, verandert de gegevensstroom. Het indexeren van de prijs wordt uitgevoerd gebruikend [ de gegevensuitvoer van Commerce SaaS ](../data-export/data-synchronization.md).
+Als SaaS-prijsindexering is ingeschakeld, verandert de gegevensstroom. Het indexeren van de prijs wordt uitgevoerd gebruikend [&#x200B; de gegevensuitvoer van Commerce SaaS &#x200B;](../data-export/data-synchronization.md).
 
-![ SaaS prijs indexerende gegevensstroom ](assets/new_way.png)
+![&#x200B; SaaS prijs indexerende gegevensstroom &#x200B;](assets/new_way.png)
 
 Alle handelaren kunnen van het gebruiken van prijsindexeren SaaS profiteren, maar de handelaren die projecten met de volgende kenmerken hebben kunnen de grootste winst realiseren:
 
@@ -47,7 +47,7 @@ De prijsindexering van SaaS wordt automatisch toegelaten wanneer u de Diensten v
 
 >[!NOTE]
 >
->Indien nodig, kan de standaardprijsindex in de toepassing van Commerce worden onbruikbaar gemaakt gebruikend de [ Adapter van de Catalogus ](catalog-adapter.md).
+>Indien nodig, kan de standaardprijsindex in de toepassing van Commerce worden onbruikbaar gemaakt gebruikend de [&#x200B; Adapter van de Catalogus &#x200B;](catalog-adapter.md).
 
 ## Prijzen synchroniseren met prijsindexering in SaaS
 

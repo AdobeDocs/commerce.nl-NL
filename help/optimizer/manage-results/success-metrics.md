@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Deze pagina bevat een overzicht van de belangrijkste prestatiegegevens voor uw [!DNL Adobe Commerce Optimizer] -winkel. Het doel is om snel inzicht te krijgen in de resultaten van de implementatie van [!DNL Adobe Commerce Optimizer] , zodat u en uw team de mogelijkheden voor groei kunnen identificeren en gebieden voor optimalisatie kunnen markeren.
 
-![ metriek van het Succes rapport ](../assets/success-metrics.png)
+![&#x200B; metriek van het Succes rapport &#x200B;](../assets/success-metrics.png)
 
-De metriek in het rapport wordt getrokken uit storefront gebeurtenisgegevens. [ Leer meer ](../setup/events/overview.md) over de verzamelde gebeurtenisgegevens.
+De metriek in het rapport wordt getrokken uit storefront gebeurtenisgegevens. [&#x200B; Leer meer &#x200B;](../setup/events/overview.md) over de verzamelde gebeurtenisgegevens.
 
 ## Uw metriek begrijpen
 
@@ -50,15 +50,15 @@ Gebruik uw gegevens van succesmetriek om mogelijkheden voor verbetering te ident
 
 Voor opbrengst, is uw doel totale verkoop en gemiddelde ordewaarde te verhogen.
 
-![ de metrieke opbrengst van het Succes ](../assets/revenue.png)
+![&#x200B; de metrieke opbrengst van het Succes &#x200B;](../assets/revenue.png)
 
 #### Strategieën
 
 - **voer AI-Verwerkende aanbevelingen** uit: Gebruik de de aanbeveling van optimizer motor aan oppervlakte relevante producten die hogere omzettingspercentages drijven. Stel *Klanten op die dit ook bekeken* en *hebben dit gekocht, die* aanbevelingen types om cross-selling kansen te verhogen.
 
-- **creeer merchandising regels**: De producten van de hoog-marge van de verhoging in onderzoeksresultaten gebruikend [ merchandising regels ](../merchandising/rules/overview.md). Vastzetten best-verkopende punten aan de bovenkant van onderzoeksresultaten voor hoog-verkeersvragen.
+- **creeer merchandising regels**: De producten van de hoog-marge van de verhoging in onderzoeksresultaten gebruikend [&#x200B; merchandising regels &#x200B;](../merchandising/rules/overview.md). Vastzetten best-verkopende punten aan de bovenkant van onderzoeksresultaten voor hoog-verkeersvragen.
 
-- **optimaliseer productontdekking**: Gebruik [ intelligente facetten ](../merchandising/facets/overview.md) om klanten te helpen producten efficiënter vinden, leidend tot hogere omzettingspercentages en verhoogde opbrengst.
+- **optimaliseer productontdekking**: Gebruik [&#x200B; intelligente facetten &#x200B;](../merchandising/facets/overview.md) om klanten te helpen producten efficiënter vinden, leidend tot hogere omzettingspercentages en verhoogde opbrengst.
 
 - **de seizoensmogelijkheden van de Hefboomwerking**: Creeer op tijd-gebaseerde koopregels om seizoensgebonden of promotionele punten tijdens piekwinkelperiodes te bevorderen.
 
@@ -66,11 +66,11 @@ Voor opbrengst, is uw doel totale verkoop en gemiddelde ordewaarde te verhogen.
 
 Als u de conversiekoers wilt verbeteren, wilt u meer bezoekers converteren naar klanten.
 
-![ de metriekomzettingspercentage van het Succes ](../assets/conversion-rate.png)
+![&#x200B; de metriekomzettingspercentage van het Succes &#x200B;](../assets/conversion-rate.png)
 
 #### Strategieën
 
-- **optimaliseer onderzoeksrelevantie**: Voer [ synoniemen ](../merchandising/synonyms/overview.md) uit om ervoor te zorgen dat de klanten vinden wat zij, zelfs met verschillende onderzoekstermijnen zoeken. Gebruik dynamische facetten om relevante filteropties te bieden.
+- **optimaliseer onderzoeksrelevantie**: Voer [&#x200B; synoniemen &#x200B;](../merchandising/synonyms/overview.md) uit om ervoor te zorgen dat de klanten vinden wat zij, zelfs met verschillende onderzoekstermijnen zoeken. Gebruik dynamische facetten om relevante filteropties te bieden.
 
 - **Strategische aanbeveling plaatsing**: stel aanbevelingen eenheden op hoog-verkeerspagina&#39;s zoals productdetailpagina&#39;s en categoriepagina&#39;s op. Het gebruik *het meest bekeken* en *het meest gekochte* aanbevelingen om vertrouwen en urgentie te bouwen.
 
@@ -82,7 +82,7 @@ Als u de conversiekoers wilt verbeteren, wilt u meer bezoekers converteren naar 
 
 Om uw betrokkenheid te verbeteren, is uw doel de interactie van de klant en tijd op plaats te verhogen.
 
-![ de metriekovereenkomst van het Succes ](../assets/engagement.png)
+![&#x200B; de metriekovereenkomst van het Succes &#x200B;](../assets/engagement.png)
 
 #### Strategieën
 
@@ -98,11 +98,11 @@ Om uw betrokkenheid te verbeteren, is uw doel de interactie van de klant en tijd
 
 Om meer groei te verwerven, is uw doel meer nieuwe klanten aan te trekken en aanschafefficiëntie te verbeteren.
 
-![ de metrieke aanwinst van het Succes ](../assets/acquisition.png)
+![&#x200B; de metrieke aanwinst van het Succes &#x200B;](../assets/acquisition.png)
 
 #### Strategieën
 
-- **gegevens van de het onderzoeksprestaties van de Hefboomhefboomwerking**: Gebruik het [ onderzoek prestaties ](../manage-results/search-performance.md) rapport om trending producten en populaire onderzoekstermijnen te identificeren. Maak handelsregels om deze items te markeren.
+- **gegevens van de het onderzoeksprestaties van de Hefboomhefboomwerking**: Gebruik het [&#x200B; onderzoek prestaties &#x200B;](../manage-results/search-performance.md) rapport om trending producten en populaire onderzoekstermijnen te identificeren. Maak handelsregels om deze items te markeren.
 
 - **optimaliseer aanbevelingsprestaties**: De prestaties van de aanbeveling van de monitor [&#128279;](../manage-results/recommendation-performance.md) metriek om te identificeren welke aanbevelingstypes het meeste verkeer en omzettingen drijven.
 
@@ -114,7 +114,7 @@ Om meer groei te verwerven, is uw doel meer nieuwe klanten aan te trekken en aan
 
 Om het stuitpercentage te verminderen, hebt u als doel bezoekers betrokken te houden en bezoeken van één pagina te beperken.
 
-![ de metriek van het Succes stuittarief ](../assets/bounce-rate.png)
+![&#x200B; de metriek van het Succes stuittarief &#x200B;](../assets/bounce-rate.png)
 
 #### Strategieën
 
@@ -161,16 +161,16 @@ Om het stuitpercentage te verminderen, hebt u als doel bezoekers betrokken te ho
 | Veld | Beschrijving |
 |---|---|
 | Datumbereik | De opties omvatten **Afgelopen 3 maanden**, **Afgelopen 7 dagen**, **Afgelopen 30 dagen**, **Afgelopen 6 maanden**, **Afgelopen 12 maanden**, en **Jaar aan datum**. Gebruik kortere bereiken voor onmiddellijke optimalisatieinzichten en langere waaiers voor trendanalyse. |
-| Land | Gebaseerd op de catalogusbron die voor uw [ wordt gespecificeerd catalogusmening ](../setup/catalog-view.md). Selecteer de juiste markt voor een nauwkeurige prestatieanalyse. |
+| Land | Gebaseerd op de catalogusbron die voor uw [&#x200B; wordt gespecificeerd catalogusmening &#x200B;](../setup/catalog-view.md). Selecteer de juiste markt voor een nauwkeurige prestatieanalyse. |
 | Valuta | De valuta die voor de catalogusweergave is opgegeven. Zorg ervoor dat dit overeenkomt met uw doelmarkt voor nauwkeurige rapportage van opbrengsten. |
 | Exporteren | Slaat het rapport op als een PDF voor het delen met belanghebbenden of offline analyse. |
 
 ## Meer als dit
 
-- [ Prestaties van het Onderzoek ](../manage-results/search-performance.md) - analyseer onderzoekstermijnen en optimaliseer onderzoeksrelevantie
-- [ Prestaties van de Aanbeveling ](../manage-results/recommendation-performance.md) - de doeltreffendheid van de aanbeveling controleren en optimaliseren
-- [ het Overzicht van Aanbevelingen ](../merchandising/recommendations/overview.md) - Leer over AI-Aangedreven productaanbevelingen
-- [ het Merchandising Regels ](../merchandising/rules/overview.md) - de Verhoging, barst, speld, of verbergt producten in onderzoeksresultaten
-- [ Facets ](../merchandising/facets/overview.md) - verbeter onderzoek met intelligente het filtreren
-- [ Synoniemen ](../merchandising/synonyms/overview.md) - verbeter onderzoeksrelevantie en klantenervaring
-- [ Overzicht van Gebeurtenissen ](../setup/events/overview.md) - begrijp de gegevens die uw metriek bevoegdheden
+- [&#x200B; Prestaties van het Onderzoek &#x200B;](../manage-results/search-performance.md) - analyseer onderzoekstermijnen en optimaliseer onderzoeksrelevantie
+- [&#x200B; Prestaties van de Aanbeveling &#x200B;](../manage-results/recommendation-performance.md) - de doeltreffendheid van de aanbeveling controleren en optimaliseren
+- [&#x200B; het Overzicht van Aanbevelingen &#x200B;](../merchandising/recommendations/overview.md) - Leer over AI-Aangedreven productaanbevelingen
+- [&#x200B; het Merchandising Regels &#x200B;](../merchandising/rules/overview.md) - de Verhoging, barst, speld, of verbergt producten in onderzoeksresultaten
+- [&#x200B; Facets &#x200B;](../merchandising/facets/overview.md) - verbeter onderzoek met intelligente het filtreren
+- [&#x200B; Synoniemen &#x200B;](../merchandising/synonyms/overview.md) - verbeter onderzoeksrelevantie en klantenervaring
+- [&#x200B; Overzicht van Gebeurtenissen &#x200B;](../setup/events/overview.md) - begrijp de gegevens die uw metriek bevoegdheden

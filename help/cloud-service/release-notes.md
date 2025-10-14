@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Opmerkingen bij de release
 
-De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a Cloud Service] . Voor versieinformatie voor andere producten, verwijs naar [ Adobe Commerce Optimizer ](../optimizer/release-notes.md) of [ Adobe Commerce op-gebouw en Adobe Commerce op Wolk ](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/notes/overview).
+De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a Cloud Service] . Voor versieinformatie voor andere producten, verwijs naar [&#x200B; Adobe Commerce Optimizer &#x200B;](../optimizer/release-notes.md) of [&#x200B; Adobe Commerce op-gebouw en Adobe Commerce op Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/notes/overview).
 
 ## augustus 2025
 
@@ -24,13 +24,13 @@ De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a C
 
 ### EU-regio nu beschikbaar
 
-Ondersteuning voor de regio van de Europese Unie (eu1) voor IMS-organisaties van klanten is nu beschikbaar. U kunt **Europese Unie** nu selecteren als a **Gebied** wanneer [ toevoegend een instantie van Commerce SaaS ](./getting-started.md#create-an-instance) in Cloud Manager. De regio van de Europese Unie is alleen beschikbaar voor productieomgevingen.
+Ondersteuning voor de regio van de Europese Unie (eu1) voor IMS-organisaties van klanten is nu beschikbaar. U kunt **Europese Unie** nu selecteren als a **Gebied** wanneer [&#x200B; toevoegend een instantie van Commerce SaaS &#x200B;](./getting-started.md#create-an-instance) in Cloud Manager. De regio van de Europese Unie is alleen beschikbaar voor productieomgevingen.
 
 De basis-productie-URL&#39;s voor de regio van de Europese Unie zijn:
 
 * Admin: `https://eu1.admin.commerce.adobe.com`
 * REST en GraphQL: `https://eu1.api.commerce.adobe.com`
 
-![ creeer instantie ](./assets/create-instance-eu.png){width="600" align="center" zoomable="yes"}
+![&#x200B; creeer instantie &#x200B;](./assets/create-instance-eu.png){width="600" align="center" zoomable="yes"}
 
 >[!ENDSHADEBOX]

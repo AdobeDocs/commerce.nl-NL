@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # [!DNL Data Connection] Back Office-gebeurtenissen
 
-Hieronder ziet u een lijst met Commerce-back office-gebeurtenissen die beschikbaar zijn wanneer u de extensie [!DNL Data Connection] installeert. De gegevens die deze gebeurtenissen verzamelen, worden naar de Adobe Experience Platform verzonden. U kunt [ douanegebeurtenissen ](custom-events.md) ook tot stand brengen om extra gegevens te verzamelen die niet uit de doos worden verstrekt.
+Hieronder ziet u een lijst met Commerce-back office-gebeurtenissen die beschikbaar zijn wanneer u de extensie [!DNL Data Connection] installeert. De gegevens die deze gebeurtenissen verzamelen, worden naar de Adobe Experience Platform verzonden. U kunt [&#x200B; douanegebeurtenissen &#x200B;](custom-events.md) ook tot stand brengen om extra gegevens te verzamelen die niet uit de doos worden verstrekt.
 
-Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [ andere gegevens ](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=nl-NL) die door het Web SDK van Adobe Experience Platform worden verstrekt.
+Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [&#x200B; andere gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=nl-NL) die door het Web SDK van Adobe Experience Platform worden verstrekt.
 
-De gebeurtenissen van het achterkantoor bevatten server-zijgegevens. Dit gegeven bestaat uit [ de status van de orde ](#order-status) informatie zoals als een orde werd geplaatst, geannuleerd, terugbetaald, verscheept, of voltooid. De server-zijgegevens omvatten ook [ informatie van de de klantenprofielgebeurtenissen van 0&rbrace; &lbrace;, zoals als een rekening werd gecreeerd, bijgewerkt, of geschrapt.](#customer-profile-events)
+De gebeurtenissen van het achterkantoor bevatten server-zijgegevens. Dit gegeven bestaat uit [&#x200B; de status van de orde &#x200B;](#order-status) informatie zoals als een orde werd geplaatst, geannuleerd, terugbetaald, verscheept, of voltooid. De server-zijgegevens omvatten ook [&#x200B; informatie van de de klantenprofielgebeurtenissen van 0&rbrace; &lbrace;, zoals als een rekening werd gecreeerd, bijgewerkt, of geschrapt.](#customer-profile-events)
 
 >[!NOTE]
 >
->Alle achterkantoorgebeurtenissen omvatten het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
+>Alle achterkantoorgebeurtenissen omvatten het [`identityMap` &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
 
 ## Status van bestelling
 
@@ -45,7 +45,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `commerce.order.payments.paymentTransactionID` | Unieke identificatiecode voor deze betalingstransactie. |
 | `commerce.order.payments.paymentAmount` | De waarde van de betaling. |
 | `commerce.order.payments.paymentType` | De betalingsmethode voor deze bestelling. Geladen, aangepaste waarden toegestaan. |
-| `commerce.order.payments.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `commerce.order.payments.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `commerce.order.taxAmount` | Het belastingbedrag dat de koper in het kader van de eindbetaling heeft betaald. |
 | `commerce.order.discountAmount` | Geeft het kortingsbedrag aan dat op de hele volgorde wordt toegepast. |
 | `commerce.order.createdDate` | De tijd en de datum waarop een nieuwe orde in het handelssysteem wordt gecreeerd. Bijvoorbeeld `2022-10-15T20:20:39+00:00` . |
@@ -75,7 +75,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `productListItems.priceTotal` | De totale prijs voor het item van de productlijn. |
 | `productListItems.quantity` | Het aantal eenheden van het product in de kar. |
 | `productListItems.discountAmount` | Geeft de toegepaste disconteringswaarde aan. |
-| `productListItems.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `productListItems.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `productListItems.selectedOptions` | Veld voor een configureerbaar product. |
 | `productListItems.selectedOptions.attribute` | Identificeert een kenmerk van het configureerbare product, zoals `size` of `color` . |
 | `productListItems.selectedOptions.value` | Hiermee wordt de waarde van het kenmerk aangegeven, zoals `small` of `black` . |
@@ -103,7 +103,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `commerce.order.currencyCode` | De ISO 4217-valutacode die wordt gebruikt voor de totalen van de orders. |
 | `commerce.order.purchaseOrderNumber` | Unieke identificatiecode die door de koper voor deze aankoop of dit contract is toegekend. |
 | `commerce.order.payments` | De lijst met betalingen voor deze bestelling. |
-| `commerce.order.payments.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `commerce.order.payments.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `commerce.order.payments.paymentType` | De betalingsmethode voor deze bestelling. Geladen, aangepaste waarden toegestaan. |
 | `commerce.order.payments.paymentAmount` | De waarde van de betaling. |
 | `commerce.shipping` | Verzendgegevens voor een of meer producten. |
@@ -146,10 +146,10 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `commerce.order.payments.paymentTransactionID` | Unieke identificatiecode voor deze betalingstransactie. |
 | `commerce.order.payments.paymentAmount` | De waarde van de betaling. |
 | `commerce.order.payments.paymentType` | De betalingsmethode voor deze bestelling. Geladen, aangepaste waarden toegestaan. |
-| `commerce.order.payments.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `commerce.order.payments.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `commerce.order.priceTotal` | De totale prijs van deze bestelling nadat alle kortingen en belastingen zijn toegepast. |
 | `commerce.order.purchaseOrderNumber` | Unieke identificatiecode die door de koper voor deze aankoop of dit contract is toegekend. |
-| `commerce.order.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `commerce.order.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `commerce.order.lastUpdatedDate` | Het tijdstip waarop een bepaalde orderrecord voor het laatst is bijgewerkt in het handelssysteem. |
 | `commerce.shipping` | Verzendgegevens voor een of meer producten. |
 | `commerce.shipping.shippingMethod` | De door de klant gekozen verzendmethode, zoals standaardlevering, versnelde levering, ophaalservice, enzovoort. |
@@ -161,7 +161,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `commerce.shipping.address.state` | De naam van de staat. Dit is een veld met vrije vorm. |
 | `commerce.shipping.address.postalCode` | De postcode van de locatie. Postcodes zijn niet voor alle landen beschikbaar. In sommige landen zal dit slechts een deel van de postcode bevatten. |
 | `commerce.shipping.address.country` | De naam van het door de overheid bestuurde gebied. Met uitzondering van `xdm:countryCode` is dit een veld met vrije vorm dat de landnaam in elke taal kan hebben. |
-| `commerce.shipping.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `commerce.shipping.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `commerce.shipping.trackingNumber` | Het trackingnummer dat door de verzendende maatschappij is opgegeven voor een verzending van een bestelartikel. |
 | `commerce.shipping.trackingURL` | De URL waarmee de verzendstatus van een orderitem wordt gevolgd. |
 | `commerce.shipping.shipDate` | De datum waarop een of meer items van een bestelling worden verzonden. |
@@ -185,7 +185,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `productListItems.priceTotal` | De totale prijs voor het item van de productlijn. |
 | `productListItems.quantity` | Het aantal eenheden van het product in de kar. |
 | `productListItems.discountAmount` | Geeft de toegepaste disconteringswaarde aan. |
-| `productListItems.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `productListItems.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `productListItems.selectedOptions` | Veld voor een configureerbaar product. |
 | `productListItems.selectedOptions.attribute` | Identificeert een kenmerk van het configureerbare product, zoals `size` of `color` . |
 | `productListItems.selectedOptions.value` | Hiermee wordt de waarde van het kenmerk aangegeven, zoals `small` of `black` . |
@@ -239,7 +239,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `commerce.refunds.transactionID` | Unieke identificatiecode voor deze restitutie. |
 | `commerce.refunds.refundAmount` | De waarde van de restitutie. |
 | `commerce.refunds.refundPaymentType` | De betalingsmethode voor deze bestelling. Geladen, aangepaste waarden toegestaan. |
-| `commerce.refunds.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `commerce.refunds.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `personalEmail` | Een persoonlijk e-mailadres. |
 | `personalEmail.address` | Het technische adres, bijvoorbeeld, `name@domain.com` zoals algemeen bepaald in RFC2822 en verdere normen. |
 | `productListItems` | Een array van producten in de volgorde. |
@@ -248,7 +248,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `productListItems.priceTotal` | De totale prijs voor het item van de productlijn. |
 | `productListItems.quantity` | Het aantal eenheden van het product in de kar. |
 | `productListItems.discountAmount` | Geeft de toegepaste disconteringswaarde aan. |
-| `productListItems.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `productListItems.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `productListItems.selectedOptions` | Veld voor een configureerbaar product. |
 | `productListItems.selectedOptions.attribute` | Identificeert een kenmerk van het configureerbare product, zoals `size` of `color` . |
 | `productListItems.selectedOptions.value` | Hiermee wordt de waarde van het kenmerk aangegeven, zoals `small` of `black` . |
@@ -364,7 +364,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `commerce.order.payments.paymentTransactionID` | Unieke identificatiecode voor deze betalingstransactie. |
 | `commerce.order.payments.paymentAmount` | De waarde van de betaling. |
 | `commerce.order.payments.paymentType` | De betalingsmethode voor deze bestelling. Geladen, aangepaste waarden toegestaan. |
-| `commerce.order.payments.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `commerce.order.payments.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `commerce.order.taxAmount` | Het belastingbedrag dat de koper in het kader van de eindbetaling heeft betaald. |
 | `commerce.order.createdDate` | De tijd en de datum waarop een nieuwe orde in het handelssysteem wordt gecreeerd. Bijvoorbeeld `2022-10-15T20:20:39+00:00` . |
 | `commerce.shipping` | Verzendgegevens voor een of meer producten. |
@@ -393,7 +393,7 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 | `productListItems.priceTotal` | De totale prijs voor het item van de productlijn. |
 | `productListItems.quantity` | Het aantal eenheden van het product in de kar. |
 | `productListItems.discountAmount` | Geeft de toegepaste disconteringswaarde aan. |
-| `productListItems.currencyCode` | De [ ISO 4217 ](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
+| `productListItems.currencyCode` | De [&#x200B; ISO 4217 &#x200B;](https://en.wikipedia.org/wiki/ISO_4217) gebruikte muntcode, zoals `USD` of `EUR`. |
 | `productListItems.selectedOptions` | Veld voor een configureerbaar product. |
 | `productListItems.selectedOptions.attribute` | Identificeert een kenmerk van het configureerbare product, zoals `size` of `color` . |
 | `productListItems.selectedOptions.value` | Hiermee wordt de waarde van het kenmerk aangegeven, zoals `small` of `black` . |
@@ -404,11 +404,11 @@ In de volgende tabel worden de gegevens beschreven die voor deze gebeurtenis zij
 
 ## Klantprofielgebeurtenissen
 
-Profielgebeurtenissen die vanaf de server zijn vastgelegd, bevatten accountinformatie, zoals `accountCreated` , `accountUpdated` en `accountDeleted` . Deze gegevens worden gebruikt om belangrijke klantendetails te bevolken die nodig zijn om segmenten beter te bepalen of marketing campagnes, zoals het verzenden van aanbiedingen van de inschrijvingskorting, bevestigingen van de rekeningsverandering, etc. uitvoeren. Er zijn gelijkaardige profielgebeurtenissen die van [ worden gevangen storefront ](events.md#customer-profile-events).
+Profielgebeurtenissen die vanaf de server zijn vastgelegd, bevatten accountinformatie, zoals `accountCreated` , `accountUpdated` en `accountDeleted` . Deze gegevens worden gebruikt om belangrijke klantendetails te bevolken die nodig zijn om segmenten beter te bepalen of marketing campagnes, zoals het verzenden van aanbiedingen van de inschrijvingskorting, bevestigingen van de rekeningsverandering, etc. uitvoeren. Er zijn gelijkaardige profielgebeurtenissen die van [&#x200B; worden gevangen storefront &#x200B;](events.md#customer-profile-events).
 
 >[!NOTE]
 >
->Elke gebeurtenis van het klantenprofiel omvat ook het [`identityMap` ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het systeem geproduceerde identiteitskaart van de Klant van Commerce als primaire herkenningsteken voor het profiel en een e-mailidentiteitskaart omvat die als secundaire herkenningsteken wordt gebruikt. [ Leer ](custom-identities.md) hoe te om de attributen van de douanetidentity tot stand te brengen om de identificatie van het klantenprofiel te verbeteren.
+>Elke gebeurtenis van het klantenprofiel omvat ook het [`identityMap` &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het systeem geproduceerde identiteitskaart van de Klant van Commerce als primaire herkenningsteken voor het profiel en een e-mailidentiteitskaart omvat die als secundaire herkenningsteken wordt gebruikt. [&#x200B; Leer &#x200B;](custom-identities.md) hoe te om de attributen van de douanetidentity tot stand te brengen om de identificatie van het klantenprofiel te verbeteren.
 
 ### accountCreated
 

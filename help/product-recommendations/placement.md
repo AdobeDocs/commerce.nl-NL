@@ -19,21 +19,21 @@ Met zoveel soorten aanbevelingen waaruit u kunt kiezen, wat moet u op elke pagin
 | Productpagina | `Viewed this, viewed that` |
 | Kar | `Bought this, bought that` |
 
-U kunt de [ metriek ](workspace.md) volgen en aanpassen indien nodig. Denk eraan dat experimenteren de sleutel is.
+U kunt de [&#x200B; metriek &#x200B;](workspace.md) volgen en aanpassen indien nodig. Denk eraan dat experimenteren de sleutel is.
 
 Sommige storefront pagina&#39;s beperken waar u de aanbevelingen kunt plaatsen. U kunt de aanbevelingen op een van de volgende paginalocaties plaatsen. Raadpleeg de onderstaande tabel voor meer informatie.
 
 - Bovenaan de hoofdinhoud - Aanbevelingen worden boven het hoofdinhoudsgebied net onder de bovenste navigatiebalk weergegeven.
 - Bij de bodem van belangrijkste inhoud (gebrek) - de Aanbevelingen verschijnen onder het belangrijkste inhoudsgebied en vóór om het even welke andere inhoudsblokken op de pagina, zoals _Verwante Producten_.
 
-![ plaatsing van de Aanbeveling ](assets/storefront-home-page-top.png)
+![&#x200B; plaatsing van de Aanbeveling &#x200B;](assets/storefront-home-page-top.png)
 _Aanbeveling bij bovenkant van homepage_
 
 ## Aanbevelingslabels
 
 Het label dat is toegewezen aan een aanbeveling in de winkel, bepaalt hoe kopers de relevantie ervan voor hen interpreteren. De volgende labels worden vaak gebruikt voor elk type aanbeveling.
 
-![ plaatsing van de Aanbeveling ](assets/storefront-search-results-top.png)
+![&#x200B; plaatsing van de Aanbeveling &#x200B;](assets/storefront-search-results-top.png)
 _Aanbeveling bij bovenkant van onderzoeksresultaten_
 
 | Type aanbeveling | Aanbevolen labels |
@@ -59,4 +59,4 @@ De volgende tabel bevat een lijst met de winkelpagina&#39;s waarop u aanbeveling
 | Productgegevens | Onderaan de hoofdinhoud (standaard) | Meest bekeken <br> het meest gekochte <br> Meest toegevoegd aan wortel <br> dit bekeken, bekeken dat <br> dit bekeken, kocht dat <br> dit kocht, dat <br> meer als dit <br> Trending <br> Visuele gelijkenis 5&rbrace; kocht |
 | Kar | Onderaan de hoofdinhoud (standaard) | Meest bekeken <br> het meest gekochte <br> aan wortel &lbrace;het meest toegevoegd <br> Bekeken dit, bekeken dat <br> dit kocht, kocht dat <br> meer als dit <br> Trend<br> |
 | Bevestiging | Onderaan de hoofdinhoud (standaard) | Meest bekeken <br> het meest gekochte <br> aan wortel &lbrace;het meest toegevoegd <br> Bekeken dit, bekeken dat <br> dit kocht, kocht dat <br> meer als dit <br> Trend<br> |
-| Page Builder | [ belemmering en daling ](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=nl-NL) aan het type van positieinhoud | Meest bekeken <br> het meest gekochte <br> Meest toegevoegd aan kar <br> geadviseerd voor u <br> Trend |
+| Page Builder | [&#x200B; belemmering en daling &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=nl-NL) aan het type van positieinhoud | Meest bekeken <br> het meest gekochte <br> Meest toegevoegd aan kar <br> geadviseerd voor u <br> Trend |

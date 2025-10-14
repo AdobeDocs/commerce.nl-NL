@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Synoniemen beheren
 
-Volg deze instructies om bestaande [!DNL Live Search] [ synoniemen ](synonyms.md) te beheren.
+Volg deze instructies om bestaande [!DNL Live Search] [&#x200B; synoniemen &#x200B;](synonyms.md) te beheren.
 
 ## Synoniem zoeken
 

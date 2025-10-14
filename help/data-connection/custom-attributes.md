@@ -17,7 +17,7 @@ In dit artikel leert u hoe u aangepaste kenmerken kunt toevoegen aan back office
 
 >[!NOTE]
 >
->Leer hoe u douaneidentiteiten [ aan profielen kunt ](custom-identities.md) toevoegen.
+>Leer hoe u douaneidentiteiten [&#x200B; aan profielen kunt &#x200B;](custom-identities.md) toevoegen.
 
 Aangepaste kenmerken worden op twee niveaus ondersteund:
 
@@ -349,7 +349,7 @@ ComponentRegistrar::register(
 
 Als u er zeker van wilt zijn dat de nieuwe aangepaste orderkenmerken door uw [!DNL Commerce] -schema in Experience Platform kunnen worden opgenomen, moet u het schema uitbreiden en deze aangepaste velden opnemen.
 
-Leren hoe te om een bestaand schema uit te breiden XDM om deze douanegebieden te omvatten, zie [ schema&#39;s in het UI ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) artikel in de documentatie van Experience Platform creëren en uitgeven. Het veld Tenant-id wordt dynamisch gegenereerd, maar de veldstructuur moet overeenkomen met het voorbeeld in de Experience Platform-documentatie.
+Leren hoe te om een bestaand schema uit te breiden XDM om deze douanegebieden te omvatten, zie [&#x200B; schema&#39;s in het UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#custom-fields-for-standard-groups) artikel in de documentatie van Experience Platform creëren en uitgeven. Het veld Tenant-id wordt dynamisch gegenereerd, maar de veldstructuur moet overeenkomen met het voorbeeld in de Experience Platform-documentatie.
 
 >[!IMPORTANT]
 >
@@ -357,20 +357,20 @@ Leren hoe te om een bestaand schema uit te breiden XDM om deze douanegebieden te
 
 Voeg aan `commerce.order` een veld toe voor Order-niveau:
 
-![ Niveau van de Orde ](assets/order-level.png)
+![&#x200B; Niveau van de Orde &#x200B;](assets/order-level.png)
 
 Voeg velden toe voor het itemniveau Volgorde aan `productListItems` :
 
-![ het Niveau van het Punt van de Orde ](assets/order-item-level.png)
+![&#x200B; het Niveau van het Punt van de Orde &#x200B;](assets/order-item-level.png)
 
 ## Stap 12: Bevestig dat de gegevens worden vastgelegd
 
-Bekijk het [ lusje van de Aanpassing van Gegevens ](connect-data.md#data-customization) in Admin om te bevestigen dat de gegevens van de douanekenmerken worden gevangen en naar Experience Platform verzonden.
+Bekijk het [&#x200B; lusje van de Aanpassing van Gegevens &#x200B;](connect-data.md#data-customization) in Admin om te bevestigen dat de gegevens van de douanekenmerken worden gevangen en naar Experience Platform verzonden.
 
 ### Problemen oplossen
 
 Bevestig het volgende als het bericht `No custom order attributes found.` wordt weergegeven op het tabblad **[!UICONTROL Data Customization]** :
 
-1. U hebt de eerste vereisten voltooid om de [ uitbreiding van de Verbinding van Gegevens ](overview.md#prerequisites) toe te laten.
-1. U hebt [ attributen van de douaneorde ](#add-custom-order-attributes) gevormd.
+1. U hebt de eerste vereisten voltooid om de [&#x200B; uitbreiding van de Verbinding van Gegevens &#x200B;](overview.md#prerequisites) toe te laten.
+1. U hebt [&#x200B; attributen van de douaneorde &#x200B;](#add-custom-order-attributes) gevormd.
 1. Er is ten minste één bestelgebeurtenis gegenereerd.

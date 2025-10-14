@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aangepaste gebeurtenissen maken
 
-U kunt het [ gebeurtenisplatform ](events.md) uitbreiden door uw eigen storefront gebeurtenissen te creëren om gegevens te verzamelen uniek aan uw industrie. Wanneer u creeert en een douanegebeurtenis vormt, wordt het verzonden naar de [ Collector van de Gebeurtenissen van Adobe Commerce ](https://github.com/adobe/commerce-events/tree/main/packages/storefront-events-collector).
+U kunt het [&#x200B; gebeurtenisplatform &#x200B;](events.md) uitbreiden door uw eigen storefront gebeurtenissen te creëren om gegevens te verzamelen uniek aan uw industrie. Wanneer u creeert en een douanegebeurtenis vormt, wordt het verzonden naar de [&#x200B; Collector van de Gebeurtenissen van Adobe Commerce &#x200B;](https://github.com/adobe/commerce-events/tree/main/packages/storefront-events-collector).
 
 ## Aangepaste gebeurtenissen afhandelen
 
@@ -75,7 +75,7 @@ In Experience Platform Edge:
 
 Voor elke gebeurtenis die met een `customContext` is ingesteld, overschrijft of breidt de verzamelaar de velden in de gebeurtenislading van de velden in de `custom context` . Het gebruik van overschrijvingen is mogelijk wanneer een ontwikkelaar contexten die door andere delen van de pagina zijn ingesteld, opnieuw wil gebruiken en uitbreiden in gebeurtenissen die al worden ondersteund.
 
-Overschrijvingen van gebeurtenissen zijn alleen van toepassing wanneer u deze naar Experience Platform doorstuurt. Ze worden niet toegepast op analytische gebeurtenissen van Adobe Commerce en Sensei. De Collector van de Gebeurtenissen van Adobe Commerce [ README ](https://github.com/adobe/commerce-events/blob/e34bcfc0deca8d5ac1f9310fc1ee4c1becf4ffbb/packages/storefront-events-collector/README.md) verstrekt extra info.
+Overschrijvingen van gebeurtenissen zijn alleen van toepassing wanneer u deze naar Experience Platform doorstuurt. Ze worden niet toegepast op analytische gebeurtenissen van Adobe Commerce en Sensei. De Collector van de Gebeurtenissen van Adobe Commerce [&#x200B; README &#x200B;](https://github.com/adobe/commerce-events/blob/e34bcfc0deca8d5ac1f9310fc1ee4c1becf4ffbb/packages/storefront-events-collector/README.md) verstrekt extra info.
 
 >[!NOTE]
 >

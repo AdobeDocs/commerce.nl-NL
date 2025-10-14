@@ -17,7 +17,7 @@ Prijsfacetten geven het aantal prijsgroepen aan en de verdeling van de prijswaar
 
 De taalinstelling vertelt de [!DNL Live Search] -service welke taal moet worden verwacht bij het schrijven van de index.
 
-![ Montages ](assets/settings.png)
+![&#x200B; Montages &#x200B;](assets/settings.png)
 
 ## Prijsbeperking
 

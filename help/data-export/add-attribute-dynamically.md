@@ -16,13 +16,13 @@ U kunt productkenmerken uitbreiden zonder ze in Adobe Commerce te registreren do
 
 >[!NOTE]
 >
->De beste manier om productkenmerken uit te breiden is hen [ toe te voegen aan Adobe Commerce ](extensibility-and-customizations.md#add-product-attributes-to-adobe-commerce) waar u hen van Commerce kunt vormen en beheren Admin. Voeg deze alleen dynamisch toe als u ze alleen voor Commerce-winkelservices nodig hebt en niet in Adobe Commerce wilt registreren. U hebt ook de optie om douanekenmerken te beheren gebruikend [ API Net met de Dienst van de Catalogus ](../catalog-service/mesh.md) om het schema van GraphQL van de Dienst van de Catalogus uit te breiden.
+>De beste manier om productkenmerken uit te breiden is hen [&#x200B; toe te voegen aan Adobe Commerce &#x200B;](extensibility-and-customizations.md#add-product-attributes-to-adobe-commerce) waar u hen van Commerce kunt vormen en beheren Admin. Voeg deze alleen dynamisch toe als u ze alleen voor Commerce-winkelservices nodig hebt en niet in Adobe Commerce wilt registreren. U hebt ook de optie om douanekenmerken te beheren gebruikend [&#x200B; API Net met de Dienst van de Catalogus &#x200B;](../catalog-service/mesh.md) om het schema van GraphQL van de Dienst van de Catalogus uit te breiden.
 
 ## Productkenmerken toevoegen
 
 Maak een plug-in die een `customer_attribute` aan de klasse `Magento\CatalogDataExporter\Model\Provider\Product\Attributes` toevoegt.
 
-1. Werk het [ dossier van de de injectieconfiguratie van de gebiedsdeel ](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/) (`di.xml`) bij om de stop te bepalen.
+1. Werk het [&#x200B; dossier van de de injectieconfiguratie van de gebiedsdeel &#x200B;](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/) (`di.xml`) bij om de stop te bepalen.
 
    ```xml
    <type name="Magento\CatalogDataExporter\Model\Provider\Product\Attributes">
@@ -95,7 +95,7 @@ Maak een plug-in die een `customer_attribute` aan de klasse `Magento\CatalogData
 
 Als u dynamisch een attribuut van het douaneproduct creeert en het voor vertoning, onderzoek, of het filtreren in de diensten van de opslagront wilt gebruiken, voeg de meta-gegevens van de productattributen toe om het storefront gedrag te vormen.
 
-1. Werk het [ dossier van de de configuratieconfiguratie van de gebiedsdeelinjectie ](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/) (`di.xml`) bij om de stop voor de meta-gegevens van het productattribuut te bepalen.
+1. Werk het [&#x200B; dossier van de de configuratieconfiguratie van de gebiedsdeelinjectie &#x200B;](https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/) (`di.xml`) bij om de stop voor de meta-gegevens van het productattribuut te bepalen.
 
    ```xml
    <type name="\Magento\CatalogDataExporter\Model\Provider\ProductMetadata">

@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Typen Commerce-gegevens
 
-De [ uitbreiding van de Verbinding van Gegevens ](overview.md) verbindt uw gegevens van Commerce met Experience Platform. De gegevens voorgenomen voor gebruik in Experience Platform worden gegroepeerd in twee gedragstypes: tijdreeksgegevens, die tot de **klasse van de Gebeurtenis van de 1&rbrace; van de Ervaring behoren**, en verslaggegevens, die tot de **Individuele klasse van het Profiel** behoren.
+De [&#x200B; uitbreiding van de Verbinding van Gegevens &#x200B;](overview.md) verbindt uw gegevens van Commerce met Experience Platform. De gegevens voorgenomen voor gebruik in Experience Platform worden gegroepeerd in twee gedragstypes: tijdreeksgegevens, die tot de **klasse van de Gebeurtenis van de 1&rbrace; van de Ervaring behoren**, en verslaggegevens, die tot de **Individuele klasse van het Profiel** behoren.
 
-Leer meer over [ gegevensgedrag ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#data-behaviors) en [ klassen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#class) in Experience Platform.
+Leer meer over [&#x200B; gegevensgedrag &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#data-behaviors) en [&#x200B; klassen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=nl-NL#class) in Experience Platform.
 
 ## Gegevens uit tijdreeksen
 
@@ -22,20 +22,20 @@ De gegevens van de tijdreeksen verstrekken een momentopname van het systeem op h
 
 ### Vastgelegde tijdreeksgegevens
 
-Zie [ gedragsgebeurtenissen ](events.md) en [ achterkantoorgebeurtenissen ](events-backoffice.md) om te leren welke gegevens worden gevangen wanneer een gebeurtenis van de tijdreeks wordt geproduceerd.
+Zie [&#x200B; gedragsgebeurtenissen &#x200B;](events.md) en [&#x200B; achterkantoorgebeurtenissen &#x200B;](events-backoffice.md) om te leren welke gegevens worden gevangen wanneer een gebeurtenis van de tijdreeks wordt geproduceerd.
 
 ### Schema nodig om gebeurtenisgegevens voor tijdreeksen in te voeren
 
-Leer hoe te om [ een schema ](update-xdm.md) tot stand te brengen dat gedrags en de gegevens van de de tijdreeksgebeurtenis van het achterkantoor kan opnemen.
+Leer hoe te om [&#x200B; een schema &#x200B;](update-xdm.md) tot stand te brengen dat gedrags en de gegevens van de de tijdreeksgebeurtenis van het achterkantoor kan opnemen.
 
 ## Gegevens opnemen
 
-De gegevens van het verslag verstrekken informatie over de attributen van een onderwerp. Een onderwerp kan een organisatie of een individu zijn. Een winkelier op uw site maakt bijvoorbeeld een account en genereert recordgegevens. Dit gegeven wordt opgenomen in Experience Platform gebruikend een schema dat de klasse heeft die aan **Individueel Profiel** wordt geplaatst. U kunt die verslaggegevens naar het profielbeheer en de segmenteringsdienst van Adobe verzenden: [ Real-Time CDP ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html?lang=nl-NL).
+De gegevens van het verslag verstrekken informatie over de attributen van een onderwerp. Een onderwerp kan een organisatie of een individu zijn. Een winkelier op uw site maakt bijvoorbeeld een account en genereert recordgegevens. Dit gegeven wordt opgenomen in Experience Platform gebruikend een schema dat de klasse heeft die aan **Individueel Profiel** wordt geplaatst. U kunt die verslaggegevens naar het profielbeheer en de segmenteringsdienst van Adobe verzenden: [&#x200B; Real-Time CDP &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview.html?lang=nl-NL).
 
 ### Vastgelegde profielrecordgegevens
 
-Zie [ gegevens van het het profielverslag van de klant ](events-profilerecord.md) leren welke gegevens worden gevangen wanneer een profielverslag wordt geproduceerd.
+Zie [&#x200B; gegevens van het het profielverslag van de klant &#x200B;](events-profilerecord.md) leren welke gegevens worden gevangen wanneer een profielverslag wordt geproduceerd.
 
 ### Schema nodig voor het invoeren van profielrecordgegevens
 
-Leer hoe te om [ een schema ](profile-data.md) tot stand te brengen dat de gegevens van het profielverslag kan opnemen.
+Leer hoe te om [&#x200B; een schema &#x200B;](profile-data.md) tot stand te brengen dat de gegevens van het profielverslag kan opnemen.

@@ -28,22 +28,22 @@ Voordat u met deze zelfstudie begint, moet u controleren of aan de volgende voor
 
 - **Instantie van Adobe Commerce Optimizer**
    - Toegang tot een testinstantie in Cloud Manager
-   - Zie [ Begonnen ](../get-started.md) voor opstellingsinstructies krijgen
+   - Zie [&#x200B; Begonnen &#x200B;](../get-started.md) voor opstellingsinstructies krijgen
 
 - **Toestemmingen van de Gebruiker**
    - Toegang voor beheerders tot Adobe Admin Console
-   - Zie [ Gebruikersbeheer ](../user-management.md) voor rekeningsopstelling
+   - Zie [&#x200B; Gebruikersbeheer &#x200B;](../user-management.md) voor rekeningsopstelling
    - Neem contact op met uw Adobe-accountvertegenwoordiger als u geen toegang hebt.
 
 - **Gegevens van de Steekproef**
    - Carvelo Automobiel catalogusgegevens die in uw instantie zijn geladen
-   - Volg de instructies in de [ bewaarplaats van de catalogusgegevens van de Steekproef ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)
+   - Volg de instructies in de [&#x200B; bewaarplaats van de catalogusgegevens van de Steekproef &#x200B;](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion)
    - U kunt voorbeeldgegevens na voltooiing verwijderen met het meegeleverde script `reset.js`
 
 - **Milieu Storefront**
    - Lokale ontwikkelomgeving met Node.js
    - Storefront boilerplate-project gekloond en geconfigureerd
-   - Zie [ opstelling Storefront ](../storefront.md) voor gedetailleerde instructies
+   - Zie [&#x200B; opstelling Storefront &#x200B;](../storefront.md) voor gedetailleerde instructies
 
 ## Laten we beginnen
 
@@ -55,7 +55,7 @@ In dit geval gebruikt u het volgende:
 
 >[!NOTE]
 >
-> Leer over de dossiers van de storefrontconfiguratie door [ te herzien verken boilerplate ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=nl-NL) onderwerp in de documentatie van de Storefront van Adobe Commerce.
+> Leer over de dossiers van de storefrontconfiguratie door [&#x200B; te herzien verken boilerplate &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/boilerplate-project/?lang=nl-NL) onderwerp in de documentatie van de Storefront van Adobe Commerce.
 
 ### ‌ Key-trajecten
 
@@ -69,7 +69,7 @@ Aan het einde van dit artikel zult u:
 
 Carvelo Automobile is een fictief automobielconglomeraat met een complexe operationele opzet.
 
-![ Carvelo Automobile ](../assets/carvelo.png)
+![&#x200B; Carvelo Automobile &#x200B;](../assets/carvelo.png)
 
 In dit diagram zie je dat Carvelo autoproducten van drie merken verkoopt. Elk merk is een ander kindbedrijf:
 
@@ -110,19 +110,19 @@ Uiteindelijk heeft Carvelo twee belangrijke doelstellingen:
 
 ## &#x200B;1. Open de instantie [!DNL Adobe Commerce Optimizer]
 
-Navigeer naar de URL voor de Commerce Optimizer-toepassing die vooraf is geconfigureerd met de voorbeeldgegevens. U vindt de URL in Commerce Cloud Manager via de instantiedetails voor uw Commerce Optimizer-project of haalt deze op bij de systeembeheerder. (Zie [ Toegang tot een instantie ](../get-started.md#access-an-instance).)
+Navigeer naar de URL voor de Commerce Optimizer-toepassing die vooraf is geconfigureerd met de voorbeeldgegevens. U vindt de URL in Commerce Cloud Manager via de instantiedetails voor uw Commerce Optimizer-project of haalt deze op bij de systeembeheerder. (Zie [&#x200B; Toegang tot een instantie &#x200B;](../get-started.md#access-an-instance).)
 
 Wanneer u [!DNL Adobe Commerce Optimizer] start, ziet u het volgende:
 
-![[!DNL Adobe Commerce Optimizer] UI ](../assets/user-interface.png)
+![[!DNL Adobe Commerce Optimizer] UI &#x200B;](../assets/user-interface.png)
 
 >[!NOTE]
 >
->Zie het [ overzicht ](../overview.md) artikel over zeer belangrijke componenten van [!DNL Adobe Commerce Optimizer] UI leren.
+>Zie het [&#x200B; overzicht &#x200B;](../overview.md) artikel over zeer belangrijke componenten van [!DNL Adobe Commerce Optimizer] UI leren.
 
 In de linkernavigatie, breid de _sectie van de opstelling van de Opslag_ uit en klik **[!UICONTROL Catalog views]**. U ziet dat er al catalogusweergaven zijn gemaakt in de dealerschepen Arkbridge en Kingsbluff:
 
-![ Bestaande catalogusmeningen die voor steekproefgegevens ](../assets/existing-channels-list.png) worden gevormd
+![&#x200B; Bestaande catalogusmeningen die voor steekproefgegevens &#x200B;](../assets/existing-channels-list.png) worden gevormd
 
 >[!NOTE]
 >
@@ -150,7 +150,7 @@ In de volgende sectie maakt u een catalogusweergave en beleidsregels voor de dea
 
 De handelsmanager van Carvelo moet opstelling een nieuwe winkel voor een handelaar genoemd *Celport* die tot het *Oost Coast Inc* bedrijf behoort. Celport verkoopt remmen en schorsingen voor de merken Bolt en Cruz.
 
-![ Dealer van de Knol ](../assets/celport-dealer.png)
+![&#x200B; Dealer van de Knol &#x200B;](../assets/celport-dealer.png)
 
 Met [!DNL Adobe Commerce Optimizer] zal de commercebeheerder:
 
@@ -192,7 +192,7 @@ Laten wij een nieuw beleid tot stand brengen genoemd *de categorieën van het De
    >
    >Elke kenmerkwaarde moet afzonderlijk worden ingevoerd. Na het ingaan van een waarde, druk **binnengaan** om het aan de filterconfiguratie toe te voegen. Voer vervolgens de volgende waarde in. Alle waarden moeten exact overeenkomen met de naam van het SKU-kenmerk in de catalogus.
 
-   Meer over het verschil tussen een STATISCHE en TRIGGER waardebron leren, zie [ de types van waardebron ](../setup/policies.md#value-source-types).
+   Meer over het verschil tussen een STATISCHE en TRIGGER waardebron leren, zie [&#x200B; de types van waardebron &#x200B;](../setup/policies.md#value-source-types).
 
 1. Klik in het dialoogvenster **[!UICONTROL Filter details]** op **[!UICONTROL Save]** .
 
@@ -223,7 +223,7 @@ Creeer een nieuwe catalogusmening voor de *handelaar 0&rbrace; Celport &lbrace;e
 
    Merk de bestaande catalogusmeningen op: *Arkbridge*, *Kingsbluff*, en *Globale*.
 
-   ![ Bestaande de meningspagina van de Catalogus ](../assets/existing-channels-list.png)
+   ![&#x200B; Bestaande de meningspagina van de Catalogus &#x200B;](../assets/existing-channels-list.png)
 
 1. Klik op **[!UICONTROL Add catalog view]**.
 
@@ -237,13 +237,13 @@ Creeer een nieuwe catalogusmening voor de *handelaar 0&rbrace; Celport &lbrace;e
 
    De pagina met catalogusweergaven wordt bijgewerkt om de nieuwe catalogusweergave weer te geven.
 
-   ![ Bijgewerkte Lijst van de Mening van de Catalogus ](../assets/updated-catalog-view-list.png)
+   ![&#x200B; Bijgewerkte Lijst van de Mening van de Catalogus &#x200B;](../assets/updated-catalog-view-list.png)
 
 1. Hiermee wordt de weergave-id van de Celport-catalogus opgehaald.
 
    Klik het informatiepictogram voor de de catalogusmening van de Haven op de **mening van de Catalogus** pagina.
 
-   ![ identiteitskaart van de de catalogusmening van de Knol ](../assets/celport-channel-id.png)
+   ![&#x200B; identiteitskaart van de de catalogusmening van de Knol &#x200B;](../assets/celport-channel-id.png)
 
    Kopieer en sla de weergave-id van de catalogus op. U hebt deze id nodig wanneer u de winkelconfiguratie bijwerkt om gegevens naar uw nieuwe Celport-catalogus te leveren.
 
@@ -257,7 +257,7 @@ Nadat u de de catalogusmening van Celport en bijbehorend beleid creeert, is de v
 
 ## &#x200B;3. Werk uw winkel bij
 
-Het definitieve stuk van dit leerprogramma impliceert het bijwerken van de storefront dat [ u reeds ](#prerequisite) creeerde om gegevens aan de nieuwe catalogus van de Knol te leveren. In deze sectie vervangt u de catalogusweergave-id in het configuratiebestand van de winkel door de catalogusweergave-id voor Celport.
+Het definitieve stuk van dit leerprogramma impliceert het bijwerken van de storefront dat [&#x200B; u reeds &#x200B;](#prerequisite) creeerde om gegevens aan de nieuwe catalogus van de Knol te leveren. In deze sectie vervangt u de catalogusweergave-id in het configuratiebestand van de winkel door de catalogusweergave-id voor Celport.
 
 1. In uw lokale ontwikkelomgeving, open de omslag waar u de bewaarplaats GitHub met uw opslag boilerplate configuratiedossiers kloond.
 
@@ -362,19 +362,19 @@ Nu u de storefront-configuratie hebt bijgewerkt om de Celport-catalogusweergave 
 
       De browser wordt geopend voor de voorvertoning van de lokale ontwikkeling op `http://localhost:3000` .
 
-      Als het bevel ontbreekt of browser niet opent, herzie de [ instructies voor lokale ontwikkeling ](../storefront.md) in het de opstellingsonderwerp van de Storefront.
+      Als het bevel ontbreekt of browser niet opent, herzie de [&#x200B; instructies voor lokale ontwikkeling &#x200B;](../storefront.md) in het de opstellingsonderwerp van de Storefront.
 
 1. In browser, onderzoek naar `brakes`, en druk **binnengaan**.
 
    De winkel wordt bijgewerkt om de productlijstpagina met de remonderdelen weer te geven.
 
-   ![ Van het Product van Remmen het Noteren Pagina ](../assets/brakes-listing-page.png)
+   ![&#x200B; Van het Product van Remmen het Noteren Pagina &#x200B;](../assets/brakes-listing-page.png)
 
    Klik op een afbeelding van een remonderdeel om de productdetails met prijsinformatie te bekijken en de productprijsinformatie te noteren.
 
 1. Zoek naar `tires`. Dit is een andere onderdelencategorie die beschikbaar is in de gebruikscase-gegevens van uw [!DNL Adobe Commerce Optimizer] -instantie.
 
-   ![ Configuratie Storefront met Onjuiste Kopballen ](../assets/storefront-configuration-with-incorrect-headers.png)
+   ![&#x200B; Configuratie Storefront met Onjuiste Kopballen &#x200B;](../assets/storefront-configuration-with-incorrect-headers.png)
 
    Er worden geen resultaten geretourneerd. Dit komt omdat de CelPort-catalogusweergave zo is geconfigureerd dat alleen remonderdelen en ophangingsonderdelen worden verkocht.
 
@@ -428,7 +428,7 @@ Als er tijdens deze zelfstudie problemen optreden, kunt u de volgende oplossinge
 
 - **Oplossing:** bevestig dat het beleid van de catalogusmening de gezochte productcategorie toestaat
 
-Voor extra hulp, zie de [ documentatie van Adobe Commerce Optimizer ](../overview.md) of contacteer de steun van Adobe.
+Voor extra hulp, zie de [&#x200B; documentatie van Adobe Commerce Optimizer &#x200B;](../overview.md) of contacteer de steun van Adobe.
 
 ## Samenvatting
 
@@ -443,8 +443,8 @@ In deze zelfstudie hebt u het volgende bereikt:
 
 Ga als volgt te werk om meer te leren over Adobe Commerce Optimizer:
 
-- Verken [ het koopvaardiseren eigenschappen ](../merchandising/overview.md) om de het winkelen ervaring te personaliseren
-- Leer over [ geavanceerde beleidsconfiguraties ](../setup/policies.md)
-- Opstelling [ extra catalogusmeningen ](../setup/catalog-view.md) voor andere dealership
-- Herzie de [ API documentatie ](https://developer.adobe.com/commerce/services/optimizer/) voor programmatic catalogusbeheer
-- Leer hoe u drop-in componenten voor uw Edge Delivery Services-winkel kunt configureren om aangepaste storefront-ervaringen te maken voor productdetectie, aanbevelingen en andere opslagmogelijkheden. Zie de [ documentatie Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=nl-NL)
+- Verken [&#x200B; het koopvaardiseren eigenschappen &#x200B;](../merchandising/overview.md) om de het winkelen ervaring te personaliseren
+- Leer over [&#x200B; geavanceerde beleidsconfiguraties &#x200B;](../setup/policies.md)
+- Opstelling [&#x200B; extra catalogusmeningen &#x200B;](../setup/catalog-view.md) voor andere dealership
+- Herzie de [&#x200B; API documentatie &#x200B;](https://developer.adobe.com/commerce/services/optimizer/) voor programmatic catalogusbeheer
+- Leer hoe u drop-in componenten voor uw Edge Delivery Services-winkel kunt configureren om aangepaste storefront-ervaringen te maken voor productdetectie, aanbevelingen en andere opslagmogelijkheden. Zie de [&#x200B; documentatie Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=nl-NL)

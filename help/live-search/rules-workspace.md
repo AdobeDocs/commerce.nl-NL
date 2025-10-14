@@ -18,15 +18,15 @@ De *Merchandising van het Onderzoek* werkruimte maakt een lijst van de huidige s
 * Regels verwijderen
 * Toegang tot de regeleditor
 
-![ het Merchandising van het Onderzoek Workspace ](assets/rules-workspace.png)
+![&#x200B; het Merchandising van het Onderzoek Workspace &#x200B;](assets/rules-workspace.png)
 
 ## Bereik instellen
 
-Als uw installatie van Adobe Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) waar uw regels van toepassing zijn.
+Als uw installatie van Adobe Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) waar uw regels van toepassing zijn.
 
 ## Kolommen tonen/verbergen
 
-1. In de hoger-juiste hoek, klik **tonen/verbergen** ![ selecteur van de Kolom ](assets/btn-show-hide-columns.png) kolommen.
+1. In de hoger-juiste hoek, klik **tonen/verbergen** ![&#x200B; selecteur van de Kolom &#x200B;](assets/btn-show-hide-columns.png) kolommen.
 De zichtbare kolommen hebben een blauw vinkje in het optiemenu. De regelnaam is de enige kolom die niet kan worden verborgen.
 
 1. Voer in het menu een van de volgende handelingen uit:
@@ -50,7 +50,7 @@ De zichtbare kolommen hebben een blauw vinkje in het optiemenu. De regelnaam is 
 Typ de naam van de regel of een willekeurig woord in de regelnaam.
 Met Zoeken zoekt u de overeenkomende regel(s) terwijl u typt. De tekenreeks met overeenkomende tekens wordt gemarkeerd in de naam van elke gevonden regel.
 
-![ Regels - vind door naam ](assets/rules-workspace-search-name.png)
+![&#x200B; Regels - vind door naam &#x200B;](assets/rules-workspace-search-name.png)
 
 ## Details weergeven
 
@@ -66,7 +66,7 @@ U kunt een van de volgende handelingen uitvoeren in het deelvenster Details weer
 
 1. Om het *paneel van de Details van de Mening* te sluiten, klik **dicht** (X) in de hoger-juiste hoek.
 
-   ![ Regel - details ](assets/rules-workspace-details.png)
+   ![&#x200B; Regel - details &#x200B;](assets/rules-workspace-details.png)
 
 ## Kolombeschrijvingen
 
@@ -82,11 +82,11 @@ U kunt een van de volgende handelingen uitvoeren in het deelvenster Details weer
 
 | Besturing | Beschrijving |
 |--- |--- |
-| Regel toevoegen | Opent de [ regelredacteur ](rules-add.md). |
+| Regel toevoegen | Opent de [&#x200B; regelredacteur &#x200B;](rules-add.md). |
 | Status | Hiermee filtert u de lijst met regels op status. Opties: Alle, Actief, Inactief, Gepland |
-| ![ de selecteur van de Kolom ](assets/btn-show-hide-columns.png) | Hiermee geeft u de kolommen op die zichtbaar zijn in het raster. Opties: Laatst bijgewerkt, Begindatum, Einddatum, Status |
+| ![&#x200B; de selecteur van de Kolom &#x200B;](assets/btn-show-hide-columns.png) | Hiermee geeft u de kolommen op die zichtbaar zijn in het raster. Opties: Laatst bijgewerkt, Begindatum, Einddatum, Status |
 | Zoeken | Zoekt naar een regel op volledige naam of gedeeltelijke gelijke. |
-| ![ Meer selecteur ](assets/btn-more.png) | Toont een menu van meer acties die op de geselecteerde regel kunnen worden toegepast. Opties: bewerken, details weergeven, verwijderen |
+| ![&#x200B; Meer selecteur &#x200B;](assets/btn-more.png) | Toont een menu van meer acties die op de geselecteerde regel kunnen worden toegepast. Opties: bewerken, details weergeven, verwijderen |
 
 ## Regeldetails
 

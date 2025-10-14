@@ -14,7 +14,7 @@ Volg deze instructies om de eigenschappen van bestaande facetten bij te werken o
 
 ## Prijsfacetgroepen configureren
 
-Verwijs naar [ Montages ](settings.md) om prijsfacetintervallen en groeperingen te vormen.
+Verwijs naar [&#x200B; Montages &#x200B;](settings.md) om prijsfacetintervallen en groeperingen te vormen.
 
 ## facet bewerken
 
@@ -24,28 +24,28 @@ Verwijs naar [ Montages ](settings.md) om prijsfacetintervallen en groeperingen 
    * Vastgezet
    * Dynamisch
 
-   Meer leren, ga naar [ Types van Facet ](facets-type.md).
+   Meer leren, ga naar [&#x200B; Types van Facet &#x200B;](facets-type.md).
 
-   ![ de facetten van de Filter ](assets/facets-filter-by-cropped.png)
+   ![&#x200B; de facetten van de Filter &#x200B;](assets/facets-filter-by-cropped.png)
 
 1. Om de faceteigenschappen uit te geven, klik **Meer** (...) opties.
 1. Klik **uitgeven**
 
-   ![ geef opties ](assets/facet-edit-menu.png) uit
+   ![&#x200B; geef opties &#x200B;](assets/facet-edit-menu.png) uit
 
 1. Voer een van de volgende handelingen uit om het label van het facet te bewerken:
 
-   * Voor a [!DNL Commerce] storefront, geef het [ attributenetiket ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=nl-NL) uit.
+   * Voor a [!DNL Commerce] storefront, geef het [&#x200B; attributenetiket &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=nl-NL) uit.
    * Voor een implementatie zonder kop klikt u op de waarde in de eerste kolom en bewerkt u de tekst naar wens.
 
-   ![ geef etiket ](assets/facet-edit-label.png) uit
+   ![&#x200B; geef etiket &#x200B;](assets/facet-edit-label.png) uit
 
 1. (Alleen Headless) Als u de methode wilt wijzigen die wordt gebruikt om de waarden van facetten te sorteren, klikt u op de waarde in de kolom Type sorteren *en kiest u een van de volgende opties:*
 
    * Alfabetisch
    * Aantal
 
-   ![ geef telling ](assets/facets-edit-count.png) uit
+   ![&#x200B; geef telling &#x200B;](assets/facets-edit-count.png) uit
 
 1. In de **Max kolom van de Waarde**, plaats het maximumaantal (van 0 - 10) van de waarden van de facetfilter in de storefront te tonen.
 1. Wanneer volledig, klik **sparen**.
@@ -56,15 +56,15 @@ Verwijs naar [ Montages ](settings.md) om prijsfacetintervallen en groeperingen 
 
 Het speld verandert kleur wanneer geklikt en wordt gebruikt om de facet aan of *vastgezette Facets* of de *Dynamische sectie van Facetten* te bewegen.
 
-1. Om een facet aan de bovenkant van de *lijst van Filters* vast te zetten, vind de facet in de *Dynamische lijst van Facetten* en klik het grijze speld (![ Vastzetten selecteur ](assets/btn-pin-gray.png)).
+1. Om een facet aan de bovenkant van de *lijst van Filters* vast te zetten, vind de facet in de *Dynamische lijst van Facetten* en klik het grijze speld (![&#x200B; Vastzetten selecteur &#x200B;](assets/btn-pin-gray.png)).
 
    De speld wordt blauw en de facetbewegingen aan de *Vastgezette sectie van Facetten*.
 
-1. Om een facet los te maken, vind het facet in de *Vastgezette lijst van Facetten* en klik het blauwe speld (![ Vastzetten selecteur ](assets/btn-pin-blue.png)).
+1. Om een facet los te maken, vind het facet in de *Vastgezette lijst van Facetten* en klik het blauwe speld (![&#x200B; Vastzetten selecteur &#x200B;](assets/btn-pin-blue.png)).
 
    De speld verandert grijs en de facetbewegingen aan de *Dynamische sectie van Facetten*.
 
-   ![ Vastgezette en dynamische facetten ](assets/facets-pinned-unpinned.png)
+   ![&#x200B; Vastgezette en dynamische facetten &#x200B;](assets/facets-pinned-unpinned.png)
 
 >[!NOTE]
 >
@@ -76,10 +76,10 @@ Het speld verandert kleur wanneer geklikt en wordt gebruikt om de facet aan of *
 >
 >De volgorde van vastgezette facetten wordt alleen ondersteund in implementaties zonder kop. Gebruik de [!DNL Live Search] PLP-widget als geordende facetten nodig zijn.
 
-U kunt de volgorde van vastgezette facetten wijzigen door de rij naar een andere positie te verplaatsen. De vastgezette facetten hebben a *pictogram van de Beweging ![ (](assets/btn-move.png)) aan het begin van de rij.* In tegenstelling tot vastgezette facetten kunnen dynamische facetten niet worden verplaatst.
+U kunt de volgorde van vastgezette facetten wijzigen door de rij naar een andere positie te verplaatsen. De vastgezette facetten hebben a *pictogram van de Beweging ![&#x200B; (](assets/btn-move.png)) aan het begin van de rij.* In tegenstelling tot vastgezette facetten kunnen dynamische facetten niet worden verplaatst.
 
 1. Vind het facet in de *Vastgezette sectie van Facetten* van de lijst.
-1. Gebruik het **pictogram van de Beweging** (![ selecteur van de Beweging ](assets/btn-move.png)) om de rij aan een nieuwe positie in de *Vastgezette sectie van Facetten* te slepen.
+1. Gebruik het **pictogram van de Beweging** (![&#x200B; selecteur van de Beweging &#x200B;](assets/btn-move.png)) om de rij aan een nieuwe positie in de *Vastgezette sectie van Facetten* te slepen.
 
    Nadat de veranderingen worden gepubliceerd, verschijnen de opnieuw in orde gebrachte facetten in de opslag *lijst van Filters*.
 

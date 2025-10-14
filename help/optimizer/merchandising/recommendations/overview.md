@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Inleiding tot aanbevelingen
 
-Aanbevelingen zijn een krachtig marketinginstrument dat u kunt gebruiken om conversies te verhogen, inkomsten te verhogen en de betrokkenheid van winkels te stimuleren. De aanbevelingen worden aangedreven door [ Adobe Sensei ](https://www.adobe.com/sensei.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Als deze gegevens worden gecombineerd met uw Adobe Commerce-catalogus, resulteert dit in een zeer aantrekkelijke, relevante en persoonlijke ervaring.
+Aanbevelingen zijn een krachtig marketinginstrument dat u kunt gebruiken om conversies te verhogen, inkomsten te verhogen en de betrokkenheid van winkels te stimuleren. De aanbevelingen worden aangedreven door [&#x200B; Adobe Sensei &#x200B;](https://www.adobe.com/sensei.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Als deze gegevens worden gecombineerd met uw Adobe Commerce-catalogus, resulteert dit in een zeer aantrekkelijke, relevante en persoonlijke ervaring.
 
 Aanbevelingen worden in de winkel weergegeven als eenheden met labels, zoals &quot;Klanten die dit product ook hebben bekeken&quot;. U kunt rechtstreeks vanuit de Adobe Commerce Optimizer aanbevelingen maken, beheren en implementeren in uw winkelweergaven.
 
 ## Privacy
 
-Gegevensverzameling ten behoeve van aanbevelingen omvat geen persoonlijk identificeerbare informatie (PII). Ook, zijn alle gebruikers - herkenningstekens zoals koekje IDs en IP adressen strikt geanonimiseerd. Meer leren, zie het [ Beleid van de Privacy van Adobe ](https://www.adobe.com/privacy/policy.html).
+Gegevensverzameling ten behoeve van aanbevelingen omvat geen persoonlijk identificeerbare informatie (PII). Ook, zijn alle gebruikers - herkenningstekens zoals koekje IDs en IP adressen strikt geanonimiseerd. Meer leren, zie het [&#x200B; Beleid van de Privacy van Adobe &#x200B;](https://www.adobe.com/privacy/policy.html).
 
-De gebruikers van aanbevelingen kunnen naar de [ synchronisatie van Gegevens ](../../setup/data-sync.md) pagina voor meer gegevens over gegevens over het synchroniseren verwijzen.
+De gebruikers van aanbevelingen kunnen naar de [&#x200B; synchronisatie van Gegevens &#x200B;](../../setup/data-sync.md) pagina voor meer gegevens over gegevens over het synchroniseren verwijzen.

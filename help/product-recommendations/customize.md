@@ -14,7 +14,7 @@ Wanneer u de module Productaanbevelingen installeert, maakt Adobe Commerce de ma
 
 `<your theme>/Magento_ProductRecommendationsLayout/web/template/recommendations.html`
 
-Voor meer informatie over het wijzigen van malplaatjedossiers, verwijs naar [ aanpassing van het Malplaatje ](https://developer.adobe.com/commerce/frontend-core/guide/templates/walkthrough/) in de Voorste Gids van de Ontwikkelaar.
+Voor meer informatie over het wijzigen van malplaatjedossiers, verwijs naar [&#x200B; aanpassing van het Malplaatje &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/templates/walkthrough/) in de Voorste Gids van de Ontwikkelaar.
 
 Als u het bestand `recommendations.html` wijzigt, moet u de volgende tags in het bestand behouden om ervoor te zorgen dat Adobe Commerce gegevens over aanbevelingen kan verzamelen van uw winkel:
 
@@ -34,7 +34,7 @@ Naast het bestand `recommendations.html` bevat de map `ProductRecommendationsLay
 
 ## Positionering van de aanbevolen eenheid
 
-Wanneer u [&#128279;](create.md) creeert een aanbeveling, specificeert u de [ plaats ](placement.md) waar het op de pagina verschijnt. Een aanbevolen eenheid kan boven of onder aan de hoofdinhoudscontainer worden geplaatst. U kunt deze plaatsing echter aanpassen. Als u een type van de aanbeveling van de Bouwer van de Pagina adviserende inhoud creeert, gebruik de hulpmiddelen van de Bouwer van de Pagina om de aanbeveling op de pagina te plaatsen. Bewerk voor alle andere paginatypen de `*.xml` -bestanden die worden gegenereerd wanneer de aanbeveling wordt gemaakt.
+Wanneer u [&#128279;](create.md) creeert een aanbeveling, specificeert u de [&#x200B; plaats &#x200B;](placement.md) waar het op de pagina verschijnt. Een aanbevolen eenheid kan boven of onder aan de hoofdinhoudscontainer worden geplaatst. U kunt deze plaatsing echter aanpassen. Als u een type van de aanbeveling van de Bouwer van de Pagina adviserende inhoud creeert, gebruik de hulpmiddelen van de Bouwer van de Pagina om de aanbeveling op de pagina te plaatsen. Bewerk voor alle andere paginatypen de `*.xml` -bestanden die worden gegenereerd wanneer de aanbeveling wordt gemaakt.
 
 1. Ga naar de map `layout` :
 
@@ -102,7 +102,7 @@ Wanneer u [&#128279;](create.md) creeert een aanbeveling, specificeert u de [ pl
 
    Deze wijziging leidt ertoe dat uw aanbevolen eenheid wordt weergegeven na de productafbeelding op de pagina met productdetails. Als u de aanbeveling-eenheid vóór `product.info.media` wilt weergeven, wijzigt u het kenmerk `after="-"` in `before="-"` . Het argument `pagePlacement` is een intern argument dat niet mag worden gewijzigd.
 
-Verwijs naar [ lay-outoverzicht ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) voor meer informatie over de types van blokken op de pagina.
+Verwijs naar [&#x200B; lay-outoverzicht &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) voor meer informatie over de types van blokken op de pagina.
 
 ## Aangepaste productkenmerken
 
@@ -110,9 +110,9 @@ Ontwikkelaars hebben vaak toegang nodig tot aangepaste productkenmerkwaarden in 
 
 Als uw winkel bijvoorbeeld bepaalde biologische producten verkoopt, hebt u mogelijk een aangepast kenmerk op die producten dat deze aanwijst als `Organic = Yes` . Mogelijk hebt u toegang tot deze kenmerkwaarde op de winkel nodig, zodat u deze producten een speciale visuele behandeling kunt geven wanneer ze in Aanbevelingen worden weergegeven. Op dezelfde manier staat de toegang tot deze waarden van de douaneproductattributen u toe om producten te badge of douanelogica in de presentatielaag van uw plaats te drijven.
 
-![ voeg Badge ](assets/unit-custom.png) toe
+![&#x200B; voeg Badge &#x200B;](assets/unit-custom.png) toe
 
-Om ervoor te zorgen is een attribuut van het douaneproduct beschikbaar wanneer u de aanbeveling op de pagina teruggeeft, plaats het `Used in Product Listing` bezit aan `Yes` in de [ pagina van de Attributen van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=nl-NL) in Admin.
+Om ervoor te zorgen is een attribuut van het douaneproduct beschikbaar wanneer u de aanbeveling op de pagina teruggeeft, plaats het `Used in Product Listing` bezit aan `Yes` in de [&#x200B; pagina van de Attributen van het Product &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=nl-NL) in Admin.
 
 Wanneer deze eigenschap is ingesteld, bevat de JSON-payload een `attributes` -object dat een array van kenmerkcodes en -waarden bevat. Vervolgens kunt u aangepaste opmaakcodes voor winkels toepassen op basis van deze kenmerkwaarden, zoals speciale visuele behandelingen of badges toevoegen zoals eerder vermeld.
 

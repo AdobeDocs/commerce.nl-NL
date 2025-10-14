@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aangepaste automatische matching
 
-Als de standaard automatische passende strategie (**automatische aanpassing OTB**) niet met uw specifieke bedrijfsvereisten wordt gericht, selecteer de optie van de douanegelijke. Deze optie steunt het gebruik van [ Adobe Developer App Builder ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) om een toepassing van de douanematcher te ontwikkelen die complexe passende logica, of activa behandelt die uit een derdesysteem komen dat meta-gegevens in AEM Assets niet kan bevolken.
+Als de standaard automatische passende strategie (**automatische aanpassing OTB**) niet met uw specifieke bedrijfsvereisten wordt gericht, selecteer de optie van de douanegelijke. Deze optie steunt het gebruik van [&#x200B; Adobe Developer App Builder &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) om een toepassing van de douanematcher te ontwikkelen die complexe passende logica, of activa behandelt die uit een derdesysteem komen dat meta-gegevens in AEM Assets niet kan bevolken.
 
 ## Aangepaste automatische overeenkomsten configureren
 
@@ -24,7 +24,7 @@ Als de standaard automatische passende strategie (**automatische aanpassing OTB*
 
 ## Eindpunten voor aangepaste matcher-API
 
-Wanneer u een toepassing van de douanematcher gebruikend [ App Builder ](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank} bouwt, moet de toepassing de volgende eindpunten blootstellen:
+Wanneer u een toepassing van de douanematcher gebruikend [&#x200B; App Builder &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank} bouwt, moet de toepassing de volgende eindpunten blootstellen:
 
 * **activa van App Builder aan productURL** eindpunt
 * **het product van App Builder aan activaURL** eindpunt
@@ -176,6 +176,6 @@ De parameter `asset_matches` bevat de volgende kenmerken:
 | Kenmerk | Gegevenstype | Beschrijving |
 | --- | --- | --- |
 | `asset_id` | String | Vertegenwoordigt de bijgewerkte element-id. |
-| `asset_roles` | String | Retourneert alle beschikbare elementrollen. Gebruikt gesteunde [ Commerce activa rollen ](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles) als `thumbnail`, `image`, `small_image`, en `swatch_image`. |
+| `asset_roles` | String | Retourneert alle beschikbare elementrollen. Gebruikt gesteunde [&#x200B; Commerce activa rollen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles) als `thumbnail`, `image`, `small_image`, en `swatch_image`. |
 | `asset_format` | String | Geeft de beschikbare indelingen voor het element. Mogelijke waarden zijn `image` en `video` . |
 | `asset_position` | String | Hiermee geeft u de positie van het element weer. |

@@ -16,7 +16,7 @@ Het instapproces voor [!DNL Product Recommendations] vereist toegang tot de opdr
 - [Implementatieworkflow](implementation-workflow.md)
 - [Installeren en configureren](install-configure.md)
 - [Instellingen](settings.md)
-- [ verifieer ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/)
+- [&#x200B; verifieer &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/)
 - [Stationele omgeving](staging-environment.md)
 
 ## Vereisten
@@ -36,18 +36,18 @@ Het instapproces voor [!DNL Product Recommendations] vereist toegang tot de opdr
 
 ### Ondersteuning voor Page Builder
 
-[!DNL Product Recommendations] kan aan een pagina worden toegevoegd als een inhoudstype van de Bouwer van de Pagina. Om de steun van de Bouwer van de Pagina aan de Aanbevelingen van het Product toe te voegen, verwijs naar [ installeer en vorm ](install-configure.md).
+[!DNL Product Recommendations] kan aan een pagina worden toegevoegd als een inhoudstype van de Bouwer van de Pagina. Om de steun van de Bouwer van de Pagina aan de Aanbevelingen van het Product toe te voegen, verwijs naar [&#x200B; installeer en vorm &#x200B;](install-configure.md).
 
-Zie [[!DNL Page Builder]  Integratie ](page-builder.md) voor instructies op hoe te om [!DNL Product Recommendations] in [!DNL Page Builder] inhoud toe te voegen.
+Zie [[!DNL Page Builder]  Integratie &#x200B;](page-builder.md) voor instructies op hoe te om [!DNL Product Recommendations] in [!DNL Page Builder] inhoud toe te voegen.
 
 ### Prijsindexering SaaS
 
-De klanten van de Aanbeveling van het product kunnen [ Prijs gebruiken SaaS indexerend ](../price-index/price-indexing.md), die snellere prijsveranderingen updates en synchronisatietijd verstrekt.
+De klanten van de Aanbeveling van het product kunnen [&#x200B; Prijs gebruiken SaaS indexerend &#x200B;](../price-index/price-indexing.md), die snellere prijsveranderingen updates en synchronisatietijd verstrekt.
 
 ### B2B-ondersteuning {#b2bsupport}
 
-B2B-winkels vereisen vaak complexe logica die de zichtbaarheid en prijsstelling van het product voor elke winkel of klantengroep bepaalt. [!DNL Product Recommendations] nu [ steun ](release-notes.md) deze functionaliteit door [ categorietoestemmingen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=nl-NL), [ gedeelde catalogi ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=nl-NL), en [ klant groep-specifieke tarifering ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=nl-NL) te ontvangen. Bijvoorbeeld, als u bepaalde categorieën van uw retailklantensegment hebt verborgen, dan zou een verkoopster in dat segment geen aanbevelingen voor producten in die categorieën worden getoond. Ook, wanneer u een gedeelde catalogus voor specifieke klantengroepen en bedrijven bepaalt, zien die kopers aanbevelingen slechts voor producten zij kunnen toegang hebben. Alle geadviseerde producten weerspiegelen correcte klant groep-specifieke prijs die op de klantengroep van elke klant wordt gebaseerd.
+B2B-winkels vereisen vaak complexe logica die de zichtbaarheid en prijsstelling van het product voor elke winkel of klantengroep bepaalt. [!DNL Product Recommendations] nu [&#x200B; steun &#x200B;](release-notes.md) deze functionaliteit door [&#x200B; categorietoestemmingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=nl-NL), [&#x200B; gedeelde catalogi &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=nl-NL), en [&#x200B; klant groep-specifieke tarifering &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=nl-NL) te ontvangen. Bijvoorbeeld, als u bepaalde categorieën van uw retailklantensegment hebt verborgen, dan zou een verkoopster in dat segment geen aanbevelingen voor producten in die categorieën worden getoond. Ook, wanneer u een gedeelde catalogus voor specifieke klantengroepen en bedrijven bepaalt, zien die kopers aanbevelingen slechts voor producten zij kunnen toegang hebben. Alle geadviseerde producten weerspiegelen correcte klant groep-specifieke prijs die op de klantengroep van elke klant wordt gebaseerd.
 
 >[!NOTE]
 >
->De handelaars kunnen widgets of storefront elementen aanpassen en uitbreiden door de [ Storefront API van de Dienst van de Catalogus te gebruiken ](../catalog-service/overview.md) maar om het even welke aanpassing is buiten werkingsgebied voor het ondersteuningsteam van Adobe.
+>De handelaars kunnen widgets of storefront elementen aanpassen en uitbreiden door de [&#x200B; Storefront API van de Dienst van de Catalogus te gebruiken &#x200B;](../catalog-service/overview.md) maar om het even welke aanpassing is buiten werkingsgebied voor het ondersteuningsteam van Adobe.

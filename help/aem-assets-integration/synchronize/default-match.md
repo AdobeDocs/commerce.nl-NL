@@ -20,7 +20,7 @@ De integratie van AEM Assets voor Commerce verstrekt een standaard automatisch p
 
 1. Geef **[!UICONTROL Match by SKU]** op als overeenkomende regel.
 
-   ![ standaard geautomatiseerde aanpassingsregel ](../assets/ootb-matching-rule.png){width="600" zoomable="yes"}
+   ![&#x200B; standaard geautomatiseerde aanpassingsregel &#x200B;](../assets/ootb-matching-rule.png){width="600" zoomable="yes"}
 
 1. Voer in de AEM Assets de veldnaam voor metagegevens in die wordt gebruikt voor de identificatie van elementen.
 
@@ -32,7 +32,7 @@ De integratie van AEM Assets voor Commerce verstrekt een standaard automatisch p
 
 Als de **[!UICONTROL Match by product SKU]** -regel voor overeenkomende bestanden is geconfigureerd in Commerce Admin, worden Commerce-elementbestanden automatisch gesynchroniseerd van AEM Assets naar uw Commerce-project op basis van de metagegevens van de elementen die voor elk bestand zijn geconfigureerd. U vormt de meta-gegevens van het AEM **Commerce** lusje in het **de auteur van AEM Assets** milieu:
 
-![ meta-gegevens van het Voorbeeld ](../assets/example-metadata.png){width="600" zoomable="yes"}
+![&#x200B; meta-gegevens van het Voorbeeld &#x200B;](../assets/example-metadata.png){width="600" zoomable="yes"}
 
 1. Werk in AEM Assets de metagegevens van de afbeelding bij en voeg de Adobe Commerce-koppeling `Commerce=yes` toe.
 

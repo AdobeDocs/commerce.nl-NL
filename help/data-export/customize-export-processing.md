@@ -23,7 +23,7 @@ Adobe raadt aan de standaardconfiguratie voor gegevensinvoer te gebruiken, die d
 
 Houd rekening met de volgende belangrijke factoren wanneer u besluit of u de configuratie voor het exporteren van gegevens wilt aanpassen:
 
-- **Aanvankelijke Synchronisatie** - evalueert het aantal producten en [ schat het gegevensvolume en de transmissietijd ](estimate-data-volume-sync-time.md) die op de standaardconfiguratie wordt gebaseerd. Vraag uzelf: Kan u wachten op deze eerste gegevenssynchronisatie na het instappen van een Commerce-service?
+- **Aanvankelijke Synchronisatie** - evalueert het aantal producten en [&#x200B; schat het gegevensvolume en de transmissietijd &#x200B;](estimate-data-volume-sync-time.md) die op de standaardconfiguratie wordt gebaseerd. Vraag uzelf: Kan u wachten op deze eerste gegevenssynchronisatie na het instappen van een Commerce-service?
 
 - **Toevoegend de Nieuwe Mening van de Opslag of Websites** - als u van plan bent om opslagmeningen of websites met de zelfde producttelling toe te voegen na het gaan levende, schat het gegevensvolume en transmissietijd. Bepaal of de synchronisatietijd met de standaardconfiguratie aanvaardbaar is of als multi-draadverwerking noodzakelijk is.
 
@@ -39,7 +39,7 @@ Herinner dat de doordachte planning, met inbegrip van het schatten van gegevensv
 
 ## Multithreading configureren
 
-De multithread wijze wordt gesteund voor al [ synchronisatiemethodes ](data-synchronization.md#synchronization-process) - volledige synchronisatie, gedeeltelijke synchronisatie, en ontbroken puntensynchronisatie. Om multi-threading te vormen, specificeert u het aantal draden en partijgrootte om tijdens synchronisatie te gebruiken.
+De multithread wijze wordt gesteund voor al [&#x200B; synchronisatiemethodes &#x200B;](data-synchronization.md#synchronization-process) - volledige synchronisatie, gedeeltelijke synchronisatie, en ontbroken puntensynchronisatie. Om multi-threading te vormen, specificeert u het aantal draden en partijgrootte om tijdens synchronisatie te gebruiken.
 
 - `thread-count` is het aantal threads dat is geactiveerd om entiteiten te verwerken. De standaardwaarde `thread-count` is `1` .
 - `batch-size` is het aantal entiteiten dat in één herhaling wordt verwerkt. De standaardwaarde `batch-size` is `100` records voor alle feeds behalve de prijsfeed. De standaardwaarde voor de prijsfeed is `500` records.
@@ -64,7 +64,7 @@ De opties op de opdrachtregel overschrijven de configuratie voor gegevensexport 
 
 Als u alle bewerkingen voor het exporteren van gegevens wilt verwerken met multithreading, kunnen systeemintegrators of ontwikkelaars het aantal threads en de batch-grootte voor elke feed in de Commerce-toepassingsconfiguratie wijzigen.
 
-Deze veranderingen kunnen worden toegepast door douanewaarden aan de [ systeemsectie ](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system) van het configuratiedossier toe te voegen, `app/etc/config.php`.
+Deze veranderingen kunnen worden toegepast door douanewaarden aan de [&#x200B; systeemsectie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/files/config-reference-configphp#system) van het configuratiedossier toe te voegen, `app/etc/config.php`.
 
 **Voorbeeld: Het vormen multithreading voor producten en prijzen**
 

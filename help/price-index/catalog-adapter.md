@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # Catalogusadapter
 
-De `[!DNL Catalog Adapter]` uitbreiding maakt de indexator van de standaardproductprijs inbegrepen in de toepassing van Commerce onbruikbaar en gebruikt prijzen die door de [ Dienst van de Catalogus ](../catalog-service/overview.md) in plaats daarvan worden verstrekt.
+De `[!DNL Catalog Adapter]` uitbreiding maakt de indexator van de standaardproductprijs inbegrepen in de toepassing van Commerce onbruikbaar en gebruikt prijzen die door de [&#x200B; Dienst van de Catalogus &#x200B;](../catalog-service/overview.md) in plaats daarvan worden verstrekt.
 
-De adapter wordt ontworpen om met de [ SaaS gegevensuitvoer ](../data-export/overview.md) en de Dienst van Adobe Commerce te werken. De SaaS-gegevensuitvoer is verantwoordelijk voor het indienen van de prijzen en de [!DNL Catalog Adapter] haalt alle prijzen op van de Adobe Commerce Service.
+De adapter wordt ontworpen om met de [&#x200B; SaaS gegevensuitvoer &#x200B;](../data-export/overview.md) en de Dienst van Adobe Commerce te werken. De SaaS-gegevensuitvoer is verantwoordelijk voor het indienen van de prijzen en de [!DNL Catalog Adapter] haalt alle prijzen op van de Adobe Commerce Service.
 
 Wanneer u de optie [!DNL Catalog Adapter] inschakelt, worden prijsindexering en bewerkingen op de volgende manieren beïnvloed:
 
 - De prijsindex die in de Adobe Commerce-toepassing is opgenomen, is uitgeschakeld.
-- De prijzen worden beheerd gebruikend de SaaS gegevensuitvoer en de [ prijsindexeerder SaaS ](price-indexing.md).
+- De prijzen worden beheerd gebruikend de SaaS gegevensuitvoer en de [&#x200B; prijsindexeerder SaaS &#x200B;](price-indexing.md).
 - Wanneer een klant een product, categorie of andere pagina opent waarop de productprijzen worden weergegeven, worden de prijzen opgehaald van de Adobe Commerce Service.
-- De prijzen worden verzonden naar de Dienst van Adobe Commerce door gegevens van de [ gegevens te synchroniseren SaaS uitvoeren ](../data-export/overview.md).
+- De prijzen worden verzonden naar de Dienst van Adobe Commerce door gegevens van de [&#x200B; gegevens te synchroniseren SaaS uitvoeren &#x200B;](../data-export/overview.md).
 - Met Afhandeling worden de prijzen dynamisch opnieuw berekend.
 
 U kunt prijsindexering in de toepassing van Commerce opnieuw toelaten door de uitbreiding van de Adapter van de Catalogus te verwijderen of onbruikbaar te maken.
@@ -56,7 +56,7 @@ Gebruik deze methode om [!DNL Catalog Adapter] voor een Commerce Cloud-instantie
 
    >[!NOTE]
    >
-   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [ het Leiden takken met CLI ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
+   >Voor informatie over het beheren van het projectmilieu&#39;s van Commerce plaatselijk, zie [&#x200B; het Leiden takken met CLI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/cli-branches) in _Adobe Commerce op de Gids van de Gebruiker van de Infrastructuur van de Wolk_.
 
 1. Bekijk de omgevingsvertakking voor update met de Adobe Commerce Cloud CLI.
 
@@ -86,7 +86,7 @@ Gebruik deze methode om [!DNL Catalog Adapter] voor een Commerce Cloud-instantie
    git push origin <branch-name>
    ```
 
-   Het duwen van de updates aan het wolkenmilieu stelt het [ proces van de wolkenplaatsing van Commerce ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [ opstellen logboek ](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Het duwen van de updates aan het wolkenmilieu stelt het [&#x200B; proces van de wolkenplaatsing van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/deploy/process) in werking om de veranderingen toe te passen. Controleer de plaatsingsstatus van [&#x200B; opstellen logboek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB  op-gebouw ]
 

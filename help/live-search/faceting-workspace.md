@@ -12,11 +12,11 @@ ht-degree: 0%
 
 De *Faceting* werkruimte maakt een lijst van alle facetten die momenteel beschikbaar zijn en verleent toegang tot de hulpmiddelen u aan opstelling en beheert facetten nodig hebt. Vastgezette facetten worden als eerste weergegeven in de lijst met bestaande facetten, gevolgd door dynamische facetten. De lijst kan worden gefilterd om alle facetten, of slechts die te tonen die worden vastgezet of dynamisch.
 
-![ Facetend werkruimte ](assets/faceting-workspace.png)
+![&#x200B; Facetend werkruimte &#x200B;](assets/faceting-workspace.png)
 
 ## Bereik instellen
 
-Als uw installatie van Adobe Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) waar uw facetmontages van toepassing zijn.
+Als uw installatie van Adobe Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) waar uw facetmontages van toepassing zijn.
 
 ## De lijst filteren
 
@@ -30,19 +30,19 @@ Als uw installatie van Adobe Commerce veelvoudige opslagmeningen omvat, plaats *
 ## Een facet toevoegen
 
 1. Klik **toevoegen facetten**.
-1. Zie [ Facetten ](facets-add.md) voor gedetailleerde instructies toevoegen.
+1. Zie [&#x200B; Facetten &#x200B;](facets-add.md) voor gedetailleerde instructies toevoegen.
 
 ## Kolombeschrijvingen
 
 | Kolom | Beschrijving |
 |--- |--- |
-| (eerste kolom) | Lijsten vastgezette en dynamische facetten door het [ etiket ](facets-type.md) dat aan de verkoopster zichtbaar is. |
-| Tekst sorteren | De [ sorterende orde ](facets-type.md) van facetwaarden. Facetten worden alfabetisch gesorteerd voor alle [!DNL Commerce] storefronts. Voor [ hoofdloze ] implementaties, kunnen de facetten of alfabetisch of door telling worden gesorteerd. Opties: Alfabetisch, Aantal (alleen zonder kop) |
+| (eerste kolom) | Lijsten vastgezette en dynamische facetten door het [&#x200B; etiket &#x200B;](facets-type.md) dat aan de verkoopster zichtbaar is. |
+| Tekst sorteren | De [&#x200B; sorterende orde &#x200B;](facets-type.md) van facetwaarden. Facetten worden alfabetisch gesorteerd voor alle [!DNL Commerce] storefronts. Voor [ hoofdloze ] implementaties, kunnen de facetten of alfabetisch of door telling worden gesorteerd. Opties: Alfabetisch, Aantal (alleen zonder kop) |
 | Max. waarde | Het aantal facetwaarden dat in de opslagruimte als filters beschikbaar is, met een maximum van 10. |
 
 ## Besturingselementen
 
 | Besturing | Beschrijving |
 |--- |--- |
-| Elementen toevoegen | Opent de [ facetredacteur ](facets-add.md). |
-| Filteren op | Bepaalt het [ type van facetten ](facets-type.md) die in de lijst verschijnen. Opties: Alles, Vastgezet, Dynamisch |
+| Elementen toevoegen | Opent de [&#x200B; facetredacteur &#x200B;](facets-add.md). |
+| Filteren op | Bepaalt het [&#x200B; type van facetten &#x200B;](facets-type.md) die in de lijst verschijnen. Opties: Alles, Vastgezet, Dynamisch |

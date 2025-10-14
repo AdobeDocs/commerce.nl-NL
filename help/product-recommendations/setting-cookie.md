@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Cookie-beperkingen verwerken
 
-Zowel Adobe Commerce als Magento Open Source vragen om toestemming voordat gegevens in browsercookies worden opgeslagen. Voor meer informatie, verwijs naar [ de beperkingswijze van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL).
+Zowel Adobe Commerce als Magento Open Source vragen om toestemming voordat gegevens in browsercookies worden opgeslagen. Voor meer informatie, verwijs naar [&#x200B; de beperkingswijze van het Koekje &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL).
 
 ## Hoe de Aanbevelingen van het Product koekjesbeperkingen behandelen
 
@@ -84,8 +84,8 @@ Om te testen hoe de Aanbevelingen van het Product met koekjesbeperkingen gedraag
 
 ## Privacynaleving
 
-Gegevensverzameling van productaanbevelingen omvat geen persoonlijk identificeerbare informatie (PII). Alle gebruikers-id&#39;s, zoals cookie-id&#39;s en IP-adressen, worden geanonimiseerd. Voor meer informatie, zie het [ Beleid van de Privacy van Adobe ](https://www.adobe.com/privacy/policy.html).
+Gegevensverzameling van productaanbevelingen omvat geen persoonlijk identificeerbare informatie (PII). Alle gebruikers-id&#39;s, zoals cookie-id&#39;s en IP-adressen, worden geanonimiseerd. Voor meer informatie, zie het [&#x200B; Beleid van de Privacy van Adobe &#x200B;](https://www.adobe.com/privacy/policy.html).
 
 >[!TIP]
 >
->Voor gezondheidszorgklanten die de uitbreiding van HIPAA van de Diensten van Gegevens gebruiken, kan de extra configuratie worden vereist. Zie [ Gereedheid van HIPAA ](../data-connection/hipaa-readiness.md) voor meer informatie.
+>Voor gezondheidszorgklanten die de uitbreiding van HIPAA van de Diensten van Gegevens gebruiken, kan de extra configuratie worden vereist. Zie [&#x200B; Gereedheid van HIPAA &#x200B;](../data-connection/hipaa-readiness.md) voor meer informatie.

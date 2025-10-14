@@ -73,5 +73,5 @@ Aanvraag in de beheerder werkt iets anders. Wanneer u een voorvertoning weergeef
 
 ## Rubriekhandel en producttoewijzingen van categorieën
 
-Met [!DNL Live Search] kunt u filteren op categorieën. Zie [ het Merchandising van de Categorie ](category-merch.md) voor meer informatie.
-Nochtans, in Adobe Commerce kunt u een virtuele categorie met [ het producttaken van de Categorie ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html?lang=nl-NL) tot stand brengen. Dit type categorie is gemaakt bij uitvoering en komt niet voor in de categoriedatabase. Daarom kan [!DNL Live Search] dit categorietype niet lezen of gebruiken.
+Met [!DNL Live Search] kunt u filteren op categorieën. Zie [&#x200B; het Merchandising van de Categorie &#x200B;](category-merch.md) voor meer informatie.
+Nochtans, in Adobe Commerce kunt u een virtuele categorie met [&#x200B; het producttaken van de Categorie &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html?lang=nl-NL) tot stand brengen. Dit type categorie is gemaakt bij uitvoering en komt niet voor in de categoriedatabase. Daarom kan [!DNL Live Search] dit categorietype niet lezen of gebruiken.

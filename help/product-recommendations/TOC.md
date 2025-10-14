@@ -35,4 +35,4 @@ ht-degree: 8%
    - [Gegevens verzamelen](events.md)
    - [Aanpassen](customize.md)
    - [Cookie-beperkingen verwerken](setting-cookie.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)

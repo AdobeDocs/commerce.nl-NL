@@ -20,5 +20,5 @@ De AEM Assets-integratie biedt de volgende logbestanden in uw Commerce-exemplaar
 
 Vraag uw systeembeheerder om het rotatieschema van het logbestand voor deze logbestanden te controleren om te voorkomen dat deze te groot worden. In sommige milieu&#39;s, draaien de logboeken automatisch; in anderen, moet u logboekomwenteling manueel vormen.  Raadpleeg de volgende onderwerpen voor meer informatie:
 
-- Voor Adobe Commerce op-gebouw installaties, vraag uw Beheerder van het Systeem aan opstelling [ logboekomwenteling ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=nl-NL#server-settings).
-- Voor Adobe Commerce op de projecten van de wolkeninfrastructuur, zie [ Mening en beheer logboeken ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL).
+- Voor Adobe Commerce op-gebouw installaties, vraag uw Beheerder van het Systeem aan opstelling [&#x200B; logboekomwenteling &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=nl-NL#server-settings).
+- Voor Adobe Commerce op de projecten van de wolkeninfrastructuur, zie [&#x200B; Mening en beheer logboeken &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=nl-NL).

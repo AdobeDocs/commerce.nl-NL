@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Aanbevolen werkwijzen voor het verhandelen van regels
 
-Om uw omzettingspercentage en opbrengst te optimaliseren, moet u efficiënte onderzoeksregels uitvoeren. Pas productrankings aan die op verkoopgegevens, voorraadniveaus, en bevorderingen met [ worden gebaseerd Merchandising regels ](add.md#intelligent-ranking).
+Om uw omzettingspercentage en opbrengst te optimaliseren, moet u efficiënte onderzoeksregels uitvoeren. Pas productrankings aan die op verkoopgegevens, voorraadniveaus, en bevorderingen met [&#x200B; worden gebaseerd Merchandising regels &#x200B;](add.md#intelligent-ranking).
 
-Het is van cruciaal belang om een weloverwogen standaard zoekregel vast te stellen. Uw [ standaardregel ](overview.md#default-rule) bepaalt hoe de onderzoeksresultaten aanvankelijk worden gesorteerd en aan kopers getoond, die hun algemene ervaring verbeteren en de waarschijnlijkheid van aankoop verhogen. Regelmatige controle en aanpassing van deze regel zorgt ervoor dat deze op effectieve wijze aan de behoeften en bedrijfsdoelstellingen van de winkels blijft voldoen.
+Het is van cruciaal belang om een weloverwogen standaard zoekregel vast te stellen. Uw [&#x200B; standaardregel &#x200B;](overview.md#default-rule) bepaalt hoe de onderzoeksresultaten aanvankelijk worden gesorteerd en aan kopers getoond, die hun algemene ervaring verbeteren en de waarschijnlijkheid van aankoop verhogen. Regelmatige controle en aanpassing van deze regel zorgt ervoor dat deze op effectieve wijze aan de behoeften en bedrijfsdoelstellingen van de winkels blijft voldoen.
 
 ## Tips voor het optimaliseren van zoekregels
 
@@ -24,4 +24,4 @@ Het is van cruciaal belang om een weloverwogen standaard zoekregel vast te stell
 - Geef een lichte prioriteit aan producten met hogere winstmarges zonder de relevantie in gevaar te brengen.
 - Markeer producten die te koop zijn of deel uitmaken van speciale promoties.
 - Stel zoekregels tijdens promotie- of verkoopperiodes automatisch in door het datumbereik tijdens de promotieperiode te gebruiken.
-- De onderzoeksresultaten van het dagonderzoek die op individueel verkoopgedrag worden gebaseerd dat [ intelligente rangschikking ](add.md#intelligent-ranking), zoals &quot;voor u&quot;wordt geadviseerd, &quot;het meest bekeken&quot;etc. gebruikt.
+- De onderzoeksresultaten van het dagonderzoek die op individueel verkoopgedrag worden gebaseerd dat [&#x200B; intelligente rangschikking &#x200B;](add.md#intelligent-ranking), zoals &quot;voor u&quot;wordt geadviseerd, &quot;het meest bekeken&quot;etc. gebruikt.

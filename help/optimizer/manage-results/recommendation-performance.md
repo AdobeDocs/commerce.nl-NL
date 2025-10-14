@@ -17,13 +17,13 @@ De pagina van Prestaties van Aanbevelingen toont een lijst van gevormde aanbevel
 >
 >Een aanbevelingseenheid is een widget die de geadviseerde product _punten_ bevat.
 
-![ Prestaties van Aanbevelingen ](../assets/rec-performance.png){zoomable="yes"}
+![&#x200B; Prestaties van Aanbevelingen &#x200B;](../assets/rec-performance.png){zoomable="yes"}
 
 ## Kies de **mening van de Catalogus**
 
-Selecteer de [ catalogusmening ](../setup/catalog-view.md) waar uw aanbevelingen van toepassing zijn.
+Selecteer de [&#x200B; catalogusmening &#x200B;](../setup/catalog-view.md) waar uw aanbevelingen van toepassing zijn.
 
-![ de Mening van de Catalogus ](../assets/catalog-view.png)
+![&#x200B; de Mening van de Catalogus &#x200B;](../assets/catalog-view.png)
 
 ## Een rapport weergeven
 
@@ -38,7 +38,7 @@ Klik op de kalender en voer een van de volgende handelingen uit:
 
 ## Tabel aanpassen
 
-1. In de upper-left hoek, klik het ![ selecteur van de Kolom ](../assets/icon-show-hide-columns.png) pictogram om de lijst aan te passen.
+1. In de upper-left hoek, klik het ![&#x200B; selecteur van de Kolom &#x200B;](../assets/icon-show-hide-columns.png) pictogram om de lijst aan te passen.
 
    De zichtbare kolommen hebben een vinkje.
 
@@ -53,27 +53,27 @@ Klik op de kalender en voer een van de volgende handelingen uit:
 
 Klik op het filterpictogram om de meetgegevens in de werkruimte met aanbevolen prestaties te filteren.
 
-![ Metriek van de Filter ](../assets/rec-filters.png)
+![&#x200B; Metriek van de Filter &#x200B;](../assets/rec-filters.png)
 
-U kunt meerdere waarden configureren voor elk van de filters. Zie de [ lijst hieronder ](#column-descriptions) voor beschrijvingen van elke filter.
+U kunt meerdere waarden configureren voor elk van de filters. Zie de [&#x200B; lijst hieronder &#x200B;](#column-descriptions) voor beschrijvingen van elke filter.
 
 ## Details weergeven
 
-1. In de lijst, klik het (![ Meer selecteur ](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
+1. In de lijst, klik het (![&#x200B; Meer selecteur &#x200B;](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
 
 1. Om het statuut van de aanbeveling te veranderen, activeer **&#x200B;**&#x200B;of **&#x200B;**&#x200B;deactivate.
 
 ## Aanbevelingen maken of beheren
 
-Leer hoe u [ een nieuwe kunt tot stand brengen of een bestaande ](../merchandising/recommendations/create.md) aanbeveling beheren.
+Leer hoe u [&#x200B; een nieuwe kunt tot stand brengen of een bestaande &#x200B;](../merchandising/recommendations/create.md) aanbeveling beheren.
 
 ## Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |---|---|
-| ![ de selecteur van de Kalender ](../assets/icon-calendar.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. |
-| ![ de selecteur van de Kolom ](../assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de lijst van Aanbevelingen verschijnen. |
-| Aanbeveling maken | Opent [ creëren Nieuwe pagina van de Aanbeveling ](../merchandising/recommendations/create.md). |
+| ![&#x200B; de selecteur van de Kalender &#x200B;](../assets/icon-calendar.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. |
+| ![&#x200B; de selecteur van de Kolom &#x200B;](../assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de lijst van Aanbevelingen verschijnen. |
+| Aanbeveling maken | Opent [&#x200B; creëren Nieuwe pagina van de Aanbeveling &#x200B;](../merchandising/recommendations/create.md). |
 
 ## Kolombeschrijvingen
 

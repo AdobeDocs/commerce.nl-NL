@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # [!DNL Catalog Service and API Mesh]
 
-Het [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/) laat ontwikkelaars toe om privé of derde APIs en andere interfaces met de producten van Adobe te integreren gebruikend Adobe I/O Runtime.
+Het [&#x200B; API Net voor Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/) laat ontwikkelaars toe om privé of derde APIs en andere interfaces met de producten van Adobe te integreren gebruikend Adobe I/O Runtime.
 
-![ diagram van de architectuur van de Catalogus ](assets/catalog-service-architecture-mesh.png)
+![&#x200B; diagram van de architectuur van de Catalogus &#x200B;](assets/catalog-service-architecture-mesh.png)
 
-Om API Net met de Dienst van de Catalogus te gebruiken, moet u API Net met uw instantie verbinden, en dan de bron van het API Net [ CommerceCatalogServiceGraph ](https://github.com/adobe/api-mesh-sources/blob/main/connectors/) toevoegen die de configuratie om met de Dienst van de Catalogus verstrekt te verbinden.
+Om API Net met de Dienst van de Catalogus te gebruiken, moet u API Net met uw instantie verbinden, en dan de bron van het API Net [&#x200B; CommerceCatalogServiceGraph &#x200B;](https://github.com/adobe/api-mesh-sources/blob/main/connectors/) toevoegen die de configuratie om met de Dienst van de Catalogus verstrekt te verbinden.
 
 ## Sluit API-net aan en configureer dit.
 
-1. Verbind API Net met uw instantie van Adobe Commerce door de instructies te volgen om [ een Net ](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/) in de _Gids van de Ontwikkelaar van het Netwerk van API te creëren_.
+1. Verbind API Net met uw instantie van Adobe Commerce door de instructies te volgen om [&#x200B; een Net &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/) in de _Gids van de Ontwikkelaar van het Netwerk van API te creëren_.
 
-   Als dit uw eerste keer gebruikend API Net is, voltooi het [ Begonnen proces ](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/) alvorens u het netwerk creeert.
+   Als dit uw eerste keer gebruikend API Net is, voltooi het [&#x200B; Begonnen proces &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/) alvorens u het netwerk creeert.
 
 1. Maak een JSON-bestand, zoals `variables.json` , dat de API-sleutel voor catalogusservice voor uw project bevat met de volgende indeling.
 
@@ -33,7 +33,7 @@ Om API Net met de Dienst van de Catalogus te gebruiken, moet u API Net met uw in
    }
    ```
 
-1. Voeg de `CommerceCatalogServiceGraph` bron aan uw netwerk toe gebruikend [ Adobe I/O Verlengbare CLI ](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli).
+1. Voeg de `CommerceCatalogServiceGraph` bron aan uw netwerk toe gebruikend [&#x200B; Adobe I/O Verlengbare CLI &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/#install-the-aio-cli).
 
    ```bash
    aio api-mesh source install "CommerceCatalogServiceGraph" -f variables.json

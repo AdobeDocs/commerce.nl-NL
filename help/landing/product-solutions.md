@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Commerce-productoplossingen
 
-Adobe biedt verschillende oplossingen aan om aan de vereisten van uw e-commerce zaken te voldoen. De documentatie van Adobe Commerce op [ Experience League ](https://experienceleague.adobe.com/nl/docs/commerce) en de [ Adobe Developer ](https://developer.adobe.com/commerce/docs/) plaats voorziet klanten van zelfbedienings middelen die alle oplossingen steunen. Zonder begeleiding kan het navigeren door zo&#39;n groot volume aan inhoud echter een uitdaging zijn.
+Adobe biedt verschillende oplossingen aan om aan de vereisten van uw e-commerce zaken te voldoen. De documentatie van Adobe Commerce op [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce) en de [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com/commerce/docs/) plaats voorziet klanten van zelfbedienings middelen die alle oplossingen steunen. Zonder begeleiding kan het navigeren door zo&#39;n groot volume aan inhoud echter een uitdaging zijn.
 
 ## Badges
 
@@ -23,7 +23,7 @@ Met Badges kunt u snel bepalen of de Commerce-documentatie die u vindt via conve
 
 Als een badge wordt weergegeven, betekent dit dat de inhoud alleen op de opgegeven oplossing van toepassing is. Als er geen badges worden weergegeven, betekent dit dat de inhoud van toepassing is op alle Adobe Commerce-oplossingen.
 
-Bijvoorbeeld, als u Adobe Commerce as a Cloud Service gebruikt, zou u inhoud over [ moeten negeren installerend ](../product-recommendations/install-configure.md#install-product-recommendations) de uitbreiding van de Aanbevelingen van het Product en [ vormend ](../product-recommendations/install-configure.md#configure-product-recommendations) de Verbinding van de Diensten van Commerce. Adobe voert deze stappen automatisch uit wanneer u een instantie maakt.
+Bijvoorbeeld, als u Adobe Commerce as a Cloud Service gebruikt, zou u inhoud over [&#x200B; moeten negeren installerend &#x200B;](../product-recommendations/install-configure.md#install-product-recommendations) de uitbreiding van de Aanbevelingen van het Product en [&#x200B; vormend &#x200B;](../product-recommendations/install-configure.md#configure-product-recommendations) de Verbinding van de Diensten van Commerce. Adobe voert deze stappen automatisch uit wanneer u een instantie maakt.
 
 ### Definities
 
@@ -31,17 +31,17 @@ In de volgende tabel worden de badges gedefinieerd die in Adobe Commerce-documen
 
 >[!BEGINSHADEBOX]
 
-![ info ](../cloud-service/assets/Smock_InfoOutline_18_N.svg) de hier beschreven badges zijn specifiek op de documentatie van Adobe Commerce van toepassing. Ze geven niet aan hoe badges worden gebruikt in de documentatie voor andere Adobe Experience Cloud-producten.
+![&#x200B; info &#x200B;](../cloud-service/assets/Smock_InfoOutline_18_N.svg) de hier beschreven badges zijn specifiek op de documentatie van Adobe Commerce van toepassing. Ze geven niet aan hoe badges worden gebruikt in de documentatie voor andere Adobe Experience Cloud-producten.
 
 >[!ENDSHADEBOX]
 
 #### [!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."}
 
-Deze badge identificeert documentatie voor [ Adobe Commerce as a Cloud Service ](../cloud-service/overview.md) en [ Adobe Commerce Optimizer ](../optimizer/overview.md) slechts projecten. Deze projecten worden ontvangen op een wolk-inheemse, volledig beheerde software-as-a-dienst (SaaS) oplossing waar Adobe voor meeste operationele aspecten-zoals ononderbroken updates, veiligheid controle, en scalability-zodat de klanten zich op handel eerder dan infrastructuur kunnen concentreren.
+Deze badge identificeert documentatie voor [&#x200B; Adobe Commerce as a Cloud Service &#x200B;](../cloud-service/overview.md) en [&#x200B; Adobe Commerce Optimizer &#x200B;](../optimizer/overview.md) slechts projecten. Deze projecten worden ontvangen op een wolk-inheemse, volledig beheerde software-as-a-dienst (SaaS) oplossing waar Adobe voor meeste operationele aspecten-zoals ononderbroken updates, veiligheid controle, en scalability-zodat de klanten zich op handel eerder dan infrastructuur kunnen concentreren.
 
 #### [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 
-Deze badge identificeert documentatie met betrekking tot [ Adobe Commerce op Cloud ](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/overview) en op-gebouw slechts projecten. Adobe Commerce on Cloud-projecten worden gehost op een volledig beheerde platform-as-a-service (PaS)-oplossing in de cloud met alle kernfuncties van Adobe Commerce in een vooraf ingericht omgeving. De projecten op-gebouw worden ontvangen op klant-beheerde infrastructuur.
+Deze badge identificeert documentatie met betrekking tot [&#x200B; Adobe Commerce op Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/overview) en op-gebouw slechts projecten. Adobe Commerce on Cloud-projecten worden gehost op een volledig beheerde platform-as-a-service (PaS)-oplossing in de cloud met alle kernfuncties van Adobe Commerce in een vooraf ingericht omgeving. De projecten op-gebouw worden ontvangen op klant-beheerde infrastructuur.
 
 >[!NOTE]
 >

@@ -16,7 +16,7 @@ Om een regel te bouwen, moet de eerste stap de regelredacteur gebruiken om de vo
 ## Een regel toevoegen
 
 1. In Admin, ga naar **Marketing** > SEO &amp; Onderzoek > **[!DNL Live Search]**.
-1. Plaats het **Reikwijdte** om de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) te identificeren waar de regel van toepassing is.
+1. Plaats het **Reikwijdte** om de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) te identificeren waar de regel van toepassing is.
 1. Klik de **Merchandising van het Onderzoek** werkruimte.
 1. Klik **toevoegen regel** om de regelredacteur te lanceren.
 
@@ -31,7 +31,7 @@ Kies het standaard Intelligente classificatietype en eventuele handmatige classi
 
 Voorwaarden zijn de vereisten om een gebeurtenis te activeren. Een regel kan tot tien voorwaarden en 25 gebeurtenissen hebben. Een standaardregel kan geen voorwaarden hebben.
 
-![ Regel - Bouw uw regel ](assets/rules-add-workspace.png)
+![&#x200B; Regel - Bouw uw regel &#x200B;](assets/rules-add-workspace.png)
 
 >[!NOTE]
 >
@@ -48,12 +48,12 @@ Voorwaarden zijn de vereisten om een gebeurtenis te activeren. Een regel kan tot
 
    De resultaten verschijnen onmiddellijk in *Test uw regel* ruit en genummerd door prioriteit. U kunt de *Resultaten per rij* schuif in de hogere gebruiken    het recht om het aantal producten in elke rij te wijzigen.
 
-   ![ Regel - eenvoudig ](assets/rule-simple-test.png)
+   ![&#x200B; Regel - eenvoudig &#x200B;](assets/rule-simple-test.png)
 
 1. Om andere vragen te testen, verander de vraagtekst in de *Test uw doos van het regel* onderzoek en druk **Terugkeer**.
 Aanvankelijk, geeft de testruit de vraag van het de onderzoeksvakje van de Voorwaarden terug. Maar nu geeft het de vraag van de doos van de testvraag terug. De testruit geeft slechts één vraag tegelijkertijd terug.
 1. Als u van het resultaat houdt, werk de tekst in het *Voorwaarden* onderzoeksvakje bij. Klik vervolgens ergens op de pagina om de resultaten in het testvenster bij te werken.
-1. Om een eenvoudige regel met één voorwaarde te bouwen, ga naar Stap 3: [ voegt gebeurtenissen ](#events) toe.
+1. Om een eenvoudige regel met één voorwaarde te bouwen, ga naar Stap 3: [&#x200B; voegt gebeurtenissen &#x200B;](#events) toe.
 
 ### Meerdere voorwaarden
 
@@ -71,7 +71,7 @@ Een regel kan tot tien voorwaarden hebben. De logische exploitant die zich bij t
 
    In dit voorbeeld zijn er twee aparte query&#39;s die zoeken naar &#39;yoga&#39; of &#39;broek&#39; in plaats van naar &#39;yoga-broek&#39; te zoeken. Deze regel is minder specifiek en wordt vaker geactiveerd in de winkel dan in de andere.
 
-   ![ Regels - Gelijke ](assets/rules-match.png)
+   ![&#x200B; Regels - Gelijke &#x200B;](assets/rules-match.png)
 
 1. Om een andere voorwaarde toe te voegen, **voegt voorwaarde** toe en herhaalt het proces.
 
@@ -80,7 +80,7 @@ Een regel kan tot tien voorwaarden hebben. De logische exploitant die zich bij t
 De intelligente rangschikking combineert gebruikersgedrag en plaatsstatistieken om productrangschikking te bepalen.
 Winkeleigenaars kunnen de volgende typen classificatiestrategieën instellen:
 
-![ Regels - Gelijke ](assets/rules-ranking-type.png)
+![&#x200B; Regels - Gelijke &#x200B;](assets/rules-ranking-type.png)
 
 * Meest aangeschaft: dit rangschikt de producten op basis van de totale aankopen per SKU in de afgelopen 7 dagen.
 * Meestal toegevoegd aan winkelwagentjes in volgorde van de totale &quot;Add to Cart&quot;-activiteiten in de afgelopen 7 dagen.
@@ -100,7 +100,7 @@ Selecteer het type strategie voor de regel. De **Test uw regel** venster toont d
    1. Zoek naar de attributen, zoals &quot;naam&quot;.
    1. In de **Informatie van Attributen** > **&#x200B;**&#x200B;pagina van Eigenschappen Storefront, plaats het onderzoeksgewicht minder dan of gelijk aan `5`.
 
-      ![ Product - het Gewicht van het Onderzoek ](assets/set-search-weight.png)
+      ![&#x200B; Product - het Gewicht van het Onderzoek &#x200B;](assets/set-search-weight.png)
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ De eenvoudigste manier om een product vast te zetten is door te slepen en neer t
 
 1. Klik en sleep een product in het deelvenster Testen. Sleep de aanwijzer naar de gewenste positie. De velden Product en Positie worden automatisch ingevuld in het deelvenster Gebeurtenissen.
 
-   ![ Regels - Gelijke ](assets/rule-event-pin-product.png)
+   ![&#x200B; Regels - Gelijke &#x200B;](assets/rule-event-pin-product.png)
 
 U kunt ook op het speldpictogram klikken om een product op de huidige locatie vast te zetten. Gebruik het contextmenu voor ovalen om &#39;Aan de bovenkant vastzetten&#39; of &#39;Aan de onderkant vastzetten&#39;.
 
@@ -137,7 +137,7 @@ Of gebeurtenissen kunnen handmatig worden ingesteld:
 
 ## Aanvullende gegevens
 
-De informatie die hier is ingegaan verschijnt in het [ paneel van de Details van de Regel ](rules-workspace.md).
+De informatie die hier is ingegaan verschijnt in het [&#x200B; paneel van de Details van de Regel &#x200B;](rules-workspace.md).
 
 1. Onder *Details*, ga a **Naam** voor de regel in. Alle regelnamen moeten uniek zijn.
 1. Ga een korte **Beschrijving** van de regel in.
@@ -145,7 +145,7 @@ De informatie die hier is ingegaan verschijnt in het [ paneel van de Details van
 
    Als u een datumbereik wilt selecteren, klikt u op de eerste datum en sleept u om het bereik te selecteren.
 
-   ![ Regel - Volledig ](assets/rule-add-details.png)
+   ![&#x200B; Regel - Volledig &#x200B;](assets/rule-add-details.png)
 
 ## De regel voltooien
 

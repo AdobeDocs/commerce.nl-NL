@@ -19,7 +19,7 @@ De **pagina van de Synchronisatie van Gegevens** verstrekt waardevolle inzichten
 
 De **pagina van de Synchronisatie van 0&rbrace; Gegevens &lbrace;wordt gevestigd bij *Opstelling* >** synchronisatie van Gegevens **.**
 
-![ de Synchronisatie van Gegevens ](../assets/data-sync.png)
+![&#x200B; de Synchronisatie van Gegevens &#x200B;](../assets/data-sync.png)
 
 De **pagina van de Synchronisatie van Gegevens** bevat de volgende gebieden:
 
@@ -35,9 +35,9 @@ De **pagina van de Synchronisatie van Gegevens** bevat de volgende gebieden:
 
 ## Lijst van gesynchroniseerde producten
 
-Om de details van een gesynchroniseerd product in formaat te zien JSON, klik op het codepictogram ![ verbinding van de Code ](../assets/data-sync-details.png) op de rij van het product van de gesynchroniseerde productlijst.
+Om de details van een gesynchroniseerd product in formaat te zien JSON, klik op het codepictogram ![&#x200B; verbinding van de Code &#x200B;](../assets/data-sync-details.png) op de rij van het product van de gesynchroniseerde productlijst.
 
-![ Syncd de Details van het Product ](../assets/synced-products.png)
+![&#x200B; Syncd de Details van het Product &#x200B;](../assets/synced-products.png)
 
 ## Catalogusgegevens opnieuw synchroniseren
 

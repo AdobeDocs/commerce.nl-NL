@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Facets is een methode voor het filteren van hoge prestaties waarbij meerdere dimensies van kenmerkwaarden worden gebruikt als zoekcriteria.
 
-![ Gefilterde onderzoeksresultaten ](../../assets/storefront-search-results-run.png)
+![&#x200B; Gefilterde onderzoeksresultaten &#x200B;](../../assets/storefront-search-results-run.png)
 
 Binnen een facet kunnen kopers meerdere opties selecteren, zoals &quot;Standaard&quot; en &quot;Snug&quot; onder &quot;Stijl&quot; en in de zoekresultaten worden alleen die stijlen weergegeven. Op dezelfde manier geldt dat als een winkelier opties selecteert in verschillende facetten, zoals &quot;Standaard&quot; onder &quot;Stijl&quot; en &quot;Binnenshuis&quot; onder &quot;Klimaat&quot;, de zoekresultaten worden bijgewerkt om die geselecteerde stijl en dat geselecteerde klimaat weer te geven.
 
@@ -37,7 +37,7 @@ De volgende productkenmerken worden standaard gebruikt door [!DNL Adobe Commerce
 | Sorteerbaar | Wordt gebruikt voor sorteren in de productlijst | `price` |
 | Doorzoekbaar | Gebruiken in Zoeken | `price` <br />`sku`<br />`name` |
 
-Zie de [ Meta-gegevens API van de Ingestie van Gegevens ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata) om meer over productattributen en hun eigenschappen te leren.
+Zie de [&#x200B; Meta-gegevens API van de Ingestie van Gegevens &#x200B;](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata) om meer over productattributen en hun eigenschappen te leren.
 
 ## Standaardeigenschappen van niet-systeemkenmerken
 

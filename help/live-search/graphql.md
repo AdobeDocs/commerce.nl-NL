@@ -13,9 +13,9 @@ ht-degree: 0%
 
 De *werkruimte van GraphQL* staat beheerders toe om de vragen van GraphQL te bouwen en te testen gebruikend hun eigen gegevens.
 
-Deze werkruimte steunt [`productSearch` ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) en [`attributeMetadata` ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/attribute-metadata/) vragen.
+Deze werkruimte steunt [`productSearch` &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) en [`attributeMetadata` &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/attribute-metadata/) vragen.
 
-![ de werkruimte van GraphQL ](assets/graphql.png)
+![&#x200B; de werkruimte van GraphQL &#x200B;](assets/graphql.png)
 
 ```graphql
 query productSearch {

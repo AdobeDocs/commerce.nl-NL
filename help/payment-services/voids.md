@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * Als uw opslag [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/payment-methods/payment-methods#payment-actions){target="_blank"} wordt gevormd om slechts (niet vangst) middelen op het verkooppunt toe te laten, resulteert een aankoop van uw opslag in een orde met a `Processing` status in Commerce Admin.
 
-* U kunt ook [ een orde ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"} annuleren die niet wordt gefactureerd. Eventuele niet-vastgelegde machtigingen worden ook ingetrokken als onderdeel van dat annuleringsproces.
+* U kunt ook [&#x200B; een orde &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order){target="_blank"} annuleren die niet wordt gefactureerd. Eventuele niet-vastgelegde machtigingen worden ook ingetrokken als onderdeel van dat annuleringsproces.
 
 >[!NOTE]
 >
@@ -24,4 +24,4 @@ ht-degree: 0%
 
 Meer over de basisstappen leren en de orde gaat door, zie het [&#128279;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing){target="_blank"} onderwerp van het Werkschema van de Orde  in de gids van de kerngebruiker.
 
-Om over de leegte functionaliteit te leren en hoe te om een ordetransactie te ontdoen, zie [ Verwerking een Orde ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order){target="_blank"} in de gids van de kerngebruiker.
+Om over de leegte functionaliteit te leren en hoe te om een ordetransactie te ontdoen, zie [&#x200B; Verwerking een Orde &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#process-an-order){target="_blank"} in de gids van de kerngebruiker.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Payment Services] for [!DNL Adobe Commerce] en [!DNL Magento Open Source] biedt uitgebreide rapportage zodat u een duidelijk overzicht kunt krijgen van de transacties, orders en betalingen in uw winkel.
 
-![ het rapport van Transacties ](assets/transactions-report.png){width="700" zoomable="yes"}
+![&#x200B; het rapport van Transacties &#x200B;](assets/transactions-report.png){width="700" zoomable="yes"}
 
 Het Transactierapport biedt inzicht in transactievergunningpercentages en negatieve transactietrends zodat u de gezondheid van uw opslag effectief kunt controleren en om het even welke transactiekwesties op voorhand kunt identificeren en behandelen.
 
@@ -27,7 +27,7 @@ U kunt het rapport Transacties downloaden in de .csv-bestandsindeling voor gebru
 
 >[!NOTE]
 >
->U kunt geen financiële rapporten bekijken als u niet [ hebt geregistreerd en Actieve wijze ](production.md#enable-live-payments) voor [!DNL Payment Services] geactiveerd.
+>U kunt geen financiële rapporten bekijken als u niet [&#x200B; hebt geregistreerd en Actieve wijze &#x200B;](production.md#enable-live-payments) voor [!DNL Payment Services] geactiveerd.
 
 ## Transactierapportweergave
 
@@ -35,7 +35,7 @@ De weergave van het Transactierapport is beschikbaar in de weergave Transacties 
 
 Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**&#x200B;om de gedetailleerde het rapportmening van Transacties in de tabelvorm te zien.
 
-![ het rapportmening van Transacties ](assets/transactions-report-view.png){width="800" zoomable="yes"}
+![&#x200B; het rapportmening van Transacties &#x200B;](assets/transactions-report-view.png){width="800" zoomable="yes"}
 
 U kunt deze mening, per de secties in dit onderwerp vormen, om de gegevens het best voor te stellen u wenst te zien.
 
@@ -43,7 +43,7 @@ Zie de gekoppelde Commerce-order en PayPal-transactie-id&#39;s, transactiebedrag
 
 Niet alle betalingsmethoden bieden dezelfde mate van informatie. Met creditcardtransacties worden bijvoorbeeld reacties, AVS- en CCV-codes en de laatste vier cijfers van de kaart in het Transactierapport verschaft. PayPal-betalingsknoppen doen dat niet.
 
-U kunt [ transacties ](#download-transactions) in een .csv dossierformaat voor gebruik in bestaande boekhouding of ordebeheersoftware downloaden.
+U kunt [&#x200B; transacties &#x200B;](#download-transactions) in een .csv dossierformaat voor gebruik in bestaande boekhouding of ordebeheersoftware downloaden.
 
 >[!WARNING]
 >
@@ -53,7 +53,7 @@ U kunt [ transacties ](#download-transactions) in een .csv dossierformaat voor g
 
 In de het rapportmening van Transacties, kunt u de gegevensbron selecteren— **[!UICONTROL Live]** of **[!UICONTROL Sandbox]**—waarvoor u rapportresultaten wilt zien.
 
-![ de bronnen van Gegevens selectie ](assets/datasource.png){width="300" zoomable="yes"}
+![&#x200B; de bronnen van Gegevens selectie &#x200B;](assets/datasource.png){width="300" zoomable="yes"}
 
 Als _[!UICONTROL Live]_&#x200B;de geselecteerde gegevensbron is, kunt u rapportinformatie voor uw opslag zien die [!DNL Payment Services] in productiemodus gebruiken. Als&#x200B;_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u rapportinformatie voor uw zandbakwijze zien.
 
@@ -100,7 +100,7 @@ In de weergave van het Transactierapport kunt u de resultaten filteren die u wil
 Het rapport van Transacties toont alle beschikbare kolommen van informatie door gebrek. U kunt, echter, aanpassen welke kolommen u in uw rapport ziet.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**.
-1. Klik het **[!UICONTROL Column settings]** pictogram ![ pictogram van de kolommontages ](assets/column-settings.png){width="20" zoomable="yes"}.
+1. Klik het **[!UICONTROL Column settings]** pictogram ![&#x200B; pictogram van de kolommontages &#x200B;](assets/column-settings.png){width="20" zoomable="yes"}.
 1. Om aan te passen welke kolommen die u in het rapport ziet, controleer of uncheck kolommen in de lijst.
 
    In het rapport Transacties worden direct alle wijzigingen weergegeven die u hebt aangebracht in het menu Kolominstellingen. De kolomvoorkeuren worden opgeslagen en blijven van kracht als u niet in de rapportweergave navigeert.
@@ -112,7 +112,7 @@ De het rapportmening van Transacties toont een _[!UICONTROL Last updated]_&#x200
 U kunt ook manueel dwingen verfrist zich van de rapportgegevens om de meest bijgewerkte rapportinformatie te zien.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Transactions]_>**[!UICONTROL View Report]**.
-1. Klik _verfrissen zich_ pictogram (![ verfrissen pictogram ](assets/refresh-button-med.png){width="20" zoomable="yes"}).
+1. Klik _verfrissen zich_ pictogram (![&#x200B; verfrissen pictogram &#x200B;](assets/refresh-button-med.png){width="20" zoomable="yes"}).
 
    De gegevens van het Transactierapport worden vernieuwd, er verschijnt een *[!UICONTROL Update complete]* bevestiging en de meest recente informatie staat in het raster.
 
@@ -121,8 +121,8 @@ U kunt ook manueel dwingen verfrist zich van de rapportgegevens om de meest bijg
 U kunt een CSV-bestand downloaden met alle transacties die zichtbaar zijn in het raster van de transactieweergave, of u nu de standaardtransacties van 30 dagen bekijkt of een aangepast tijdframe.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > **[!UICONTROL Transactions]**.
-1. Als u transacties voor een timeframe buiten de laatste 30 dagen wilt zien, [ aanpassen de timeframe van de datumwaaier voor uw statussen ](#customize-dates-timeframe).
-1. Klik het _pictogram van de Download_ ![ download ](assets/icon-download.png){width="20" zoomable="yes"}.
+1. Als u transacties voor een timeframe buiten de laatste 30 dagen wilt zien, [&#x200B; aanpassen de timeframe van de datumwaaier voor uw statussen &#x200B;](#customize-dates-timeframe).
+1. Klik het _pictogram van de Download_ ![&#x200B; download &#x200B;](assets/icon-download.png){width="20" zoomable="yes"}.
 
 Uw transacties worden gedownload in de indeling .csv.
 
@@ -132,20 +132,20 @@ Transactierapporten bevatten de volgende informatie.
 
 | Kolom | Beschrijving |
 | ------------ | -------------------- |
-| [!UICONTROL Order ID] | Commerce orde ID (bevat slechts waarden voor succesvolle transacties en is leeg voor verworpen transacties) <br> <br> om verwante [ orde info ](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"} te zien, klik identiteitskaart |
+| [!UICONTROL Order ID] | Commerce orde ID (bevat slechts waarden voor succesvolle transacties en is leeg voor verworpen transacties) <br> <br> om verwante [&#x200B; orde info &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/orders){target="_blank"} te zien, klik identiteitskaart |
 | [!UICONTROL PayPal Transaction ID] | Transactie-id verstrekt door de betalingsaanbieder; bevat alleen waarden voor geslaagde transacties en bevat een streepje voor geweigerde transacties. U kunt op deze id klikken om de pagina met PayPal-transactiegegevens te openen. |
-| [!UICONTROL Customer ID] | Commerce-klant-id van een bestelling <br> <br> zie [ onderwerp van klantinfo ](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/account-create){target="_blank"} voor meer informatie. |
+| [!UICONTROL Customer ID] | Commerce-klant-id van een bestelling <br> <br> zie [&#x200B; onderwerp van klantinfo &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/account-create){target="_blank"} voor meer informatie. |
 | [!UICONTROL Transaction Date] | Tijdstempel van transactiedatum |
-| [!UICONTROL Payment Method] | Soort betaling gebruikt voor de transactie met informatie over merk en type kaart. Zie [ kaarttypes ](https://developer.paypal.com/docs/api/orders/v2/#definition-card_type) voor meer informatie; beschikbaar voor versies 1.6.0 van de Diensten van de Betaling en nieuwer |
+| [!UICONTROL Payment Method] | Soort betaling gebruikt voor de transactie met informatie over merk en type kaart. Zie [&#x200B; kaarttypes &#x200B;](https://developer.paypal.com/docs/api/orders/v2/#definition-card_type) voor meer informatie; beschikbaar voor versies 1.6.0 van de Diensten van de Betaling en nieuwer |
 | [!UICONTROL Payment Detail] | Bevat aanvullende informatie over het type betaling dat voor de transactie wordt gebruikt, indien beschikbaar. |
 | [!UICONTROL Card Last Four] | Laatste vier cijfers van de voor de transactie gebruikte krediet- of debetkaarten |
 | [!UICONTROL Result] | Het resultaat van de transactie—*[!UICONTROL OK]* (geslaagde transactie), *[!UICONTROL Rejected by Payment Provider]* (geweigerd door PayPal), *[!UICONTROL Rejected by Bank]* (geweigerd door de bank die de kaart heeft uitgegeven) |
-| [!UICONTROL Response Code] | Foutcode die reden voor afwijzing weergeeft van de betalingsaanbieder of de bank. Zie de lijst met mogelijke antwoordcodes en beschrijvingen voor [`Rejected by Bank` status ](https://developer.paypal.com/docs/api/orders/v2/#definition-processor_response) en [`Rejected by Payment Provider` status ](https://developer.paypal.com/api/rest/reference/orders/v2/errors/) . |
-| [!UICONTROL AVS Code] | Adres Verification Service-code; de responsgegevens van de processor voor betalingsverzoeken. Zie [ lijst van mogelijke codes en beschrijvingen ](https://developer.paypal.com/docs/api/orders/v2/#definition-processor_response) voor meer informatie. |
-| [!UICONTROL CVV Code] | De code van de de controlewaarde van de kaart voor krediet en debetkaarten; zie [ lijst van mogelijke codes en beschrijvingen ](https://developer.paypal.com/docs/api/orders/v2/#definition-processor_response) voor meer informatie. |
+| [!UICONTROL Response Code] | Foutcode die reden voor afwijzing weergeeft van de betalingsaanbieder of de bank. Zie de lijst met mogelijke antwoordcodes en beschrijvingen voor [`Rejected by Bank` status &#x200B;](https://developer.paypal.com/docs/api/orders/v2/#definition-processor_response) en [`Rejected by Payment Provider` status &#x200B;](https://developer.paypal.com/api/rest/reference/orders/v2/errors/) . |
+| [!UICONTROL AVS Code] | Adres Verification Service-code; de responsgegevens van de processor voor betalingsverzoeken. Zie [&#x200B; lijst van mogelijke codes en beschrijvingen &#x200B;](https://developer.paypal.com/docs/api/orders/v2/#definition-processor_response) voor meer informatie. |
+| [!UICONTROL CVV Code] | De code van de de controlewaarde van de kaart voor krediet en debetkaarten; zie [&#x200B; lijst van mogelijke codes en beschrijvingen &#x200B;](https://developer.paypal.com/docs/api/orders/v2/#definition-processor_response) voor meer informatie. |
 | [!UICONTROL Amount] | Volgorde van transactie |
 | [!UICONTROL Currency] | Valuta gebruikt voor order in transactie |
-| [!UICONTROL Type] | [ de actie van de Betaling ](../payment-services/production.md#set-payment-services-as-payment-method) voor transactie— `Authorize` of `Authorize and Capture` |
+| [!UICONTROL Type] | [&#x200B; de actie van de Betaling &#x200B;](../payment-services/production.md#set-payment-services-as-payment-method) voor transactie— `Authorize` of `Authorize and Capture` |
 
 ### Foutresponscodes
 
@@ -156,6 +156,6 @@ De _kolom van de Code van de Reactie_ toont een specifieke fout of succescode me
 * `INSTRUMENT_DECLINED` - De klant is door PayPal geweigerd op basis van een geselecteerde betalingsmethode. Transactie kan opnieuw worden uitgevoerd met een andere betalingsmethode.
 * `9500` - De transactie is door de gekoppelde bank geweigerd omdat het vermoeden bestond dat het om fraude ging.
 * `5120` - De transactie is door de geassocieerde bank geweigerd omdat de klant onvoldoende middelen had voor de betaling.
-* `5650` - de transactie werd verworpen door de bijbehorende bank omdat de bank sterke klantenauthentificatie ([ 3DS ](security.md#3ds) vereist).
+* `5650` - de transactie werd verworpen door de bijbehorende bank omdat de bank sterke klantenauthentificatie ([&#x200B; 3DS &#x200B;](security.md#3ds) vereist).
 
 Gedetailleerde foutresponscodes voor mislukte transacties zijn beschikbaar voor transacties die jonger zijn dan 1 juni 2023. Gedeeltelijke rapportgegevens worden weergegeven voor transacties die vóór 1 juni 2023 hebben plaatsgevonden.

@@ -30,7 +30,7 @@ Als beste praktijk, adviseert Adobe de volgende richtlijnen wanneer het gebruike
 
 >[!NOTE]
 >
->Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [ storefront gebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) in de ontwikkelaarsdocumentatie.
+>Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [&#x200B; storefront gebeurtenissen &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) in de ontwikkelaarsdocumentatie.
 
 ## Gepersonaliseerd {#personalized}
 
@@ -55,7 +55,7 @@ Deze soorten aanbevelingen zijn sociaal-veilig, zodat kopers kunnen vinden wat a
 | Bekijk dit, kocht dat | Aanbevolen producten die kopers vaker onevenredig kunnen kopen nadat ze het huidige product hebben bekeken. Dit type helpt kopers te helpen producten te ontdekken die ze anders niet hadden opgemerkt.<br/><br/>**waar gebruikt:**<br/> - het detail van het Product <br/> - Kar <br/> - Bevestiging <br/><br/>**Voorgestelde etiketten:**<br/> - Klanten die dit uiteindelijk bekeken <br/> - Klanten kochten <br/> - wat anderen kopen na het bekijken van dit product? |
 | Dit gekocht | Aanbevolen producten die kopers vaker onevenredig veel kopen bij het product dat momenteel wordt weergegeven. Bij dit type worden zeer relevante producten weergegeven die kopers aan hun winkelwagen kunnen toevoegen door samen te voegen wat andere kopers met het huidige product hebben gekocht.<br/><br/>**waar gebruikt:**<br/> - het detail van het Product <br/> - Kar <br/> - Bevestiging <br/><br/>**Voorgestelde etiketten:**<br/> - krijg alles dat u nodig hebt <br/> - vergeet niet deze <br/> - vaak samen gekocht |
 | Meer als dit | Aanbevelt producten die op gelijkaardige meta-gegevens zoals naam, beschrijving, categorietoewijzing, en attributen worden gebaseerd. Door de kenmerken te evalueren voor de producten die worden weergegeven, beveelt dit type vergelijkbare producten in dezelfde categorie aan. Als een winkelier bijvoorbeeld door yoga-mats bladert, wordt u aangeraden andere producten uit de apparatencategorie te gebruiken. Omdat in dit soort aanbevelingen geen onderscheid wordt gemaakt tussen genders, wordt het niet aanbevolen voor kleding, mode of andere geslachtsspecifieke verticalen.<br/><br/>**waar gebruikt:**<br/> - het detail van het Product <br/> - Kar <br/> - Bevestiging <br/><br/>**Voorgestelde etiketten:**<br/> - Meer producten zoals dit <br/> - Gelijkaardig aan dit |
-| [ Visuele gelijkenis ](#visualsim) | Hiermee kunt u vergelijkbare producten aanbevelen als het product dat u bekijkt. Dit soort aanbevelingen is vooral handig als afbeeldingen en visuele aspecten van producten belangrijk zijn voor de boodschappenervaring. |
+| [&#x200B; Visuele gelijkenis &#x200B;](#visualsim) | Hiermee kunt u vergelijkbare producten aanbevelen als het product dat u bekijkt. Dit soort aanbevelingen is vooral handig als afbeeldingen en visuele aspecten van producten belangrijk zijn voor de boodschappenervaring. |
 
 ## Populariteit {#popularity}
 
@@ -120,7 +120,7 @@ Omdat dit aanbevelingen type niet op de meeste catalogi van toepassing is, wordt
 
 1. Klik **sparen veranderingen** wanneer u wordt gebeëindigd.
 
-   [ creeer Nieuwe Aanbeveling ](create.md) pagina toont nu **Visuele gelijkenis** als verkiesbaar aanbevelingstype wanneer het paginatype **Detail van het Product** is.
+   [&#x200B; creeer Nieuwe Aanbeveling &#x200B;](create.md) pagina toont nu **Visuele gelijkenis** als verkiesbaar aanbevelingstype wanneer het paginatype **Detail van het Product** is.
 
 Nadat u visuele aanbevelingen hebt ingeschakeld, start Adobe Sensei de afbeeldingsverwerking. Hoe lang dit duurt, is afhankelijk van de grootte van de catalogus.
 
@@ -138,8 +138,8 @@ Nadat u visuele aanbevelingen hebt ingeschakeld, start Adobe Sensei de afbeeldin
 
 Het volgende beeld toont de pagina van het productdetail voor het _Controle van de Klamber_:
 
-![ Klambercontrole ](assets/visual-sim-pdp.png)
+![&#x200B; Klambercontrole &#x200B;](assets/visual-sim-pdp.png)
 
 Het volgende toont de _Visuele gelijkenis_ aanbevelingseenheid voor _Controle van de Klamber_:
 
-![ Visuele gelijkenis eenheid ](assets/visual-sim-unit.png)
+![&#x200B; Visuele gelijkenis eenheid &#x200B;](assets/visual-sim-unit.png)

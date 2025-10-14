@@ -45,4 +45,4 @@ ht-degree: 4%
    - [GraphQL](graphql.md)
    - [Instellingen](settings.md)
 - [Gebeurtenissen](events.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)

@@ -21,15 +21,15 @@ Wanneer u `magento/product-recommendations module` installeert, aggregeert Adobe
 
 >[!NOTE]
 >
-> Als uw opslag gebruikend PWA Studio wordt uitgevoerd, verwijs naar de [ documentatie van PWA ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). Als u een douane frontend technologie zoals React of Vue JS gebruikt, leer hoe te [&#128279;](headless.md) integreren [!DNL Product Recommendations] in uw headless opslag.
+> Als uw opslag gebruikend PWA Studio wordt uitgevoerd, verwijs naar de [&#x200B; documentatie van PWA &#x200B;](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). Als u een douane frontend technologie zoals React of Vue JS gebruikt, leer hoe te [&#128279;](headless.md) integreren [!DNL Product Recommendations] in uw headless opslag.
 
 ## Workflow
 
 1. **stelt gegevensinzameling aan productie** op
 
-   Het opstellen [!DNL Product Recommendations] vereist twee belangrijkste [ gegevensbronnen ](type.md): catalogus en gedrag. Omdat productie de enige omgeving is waarin de acties van uw klanten worden vastgelegd en geanalyseerd, moet u zo vroeg mogelijk beginnen met het verzamelen van gegevens over productie. [ Leer ](events.md) hoe Adobe Sensei machine het leren modellen tredt die in hogere kwaliteit aanbevelingen resulteren. Als toegevoegd voordeel, wanneer u gedragsgegevens over productie begint te verzamelen, kunt u [ aanbevelingen ](staging-environment.md#fetch-recommendations-from-production-environment-recommended) halen die op deze productiegegevens worden gebaseerd terwijl het werken in niet-productiemilieu&#39;s. Vervolgens kunt u testen en experimenteren met verschillende aanbevelingen die worden berekend op basis van echte verkoopgegevens die in productie worden verzameld.
+   Het opstellen [!DNL Product Recommendations] vereist twee belangrijkste [&#x200B; gegevensbronnen &#x200B;](type.md): catalogus en gedrag. Omdat productie de enige omgeving is waarin de acties van uw klanten worden vastgelegd en geanalyseerd, moet u zo vroeg mogelijk beginnen met het verzamelen van gegevens over productie. [&#x200B; Leer &#x200B;](events.md) hoe Adobe Sensei machine het leren modellen tredt die in hogere kwaliteit aanbevelingen resulteren. Als toegevoegd voordeel, wanneer u gedragsgegevens over productie begint te verzamelen, kunt u [&#x200B; aanbevelingen &#x200B;](staging-environment.md#fetch-recommendations-from-production-environment-recommended) halen die op deze productiegegevens worden gebaseerd terwijl het werken in niet-productiemilieu&#39;s. Vervolgens kunt u testen en experimenteren met verschillende aanbevelingen die worden berekend op basis van echte verkoopgegevens die in productie worden verzameld.
 
-   Om gegevensinzameling aan productie op te stellen, moet u [ installeren en vormen ](install-configure.md) module door een [!DNL Product Recommendations] API sleutel [ te verstrekken.](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL)
+   Om gegevensinzameling aan productie op te stellen, moet u [&#x200B; installeren en vormen &#x200B;](install-configure.md) module door een [!DNL Product Recommendations] API sleutel [&#x200B; te verstrekken.](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL)
 
    >[!TIP]
    >
@@ -53,7 +53,7 @@ Wanneer u `magento/product-recommendations module` installeert, aggregeert Adobe
    >
    > Zorg ervoor dat de niet-productieomgevingscatalogus grotendeels dezelfde is als de catalogus die u in productie hebt. Door vergelijkbare catalogi te gebruiken, zorgt u ervoor dat de producten die in de aanbevolen eenheden worden geretourneerd, de producten op productie nauwkeurig nabootsen.
 
-   Zie [ gedragsgegevens van 0&rbrace; Vetsen &lbrace;van uw productiemilieu leren hoe te om deze stap te voltooien.](staging-environment.md)
+   Zie [&#x200B; gedragsgegevens van 0&rbrace; Vetsen &lbrace;van uw productiemilieu leren hoe te om deze stap te voltooien.](staging-environment.md)
 
 1. **creeer en stel aanbevelingen aan uw productieopslag op**
 

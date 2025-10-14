@@ -3,7 +3,7 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
 source-git-commit: c27b2a8c7dffdcc5d5195cf809d5b475f3e01059
 workflow-type: tm+mt
@@ -217,6 +217,6 @@ Na voltooiing van de installatie:
 ### Hulp vragen
 
 - **Middelen van de Ontwikkelaar**: [&#x200B; documentatie van de Ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
-- **Bronnen van de Storefront**: [&#x200B; Commerce storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/)
-- **Leerprogramma&#39;s**: [&#x200B; zelfstudies van Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **Steun**: [&#x200B; de middelen van de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
+- **Bronnen van de Storefront**: [&#x200B; Commerce storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
+- **Leerprogramma&#39;s**: [&#x200B; zelfstudies van Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **Steun**: [&#x200B; de middelen van de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)

@@ -3,7 +3,7 @@ title: Gegevenssynchronisatie
 description: Herzie de catalogusgegevens die van uw Commerce gegevensbron in  [!DNL Adobe Commerce Optimizer] worden gesynchroniseerd.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: c0f4664c-6afc-4762-856b-5e26a865d3a2
 source-git-commit: 0b8e0222a1de1c425964f9f54294d7e0435a26d8
 workflow-type: tm+mt

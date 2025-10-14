@@ -1,7 +1,7 @@
 ---
 title: Aanbevelingen maken en beheren
 description: Leer hoe u aanbevelingen kunt maken en beheren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 7cee0a37-4d43-4ee9-889d-9a0ab9684bb8
 source-git-commit: 0b8e0222a1de1c425964f9f54294d7e0435a26d8
 workflow-type: tm+mt

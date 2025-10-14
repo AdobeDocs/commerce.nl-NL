@@ -3,10 +3,10 @@ user-guide-title: '[!DNL Live Search] Handleiding'
 user-guide-description: Deze gids verstrekt gedetailleerde instructies om  [!DNL Live Search]  van Adobe Commerce te gebruiken.
 role: Admin
 feature: Services, Search
-source-git-commit: 36c4abbc15f3e9eaabfeb93ac24660461c8bad9c
+source-git-commit: 2796cefcc9edf6247efdb9ad275048566e94c559
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 3%
 
 ---
 
@@ -44,5 +44,5 @@ ht-degree: 4%
    - [Indexeren](indexing.md)
    - [GraphQL](graphql.md)
    - [Instellingen](settings.md)
-- [Gebeurtenissen](events.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)
+- [ Gids van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

@@ -1,12 +1,13 @@
 ---
 title: Gegevenssynchronisatie
-description: Leer hoe u uw catalogusgegevens synchroniseert met  [!DNL Adobe Commerce Optimizer] .
+description: Herzie de catalogusgegevens die van uw Commerce gegevensbron in  [!DNL Adobe Commerce Optimizer] worden gesynchroniseerd.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: f49a86b8793e2d91413acfbc0b922cb94db67362
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: c0f4664c-6afc-4762-856b-5e26a865d3a2
+source-git-commit: 0b8e0222a1de1c425964f9f54294d7e0435a26d8
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ De **synchronisatie van Gegevens** pagina toont een overzicht van de synchronisa
 
 De **pagina van de Synchronisatie van Gegevens** verstrekt waardevolle inzichten in de beschikbaarheid van productgegevens voor uw opslag, die ervoor zorgen dat het aan uw kopers kan onmiddellijk worden getoond.
 
-De **pagina van de Synchronisatie van 0&rbrace; Gegevens &lbrace;wordt gevestigd bij *Opstelling* >** synchronisatie van Gegevens **.**
+De **pagina van de Synchronisatie van 0} Gegevens {wordt gevestigd bij** Opstelling *>* synchronisatie van Gegevens **.**
 
-![&#x200B; de Synchronisatie van Gegevens &#x200B;](../assets/data-sync.png)
+![ de Synchronisatie van Gegevens ](../assets/data-sync.png)
 
 De **pagina van de Synchronisatie van Gegevens** bevat de volgende gebieden:
 
@@ -35,9 +36,9 @@ De **pagina van de Synchronisatie van Gegevens** bevat de volgende gebieden:
 
 ## Lijst van gesynchroniseerde producten
 
-Om de details van een gesynchroniseerd product in formaat te zien JSON, klik op het codepictogram ![&#x200B; verbinding van de Code &#x200B;](../assets/data-sync-details.png) op de rij van het product van de gesynchroniseerde productlijst.
+Om de details van een gesynchroniseerd product in formaat te zien JSON, klik op het codepictogram ![ verbinding van de Code ](../assets/data-sync-details.png) op de rij van het product van de gesynchroniseerde productlijst.
 
-![&#x200B; Syncd de Details van het Product &#x200B;](../assets/synced-products.png)
+![ Syncd de Details van het Product ](../assets/synced-products.png)
 
 ## Catalogusgegevens opnieuw synchroniseren
 

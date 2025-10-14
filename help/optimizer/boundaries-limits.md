@@ -2,10 +2,11 @@
 title: Grenzen en grenzen
 description: Leer over de grenzen en de grenzen voor  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 553490762ef10e43ccce1654acec59aeb83bb5f9
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
+source-git-commit: 1eb95f26a196ad4e66cbc980c7f8a41cae950cb6
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Hieronder vindt u grenzen en beperkingen voor [!DNL Adobe Commerce Optimizer] .
 
 ## Catalogus
 
-- De gegarandeerde catalogusopname bedraagt: 1000 producten per minuut en 5000 prijzen per minuut.
+- De gegarandeerde hoeveelheid catalogusopname is: 1.000 producten per minuut en 5.000 prijzen per minuut.
 - Het basisaantal productupdates per dag is 1.000.000.
 - Het totale aantal SKU&#39;s dat in één instantie is toegestaan, is 250.000. 
 - Het maximumaantal catalogusbronnen is 50.
@@ -34,12 +35,12 @@ Hieronder vindt u grenzen en beperkingen voor [!DNL Adobe Commerce Optimizer] .
 - Het maximumaantal doorzoekbare kenmerken is 200.
 - Het maximumaantal tekentekenmerken is 50.
 - Het maximumaantal facetten is 100. Alle facetten moeten filterbare attributen zijn.
-- Het maximumaantal opties dat één facetcat retourneert, is 100. Dit kan per ondersteuningsverzoek worden verhoogd.
+- Het maximumaantal opties dat één facet kan retourneren, is 100. Dit aantal kan per ondersteuningsverzoek worden verhoogd.
 
 ## Weergaven en beleid van catalogi
 
-- Het maximumaantal catalogusweergaven per huurder is 1000.
-- Het maximumaantal beleid dat aan één catalogusmening wordt toegewezen is 10.
+- Het maximumaantal catalogusweergaven per huurder is 1.000.
+- Het maximumaantal beleidsregels dat aan één catalogusweergave is toegewezen, is 10.
 - Het maximumaantal kenmerkwaarden dat in een beleid wordt gebruikt, is 100. 
 
 ## Aanbevelingen

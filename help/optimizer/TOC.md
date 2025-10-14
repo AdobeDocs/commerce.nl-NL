@@ -4,10 +4,10 @@ user-guide-description: Documentatie en middelen voor  [!DNL Adobe Commerce Opti
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: a1872e89625c0c2f78e25ebe9a91cc5bca1f44f6
+source-git-commit: b524c75b59984ddfa63ce133a917b9891dd6719f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -58,4 +58,7 @@ ht-degree: 1%
 - [Instellingen](settings.md)
 - Hoofdletters gebruiken {#use-case}
    - [Gebruiksscenario van begin tot einde voor Storefront en Catalog Administrator](./use-case/admin-use-case.md)
-- [&#x200B; Gids van de Ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
+- Bronnen voor ontwikkelaars {#developer}
+   - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
+   - [ de Verwijzing van de Ingestie van Gegevens REST API ](https://developer.adobe.com/commerce/services/reference/rest/)
+   - [ het Merchandising GraphQL API Verwijzing ](https://developer.adobe.com/commerce/services/reference/graphql/)

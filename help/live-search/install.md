@@ -23,7 +23,7 @@ Dit artikel is bedoeld voor de ontwikkelaar of systeemintegrator in uw team die 
 
 ## Vereisten
 
-- [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html) 2.4.4+
+- [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/nl/products/magento/magento-commerce.html) 2.4.4+
 - PHP 8.1, 8.2 of 8.3
 - [!DNL Composer]
 - Snijtaken en indexeerders uitvoeren

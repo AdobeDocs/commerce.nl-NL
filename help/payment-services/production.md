@@ -131,7 +131,7 @@ Om uw opslag toe te laten om levend te gaan, verzoek betalingsrechten van Adobe 
 1. Vul het formulier in.
 1. Een lid van het verkoopteam zal contact met u opnemen.
 
-Alternatief, kunt u om betalingsrechten van Adobe bij [&#x200B; zaken.adobe.com verzoeken &#x200B;](https://business.adobe.com/resources/payment-services.html).
+Alternatief, kunt u om betalingsrechten van Adobe bij [&#x200B; zaken.adobe.com verzoeken &#x200B;](https://business.adobe.com/nl/resources/payment-services.html).
 
 >[!IMPORTANT]
 >

@@ -19,15 +19,15 @@ Beveiliging is van het grootste belang in [!DNL Payment Services] en er worden g
 
 [!DNL Adobe Commerce] en [!DNL Magento Open Source] bieden ondersteuning voor verschillende beveiligingsfuncties.
 
-Zie [ Veiligheid ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security){target="_blank"} in de gids van de kerngebruiker om veiligheid beste praktijken te herzien, en te leren hoe te om zittingen Admin en geloofsbrieven te beheren, CAPTCHA uit te voeren, en websitebeperkingen te beheren.
+Zie [&#x200B; Veiligheid &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security){target="_blank"} in de gids van de kerngebruiker om veiligheid beste praktijken te herzien, en te leren hoe te om zittingen Admin en geloofsbrieven te beheren, CAPTCHA uit te voeren, en websitebeperkingen te beheren.
 
 ## PCI-compatibiliteit
 
 De betaalkaartindustrie (PCI) heeft een reeks vereisten vastgesteld voor bedrijven die betalingen via een creditcard via internet accepteren. Naast het handhaven van een veilige omgeving, zijn de handelaren die de informatie van de klantencreditcard behandelen verantwoordelijk voor het voldoen aan sommige standaardrichtlijnen.
 
-Zie {de Richtlijnen van de Naleving van 0} PCI [ voor meer informatie.](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}
+Zie {de Richtlijnen van de Naleving van 0} PCI [&#x200B; voor meer informatie.](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-pci){target="_blank"}
 
-De handelaren kunnen a [ zelfbeoordelingsvragenlijst (SAQ) voltooien ](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"}, die een zelfbevestigingshulpmiddel is om veiligheid voor kaarthoudergegevens te beoordelen.
+De handelaren kunnen a [&#x200B; zelfbeoordelingsvragenlijst (SAQ) voltooien &#x200B;](https://www.pcisecuritystandards.org/pci_security/completing_self_assessment){target="_blank"}, die een zelfbevestigingshulpmiddel is om veiligheid voor kaarthoudergegevens te beoordelen.
 
 ### Creditcardvelden
 
@@ -39,24 +39,24 @@ PCI 3-D Secure (3DS) maakt kopersverificatie mogelijk met hun creditcardmaatscha
 
 [!UICONTROL Payment Services] biedt 3DS-functionaliteit om handelaren in staat te stellen te voldoen aan de EU-regelgeving en om klanten en handelaren te beschermen tegen frauduleuze activiteiten in hun winkels.
 
-Als u een handelaar binnen de EU of Groot-Brittannië bent waar 3DS naleving wordt vereist, moet u 3DS (het is `Off` door gebrek) manueel aanzetten in [ Admin van de Configuratie ](configure-admin.md#credit-card-fields).
+Als u een handelaar binnen de EU of Groot-Brittannië bent waar 3DS naleving wordt vereist, moet u 3DS (het is `Off` door gebrek) manueel aanzetten in [&#x200B; Admin van de Configuratie &#x200B;](configure-admin.md#credit-card-fields).
 
 >[!IMPORTANT]
 >
->Het 3DS vereiste is op transacties van toepassing waar de zaken en de bank van kaarthouders in [ Europese Economische Ruimte ](https://www.efta.int/eea) (EEA) en Groot-Brittannië gevestigd zijn. Handelaren in de Verenigde Staten hebben geen 3DS nodig, maar kunnen deze desgewenst inschakelen voor hun transacties.
+>Het 3DS vereiste is op transacties van toepassing waar de zaken en de bank van kaarthouders in [&#x200B; Europese Economische Ruimte &#x200B;](https://www.efta.int/eea) (EEA) en Groot-Brittannië gevestigd zijn. Handelaren in de Verenigde Staten hebben geen 3DS nodig, maar kunnen deze desgewenst inschakelen voor hun transacties.
 
 Orders die door het bedrijfs- of winkelpersoneel voor de koper worden geplaatst, zijn niet geconfigureerd met 3DS-compatibiliteitsmaatregelen. Als de kaartuitgever echter 3DS nodig heeft, kan deze stap niet worden overgeslagen, ongeacht de configuratie van [!UICONTROL Payment Services] .
 
 >[!MORELIKETHIS]
 >
-> * Zie [ 3DS in montages ](configure-admin.md#3ds) voor meer informatie.
-> * Zie [ testkaarten ](https://developer.paypal.com/docs/checkout/advanced/customize/3d-secure/test/) in de ontwikkelaarsdocumentatie van PayPal voor meer informatie over specifieke creditcards voor het testen 3DS.
+> * Zie [&#x200B; 3DS in montages &#x200B;](configure-admin.md#3ds) voor meer informatie.
+> * Zie [&#x200B; testkaarten &#x200B;](https://developer.paypal.com/docs/checkout/advanced/customize/3d-secure/test/) in de ontwikkelaarsdocumentatie van PayPal voor meer informatie over specifieke creditcards voor het testen 3DS.
 
 ### Kaart vauleren
 
-Wanneer een verkoopster [ vaults-of &quot;bewaart&quot;hun creditcardinformatie ](vaulting.md) voor toekomstige aankopen in uw opslag, wordt de minimale creditcardinformatie gedeeld met de verkoopster (laatste vier cijfers, kaartvervaldatum, en merk van kaart). Creditcardgegevens worden opgeslagen bij de betalingsdienstaanbieder. Wanneer een kaart verloopt of wanneer de gegevens niet meer hoeven te worden opgeslagen, kunnen zij die token verwijderen, zodat de informatie niet langer door de betalingsdienstaanbieder wordt opgeslagen.
+Wanneer een verkoopster [&#x200B; vaults-of &quot;bewaart&quot;hun creditcardinformatie &#x200B;](vaulting.md) voor toekomstige aankopen in uw opslag, wordt de minimale creditcardinformatie gedeeld met de verkoopster (laatste vier cijfers, kaartvervaldatum, en merk van kaart). Creditcardgegevens worden opgeslagen bij de betalingsdienstaanbieder. Wanneer een kaart verloopt of wanneer de gegevens niet meer hoeven te worden opgeslagen, kunnen zij die token verwijderen, zodat de informatie niet langer door de betalingsdienstaanbieder wordt opgeslagen.
 
-Zie [ Kredietkaart die ](vaulting.md) voor meer informatie in kluizen.
+Zie [&#x200B; Kredietkaart die &#x200B;](vaulting.md) voor meer informatie in kluizen.
 
 ### PayPal-betalingsknoppen
 
@@ -64,13 +64,13 @@ Met PayPal-betalingsknoppen worden er geen gegevens doorgegeven die door een PCI
 
 Om veiligheidsredenen geeft PayPal het factuuradres niet door tijdens het afrekenen. Land, e-mail en naam zijn de enige factuurgegevens die worden gebruikt. U kunt desgewenst het PayPal-afhandeling van uw site inschakelen om het volledige factureringsadres te retourneren door contact op te nemen met PayPal en een controleproces te voltooien.
 
-PayPal heeft ook geïntegreerde fraudebescherming die computerleren gebruikt om fraude te bestrijden. Zie de documentatie van de Bescherming van de Verkoper van PayPal [ ](https://www.paypal.com/us/webapps/mpp/security/seller-protection) voor meer informatie.
+PayPal heeft ook geïntegreerde fraudebescherming die computerleren gebruikt om fraude te bestrijden. Zie de documentatie van de Bescherming van de Verkoper van PayPal [&#x200B; &#x200B;](https://www.paypal.com/us/webapps/mpp/security/seller-protection) voor meer informatie.
 
 ## Fraudebescherming
 
-U kunt geautomatiseerde fraudebescherming voor de Diensten van de Betaling met de [ Ondertekenende uitbreiding ](https://commercemarketplace.adobe.com/signifyd-module-connect.html) toelaten. Zie [ Ondertekenende fraudebescherming ](fraud-protection.md) voor meer informatie.
+U kunt geautomatiseerde fraudebescherming voor de Diensten van de Betaling met de [&#x200B; Ondertekenende uitbreiding &#x200B;](https://commercemarketplace.adobe.com/signifyd-module-connect.html) toelaten. Zie [&#x200B; Ondertekenende fraudebescherming &#x200B;](fraud-protection.md) voor meer informatie.
 
-PayPal verstrekt andere opties voor [ fraudebescherming ](https://www.paypal.com/us/cshelp/article/what-is-fraud-protection-help1014){target=_blank} in hun ontwikkelaarsdocumentatie:
+PayPal verstrekt andere opties voor [&#x200B; fraudebescherming &#x200B;](https://www.paypal.com/us/cshelp/article/what-is-fraud-protection-help1014){target=_blank} in hun ontwikkelaarsdocumentatie:
 
-* Zie [ gevorderde fraudebescherming ](https://www.paypal.com/us/enterprise/fraud-protection-advanced#fraud-protection-advanced){target=_blank} voor meer informatie.
-* Zie [ de bescherming van de Doorbelasting ](https://www.paypal.com/us/cshelp/article/what-is-chargeback-protection-help608){target=_blank} voor meer informatie.
+* Zie [&#x200B; gevorderde fraudebescherming &#x200B;](https://www.paypal.com/us/enterprise/fraud-protection-advanced#fraud-protection-advanced){target=_blank} voor meer informatie.
+* Zie [&#x200B; de bescherming van de Doorbelasting &#x200B;](https://www.paypal.com/us/cshelp/article/what-is-chargeback-protection-help608){target=_blank} voor meer informatie.

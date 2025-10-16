@@ -1,10 +1,11 @@
 ---
 title: Typen aanbevelingen
 description: Leer meer over de aanbevelingen die u op verschillende pagina's op uw site kunt implementeren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 3020386cd051b4453ed6b90d2c694a5bb31dfb24
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: f1c4e0ef-a8fe-452d-9870-6d6964b4335d
+source-git-commit: 3fa6816c539494ce2cc67a9e3c601b8d3048f5d9
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -18,13 +19,43 @@ Adobe Commerce Optimizer biedt een groot aantal aanbevelingen die u op verschill
 - [Populariteit](#popularity)
 - [Krachtig](#highperf)
 
+Als beste praktijk, adviseert Adobe de volgende richtlijnen wanneer het gebruiken van aanbevelingen:
+
+- Diversifieer uw aanbevelingen types. Klanten negeren de aanbevelingen als ze steeds weer dezelfde producten voorstellen.
+
+- Implementeer niet dezelfde aanbevelingen op de pagina met winkelwagentjes en de pagina met bevestiging van bestellingen. U kunt overwegen `Most Added to Cart` te gebruiken voor de pagina met het winkelwagentje en `Bought This, Bought That` voor de pagina met bevestiging van de bestelling.
+
+- Houd uw site netjes. Implementeer niet meer dan drie aanbevolen eenheden op dezelfde pagina.
+
+- Als uw winkel kleding verkoopt, kan de `More like this` aanbeveling genderspecifieke producten voorstellen die niet overeenkomen met het geslacht van het product dat wordt weergegeven. Overweeg dit soort aanbevelingen alleen te gebruiken voor niet-kledingcategorieën.
+
 >[!NOTE]
 >
->Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [&#x200B; gebeurtenissen &#x200B;](../../setup/events/overview.md).
+>Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [ storefront gebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) in de ontwikkelaarsdocumentatie.
+
+## Gegevensvereisten en gedrag
+
+De Aanbevelingen van het product is een gegeven-gedreven systeem dat zich op gedragsgegevens baseert die uit uw winkel worden verzameld. De kwaliteit en kwantiteit van aanbevelingen zijn afhankelijk van de hoeveelheid beschikbare gebeurtenisgegevens.
+
+>[!IMPORTANT]
+>
+>De meeste soorten aanbevelingen vereisen voldoende gedragsgegevens (zoals productmeningen, toe:voegen-aan-kart acties, en aankopen) om zinvolle resultaten te produceren. Het systeem heeft doorgaans meerdere dagen actieve verkoopactiviteiten nodig om nauwkeurige aanbevelingen te kunnen maken. Zie [ gereedheidsindicatoren ](create.md#readiness-indicators) leren hoe de hulp van het plaatsverkeer om de diverse aanbevelingstypes te bevolken.
+
+### Wat gebeurt er met ontoereikende gegevens?
+
+Wanneer er niet genoeg gebeurtenisgegevens zijn om aanbevelingen te produceren, kan het systeem:
+
+- Retourneer lege resultaten voor de aanbevolen eenheid.
+- De trekker [ reserveaanbevelingen ](../../setup/events/overview.md#backup-recommendations), zoals het tonen van `Most viewed` producten wanneer de gepersonaliseerde aanbevelingen nog niet beschikbaar zijn.
+- Vertoning minder producten dan [ gevormd ](create.md) in de aanbeveling eenheid.
 
 ## Gepersonaliseerd {#personalized}
 
 Deze aanbevelingen typen producten op basis van de gedragsgeschiedenis van de specifieke klant op uw site aan. Bijvoorbeeld, als een verkoopster eerder naar een jasje doorzocht of een jasje op uw plaats kocht, nemen deze aanbevelingen hoofdzakelijk op waar zij weggingen en adviseren andere jasjes of gelijkaardige producten.
+
+>[!NOTE]
+>
+>Persoonlijke aanbevelingen vereisen dat kopers een bekende gedragsgeschiedenis hebben. De nieuwe bezoekers of de kopers zonder voldoende interactiegeschiedenis zullen [ reserveaanbevelingen ](../../setup/events/overview.md#backup-recommendations) zien, zoals de Meeste bekeken producten tot zij genoeg gedragssignalen op uw plaats produceren.
 
 | Type | Beschrijving |
 |---|---|
@@ -38,6 +69,8 @@ Deze soorten aanbevelingen zijn sociaal-veilig, zodat kopers kunnen vinden wat a
 >[!NOTE]
 >
 >&quot;bekeken dit, bekeken dat&quot;, &quot;bekeken dit, kocht dat&quot;, en &quot;kocht dit, kocht dat&quot;de aanbevelingstypes niet een eenvoudig-voorvalmetrisch maar eerder een verfijnd samenwerkings-filtrerend algoritme gebruiken dat *interessante gelijkenissen* zoekt die niet naar populaire producten worden scheefgetrokken. De gegevens die worden gebruikt om deze aanbevelingen te informeren zijn gebaseerd op het geaggregeerde gedrag van de verkoper dat uit veelvoudige zittingen op uw plaats wordt afgeleid. De gegevens zijn niet gebaseerd op verkoopgedrag dat is afgeleid van één exemplaar tijdens de sessie op uw site. Deze aanbevelingen helpen klanten die aangrenzende producten vinden die niet duidelijk aan paar met het momenteel bekeken product zouden kunnen zijn.
+>
+>Deze soorten aanbevelingen vereisen substantiële gegevens over productoverschrijdende interactie om zinvolle correlaties te identificeren. Winkels met een beperkte diversiteit aan productcatalogi of een laag verkeer kunnen minder aanbevelingen zien totdat voldoende gedragspatronen optreden.
 
 | Type | Beschrijving |
 |---|---|
@@ -50,6 +83,10 @@ Deze soorten aanbevelingen zijn sociaal-veilig, zodat kopers kunnen vinden wat a
 
 Deze aanbevelingen typen producten aan die het populairst of het trending binnen de laatste zeven dagen zijn.
 
+>[!NOTE]
+>
+>Op populariteit-gebaseerde aanbevelingen vereisen voldoende gebeurtenisgegevens van uw storefront. Als uw winkel nieuw is of weinig verkeer heeft, kunnen deze aanbevelingen beperkte resultaten of geen resultaten opleveren totdat er voldoende gedragsgegevens zijn verzameld. Controleer uw [ indicator van de gegevensbereidheid ](../../manage-results/recommendation-performance.md) om optimale prestaties te verzekeren.
+
 | Type | Beschrijving |
 |---|---|
 | Meest bekeken | Aanbevolen producten die het meest werden bekeken door het aantal sessies te tellen waarop een weergaveactie in de laatste zeven dagen plaatsvond.<br/><br/>**waar gebruikt:**<br/> - de pagina van het Huis <br/> - Categorie <br/> - het detail van het Product <br/> - Kaart <br/> - Bevestiging <br/><br/>**stelde etiketten voor:**<br/> - het populairste <br/> - het Trending <br/> - Bevolkt nu <br/> - Onlangs populaire <br/> - de Populaire producten die door dit product (PDP) worden geïnspireerd <br/> - Topverkopers |
@@ -61,9 +98,14 @@ Deze aanbevelingen typen producten aan die het populairst of het trending binnen
 
 In deze aanbevolen typen worden producten aanbevolen die de beste prestaties leveren op basis van succescriteria zoals &#39;add-to-cart&#39; of conversiesnelheden.
 
+>[!NOTE]
+>
+>De goed presterende aanbevelingen typen baseren zich op omzettingsgegevens (aankopen en toe:voegen-aan-kart acties). Nieuwe opslagplaatsen of opslagplaatsen met een laag omzettingsvolume moeten mogelijk gegevens verzamelen over 7-14 dagen voordat deze aanbevelingen effectief worden.
+
 | Type | Beschrijving |
 |---|---|
 | Omzetten van aankoop bekijken | Aanbevolen producten met de hoogste weergave-naar-aankoop conversiesnelheid. Van alle winkelsessies die een productweergave registreerden, wat is het percentage dat uiteindelijk een aankoop door de winkelier registreerde.<br/><br/>**waar gebruikt:**<br/> - de pagina van het Huis <br/> - Categorie <br/> - het detail van het Product <br/> - Kar <br/> - Bevestiging <br/><br/>**Voorgestelde etiketten:**<br/> - Top verkopers <br/> - Populaire producten <br/> - u zou in geinteresseerd kunnen zijn |
 | Omzetten naar winkelwagentje | Hiermee worden producten met de hoogste conversiesnelheid voor weergave naar winkelwagentje aanbevolen. Van alle winkelzittingen die een productmening registreerden, wat is het aandeel dat uiteindelijk registreerde en aan karretje toevoegde door de verkoopster.<br/><br/>**waar gebruikt:**<br/> - de pagina van het Huis <br/> - Categorie <br/> - het detail van het Product <br/> - Kar <br/> - Bevestiging <br/><br/>**Voorgestelde etiketten:**<br/> - Belangrijkste verkopers <br/> - Populaire producten <br/> - u zou in geinteresseerd kunnen zijn |
 | Meest aangeschaft | Deze aanbeveling wordt vaak &#39;&#39;Top Sellers&#39;&#39; genoemd en telt het aantal sessies waarvoor een plaatsordeactie is uitgevoerd in de laatste zeven dagen. Dit soort aanbevelingen kan op alle pagina&#39;s worden gebruikt.<br/><br/>**waar gebruikt:**<br/> - de pagina van het Huis <br/> - Categorie <br/> - het detail van het Product <br/> - Kaart <br/> - Bevestiging <br/><br/>**stelde etiketten voor:**<br/> - het populairste <br/> - het Trending <br/> - Bevolkt nu <br/> - Onlangs populaire <br/> - de Populaire producten die door dit product (PDP) worden geïnspireerd <br/> - Topverkopers |
+| Meest toegevoegd aan winkelwagentje | Aanbevolen producten die in de afgelopen zeven dagen het vaakst door kopers aan winkelwagentjes worden toegevoegd. Dit soort aanbevelingen kan op alle pagina&#39;s worden gebruikt.<br/><br/>**waar gebruikt:**<br/> - de pagina van het Huis <br/> - Categorie <br/> - het detail van het Product <br/> - Kaart <br/> - Bevestiging <br/><br/>**stelde etiketten voor:**<br/> - het populairste <br/> - het Trending <br/> - Bevolkt nu <br/> - Onlangs populaire <br/> - de Populaire producten die door dit product (PDP) worden geïnspireerd <br/> - Topverkopers |
 | Meest toegevoegd aan winkelwagentje | Aanbevolen producten die in de afgelopen zeven dagen het vaakst door kopers aan winkelwagentjes worden toegevoegd. Dit soort aanbevelingen kan op alle pagina&#39;s worden gebruikt.<br/><br/>**waar gebruikt:**<br/> - de pagina van het Huis <br/> - Categorie <br/> - het detail van het Product <br/> - Kaart <br/> - Bevestiging <br/><br/>**stelde etiketten voor:**<br/> - het populairste <br/> - het Trending <br/> - Bevolkt nu <br/> - Onlangs populaire <br/> - de Populaire producten die door dit product (PDP) worden geïnspireerd <br/> - Topverkopers |

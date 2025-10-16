@@ -2,9 +2,9 @@
 title: Typen aanbevelingen
 description: Leer meer over de aanbevelingen die u op verschillende pagina's op uw site kunt implementeren.
 exl-id: bbb290b0-b50b-43d9-bf71-1813298d5f39
-source-git-commit: 1548b7e11249febc2cd8682581616619f80c052f
+source-git-commit: 67d0b98f3a9317c0db944a176fd99375091a3970
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1991'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,31 @@ Als beste praktijk, adviseert Adobe de volgende richtlijnen wanneer het gebruike
 
 >[!NOTE]
 >
->Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [&#x200B; storefront gebeurtenissen &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) in de ontwikkelaarsdocumentatie.
+>Voor meer informatie over de gebeurtenissen die in dit artikel worden beschreven, zie [ storefront gebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) in de ontwikkelaarsdocumentatie.
+
+## Gegevensvereisten en gedrag
+
+De Aanbevelingen van het product is een gegeven-gedreven systeem dat zich op gedragsgegevens baseert die uit uw winkel worden verzameld. De kwaliteit en kwantiteit van aanbevelingen zijn afhankelijk van de hoeveelheid beschikbare gebeurtenisgegevens.
+
+>[!IMPORTANT]
+>
+>De meeste soorten aanbevelingen vereisen voldoende gedragsgegevens (zoals productmeningen, toe:voegen-aan-kart acties, en aankopen) om zinvolle resultaten te produceren. Het systeem heeft doorgaans meerdere dagen actieve verkoopactiviteiten nodig om nauwkeurige aanbevelingen te kunnen maken. Zie [ gereedheidsindicatoren ](create.md#readiness-indicators) leren hoe de hulp van het plaatsverkeer om de diverse aanbevelingstypes te bevolken.
+
+### Wat gebeurt er met ontoereikende gegevens?
+
+Wanneer er niet genoeg gebeurtenisgegevens zijn om aanbevelingen te produceren, kan het systeem:
+
+- Retourneer lege resultaten voor de aanbevolen eenheid.
+- De trekker [ reserveaanbevelingen ](events.md#backup-recommendations), zoals het tonen van `Most viewed` producten wanneer de gepersonaliseerde aanbevelingen nog niet beschikbaar zijn.
+- Vertoning minder producten dan [ gevormd ](create.md) in de aanbeveling eenheid.
 
 ## Gepersonaliseerd {#personalized}
 
 Deze aanbevelingen typen producten op basis van de gedragsgeschiedenis van de specifieke klant op uw site aan. Bijvoorbeeld, als een verkoopster eerder naar een jasje doorzocht of een jasje op uw plaats kocht, nemen deze aanbevelingen hoofdzakelijk op waar zij weggingen en adviseren andere jasjes of gelijkaardige producten.
+
+>[!NOTE]
+>
+>Persoonlijke aanbevelingen vereisen dat kopers een bekende gedragsgeschiedenis hebben. De nieuwe bezoekers of de kopers zonder voldoende interactiegeschiedenis zullen [ reserveaanbevelingen ](events.md#backup-recommendations) zien, zoals de Meeste bekeken producten tot zij genoeg gedragssignalen op uw plaats produceren.
 
 | Type | Beschrijving |
 |---|---|
@@ -48,6 +68,8 @@ Deze soorten aanbevelingen zijn sociaal-veilig, zodat kopers kunnen vinden wat a
 >[!NOTE]
 >
 >&quot;bekeken dit, bekeken dat&quot;, &quot;bekeken dit, kocht dat&quot;, en &quot;kocht dit, kocht dat&quot;de aanbevelingstypes niet een eenvoudig-voorvalmetrisch maar eerder een verfijnd samenwerkings-filtrerend algoritme gebruiken dat *interessante gelijkenissen* zoekt die niet naar populaire producten worden scheefgetrokken. De gegevens die worden gebruikt om deze aanbevelingen te informeren zijn gebaseerd op het geaggregeerde gedrag van de verkoper dat uit veelvoudige zittingen op uw plaats wordt afgeleid. De gegevens zijn niet gebaseerd op verkoopgedrag dat is afgeleid van één exemplaar tijdens de sessie op uw site. Deze aanbevelingen helpen klanten die aangrenzende producten vinden die niet duidelijk aan paar met het momenteel bekeken product zouden kunnen zijn.
+>
+>Deze soorten aanbevelingen vereisen substantiële gegevens over productoverschrijdende interactie om zinvolle correlaties te identificeren. Winkels met een beperkte diversiteit aan productcatalogi of een laag verkeer kunnen minder aanbevelingen zien totdat voldoende gedragspatronen optreden.
 
 | Type | Beschrijving |
 |---|---|
@@ -55,11 +77,15 @@ Deze soorten aanbevelingen zijn sociaal-veilig, zodat kopers kunnen vinden wat a
 | Bekijk dit, kocht dat | Aanbevolen producten die kopers vaker onevenredig kunnen kopen nadat ze het huidige product hebben bekeken. Dit type helpt kopers te helpen producten te ontdekken die ze anders niet hadden opgemerkt.<br/><br/>**waar gebruikt:**<br/> - het detail van het Product <br/> - Kar <br/> - Bevestiging <br/><br/>**Voorgestelde etiketten:**<br/> - Klanten die dit uiteindelijk bekeken <br/> - Klanten kochten <br/> - wat anderen kopen na het bekijken van dit product? |
 | Dit gekocht | Aanbevolen producten die kopers vaker onevenredig veel kopen bij het product dat momenteel wordt weergegeven. Bij dit type worden zeer relevante producten weergegeven die kopers aan hun winkelwagen kunnen toevoegen door samen te voegen wat andere kopers met het huidige product hebben gekocht.<br/><br/>**waar gebruikt:**<br/> - het detail van het Product <br/> - Kar <br/> - Bevestiging <br/><br/>**Voorgestelde etiketten:**<br/> - krijg alles dat u nodig hebt <br/> - vergeet niet deze <br/> - vaak samen gekocht |
 | Meer als dit | Aanbevelt producten die op gelijkaardige meta-gegevens zoals naam, beschrijving, categorietoewijzing, en attributen worden gebaseerd. Door de kenmerken te evalueren voor de producten die worden weergegeven, beveelt dit type vergelijkbare producten in dezelfde categorie aan. Als een winkelier bijvoorbeeld door yoga-mats bladert, wordt u aangeraden andere producten uit de apparatencategorie te gebruiken. Omdat in dit soort aanbevelingen geen onderscheid wordt gemaakt tussen genders, wordt het niet aanbevolen voor kleding, mode of andere geslachtsspecifieke verticalen.<br/><br/>**waar gebruikt:**<br/> - het detail van het Product <br/> - Kar <br/> - Bevestiging <br/><br/>**Voorgestelde etiketten:**<br/> - Meer producten zoals dit <br/> - Gelijkaardig aan dit |
-| [&#x200B; Visuele gelijkenis &#x200B;](#visualsim) | Hiermee kunt u vergelijkbare producten aanbevelen als het product dat u bekijkt. Dit soort aanbevelingen is vooral handig als afbeeldingen en visuele aspecten van producten belangrijk zijn voor de boodschappenervaring. |
+| [ Visuele gelijkenis ](#visualsim) | Hiermee kunt u vergelijkbare producten aanbevelen als het product dat u bekijkt. Dit soort aanbevelingen is vooral handig als afbeeldingen en visuele aspecten van producten belangrijk zijn voor de boodschappenervaring. |
 
 ## Populariteit {#popularity}
 
 Deze aanbevelingen typen producten aan die het populairst of het trending binnen de laatste zeven dagen zijn.
+
+>[!NOTE]
+>
+>Op populariteit-gebaseerde aanbevelingen vereisen voldoende gebeurtenisgegevens van uw storefront. Als uw winkel nieuw is of weinig verkeer heeft, kunnen deze aanbevelingen beperkte resultaten of geen resultaten opleveren totdat er voldoende gedragsgegevens zijn verzameld. Controleer uw [ indicator van de gegevensbereidheid ](workspace.md) om optimale prestaties te verzekeren.
 
 | Type | Beschrijving |
 |---|---|
@@ -71,6 +97,10 @@ Deze aanbevelingen typen producten aan die het populairst of het trending binnen
 ## Hoge prestaties {#highperf}
 
 In deze aanbevolen typen worden producten aanbevolen die de beste prestaties leveren op basis van succescriteria zoals &#39;add-to-cart&#39; of conversiesnelheden.
+
+>[!NOTE]
+>
+>De goed presterende aanbevelingen typen baseren zich op omzettingsgegevens (aankopen en toe:voegen-aan-kart acties). Nieuwe opslagplaatsen of opslagplaatsen met een laag omzettingsvolume moeten mogelijk gegevens verzamelen over 7-14 dagen voordat deze aanbevelingen effectief worden.
 
 | Type | Beschrijving |
 |---|---|
@@ -110,7 +140,7 @@ Omdat dit aanbevelingen type niet op de meeste catalogi van toepassing is, wordt
 
 >[!NOTE]
 >
-> Het _Visuele gelijkenis_ aanbevelingen type is beschikbaar wanneer u [&#128279;](install-configure.md) het als facultatieve module installeert.
+> Het _Visuele gelijkenis_ aanbevelingen type is beschikbaar wanneer u [ ](install-configure.md) het als facultatieve module installeert.
 
 1. Op _Admin_ sidebar, ga **de Marketing** > _Bevorderingen_ > **Aanbevelingen van het Product** om het _dashboard van de Aanbevelingen van het Product_ te tonen.
 
@@ -120,7 +150,7 @@ Omdat dit aanbevelingen type niet op de meeste catalogi van toepassing is, wordt
 
 1. Klik **sparen veranderingen** wanneer u wordt gebeëindigd.
 
-   [&#x200B; creeer Nieuwe Aanbeveling &#x200B;](create.md) pagina toont nu **Visuele gelijkenis** als verkiesbaar aanbevelingstype wanneer het paginatype **Detail van het Product** is.
+   [ creeer Nieuwe Aanbeveling ](create.md) pagina toont nu **Visuele gelijkenis** als verkiesbaar aanbevelingstype wanneer het paginatype **Detail van het Product** is.
 
 Nadat u visuele aanbevelingen hebt ingeschakeld, start Adobe Sensei de afbeeldingsverwerking. Hoe lang dit duurt, is afhankelijk van de grootte van de catalogus.
 
@@ -138,8 +168,8 @@ Nadat u visuele aanbevelingen hebt ingeschakeld, start Adobe Sensei de afbeeldin
 
 Het volgende beeld toont de pagina van het productdetail voor het _Controle van de Klamber_:
 
-![&#x200B; Klambercontrole &#x200B;](assets/visual-sim-pdp.png)
+![ Klambercontrole ](assets/visual-sim-pdp.png)
 
 Het volgende toont de _Visuele gelijkenis_ aanbevelingseenheid voor _Controle van de Klamber_:
 
-![&#x200B; Visuele gelijkenis eenheid &#x200B;](assets/visual-sim-unit.png)
+![ Visuele gelijkenis eenheid ](assets/visual-sim-unit.png)

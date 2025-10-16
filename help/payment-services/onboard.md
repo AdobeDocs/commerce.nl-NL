@@ -42,7 +42,7 @@ In dit stroomdiagram wordt het proces van de onboarding-sandbox weergegeven met 
 1. [&#x200B; opstelling de zandbakdienst &#x200B;](sandbox.md#enable-sandbox-testing) (of, alternatief, ga aan [&#x200B; toelatend levende betalingen &#x200B;](sandbox.md#enable-live-payments) als u functionaliteit in een ander milieu) met een betaalverwerkingsrekening van PayPal van de test hebt getest.
 1. De Betalingen van de test in a [&#x200B; zandbak &#x200B;](sandbox.md#test-in-sandbox-environment) milieu.
 
-[![&#x200B; leer meer &#x200B;](assets/learn-more-button.svg) &#x200B;](https://helpx.adobe.com/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
+[![&#x200B; leer meer &#x200B;](assets/learn-more-button.svg) &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
 
 >[!TAB  Productie ]
 
@@ -83,7 +83,7 @@ In dit stroomdiagram worden de sandboxstappen weergegeven die zijn vereist voor 
 1. [&#x200B; opstelling de zandbakdienst &#x200B;](sandbox.md#enable-sandbox-testing) (of, alternatief, ga aan [&#x200B; toelatend levende betalingen &#x200B;](sandbox.md#enable-live-payments) als u functionaliteit in een ander milieu) met een betaalverwerkingsrekening van PayPal van de test hebt getest.
 1. De Betalingen van de test in a [&#x200B; zandbak &#x200B;](sandbox.md#test-in-sandbox-environment) milieu.
 
-[![&#x200B; leer meer &#x200B;](assets/learn-more-button.svg) &#x200B;](https://helpx.adobe.com/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
+[![&#x200B; leer meer &#x200B;](assets/learn-more-button.svg) &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/payment-services-for-Adobe-Commerce-and-Magento-Open-Source-On-demand-Services.html)
 
 >[!TAB  Productie ]
 
@@ -110,8 +110,8 @@ Dit stroomdiagram toont het algemene proces voor het inschakelen van [!DNL Payme
 
 >[!MORELIKETHIS]
 >
-> * [&#x200B; los  [!DNL Payment Services]  installatie &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=en) problemen op
-> * [&#x200B; niet geverifieerde Paypal- zandbakrekening &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html)
-> * [&#x200B; Vertraagde  [!DNL Payment Services]  rapportgegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html)
-> * [&#x200B; Kredietkaart van de Test ontbreekt met PayPal wanneer het verwerken van betalingen in een milieu Sandbox &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=en)
-> * [&#x200B; maak de  [!DNL Payment Services]  uitbreiding &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions#manage-extensions-1) onbruikbaar
+> * [&#x200B; los  [!DNL Payment Services]  installatie &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-install.html?lang=nl-NL) problemen op
+> * [&#x200B; niet geverifieerde Paypal- zandbakrekening &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-paypal-acct.html?lang=nl-NL)
+> * [&#x200B; Vertraagde  [!DNL Payment Services]  rapportgegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-report-info-delayed.html?lang=nl-NL)
+> * [&#x200B; Kredietkaart van de Test ontbreekt met PayPal wanneer het verwerken van betalingen in een milieu Sandbox &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/payservices-cc-sandbox-failure.html?lang=nl-NL)
+> * [&#x200B; maak de  [!DNL Payment Services]  uitbreiding &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions#manage-extensions-1) onbruikbaar

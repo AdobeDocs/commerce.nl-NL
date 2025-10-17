@@ -60,5 +60,5 @@ ht-degree: 0%
    - [Gebruiksscenario van begin tot eind voor Storefront en Catalog Admin](./use-case/admin-use-case.md)
 - Bronnen voor ontwikkelaars {#developer}
    - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
-   - [ de Verwijzing van de Ingestie van Gegevens REST API ](https://developer.adobe.com/commerce/services/reference/rest/)
-   - [ het Merchandising GraphQL API Verwijzing ](https://developer.adobe.com/commerce/services/reference/graphql/)
+   - [&#x200B; de Verwijzing van de Ingestie van Gegevens REST API &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/)
+   - [&#x200B; het Merchandising GraphQL API Verwijzing &#x200B;](https://developer.adobe.com/commerce/services/reference/graphql/)

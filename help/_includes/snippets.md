@@ -35,4 +35,4 @@ ht-degree: 0%
 
 Adobe Commerce-identiteitsbeheer en -verificatie worden beheerd door het Adobe Identity Management System (IMS) via de Adobe Admin Console.
 
-Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van Adobe ID, Enterprise ID, en Federated ID, en instructies voor het vormen Enige Sign-On (SSO) voor veilige toegang tot Adobe apps, zie [ de identiteit van de Opstelling en Enige Sign-On ](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in de *Admin Console van de Onderneming* documentatie.
+Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van Adobe ID, Enterprise ID, en Federated ID, en instructies voor het vormen Enige Sign-On (SSO) voor veilige toegang tot Adobe apps, zie [&#x200B; de identiteit van de Opstelling en Enige Sign-On &#x200B;](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in de *Admin Console van de Onderneming* documentatie.

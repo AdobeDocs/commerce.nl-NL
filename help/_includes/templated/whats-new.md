@@ -23,7 +23,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> stappen van het Beheer van de Gebruiker 0&rbrace; &lbrace;voor het toevoegen van een gebruiker.</a></p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/user-management"> stappen van het Beheer van de Gebruiker 0&rbrace; &lbrace;voor het toevoegen van een gebruiker.</a></p>
 </td>
       <td>
         Belangrijke update
@@ -45,7 +45,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/storefront"> de opstellingsgids van de storefront </a> voor Adobe Commerce Optimizer om instructies te verstrekken voor het creëren van storefront project met het hulpmiddel van de Maker van de Plaats, die de storefrontconfiguratie aanpassen, en de plaats en catalogusgegevens verifiëren door het standaardproductdetail en de resultatenpagina's van het productonderzoek te controleren.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/storefront"> de opstellingsgids van de storefront </a> voor Adobe Commerce Optimizer om instructies te verstrekken voor het creëren van storefront project met het hulpmiddel van de Maker van de Plaats, die de storefrontconfiguratie aanpassen, en de plaats en catalogusgegevens verifiëren door het standaardproductdetail en de resultatenpagina's van het productonderzoek te controleren.</p>
 </td>
       <td>
         Belangrijke update
@@ -67,7 +67,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> gebruikersbeheer </a> vereist nu alle ontwikkelaars en productbeheerders om de gebruikersrol eerst toe te voegen.</p>
+      <td><p><a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/user-management"> gebruikersbeheer </a> vereist nu alle ontwikkelaars en productbeheerders om de gebruikersrol eerst toe te voegen.</p>
 </td>
       <td>
         Belangrijke update
@@ -89,7 +89,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Gepubliceerde <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/release-notes"> versienota's </a> voor de Diensten van de Betaling v2.12.2.</p>
+      <td><p>Gepubliceerde <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/release-notes"> versienota's </a> voor de Diensten van de Betaling v2.12.2.</p>
 </td>
       <td>
         Belangrijke update
@@ -111,7 +111,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde de opstellingsinformatie van AEM Assets aan de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> pagina van het gebruikersbeheer </a> voor Adobe Commerce as a Cloud Service.</p>
+      <td><p>Toegevoegde de opstellingsinformatie van AEM Assets aan de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/user-management"> pagina van het gebruikersbeheer </a> voor Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -119,7 +119,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/acce1aad405e74b1171faddf7f0d6681bd0a048d">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegde op rol-gebaseerde taken en werkschemainfo aan <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/getting-started"> Begonnen het worden </a> pagina voor Adobe Commerce as a Cloud Service</p>
+      <td><p>Toegevoegde op rol-gebaseerde taken en werkschemainfo aan <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/getting-started"> Begonnen het worden </a> pagina voor Adobe Commerce as a Cloud Service</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -141,7 +141,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde documentatie voor de facultatieve <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/extensibility/add-tax-attribute-set-inventory-attributes"> Extra module van de Attributen van het Product </a>. Wanneer deze module in een Adobe Commerce-omgeving wordt geïnstalleerd, exporteert het proces Gegevens exporteren automatisch metagegevens van de belastingklasse, kenmerkset en inventaris uit de Commerce-productconfiguratie naar de <code class="language-plaintext highlighter-rouge">products</code> - en <code class="language-plaintext highlighter-rouge">product attributes</code> -feeds.</p>
+      <td><p>Toegevoegde documentatie voor de facultatieve <a href="https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/extensibility/add-tax-attribute-set-inventory-attributes"> Extra module van de Attributen van het Product </a>. Wanneer deze module in een Adobe Commerce-omgeving wordt geïnstalleerd, exporteert het proces Gegevens exporteren automatisch metagegevens van de belastingklasse, kenmerkset en inventaris uit de Commerce-productconfiguratie naar de <code class="language-plaintext highlighter-rouge">products</code> - en <code class="language-plaintext highlighter-rouge">product attributes</code> -feeds.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -163,7 +163,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>U kunt het <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront"> hulpmiddel van de plaatsschepper </a> aan opstelling nu gebruiken uw storefront zonder CLI te gebruiken.</p>
+      <td><p>U kunt het <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/storefront"> hulpmiddel van de plaatsschepper </a> aan opstelling nu gebruiken uw storefront zonder CLI te gebruiken.</p>
 </td>
       <td>
         Belangrijke update

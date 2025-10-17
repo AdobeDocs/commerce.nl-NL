@@ -4,9 +4,9 @@ user-guide-description: Documentatie en middelen voor  [!DNL Adobe Commerce Opti
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: b524c75b59984ddfa63ce133a917b9891dd6719f
+source-git-commit: d788c6419831814f2a81229c2354ffc41b637873
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 - [Wat is Adobe Commerce Optimizer?](overview.md)
 - [Aan de slag](get-started.md)
-- [Gebruikersbeheer](user-management.md)
+- [Gebruiker- en identiteitsbeheer](user-management.md)
 - [Gedeelde verantwoordelijkheid](shared-responsibility.md)
 - [Grenzen en beperkingen](boundaries-limits.md)
 - [Opmerkingen bij de release](release-notes.md)
@@ -57,8 +57,8 @@ ht-degree: 0%
 - [Storefront](storefront.md)
 - [Instellingen](settings.md)
 - Hoofdletters gebruiken {#use-case}
-   - [Gebruiksscenario van begin tot einde voor Storefront en Catalog Administrator](./use-case/admin-use-case.md)
+   - [Gebruiksscenario van begin tot eind voor Storefront en Catalog Admin](./use-case/admin-use-case.md)
 - Bronnen voor ontwikkelaars {#developer}
    - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
-   - [&#x200B; de Verwijzing van de Ingestie van Gegevens REST API &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/)
-   - [&#x200B; het Merchandising GraphQL API Verwijzing &#x200B;](https://developer.adobe.com/commerce/services/reference/graphql/)
+   - [ de Verwijzing van de Ingestie van Gegevens REST API ](https://developer.adobe.com/commerce/services/reference/rest/)
+   - [ het Merchandising GraphQL API Verwijzing ](https://developer.adobe.com/commerce/services/reference/graphql/)

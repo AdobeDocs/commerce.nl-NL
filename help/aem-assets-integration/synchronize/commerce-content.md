@@ -3,9 +3,9 @@ title: Nauwkeurige en relevante inhoud behouden
 description: Een eCommerce-platform is een van de meest cruciale communicatiekanalen. Zorgen voor naadloze updates in het assetmanagementsysteem garandeert dat winkelwinkels altijd de meest actuele productinformatie weergeven.
 feature: CMS, Media, Integration
 exl-id: 2c749e84-fcc4-4bf9-90b2-87438329889e
-source-git-commit: 6640635fca5c53fe4b06b9bbb3120fffc46cb0b8
+source-git-commit: 141f2291d1ead324a159053145e92ee7d4237a7d
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Een ware inhoudslevering impliceert een combinatie zeer belangrijke pijlers over **Creatie en Productie**, **Werkschema en Planning**, en **Levering en Activering**. Elk van deze pijlers is op zich waardevol en draagt bij tot significante waarde voor organisaties:
 
-![&#x200B; Zeer belangrijke Pillars &#x200B;](../assets/key-pillars.png){width="600" zoomable="yes"}
+![ Zeer belangrijke Pillars ](../assets/key-pillars.png){width="600" zoomable="yes"}
 
 Een eCommerce-platform is een van de meest cruciale communicatiekanalen. Zorgen voor naadloze updates in het assetmanagementsysteem garandeert dat winkelwinkels altijd de meest actuele productinformatie weergeven. Dit is essentieel aan het bereiken van de drie belangrijkste doelstellingen van om het even welk **DAM (het Systeem van het Beheer van Digitale Activa)** &lt;> **de integratie van Commerce**:
 
@@ -37,6 +37,10 @@ Door het creëren van inhoud van catalogusbeheer te ontkoppelen, bereiken de ond
 * De productupdates blijven snel omdat de creatie van activa catalogusveranderingen niet vertraagt, toelatend grotere behendigheid in het beheren van nieuwe producten.
 
 * Automatisering verbetert de efficiëntie en nauwkeurigheid, waardoor de verschillen tussen productgegevens en de bijbehorende inhoud worden verkleind.
+
+>[!NOTE]
+>
+> De invoer van CSV-producten in PaaS en SaaS leidt niet tot updategebeurtenissen. Gebruik de API voor het importeren en bijwerken van catalogi.
 
 ## Wijzigingen in AEM Assets-levenscyclus
 

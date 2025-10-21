@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Facetten
 
-Faceting is een methode voor het filteren van hoge prestaties waarbij meerdere dimensies van kenmerkwaarden worden gebruikt als zoekcriteria. Het gefactureerde onderzoek is gelijkaardig, maar aanzienlijk &quot;slimmer&quot;dan de standaard [ gelaagde navigatie ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html). De lijst van beschikbare filters wordt bepaald door de [ filtreerbare attributen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#filterable-attributes) van producten die in de onderzoeksresultaten zijn teruggekeerd.
+Faceting is een methode voor het filteren van hoge prestaties waarbij meerdere dimensies van kenmerkwaarden worden gebruikt als zoekcriteria. Het gefactureerde onderzoek is gelijkaardig, maar aanzienlijk &quot;slimmer&quot;dan de standaard [&#x200B; gelaagde navigatie &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html). De lijst van beschikbare filters wordt bepaald door de [&#x200B; filtreerbare attributen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-layered.html#filterable-attributes) van producten die in de onderzoeksresultaten zijn teruggekeerd.
 
-[!DNL Live Search] gebruikt de query `productSearch` , die faceting en andere gegevens retourneert die specifiek zijn voor [!DNL Live Search] . Zie [`productSearch` query ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) in de ontwikkelaarsdocumentatie voor codevoorbeelden.
+[!DNL Live Search] gebruikt de query `productSearch` , die faceting en andere gegevens retourneert die specifiek zijn voor [!DNL Live Search] . Zie [`productSearch` query &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) in de ontwikkelaarsdocumentatie voor codevoorbeelden.
 
-![ Gefilterde onderzoeksresultaten ](assets/storefront-search-results-run.png)
+![&#x200B; Gefilterde onderzoeksresultaten &#x200B;](assets/storefront-search-results-run.png)
 
 Binnen een facet kunnen kopers meerdere opties selecteren, zoals &quot;Standaard&quot; en &quot;Snug&quot; onder &quot;Stijl&quot; en in de zoekresultaten worden alleen die stijlen weergegeven. Op dezelfde manier geldt dat als een winkelier opties selecteert in verschillende facetten, zoals &quot;Standaard&quot; onder &quot;Stijl&quot; en &quot;Binnenshuis&quot; onder &quot;Klimaat&quot;, de zoekresultaten worden bijgewerkt om die geselecteerde stijl en dat geselecteerde klimaat weer te geven.
 
@@ -29,16 +29,16 @@ De categorie- en productkenmerkvereisten voor facetten zijn vergelijkbaar met de
 >
 >Als u een productcategorie als facet definieert, worden in het facet de `url_path` van de categorie en de subcategorie weergegeven.
 >
->![ facet van de Categorie ](assets/facet-category.png)
+>![&#x200B; facet van de Categorie &#x200B;](assets/facet-category.png)
 
-Zie [ grenzen en grenzen ](./boundaries-limits.md#facets) om meer over de facetvereisten in [!DNL Live Search] te leren.
+Zie [&#x200B; grenzen en grenzen &#x200B;](./boundaries-limits.md#facets) om meer over de facetvereisten in [!DNL Live Search] te leren.
 
 Als u een groot aantal kenmerken hebt om mee te werken, kunt u overwegen kenmerken te combineren tot één &#39;meta-kenmerk&#39;. Schoenen hebben doorgaans bijvoorbeeld een numerieke grootte, terwijl overhemden de gebruikelijke grootte &#39;S/M/L/XL&#39; hebben. Deze twee typen grootten kunnen worden gecombineerd in één doorzoekbaar kenmerk.
 
 | Instelling | Beschrijving |
 |--- |--- |
-| [ de vertoningsmontages van de Categorie ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html) | Anker - `Yes` |
-| [ eigenschappen van Attributen ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) | [ het type van Invoer van de Catalogus ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html) - `Yes/No`, `Dropdown`, `Multiple Select`, `Price`, `Visual swatch` (widget slechts), `Text swatch` (widget slechts) |
+| [&#x200B; de vertoningsmontages van de Categorie &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-display-settings.html) | Anker - `Yes` |
+| [&#x200B; eigenschappen van Attributen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html) | [&#x200B; het type van Invoer van de Catalogus &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html) - `Yes/No`, `Dropdown`, `Multiple Select`, `Price`, `Visual swatch` (widget slechts), `Text swatch` (widget slechts) |
 | Eigenschappen van kenmerkarchief | Gebruiken in gelaagde navigatie met zoekresultaten - `Yes` |
 
 ## Facetaggregatie

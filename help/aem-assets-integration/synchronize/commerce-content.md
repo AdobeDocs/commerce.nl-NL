@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Een ware inhoudslevering impliceert een combinatie zeer belangrijke pijlers over **Creatie en Productie**, **Werkschema en Planning**, en **Levering en Activering**. Elk van deze pijlers is op zich waardevol en draagt bij tot significante waarde voor organisaties:
 
-![ Zeer belangrijke Pillars ](../assets/key-pillars.png){width="600" zoomable="yes"}
+![&#x200B; Zeer belangrijke Pillars &#x200B;](../assets/key-pillars.png){width="600" zoomable="yes"}
 
 Een eCommerce-platform is een van de meest cruciale communicatiekanalen. Zorgen voor naadloze updates in het assetmanagementsysteem garandeert dat winkelwinkels altijd de meest actuele productinformatie weergeven. Dit is essentieel aan het bereiken van de drie belangrijkste doelstellingen van om het even welk **DAM (het Systeem van het Beheer van Digitale Activa)** &lt;> **de integratie van Commerce**:
 

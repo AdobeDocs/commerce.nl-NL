@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce as a Cloud Service] releaseopmerkingen'
 description: Leer over de recentste eigenschappen en de verbeteringen in  [!DNL Adobe Commerce as a Cloud Service].
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: cf06dec6-8d6b-413e-9977-df88373c188e
 source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
 workflow-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Opmerkingen bij de release
 
-De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a Cloud Service] . Voor versieinformatie voor andere producten, verwijs naar [&#x200B; Adobe Commerce Optimizer &#x200B;](../optimizer/release-notes.md) of [&#x200B; Adobe Commerce op-gebouw en Adobe Commerce op Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview).
+De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a Cloud Service] . Voor versieinformatie voor andere producten, verwijs naar [&#x200B; Adobe Commerce Optimizer &#x200B;](../optimizer/release-notes.md) of [&#x200B; Adobe Commerce op-gebouw en Adobe Commerce op Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/notes/overview).
 
 ## augustus 2025
 

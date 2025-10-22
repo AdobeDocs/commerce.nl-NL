@@ -1,7 +1,7 @@
 ---
 title: Bulkgegevensmigratie
 description: Leer hoe u het Bulk-hulpprogramma voor gegevensmigratie kunt gebruiken om gegevens van uw bestaande Adobe Commerce op Cloud-instantie te migreren naar  [!DNL Adobe Commerce as a Cloud Service] .
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 exl-id: 81522de9-df54-4651-b8ed-58956376af86
 source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc

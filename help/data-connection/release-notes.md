@@ -24,9 +24,9 @@ Deze releaseopmerkingen bevatten updates van de extensie [!DNL Data Connection] 
 
 Voor eigenschapveranderingen en moeilijke situaties met betrekking tot uitbreidingen die door de [!DNL Data Connection] uitbreiding worden gebruikt, zie **Ondersteunde de dienstupdates**.
 
-Zie [&#x200B; Komende Versies &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) om over versieschema&#39;s en steun te leren.
+Zie [&#x200B; Komende Versies &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/planning/schedule) om over versieschema&#39;s en steun te leren.
 
-Zie de ontwikkelaardocumentatie aan [&#x200B; leren welke versies van Commerce deze module &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) steunen.
+Zie de ontwikkelaardocumentatie aan [&#x200B; leren welke versies van Commerce deze module &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/product-availability) steunen.
 
 ## Ondersteunde service-updates
 

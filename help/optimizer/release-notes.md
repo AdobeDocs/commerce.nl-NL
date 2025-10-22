@@ -1,10 +1,11 @@
 ---
 title: Aanvullende informatie
 description: De recentste versieinformatie voor  [!DNL Adobe Commerce Optimizer].
-role: Admin, Architect, Developer, User, Leader
+role: Admin, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 0b27bd80b6471f83dddb1f2e4a3ece5ebd9d05a0
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
+source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 3%
@@ -23,13 +24,13 @@ De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce Optimi
 
 ### EU-regio nu beschikbaar
 
-Ondersteuning voor de regio van de Europese Unie (eu1) voor IMS-organisaties van klanten is nu beschikbaar. U kunt **Europese Unie** nu selecteren als a **Gebied** wanneer [&#x200B; toevoegend een instantie van Commerce Optimizer &#x200B;](./get-started.md#step-1-create-an-instance) in Cloud Manager. De regio van de Europese Unie is alleen beschikbaar voor productieomgevingen.
+Ondersteuning voor de regio van de Europese Unie (eu1) voor IMS-organisaties van klanten is nu beschikbaar. U kunt **Europese Unie** nu selecteren als a **Gebied** wanneer [ toevoegend een instantie van Commerce Optimizer ](./get-started.md#step-1-create-an-instance) in Cloud Manager. De regio van de Europese Unie is alleen beschikbaar voor productieomgevingen.
 
 De basis-productie-URL&#39;s voor de regio van de Europese Unie zijn:
 
 * Admin: `https://eu1.admin.commerce.adobe.com`
 * REST en GraphQL: `https://eu1.api.commerce.adobe.com`
 
-![&#x200B; creeer instantie &#x200B;](./assets/create-instance.png){width="600" align="center" zoomable="yes"}
+![ creeer instantie ](./assets/create-instance.png){width="600" align="center" zoomable="yes"}
 
 >[!ENDSHADEBOX]

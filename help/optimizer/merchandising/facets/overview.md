@@ -1,9 +1,9 @@
 ---
 title: Overzicht van facetten
 description: Leer over facetten in  [!DNL Adobe Commerce Optimizer]  en hoe zij onderzoeksresultaten verbeteren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: cf16626e-8f85-47ca-b973-891b16c31fe3
-source-git-commit: ad8fb7d1d7e1ad124647ba84377079dcfbd46a3c
+source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Facets is een methode voor het filteren van hoge prestaties waarbij meerdere dimensies van kenmerkwaarden worden gebruikt als zoekcriteria.
 
-![&#x200B; Gefilterde onderzoeksresultaten &#x200B;](../../assets/storefront-search-results-run.png)
+![ Gefilterde onderzoeksresultaten ](../../assets/storefront-search-results-run.png)
 
 Binnen een facet kunnen kopers meerdere opties selecteren, zoals &quot;Standaard&quot; en &quot;Snug&quot; onder &quot;Stijl&quot; en in de zoekresultaten worden alleen die stijlen weergegeven. Op dezelfde manier geldt dat als een winkelier opties selecteert in verschillende facetten, zoals &quot;Standaard&quot; onder &quot;Stijl&quot; en &quot;Binnenshuis&quot; onder &quot;Klimaat&quot;, de zoekresultaten worden bijgewerkt om die geselecteerde stijl en dat geselecteerde klimaat weer te geven.
 
@@ -37,11 +37,11 @@ De volgende productkenmerken worden standaard gebruikt door [!DNL Adobe Commerce
 | Sorteerbaar | Wordt gebruikt voor sorteren in de productlijst | `price` |
 | Doorzoekbaar | Gebruiken in Zoeken | `price` <br />`sku`<br />`name` |
 
-Zie de [&#x200B; Meta-gegevens API van de Ingestie van Gegevens &#x200B;](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata) om meer over productattributen en hun eigenschappen te leren.
+Zie de [ Meta-gegevens API van de Ingestie van Gegevens ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata) om meer over productattributen en hun eigenschappen te leren.
 
 ## Standaardeigenschappen van niet-systeemkenmerken
 
-In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven. Het plaatsen van het *Gebruik in het 1&rbrace; attributenbezit van het Onderzoek &lbrace;aan* maakt de attributen doorzoekbaar in `Yes`.[!DNL Adobe Commerce Optimizer]
+In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven. Het plaatsen van het *Gebruik in het 1} attributenbezit van het Onderzoek {aan* maakt de attributen doorzoekbaar in `Yes`.[!DNL Adobe Commerce Optimizer]
 
 | Kenmerkcode | Doorzoekbaar |
 |--- |--- |
@@ -52,7 +52,7 @@ In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigensch
 | halsband | Ja |
 | kleur | Ja |
 | kosten | Ja |
-| eco_collection |
+| eco_collection |  |
 | sekse | Ja |
 | fabrikant | Ja |
 | materiaal | Ja |

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Belastingprijzen weergeven met API-net voor Adobe Developer App Builder
 
-[ API Net ](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/) laat ontwikkelaars toe om privé of derde APIs en andere interfaces met de producten van Adobe te integreren gebruikend Adobe I/O Runtime.
+[&#x200B; API Net &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/overview/) laat ontwikkelaars toe om privé of derde APIs en andere interfaces met de producten van Adobe te integreren gebruikend Adobe I/O Runtime.
 
 In dit onderwerp, wordt API Net gebruikt om productprijzen op een Pagina van het Detail van het Product met belastingen te tonen in.
 
@@ -21,16 +21,16 @@ In dit onderwerp, wordt API Net gebruikt om productprijzen op een Pagina van het
 
 Er moeten belastingen zijn geconfigureerd om te worden weergegeven op de pagina Productdetails.
 
-1. [ de belastingtarieven van de opstelling ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html).
-1. Laat belastingen toe om in de catalogus [ worden getoond, en plaats het aan of ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html#step-1%3A-configure-catalog-prices-display-settings) of `Including and Excluding Tax`.`Including Tax`
+1. [&#x200B; de belastingtarieven van de opstelling &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-rules.html).
+1. Laat belastingen toe om in de catalogus [&#x200B; worden getoond, en plaats het aan of &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/display-settings.html#step-1%3A-configure-catalog-prices-display-settings) of `Including and Excluding Tax`.`Including Tax`
 
 Controleer of de Catalogusservice werkt door een pagina met productdetails te controleren.
 
-![ Belastingen die op de Pagina van het Detail van het Product ](assets/display-tax.png) worden getoond
+![&#x200B; Belastingen die op de Pagina van het Detail van het Product &#x200B;](assets/display-tax.png) worden getoond
 
 ## API-net configureren
 
-Als dit nog niet het geval is, sluit u het API-net met de Catalogusservice aan op uw exemplaar. Zie gedetailleerde instructies in het [ Begonnen ](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/) onderwerp in de API de ontwikkelaarsgids van het Net.
+Als dit nog niet het geval is, sluit u het API-net met de Catalogusservice aan op uw exemplaar. Zie gedetailleerde instructies in het [&#x200B; Begonnen &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/) onderwerp in de API de ontwikkelaarsgids van het Net.
 
 Vervang in het bestand `mesh.json` de waarden `name` , `endpoint` en `x-api-key` .
 
@@ -111,7 +111,7 @@ Dit `mesh.json` configuratiebestand:
 * Hiermee breidt u de typen `ComplexProductView` en `SimpleProductView` uit met een nieuw veld met de naam `priceWithTaxes` .
 * Hiermee voegt u een aangepaste oplosser voor het nieuwe veld toe.
 
-Creeer het netwerk met [ creeer bevel ](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1) met het `mesh.json` dossier.
+Creeer het netwerk met [&#x200B; creeer bevel &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/gateway/create-mesh/#create-a-mesh-1) met het `mesh.json` dossier.
 
 ### GraphQL-query
 

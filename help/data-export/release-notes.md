@@ -47,7 +47,7 @@ Updates zijn:
 
 ## 103.4.11 Release
 
-![&#x200B; Nieuwe &#x200B;](../assets/new.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
 Extra ondersteuning voor extra productkenmerken om belastingklasse, kenmerkset en inventarisgegevens van Commerce-productconfiguraties in de productfeed op te nemen. Klanten die deze kenmerken in productexportfeeds willen opnemen, moeten de module Extra productkenmerken aan hun Adobe Commerce-project toevoegen. Zie [&#x200B; belastingklasse toevoegen, plaatste attributen, en inventarisattributen &#x200B;](add-tax-attribute-set-inventory-attributes.md).<!--MDEE-1135-->
 ![&#x200B; Repareren &#x200B;](../assets/fix.svg) loste een kwestie op die onjuiste synchronisatie van geschrapte productupdates veroorzaakte als een fout tijdens een volledige productindex voorkwam. Nu worden alle productverwijderingen correct gesynchroniseerd, zelfs als er een fout optreedt tijdens het indexeringsproces. <!--MDEE-1144-->
 

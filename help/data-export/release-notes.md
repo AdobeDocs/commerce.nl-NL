@@ -30,7 +30,7 @@ Updates zijn:
 
 ## 103.4.15 Release
 
-![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor de uitbreiding van de Status van de Synchronisatie van het Gegevensvoer om gegevensoverdrachten van Adobe Commerce aan de verbonden diensten (de Dienst van de Catalogus, Levend Onderzoek, en de Aanbevelingen van het Product) te controleren en problemen op te lossen. Voor details bij het installeren van en het gebruiken van deze uitbreiding, zie [&#x200B; de Controle van de Status van de Synchronisatie van het Gegeven &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html) in de *Gids Admin van Commerce*. <!--MDEE-954-->
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor de uitbreiding van de Status van de Synchronisatie van het Gegevensvoer om gegevensoverdrachten van Adobe Commerce aan de verbonden diensten (de Dienst van de Catalogus, Levend Onderzoek, en de Aanbevelingen van het Product) te controleren en problemen op te lossen. Voor details bij het installeren van en het gebruiken van deze uitbreiding, zie [&#x200B; de Controle van de Status van de Synchronisatie van het Gegeven &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html?lang=nl-NL) in de *Gids Admin van Commerce*. <!--MDEE-954-->
 
 ## 103.4.14 Release
 

@@ -101,7 +101,7 @@ Aanbevolen gebruiksscenario&#39;s voor het instellen van doorzoekopdrachten:
 
 Test altijd de doorverwijzing van zoekopdrachten om te controleren of deze op de juiste wijze werken en tot de meest relevante pagina&#39;s leiden. De prestaties van de systemen voortdurend controleren en waar nodig aanpassingen aanbrengen.
 
-Leer hoe te [&#x200B; onderzoeksredirects &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms) beheren.
+Leer hoe te [&#x200B; onderzoeksredirects &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-terms) beheren.
 
 ## De relevantie van zoekresultaten verbeteren
 
@@ -155,7 +155,7 @@ Zorg ervoor dat elk product relevante inhoud binnen elk doorzoekbaar kenmerk hee
 Meer informatie over productkenmerken voor zoekopdrachten:
 
 - [Kenmerken instellen als doorzoekbaar](workspace.md#set-attributes-as-searchable)
-- [&#x200B; Wijs gewicht aan attributen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search) toe
+- [&#x200B; Wijs gewicht aan attributen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search) toe
 
 ## Zoekresultaten controleren
 

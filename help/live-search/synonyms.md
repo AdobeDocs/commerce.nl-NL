@@ -15,4 +15,4 @@ Met synoniemen wordt de zoekquery uitgebreid en worden mogelijk woorden opgenome
 
 >[!IMPORTANT]
 >
->Voor de installaties van Adobe Commerce met [!DNL Live Search] geïnstalleerd, [!DNL Live Search] Synoniemen vervangt de standaardfunctionaliteit van het Onderzoek van de Synoniemen van Adobe Commerce [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html#search-synonyms), hoewel allebei in *SEO &amp; van het Onderzoek* sectie van het menu van de Marketing verschijnen. Als u [!DNL Live Search] gebruikt, volgt u de instructies in deze sectie.
+>Voor de installaties van Adobe Commerce met [!DNL Live Search] geïnstalleerd, [!DNL Live Search] Synoniemen vervangt de standaardfunctionaliteit van het Onderzoek van de Synoniemen van Adobe Commerce [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-terms.html?lang=nl-NL#search-synonyms), hoewel allebei in *SEO &amp; van het Onderzoek* sectie van het menu van de Marketing verschijnen. Als u [!DNL Live Search] gebruikt, volgt u de instructies in deze sectie.

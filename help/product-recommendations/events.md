@@ -22,7 +22,7 @@ Zie de [&#x200B; ontwikkelaardocumentatie &#x200B;](https://developer.adobe.com/
 
 ## Gezondheidszorgklanten
 
-Als u een gezondheidszorgklant bent en u de [&#x200B; uitbreiding van HIPAA van de Diensten van Gegevens &#x200B;](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [&#x200B; uitbreiding van de Verbinding van Gegevens &#x200B;](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Product Recommendations] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Product Recommendations] . Zie [&#x200B; algemene configuratie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services) om meer te leren.
+Als u een gezondheidszorgklant bent en u de [&#x200B; uitbreiding van HIPAA van de Diensten van Gegevens &#x200B;](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [&#x200B; uitbreiding van de Verbinding van Gegevens &#x200B;](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Product Recommendations] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Product Recommendations] . Zie [&#x200B; algemene configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/general/general#data-services) om meer te leren.
 
 ## Gegevenstypen en gebeurtenissen
 
@@ -87,4 +87,4 @@ In het geval van onvoldoende gegevensverzameling worden de volgende aanbevelinge
 
 >[!NOTE]
 >
->Als [&#x200B; de Wijze van de Beperking van het Koekje &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.
+>Als [&#x200B; de Wijze van de Beperking van het Koekje &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.

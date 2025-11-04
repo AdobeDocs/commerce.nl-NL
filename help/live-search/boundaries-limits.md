@@ -16,8 +16,8 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 
 ## Algemeen
 
-- De [&#x200B; Geavanceerde module van het Onderzoek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) wordt onbruikbaar gemaakt wanneer [!DNL Live Search] wordt geïnstalleerd, en de Geavanceerde verbinding van het Onderzoek in storefront wordt verwijderd.
-- [&#x200B; het Tarief van de Rij &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier) wordt niet gesteund op het [!DNL Live Search] gebied en de Widget van de Pagina van het Product van de Lijst.
+- De [&#x200B; Geavanceerde module van het Onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search) wordt onbruikbaar gemaakt wanneer [!DNL Live Search] wordt geïnstalleerd, en de Geavanceerde verbinding van het Onderzoek in storefront wordt verwijderd.
+- [&#x200B; het Tarief van de Rij &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/pricing/product-price-tier) wordt niet gesteund op het [!DNL Live Search] gebied en de Widget van de Pagina van het Product van de Lijst.
 - Productprijzen omvatten btw, maar [!DNL Live Search] kan de btw niet als een afzonderlijke waarde weergeven.
 - Zoeken naar inhoud (CMS-pagina&#39;s en -blokken) wordt niet ondersteund.
 - Het maximumaantal resultaten dat kan worden gepagineerd, is 10.000. Om ervoor te zorgen dat kopers geen diepe paginering hoeven te gebruiken wanneer een categorie of zoekresultaat een groot aantal producten bevat, moet u zinvolle manieren bieden om producten te filteren.
@@ -29,7 +29,7 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 - U kunt resultaten filtreren gebruikend &quot;begint met&quot;of &quot;bevat&quot;voorwaarden met sommige beperkingen zoals die in de [&#x200B; ontwikkelaarsdocumentatie &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#limitations) worden beschreven.
 - U kunt prestatiemetriek slechts volgen binnen het laatste jaar.
 - Als een zoekquery meerdere woorden bevat, worden deze door de lege ruimte tussen de woorden als aparte zoektermen behandeld. Het gebruik [&#x200B; synoniemen &#x200B;](./synonyms.md) als u voor multiword onderzoeksvragen wilt rekenschap geven.
-- [!DNL Live Search] steunt [&#x200B; onderzoeksterredirects &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-terms) niet native. Implementeer omleidingen met Snelheid of een andere aangepaste configuratie.
+- [!DNL Live Search] steunt [&#x200B; onderzoeksterredirects &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-terms) niet native. Implementeer omleidingen met Snelheid of een andere aangepaste configuratie.
 
 ## Indexeren
 
@@ -44,7 +44,7 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 ## Facetten
 
 - Van de reeks bepaalde filterbare attributen, kunt u tot 100 attributen als facetten vormen.
-- Binnen een facet kunnen maximaal 100 emmers worden geretourneerd. Als u meer dan 100 emmers moet terugkeren, [&#x200B; creeer een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) zodat kan Adobe het prestatieseffect analyseren en bepalen als het haalbaar is om deze grens voor uw milieu te verhogen.
+- Binnen een facet kunnen maximaal 100 emmers worden geretourneerd. Als u meer dan 100 emmers moet terugkeren, [&#x200B; creeer een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) zodat kan Adobe het prestatieseffect analyseren en bepalen als het haalbaar is om deze grens voor uw milieu te verhogen.
 - Dynamische facetten kunnen prestatieproblemen veroorzaken in grote indexen en indexen met hoge rangorde. Als u dynamische facetten hebt gemaakt en u merkt dat de prestaties achteruitgaan of dat de pagina niet wordt geladen met time-outfouten, kunt u proberen uw facetten te wijzigen in vastgezet om te bepalen of dat het prestatieprobleem verhelpt.
 - De voorraadstatus (`quantity_and_stock_status`) wordt niet ondersteund als facet. U kunt `inStock: 'true'` gebruiken om te filteren uit aandelenproducten. Dit wordt vanuit het vak in de module `LiveSearchAdapter` ondersteund wanneer &quot;Display out of stock products&quot; is ingesteld op &quot;True&quot; in [!DNL Commerce] Admin.
 - Datumtypekenmerken worden niet als facet ondersteund.
@@ -80,12 +80,12 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 ## B2B- en categoriemachtigingen
 
 - Producten worden niet weergegeven als deze niet worden toegevoegd aan een standaard gedeelde catalogus.
-- Om klantengroepen te beperken die [&#x200B; categorietoestemmingen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) gebruiken:
+- Om klantengroepen te beperken die [&#x200B; categorietoestemmingen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/categories/category-permissions) gebruiken:
    - De producten moeten aan de wortelcategorie worden toegewezen. (**Nota:** u kunt deze beperking verwijderen door de uitbreiding van de Uitvoer van Gegevens SaaS aan versie 103.4.0+ bij te werken. Zie [&#x200B; de uitbreiding van de gegevensuitvoer beheren &#x200B;](../data-export/manage-extension.md).
    - Aan de klantengroep &quot;Niet aangemeld&quot; moeten de machtigingen &quot;Toestaan&quot; worden toegekend.
-   - Om producten tot de &quot;niet Gelogde&quot;klantengroep te beperken, ga naar elke categorie en plaats toestemming voor elke [&#x200B; klantengroep &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage).
+   - Om producten tot de &quot;niet Gelogde&quot;klantengroep te beperken, ga naar elke categorie en plaats toestemming voor elke [&#x200B; klantengroep &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage).
 - Ondersteuning van de buitenverpakking voor B2B met de PLP-widget op PWA Studio wordt momenteel niet ondersteund. Nochtans, kunt u [&#x200B; gebruiken API &#x200B;](install.md#pwa-support) om deze functionaliteit uit te voeren.
-- De facetten van de categorie in [!DNL Live Search] zouden categorieën kunnen tonen die niet aan een specifieke [&#x200B; klantengroep &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage) kunnen tonen.
+- De facetten van de categorie in [!DNL Live Search] zouden categorieën kunnen tonen die niet aan een specifieke [&#x200B; klantengroep &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/shared-catalogs/catalog-shared-manage) kunnen tonen.
 - [!DNL Live Search] kan maximaal 1.000 klantengroepen ondersteunen.
 
 ## [!DNL Storefront popover]
@@ -100,8 +100,8 @@ Adobe Commerce biedt opties voor het zoeken naar sites. Controleer de volgende g
 
 Raadpleeg de volgende artikelen in de knowledgebase voor hulp bij het oplossen van enkele veelvoorkomende problemen in [!DNL Live Search] :
 
-- [[!DNL Live Search]  niet gesynchroniseerde catalogus &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync)
-- [[!DNL Live Search]  dashboard en het rangschikken van het onderzoeksresultaat is onjuist &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect)
-- [[!DNL Live Search]  worden de facetten niet alfabetisch gesorteerd &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-facets-not-sorted)
+- [[!DNL Live Search]  niet gesynchroniseerde catalogus &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync)
+- [[!DNL Live Search]  dashboard en het rangschikken van het onderzoeksresultaat is onjuist &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect)
+- [[!DNL Live Search]  worden de facetten niet alfabetisch gesorteerd &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-facets-not-sorted)
 
-Als u extra hulp nodig hebt, contacteer [&#x200B; steun &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
+Als u extra hulp nodig hebt, contacteer [&#x200B; steun &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).

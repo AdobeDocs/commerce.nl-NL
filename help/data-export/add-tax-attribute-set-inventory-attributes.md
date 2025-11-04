@@ -14,9 +14,9 @@ ht-degree: 0%
 
 De module Adobe Commerce Extra productkenmerken breidt de invoer van productgegevens uit. Het bevat aanvullende productkenmerken van Adobe Commerce-productconfiguraties:
 
-* [&#x200B; Belastingclassificatie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/tax-class)
-* [&#x200B; Reeks van Attributen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-sets)
-* [&#x200B; Overzicht &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-options#advanced-product-options)
+* [&#x200B; Belastingclassificatie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/taxes/tax-class)
+* [&#x200B; Reeks van Attributen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-sets)
+* [&#x200B; Overzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/product-options#advanced-product-options)
 
 Nadat de module is geïnstalleerd, werkt deze automatisch. De aanvullende kenmerken worden tijdens productsynchronisatie vastgelegd en geëxporteerd. Geen extra configuratie wordt vereist.
 
@@ -158,7 +158,7 @@ De extra module van de Attributen van het Product verbetert de bestaande product
 * [&#x200B; de uitbreiding van de Uitvoer van Gegevens van Adobe Commerce &#x200B;](manage-extension.md#update-a-module-to-a-specific-version), versie 103.4.11 of later
 * Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com)
 
-  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [&#x200B; Commerce op de Gids van de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+  Om sleutels te produceren en de noodzakelijke rechten te verkrijgen, zie [&#x200B; uw authentificatiesleutels &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) krijgen. Voor wolkeninstallaties, zie [&#x200B; Commerce op de Gids van de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 * Toegang tot de opdrachtregel van de Adobe Commerce-toepassingsserver.
 
 ### Installatiestappen
@@ -171,8 +171,8 @@ composer require adobe-commerce/module-extra-product-attributes
 
 Raadpleeg de volgende handleidingen voor gedetailleerde installatiestappen:
 
-* [&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-* [&#x200B; installeer uitbreiding Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+* [&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+* [&#x200B; installeer uitbreiding Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## Productgegevens synchroniseren
 
@@ -200,9 +200,9 @@ bin/magento saas:resync --feed=productAttributes
 
 * Controleren of de inventarisinstellingen correct zijn geconfigureerd in de beheerder
 * Controleren op overschrijvingen van specifieke inventarissen voor websites
-* Verifieer dat de [&#x200B; module van Inventory management &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview) correct werkt
+* Verifieer dat de [&#x200B; module van Inventory management &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/guide-overview) correct werkt
 
-Voor verdere details, zie de [&#x200B; Gids van Inventory management &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview) in de *Commerciële Documentatie van Adobe Commerce*.
+Voor verdere details, zie de [&#x200B; Gids van Inventory management &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/guide-overview) in de *Commerciële Documentatie van Adobe Commerce*.
 
 **de bedenkingen van Prestaties:**
 

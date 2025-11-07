@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Developers Live - Adobe Commerce-laboratoriumvereisten
 
-Deze pagina maakt een lijst van de eerste vereisten en andere handmatige opstellingsstappen voor het [ laboratorium van de classificatieuitbreiding ](./workbook.md). Het laboratorium bevat ook een manuscript dat de meeste van deze stappen automatiseert.
+Deze pagina maakt een lijst van de eerste vereisten en andere handmatige opstellingsstappen voor het [&#x200B; laboratorium van de classificatieuitbreiding &#x200B;](./workbook.md). Het laboratorium bevat ook een manuscript dat de meeste van deze stappen automatiseert.
 
 ## Voorwaarden voor extensies
 
@@ -31,7 +31,7 @@ Voordat u begint, moet u aan de volgende voorwaarden voldoen:
   aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce
   ```
 
-* Download AI-bijgewoonde winde, zoals [ Cursor ](https://cursor.com/download) (geadviseerd), andere IDEs, zoals de Code van Claude, Gemini CLI, of Copilot wordt ook gesteund, maar kon wijzigingen in de herinneringen en andere stappen in dit leerprogramma vereisen.
+* Download AI-bijgewoonde winde, zoals [&#x200B; Cursor &#x200B;](https://cursor.com/download) (geadviseerd), andere IDEs, zoals de Code van Claude, Gemini CLI, of Copilot wordt ook gesteund, maar kon wijzigingen in de herinneringen en andere stappen in dit leerprogramma vereisen.
 <!-- 
 ### Create a new project on Adobe Developer Console
 
@@ -98,7 +98,7 @@ Voordat u begint, moet u aan de volgende voorwaarden voldoen:
    aio console workspace select
    ```
 
-   ![ CLI configuratie ](./assets/cli-configuration.png){width="600" zoomable="yes"}
+   ![&#x200B; CLI configuratie &#x200B;](./assets/cli-configuration.png){width="600" zoomable="yes"}
 
 ### Kloonintegratiestartkit
 
@@ -109,7 +109,7 @@ git clone --branch adl https://github.com/adobe/commerce-integration-starter-kit
 cd extension
 ```
 
-![ Kloonstarterkit ](./assets/clone-starter-kit.png){width="600" zoomable="yes"}
+![&#x200B; Kloonstarterkit &#x200B;](./assets/clone-starter-kit.png){width="600" zoomable="yes"}
 
 ### Het .env-bestand maken
 
@@ -174,11 +174,11 @@ Koppel uw lokale project aan de externe werkruimte:
 aio app use workspace.json -m
 ```
 
-![ verbind met werkruimte ](./assets/connect-workspace.png){width="600" zoomable="yes"}
+![&#x200B; verbind met werkruimte &#x200B;](./assets/connect-workspace.png){width="600" zoomable="yes"}
 
 ## Voorwaarden voor Storefront
 
-De volgende punten worden vereist om de [ storefront ](#connect-to-the-storefront) sectie van dit leerprogramma te voltooien en de productratings in uw opslag te zien.
+De volgende punten worden vereist om de [&#x200B; storefront &#x200B;](#connect-to-the-storefront) sectie van dit leerprogramma te voltooien en de productratings in uw opslag te zien.
 <!-- 
 * Install [!DNL Node.js] (version `22.x.x`) and npm (`9.0.0` or higher). Verify your installation:
 
@@ -273,7 +273,7 @@ De MCP-server (Model Context Protocol) biedt AI-agents toegang tot [!DNL Adobe C
 
 #### MCP-instellingen voor cursor openen
 
-![ Open de Montages van de Curseur MCP ](./assets/cursor-mcp-settings.png){width="600" zoomable="yes"}
+![&#x200B; Open de Montages van de Curseur MCP &#x200B;](./assets/cursor-mcp-settings.png){width="600" zoomable="yes"}
 
 1. Openen [!DNL Cursor]
 1. Ga naar **[!UICONTROL Cursor]** > **[!UICONTROL Settings]** > **[!UICONTROL Cursor Settings]** > **[!UICONTROL Tools & MCP]**
@@ -288,7 +288,7 @@ Verifieer de configuratie MCP:
 
 De configuratie zou gelijkaardig aan dit moeten kijken:
 
-![ Configuratie MCP ](./assets/mcp-configuration.png){width="600" zoomable="yes"}
+![&#x200B; Configuratie MCP &#x200B;](./assets/mcp-configuration.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ Controleer of de MCP-server correct wordt uitgevoerd:
 
 Als de server MCP werkt, zou u relevante documentatieresultaten moeten zien.
 
-![ geverifieerde Verbinding MCP ](./assets/mcp-connection-verified.png){width="600" zoomable="yes"}
+![&#x200B; geverifieerde Verbinding MCP &#x200B;](./assets/mcp-connection-verified.png){width="600" zoomable="yes"}
 
 ### De ontwikkelingsserver starten
 
@@ -325,4 +325,4 @@ De ontwikkelingsserver begint bij `http://localhost:3000` .
 
 Navigeer naar de pagina apparel op `http://localhost:3000/apparel` .
 
-![ Server die van de Ontwikkeling ](./assets/development-server-running.png){width="600" zoomable="yes"} loopt
+![&#x200B; Server die van de Ontwikkeling &#x200B;](./assets/development-server-running.png){width="600" zoomable="yes"} loopt

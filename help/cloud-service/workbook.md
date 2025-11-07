@@ -35,21 +35,21 @@ bash --version
 
 ## Aanmelden bij de Adobe Developer Console
 
-1. Navigeer aan [ Adobe Developer Console ](https://developer.adobe.com/console){target="_blank"}.
+1. Navigeer aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console){target="_blank"}.
 1. Als u reeds het programma wordt geopend, klik uw profielpictogram in het hoogste recht en klik **Teken uit** knoop.
 1. Meld u aan met de e-mailadres en het wachtwoord voor uw licentie voor het laboratorium.
 1. Als u wordt ertoe aangezet om een secundair e-mailadres of een telefoonaantal toe te voegen, klik **niet nu**.
 1. Wanneer u wordt ertoe aangezet om een organisatieprofiel te selecteren, uitgezochte **Laboratoria van Adobe Commerce**.
 
-   ![ selecteren-organisatie ](./assets/select-org.png){width="600" zoomable="yes"}
+   ![&#x200B; selecteren-organisatie &#x200B;](./assets/select-org.png){width="600" zoomable="yes"}
 
 1. Als u wordt ertoe aangezet om de voorwaarden goed te keuren, klik de verbinding om de termijnen te lezen, dan klik **Accepteren en verdergaan**.
 
-   ![ goedkeuren-termijnen ](./assets/accept-terms.png){width="600" zoomable="yes"}
+   ![&#x200B; goedkeuren-termijnen &#x200B;](./assets/accept-terms.png){width="600" zoomable="yes"}
 
 ## Setup-script uitvoeren
 
-Als de [ eerste vereisten ](#verify-prerequisites) geïnstalleerd zijn, en u hebt binnen aan Adobe Developer Console ondertekend, download en stel het opstellingsmanuscript in werking. Alternatief, kunt u manueel opstelling het manuscript door de [ stappen te volgen van de 1} laboratoriumeerste vereisten.](workbook-prerequisites.md)
+Als de [&#x200B; eerste vereisten &#x200B;](#verify-prerequisites) geïnstalleerd zijn, en u hebt binnen aan Adobe Developer Console ondertekend, download en stel het opstellingsmanuscript in werking. Alternatief, kunt u manueel opstelling het manuscript door de [&#x200B; stappen te volgen van de 1&rbrace; laboratoriumeerste vereisten.](workbook-prerequisites.md)
 
 1. Clone the repository that contains the setup script:
 
@@ -59,7 +59,7 @@ Als de [ eerste vereisten ](#verify-prerequisites) geïnstalleerd zijn, en u heb
 
    >[!NOTE]
    >
-   >Als het manuscript ontbreekt, verwijs naar de [ eerste vereisten ](workbook-prerequisites.md) en ga verder waar het manuscript een fout ontmoette.
+   >Als het manuscript ontbreekt, verwijs naar de [&#x200B; eerste vereisten &#x200B;](workbook-prerequisites.md) en ga verder waar het manuscript een fout ontmoette.
 
 1. Navigeer in de gegevensopslagruimte:
 
@@ -93,7 +93,7 @@ cd extension
 aio commerce extensibility tools-setup
 ```
 
-![ installeer AI hulpmiddelen ](./assets/install-ai-tools.png){width="600" zoomable="yes"}
+![&#x200B; installeer AI hulpmiddelen &#x200B;](./assets/install-ai-tools.png){width="600" zoomable="yes"}
 
 ### Cursor openen
 
@@ -102,21 +102,21 @@ aio commerce extensibility tools-setup
 >Als u werkt met ontwikkelprogramma&#39;s voor AI-toepassingen, zijn er natuurlijke variaties in de code en de reacties die door de agent worden gegenereerd.
 >Als u om het even welke kwesties met uw code ontmoet, kunt u altijd de agent vragen om u te helpen het zuiveren.
 
-Open de [!DNL Cursor] toepassing en navigeer aan de `extension` omslag of als u de [ geïnstalleerde Curseur CLI ](https://cursor.com/docs/configuration/shell#installing-cli-commands) hebt, ga het volgende bevel in uw terminal in:
+Open de [!DNL Cursor] toepassing en navigeer aan de `extension` omslag of als u de [&#x200B; geïnstalleerde Curseur CLI &#x200B;](https://cursor.com/docs/configuration/shell#installing-cli-commands) hebt, ga het volgende bevel in uw terminal in:
 
 ```bash
 cursor .
 ```
 
-![ Open Cursor ](./assets/open-cursor.png){width="600" zoomable="yes"}
+![&#x200B; Open Cursor &#x200B;](./assets/open-cursor.png){width="600" zoomable="yes"}
 
 Op dit moment worden alle [!DNL Cursor] -regels geïnstalleerd in de map `.cursor/rules` . U kunt hulpmiddelen MCP in de **Montages MCP** in [!DNL Cursor] vinden. Controleer of de gereedschapsset `commerce-extensibility` zonder fouten is ingeschakeld. Als er fouten optreden, schakelt u de gereedschapset in en uit.
 
-![ montages van de Curseur ](./assets/cursor-settings.png){width="600" zoomable="yes"}
+![&#x200B; montages van de Curseur &#x200B;](./assets/cursor-settings.png){width="600" zoomable="yes"}
 
 Als u om het even welke documentatie hebt die aan de context van Cursor wordt toegevoegd, zult u het moeten onbruikbaar maken. Navigeer aan [!UICONTROL **Curseur**] > [!UICONTROL **Montages**] > [!UICONTROL **de Montages van de Curseur**] > [!UICONTROL **Indexeren &amp; Dokken**] en schrap om het even welke vermelde documentatie.
 
-![ maak documentatie ](./assets/disable-documentation.png){width="600" zoomable="yes"} onbruikbaar
+![&#x200B; maak documentatie &#x200B;](./assets/disable-documentation.png){width="600" zoomable="yes"} onbruikbaar
 
 ### Codegeneratie
 
@@ -144,11 +144,11 @@ Gebruik de volgende prompt in [!DNL Cursor] :
 
 1. Als de agent om de documentatie verzoekt te zoeken, sta het toe.
 
-![ ga herinnering in Curseur ](./assets/enter-prompt.png){width="600" zoomable="yes"} binnen
+![&#x200B; ga herinnering in Curseur &#x200B;](./assets/enter-prompt.png){width="600" zoomable="yes"} binnen
 
 De agent onderzoekt de vereisten en stelt verduidelijkende vragen. Beantwoord de vragen van de agent precies om het te helpen de beste code produceren.
 
-![ de Agent vraagt het verduidelijken vragen ](./assets/agent-questions.png){width="600" zoomable="yes"}
+![&#x200B; de Agent vraagt het verduidelijken vragen &#x200B;](./assets/agent-questions.png){width="600" zoomable="yes"}
 
 **herinnering van de Reactie:**
 
@@ -169,7 +169,7 @@ We do not need to add tests right now.
 
 De agent maakt een `requirements.md` -bestand dat als bron van waarheid voor de implementatie fungeert.
 
-![ gecreeerd dossier van Vereisten ](./assets/requirements-file.png){width="600" zoomable="yes"}
+![&#x200B; gecreeerd dossier van Vereisten &#x200B;](./assets/requirements-file.png){width="600" zoomable="yes"}
 
 #### Verifieer de vereisten en de planarchitectuur
 
@@ -178,15 +178,15 @@ De agent maakt een `requirements.md` -bestand dat als bron van waarheid voor de 
 1. Controleer het architectuurplan.
 1. Geef de agent de opdracht om door te gaan met het genereren van code.
 
-![ Architectuur planning ](./assets/architecture-planning.png){width="600" zoomable="yes"}
+![&#x200B; Architectuur planning &#x200B;](./assets/architecture-planning.png){width="600" zoomable="yes"}
 
 #### Code genereren
 
 De agent produceert de noodzakelijke code en verstrekt een gedetailleerde samenvatting met uw volgende stappen.
 
-![ Overzicht van de generatie van de Code ](./assets/code-generation-summary.png){width="600" zoomable="yes"}
+![&#x200B; Overzicht van de generatie van de Code &#x200B;](./assets/code-generation-summary.png){width="600" zoomable="yes"}
 
-![ Volgende stappen ](./assets/next-steps.png){width="600" zoomable="yes"}
+![&#x200B; Volgende stappen &#x200B;](./assets/next-steps.png){width="600" zoomable="yes"}
 
 ### Lokale tests
 
@@ -198,9 +198,9 @@ Test the ratings API locally on a dev server using cURL.
 
 Volg de instructies van de agent en bevestig dat de API lokaal werkt.
 
-![ Lokale het testen ](./assets/local-testing.png){width="600" zoomable="yes"}
+![&#x200B; Lokale het testen &#x200B;](./assets/local-testing.png){width="600" zoomable="yes"}
 
-![ Lokale testende resultaten ](./assets/local-testing-1.png){width="600" zoomable="yes"}
+![&#x200B; Lokale testende resultaten &#x200B;](./assets/local-testing-1.png){width="600" zoomable="yes"}
 
 ### De extensie implementeren
 
@@ -214,13 +214,13 @@ Deploy the ratings API.
 
 De agent voert een pre-plaatsingsklaar beoordeling uit alvorens op te stellen.
 
-![ pre-plaatsingsbeoordeling ](./assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
+![&#x200B; pre-plaatsingsbeoordeling &#x200B;](./assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
 
 #### Implementeren
 
 Wanneer u met de beoordelingsresultaten vertrouwd bent, instrueer de agent om met plaatsing te werk te gaan. De agent gebruikt toolkit MCP om, automatisch te verifiëren en op te stellen.
 
-![ Plaatsing ](./assets/deployment-process.png){width="600" zoomable="yes"}
+![&#x200B; Plaatsing &#x200B;](./assets/deployment-process.png){width="600" zoomable="yes"}
 
 ### De API testen
 
@@ -228,7 +228,7 @@ U kunt de API testen voordat u deze integreert in de winkel.
 
 De agent verstrekt de plaats van de nieuwe actie en een het testen strategie.
 
-![ het Testen strategie ](./assets/testing-strategy.png){width="600" zoomable="yes"}
+![&#x200B; het Testen strategie &#x200B;](./assets/testing-strategy.png){width="600" zoomable="yes"}
 
 #### Handmatig testen met cURL
 
@@ -238,7 +238,7 @@ Test de API handmatig met cURL in een terminal:
 curl -s "https://<your-site>.adobeioruntime.net/api/v1/web/ratings/ratings?sku=TEST-SKU-123"
 ```
 
-![ cURL test ](./assets/curl-test.png){width="600" zoomable="yes"}
+![&#x200B; cURL test &#x200B;](./assets/curl-test.png){width="600" zoomable="yes"}
 
 ### Integreren met Edge Delivery Services
 
@@ -248,9 +248,9 @@ Als u de API voor classificaties wilt integreren met een [!DNL Adobe Commerce] s
 Create a service contract for the ratings api that I can pass on to the storefront agent. Name it RATINGS_API_CONTRACT.md
 ```
 
-![ contract van de Dienst ](./assets/create-contract.png){width="600" zoomable="yes"}
+![&#x200B; contract van de Dienst &#x200B;](./assets/create-contract.png){width="600" zoomable="yes"}
 
-![ de contractdetails van de Dienst ](./assets/contract.png){width="600" zoomable="yes"}
+![&#x200B; de contractdetails van de Dienst &#x200B;](./assets/contract.png){width="600" zoomable="yes"}
 
 Ga terug naar de terminal en voer de volgende opdracht in de map `extension` uit om het bestand naar de map `storefront` te kopiëren:
 
@@ -276,7 +276,7 @@ Deze sectie helpt u bij het implementeren van echte storefront-functies en laat 
    cd storefront
    ```
 
-1. Open de opslagmap in een nieuw cursorvenster. Als u de [ geïnstalleerde Curseur CLI ](https://cursor.com/docs/configuration/shell#installing-cli-commands) hebt, ga het volgende bevel in uw terminal in:
+1. Open de opslagmap in een nieuw cursorvenster. Als u de [&#x200B; geïnstalleerde Curseur CLI &#x200B;](https://cursor.com/docs/configuration/shell#installing-cli-commands) hebt, ga het volgende bevel in uw terminal in:
 
    ```bash
    cursor .
@@ -318,7 +318,7 @@ Deze sectie helpt u bij het implementeren van echte storefront-functies en laat 
 * De component is geïntegreerd in product-details, product-lijst-pagina, en product-aanbevelingen blokken gebruikend Sleuven.
 * De sterren worden weergegeven met de juiste vulverhoudingen op basis van de mock-classificatiewaarden.
 
-![ Implementatie van de Classificaties van het Product ](./assets/product-ratings-implementation.png){width="600" zoomable="yes"}
+![&#x200B; Implementatie van de Classificaties van het Product &#x200B;](./assets/product-ratings-implementation.png){width="600" zoomable="yes"}
 
 ### De sterkleuren wijzigen
 
@@ -332,7 +332,7 @@ Change the star fill color to red.
 
 De sterren worden rood.
 
-![ Rode Ster Kleuren ](./assets/red-star-colors.png){width="600" zoomable="yes"}
+![&#x200B; Rode Ster Kleuren &#x200B;](./assets/red-star-colors.png){width="600" zoomable="yes"}
 
 ## Storefront-rechthoek
 
@@ -354,7 +354,7 @@ De volgende stappen tonen hoe de agent complexe eigenschappen UI met visuele ver
 
 1. **alvorens te beginnen:** sparen het volgende modelbeeld en kleef het in het praatje met uw storefront agent.
 
-   ![ Mockup van de Distributie van de Classificatie ](./assets/rating-distribution-mockup.png){width="600" zoomable="yes"}
+   ![&#x200B; Mockup van de Distributie van de Classificatie &#x200B;](./assets/rating-distribution-mockup.png){width="600" zoomable="yes"}
 
 1. Gebruik de volgende stappen om u door het creëren van de classificatiedistributie modaal te begeleiden die op het verwijzingsbeeld wordt gebaseerd:
 
@@ -378,4 +378,4 @@ De volgende stappen tonen hoe de agent complexe eigenschappen UI met visuele ver
   adjust the modal position to be...
   ```
 
-![ Modal van de Distributie van de Classificatie ](./assets/rating-distribution-modal.png){width="600" zoomable="yes"}
+![&#x200B; Modal van de Distributie van de Classificatie &#x200B;](./assets/rating-distribution-modal.png){width="600" zoomable="yes"}

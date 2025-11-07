@@ -3,9 +3,9 @@ user-guide-title: '[!DNL Adobe Commerce as a Cloud Service]'
 user-guide-description: Deze gids verstrekt gedetailleerde instructies voor het gebruiken van  [!DNL Adobe Commerce as a Cloud Service].
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: d788c6419831814f2a81229c2354ffc41b637873
+source-git-commit: f6667afbc2ba6bc323b1fecee8921d3ee572879f
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ ht-degree: 0%
 - [Beheer van bedrijfsmiddelen](assets-management.md)
 - [Gebruik hoofdletters](use-cases.md)
 - [Gedeelde verantwoordelijkheid](shared-responsibility.md)
+- [Zelfstudie over het verlengen van beoordelingen](workbook.md)
+- [Voorwaarden voor ratingextensies](workbook-prerequisites.md)
 - Migratie {#migration}
    - [Overzicht](migration/overview.md)
    - [Bulkgegevensmigratie](migration/bulk-data.md)
    - [Coderingsgereedschappen](migration/coding-tools.md)
 - [Opmerkingen bij de release](release-notes.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

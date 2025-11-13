@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Met prijzenboeken kunt u productprijzen voor een catalogusbron definiëren voor verschillende klantniveaus en markten. De boeken van de prijs steunen een hiërarchisch model, dat tot drie niveaus van genestelde kindprijsboeken onder elk basisprijzenboek toestaat. Elk prijzenboek kan naar een ouderprijzenboek verwijzen, dat een boomstructuur voor het bepalen van catalogusbronnen vormt.
 
-![ Hiërarchie van het Boek van de Prijs ](../assets/price-book-hier.png)
+![&#x200B; Hiërarchie van het Boek van de Prijs &#x200B;](../assets/price-book-hier.png)
 
 Het basisprijzenboek definieert de valuta voor zichzelf en al zijn kinderprijzenboeken. De boeken van de kindprijs erven deze munt en kunnen niet het met voeten treden.
 
 ## Prijsboeken toevoegen aan Commerce Optimizer
 
-Met de API Prijsboek kunt u prijzenboeken toevoegen aan Commerce Optimizer. Zie de [ ontwikkelaarsdocumentatie ](https://developer.adobe.com/commerce/services/reference/rest/) leren hoe te, prijzenboeken voor [!DNL Adobe Commerce Optimizer] tot stand brengen bij te werken en te schrappen.
+Met de API Prijsboek kunt u prijzenboeken toevoegen aan Commerce Optimizer. Zie de [&#x200B; ontwikkelaarsdocumentatie &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/) leren hoe te, prijzenboeken voor [!DNL Adobe Commerce Optimizer] tot stand brengen bij te werken en te schrappen.
 
 ## Prijsboeken weergeven in Commerce Optimizer
 
@@ -34,7 +34,7 @@ Nadat u prijsboeken in Commerce Optimizer opneemt, kunt u de lijst van prijsboek
 
    Selecteer een van de beschikbare prijzenboeken in het dialoogvenster voor het configureren van de details van de catalogusweergave.
 
-   ![ Namen en IDs van het Boek van de Prijs ](../assets/price-book-name-ids.png)
+   ![&#x200B; Namen en IDs van het Boek van de Prijs &#x200B;](../assets/price-book-name-ids.png)
 
 ## Belangrijkste concepten
 

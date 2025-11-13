@@ -3,7 +3,7 @@ title: Prijsboeken
 description: Leer hoe te om prijsboeken in  [!DNL Adobe Commerce Optimizer] te beheren.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: a1849830-3d0e-4df9-ab73-380659c3f9dc
 source-git-commit: 1c720bc3ba755639eff2f17912fb3a3446e367f6
 workflow-type: tm+mt

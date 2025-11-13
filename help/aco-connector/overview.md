@@ -2,7 +2,7 @@
 title: Adobe Commerce Optimizer Connector
 description: Leer hoe u uw gegevens van uw Commerce-cloud of -project op locatie kunt verbinden met Adobe Commerce Optimizer
 feature: Personalization, Integration, Configuration
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 hidefromtoc: true
 hide: true
 source-git-commit: 1654aede42cf53b2dffe2965680f122d7c247234
@@ -58,15 +58,15 @@ De connector schakelt verschillende belangrijke workflows in:
 
 * Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com) om het metapakket van de Verbinding van Commerce te downloaden gebruikend Composer.
 
-* Admin toegang tot een [&#x200B; zandbakinstantie van Adobe Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/create-first-instance).
+* Admin toegang tot een [&#x200B; zandbakinstantie van Adobe Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-commerce-optimizer/create-first-instance).
 
 De Adobe Commerce-gebruiker die de integratie configureert, moet beschikken over:
 
 * Beheerderstoegang tot de Adobe Commerce Admin.
 
-* [&#x200B; de lijntoegang van het Bevel tot de de toepassingsserver van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access).
+* [&#x200B; de lijntoegang van het Bevel tot de de toepassingsserver van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/project/user-access).
 
-* De toegang van de ontwikkelaar tot de [&#x200B; IMS Organisatie &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations?) waar het project van Adobe Commerce Optimizer provisioned is.
+* De toegang van de ontwikkelaar tot de [&#x200B; IMS Organisatie &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/organizations?) waar het project van Adobe Commerce Optimizer provisioned is.
 
 ## Aan de slag
 
@@ -106,9 +106,9 @@ Nadat uw wijzigingen zijn geïmplementeerd, is de optie Commerce Optimizer Optim
 >
 >Raadpleeg de volgende handleidingen voor gedetailleerde installatie-instructies voor extensies:
 >
->[&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+>[&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 >
->[&#x200B; installeer uitbreiding Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+>[&#x200B; installeer uitbreiding Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ## Vereiste waarden ophalen voor het configureren van de Commerce Optimizer-verbinding
 
@@ -150,7 +150,7 @@ Met behulp van de API-referenties en de instantiedetails die u in de vorige stap
 
    ![&#x200B; de configuratiepagina van Adobe Commerce Optimizer &#x200B;](../assets/aco-connector-config-page.png)
 
-1. Van de bevellijn, [&#x200B; gebruik SSH &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections) om met het opvoeren van Commerce milieu te verbinden.
+1. Van de bevellijn, [&#x200B; gebruik SSH &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/secure-connections) om met het opvoeren van Commerce milieu te verbinden.
 
 1. Voer het volgende Commerce CLI bevel in werking om de integratie te vormen, die de placeholder waarden met de waarden voor uw project van Commerce Optimizer vervangt:
 
@@ -166,9 +166,9 @@ bin/magento aco:config:init --org_id=<<your_org_id>> --tenant_id=<<your_tenant_i
 
 U kunt de gegevenssynchronisatie zowel in Commerce Admin als in Commerce Optimizer controleren.
 
-* De **[pagina van de Status van de Synchronisatie van het Gegeven van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.md)** toont de vooruitgang van de synchronisatie van catalogusgegevens van Commerce aan Adobe Commerce Optimizer.
+* De **[pagina van de Status van de Synchronisatie van het Gegeven van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.md)** toont de vooruitgang van de synchronisatie van catalogusgegevens van Commerce aan Adobe Commerce Optimizer.
 
-* De **[[!UICONTROL Data Sync]pagina &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)** in Adobe Commerce Optimizer toont de catalogusgegevens die van uw instantie van Commerce worden overgebracht.
+* De **[[!UICONTROL Data Sync]pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/data-sync)** in Adobe Commerce Optimizer toont de catalogusgegevens die van uw instantie van Commerce worden overgebracht.
 
 1. Controleer of de catalogusgegevens van Commerce naar Commerce Optimizer stromen:
 
@@ -210,13 +210,13 @@ Prijsboeken worden automatisch aangemaakt door Adobe Commerce-klantengroepen.
 
 ## Commerce Storefront instellen op Edge Delivery Services
 
-In deze sectie vindt u een overzicht op hoog niveau van de stappen die nodig zijn om de Commerce-winkel in te stellen. De gedetailleerde informatie is beschikbaar in [ Adobe Commerce Storefront ] (https://experienceleague.adobe.com/developer/commerce/storefront/) documentatieplaats.
+In deze sectie vindt u een overzicht op hoog niveau van de stappen die nodig zijn om de Commerce-winkel in te stellen. De gedetailleerde informatie is beschikbaar in [ Adobe Commerce Storefront ] (https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) documentatieplaats.
 
 1. De kloon en stelt het bouwwerk van Adobe Commerce Storefront aan EDS op gebruikend het [&#x200B; hulpmiddel van de Maker van de Plaats &#x200B;](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator).
 
-1. [&#x200B; opstelling een lokale ontwikkelomgeving &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment).
+1. [&#x200B; opstelling een lokale ontwikkelomgeving &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL#set-up-local-environment).
 
-1. [&#x200B; installeer het pakket van de Verenigbaarheid van de Opslag van GraphQL &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility/install/). &#x200B;
+1. [&#x200B; installeer het pakket van de Verenigbaarheid van de Opslag van GraphQL &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility/install/?lang=nl-NL). &#x200B;
 
 1. [&#x200B; vorm de kopballen van CORS voor de instantie van Commerce in wolkenmilieu &#x200B;](#configure-cors-headers-for-commerce-instance).
 
@@ -224,7 +224,7 @@ In deze sectie vindt u een overzicht op hoog niveau van de stappen die nodig zij
 
 ### CORS-headers configureren voor Commerce-instantie
 
-Als u wilt toestaan dat GraphQL-aanvragen vanuit een Edge Delivery Services-winkel (EDS) naar Adobe Commerce kunnen komen in een cloud- of op een locatie-omgeving, voegt u specifieke koppen (Cross-Origin Resource Sharing, CORS) toe aan de eindpunten van Adobe Commerce GraphQL. &#x200B; Voor instructies, zie [&#x200B; opstelling CORS &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/cors-setup/) in de *documentatie van Adobe Commerce Storefront*.
+Als u wilt toestaan dat GraphQL-aanvragen vanuit een Edge Delivery Services-winkel (EDS) naar Adobe Commerce kunnen komen in een cloud- of op een locatie-omgeving, voegt u specifieke koppen (Cross-Origin Resource Sharing, CORS) toe aan de eindpunten van Adobe Commerce GraphQL. &#x200B; Voor instructies, zie [&#x200B; opstelling CORS &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/cors-setup/?lang=nl-NL) in de *documentatie van Adobe Commerce Storefront*.
 
 ### De opslagruimte verbinden met Commerce-gegevensbronnen
 
@@ -234,7 +234,7 @@ In de bewaarplaats GitHub voor de Stortefront boilerplate-code, werk het storefr
 
 * `"commerce-endpoint": "Commerce Optimizer instance GraphQL endpoint"` , bijvoorbeeld `https://na1-sandbox.api.commerce.adobe.com/{{instanceId}}/v1/catalog&#x200B;` .
 
-* `"AC-Environment-Id": "Customer organization ID"` - krijg deze waarde van het [&#x200B; de wolkenproject van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/overview#project-overview).
+* `"AC-Environment-Id": "Customer organization ID"` - krijg deze waarde van het [&#x200B; de wolkenproject van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/project/overview#project-overview).
 
 * `"AC-View-ID": "Catalog view ID in Commerce Optimizer Admin"` - krijg deze waarde van de [&#x200B; details van de catalogusmening &#x200B;](../optimizer/setup/catalog-view.md#view-details) in Adobe Commerce Optimizer.
 
@@ -242,6 +242,6 @@ In de bewaarplaats GitHub voor de Stortefront boilerplate-code, werk het storefr
 
 * `"AC-Source-Locale": "catalogSource"`— Geef de bron op die is gekoppeld aan de Commerce-storeview om verbinding te maken met de storefront. U kunt beschikbare bronnen van de [&#x200B; pagina van de Synchronisatie van Gegevens &#x200B;](../optimizer/setup/data-sync.md) in Adobe Commerce Optimizer zien.
 
-Voor meer informatie, zie {de configuratie van 0} Storefront [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/) Adobe Commerce Storefront *documentatie.*
+Voor meer informatie, zie {de configuratie van 0} Storefront [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=nl-NL) Adobe Commerce Storefront *documentatie.*
 
 

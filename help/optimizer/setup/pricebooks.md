@@ -3,11 +3,11 @@ title: Prijsboeken
 description: Leer hoe te om prijsboeken in  [!DNL Adobe Commerce Optimizer] te beheren.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: a1849830-3d0e-4df9-ab73-380659c3f9dc
-source-git-commit: 502d8d21ff052f4ecb212176459b38ce51f85dfc
+source-git-commit: 1c720bc3ba755639eff2f17912fb3a3446e367f6
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,25 @@ ht-degree: 0%
 
 Met prijzenboeken kunt u productprijzen voor een catalogusbron definiëren voor verschillende klantniveaus en markten. De boeken van de prijs steunen een hiërarchisch model, dat tot drie niveaus van genestelde kindprijsboeken onder elk basisprijzenboek toestaat. Elk prijzenboek kan naar een ouderprijzenboek verwijzen, dat een boomstructuur voor het bepalen van catalogusbronnen vormt.
 
+![ Hiërarchie van het Boek van de Prijs ](../assets/price-book-hier.png)
+
 Het basisprijzenboek definieert de valuta voor zichzelf en al zijn kinderprijzenboeken. De boeken van de kindprijs erven deze munt en kunnen niet het met voeten treden.
 
-Zie de [&#x200B; ontwikkelaarsdocumentatie &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/) leren hoe te om, prijzenboeken voor [!DNL Adobe Commerce Optimizer] tot stand te brengen bij te werken en te schrappen het gebruiken van de Boek API van de Prijs.
+## Prijsboeken toevoegen aan Commerce Optimizer
+
+Met de API Prijsboek kunt u prijzenboeken toevoegen aan Commerce Optimizer. Zie de [ ontwikkelaarsdocumentatie ](https://developer.adobe.com/commerce/services/reference/rest/) leren hoe te, prijzenboeken voor [!DNL Adobe Commerce Optimizer] tot stand brengen bij te werken en te schrappen.
+
+## Prijsboeken weergeven in Commerce Optimizer
+
+Nadat u prijsboeken in Commerce Optimizer opneemt, kunt u de lijst van prijsboeken en hun overeenkomstige IDs op de **pagina van de Mening van de Catalogus** zien.
+
+1. Ga naar _opstelling van de Opslag_, en klik **[!UICONTROL Catalog views]**.
+
+1. Klik op **[!UICONTROL Create catalog view]** . &#x200B;
+
+   Selecteer een van de beschikbare prijzenboeken in het dialoogvenster voor het configureren van de details van de catalogusweergave.
+
+   ![ Namen en IDs van het Boek van de Prijs ](../assets/price-book-name-ids.png)
 
 ## Belangrijkste concepten
 

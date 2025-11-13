@@ -1,11 +1,11 @@
 ---
 title: Prestaties van aanbevelingen
 description: De pagina met aanbevelingen geeft insight inzicht in hoe goed je productaanbevelingen presteren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 1b77e2ea-412b-4c78-9d38-390bd8fda87e
-source-git-commit: 0eea4658d554f2913c7c2d25e0c0753f22016aaa
+source-git-commit: 177ebffe0295fdc87b6f4a60473ebfda6bea0f01
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -18,25 +18,21 @@ De pagina van Prestaties van Aanbevelingen toont een lijst van gevormde aanbevel
 >
 >Een aanbevelingseenheid is een widget die de geadviseerde product _punten_ bevat.
 
-![&#x200B; Prestaties van Aanbevelingen &#x200B;](../assets/rec-performance.png){zoomable="yes"}
-
-## Kies de **mening van de Catalogus**
-
-Selecteer de [&#x200B; catalogusmening &#x200B;](../setup/catalog-view.md) waar uw aanbevelingen van toepassing zijn.
-
-![&#x200B; de Mening van de Catalogus &#x200B;](../assets/catalog-view.png)
+![ Prestaties van Aanbevelingen ](../assets/rec-performance.png){zoomable="yes"}
 
 ## Een rapport weergeven
 
-Klik op **[!UICONTROL Date Range]** en selecteer een van de volgende bereiken:
+1. Kies de **bron van de Catalogus**, zoals `en-US` waar uw aanbevelingen van toepassing zijn.
 
-![&#x200B; de Waaier van de Datum van Aanbevelingen &#x200B;](../assets/rec-perf-date-range.png)
+1. Klik op **[!UICONTROL Date Range]** en selecteer een van de volgende bereiken:
 
-De lijst van de aanbeveling werkt aan vertoningsmetriek voor dat datumwaaier bij.
+   ![ de Waaier van de Datum van Aanbevelingen ](../assets/rec-perf-date-range.png)
+
+   De lijst van de aanbeveling werkt aan vertoningsmetriek voor dat datumwaaier bij.
 
 ## Tabel aanpassen
 
-1. In de upper-left hoek, klik het ![&#x200B; selecteur van de Kolom &#x200B;](../assets/icon-show-hide-columns.png) pictogram om de lijst aan te passen.
+1. In de upper-left hoek, klik het ![ selecteur van de Kolom ](../assets/icon-show-hide-columns.png) pictogram om de lijst aan te passen.
 
    De zichtbare kolommen hebben een vinkje.
 
@@ -47,31 +43,23 @@ De lijst van de aanbeveling werkt aan vertoningsmetriek voor dat datumwaaier bij
 
    De tabel wordt vernieuwd en bevat alleen de geselecteerde kolommen.
 
-## Filters instellen
-
-Klik op het filterpictogram om de meetgegevens in de werkruimte met aanbevolen prestaties te filteren.
-
-![&#x200B; Metriek van de Filter &#x200B;](../assets/rec-filters.png)
-
-U kunt meerdere waarden configureren voor elk van de filters. Zie de [&#x200B; lijst hieronder &#x200B;](#column-descriptions) voor beschrijvingen van elke filter.
-
 ## Details weergeven
 
-1. In de lijst, klik het (![&#x200B; Meer selecteur &#x200B;](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
+1. In de lijst, klik het (![ Meer selecteur ](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
 
-1. Om het statuut van de aanbeveling te veranderen, activeer **&#x200B;**&#x200B;of **&#x200B;**&#x200B;deactivate.
+1. Om het statuut van de aanbeveling te veranderen, activeer **** of **** deactivate.
 
 ## Aanbevelingen maken of beheren
 
-Leer hoe u [&#x200B; een nieuwe kunt tot stand brengen of een bestaande &#x200B;](../merchandising/recommendations/create.md) aanbeveling beheren.
+Leer hoe u [ een nieuwe kunt tot stand brengen of een bestaande ](../merchandising/recommendations/create.md) aanbeveling beheren.
 
 ## Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |---|---|
-| ![&#x200B; de Waaier van de Datum &#x200B;](../assets/rec-perf-date-range.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. |
-| ![&#x200B; de selecteur van de Kolom &#x200B;](../assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de lijst van Aanbevelingen verschijnen. |
-| Aanbeveling maken | Opent [&#x200B; creëren Nieuwe pagina van de Aanbeveling &#x200B;](../merchandising/recommendations/create.md). |
+| ![ de Waaier van de Datum ](../assets/rec-perf-date-range.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. |
+| ![ de selecteur van de Kolom ](../assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de lijst van Aanbevelingen verschijnen. |
+| Aanbeveling maken | Opent [ creëren Nieuwe pagina van de Aanbeveling ](../merchandising/recommendations/create.md). |
 
 ## Kolombeschrijvingen
 

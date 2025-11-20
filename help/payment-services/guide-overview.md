@@ -123,6 +123,6 @@ Voor een overzicht van uit-van-de-doos betalingsoplossingen, met inbegrip van ei
 
 Als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld, neemt u contact op met uw [!DNL Payment Services] -verkoper of gebruikt u de bronnen in uw [!DNL Payment Services] startpagina:
 
->[!VIDEO](https://video.tv.adobe.com/v/3447836)
+>[!VIDEO](https://video.tv.adobe.com/v/3448233?captions=dut)
 
 Zie [&#x200B; Welke  [!DNL Payment Services]  optie voor u juist is?](compatibility.md#which-payment-services-option-is-right-for-you) om te controleren welke optie het meest geschikt is voor u.[!DNL Payment Services]

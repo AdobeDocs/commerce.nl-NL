@@ -2,7 +2,7 @@
 title: Wat is Adobe Commerce Optimizer?
 description: Leer over  [!DNL Adobe Commerce Optimizer]  en zijn belangrijkste eigenschappen.
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
 source-git-commit: 69c752322b01985a2eb55de69d4736d75f6bd60a
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Met [!DNL Adobe Commerce Optimizer] kunt u:
 
 Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450469?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
 
 ## Wie profiteert het meest van [!DNL Adobe Commerce Optimizer]?
 
@@ -39,7 +39,7 @@ Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Comme
 
 Wanneer u [!DNL Adobe Commerce Optimizer] de eerste keer start, ziet u het volgende:
 
-![[!DNL Adobe Commerce Optimizer] UI &#x200B;](./assets/user-interface.png){zoomable="yes"}
+![[!DNL Adobe Commerce Optimizer] UI ](./assets/user-interface.png){zoomable="yes"}
 
 >[!BEGINTABS]
 
@@ -89,4 +89,4 @@ De belangrijkste mogelijkheden omvatten:
 
 In het volgende diagram wordt de basisarchitectuur van [!DNL Adobe Commerce Optimizer] beschreven, van het opnemen van catalogusgegevens tot de relatie tussen merchandising-services, uw winkeliefront en de integratie met een karretje- en uitcheckproces van derden.
 
-![[!DNL Adobe Commerce Optimizer] Architectuur &#x200B;](./assets/architecture.png)
+![[!DNL Adobe Commerce Optimizer] Architectuur ](./assets/architecture.png)

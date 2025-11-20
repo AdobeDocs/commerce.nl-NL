@@ -23,21 +23,21 @@ Er zijn twee beschikbare meningen van de het rapportering van Uitbetalingen om u
 
 In de weergave Uitbetalingen worden uitgebreide uitbetalingsgegevens in één oogopslag weergegeven, zodat u volledig transparant kunt zijn over het bedrag van de betaling, het verwerkte volume en gedetailleerde rapportage over het transactieniveau voor financiële afstemming.
 
-U kunt [ betalingstransacties van de downloaduitbetaling ](#download-transactions) in een .csv dossierformaat voor gebruik in bestaande boekhouding of ordebeheersoftware.
+U kunt [&#x200B; betalingstransacties van de downloaduitbetaling &#x200B;](#download-transactions) in een .csv dossierformaat voor gebruik in bestaande boekhouding of ordebeheersoftware.
 
 >[!NOTE]
 >
->De rapporten van uitbetalingen tonen slechts orden die worden gevangen (betalingsactie wordt geplaatst aan [`Authorize and Capture` ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/production.html#set-payment-services-as-payment-method)) - of [ duidelijk als `Invoiced` ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice).
+>De rapporten van uitbetalingen tonen slechts orden die worden gevangen (betalingsactie wordt geplaatst aan [`Authorize and Capture` &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/production.html#set-payment-services-as-payment-method)) - of [&#x200B; duidelijk als `Invoiced` &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice).
 
 ## Weergave gegevensvisualisatie uitbetaling
 
-De weergave voor de visualisatie van betalingsgegevens is beschikbaar in de startpagina van Betalingsservices. Het is een visuele vertegenwoordiging van de samengevoegde bedragen per dag van de gedetailleerde tabelvormige [ mening van het rapport van Uitkeringen ](#payouts-report-view).
+De weergave voor de visualisatie van betalingsgegevens is beschikbaar in de startpagina van Betalingsservices. Het is een visuele vertegenwoordiging van de samengevoegde bedragen per dag van de gedetailleerde tabelvormige [&#x200B; mening van het rapport van Uitkeringen &#x200B;](#payouts-report-view).
 
 Op _Admin_ sidebar, ga naar **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** om de grafiek van de gegevensvisualisatie van kredieten tegenover debits en de bewegende gemiddelden in tijd te zien.
 
-![ visualisatie van de gegevens van de Uitbetaling in Admin ](assets/payouts-report.png){width="800" zoomable="yes"}
+![&#x200B; visualisatie van de gegevens van de Uitbetaling in Admin &#x200B;](assets/payouts-report.png){width="800" zoomable="yes"}
 
-Klik **[!UICONTROL View Report]** om aan de gedetailleerde in tabelvorm [ mening van het het rapport van Uitbetalingen ](#payouts-report-view) te navigeren.
+Klik **[!UICONTROL View Report]** om aan de gedetailleerde in tabelvorm [&#x200B; mening van het het rapport van Uitbetalingen &#x200B;](#payouts-report-view) te navigeren.
 
 ### Tijdschema voor transacties aanpassen
 
@@ -69,15 +69,15 @@ De weergave voor de visualisatie van betalingsgegevens bevat de volgende informa
 
 De weergave van het betalingsrapport is beschikbaar in de weergave Uitbetalingen van betalingsservices. Deze bevat alle beschikbare informatie over de betalingen voor je winkel(s).
 
-Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**om de gedetailleerde lijst van Uitbetalingen te zien rapportmening.
+Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**&#x200B;om de gedetailleerde lijst van Uitbetalingen te zien rapportmening.
 
-![ de transacties van de Uitbetaling in Admin ](assets/payouts-report-new.png){width="800" zoomable="yes"}
+![&#x200B; de transacties van de Uitbetaling in Admin &#x200B;](assets/payouts-report-new.png){width="800" zoomable="yes"}
 
 U kunt deze mening, per de secties in dit onderwerp vormen, om de gegevens het best voor te stellen u wenst te zien.
 
 Zie gekoppelde Commerce-order- en transactie-id&#39;s, transactiebedragen, betalingsmethode per transactie en meer in dit rapport.
 
-U kunt [ betalingstransacties van de downloaduitbetaling ](#download-transactions) in een .csv dossierformaat voor gebruik in bestaande boekhouding of ordebeheersoftware.
+U kunt [&#x200B; betalingstransacties van de downloaduitbetaling &#x200B;](#download-transactions) in een .csv dossierformaat voor gebruik in bestaande boekhouding of ordebeheersoftware.
 
 >[!NOTE]
 >
@@ -87,9 +87,9 @@ U kunt [ betalingstransacties van de downloaduitbetaling ](#download-transaction
 
 In de het rapportmening van Uitbetalingen, kunt u de gegevensbron selecteren— **[!UICONTROL Live]** of **[!UICONTROL Sandbox]**—waarvoor u rapportresultaten wilt zien.
 
-![ de bronnen van Gegevens selectie ](assets/datasource.png){width="300" zoomable="yes"}
+![&#x200B; de bronnen van Gegevens selectie &#x200B;](assets/datasource.png){width="300" zoomable="yes"}
 
-Als _[!UICONTROL Live]_de geselecteerde gegevensbron is, kunt u rapportinformatie voor opslag in productiemodus zien. Als_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u de opslag van rapportinformatie op zandbakwijze zien.
+Als _[!UICONTROL Live]_&#x200B;de geselecteerde gegevensbron is, kunt u rapportinformatie voor opslag in productiemodus zien. Als&#x200B;_[!UICONTROL Sandbox]_ de geselecteerde gegevensbron is, kunt u de opslag van rapportinformatie op zandbakwijze zien.
 
 Gegevensbronselecties werken als volgt:
 
@@ -110,7 +110,7 @@ Standaard worden 30 dagen transacties weergegeven.
 
 Het aantal rijen dat wordt geretourneerd in een zoekopdracht of dat wordt weergegeven in de standaard 30 dagen aan transacties, wordt boven het weergaveraster Uitbetalingen weergegeven naast het filter voor de kalenderkiezer voor Transactiedata.
 
-De rol aan de linkerzijde en het recht om [ informatie voor elke uitbetalingstransactie ](#column-descriptions) in het dagelijkse rapport, met inbegrip van transactiedatum, referentie identiteitskaart, factuuraantal, en de details van de betalingsmethode te bekijken.
+De rol aan de linkerzijde en het recht om [&#x200B; informatie voor elke uitbetalingstransactie &#x200B;](#column-descriptions) in het dagelijkse rapport, met inbegrip van transactiedatum, referentie identiteitskaart, factuuraantal, en de details van de betalingsmethode te bekijken.
 
 #### Tijdschema voor transacties aanpassen
 
@@ -126,7 +126,7 @@ In de weergave van het rapport Uitbetalingen kunt u het tijdpad voor de uitbetal
 In de weergave van het rapport Uitbetalingen worden standaard de meeste beschikbare kolommen met informatie weergegeven. U kunt echter aanpassen welke kolommen u in het rapport ziet.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL [!DNL Payment Services]]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**.
-1. Klik het _pictogram van de montages van de Kolom_ (![ pictogram van kolommontages ](assets/column-settings.png){width="20" zoomable="yes"}).
+1. Klik het _pictogram van de montages van de Kolom_ (![&#x200B; pictogram van kolommontages &#x200B;](assets/column-settings.png){width="20" zoomable="yes"}).
 1. Als u wilt aanpassen welke kolommen u in het rapport ziet, schakelt u de kolommen in de lijst in of uit.
 
    In de weergave van het rapport Uitbetalingen worden direct alle wijzigingen weergegeven die u hebt aangebracht in het menu Kolominstellingen. De kolomvoorkeuren worden opgeslagen en blijven van kracht als u niet in de rapportweergave navigeert.
@@ -136,8 +136,8 @@ In de weergave van het rapport Uitbetalingen worden standaard de meeste beschikb
 U kunt een CSV-bestand downloaden dat alle transacties bevat die zichtbaar zijn in het raster van de weergave Uitbetalingen.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Payouts]_>**[!UICONTROL View Report]**.
-1. [ pas timeframe van de datumwaaier voor uw transacties ](#customize-transactions-timeframe) aan.
-1. Klik het _pictogram van de Download_ ( ![ pictogram van de Download ](assets/icon-download.png){width="20" zoomable="yes"}).
+1. [&#x200B; pas timeframe van de datumwaaier voor uw transacties &#x200B;](#customize-transactions-timeframe) aan.
+1. Klik het _pictogram van de Download_ ( ![&#x200B; pictogram van de Download &#x200B;](assets/icon-download.png){width="20" zoomable="yes"}).
 
 Uw uitbetalingstransacties worden gedownload in de CSV-indeling.
 
@@ -150,12 +150,12 @@ Uitbetalingsrapporten bevatten de volgende informatie.
 | [!UICONTROL Provider] | Betalingsaanbieder |
 | [!UICONTROL Provider trans] | Transactie-id |
 | [!UICONTROL Trans date] | Datum en tijdstip waarop de transactie is gestart |
-| [!UICONTROL Type] | Transactietype—*[!UICONTROL PAYMENT]*, *[!UICONTROL BONUS]*, *[!UICONTROL CHARGEBACK]*, *[!UICONTROL CORRECTION]*, *[!UICONTROL CURRENCY_CONVERSATION]*, *[!UICONTROL DEPOSIT]*, *[!UICONTROL DISBURSEMENT]*, *[!UICONTROL DISPUTE]*, *[!UICONTROL FEES]*, *[!UICONTROL HOLD]*, *[!UICONTROL HOLD_RELEASE]*, *[!UICONTROL INCENTIVES]*, *[!UICONTROL OTHERS]*, *[!UICONTROL RECOUP]*, *[!UICONTROL REFUND]*, *[!UICONTROL REVERSAL]*, *[!UICONTROL WITHDRAWAL]* <br> <br> zie [ de types van Transactie ](#transaction-types) voor meer informatie. |
+| [!UICONTROL Type] | Transactietype—*[!UICONTROL PAYMENT]*, *[!UICONTROL BONUS]*, *[!UICONTROL CHARGEBACK]*, *[!UICONTROL CORRECTION]*, *[!UICONTROL CURRENCY_CONVERSATION]*, *[!UICONTROL DEPOSIT]*, *[!UICONTROL DISBURSEMENT]*, *[!UICONTROL DISPUTE]*, *[!UICONTROL FEES]*, *[!UICONTROL HOLD]*, *[!UICONTROL HOLD_RELEASE]*, *[!UICONTROL INCENTIVES]*, *[!UICONTROL OTHERS]*, *[!UICONTROL RECOUP]*, *[!UICONTROL REFUND]*, *[!UICONTROL REVERSAL]*, *[!UICONTROL WITHDRAWAL]* <br> <br> zie [&#x200B; de types van Transactie &#x200B;](#transaction-types) voor meer informatie. |
 | [!UICONTROL Status] | Huidige status van de transactie—*[!UICONTROL SUCCESS]*, *[!UICONTROL DENIED]*, *[!UICONTROL PENDING]* |
 | [!UICONTROL Code] | De code van de transactie die of Krediet (*CR*) of Debit (*DR.*) wijst |
 | [!UICONTROL Reference ID] | Oorspronkelijke transactie-id waarvoor deze gebeurtenis verband houdt |
 | [!UICONTROL Invoice] | Factuur-id (één per bestelling) van de transactie |
-| [!UICONTROL Commerce order] | Commerce-order-id <br> <br> om verwante [ orde info ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) te zien, klik identiteitskaart |
+| [!UICONTROL Commerce order] | Commerce-order-id <br> <br> om verwante [&#x200B; orde info &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) te zien, klik identiteitskaart |
 | [!UICONTROL Commerce trans] | Commerce-transactie-id |
 | [!UICONTROL Pay method] | Het type van creditcard—*[!UICONTROL BANK]*, *[!UICONTROL PAYPAL]*, *[!UICONTROL CREDIT_CARD]* - en bijbehorende kaartleverancier (zoals *Visa* of *MasterCard*) |
 | [!UICONTROL TRANS AMT] | Bedrag van de transactie |

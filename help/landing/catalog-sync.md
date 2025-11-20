@@ -14,11 +14,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Het dashboard voor catalogussynchronisatie is nu het gegevensbeheerdashboard. Dit vernieuwde dashboard ondersteunt nu [[!DNL Product Recommendations]](../product-recommendations/guide-overview.md) v6.0.0+, [[!DNL Live Search]](../live-search/overview.md) v4.1.0+ en [[!DNL Catalog Service]](../catalog-service/overview.md) v1.17+. Klanten kunnen het gegevensbeheerdashboard ophalen door de nieuwste versie van een van deze services bij te werken. Lees meer over het in de [ documentatie van het Dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html). Dit huidige onderwerp blijft voor die gebruikers die nog moeten bevorderen en nog het dashboard van de Synchronisatie van de Catalogus hebben.
+> Het dashboard voor catalogussynchronisatie is nu het gegevensbeheerdashboard. Dit vernieuwde dashboard ondersteunt nu [[!DNL Product Recommendations]](../product-recommendations/guide-overview.md) v6.0.0+, [[!DNL Live Search]](../live-search/overview.md) v4.1.0+ en [[!DNL Catalog Service]](../catalog-service/overview.md) v1.17+. Klanten kunnen het gegevensbeheerdashboard ophalen door de nieuwste versie van een van deze services bij te werken. Lees meer over het in de [&#x200B; documentatie van het Dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html). Dit huidige onderwerp blijft voor die gebruikers die nog moeten bevorderen en nog het dashboard van de Synchronisatie van de Catalogus hebben.
 
-Adobe Commerce gebruikt indexen om catalogusgegevens in tabellen te compileren. Het proces wordt automatisch teweeggebracht door [ gebeurtenissen ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/index-management.html#events-that-trigger-full-reindexing) zoals een verandering in een productprijs of inventarisniveau.
+Adobe Commerce gebruikt indexen om catalogusgegevens in tabellen te compileren. Het proces wordt automatisch teweeggebracht door [&#x200B; gebeurtenissen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/index-management.html#events-that-trigger-full-reindexing) zoals een verandering in een productprijs of inventarisniveau.
 
-De service Catalog Sync verplaatst productgegevens van een [!DNL Adobe Commerce] -instantie naar het [!DNL Commerce Services] -platform op permanente basis om de gegevens up-to-date te houden. [[!DNL Product Recommendations]](/help/product-recommendations/overview.md) vereist bijvoorbeeld de huidige catalogusinformatie om aanbevelingen met juiste namen, prijzen en beschikbaarheid correct te retourneren. Gebruik het _dashboard van de Synchronisatie van de Catalogus 0} {om het synchronisatieproces of de bevel-lijn interface waar te nemen en te beheren om een catalogussynchronisatie teweeg te brengen en productgegevens voor consumptie door_ opnieuw te indexeren. [!DNL Commerce Services] Zie [ bevel-lijn de Verwijzing van de Interface ](../data-export/data-export-cli-commands.md) in de _3} Gids van de Uitvoer van Gegevens SaaS {._
+De service Catalog Sync verplaatst productgegevens van een [!DNL Adobe Commerce] -instantie naar het [!DNL Commerce Services] -platform op permanente basis om de gegevens up-to-date te houden. [[!DNL Product Recommendations]](/help/product-recommendations/overview.md) vereist bijvoorbeeld de huidige catalogusinformatie om aanbevelingen met juiste namen, prijzen en beschikbaarheid correct te retourneren. Gebruik het _dashboard van de Synchronisatie van de Catalogus 0&rbrace; {om het synchronisatieproces of de bevel-lijn interface waar te nemen en te beheren om een catalogussynchronisatie teweeg te brengen en productgegevens voor consumptie door_ opnieuw te indexeren. [!DNL Commerce Services] Zie [&#x200B; bevel-lijn de Verwijzing van de Interface &#x200B;](../data-export/data-export-cli-commands.md) in de _3} Gids van de Uitvoer van Gegevens SaaS &lbrace;._
 
 ## Het dashboard Catalog Sync openen
 
@@ -41,7 +41,7 @@ Meldt de synchronisatiestatus van:
 - **Ontbroken** - Toont de datum en de tijd dat de synchronisatie werd geprobeerd
 - **Bezig** - Toont de datum en de tijd van laatste succesvolle synchronisatie
 
-Het synchronisatieproces van de catalogus wordt automatisch om het uur uitgevoerd. Als u verwachte producten op de winkel niet ziet, of als de producten recente veranderingen niet weerspiegelen u aanbracht, kunt u [ kwesties van de catalogussynchronisatie ](#resolvesync) oplossen.
+Het synchronisatieproces van de catalogus wordt automatisch om het uur uitgevoerd. Als u verwachte producten op de winkel niet ziet, of als de producten recente veranderingen niet weerspiegelen u aanbracht, kunt u [&#x200B; kwesties van de catalogussynchronisatie &#x200B;](#resolvesync) oplossen.
 
 ### Gesynchroniseerde producten
 
@@ -55,7 +55,7 @@ Als u een resync van uw catalogus moet in werking stellen alvorens de per uur ge
 >
 > Dwingend een resync teweegbrengt een resync van uw volledige productcatalogus, die lading op hardwaremiddelen kan verhogen.
 
-1. Van het _dashboard van de Synchronisatie van de Catalogus 0} {, uitgezochte_ Montages **.**
+1. Van het _dashboard van de Synchronisatie van de Catalogus 0&rbrace; &lbrace;, uitgezochte_ Montages **.**
 
    De _pagina van de Montages van de Synchronisatie van de Catalogus_ verschijnt.
 
@@ -80,4 +80,4 @@ De **Gesynchroniseerde catalogusproducten** lijst toont de volgende informatie.
 
 ## Synchronisatieproblemen met catalogi oplossen {#resolvesync}
 
-Zie [ Logboeken en het oplossen van problemen ](../data-export/troubleshooting-logging.md#troubleshooting) in de _Gids van de Uitvoer van Gegevens SaaS_.
+Zie [&#x200B; Logboeken en het oplossen van problemen &#x200B;](../data-export/troubleshooting-logging.md#troubleshooting) in de _Gids van de Uitvoer van Gegevens SaaS_.

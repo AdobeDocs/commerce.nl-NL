@@ -195,7 +195,7 @@ Hoewel Commerce de historische ordergegevens al verzamelt, moet u verschillende 
 
 Bekijk deze video om meer over historische orden te leren dan voltooi de volgende stappen om historische ordeverzameling uit te voeren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424672)
+>[!VIDEO](https://video.tv.adobe.com/v/3450233?captions=dut)
 
 #### De bestelsynchronisatieservice instellen
 

@@ -39,7 +39,7 @@ Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Comme
 
 Wanneer u [!DNL Adobe Commerce Optimizer] de eerste keer start, ziet u het volgende:
 
-![[!DNL Adobe Commerce Optimizer] UI ](./assets/user-interface.png){zoomable="yes"}
+![[!DNL Adobe Commerce Optimizer] UI &#x200B;](./assets/user-interface.png){zoomable="yes"}
 
 >[!BEGINTABS]
 
@@ -89,4 +89,4 @@ De belangrijkste mogelijkheden omvatten:
 
 In het volgende diagram wordt de basisarchitectuur van [!DNL Adobe Commerce Optimizer] beschreven, van het opnemen van catalogusgegevens tot de relatie tussen merchandising-services, uw winkeliefront en de integratie met een karretje- en uitcheckproces van derden.
 
-![[!DNL Adobe Commerce Optimizer] Architectuur ](./assets/architecture.png)
+![[!DNL Adobe Commerce Optimizer] Architectuur &#x200B;](./assets/architecture.png)

@@ -27,7 +27,7 @@ U kunt [&#x200B; betalingstransacties van de downloaduitbetaling &#x200B;](#down
 
 >[!NOTE]
 >
->De rapporten van uitbetalingen tonen slechts orden die worden gevangen (betalingsactie wordt geplaatst aan [`Authorize and Capture` &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/production.html#set-payment-services-as-payment-method)) - of [&#x200B; duidelijk als `Invoiced` &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice).
+>De rapporten van uitbetalingen tonen slechts orden die worden gevangen (betalingsactie wordt geplaatst aan [`Authorize and Capture` &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/production.html?lang=nl-NL#set-payment-services-as-payment-method)) - of [&#x200B; duidelijk als `Invoiced` &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice).
 
 ## Weergave gegevensvisualisatie uitbetaling
 
@@ -155,7 +155,7 @@ Uitbetalingsrapporten bevatten de volgende informatie.
 | [!UICONTROL Code] | De code van de transactie die of Krediet (*CR*) of Debit (*DR.*) wijst |
 | [!UICONTROL Reference ID] | Oorspronkelijke transactie-id waarvoor deze gebeurtenis verband houdt |
 | [!UICONTROL Invoice] | Factuur-id (één per bestelling) van de transactie |
-| [!UICONTROL Commerce order] | Commerce-order-id <br> <br> om verwante [&#x200B; orde info &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders) te zien, klik identiteitskaart |
+| [!UICONTROL Commerce order] | Commerce-order-id <br> <br> om verwante [&#x200B; orde info &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/orders) te zien, klik identiteitskaart |
 | [!UICONTROL Commerce trans] | Commerce-transactie-id |
 | [!UICONTROL Pay method] | Het type van creditcard—*[!UICONTROL BANK]*, *[!UICONTROL PAYPAL]*, *[!UICONTROL CREDIT_CARD]* - en bijbehorende kaartleverancier (zoals *Visa* of *MasterCard*) |
 | [!UICONTROL TRANS AMT] | Bedrag van de transactie |

@@ -25,9 +25,9 @@ SaaS data export wordt geleverd als een PHP extensie. Deze biedt ondersteuning v
 
 - **Handmatige synchronisatie van Admin of de bevellijn**
 
-   - Het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) in Commerce Admin verstrekt een grafische mening van de synchronisatiestatus. U kunt het dashboard gebruiken om volledige resynchronisatie (_volledige synchronisatie_) van alle voer uit te voeren. Adobe raadt echter aan om alleen volledige synchronisatie uit te voeren wanneer u Adobe Commerce voor de eerste keer verbindt met een Commerce-service. Zie [&#x200B; Synchronisatieproces &#x200B;](data-synchronization.md).
+   - Het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) in Commerce Admin verstrekt een grafische mening van de synchronisatiestatus. U kunt het dashboard gebruiken om volledige resynchronisatie (_volledige synchronisatie_) van alle voer uit te voeren. Adobe raadt echter aan om alleen volledige synchronisatie uit te voeren wanneer u Adobe Commerce voor de eerste keer verbindt met een Commerce-service. Zie [&#x200B; Synchronisatieproces &#x200B;](data-synchronization.md).
 
-   - Het [&#x200B; bevel-lijn van Adobe Commerce hulpmiddel &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli) (CLI) verstrekt bevelen om specifieke voer te synchroniseren en omvat extra opties om voederverwerking aan te passen.
+   - Het [&#x200B; bevel-lijn van Adobe Commerce hulpmiddel &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/config-cli) (CLI) verstrekt bevelen om specifieke voer te synchroniseren en omvat extra opties om voederverwerking aan te passen.
 
 - **Geautomatiseerde synchronisatie met cron banen**
 

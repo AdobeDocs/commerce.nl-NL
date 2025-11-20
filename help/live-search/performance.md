@@ -1,7 +1,8 @@
 ---
 title: Prestaties
-description: De  [!DNL Live Search]  werkruimte van Prestaties verstrekt inzicht in de onderzoekstermijnen die de kopers gebruiken.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+description: De  [!DNL Live Search]  werkruimte van Prestaties verstrekt insight in de onderzoekstermijnen die de kopers gebruiken.
+exl-id: 07a63df8-b981-4913-841a-7e81ec634281
+source-git-commit: ae672ed3f2693e2f14e8c7f379e59ef117a34fc3
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -10,15 +11,15 @@ ht-degree: 0%
 
 # Prestaties
 
-De *werkruimte van Prestaties* verstrekt inzicht in de onderzoekstermijnen die de kopers gebruiken. De informatie kan worden gebruikt om tendensen te identificeren, klik-door te verhogen, en de omzettingspercentage te verbeteren. De werkruimte van Prestaties verstrekt een momentopname van onderzoeksmetriek voor een specifieke datumwaaier en omvat de volgende rapporten:
+De *werkruimte van Prestaties* verstrekt insight in de onderzoekstermijnen die de kopers gebruiken. De informatie kan worden gebruikt om tendensen te identificeren, klik-door te verhogen, en de omzettingspercentage te verbeteren. De werkruimte van Prestaties verstrekt een momentopname van onderzoeksmetriek voor een specifieke datumwaaier en omvat de volgende rapporten:
 
 * Unieke zoekopdrachten
 * Resultaten nul
 * Populaire resultaten
 
-![&#x200B; Prestaties &#x200B;](assets/performance-unique-searches.png)
+![ Prestaties ](assets/performance-unique-searches.png)
 
-U kunt ook naar het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-dashboard.html?lang=nl-NL) voor meer gegevens over gegevens het synchroniseren verwijzen.
+U kunt ook naar het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html) voor meer gegevens over gegevens het synchroniseren verwijzen.
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ U kunt ook naar het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](ht
 
 ## Een rapport weergeven
 
-1. Om de **waaier van de Datum** in te gaan, klik de kalender (![&#x200B; Kalender &#x200B;](assets/btn-calendar.png)) en doe één van het volgende:
+1. Om de **waaier van de Datum** in te gaan, klik de kalender (![ Kalender ](assets/btn-calendar.png)) en doe één van het volgende:
 
    * Als u één datum wilt opgeven, dubbelklikt u op de datum in de kalender.
    * Als u een datumbereik wilt opgeven, klikt u op de eerste en laatste datum in de kalender.

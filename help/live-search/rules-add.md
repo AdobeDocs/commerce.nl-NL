@@ -16,7 +16,7 @@ Om een regel te bouwen, moet de eerste stap de regelredacteur gebruiken om de vo
 ## Een regel toevoegen
 
 1. In Admin, ga naar **Marketing** > SEO &amp; Onderzoek > **[!DNL Live Search]**.
-1. Plaats het **Reikwijdte** om de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) te identificeren waar de regel van toepassing is.
+1. Plaats het **Reikwijdte** om de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) te identificeren waar de regel van toepassing is.
 1. Klik de **Merchandising van het Onderzoek** werkruimte.
 1. Klik **toevoegen regel** om de regelredacteur te lanceren.
 

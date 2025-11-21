@@ -2,9 +2,9 @@
 title: Regels toevoegen
 description: Leer hoe u regels voor het wijzigen van zoekopdrachten maakt.
 exl-id: 7175ccf7-d838-43b0-a176-957e7db040e0
-source-git-commit: 00c6d728b1bc425c873bdf46293085b8da242782
+source-git-commit: 0b8ab786bb6ec333337dc114de214b6d8e4df427
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2046'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Om een regel te bouwen, moet de eerste stap de regelredacteur gebruiken om de vo
 ## Een regel toevoegen
 
 1. In Admin, ga naar **Marketing** > SEO &amp; Onderzoek > **[!DNL Live Search]**.
-1. Plaats het **Reikwijdte** om de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) te identificeren waar de regel van toepassing is.
+1. Plaats het **Reikwijdte** om de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) te identificeren waar de regel van toepassing is.
 1. Klik de **Merchandising van het Onderzoek** werkruimte.
 1. Klik **toevoegen regel** om de regelredacteur te lanceren.
 
@@ -31,7 +31,7 @@ Kies het standaard Intelligente classificatietype en eventuele handmatige classi
 
 Voorwaarden zijn de vereisten om een gebeurtenis te activeren. Een regel kan tot tien voorwaarden en 25 gebeurtenissen hebben. Een standaardregel kan geen voorwaarden hebben.
 
-![&#x200B; Regel - Bouw uw regel &#x200B;](assets/rules-add-workspace.png)
+![ Regel - Bouw uw regel ](assets/rules-add-workspace.png)
 
 >[!NOTE]
 >
@@ -48,12 +48,12 @@ Voorwaarden zijn de vereisten om een gebeurtenis te activeren. Een regel kan tot
 
    De resultaten verschijnen onmiddellijk in *Test uw regel* ruit en genummerd door prioriteit. U kunt de *Resultaten per rij* schuif in de hogere gebruiken    het recht om het aantal producten in elke rij te wijzigen.
 
-   ![&#x200B; Regel - eenvoudig &#x200B;](assets/rule-simple-test.png)
+   ![ Regel - eenvoudig ](assets/rule-simple-test.png)
 
 1. Om andere vragen te testen, verander de vraagtekst in de *Test uw doos van het regel* onderzoek en druk **Terugkeer**.
 Aanvankelijk, geeft de testruit de vraag van het de onderzoeksvakje van de Voorwaarden terug. Maar nu geeft het de vraag van de doos van de testvraag terug. De testruit geeft slechts één vraag tegelijkertijd terug.
 1. Als u van het resultaat houdt, werk de tekst in het *Voorwaarden* onderzoeksvakje bij. Klik vervolgens ergens op de pagina om de resultaten in het testvenster bij te werken.
-1. Om een eenvoudige regel met één voorwaarde te bouwen, ga naar Stap 3: [&#x200B; voegt gebeurtenissen &#x200B;](#events) toe.
+1. Om een eenvoudige regel met één voorwaarde te bouwen, ga naar Stap 3: [ voegt gebeurtenissen ](#events) toe.
 
 ### Meerdere voorwaarden
 
@@ -71,7 +71,7 @@ Een regel kan tot tien voorwaarden hebben. De logische exploitant die zich bij t
 
    In dit voorbeeld zijn er twee aparte query&#39;s die zoeken naar &#39;yoga&#39; of &#39;broek&#39; in plaats van naar &#39;yoga-broek&#39; te zoeken. Deze regel is minder specifiek en wordt vaker geactiveerd in de winkel dan in de andere.
 
-   ![&#x200B; Regels - Gelijke &#x200B;](assets/rules-match.png)
+   ![ Regels - Gelijke ](assets/rules-match.png)
 
 1. Om een andere voorwaarde toe te voegen, **voegt voorwaarde** toe en herhaalt het proces.
 
@@ -80,7 +80,7 @@ Een regel kan tot tien voorwaarden hebben. De logische exploitant die zich bij t
 De intelligente rangschikking combineert gebruikersgedrag en plaatsstatistieken om productrangschikking te bepalen.
 Winkeleigenaars kunnen de volgende typen classificatiestrategieën instellen:
 
-![&#x200B; Regels - Gelijke &#x200B;](assets/rules-ranking-type.png)
+![ Regels - Gelijke ](assets/rules-ranking-type.png)
 
 * Meest aangeschaft: dit rangschikt de producten op basis van de totale aankopen per SKU in de afgelopen 7 dagen.
 * Meestal toegevoegd aan winkelwagentjes in volgorde van de totale &quot;Add to Cart&quot;-activiteiten in de afgelopen 7 dagen.
@@ -91,6 +91,33 @@ Winkeleigenaars kunnen de volgende typen classificatiestrategieën instellen:
 
 Selecteer het type strategie voor de regel. De **Test uw regel** venster toont de verwachte resultaten.
 
+### Hoe intelligent classificeren werkt
+
+Het intelligente rangschikken bepaalt de definitieve productorde door twee zeer belangrijke factoren te combineren: **tekstuele relevantie** en **gedragssignalen**. Als u begrijpt hoe deze factoren op elkaar inwerken, kunt u realistische verwachtingen voor uw zoekresultaten instellen.
+
+**het Scoren componenten:**
+
+* **Textual relevantie**: De dominante factor in het noteren. Op deze manier wordt gemeten hoe goed de naam, beschrijving en kenmerken van een product overeenkomen met de zoekquery. De relevantiescore van de tekst is onbegrensd (heeft geen specifieke bovengrens) en wordt beïnvloed door factoren zoals:
+
+   * Frequentie waarop overeenkomende woorden voorkomen.
+   * Lengte (in woorden) van productnamen/beschrijvingen.
+
+* **gedragssignalen**: Een begrensde verhoging die op de score van de tekstrelevantie wordt toegepast. Wanneer u een intelligente rangschikkingsstrategie selecteert zoals &quot;Meest bekeken&quot; of &quot;Meest aangekocht&quot;, krijgen producten met hogere gedragssignalen een vaste stimulans voor hun scores. Deze verhoging heeft echter een bepaalde limiet.
+
+**waarom het meest bekeken product niet eerst zou kunnen verschijnen:**
+
+De tekstuele relevantie domineert doorgaans de rangschikking omdat de score onbegrensd is, terwijl de gedragsversterking vast is. Als gevolg hiervan komen producten met sterke tekst vaak meer overeen dan producten met hogere betrokkenheidssignalen. Gedragingen alleen compenseren mogelijk grote leemten in de relevantie van tekst niet. De intelligente rangschikking richt dit door in zowel gelijke kwaliteit als winkelinteractie rekening te houden, verbeterend algemene relevantie. Kwaliteit van tekstovereenkomsten blijft echter het belangrijkste stuurprogramma voor de classificatie.
+
+**Voorbeeld:**
+
+Een handelaar gebruikt de &quot;meest bekeken&quot;intelligente rangschikkingsstrategie en zoekt naar &quot;kaars.&quot; Ze verwachten dat het product SKU YAN-K-E-512 boven aan de resultaten wordt weergegeven, omdat het de hoogste weergavetelling heeft. Andere producten zijn echter hoger:
+
+* **de Kaars van Texas** (1ste positie): Heeft een kortere, schonere productnaam die tot een zeer hoge score van de tekstrelevantie leidt. Hoewel de tekst minder weergaven heeft dan YAN-K-E-512, is de superieure tekst groter dan de gedragsverhoging.
+
+* **YAN-K-E-512** (lagere positie): Ondanks het hebben van het hoogste meningspercentiel in de &quot;Meest bekeken&quot;gedragsgegevens, produceert zijn complexe op SKU-Gebaseerde naam een lagere score van de tekstrelevantie. De vaste gedragsstimulans is niet genoeg om deze leemte in de relevantie van de tekst te overbruggen.
+
+Zie [ onderzoeksregels ](./best-practice.md#search-rules) leren hoe te om productfindability te verbeteren gebruikend regels.
+
 ### Caveats
 
 * Apostroffen en aanhalingstekens in query&#39;s kunnen leiden tot enkele kleine problemen met rangschikking en relevantie in sommige talen.
@@ -98,9 +125,9 @@ Selecteer het type strategie voor de regel. De **Test uw regel** venster toont d
 
    1. Selecteer **Slaat** > _Attributen_ > **Product** op.
    1. Zoek naar de attributen, zoals &quot;naam&quot;.
-   1. In de **Informatie van Attributen** > **&#x200B;**&#x200B;pagina van Eigenschappen Storefront, plaats het onderzoeksgewicht minder dan of gelijk aan `5`.
+   1. In de **Informatie van Attributen** > **** pagina van Eigenschappen Storefront, plaats het onderzoeksgewicht minder dan of gelijk aan `5`.
 
-      ![&#x200B; Product - het Gewicht van het Onderzoek &#x200B;](assets/set-search-weight.png)
+      ![ Product - het Gewicht van het Onderzoek ](assets/set-search-weight.png)
 
 >[!NOTE]
 >
@@ -119,7 +146,7 @@ De eenvoudigste manier om een product vast te zetten is door te slepen en neer t
 
 1. Klik en sleep een product in het deelvenster Testen. Sleep de aanwijzer naar de gewenste positie. De velden Product en Positie worden automatisch ingevuld in het deelvenster Gebeurtenissen.
 
-   ![&#x200B; Regels - Gelijke &#x200B;](assets/rule-event-pin-product.png)
+   ![ Regels - Gelijke ](assets/rule-event-pin-product.png)
 
 U kunt ook op het speldpictogram klikken om een product op de huidige locatie vast te zetten. Gebruik het contextmenu voor ovalen om &#39;Aan de bovenkant vastzetten&#39; of &#39;Aan de onderkant vastzetten&#39;.
 
@@ -137,7 +164,7 @@ Of gebeurtenissen kunnen handmatig worden ingesteld:
 
 ## Aanvullende gegevens
 
-De informatie die hier is ingegaan verschijnt in het [&#x200B; paneel van de Details van de Regel &#x200B;](rules-workspace.md).
+De informatie die hier is ingegaan verschijnt in het [ paneel van de Details van de Regel ](rules-workspace.md).
 
 1. Onder *Details*, ga a **Naam** voor de regel in. Alle regelnamen moeten uniek zijn.
 1. Ga een korte **Beschrijving** van de regel in.
@@ -145,7 +172,7 @@ De informatie die hier is ingegaan verschijnt in het [&#x200B; paneel van de Det
 
    Als u een datumbereik wilt selecteren, klikt u op de eerste datum en sleept u om het bereik te selecteren.
 
-   ![&#x200B; Regel - Volledig &#x200B;](assets/rule-add-details.png)
+   ![ Regel - Volledig ](assets/rule-add-details.png)
 
 ## De regel voltooien
 
@@ -153,7 +180,7 @@ De informatie die hier is ingegaan verschijnt in het [&#x200B; paneel van de Det
 1. Als de regel veelvoudige vragen heeft, test elk die door de regel zou kunnen worden beïnvloed.
 1. Wanneer volledig, klik **sparen en publiceer**.
 
-   De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.*
+   De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.*
 
 1. Hoewel de actieve regels onmiddellijk in werking treden, zou u tot 15 minuten kunnen moeten wachten op de caching vraagresultaten in de storefront om worden verfrist.
 

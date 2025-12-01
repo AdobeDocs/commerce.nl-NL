@@ -25,26 +25,26 @@ Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
 
 ## Vereisten
 
-* Een coderende agent, zoals [ Cursor ](https://cursor.com/download) (geadviseerd), [ Kopilot van Github ](https://github.com/features/copilot), [ Google Gemini CLI ](https://github.com/google-gemini/gemini-cli), of [ Claude Code ](https://www.claude.com/product/claude-code)
-* [ Node.js ](https://nodejs.org/en/download): De versie van LTS
-* De Manager van het pakket: [ npm ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [ garen ](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
-* [ Git ](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
+* Een coderende agent, zoals [&#x200B; Cursor &#x200B;](https://cursor.com/download) (geadviseerd), [&#x200B; Kopilot van Github &#x200B;](https://github.com/features/copilot), [&#x200B; Google Gemini CLI &#x200B;](https://github.com/google-gemini/gemini-cli), of [&#x200B; Claude Code &#x200B;](https://www.claude.com/product/claude-code)
+* [&#x200B; Node.js &#x200B;](https://nodejs.org/en/download): De versie van LTS
+* De Manager van het pakket: [&#x200B; npm &#x200B;](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [&#x200B; garen &#x200B;](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* [&#x200B; Git &#x200B;](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
 
 ## Installatie
 
-1. Installeer de recentste [ CLI van Adobe I/O ](https://github.com/adobe/aio-cli) globaal:
+1. Installeer de recentste [&#x200B; CLI van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli) globaal:
 
    ```bash
    npm install -g @adobe/aio-cli
    ```
 
-1. Installeer de [ insteekmodule van Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce):
+1. Installeer de [&#x200B; insteekmodule van Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce):
 
    ```bash
    aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce
    ```
 
-1. Kloon de de integratiestarterkit van Commerce [ ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
+1. Kloon de de integratiestarterkit van Commerce [&#x200B; &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
 
    ```bash
    git clone git@github.com:adobe/commerce-integration-starter-kit.git
@@ -110,11 +110,11 @@ Als Adobe pakketbeheer selecteert, wordt u aangeraden `npm` te gebruiken voor co
 >
 >Alvorens uw project op te stellen, zult u de volgende configuratietaken moeten voltooien:
 >
->* Login aan [ Adobe Developer Console ](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
->* Creeer een project van App Builder (zie [ de opstelling van het Project ](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
+>* Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
+>* Creeer een project van App Builder (zie [&#x200B; de opstelling van het Project &#x200B;](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
 >* Omgevingsvariabelen instellen in een `.env` -bestand.
 >
->U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [ een integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
+>U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [&#x200B; een integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
 
 ## Configuratie na installatie
 
@@ -206,7 +206,7 @@ Voordat u een ontwikkelingssessie start:
 
 Tijdens de ontwikkeling:
 
-* Vertrouw het vier-fase [ protocol ](#protocol)
+* Vertrouw het vier-fase [&#x200B; protocol &#x200B;](#protocol)
 * Implementatieplannen aanvragen voor complexe ontwikkeling
 * MCP-gereedschappen gebruiken indien beschikbaar
 * Elke functie na implementatie testen
@@ -230,10 +230,10 @@ Hierdoor kunt u ook Adobe-sjablonen gebruiken en bouwen op beproefde patronen en
 
 Raadpleeg de volgende bronnen om aan de slag te gaan:
 
-* [ Startuitrusting van de Integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
-* [ Adobe Commerce starter kit malplaatjes ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [ de aanzetmalplaatjes van Adobe I/O Events ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
-* [ de steekproeftoepassingen van App Builder ](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
+* [&#x200B; Startuitrusting van de Integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
+* [&#x200B; Adobe Commerce starter kit malplaatjes &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
+* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [&#x200B; de steekproeftoepassingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### Waarom u deze middelen zou moeten gebruiken
 
@@ -259,7 +259,7 @@ Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensyst
 
 ### Implementatieplannen aanvragen voor complexe ontwikkeling
 
-Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [ Fase 2 ](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
+Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [&#x200B; Fase 2 &#x200B;](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
 
 ```terminal
 Create a detailed implementation plan for this complex development.

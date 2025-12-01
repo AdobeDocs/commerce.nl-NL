@@ -23,7 +23,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor de versie van as a Cloud Service van november Adobe Commerce.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor de versie van as a Cloud Service van november Adobe Commerce.</p>
 </td>
       <td>
         Belangrijke update
@@ -45,7 +45,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Documenteerde hoe Commerce Optimizer-klanten die verbinding maken met een Adobe Commerce-backend, de export van gegevenstoevoer kunnen controleren en problemen kunnen oplossen via de statuspagina van Feed Sync. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync"> Synchronisatie van Gegevens </a> in de Gids van Adobe Commerce Optimizer.</p>
+      <td><p>Documenteerde hoe Commerce Optimizer-klanten die verbinding maken met een Adobe Commerce-backend, de export van gegevenstoevoer kunnen controleren en problemen kunnen oplossen via de statuspagina van Feed Sync. Zie <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/data-sync"> Synchronisatie van Gegevens </a> in de Gids van Adobe Commerce Optimizer.</p>
 </td>
       <td>
         Technisch
@@ -67,7 +67,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/release-notes"> versienota's </a> voor de versie van de Diensten van de Betaling v2.13.0.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/release-notes"> versienota's </a> voor de versie van de Diensten van de Betaling v2.13.0.</p>
 </td>
       <td>
         Technisch
@@ -89,7 +89,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes"> versienota's </a> voor de versie van de Integratie van AEM Assets v1.2.7.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/release-notes"> versienota's </a> voor de versie van de Integratie van AEM Assets v1.2.7.</p>
 </td>
       <td>
         Technisch
@@ -111,7 +111,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de volgende onderwerpen om informatie over het vormen van identiteitsbeheer en enig teken-op van Adobe Admin Console te omvatten:<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> as a Cloud Service van Adobe Commerce Gebruiker en Identity Management </a><br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/user-management"> Adobe Commerce Optimizer: Gebruiker en Identity Management </a></p>
+      <td><p>Bijgewerkt de volgende onderwerpen om informatie over het vormen van identiteitsbeheer en enig teken-op van Adobe Admin Console te omvatten:<br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/user-management"> as a Cloud Service van Adobe Commerce Gebruiker en Identity Management </a><br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/user-management"> Adobe Commerce Optimizer: Gebruiker en Identity Management </a></p>
 </td>
       <td>
         Feedback, technisch
@@ -133,7 +133,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> stappen van het Beheer van de Gebruiker 0&rbrace; &lbrace;voor het toevoegen van een gebruiker.</a></p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/user-management"> stappen van het Beheer van de Gebruiker 0&rbrace; &lbrace;voor het toevoegen van een gebruiker.</a></p>
 </td>
       <td>
         Belangrijke update
@@ -155,7 +155,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/storefront"> de opstellingsgids van de storefront </a> voor Adobe Commerce Optimizer om instructies te verstrekken voor het creëren van storefront project met het hulpmiddel van de Maker van de Plaats, die de storefrontconfiguratie aanpassen, en de plaats en catalogusgegevens verifiëren door het standaardproductdetail en de resultatenpagina's van het productonderzoek te controleren.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/storefront"> de opstellingsgids van de storefront </a> voor Adobe Commerce Optimizer om instructies te verstrekken voor het creëren van storefront project met het hulpmiddel van de Maker van de Plaats, die de storefrontconfiguratie aanpassen, en de plaats en catalogusgegevens verifiëren door het standaardproductdetail en de resultatenpagina's van het productonderzoek te controleren.</p>
 </td>
       <td>
         Belangrijke update
@@ -177,7 +177,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> gebruikersbeheer </a> vereist nu alle ontwikkelaars en productbeheerders om de gebruikersrol eerst toe te voegen.</p>
+      <td><p><a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/user-management"> gebruikersbeheer </a> vereist nu alle ontwikkelaars en productbeheerders om de gebruikersrol eerst toe te voegen.</p>
 </td>
       <td>
         Belangrijke update

@@ -1,7 +1,7 @@
 ---
 title: AI-coderingsgereedschappen voor extensies
 description: Leer hoe u de AI-gereedschappen gebruikt om Commerce App Builder-extensies te maken.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 hide: true
 hidefromtoc: true
@@ -232,7 +232,7 @@ Raadpleeg de volgende bronnen om aan de slag te gaan:
 
 * [&#x200B; Startuitrusting van de Integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
 * [&#x200B; Adobe Commerce starter kit malplaatjes &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
 * [&#x200B; de steekproeftoepassingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### Waarom u deze middelen zou moeten gebruiken

@@ -30,11 +30,11 @@ Als u een koploze winkel gebruikt, raadpleegt u de volgende documentatie voor me
 
 ### Gezondheidszorgklanten
 
-Als u een gezondheidszorgklant bent en u de [&#x200B; uitbreiding van HIPAA van de Diensten van Gegevens &#x200B;](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [&#x200B; uitbreiding van de Verbinding van Gegevens &#x200B;](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Live Search] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Live Search] . Zie [&#x200B; algemene configuratie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services) om meer te leren.
+Als u een gezondheidszorgklant bent en u de [&#x200B; uitbreiding van HIPAA van de Diensten van Gegevens &#x200B;](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [&#x200B; uitbreiding van de Verbinding van Gegevens &#x200B;](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Live Search] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Live Search] . Zie [&#x200B; algemene configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/general/general#data-services) om meer te leren.
 
 ## Bereik instellen
 
-Aanvankelijk wordt het [&#x200B; werkingsgebied &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) van alle [!DNL Live Search] montages geplaatst aan `Default Store View`. Als uw [!DNL Commerce] installatie veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) waar uw facetmontages van toepassing zijn.
+Aanvankelijk wordt het [&#x200B; werkingsgebied &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) van alle [!DNL Live Search] montages geplaatst aan `Default Store View`. Als uw [!DNL Commerce] installatie veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL) waar uw facetmontages van toepassing zijn.
 
 ## Menuopties
 
@@ -50,7 +50,7 @@ Aanvankelijk wordt het [&#x200B; werkingsgebied &#x200B;](https://experienceleag
 
 ## Kenmerken instellen als doorzoekbaar
 
-Om hoogst-gerichte resultaten te veroorzaken, herzie de reeks [&#x200B; doorzoekbare &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) (`searchable=true`) productattributen. Om relevantie te verzekeren, maak attributen doorzoekbaar slechts als zij inhoud bevatten die een duidelijke en beknopte betekenis heeft. Vermijd het gebruik van kenmerken die minder nauwkeurige, lange tekst bevatten, zoals `description` . Deze tekst kan de precisie van zoekresultaten verminderen, hoewel deze functie standaard is ingeschakeld. Als iemand bijvoorbeeld zoekt naar &quot;korte broeken&quot; en er overhemden zijn met een beschrijving die de term &quot;korte mouwen&quot; bevat, worden de overhemden opgenomen in de zoekresultaten.
+Om hoogst-gerichte resultaten te veroorzaken, herzie de reeks [&#x200B; doorzoekbare &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=nl-NL) (`searchable=true`) productattributen. Om relevantie te verzekeren, maak attributen doorzoekbaar slechts als zij inhoud bevatten die een duidelijke en beknopte betekenis heeft. Vermijd het gebruik van kenmerken die minder nauwkeurige, lange tekst bevatten, zoals `description` . Deze tekst kan de precisie van zoekresultaten verminderen, hoewel deze functie standaard is ingeschakeld. Als iemand bijvoorbeeld zoekt naar &quot;korte broeken&quot; en er overhemden zijn met een beschrijving die de term &quot;korte mouwen&quot; bevat, worden de overhemden opgenomen in de zoekresultaten.
 
 Voer de volgende stappen uit om te zorgen dat kenmerken doorzoekbaar zijn:
 
@@ -58,7 +58,7 @@ Voer de volgende stappen uit om te zorgen dat kenmerken doorzoekbaar zijn:
 1. Selecteer het kenmerk dat u wilt doorzoeken, bijvoorbeeld `color` .
 1. Selecteer **Eigenschappen van 0&rbrace; Storefront en plaats** Gebruik in Onderzoek **aan**.`yes`
 
-[!DNL Live Search] respecteert ook het [&#x200B; gewicht &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html#weighted-search) van een productattribuut, zoals die binnen Adobe Commerce wordt geplaatst. Kenmerken met een hogere dikte worden hoger weergegeven in de zoekresultaten.
+[!DNL Live Search] respecteert ook het [&#x200B; gewicht &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search-results.html?lang=nl-NL#weighted-search) van een productattribuut, zoals die binnen Adobe Commerce wordt geplaatst. Kenmerken met een hogere dikte worden hoger weergegeven in de zoekresultaten.
 
 De volgende kenmerken kunnen altijd worden doorzocht:
 
@@ -109,9 +109,9 @@ Deze nieuwe voorwaarden verbeteren het het filtreren van de onderzoeksvraag mech
 
 #### Implementatie
 
-1. In Admin, [&#x200B; plaats een productattribuut &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties) om doorzoekbaar te zijn.
+1. In Admin, [&#x200B; plaats een productattribuut &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/product-attributes-add#step-5-describe-the-storefront-properties) om doorzoekbaar te zijn.
 
-   Zie de lijst van doorzoekbare [&#x200B; attributen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types).
+   Zie de lijst van doorzoekbare [&#x200B; attributen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types).
 
 1. Specificeer het onderzoeksvermogen voor dat attribuut, zoals **bevat** (gebrek) of **begint met**. U kunt een maximum van zes attributen specificeren die voor **worden toegelaten bevat** en zes attributen die voor **worden toegelaten begint met**. Bovendien, voor **bevat** indexatie, is de koordlengte beperkt tot 50 karakters of minder.
 
@@ -188,7 +188,7 @@ Prijzen in de aanbiedingspagina van het widgetproduct en in de pop-upmenu&#39;s 
 
 ## Standaardkenmerkwaarden
 
-De volgende productkenmerken hebben [&#x200B; storefront eigenschappen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) die door [!DNL Live Search] worden gebruikt en door gebrek worden toegelaten.
+De volgende productkenmerken hebben [&#x200B; storefront eigenschappen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html?lang=nl-NL) die door [!DNL Live Search] worden gebruikt en door gebrek worden toegelaten.
 
 | Eigenschap | Storefront, eigenschap | Kenmerk |
 |---|---|---|

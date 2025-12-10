@@ -16,7 +16,7 @@ Configureer de integratie door Commerce aan te sluiten op de AEM Assets-instanti
 
 Nadat u het AEM Assets-project hebt geïdentificeerd, selecteert u de regel voor het synchroniseren van elementen tussen Adobe Commerce en AEM Assets.
 
-* **[!UICONTROL Match by product SKU]** - Standaard regel die SKU in de activameta-gegevens met het [&#x200B; product SKU van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) aanpast om ervoor te zorgen dat de activa met de correcte producten worden geassocieerd.
+* **[!UICONTROL Match by product SKU]** - Standaard regel die SKU in de activameta-gegevens met het [&#x200B; product SKU van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/implementation-playbook/glossary#sku) aanpast om ervoor te zorgen dat de activa met de correcte producten worden geassocieerd.
 
 * **[!UICONTROL Custom match]** - Het stemmen regel voor complexere scenario&#39;s of specifieke bedrijfsvereisten die aangepaste passende logica vereisen. Voor het implementeren van aangepaste overeenkomsten moet in Adobe Developer App Builder aangepaste code worden ontwikkeld om te bepalen hoe elementen op producten worden afgestemd. Binnenkort komen er meer details...
 
@@ -28,7 +28,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
 * [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [&#x200B; installeert de pakketten van Adobe Commerce &#x200B;](configure-commerce.md) om de uitbreiding toe te voegen en de vereiste geloofsbrieven en de verbindingen te produceren om de uitbreiding te gebruiken.
 
-* Volg de stappen die in [&#x200B; worden beschreven toelaten Dynamische Media Open API &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) onderwerp. Neem de volgende informatie op voor het ondersteuningsteam:
+* Volg de stappen die in [&#x200B; worden beschreven toelaten Dynamische Media Open API &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) onderwerp. Neem de volgende informatie op voor het ondersteuningsteam:
 
    * **[!UICONTROL AEM Program ID]**
    * **[!UICONTROL Adobe Commerce URL]**
@@ -37,7 +37,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 
 ## De verbinding configureren
 
-1. Krijg [&#x200B; AEM Assets Authoring Environment &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) project en milieu identiteitskaart
+1. Krijg [&#x200B; AEM Assets Authoring Environment &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) project en milieu identiteitskaart
 
    1. Open de AEM Cloud Manager en selecteer **[!UICONTROL Assets]** .
 
@@ -72,7 +72,7 @@ Voor de aanvankelijke opstelling, gebruik de standaard *Gelijke door productSKU*
 1. Selecteer in het vervolgkeuzemenu **[!UICONTROL Asset matching rule]** een van de regels voor het afstemmen van elementen voor het synchroniseren van elementen.
 
    * Selecteer **[!UICONTROL Match by SKU]** voor [&#x200B; standaard automatische aanpassing &#x200B;](../synchronize/default-match.md),
-   * Selecteer **[!UICONTROL Custom match]** voor [&#x200B; douane automatische aanpassing &#x200B;](../synchronize/custom-match.md) (vereist [&#x200B; Adobe Developer App Builder &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder).)
+   * Selecteer **[!UICONTROL Custom match]** voor [&#x200B; douane automatische aanpassing &#x200B;](../synchronize/custom-match.md) (vereist [&#x200B; Adobe Developer App Builder &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder).)
 
 1. Voeg de [&#x200B; AEM Assets naam van het meta-gegevensgebied &#x200B;](configure-aem.md#configure-metadata) toe die voor het product SKUs van Commerce op het **[!UICONTROL Match by product SKU attribute name]** gebied wordt bepaald, `commerce:skus` door gebrek.
 
@@ -99,7 +99,7 @@ Het **plaatsen van de Eigenaar van de Visualisatie** bepaalt welk systeem produc
 
 Admin toont de beschikbare beelden voor die eigenaar, terwijl de rest beelden grayed uit en getoond met a **verborgen** etiket worden.
 
-Zie het [&#x200B; plaats beelddetails &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#set-image-details){target=_blank} onderwerp voor details op beeldvertoningsgedrag.
+Zie het [&#x200B; plaats beelddetails &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-image#set-image-details){target=_blank} onderwerp voor details op beeldvertoningsgedrag.
 
 >[!TIP]
 >
@@ -115,7 +115,7 @@ Zie het [&#x200B; plaats beelddetails &#x200B;](https://experienceleague.adobe.c
 
 ### Optioneel. De URL van het aangepaste domein configureren
 
-Als het project van AEM Assets as a Cloud Service met de Naam van het Domein van de a [&#x200B; Douane &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} is gevormd, moet u de domeinnaam aan de de archiefconfiguratie van Commerce toevoegen zodat de integratie van AEM Assets voor Commerce het kan gebruiken.
+Als het project van AEM Assets as a Cloud Service met de Naam van het Domein van de a [&#x200B; Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank} is gevormd, moet u de domeinnaam aan de de archiefconfiguratie van Commerce toevoegen zodat de integratie van AEM Assets voor Commerce het kan gebruiken.
 
 1. Navigeer naar **[!UICONTROL Store]** > Configuratie > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]** .
 

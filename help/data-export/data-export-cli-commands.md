@@ -2,7 +2,7 @@
 title: feeds synchroniseren met de Commerce CLI
 description: Leer hoe te om bevel-lijn interfacebevelen te gebruiken om voer en processen voor  [!DNL data export extension]  voor de diensten van Adobe Commerce te beheren SaaS.
 exl-id: 1ebee09e-e647-4205-b90c-d0f9d2cac963
-source-git-commit: 37d5699315e34f1504602090fae5201ee51cf470
+source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -16,12 +16,12 @@ Met de opdracht `saas:resync` in het `magento/saas-export` -pakket kunt u gegeve
 Adobe raadt u niet aan de opdracht `saas:resync` regelmatig te gebruiken. De typische scenario&#39;s voor het gebruiken van het bevel zijn:
 
 - Eerste synchronisatie
-- De gegevens van de synchronisatie aan een nieuwe gegevensruimte na het veranderen van [&#x200B; identiteitskaart van de Ruimte van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/services/saas)
+- De gegevens van de synchronisatie aan een nieuwe gegevensruimte na het veranderen van [ identiteitskaart van de Ruimte van Gegevens SaaS ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/saas)
 - Problemen oplossen
 
 Synchronisatiebewerkingen in het `var/log/saas-export.log` -bestand controleren.
 
-## Beginsynchronisatie
+## Eerste synchronisatie
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Zie de volgende secties voor opties beschrijvingen met voorbeelden.
 
 >[!NOTE]
 >
->Voor geavanceerde opties om uitvoerverwerking te beheren, zie [&#x200B; uitvoerverwerking &#x200B;](customize-export-processing.md) aanpassen.
+>Voor geavanceerde opties om uitvoerverwerking te beheren, zie [ uitvoerverwerking ](customize-export-processing.md) aanpassen.
 
 ## `--by-ids`
 
@@ -168,7 +168,7 @@ bin/magento saas:resync --feed products
 
 Hiermee verzendt u bestaande catalogusgegevens opnieuw naar [!DNL Commerce Services] zonder opnieuw te indexeren. Niet ondersteund voor productgerelateerde feeds.
 
-Het gedrag varieert door [&#x200B; de uitvoerwijze &#x200B;](data-synchronization.md#synchronization-modes):
+Het gedrag varieert door [ de uitvoerwijze ](data-synchronization.md#synchronization-modes):
 
 - Oudere modus: hiermee worden alle gegevens opnieuw verzonden zonder dat er wordt afgebroken.
 - Modus Direct: optie wordt genegeerd, alleen worden updates/storingen gesynchroniseerd.
@@ -191,4 +191,4 @@ bin/magento saas:resync --feed products --by-ids='1,2,3' --id-type='productId'
 
 ## Problemen oplossen
 
-Als u de verwachte gegevens niet ziet in verbonden Commerce Services, kunt u problemen oplossen door de logboeken van fouten bij het exporteren van gegevens te controleren en de opdracht `saas:resync` te gebruiken met omgevingsvariabelen om de gegevens van de payloads en de analyse te bekijken. Zie [&#x200B; logboeken van het Overzicht en los &#x200B;](troubleshooting-logging.md) problemen op.
+Als u de verwachte gegevens niet ziet in verbonden Commerce Services, kunt u problemen oplossen door de logboeken van fouten bij het exporteren van gegevens te controleren en de opdracht `saas:resync` te gebruiken met omgevingsvariabelen om de gegevens van de payloads en de analyse te bekijken. Zie [ logboeken van het Overzicht en los ](troubleshooting-logging.md) problemen op.

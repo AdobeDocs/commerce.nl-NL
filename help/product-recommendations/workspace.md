@@ -2,7 +2,7 @@
 title: '[!DNL Product Recommendations] Workspace'
 description: Leer hoe u de prestaties van productaanbevelingen kunt configureren, beheren en controleren.
 exl-id: eaf1f0b2-9d9d-4069-8269-06f30166f788
-source-git-commit: 3d92f4afc3aef990f2e86e306f4c6c47324aed97
+source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -17,7 +17,7 @@ De werkruimte van [!DNL Product Recommendations] toont een lijst van eerder gevo
 >
 >Een aanbevelingseenheid is een widget die de geadviseerde product _punten_ bevat.
 
-![&#x200B; de werkruimte van Aanbevelingen &#x200B;](assets/workspace.png)
+![ de werkruimte van Aanbevelingen ](assets/workspace.png)
 _Aanbevelingen Workspace_
 
 ## Gegevensverzameling
@@ -29,17 +29,17 @@ Om ervoor te zorgen dat elk functioneel gebied op de werkruimte de correcte gege
 
 Als u een koploze winkel gebruikt, raadpleegt u de volgende documentatie voor meer informatie over de vereiste gebeurtenissen die u moet toevoegen:
 
-- [&#x200B; Vereiste gebeurtenissen &#x200B;](events.md) voor het dashboard van de Aanbevelingen van het Product.
-- [&#x200B; de gebeurtenisinzamelaar van de Storefront &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/) die als voorwaarde moet worden toegevoegd.
-- [&#x200B; Voorbeelden &#x200B;](https://github.com/adobe/commerce-events/tree/main/examples) van de gebeurtenisstructuur.
+- [ Vereiste gebeurtenissen ](events.md) voor het dashboard van de Aanbevelingen van het Product.
+- [ de gebeurtenisinzamelaar van de Storefront ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/) die als voorwaarde moet worden toegevoegd.
+- [ Voorbeelden ](https://github.com/adobe/commerce-events/tree/main/examples) van de gebeurtenisstructuur.
 
 ## Bereik instellen
 
-Aanvankelijk wordt het [&#x200B; werkingsgebied &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL) van alle aanbevelingen montages geplaatst aan `Default Store View`. Als uw installatie van Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) waar uw aanbevelingen van toepassing zijn.
+Aanvankelijk wordt het [ werkingsgebied ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) van alle aanbevelingen montages geplaatst aan `Default Store View`. Als uw installatie van Commerce veelvoudige opslagmeningen omvat, plaats **Reikwijdte** aan de [ opslagmening ](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) waar uw aanbevelingen van toepassing zijn.
 
 ## Datumbereik van metrische gegevens instellen
 
-1. Klik de **![&#x200B; controle van de selecteur van de Kalender &#x200B;](assets/icon-calendar.png) van de 0&rbrace; Kalender &lbrace;.**
+1. Klik de **** controle van de selecteur van de Kalender ![ van de 0} Kalender {.](assets/icon-calendar.png)
 
 1. Kies een van de volgende opties:
 
@@ -51,11 +51,11 @@ Aanvankelijk wordt het [&#x200B; werkingsgebied &#x200B;](https://experienceleag
 
    >[!NOTE]
    >
-   >Metrische gegevens voor productaanbevelingen zijn geoptimaliseerd voor Luma-winkels. Als uw storefront niet-Luma gebaseerd is, hoe de gegevens van het metriekspoor van hoe afhangen u [&#x200B; de gebeurtenisinzameling &#x200B;](events.md) uitvoert.
+   >Metrische gegevens voor productaanbevelingen zijn geoptimaliseerd voor Luma-winkels. Als uw storefront niet-Luma gebaseerd is, hoe de gegevens van het metriekspoor van hoe afhangen u [ de gebeurtenisinzameling ](events.md) uitvoert.
 
 ## Kolommen tonen/verbergen
 
-1. In de upper-left hoek, klik **tonen/verbergen** ![&#x200B; selecteur van de Kolom &#x200B;](assets/icon-show-hide-columns.png) kolommen.
+1. In de upper-left hoek, klik **tonen/verbergen** ![ selecteur van de Kolom ](assets/icon-show-hide-columns.png) kolommen.
 
    De zichtbare kolommen hebben een blauw vinkje.
 
@@ -66,7 +66,7 @@ Aanvankelijk wordt het [&#x200B; werkingsgebied &#x200B;](https://experienceleag
 
    De tabel wordt vernieuwd en bevat alleen de geselecteerde kolommen.
 
-   ![&#x200B; de werkruimte van Aanbevelingen &#x200B;](assets/workspace-select-columns.png)
+   ![ de werkruimte van Aanbevelingen ](assets/workspace-select-columns.png)
    _tonen/verbergen kolommen_
 
 ## Instellingen
@@ -75,36 +75,36 @@ De instellingen bepalen de SaaS-gegevensruimte die de aanbevelingen en gedraggeg
 
 - Om te veranderen waar aanbeveling-gedrag gegevens voortkomt, kies een verschillende gegevensruimte SaaS.
 
-- Om een nieuwe SaaS gegevensruimte te vormen, klik **uitgeven Configuratie**. Meer leren, zie [&#x200B; Montages &#x200B;](settings.md).
+- Om een nieuwe SaaS gegevensruimte te vormen, klik **uitgeven Configuratie**. Meer leren, zie [ Montages ](settings.md).
 
-![&#x200B; montages van Aanbevelingen &#x200B;](assets/settings.png)
+![ montages van Aanbevelingen ](assets/settings.png)
 _de Montages van Aanbevelingen_
 
 ## Details weergeven
 
 1. Klik in de tabel op de aanbeveling die u wilt onderzoeken.
 
-   ![&#x200B; de werkruimte van Aanbevelingen &#x200B;](assets/recommendation-detail.png)
+   ![ de werkruimte van Aanbevelingen ](assets/recommendation-detail.png)
    _het Detail van het Tarief van de Omzetting van de Homepage_
 
-1. Om het statuut van de aanbeveling te veranderen, activeer **&#x200B;**&#x200B;of **&#x200B;**&#x200B;deactivate.
+1. Om het statuut van de aanbeveling te veranderen, activeer **** of **** deactivate.
 
 ## Aanbeveling bewerken
 
-Van de pagina van de aanbevelingsdetails, geeft de klik **&#x200B;**&#x200B;uit. Meer leren, ga [&#x200B; Aanbevelingen &#x200B;](edit.md) uitgeven.
+Van de pagina van de aanbevelingsdetails, geeft de klik **** uit. Meer leren, ga [ Aanbevelingen ](edit.md) uitgeven.
 
 ## Aanbeveling maken
 
-Van de pagina van de aanbevelingsdetails, klik **creëren**. Meer leren, ga [&#x200B; tot Aanbevelingen &#x200B;](create.md) leiden.
+Van de pagina van de aanbevelingsdetails, klik **creëren**. Meer leren, ga [ tot Aanbevelingen ](create.md) leiden.
 
 ## Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |---|---|
-| ![&#x200B; de selecteur van de Kalender &#x200B;](assets/icon-calendar.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. Opties: 24 uur / 7 dagen / 30 dagen |
-| ![&#x200B; de selecteur van de Kolom &#x200B;](assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de [!DNL Product Recommendations] lijst verschijnen. |
+| ![ de selecteur van de Kalender ](assets/icon-calendar.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. Opties: 24 uur / 7 dagen / 30 dagen |
+| ![ de selecteur van de Kolom ](assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de [!DNL Product Recommendations] lijst verschijnen. |
 | Instellingen | Bepaalt de SaaS gegevensruimte waar aanbeveling-gedrag gegevens wordt gehaald, en laat ook visuele gelijkenis aanbevelingen type toe. |
-| Aanbeveling maken | Opent [&#x200B; creëren Nieuwe pagina van de Aanbeveling &#x200B;](create.md). |
+| Aanbeveling maken | Opent [ creëren Nieuwe pagina van de Aanbeveling ](create.md). |
 
 ## Kolombeschrijvingen
 

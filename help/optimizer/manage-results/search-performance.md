@@ -1,9 +1,9 @@
 ---
 title: Zoekprestaties
 description: De pagina met zoekprestaties biedt insight toegang tot de zoektermen die kopers gebruiken.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 75b43c6f-d876-4379-ad70-5c2a2f29a5ac
-source-git-commit: c408f3de4e3b980545a655e2f6040187f00bc571
+source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -20,17 +20,17 @@ De *prestaties van het Onderzoek* pagina verstrekt insight in de onderzoekstermi
 - Omrekeningskoers
 - Resultaatsnelheid nul
 
-![&#x200B; prestaties van het 0&rbrace; Onderzoek](../assets/search-performance.png){zoomable="yes"}
+![ prestaties van het 0} Onderzoek](../assets/search-performance.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Als u geen metriek van onderzoeksprestaties ziet, zorg ervoor de gegevens van de onderzoeksgebeurtenis [&#x200B; worden verzameld &#x200B;](../setup/events/overview.md).
+>Als u geen metriek van onderzoeksprestaties ziet, zorg ervoor de gegevens van de onderzoeksgebeurtenis [ worden verzameld ](../setup/events/overview.md).
 
 ## Kies de **mening van de Catalogus**
 
-Selecteer de [&#x200B; catalogusmening &#x200B;](../setup/catalog-view.md) om de specifieke resultaten van onderzoeksprestaties te zien.
+Selecteer de [ catalogusmening ](../setup/catalog-view.md) om de specifieke resultaten van onderzoeksprestaties te zien.
 
-![&#x200B; de Mening van de Catalogus &#x200B;](../assets/catalog-view.png)
+![ de Mening van de Catalogus ](../assets/catalog-view.png)
 
 ## Een rapport weergeven
 
@@ -52,7 +52,7 @@ In het volgende gedeelte vindt u strategieën waarmee u de zoekfunctionaliteit v
 Er zijn verschillende belangrijke factoren die de relevantie en doeltreffendheid van de zoekresultaten bepalen:
 
 - Goed gestructureerde productgegevens zorgen ervoor dat de onderzoeksalgoritmen producten aan vragen effectief kunnen aanpassen. Lage productgegevens leiden tot minder relevante zoekresultaten. Om het succes van uw koopwaar direct te beïnvloeden strategie:
-   - Opstelling de correcte [&#x200B; attributen zoals doorzoekbaar &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata) met hun overeenkomstige gewicht.
+   - Opstelling de correcte [ attributen zoals doorzoekbaar ](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata) met hun overeenkomstige gewicht.
    - Zorg ervoor dat de gegevens binnen die kenmerken relevant zijn.
 - Een goed ontworpen zoekervaring is een vertrouwensbasis met klanten en geeft het vertrouwen dat ze zullen vinden wat ze nodig hebben.
 - De regels van het onderzoek zijn kritiek aangezien zij de zichtbaarheid van bepaalde producten kunnen verhogen die op populariteit, nieuwe aankomst, promotiecriteria of een andere handelsstrategie worden gebaseerd om aan uw bedrijfsvereisten te voldoen.
@@ -66,7 +66,7 @@ Om onderzoeksresultaten met [!DNL Adobe Commerce Optimizer] te optimaliseren, co
 
    - Identificeer populaire onderzoekstendensen en vaak doorzocht punten.
    - Ontdek mogelijke hiaten in uw productcatalogus of inhoud.
-   - Optimaliseer uw onderzoeksfunctionaliteit door [&#x200B; synoniemen &#x200B;](../merchandising/synonyms/overview.md) toe te voegen, creërend, of het bijwerken [&#x200B; onderzoeksregels &#x200B;](../merchandising/rules/overview.md).
+   - Optimaliseer uw onderzoeksfunctionaliteit door [ synoniemen ](../merchandising/synonyms/overview.md) toe te voegen, creërend, of het bijwerken [ onderzoeksregels ](../merchandising/rules/overview.md).
 
 - **Gemiddelde klikPositie** - wijst erop dat de gemiddelde positie van onderzoeksresultaten door kopers na het uitvoeren van een onderzoeksvraag op uw plaats klikte. Deze metrisch verstrekt inzicht in de relevantie en de doeltreffendheid van uw onderzoeksresultaten.
 
@@ -80,7 +80,7 @@ Om onderzoeksresultaten met [!DNL Adobe Commerce Optimizer] te optimaliseren, co
 
   U kunt de nulresultatensnelheid verlagen door:
 
-   - Het alternatief van de aanbieding of verwante onderzoekstermijnen, zoals [&#x200B; synoniemen &#x200B;](../merchandising/synonyms/overview.md) wanneer geen nauwkeurige gelijken worden gevonden.
+   - Het alternatief van de aanbieding of verwante onderzoekstermijnen, zoals [ synoniemen ](../merchandising/synonyms/overview.md) wanneer geen nauwkeurige gelijken worden gevonden.
    - Controleer regelmatig nulresultaatquery&#39;s om patronen te identificeren en de benodigde aanpassingen aan te brengen in uw productcatalogus en zoekinstellingen.
 
 U kunt deze metrische gegevens gebruiken om uw onderzoeksfunctionaliteit op de volgende manieren te optimaliseren:
@@ -94,11 +94,11 @@ U kunt deze metrische gegevens gebruiken om uw onderzoeksfunctionaliteit op de v
 
 ## Uw zoekfunctionaliteit optimaliseren
 
-Om uw onderzoeksfunctionaliteit te optimaliseren, gebruik [&#x200B; synoniemen en spelling &#x200B;](../merchandising/synonyms/overview.md) om ervoor te zorgen dat de consumenten producten vinden zelfs als zij verschillende woorden en [&#x200B; facetten &#x200B;](../merchandising/facets/overview.md) gebruiken om consumenten toe te staan om onderzoeksresultaten te beperken.
+Om uw onderzoeksfunctionaliteit te optimaliseren, gebruik [ synoniemen en spelling ](../merchandising/synonyms/overview.md) om ervoor te zorgen dat de consumenten producten vinden zelfs als zij verschillende woorden en [ facetten ](../merchandising/facets/overview.md) gebruiken om consumenten toe te staan om onderzoeksresultaten te beperken.
 
 ## De relevantie van zoekresultaten verbeteren
 
-Om de relevantie van het onderzoeksresultaat te verbeteren, voer efficiënte [&#x200B; onderzoeksregels &#x200B;](../merchandising/rules/overview.md) uit en gebruik productmeta-gegevens om nauwkeurige en gedetailleerde [&#x200B; attributen te verzekeren zijn doorzoekbaar &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
+Om de relevantie van het onderzoeksresultaat te verbeteren, voer efficiënte [ onderzoeksregels ](../merchandising/rules/overview.md) uit en gebruik productmeta-gegevens om nauwkeurige en gedetailleerde [ attributen te verzekeren zijn doorzoekbaar ](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata).
 
 ### Afbeeldingen
 
@@ -110,7 +110,7 @@ Zorg ervoor dat de configureerbare producten van het kindproducten beelden met d
 
 ### Productmetagegevens gebruiken
 
-Zorg ervoor dat de nauwkeurige en gedetailleerde product [&#x200B; attributen opstelling zoals doorzoekbaar zijn en een toegewezen gewicht &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata) hebben. SKU-, naam- en categoriekenmerken kunnen standaard worden doorzocht en kunnen niet worden uitgesloten van de zoekopdracht. U bereikt de beste resultaten als u geen spaties gebruikt in uw SKU&#39;s.
+Zorg ervoor dat de nauwkeurige en gedetailleerde product [ attributen opstelling zoals doorzoekbaar zijn en een toegewezen gewicht ](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata) hebben. SKU-, naam- en categoriekenmerken kunnen standaard worden doorzocht en kunnen niet worden uitgesloten van de zoekopdracht. U bereikt de beste resultaten als u geen spaties gebruikt in uw SKU&#39;s.
 
 Om zoekrelevantie te vergroten, wijst u een gewicht toe aan elk doorzoekbaar kenmerk. Kenmerken met een hogere dikte moeten in de zoekresultaten hoger worden weergegeven. Sorteren op relevantie wordt beïnvloed door meerdere criteria, zoals zoekgewicht. Dit betekent dat kenmerken met een lager zoekgewicht soms nog relevanter kunnen zijn dan kenmerken met een hoger zoekgewicht. Andere criteria kunnen het aantal overeenkomsten in een bepaald kenmerk, de positie van de gevonden zoekterm en de algemene tekststructuur vóór en na een zoekterm bevatten.
 
@@ -134,7 +134,7 @@ Zorg ervoor dat elk product relevante inhoud binnen elk doorzoekbaar kenmerk hee
 
 ## Standaardeigenschappen van niet-systeemkenmerken
 
-In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven. Het plaatsen van het *Gebruik in het 1&rbrace; attributenbezit van het Onderzoek &lbrace;aan* maakt de attributen doorzoekbaar in `Yes`.[!DNL Adobe Commerce Optimizer]
+In de volgende tabel worden de standaardzoekeigenschappen en filterbare eigenschappen van niet-systeemkenmerken weergegeven. Het plaatsen van het *Gebruik in het 1} attributenbezit van het Onderzoek {aan* maakt de attributen doorzoekbaar in `Yes`.[!DNL Adobe Commerce Optimizer]
 
 | Kenmerkcode | Doorzoekbaar |
 |--- |--- |

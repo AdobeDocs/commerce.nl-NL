@@ -1,7 +1,8 @@
 ---
 title: Merchandising zoeken
 description: In [!DNL Live Search] worden logica en acties gecombineerd om de winkelervaring vorm te geven.
-source-git-commit: cb69e11cd54a3ca1ab66543c4f28526a3cf1f9e1
+exl-id: 9894bf2b-8556-4057-aa23-ebdcb1599914
+source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -73,5 +74,5 @@ Aanvraag in de beheerder werkt iets anders. Wanneer u een voorvertoning weergeef
 
 ## Rubriekhandel en producttoewijzingen van categorieën
 
-Met [!DNL Live Search] kunt u filteren op categorieën. Zie [&#x200B; het Merchandising van de Categorie &#x200B;](category-merch.md) voor meer informatie.
-Nochtans, in Adobe Commerce kunt u een virtuele categorie met [&#x200B; het producttaken van de Categorie &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html?lang=nl-NL) tot stand brengen. Dit type categorie is gemaakt bij uitvoering en komt niet voor in de categoriedatabase. Daarom kan [!DNL Live Search] dit categorietype niet lezen of gebruiken.
+Met [!DNL Live Search] kunt u filteren op categorieën. Zie [ het Merchandising van de Categorie ](category-merch.md) voor meer informatie.
+Nochtans, in Adobe Commerce kunt u een virtuele categorie met [ het producttaken van de Categorie ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/products-in-category/categories-product-assignments.html) tot stand brengen. Dit type categorie is gemaakt bij uitvoering en komt niet voor in de categoriedatabase. Daarom kan [!DNL Live Search] dit categorietype niet lezen of gebruiken.

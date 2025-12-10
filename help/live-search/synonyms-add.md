@@ -18,7 +18,7 @@ Verhoog de betrokkenheid van klanten door uw eigen gekrulde lijst met [!DNL Live
 ## Stap 1: Een synoniem toevoegen
 
 1. In Admin, ga naar **Marketing** > SEO &amp; Onderzoek > **[!DNL Live Search]**.
-1. Voor veelvoudige opslag, plaats **Reikwijdte** aan de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) waar de synoniem montages van toepassing zijn.
+1. Voor veelvoudige opslag, plaats **Reikwijdte** aan de [&#x200B; opslagmening &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html?lang=nl-NL#scope-settings) waar de synoniem montages van toepassing zijn.
 1. Klik de **Synoniemen** tabel.
 1. Klik **toevoegen synoniemen** knoop.
 

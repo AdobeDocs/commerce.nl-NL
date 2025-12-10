@@ -133,7 +133,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> stappen van het Beheer van de Gebruiker 0} {voor het toevoegen van een gebruiker.</a></p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> stappen van het Beheer van de Gebruiker 0&rbrace; &lbrace;voor het toevoegen van een gebruiker.</a></p>
 </td>
       <td>
         Belangrijke update

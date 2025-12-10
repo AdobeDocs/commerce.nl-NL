@@ -14,29 +14,29 @@ ht-degree: 0%
 
 Alle filterbare productkenmerken kunnen als facet worden gebruikt. Facetten helpen klanten producten in uw winkel te filteren en gemakkelijker te vinden. Dit artikel verklaart hoe te om, facetten in uw storefront toe te voegen te beheren en te vormen.
 
-![ creeer een Facet ](../../assets/create-facet.png)
+![&#x200B; creeer een Facet &#x200B;](../../assets/create-facet.png)
 
 ## Een facet maken
 
 1. In het linkerspoor, uitgezochte _Merchandising_ > **Facets** dan klik **tot facetten**.
-1. In *creeer facetten* lijst, heeft elk beschikbaar attribuut een afzonderlijke ![ toevoegen knoop ](../../assets/btn-add.png). Voer een van de volgende handelingen uit:
+1. In *creeer facetten* lijst, heeft elk beschikbaar attribuut een afzonderlijke ![&#x200B; toevoegen knoop &#x200B;](../../assets/btn-add.png). Voer een van de volgende handelingen uit:
 
    - In de *attributen van Facetten* lijst, kies de productattributen die u als facet wilt gebruiken en **klikken voegt** toe.
    - Om een specifiek productattribuut te vinden, ga de eerste paar karakters van de attributennaam in het *vakje van het Onderzoek* in. Dan, klik **toevoegen**.
 
    Het facet wordt toegevoegd aan de bodem van de *Dynamische facetten* lijst en *publiceert veranderingen* knoop wordt beschikbaar.
 
-1. Als het facet u wilt toevoegen niet kan worden gevonden, gebruik [ Meta-gegevens API ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata) om de `filterable` parameter te plaatsen:
+1. Als het facet u wilt toevoegen niet kan worden gevonden, gebruik [&#x200B; Meta-gegevens API &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata) om de `filterable` parameter te plaatsen:
 
    `"filterable": true`
 
-   De volgende keer dat de catalogus wordt gesynchroniseerd met [!DNL Adobe Commerce Optimizer], wordt het facet beschikbaar in de winkel. Als de facet niet beschikbaar na twee uren is, zie [ gegevenssynchronisatie ](../../setup/data-sync.md).
+   De volgende keer dat de catalogus wordt gesynchroniseerd met [!DNL Adobe Commerce Optimizer], wordt het facet beschikbaar in de winkel. Als de facet niet beschikbaar na twee uren is, zie [&#x200B; gegevenssynchronisatie &#x200B;](../../setup/data-sync.md).
 
 ## Eigenschappen van facetten bewerken (optioneel)
 
 1. Zoek het facet dat u wilt bewerken.
-1. Klik (![ meer selecteur ](../../assets/btn-more.png)) meer selecteur.
-1. Voor het menu, geeft de klik **** uit. Pas vervolgens de volgende eigenschappen naar wens aan:
+1. Klik (![&#x200B; meer selecteur &#x200B;](../../assets/btn-more.png)) meer selecteur.
+1. Voor het menu, geeft de klik **&#x200B;**&#x200B;uit. Pas vervolgens de volgende eigenschappen naar wens aan:
 
    - Label - Voer het facetlabel in dat u wilt gebruiken.
    - Type sorteren - Kies een van de volgende opties:
@@ -50,11 +50,11 @@ Alle filterbare productkenmerken kunnen als facet worden gebruikt. Facetten help
 
 Het speld verandert kleur wanneer geklikt en wordt gebruikt om de facet aan of *vastgezette Facets* of de *Dynamische sectie van Facetten* te bewegen.
 
-1. Om een facet aan de bovenkant van de *lijst van Filters* vast te zetten, vind de facet in de *Dynamische lijst van Facetten* en klik het grijze speld (![ Vastzetten selecteur ](../../assets/btn-pin-gray.png)).
+1. Om een facet aan de bovenkant van de *lijst van Filters* vast te zetten, vind de facet in de *Dynamische lijst van Facetten* en klik het grijze speld (![&#x200B; Vastzetten selecteur &#x200B;](../../assets/btn-pin-gray.png)).
 
    De speld wordt blauw en de facetbewegingen aan de *Vastgezette sectie van Facetten*.
 
-1. Om een facet los te maken, vind het facet in de *Vastgezette lijst van Facetten* en klik het blauwe speld (![ Vastzetten selecteur ](../../assets/btn-pin-blue.png)).
+1. Om een facet los te maken, vind het facet in de *Vastgezette lijst van Facetten* en klik het blauwe speld (![&#x200B; Vastzetten selecteur &#x200B;](../../assets/btn-pin-blue.png)).
 
    De speld verandert grijs en de facetbewegingen aan de *Dynamische sectie van Facetten*.
 
@@ -64,7 +64,7 @@ Het speld verandert kleur wanneer geklikt en wordt gebruikt om de facet aan of *
 
 ## Elementen verwijderen
 
-1. Vind de facet in de lijst en klik (![ Meer selecteur ](../../assets/btn-more.png)) meer selecteur.
+1. Vind de facet in de lijst en klik (![&#x200B; Meer selecteur &#x200B;](../../assets/btn-more.png)) meer selecteur.
 1. Klik **Schrapping**.
 1. Wanneer ertoe aangezet om te bevestigen, klik **Facet van de Schrapping**.
 Het facet wordt verwijderd uit het winkelcentrum nadat de wijzigingen zijn gepubliceerd.
@@ -76,5 +76,5 @@ Het facet wordt verwijderd uit het winkelcentrum nadat de wijzigingen zijn gepub
 
 ## Aanvullende informatie
 
-- Om prijsfacetintervallen en groeperingen te vormen, zie [ Montages ](../../settings.md).
-- Leer meer over de [ types ](type.md) van facetten.
+- Om prijsfacetintervallen en groeperingen te vormen, zie [&#x200B; Montages &#x200B;](../../settings.md).
+- Leer meer over de [&#x200B; types &#x200B;](type.md) van facetten.

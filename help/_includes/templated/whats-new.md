@@ -1,7 +1,7 @@
 ---
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: b65f9f15fe89a52432fda9e2e29bf96176a431d3
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 0%
 ## Nieuwe functies
 
 Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, worden van deze lijst uitgesloten.
+
+### 9 december 2025
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Het bijwerken van de aanbevelingen eigenschap in de documentatie van Commerce Optimizer aangezien de <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/recommendations/create#preview-recommendations"> voorproefruit </a> nu wordt gesteund.</p>
+</td>
+      <td>
+        Technisch
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/ae99230552e7466a3a384c77e1e67e0cd981de6a">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 20 november 2025
 
@@ -23,7 +45,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor de versie van as a Cloud Service van november Adobe Commerce.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor de versie van as a Cloud Service van november Adobe Commerce.</p>
 </td>
       <td>
         Belangrijke update
@@ -45,7 +67,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Documenteerde hoe Commerce Optimizer-klanten die verbinding maken met een Adobe Commerce-backend, de export van gegevenstoevoer kunnen controleren en problemen kunnen oplossen via de statuspagina van Feed Sync. Zie <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/data-sync"> Synchronisatie van Gegevens </a> in de Gids van Adobe Commerce Optimizer.</p>
+      <td><p>Documenteerde hoe Commerce Optimizer-klanten die verbinding maken met een Adobe Commerce-backend, de export van gegevenstoevoer kunnen controleren en problemen kunnen oplossen via de statuspagina van Feed Sync. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync"> Synchronisatie van Gegevens </a> in de Gids van Adobe Commerce Optimizer.</p>
 </td>
       <td>
         Technisch
@@ -67,7 +89,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/release-notes"> versienota's </a> voor de versie van de Diensten van de Betaling v2.13.0.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/release-notes"> versienota's </a> voor de versie van de Diensten van de Betaling v2.13.0.</p>
 </td>
       <td>
         Technisch
@@ -89,7 +111,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/release-notes"> versienota's </a> voor de versie van de Integratie van AEM Assets v1.2.7.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes"> versienota's </a> voor de versie van de Integratie van AEM Assets v1.2.7.</p>
 </td>
       <td>
         Technisch
@@ -111,7 +133,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de volgende onderwerpen om informatie over het vormen van identiteitsbeheer en enig teken-op van Adobe Admin Console te omvatten:<br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/user-management"> as a Cloud Service van Adobe Commerce Gebruiker en Identity Management </a><br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/user-management"> Adobe Commerce Optimizer: Gebruiker en Identity Management </a></p>
+      <td><p>Bijgewerkt de volgende onderwerpen om informatie over het vormen van identiteitsbeheer en enig teken-op van Adobe Admin Console te omvatten:<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> as a Cloud Service van Adobe Commerce Gebruiker en Identity Management </a><br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/user-management"> Adobe Commerce Optimizer: Gebruiker en Identity Management </a></p>
 </td>
       <td>
         Feedback, technisch
@@ -133,34 +155,12 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/user-management"> stappen van het Beheer van de Gebruiker 0&rbrace; &lbrace;voor het toevoegen van een gebruiker.</a></p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/user-management"> stappen van het Beheer van de Gebruiker 0} {voor het toevoegen van een gebruiker.</a></p>
 </td>
       <td>
         Belangrijke update
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/4088b88553cbdd328a55f3483b20ea073e6c78b2">begaan</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 13 oktober 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschrijving</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/storefront"> de opstellingsgids van de storefront </a> voor Adobe Commerce Optimizer om instructies te verstrekken voor het creëren van storefront project met het hulpmiddel van de Maker van de Plaats, die de storefrontconfiguratie aanpassen, en de plaats en catalogusgegevens verifiëren door het standaardproductdetail en de resultatenpagina's van het productonderzoek te controleren.</p>
-</td>
-      <td>
-        Belangrijke update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/4c2d5fc7ad0febbeef2ff0b8ee3bdec5e9b5710c">begaan</a></td>
     </tr>
   </tbody>
 </table>

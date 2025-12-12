@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Deze zelfstudie begeleidt u bij het maken van een productrating-extensie voor [!DNL Adobe Commerce as a Cloud Service] gebruik van [!DNL Adobe App Builder] - en AI-ontwikkelingsprogramma&#39;s.
 
-Alvorens u begint, voltooi de [ eerste vereisten ](./tutorial-prerequisites.md).
+Alvorens u begint, voltooi de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md).
 
 ## Voorwaarden verifiëren
 
@@ -39,7 +39,7 @@ git --version
 bash --version
 ```
 
-Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, zie de [ eerste vereisten ](tutorial-prerequisites.md) voor begeleiding.
+Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, zie de [&#x200B; eerste vereisten &#x200B;](tutorial-prerequisites.md) voor begeleiding.
 
 ## Uitbreiding
 
@@ -47,7 +47,7 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
 1. Navigeer naar **[!UICONTROL Cursor]** > **[!UICONTROL Settings]** > **[!UICONTROL Cursor Settings]** > **[!UICONTROL Tools & MCP]** en controleer of de gereedschapset `commerce-extensibility` zonder fouten is ingeschakeld. Als er fouten optreden, schakelt u de gereedschapset in en uit.
 
-   ![ montages van de Curseur ](../assets/cursor-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; montages van de Curseur &#x200B;](../assets/cursor-settings.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -58,7 +58,7 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
    - Navigeer aan [!UICONTROL **Curseur**] > [!UICONTROL **Montages**] > [!UICONTROL **de Montages van de Curseur**] > [!UICONTROL **Indexeren &amp; Dokken**] en schrap om het even welke vermelde documentatie.
 
-   ![ maak documentatie ](../assets/disable-documentation.png){width="600" zoomable="yes"} onbruikbaar
+   ![&#x200B; maak documentatie &#x200B;](../assets/disable-documentation.png){width="600" zoomable="yes"} onbruikbaar
 
 1. Code genereren voor een extensie voor productbeoordelingen:
    - Van Curseur het curseurpraatje windiow, uitgezochte **wijze van de Agent**.
@@ -80,9 +80,9 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
 1. Beantwoord de vragen van de agent precies om het te helpen de beste code produceren.
 
-   ![ ga herinnering in Curseur ](../assets/enter-prompt.png){width="600" zoomable="yes"} binnen
+   ![&#x200B; ga herinnering in Curseur &#x200B;](../assets/enter-prompt.png){width="600" zoomable="yes"} binnen
 
-   ![ de Agent vraagt het verduidelijken vragen ](../assets/agent-questions.png){width="600" zoomable="yes"}
+   ![&#x200B; de Agent vraagt het verduidelijken vragen &#x200B;](../assets/agent-questions.png){width="600" zoomable="yes"}
 
 1. Gebruik de volgende voorbeeldtekst om de vragen van de agent aan opstellings willekeurig gevormde classificatiegegevens te beantwoorden:
 
@@ -102,7 +102,7 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
    De agent maakt een `requirements.md` -bestand dat als bron van waarheid voor de implementatie fungeert.
 
-   ![ gecreeerd dossier van Vereisten ](../assets/requirements-file.png){width="600" zoomable="yes"}
+   ![&#x200B; gecreeerd dossier van Vereisten &#x200B;](../assets/requirements-file.png){width="600" zoomable="yes"}
 
 1. Controleer het `requirements.md` -bestand en verifieer het plan.
 
@@ -112,11 +112,11 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
    De agent produceert de noodzakelijke code en verstrekt een gedetailleerde samenvatting met uw volgende stappen.
 
-   ![ Architectuur planning ](../assets/architecture-planning.png){width="600" zoomable="yes"}
+   ![&#x200B; Architectuur planning &#x200B;](../assets/architecture-planning.png){width="600" zoomable="yes"}
 
-   ![ Overzicht van de generatie van de Code ](../assets/code-generation-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; Overzicht van de generatie van de Code &#x200B;](../assets/code-generation-summary.png){width="600" zoomable="yes"}
 
-   ![ Volgende stappen ](../assets/next-steps.png){width="600" zoomable="yes"}
+   ![&#x200B; Volgende stappen &#x200B;](../assets/next-steps.png){width="600" zoomable="yes"}
 
 ### Lokale tests
 
@@ -128,9 +128,9 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
 1. Volg de instructies van de agent en bevestig dat de API lokaal werkt.
 
-   ![ Lokale het testen ](../assets/local-testing.png){width="600" zoomable="yes"}
+   ![&#x200B; Lokale het testen &#x200B;](../assets/local-testing.png){width="600" zoomable="yes"}
 
-   ![ Lokale testende resultaten ](../assets/local-testing-1.png){width="600" zoomable="yes"}
+   ![&#x200B; Lokale testende resultaten &#x200B;](../assets/local-testing-1.png){width="600" zoomable="yes"}
 
 ### De extensie implementeren
 
@@ -142,19 +142,19 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
    De agent voert een pre-plaatsingsklaar beoordeling uit alvorens op te stellen.
 
-   ![ pre-plaatsingsbeoordeling ](../assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
+   ![&#x200B; pre-plaatsingsbeoordeling &#x200B;](../assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
 
 1. Wanneer u met de beoordelingsresultaten vertrouwd bent, instrueer de agent om met plaatsing te werk te gaan.
 
    De agent gebruikt toolkit MCP om, automatisch te verifiëren en op te stellen.
 
-   ![ Plaatsing ](../assets/deployment-process.png){width="600" zoomable="yes"}
+   ![&#x200B; Plaatsing &#x200B;](../assets/deployment-process.png){width="600" zoomable="yes"}
 
 ### Post-implementatie
 
 U kunt de API testen voordat u deze integreert in de winkel. De agent moet de locatie van de nieuwe actie en een teststrategie opgeven.
 
-![ het Testen strategie ](../assets/testing-strategy.png){width="600" zoomable="yes"}
+![&#x200B; het Testen strategie &#x200B;](../assets/testing-strategy.png){width="600" zoomable="yes"}
 
 U kunt de API ook handmatig testen met cURL in een terminal:
 
@@ -162,7 +162,7 @@ U kunt de API ook handmatig testen met cURL in een terminal:
 curl -s "https://<your-site>.adobeioruntime.net/api/v1/web/ratings/ratings?sku=TEST-SKU-123"
 ```
 
-![ cURL test ](../assets/curl-test.png){width="600" zoomable="yes"}
+![&#x200B; cURL test &#x200B;](../assets/curl-test.png){width="600" zoomable="yes"}
 
 ### Integreren met Edge Delivery Services
 
@@ -172,9 +172,9 @@ Als u de API voor classificaties wilt integreren met een [!DNL Adobe Commerce] s
 Create a service contract for the ratings api that I can pass on to the storefront agent. Name it RATINGS_API_CONTRACT.md
 ```
 
-![ contract van de Dienst ](../assets/create-contract.png){width="600" zoomable="yes"}
+![&#x200B; contract van de Dienst &#x200B;](../assets/create-contract.png){width="600" zoomable="yes"}
 
-![ de contractdetails van de Dienst ](../assets/contract.png){width="600" zoomable="yes"}
+![&#x200B; de contractdetails van de Dienst &#x200B;](../assets/contract.png){width="600" zoomable="yes"}
 <!-- 
 Return to the terminal and run the following command in the `extension` folder to copy the file to the `storefront` folder:
 

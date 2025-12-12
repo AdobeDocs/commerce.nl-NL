@@ -1,11 +1,11 @@
 ---
 title: AI-coderingsgereedschappen voor extensies
 description: Leer hoe u de AI-gereedschappen gebruikt om Commerce App Builder-extensies te maken.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 hide: true
 hidefromtoc: true
-source-git-commit: 8f7b5536388e8f4cb1e763b430bdca8644d1da5c
+source-git-commit: d0b9fd3ebbf0c88abbbf12821c5c4825ffcf10f0
 workflow-type: tm+mt
 source-wordcount: '1849'
 ht-degree: 0%
@@ -26,17 +26,17 @@ Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
 ## Vereisten
 
 * Een van de volgende coderingsagents:
-   * [&#x200B; Curseur &#x200B;](https://cursor.com/download) (geadviseerd)
-   * [&#x200B; Github Copilot &#x200B;](https://github.com/features/copilot)
-   * [&#x200B; Google Gemini CLI &#x200B;](https://github.com/google-gemini/gemini-cli)
-   * [&#x200B; Claude Code &#x200B;](https://www.claude.com/product/claude-code)
-* [&#x200B; Node.js &#x200B;](https://nodejs.org/en/download): De versie van LTS
-* De Manager van het pakket: [&#x200B; npm &#x200B;](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [&#x200B; garen &#x200B;](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
-* [&#x200B; Git &#x200B;](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
+   * [ Curseur ](https://cursor.com/download) (geadviseerd)
+   * [ Github Copilot ](https://github.com/features/copilot)
+   * [ Google Gemini CLI ](https://github.com/google-gemini/gemini-cli)
+   * [ Claude Code ](https://www.claude.com/product/claude-code)
+* [ Node.js ](https://nodejs.org/en/download): De versie van LTS
+* De Manager van het pakket: [ npm ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [ garen ](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* [ Git ](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
 
 ## Installatie
 
-1. Installeer de recentste [&#x200B; CLI van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli) globaal:
+1. Installeer de recentste [ CLI van Adobe I/O ](https://github.com/adobe/aio-cli) globaal:
 
    ```bash
    npm install -g @adobe/aio-cli
@@ -44,15 +44,15 @@ Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
 
 1. Installeer de volgende plug-ins:
 
-   * [&#x200B; Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
-   * [&#x200B; CLI Runtime van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli-plugin-runtime)
-   * [&#x200B; App Builder CLI &#x200B;](https://github.com/adobe/aio-cli-plugin-app-dev)
+   * [ Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
+   * [ CLI Runtime van Adobe I/O ](https://github.com/adobe/aio-cli-plugin-runtime)
+   * [ App Builder CLI ](https://github.com/adobe/aio-cli-plugin-app-dev)
 
    ```bash
    aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
    ```
 
-1. Kloon de de integratiestarterkit van Commerce [&#x200B; &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
+1. Kloon de de integratiestarterkit van Commerce [ ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
 
    ```bash
    git clone git@github.com:adobe/commerce-integration-starter-kit.git
@@ -72,7 +72,7 @@ Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
 
 Tijdens het installatieproces worden configuratieopties weergegeven. Kies voor de installatielocatie de optie &quot;Huidige map&quot; om de gereedschappen in de huidige werkruimte te installeren:
 
-```terminal
+```plain
 ? Where would you like to setup the tools?
 ❯ Current directory
   New directory
@@ -80,7 +80,7 @@ Tijdens het installatieproces worden configuratieopties weergegeven. Kies voor d
 
 Bij het selecteren van de coderingsagent raadt Adobe aan `Cursor` te selecteren voor de beste ontwikkelervaring:
 
-```terminal
+```plain
 ? Which coding agent would you like to use?
 ❯ Cursor
   Copilot
@@ -90,7 +90,7 @@ Bij het selecteren van de coderingsagent raadt Adobe aan `Cursor` te selecteren 
 
 Als Adobe pakketbeheer selecteert, wordt u aangeraden `npm` te gebruiken voor consistentie:
 
-```terminal
+```plain
 ? Which package manager would you like to use?
 ❯ npm
   yarn
@@ -118,11 +118,11 @@ Als Adobe pakketbeheer selecteert, wordt u aangeraden `npm` te gebruiken voor co
 >
 >Alvorens uw project op te stellen, zult u de volgende configuratietaken moeten voltooien:
 >
->* Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
->* Creeer een project van App Builder (zie [&#x200B; de opstelling van het Project &#x200B;](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
+>* Login aan [ Adobe Developer Console ](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
+>* Creeer een project van App Builder (zie [ de opstelling van het Project ](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
 >* Omgevingsvariabelen instellen in een `.env` -bestand.
 >
->U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [&#x200B; een integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
+>U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [ een integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
 
 ## Configuratie na installatie
 
@@ -168,7 +168,7 @@ aio auth login
 
 1. Verifieer de serverstatus - de uitbreidbaarheid MCP van Commerce zou als moeten verschijnen:
 
-   ```terminal
+   ```plain
    Status: Connected/Active
    Server: commerce-extensibility
    Configuration: Automatically configured via .cursor/mcp.json
@@ -176,7 +176,7 @@ aio auth login
 
 1. Gebruik de volgende herinnering om te zien of gebruikt de agent de server MCP. Als het niet, vraag de agent uitdrukkelijk om de beschikbare hulpmiddelen MCP te gebruiken.
 
-```terminal
+```plain
 What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Cloud Service when configuring a webhook that activates an App Builder runtime action?
 ```
 
@@ -195,7 +195,7 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 1. Controleer de serverstatus. De uitvoer van `MCP:commerce-extensibility` moet overeenkomen met het volgende:
 
-   ```terminal
+   ```plain
    2025-11-13 12:58:50.652 [info] Starting server commerce-extensibility
    2025-11-13 12:58:50.652 [info] Connection state: Starting
    2025-11-13 12:58:50.652 [info] Starting server from LocalProcess extension host
@@ -209,7 +209,7 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 1. Gebruik de volgende herinnering om te zien of gebruikt de agent de server MCP. Als het niet, vraag de agent uitdrukkelijk om de beschikbare hulpmiddelen MCP te gebruiken.
 
-   ```terminal
+   ```plain
    What are the differences between Adobe Commerce PaaS and SaaS when configuring a webhook that activates an App Builder runtime action?
    ```
 
@@ -217,7 +217,7 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 Met de volgende voorbeeldprompt wordt een extensie gemaakt voor het verzenden van meldingen wanneer een bestelling wordt geplaatst.
 
-```terminal
+```plain
 Implement an Adobe Commerce SaaS extension that will send an ERP notification when a customer places an order. The ERP notification must be sent as a POST HTTP call to <ERP URL> with the following details in the request JSON body:
 
 Order ID -> orderID
@@ -230,7 +230,7 @@ Payment Type -> pType
 
 Naast het vragen, kunt u het `/search-commerce-docs` bevel gebruiken om documentatie in gesprekken met uw agent te zoeken. Bijvoorbeeld:
 
-```text
+```plain
 /search-commerce-docs "How do I subscribe to Commerce events?"
 ```
 
@@ -249,7 +249,7 @@ Voordat u een ontwikkelingssessie start:
 
 Tijdens de ontwikkeling:
 
-* Vertrouw het vier-fase [&#x200B; protocol &#x200B;](#protocol)
+* Vertrouw het vier-fase [ protocol ](#protocol)
 * Implementatieplannen aanvragen voor complexe ontwikkeling
 * MCP-gereedschappen gebruiken indien beschikbaar
 * Elke functie na implementatie testen
@@ -273,10 +273,10 @@ Hierdoor kunt u ook Adobe-sjablonen gebruiken en bouwen op beproefde patronen en
 
 Raadpleeg de volgende bronnen om aan de slag te gaan:
 
-* [&#x200B; Startuitrusting van de Integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
-* [&#x200B; Adobe Commerce starter kit malplaatjes &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
-* [&#x200B; de steekproeftoepassingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
+* [ Startuitrusting van de Integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
+* [ Adobe Commerce starter kit malplaatjes ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
+* [ de aanzetmalplaatjes van Adobe I/O Events ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [ de steekproeftoepassingen van App Builder ](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### Waarom u deze middelen zou moeten gebruiken
 
@@ -302,9 +302,9 @@ Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensyst
 
 ### Implementatieplannen aanvragen voor complexe ontwikkeling
 
-Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [&#x200B; Fase 2 &#x200B;](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
+Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [ Fase 2 ](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
 
-```terminal
+```plain
 Create a detailed implementation plan for this complex development.
 ```
 
@@ -320,13 +320,13 @@ Complexe Adobe Commerce-extensies hebben vaak betrekking op:
 
 >[!NOTE]
 >
->Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [&#x200B; aan Adobe I/O CLI &#x200B;](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
+>Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [ aan Adobe I/O CLI ](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
 
 Het hulpmiddel blijft aan hulpmiddelen MCP in gebreke, maar in bepaalde omstandigheden, kan het bevelen CLI in plaats daarvan gebruiken. Als u MCP hulpmiddelgebruik wilt verzekeren, uitdrukkelijk verzoek hen in uw herinnering.
 
 Als u CLI bevelen ziet die en hulpmiddelen MCP in plaats daarvan willen gebruiken, gebruik de volgende herinnering:
 
-```terminal
+```plain
 Use only MCP tools and not CLI commands
 ```
 
@@ -346,7 +346,7 @@ Het is belangrijk om onnodige complexiteit die door de AI-gereedschappen wordt v
 
 Wanneer overbodige bestanden worden toegevoegd (`validator.js` , `transformer.js` , `sender.js` ) voor eenvoudige alleen-lezen eindpunten, volgt u de volgende aanwijzingen:
 
-```terminal
+```plain
 Why do we need these files for a simple read-only endpoint?
 Perform a root cause analysis before adding complexity
 Verify if simpler solutions exist
@@ -402,47 +402,47 @@ Vraag om hulp bij het testen. De hulpmiddelen kunnen met het zuiveren, logboekan
 
 **runtime van de Test acties**:
 
-```terminal
+```plain
 Help me test the customer-created runtime action running locally
 ```
 
 **zuivert mislukkingen**:
 
-```terminal
+```plain
 Why did the subscription-updated runtime action activation fail?
 ```
 
 **Logboeken van de Controle**:
 
-```terminal
+```plain
 Help me check the logs for the last stock-monitoring runtime action invocation
 ```
 
 **creeer testlading**:
 
-```terminal
+```plain
 Generate test data for this Commerce event
 ```
 
-```terminal
+```plain
 Create a test payload for the customer_save_after event
 ```
 
 **vind runtime eindpunten**:
 
-```terminal
+```plain
 What's the URL for this deployed action?
 ```
 
 **handvatauthentificatie**:
 
-```terminal
+```plain
 How do I authenticate with this external API?
 ```
 
 **los** problemen op:
 
-```terminal
+```plain
 Help me debug why this action is returning 500 errors
 ```
 
@@ -477,19 +477,19 @@ Implementeer alleen gewijzigde acties om de ontwikkeling te versnellen. Hierdoor
 
 Na grote wijzigingen kunt u de gereedschappen gebruiken om zwevende handelingen op te schonen. De AI-werktuigen kunnen het schoonmaakproces systematisch afhandelen, ze kunnen op efficiënte wijze de zwevende handelingen identificeren, hun status controleren en ze veilig verwijderen zonder handmatige tussenkomst.
 
-```terminal
+```plain
 Help me identify and clean up orphaned runtime actions
 ```
 
 Vraag de AI-gereedschappen om geïmplementeerde acties weer te geven en ongebruikte acties te identificeren
 
-```terminal
+```plain
 List all deployed actions and identify which ones are no longer needed
 ```
 
 AI-gereedschappen de zwevende handelingen laten verwijderen met de juiste opdrachten
 
-```terminal
+```plain
 Remove the orphaned actions that are no longer part of the current implementation
 ```
 

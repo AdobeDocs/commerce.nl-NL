@@ -1,7 +1,7 @@
 ---
 title: Kansen
 description: Identificeer mogelijkheden om verkeer, betrokkenheid, en omzettingen door integratie met Adobe Sites Optimizer voor slimme, gegevensgedreven plaatsverbeteringen te bevorderen.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 7f7b4a3c866c453d9722b708a0ed4e1b601c8e8e
 workflow-type: tm+mt
 source-wordcount: '1349'
@@ -17,7 +17,7 @@ De **pagina van Kansen 0&rbrace; &lbrace;helpt u optimalisaties identificeren en
 
 ## Wat zijn kansen?
 
-[&#x200B; Kansen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview) zijn op AI-Gebaseerde aanbevelingen die handelaren helpen kwesties identificeren en richten die hun handelsplaatsprestaties beïnvloeden. Deze aanbevelingen worden aangedreven door [&#x200B; Adobe Experience Manager Sites Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home), de op wolk-gebaseerde dienst die websiteprestaties analyseert en verbetert.
+[&#x200B; Kansen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview) zijn op AI-Gebaseerde aanbevelingen die handelaren helpen kwesties identificeren en richten die hun handelsplaatsprestaties beïnvloeden. Deze aanbevelingen worden aangedreven door [&#x200B; Adobe Experience Manager Sites Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/home), de op wolk-gebaseerde dienst die websiteprestaties analyseert en verbetert.
 
 ## Belangrijkste mogelijkheden
 
@@ -176,7 +176,7 @@ Succeswaarden meten de belangrijkste prestatie-indicatoren, zoals productdetecti
 
 ## Meer informatie over Sites Optimizer
 
-Voor gedetailleerde informatie over de mogelijkheden en de eigenschappen van Sites Optimizer, zie de [&#x200B; documentatie van Adobe Experience Manager Sites Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home).
+Voor gedetailleerde informatie over de mogelijkheden en de eigenschappen van Sites Optimizer, zie de [&#x200B; documentatie van Adobe Experience Manager Sites Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/home).
 
 Aanvullende bronnen:
 

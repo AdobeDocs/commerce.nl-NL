@@ -34,15 +34,15 @@ Beschouw catalogusweergaven als verschillende &#39;lenzen&#39; waardoor klanten 
 
 ## Een catalogusweergave maken
 
-In deze sectie, creeert u een catalogusmening, selecteert a [ beleid ](policies.md), en a [ prijsboek ](pricebooks.md).
+In deze sectie, creeert u een catalogusmening, selecteert a [&#x200B; beleid &#x200B;](policies.md), en a [&#x200B; prijsboek &#x200B;](pricebooks.md).
 
 Voordat u een catalogusweergave maakt, moet u controleren of:
 
-- [ Gemaakt beleid ](policies.md) om productfilters te bepalen.
+- [&#x200B; Gemaakt beleid &#x200B;](policies.md) om productfilters te bepalen.
 
-- [ bepaalde cataloguslagen ](catalog-layer.md) om varianten van uw producten te bepalen.
+- [&#x200B; bepaalde cataloguslagen &#x200B;](catalog-layer.md) om varianten van uw producten te bepalen.
 
-- [ Vervangen prijsboeken ](pricebooks.md) voor tarifering.
+- [&#x200B; Vervangen prijsboeken &#x200B;](pricebooks.md) voor tarifering.
 
 1. Van het linkermenu, ga naar _opstelling van de Opslag_, en klik **[!UICONTROL Catalog views]**.
 
@@ -53,7 +53,7 @@ Voordat u een catalogusweergave maakt, moet u controleren of:
    - **Naam** - ga de naam van de catalogusmening in, bijvoorbeeld `Celport`. &#x200B;
    - **de bronnen van de Catalogus** - selecteer de catalogusbron (scène), bijvoorbeeld `en-US`.
    - **lagen van de Catalogus** - herzie opgenomen lagen en prioriteit.
-   - **Beleid** - gebruik drop-down om het relevante beleid te selecteren. Bijvoorbeeld &#39;Merk&#39;, &#39;Model&#39;. &#x200B;Zorg ervoor u reeds [ een beleid ](policies.md) creeerde.
+   - **Beleid** - gebruik drop-down om het relevante beleid te selecteren. Bijvoorbeeld &#39;Merk&#39;, &#39;Model&#39;. &#x200B;Zorg ervoor u reeds [&#x200B; een beleid &#x200B;](policies.md) creeerde.
 
 1. Selecteer het prijzenboek om aan de catalogusmening te verbinden.
 
@@ -73,13 +73,13 @@ Met cataloguslagen kunt u productgegevens in een catalogusweergave wijzigen zond
 
 Veelvoorkomende gebruiksgevallen voor cataloguslagen zijn:
 
-- **optimalisering SEO** - de titels en beschrijvingen van productmeta&#39;s met voeten treden die op AI aanbevelingen van [ Sites Optimizer ](../manage-results/opportunities.md) worden gebaseerd
+- **optimalisering SEO** - de titels en beschrijvingen van productmeta&#39;s met voeten treden die op AI aanbevelingen van [&#x200B; Sites Optimizer &#x200B;](../manage-results/opportunities.md) worden gebaseerd
 - **seizoenscampagnes** - Werk tijdelijk productnamen, beschrijvingen, of beelden voor bevordering bij
 - **Regionale aanpassing** - toon verschillende productinformatie die op geografische plaats of taal wordt gebaseerd
 - **A/B het testen** - test verschillende productpresentaties om omzettingspercentages te optimaliseren
 - **beheer van meerdere merken** - pas productattributen voor verschillende meningen van de merkcatalogus aan
 
-Meer leren over het creëren van, het leiden van, en het voorrang geven aan cataloguslagen, zie [ de lagen van de Catalogus ](catalog-layer.md).
+Meer leren over het creëren van, het leiden van, en het voorrang geven aan cataloguslagen, zie [&#x200B; de lagen van de Catalogus &#x200B;](catalog-layer.md).
 
 ## Catalogusweergave beheren
 
@@ -103,9 +103,9 @@ Volg deze instructies om de eigenschappen van bestaande catalogusweergaven bij t
 
 Deze optie verstrekt een snelle manier om alle parameters van de catalogusmening te zien, terwijl het blijven op de *de meningen van de Catalogus* lijst.
 
-Op de *werkruimte van de meningen van de Catalogus*, vind de catalogusmening in het net dat u wilt uitgeven en het ![ informatiepictogram ](../assets/info-icon.png) klikken.
+Op de *werkruimte van de meningen van de Catalogus*, vind de catalogusmening in het net dat u wilt uitgeven en het ![&#x200B; informatiepictogram &#x200B;](../assets/info-icon.png) klikken.
 
-![ Details van de Mening van de Catalogus ](../assets/catalog-view-details.png)
+![&#x200B; Details van de Mening van de Catalogus &#x200B;](../assets/catalog-view-details.png)
 
 Van hier kunt u de configuratiedetails van de catalogusmening zien, zoals:
 
@@ -122,12 +122,12 @@ Sommige van deze configuratie-instellingen zijn nodig wanneer u de winkel instel
 
 Catalogusweergaven maken deel uit van het Merchandising Services-framework dat het in Adobe Commerce-stichtingen gebruikte kader voor websites, winkels en winkels vervangt door een flexibeler model:
 
-![[!DNL Merchandising Services] Architectuur ](../assets/merchandising-svcs-architecture.png)
+![[!DNL Merchandising Services] Architectuur &#x200B;](../assets/merchandising-svcs-architecture.png)
 
 ### Hoe werkt het
 
 **1. Gegevensinname**
-Catalogusgegevens van PIM, ERP en andere systemen worden opgenomen in het framework Merchandising Services. Elke SKU bevat locale informatie en productkenmerken die aan catalogusmeningen, beleid, en scènes in kaart brengen. Voor meer informatie over gegevensopname, zie de [ documentatie van de ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/).
+Catalogusgegevens van PIM, ERP en andere systemen worden opgenomen in het framework Merchandising Services. Elke SKU bevat locale informatie en productkenmerken die aan catalogusmeningen, beleid, en scènes in kaart brengen. Voor meer informatie over gegevensopname, zie de [&#x200B; documentatie van de ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/optimizer/).
 
 **2. Unified Base-catalogus**
 De ingesloten gegevens leiden tot een verenigde basiscatalogus in de de gegevenspijpleiding van de Dienst van de Catalogus. Met deze ene bron voorkomt u dubbele gegevens in verschillende bedrijfseenheden.
@@ -136,7 +136,7 @@ De ingesloten gegevens leiden tot een verenigde basiscatalogus in de de gegevens
 Meerdere catalogusweergaven vertegenwoordigen verschillende bedrijfseenheden (bijvoorbeeld &quot;Texas Retail&quot;, &quot;Texas Retail Seasonal&quot;). Landinstellingen, beleidsregels en prijzenboeken kunnen worden gedeeld door catalogusweergaven voor flexibiliteit.
 
 **4. Levering via meerdere kanalen**
-De gefilterde catalogusgegevens worden geleverd aan verschillende bestemmingen, waaronder Edge Delivery Services-winkels, -markten, -advertentieplatforms en aangepaste microwinkels. Voor meer informatie over de levering van catalogusgegevens, zie de [ ontwikkelaardocumentatie ](https://developer.adobe.com/commerce/services/optimizer/).
+De gefilterde catalogusgegevens worden geleverd aan verschillende bestemmingen, waaronder Edge Delivery Services-winkels, -markten, -advertentieplatforms en aangepaste microwinkels. Voor meer informatie over de levering van catalogusgegevens, zie de [&#x200B; ontwikkelaardocumentatie &#x200B;](https://developer.adobe.com/commerce/services/optimizer/).
 
 ### Belangrijkste componenten
 
@@ -182,10 +182,10 @@ De gefilterde catalogusgegevens worden geleverd aan verschillende bestemmingen, 
 
 >[!INFO]
 >
->Voor gedetailleerde informatie over de opname en levering van catalogusgegevens, zie de [ documentatie van de ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/).
+>Voor gedetailleerde informatie over de opname en levering van catalogusgegevens, zie de [&#x200B; documentatie van de ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/optimizer/).
 
 ## Meer als dit
 
-- [ de lagen van de Catalogus ](catalog-layer.md) - Leer hoe te om productgegevens te wijzigen zonder de originele bron te veranderen
-- [ Beleid ](policies.md) - creeer beleid om producten in catalogusmeningen te filtreren
-- [ de boeken van de Prijs ](pricebooks.md) - beheer prijsstructuren voor verschillende klantensegmenten
+- [&#x200B; de lagen van de Catalogus &#x200B;](catalog-layer.md) - Leer hoe te om productgegevens te wijzigen zonder de originele bron te veranderen
+- [&#x200B; Beleid &#x200B;](policies.md) - creeer beleid om producten in catalogusmeningen te filtreren
+- [&#x200B; de boeken van de Prijs &#x200B;](pricebooks.md) - beheer prijsstructuren voor verschillende klantensegmenten

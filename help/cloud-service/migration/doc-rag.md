@@ -1,7 +1,7 @@
 ---
 title: Documentatie-RAG-service
 description: Leer hoe u de zoekservice voor documentatie van AI kunt gebruiken voor Adobe Commerce-ontwikkeling.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 hide: true
 hidefromtoc: true
@@ -30,9 +30,9 @@ De volgende lijst beschrijft welke documentatie momenteel door de dienst van RAG
 
 | Categorie | Index | Inhoud inbegrepen | Trefwoorden |
 |-------|---------|---------|------------------------|
-| [&#x200B; Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/) | commerce-storefront-doc | Edge Delivery Services, drop-ins, storefront componenten | winkel, drop-in, EDS, productaanbieding, kassa |
+| [&#x200B; Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) | commerce-storefront-doc | Edge Delivery Services, drop-ins, storefront componenten | winkel, drop-in, EDS, productaanbieding, kassa |
 | [&#x200B; Uitbreidbaarheid &#x200B;](https://developer.adobe.com/commerce/extensibility/) | handel-rekbaarheid-documenten | Webhaken, gebeurtenissen, extensies, integratie | webhaak, gebeurtenis, extensie, API-net, GraphQL |
-| [&#x200B; Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) | commerce-core-docs | Core Commerce (catalogus, klanten, bestellingen) | catalogus, product, klant, bestelling, voorraad |
+| [&#x200B; Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/overview) | commerce-core-docs | Core Commerce (catalogus, klanten, bestellingen) | catalogus, product, klant, bestelling, voorraad |
 | [&#x200B; App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | app-builder-docs | App Builder, handelingen bij uitvoering, UI-extensies | app builder, runtime actie, React Spectrum |
 
 Voor meer informatie over indexselectie, verwijs naar [&#x200B; Automatische indexselectie &#x200B;](#automatic-index-selection-recommended) en [&#x200B; Expliciete indexselectie &#x200B;](#explicit-index-selection).

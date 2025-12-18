@@ -14,4 +14,4 @@ ht-degree: 0%
 
 Bij de integratie met AEM Assets worden productafbeeldingen weergegeven die in AEM Assets worden beheerd in plaats van traditionele door Commerce gehoste afbeeldingen. De integratie biedt verbeterde mogelijkheden voor imagebeheer: geavanceerde optimalisatie, bijsnijden en levering via CDN (Content Delivery Network) van Adobe.
 
-Om AEM Assets met Commerce Storefront te gebruiken die door Edge Delivery Services wordt aangedreven, voltooi de storefront configuratie in het [&#x200B; wordt beschreven van de Configuratie van EDS AEM Assets &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/) onderwerp dat.
+Om AEM Assets met Commerce Storefront te gebruiken die door Edge Delivery Services wordt aangedreven, voltooi de storefront configuratie in het [&#x200B; wordt beschreven van de Configuratie van EDS AEM Assets &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/?lang=nl-NL) onderwerp dat.

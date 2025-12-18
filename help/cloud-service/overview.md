@@ -4,8 +4,8 @@ description: Leer over de belangrijkste eigenschappen en de voordelen van  [!DNL
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
 exl-id: 1b7e2731-4a10-4c2b-9bfc-8945729ed523
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: d46526db56dad08a8f865664c92d1214bbf063d8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 0%
@@ -58,30 +58,30 @@ In de volgende tabel worden de producten gemarkeerd die van kracht zijn [!DNL Ad
 
 Bekijk de volgende video voor een korte inleiding op de [!DNL Adobe Commerce as a Cloud Service] -architectuur. Diagrammen die de architectuur illustreren worden verstrekt onder de video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443273?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443232?learn=on)
 
 Dit diagram illustreert de gegevensstroom tussen [!DNL Adobe Commerce as a Cloud Service] en alle oplossingen van Adobe Experience Cloud.
 
-![[!DNL Adobe Commerce as a Cloud Service] architectuurdiagram &#x200B;](./assets/data-flow.svg){zoomable="yes"}
+![[!DNL Adobe Commerce as a Cloud Service] architectuurdiagram ](./assets/data-flow.svg){zoomable="yes"}
 
 ## Commerce Storefront
 
-Het gebruik Adobe [&#x200B; Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront?lang=nl-NL) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
+Het gebruik Adobe [ Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront) aangedreven door Edge Delivery Services om rijke ervaringen in notulen met eenvoudige document-gebaseerde creatie of visuele het uitgeven met de Bouwer van de Storefront tot stand te brengen.
 
 Commerce Storefront heeft een volledig ontkoppelde architectuur die alle Merchandising Services en gegevens biedt via een GraphQL API-laag. Deze architectuur staat teams toe om hun frontends onafhankelijk van de Stichting van Commerce te ontwikkelen, die de behendigheid verstrekt om nieuwe aanraakpunten met nieuwe technologieën te bouwen en te testen.
 
 >[!NOTE]
 >
->[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [&#x200B; bestaande storefronts &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/?lang=nl-NL#existing-storefronts) voor begeleiding bij het overgaan.
+>[!DNL Adobe Commerce as a Cloud Service] biedt geen ondersteuning voor Luma-storefronts. Als u van Adobe Commerce op Wolk of op-gebouw migreert, zie [ bestaande storefronts ](https://experienceleague.adobe.com/developer/commerce/storefront/discovery/#existing-storefronts) voor begeleiding bij het overgaan.
 
 ## Handelsbemiddeling en betalingsdiensten
 
 Adobe biedt een uitgebreide reeks intelligente, composable merchandising-services waarmee u uw belangrijkste bedrijfsdoelen kunt ondersteunen. Deze services bieden ook API&#39;s die essentieel zijn voor het optimaliseren van prestaties op schaal.
 
-- [&#x200B; Levend Onderzoek &#x200B;](../live-search/overview.md) - lever slimmere, snellere en relevante resultaten voor kopers met dit AI-Gerichte onderzoekshulpmiddel.
-- [&#x200B; Aanbevelingen van het Product &#x200B;](../optimizer/merchandising/recommendations/overview.md) - voeg op AI-Gebaseerde aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
-- [&#x200B; de Dienst van de Catalogus &#x200B;](../catalog-service/guide-overview.md) - geef uw klanten een geoptimaliseerde productervaring terwijl het opvoeren van prestaties, verbeterend scalability, en verhogend omzettingen.
-- [&#x200B; - De klantentevredenheid van de 1&rbrace; Aandrijving van de Betaling van de Diensten van de 1&rbrace; - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.](../payment-services/guide-overview.md)
+- [ Levend Onderzoek ](../live-search/overview.md) - lever slimmere, snellere en relevante resultaten voor kopers met dit AI-Gerichte onderzoekshulpmiddel.
+- [ Aanbevelingen van het Product ](../optimizer/merchandising/recommendations/overview.md) - voeg op AI-Gebaseerde aanbevelingen toe die op verkoopgedrag, populaire tendensen, productgelijkenis, en meer worden gebaseerd.
+- [ de Dienst van de Catalogus ](../catalog-service/guide-overview.md) - geef uw klanten een geoptimaliseerde productervaring terwijl het opvoeren van prestaties, verbeterend scalability, en verhogend omzettingen.
+- [ - De klantentevredenheid van de 1} Aandrijving van de Betaling van de Diensten van de 1} - aandrijving door diverse betalingsmethodes, met inbegrip van rentevrije betalingstermijnen aan te bieden, en één enkele mening in betalingsverwerking, orden, en facturen.](../payment-services/guide-overview.md)
 
 ## Productvisa van AEM Assets
 
@@ -92,6 +92,8 @@ De integratie zorgt ervoor dat digitale elementen, zoals productafbeeldingen of 
 Met [!DNL Adobe Commerce as a Cloud Service] zijn productweergaven offline beschikbaar, zodat u over enkele mogelijkheden van AEM Assets beschikt.
 
 De native functies in [!DNL Adobe Commerce as a Cloud Service] bieden ook elementaire hulpmiddelen voor middelenbeheer voor het opslaan en beheren van digitale elementen.
+
+Controleer de [ integratie van AEM Assets ](../aem-assets-integration/overview.md) gids om meer over te leren hoe te om de Visuals van het Product te integreren die door AEM Assets met [!DNL Adobe Commerce as a Cloud Service] worden aangedreven.
 
 ### Productvisa of AEM Assets
 
@@ -142,8 +144,6 @@ Met de volgende vergelijking kunt u de beste optie selecteren voor uw inhoud die
   </tr>
 </table>
 
-Zie de [&#x200B; integratie van AEM Assets &#x200B;](../aem-assets-integration/overview.md) gids om meer over te leren hoe te om de Visuals van het Product te integreren die door AEM Assets met [!DNL Adobe Commerce as a Cloud Service] worden aangedreven.
-
 ## Developer Platform
 
 Adobe biedt ontwikkelaars uitgebreide uitbreidingspunten en tools voor het maken van toepassingen die Commerce Foundation-mogelijkheden uitbreiden en integreren met systemen van derden (zoals CRM&#39;s, ERPS en PIMS). Met deze gereedschappen worden de totale eigendomskosten van het platform als volgt verminderd:
@@ -154,16 +154,16 @@ Adobe biedt ontwikkelaars uitgebreide uitbreidingspunten en tools voor het maken
 
 >[!TIP]
 >
->De leverancier-gebouwde apps zijn ook beschikbaar voor installatie op [&#x200B; Adobe Exchange &#x200B;](https://exchange.adobe.com/).
+>De leverancier-gebouwde apps zijn ook beschikbaar voor installatie op [ Adobe Exchange ](https://exchange.adobe.com/).
 
 Adobe biedt de volgende ontwikkelaarsgereedschappen voor het maken van integratie- en aanpassingsprocessen:
 
-- [**API Net voor Adobe Developer App Builder** &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/) - coördineer en combineer veelvoudige API, GraphQL, REST, en andere bronnen in één enkel, queryable eindpunt van GraphQL.
-- [**App Builder** &#x200B;](https://developer.adobe.com/app-builder/docs/overview/) - bouw en stel veilige en scalable Webtoepassingen op die de functionaliteit van Commerce uitbreiden en met derdeoplossingen integreren.
-- [**Gebeurtenissen** &#x200B;](https://developer.adobe.com/commerce/extensibility/events/) - de trekkers van de douanegebeurtenis van het Gebruik om met andere verlengbare ontwikkelingshulpmiddelen in wisselwerking te staan.
-- [**Webhooks** &#x200B;](https://developer.adobe.com/commerce/extensibility/webhooks/) - Gebruik webhooks om interactie tussen Commerce en derdesystemen automatisch teweeg te brengen.
-- [**Admin UI SDK** &#x200B;](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) - pas en verbeter Commerce Admin met nieuwe pagina&#39;s en eigenschappen voor uw handelaren aan.
-- [**Uitrusting van de Aanzet van de Integratie** &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) - versnelt uw achterbureauintegratie met verwijzingsintegratie, op het instappen van manuscripten, en een gestandaardiseerde architectuur.
+- [**API Net voor Adobe Developer App Builder** ](https://developer.adobe.com/graphql-mesh-gateway/) - coördineer en combineer veelvoudige API, GraphQL, REST, en andere bronnen in één enkel, queryable eindpunt van GraphQL.
+- [**App Builder** ](https://developer.adobe.com/app-builder/docs/overview/) - bouw en stel veilige en scalable Webtoepassingen op die de functionaliteit van Commerce uitbreiden en met derdeoplossingen integreren.
+- [**Gebeurtenissen** ](https://developer.adobe.com/commerce/extensibility/events/) - de trekkers van de douanegebeurtenis van het Gebruik om met andere verlengbare ontwikkelingshulpmiddelen in wisselwerking te staan.
+- [**Webhooks** ](https://developer.adobe.com/commerce/extensibility/webhooks/) - Gebruik webhooks om interactie tussen Commerce en derdesystemen automatisch teweeg te brengen.
+- [**Admin UI SDK** ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/) - pas en verbeter Commerce Admin met nieuwe pagina&#39;s en eigenschappen voor uw handelaren aan.
+- [**Uitrusting van de Aanzet van de Integratie** ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) - versnelt uw achterbureauintegratie met verwijzingsintegratie, op het instappen van manuscripten, en een gestandaardiseerde architectuur.
 
 ## Commerce Foundation
 
@@ -179,7 +179,7 @@ Belangrijkste kenmerken zijn:
 
 Start sandbox- en productieinstanties binnen enkele minuten met de zelfbedieningsportal van [!UICONTROL Commerce Cloud Manager] . Alles wat u nodig hebt, inclusief Merchandising Services, een Commerce-instantie zonder kop en App Builder, wordt automatisch geconfigureerd en geïntegreerd met uw instanties.
 
-Zie [&#x200B; Begonnen worden &#x200B;](getting-started.md) om te leren hoe te om de instanties van Commerce tot stand te brengen en te beheren.
+Zie [ Begonnen worden ](getting-started.md) om te leren hoe te om de instanties van Commerce tot stand te brengen en te beheren.
 
 ### Naadloze upgrades
 
@@ -189,15 +189,15 @@ Bij het gebruikelijke upgradeproces voor Adobe Commerce op Cloud ging het om het
 
 >[!NOTE]
 >
->Adobe garandeert achterwaartse compatibiliteit voor alle updates. Dit betekent dat wanneer de updates worden toegepast, zij bestaande functionaliteit of aanpassingen niet zullen breken die aan het [&#x200B; API-eerste rekbaarheids &#x200B;](https://developer.adobe.com/commerce/extensibility/) model houden.
+>Adobe garandeert achterwaartse compatibiliteit voor alle updates. Dit betekent dat wanneer de updates worden toegepast, zij bestaande functionaliteit of aanpassingen niet zullen breken die aan het [ API-eerste rekbaarheids ](https://developer.adobe.com/commerce/extensibility/) model houden.
 
 ### Integraties van derden
 
-De ontwikkelaars kunnen uitvoerige [&#x200B; GraphQL &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/) en [&#x200B; REST APIs &#x200B;](https://developer.adobe.com/commerce/webapi/rest/) gebruiken om de Stichting van Commerce met derdesystemen te integreren en de mogelijkheden van Commerce uit te breiden.
+De ontwikkelaars kunnen uitvoerige [ GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/) en [ REST APIs ](https://developer.adobe.com/commerce/webapi/rest/) gebruiken om de Stichting van Commerce met derdesystemen te integreren en de mogelijkheden van Commerce uit te breiden.
 
 <!-- ## Experience Cloud integration
 
-[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
+[!DNL Adobe Commerce as a Cloud Service] integrates with all Experience Cloud solutions to deliver [personalized commerce experiences at scale](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customers-menu/personalize-scale#customers-menu).
 
 [Data Connection](../data-connection/overview.md) unlocks insights about your shoppers' buying behavior so that you can create personalized shopping experiences across all channels with other Adobe Digital Experience products. -->
 

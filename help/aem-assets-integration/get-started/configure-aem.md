@@ -44,23 +44,23 @@ Met deze pakketcode worden de volgende bronnen toegevoegd aan de AEM Assets-ontw
 
 U hebt de volgende bronnen en machtigingen nodig om de pakketcode `assets-commerce` te implementeren in de AEM Assets as a Cloud Service AEM-omgeving:
 
-* [&#x200B; Toegang tot het Programma van AEM Assets Cloud Manager en milieu&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) met de rollen van de Manager van het Programma en van de Plaatsing.
+* [&#x200B; Toegang tot het Programma van AEM Assets Cloud Manager en milieu&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) met de rollen van de Manager van het Programma en van de Plaatsing.
 
-* A [&#x200B; lokale de ontwikkelomgeving van AEM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) en vertrouwdheid met het lokale ontwikkelingsproces van AEM.
+* A [&#x200B; lokale de ontwikkelomgeving van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) en vertrouwdheid met het lokale ontwikkelingsproces van AEM.
 
-* Begrijp [&#x200B; het projectstructuur van AEM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) en hoe te om de pakketten van de douaneinhoud op te stellen gebruikend Cloud Manager.
+* Begrijp [&#x200B; het projectstructuur van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) en hoe te om de pakketten van de douaneinhoud op te stellen gebruikend Cloud Manager.
 
 ### Stap 1: Installeer het pakket `assets-commerce`
 
-1. Van AEM Cloud Manager, [&#x200B; creeer productie en het opvoeren milieu&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/create-environments#creating-environments) voor uw project van AEM Assets, indien nodig.
+1. Van AEM Cloud Manager, [&#x200B; creeer productie en het opvoeren milieu&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/journey/create-environments#creating-environments) voor uw project van AEM Assets, indien nodig.
 
-1. Vorm a [&#x200B; plaatsingspijpleiding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/pipeline-setup#create-front-end-pipeline), indien nodig.
+1. Vorm a [&#x200B; plaatsingspijpleiding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/pipeline-setup#create-front-end-pipeline), indien nodig.
 
-1. [&#x200B; kloon de bewaarplaats van de it &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/retrieve-access#repo-access).
+1. [&#x200B; kloon de bewaarplaats van de it &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/retrieve-access#repo-access).
 
 1. Van GitHub, download de pakketcode van de [&#x200B; plaats van Commerce van AEM Assets &#x200B;](https://github.com/ankumalh/assets-commerce).
 
-1. Van uw [&#x200B; lokale ontwikkelomgeving van AEM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) door de code in de bestaande projectconfiguratie manueel te kopiëren en alle voorkomen van `<my-app>` in `filter.xml` te vervangen, en al `pom.xml files` binnen het project met uw toepassingsnaam.
+1. Van uw [&#x200B; lokale ontwikkelomgeving van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) door de code in de bestaande projectconfiguratie manueel te kopiëren en alle voorkomen van `<my-app>` in `filter.xml` te vervangen, en al `pom.xml files` binnen het project met uw toepassingsnaam.
 
    >[!NOTE]
    >
@@ -154,4 +154,4 @@ De UI-component Productgegevens wordt automatisch toegevoegd op basis van de sja
 
 * [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [&#x200B; installeer de pakketten van Adobe Commerce &#x200B;](configure-commerce.md)
 
-* **vorm uw die Storefront van Commerce** - AEM Assets met Commerce Storefront te gebruiken door Edge Delivery Services wordt aangedreven, voltooi de storefront configuratie in het [&#x200B; wordt beschreven EDS AEM Assets configuratie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/) onderwerp dat.
+* **vorm uw die Storefront van Commerce** - AEM Assets met Commerce Storefront te gebruiken door Edge Delivery Services wordt aangedreven, voltooi de storefront configuratie in het [&#x200B; wordt beschreven EDS AEM Assets configuratie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/?lang=nl-NL) onderwerp dat.

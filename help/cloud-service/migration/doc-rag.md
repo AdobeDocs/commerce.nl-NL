@@ -22,7 +22,7 @@ De documentatie-RAG-service (Retrieval-Augmented Generation) biedt semantische z
 
 Deze RAG verstrekt een interface van winde voor het stellen van vragen over Adobe Commerce en kan u adviseren over beste praktijken voor het ontwikkelen van toepassingen en andere migratietaken.
 
-De dienst van RAG maakt deel uit van de [ de rekbaarheidshulpmiddelen van Commerce ](./coding-tools.md) MCP (ModelProtocol van de Context) server, die met Cursor en andere MCP-compatibele AI medewerkers integreert.
+De dienst van RAG maakt deel uit van de [&#x200B; de rekbaarheidshulpmiddelen van Commerce &#x200B;](./coding-tools.md) MCP (ModelProtocol van de Context) server, die met Cursor en andere MCP-compatibele AI medewerkers integreert.
 
 ## Beschikbare documentatie
 
@@ -30,14 +30,14 @@ De volgende lijst beschrijft welke documentatie momenteel door de dienst van RAG
 
 | Categorie | Index | Inhoud inbegrepen | Trefwoorden |
 |-------|---------|---------|------------------------|
-| [ Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/) | commerce-storefront-doc | Edge Delivery Services, drop-ins, storefront componenten | winkel, drop-in, EDS, productaanbieding, kassa |
-| [ Uitbreidbaarheid ](https://developer.adobe.com/commerce/extensibility/) | handel-rekbaarheid-documenten | Webhaken, gebeurtenissen, extensies, integratie | webhaak, gebeurtenis, extensie, API-net, GraphQL |
-| [ Commerce ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) | commerce-core-docs | Core Commerce (catalogus, klanten, bestellingen) | catalogus, product, klant, bestelling, voorraad |
-| [ App Builder ](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | app-builder-docs | App Builder, handelingen bij uitvoering, UI-extensies | app builder, runtime actie, React Spectrum |
+| [&#x200B; Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/) | commerce-storefront-doc | Edge Delivery Services, drop-ins, storefront componenten | winkel, drop-in, EDS, productaanbieding, kassa |
+| [&#x200B; Uitbreidbaarheid &#x200B;](https://developer.adobe.com/commerce/extensibility/) | handel-rekbaarheid-documenten | Webhaken, gebeurtenissen, extensies, integratie | webhaak, gebeurtenis, extensie, API-net, GraphQL |
+| [&#x200B; Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview) | commerce-core-docs | Core Commerce (catalogus, klanten, bestellingen) | catalogus, product, klant, bestelling, voorraad |
+| [&#x200B; App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | app-builder-docs | App Builder, handelingen bij uitvoering, UI-extensies | app builder, runtime actie, React Spectrum |
 
-Voor meer informatie over indexselectie, verwijs naar [ Automatische indexselectie ](#automatic-index-selection-recommended) en [ Expliciete indexselectie ](#explicit-index-selection).
+Voor meer informatie over indexselectie, verwijs naar [&#x200B; Automatische indexselectie &#x200B;](#automatic-index-selection-recommended) en [&#x200B; Expliciete indexselectie &#x200B;](#explicit-index-selection).
 
-Voor gedetailleerde informatie over de documentatie inbegrepen in elke index, verwijs naar [ ingebedde bronlijst ](https://github.com/adobe-commerce/azure-commerce-documentation-agent/blob/develop/docs/INGESTED_SOURCES.md).
+Voor gedetailleerde informatie over de documentatie inbegrepen in elke index, verwijs naar [&#x200B; ingebedde bronlijst &#x200B;](https://github.com/adobe-commerce/azure-commerce-documentation-agent/blob/develop/docs/INGESTED_SOURCES.md).
 
 ## Veiligheid en privacy
 
@@ -46,21 +46,21 @@ Voor gedetailleerde informatie over de documentatie inbegrepen in elke index, ve
 * **Lokale uitvoering** - alle hulpmiddelen lopen plaatselijk op uw machine.
 * **Veilige mededeling** - het onderzoek van de Documentatie gebruikt HTTPS met symbolische bevestiging.
 
-Het productieeindpunt wordt beschermd door [ Azure Voorste Door ](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview), die de volgende bescherming omvat:
+Het productieeindpunt wordt beschermd door [&#x200B; Azure Voorste Door &#x200B;](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview), die de volgende bescherming omvat:
 
 * Web Application Firewall (WAF) met Microsoft Default RuleSet 2.1 en Bot Manager RuleSet 1.0
 * Geoblokkering voor door de VS verboden gebieden (Cuba, Iran, Noord-Korea, Syrië, Krim, Luhansk, Donetsk)
 * DoS-beveiliging aan de rand
 * API-beheerbackend vergrendeld om alleen verkeer van de voordeur te accepteren
 
-Voor verschillende veiligheidseisen, kunt u een douaneeindpunt gebruiken. Zie [ Eigen Voorste eindpunt van de Deur van de Douane ](#custom-front-door-endpoint) voor meer informatie.
+Voor verschillende veiligheidseisen, kunt u een douaneeindpunt gebruiken. Zie [&#x200B; Eigen Voorste eindpunt van de Deur van de Douane &#x200B;](#custom-front-door-endpoint) voor meer informatie.
 
 ## Vereisten
 
 Controleer voordat u gaat installeren of:
 
-* [ Node.js ](https://nodejs.org/en/download){target="_blank"} 18+ (Aanbevolen LTS)
-* [ winde van de Curseur ](https://cursor.com/download){target="_blank"} (geadviseerd) of een andere MCP-compatibele winde
+* [&#x200B; Node.js &#x200B;](https://nodejs.org/en/download){target="_blank"} 18+ (Aanbevolen LTS)
+* [&#x200B; winde van de Curseur &#x200B;](https://cursor.com/download){target="_blank"} (geadviseerd) of een andere MCP-compatibele winde
 
   >[!NOTE]
   >
@@ -68,7 +68,7 @@ Controleer voordat u gaat installeren of:
 
 ## Installatie
 
-1. Installeer [ CLI van Adobe I/O ](https://developer.adobe.com/runtime/docs/guides/tools/cli_install/) globaal:
+1. Installeer [&#x200B; CLI van Adobe I/O &#x200B;](https://developer.adobe.com/runtime/docs/guides/tools/cli_install/) globaal:
 
    ```bash
    npm install -g @adobe/aio-cli
@@ -115,7 +115,7 @@ Controleer voordat u gaat installeren of:
 
    >[!NOTE]
    >
-   >Op Vensters, als u kwesties met het verstrekken van de weg aan uw projectfolder ontmoet, verwijs naar [ de kwesties van de Weg oplossen van problemen ](#path-issues-windows).
+   >Op Vensters, als u kwesties met het verstrekken van de weg aan uw projectfolder ontmoet, verwijs naar [&#x200B; de kwesties van de Weg oplossen van problemen &#x200B;](#path-issues-windows).
 
 1. Start de IDE van de cursor opnieuw om de MCP-server te laden.
 
@@ -127,7 +127,7 @@ Controleer voordat u gaat installeren of:
 
 ## Gebruik
 
-Zodra geïnstalleerd, kunt u de indexen [ automatisch roepen ](#automatic-index-selection-recommended) of [ uitdrukkelijk ](#explicit-index-selection). U kunt ook [`/search-commerce-docs` bevel ](#command-based-search) gebruiken.
+Zodra geïnstalleerd, kunt u de indexen [&#x200B; automatisch roepen &#x200B;](#automatic-index-selection-recommended) of [&#x200B; uitdrukkelijk &#x200B;](#explicit-index-selection). U kunt ook [`/search-commerce-docs` bevel &#x200B;](#command-based-search) gebruiken.
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Als u er zeker van wilt zijn dat de RAG-service wordt gebruikt, kunt u de opdrac
 
 ## Aangepast eindpunt voorzijde
 
-Door gebrek, gebruikt het documentonderzoek het productie [ Azure Front Door ](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview) eindpunt met de bescherming van WAF. Voor test- of ontwikkelingsdoeleinden kunt u dit overschrijven met de omgevingsvariabele `FRONT_DOOR_URL` .
+Door gebrek, gebruikt het documentonderzoek het productie [&#x200B; Azure Front Door &#x200B;](https://learn.microsoft.com/en-us/azure/frontdoor/front-door-overview) eindpunt met de bescherming van WAF. Voor test- of ontwikkelingsdoeleinden kunt u dit overschrijven met de omgevingsvariabele `FRONT_DOOR_URL` .
 
 Om een douaneeindpunt te gebruiken, voeg het aan uw Configuratie van de Curseur MCP toe:
 
@@ -293,7 +293,7 @@ In Windows gebruikt u slashes `/` of backslashes met escape-teken `\\` :
 
 ## Aanvullende bronnen
 
-* [ de ontwikkelaarsdocumentatie van Adobe Commerce ](https://developer.adobe.com/commerce/docs/){target="_blank"}
-* [ documentatie van App Builder ](https://developer.adobe.com/app-builder/docs/){target="_blank"}
-* [ ModelContext Protocol ](https://modelcontextprotocol.io/){target="_blank"}
-* [ IDE van de Curseur ](https://cursor.sh/docs){target="_blank"}
+* [&#x200B; de ontwikkelaarsdocumentatie van Adobe Commerce &#x200B;](https://developer.adobe.com/commerce/docs/){target="_blank"}
+* [&#x200B; documentatie van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/){target="_blank"}
+* [&#x200B; ModelContext Protocol &#x200B;](https://modelcontextprotocol.io/){target="_blank"}
+* [&#x200B; IDE van de Curseur &#x200B;](https://cursor.sh/docs){target="_blank"}

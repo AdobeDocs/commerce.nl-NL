@@ -28,4 +28,4 @@ Om de integratie in Commerce storefronts toe te laten die door Edge Delivery Ser
 
 De Commerce-drop-ins detecteren automatisch de `commerce-assets-enabled` -configuratie en passen de afbeeldingsverwerking aan.
 
-Voor meer informatie over hoe te om AEM Assets met Commerce te gebruiken Storefront die door Edge Delivery Services wordt aangedreven, voltooi de storefrontconfiguratie in het [&#x200B; wordt beschreven integratie van AEM Assets &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/) onderwerp in de *Adobe Commerce Storefront* documentatie die.
+Voor meer informatie over hoe te om AEM Assets met Commerce te gebruiken Storefront die door Edge Delivery Services wordt aangedreven, voltooi de storefrontconfiguratie in het [&#x200B; wordt beschreven integratie van AEM Assets &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-assets-configuration/?lang=nl-NL) onderwerp in de *Adobe Commerce Storefront* documentatie die.

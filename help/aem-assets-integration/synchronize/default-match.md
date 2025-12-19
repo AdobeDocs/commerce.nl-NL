@@ -20,7 +20,7 @@ De integratie van AEM Assets voor Commerce verstrekt een standaard automatisch p
 
 1. Geef **[!UICONTROL Match by SKU]** op als overeenkomende regel.
 
-   ![ standaard geautomatiseerde aanpassingsregel ](../assets/ootb-matching-rule.png){width="600" zoomable="yes"}
+   ![&#x200B; standaard geautomatiseerde aanpassingsregel &#x200B;](../assets/ootb-matching-rule.png){width="600" zoomable="yes"}
 
 1. Voer in de AEM Assets de veldnaam voor metagegevens in die wordt gebruikt voor de identificatie van elementen.
 
@@ -34,7 +34,7 @@ Als de **[!UICONTROL Match by product SKU]** -regel voor overeenkomende bestande
 
 1. Werk in AEM Assets de metagegevens van de afbeelding bij om de Adobe Commerce-koppeling toe te voegen door het veld `Eligible for Commerce` in te stellen op `Yes` .
 
-   ![ meta-gegevens van het Voorbeeld ](../assets/metadata-commerce-yes.png){width="600" zoomable="yes"}
+   ![&#x200B; meta-gegevens van het Voorbeeld &#x200B;](../assets/metadata-commerce-yes.png){width="600" zoomable="yes"}
 
 1. Configureer de metagegevens ([!UICONTROL SKU], [!UICONTROL position] en [!UICONTROL role] ) die het element koppelen aan de gekoppelde product-SKU.
 
@@ -42,8 +42,8 @@ Als de **[!UICONTROL Match by product SKU]** -regel voor overeenkomende bestande
    >
    > Als een element voor veelvoudige producten wordt gebruikt, vorm de meta-gegevens voor elke bijbehorende SKU.
 
-1. Stel op het tabblad `Basic` de standaardwaarde voor het _[!UICONTROL Review Status]_veld in op `approved` .
+1. Stel op het tabblad `Basic` de standaardwaarde voor het _[!UICONTROL Review Status]_&#x200B;veld in op `approved` .
 
-   ![ meta-gegevens van het Voorbeeld ](../assets/metadata-review-status.png){width="600" zoomable="yes"}
+   ![&#x200B; meta-gegevens van het Voorbeeld &#x200B;](../assets/metadata-review-status.png){width="600" zoomable="yes"}
 
 Deze aanpak zorgt ervoor dat digitale elementen op de juiste wijze worden gekoppeld en weergegeven in Adobe Commerce. Het biedt handelaren en marketers ook de mogelijkheid om rollen en positionering van bedrijfsmiddelen rechtstreeks binnen AEM Assets te beheren, en biedt een consistent en gecentraliseerd mechanisme voor het selecteren van images en het bestellen van images over alle betrokkenheidskanalen.

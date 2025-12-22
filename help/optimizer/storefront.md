@@ -21,18 +21,18 @@ Deze handleiding begeleidt u bij het instellen van een winkel voor uw [!DNL Adob
 
 * **GitHub rekening** die bewaarplaatsen kan tot stand brengen en voor lokale ontwikkeling (github.com) gevormd is
 * **[!DNL Adobe Commerce Optimizer]-instantie** met voorbeeldgegevens en geconfigureerde catalogusweergaven en beleidsregels
-   * Zie [ steekproefgegevens ](get-started.md#add-sample-data) voor opstellingsinstructies toevoegen.
+   * Zie [&#x200B; steekproefgegevens &#x200B;](get-started.md#add-sample-data) voor opstellingsinstructies toevoegen.
 
 ### Vereiste instance-gegevens
 
 Verzamel voordat u begint de volgende informatie van uw [!DNL Adobe Commerce Optimizer] -instantie:
 
 * **Identiteitskaart van de Aannemer** (ook genoemd instantiidentiteitskaart)
-   * Beschikbaar bij de [ pagina van instantiedetails ](get-started.md#manage-instances)
+   * Beschikbaar bij de [&#x200B; pagina van instantiedetails &#x200B;](get-started.md#manage-instances)
 * **eindpunt van GraphQL** voor uw instantie
-   * Beschikbaar bij de [ pagina van instantiedetails ](get-started.md#manage-instances)
+   * Beschikbaar bij de [&#x200B; pagina van instantiedetails &#x200B;](get-started.md#manage-instances)
 * **identiteitskaart van de mening van de Catalogus** voor de globale catalogusmening
-   * Beschikbaar bij de [ pagina van catalogusdetails ](./setup/catalog-view.md#manage-catalog-view)
+   * Beschikbaar bij de [&#x200B; pagina van catalogusdetails &#x200B;](./setup/catalog-view.md#manage-catalog-view)
 * **Source scène** voor uw catalogusmening
    * Standaard voor voorbeeldgegevens is `en-US`
 
@@ -42,7 +42,7 @@ Verzamel voordat u begint de volgende informatie van uw [!DNL Adobe Commerce Opt
 
 ## Stappen instellen
 
-1. **[creeer uw storefront project](#create-your-storefront-project)** - gebruik het [ hulpmiddel van de Maker van de Plaats ](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator) om een nieuw storefront project met boilerplate code, steekproefinhoud, en een configuratiedossier tot stand te brengen.
+1. **[creeer uw storefront project](#create-your-storefront-project)** - gebruik het [&#x200B; hulpmiddel van de Maker van de Plaats &#x200B;](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator) om een nieuw storefront project met boilerplate code, steekproefinhoud, en een configuratiedossier tot stand te brengen.
 
 1. **[pas de storefrontconfiguratie](#customize-the-storefront-configuration)** aan - werk het `config.json` dossier in uw bewaarplaats bij om met uw [!DNL Adobe Commerce Optimizer] instantie te verbinden.
 
@@ -61,7 +61,7 @@ Met het gereedschap Sitemaker maakt u een volledig storefront-project met de vol
 
 ### Stap 1: Genereer uw project
 
-1. Open het [ hulpmiddel van de Maker van de Plaats ](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)
+1. Open het [&#x200B; hulpmiddel van de Maker van de Plaats &#x200B;](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator)
 
    ![[!DNL Site Creator tool]](./assets/storefront-setup-site-creator.png){width="700" zoomable="yes"}
 
@@ -111,7 +111,7 @@ Werk uw storefront configuratie bij om met uw [!DNL Adobe Commerce Optimizer] in
 
 1. Zoek de sectie `cs` (Catalog Service) in de configuratie.
 
-1. Vervang de waarden van de plaatsaanduiding door de waarden voor de instantie. Zie [ Eerste vereisten ](#prerequisites).
+1. Vervang de waarden van de plaatsaanduiding door de waarden voor de instantie. Zie [&#x200B; Eerste vereisten &#x200B;](#prerequisites).
 
    ```json
    "cs": {
@@ -123,7 +123,7 @@ Werk uw storefront configuratie bij om met uw [!DNL Adobe Commerce Optimizer] in
 
    >[!NOTE]
    >
-   >Om prijzenboekidentiteitskaart te vinden, controleer de [ details van de catalogusmening ](./setup/catalog-view.md) in Adobe Commerce Optimizer om de toegewezen prijzenboeken te zien. Als geen prijzenboeken worden toegewezen, kunt u deze kopbal uit het configuratiedossier verwijderen. Voeg het terug wanneer een prijsboek aan de catalogusmening is toegewezen.
+   >Om prijzenboekidentiteitskaart te vinden, controleer de [&#x200B; details van de catalogusmening &#x200B;](./setup/catalog-view.md) in Adobe Commerce Optimizer om de toegewezen prijzenboeken te zien. Als geen prijzenboeken worden toegewezen, kunt u deze kopbal uit het configuratiedossier verwijderen. Voeg het terug wanneer een prijsboek aan de catalogusmening is toegewezen.
 
 1. Sla het configuratiebestand op.
 
@@ -159,7 +159,7 @@ Bekijk de standaardpagina met productdetails om te controleren of de productgege
 
    >[!TIP]
    >
-   >Bekijk beschikbare SKUs van de [ pagina van de Synchronisatie van Gegevens ](./setup/data-sync.md) in uw [!DNL Adobe Commerce Optimizer] instantie.
+   >Bekijk beschikbare SKUs van de [&#x200B; pagina van de Synchronisatie van Gegevens &#x200B;](./setup/data-sync.md) in uw [!DNL Adobe Commerce Optimizer] instantie.
 
 1. **criteria van het Succes**: De pagina zou moeten tonen:
    * Productnaam, beschrijving en prijs
@@ -200,44 +200,44 @@ Gebruik de volgende richtlijnen voor het controleren van veelvoorkomende problem
 |-------|----------|----------|
 | **de installatie van de Synchronisatie van de Code ontbreekt** | Kan de installatie van Codesynchronisatie niet voltooien | <ul><li>Verzeker u beheerdertoegang tot uw organisatie GitHub hebt.</li><li>Probeer een persoonlijke opslagplaats in plaats van een organisatie te gebruiken.</li><li>Controleer GitHub-machtigingen en probeer het opnieuw.</li></ul> |
 | **Plaats laadt niet** | 404 of verbindingsfouten | <ul><li>Verifieer de URL-indeling van uw site: `https://main--{SITE}--{ORG}.aem.live`</li><li>Controleer of de toepassing Codesync correct is geïnstalleerd.</li><li>Zorg ervoor dat de opslagplaats openbaar is of correct is geconfigureerd.</li></ul> |
-| **Geen getoonde productgegevens** | Op productpagina&#39;s worden tijdelijke aanduidingen of fouten weergegeven | <ul><li>De configuratiewaarden controleren in `config.json`</li><li>Controleer in de [!DNL Adobe Commerce Optimizer] -instantie de pagina Gegevenssynchronisatie om te controleren of er voorbeeldproducten zijn geladen. Als geen producten beschikbaar zijn, laad de steekproefgegevens opnieuw of voeg een product toe gebruikend [ Ingestie API van Gegevens ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/using-the-api/#make-your-first-request). Wacht een paar minuten op configuratieveranderingen om zich te verspreiden.</li><li>Probeer de productdetails terug te winnen gebruikend de Merchandising de productvraag van de Dienst [ ](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#return-product-details) gebruikend de zelfde kopballen die in het `config.json` dossier worden gevormd. Als u de gegevens kunt ophalen, is dit waarschijnlijk een probleem met de configuratie van de catalogusweergave of een indexfout.</li></ul> |
-| **het Onderzoek keert geen resultaten terug** | Lege pagina met zoekresultaten | <ul><li>Verifieer dat u de resultaten van het productonderzoek kunt terugwinnen gebruikend de Merchandising de vraag van de Diensten [ productSearch ](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#product-search) gebruikend de zelfde kopballen die in het `config.json` dossier worden gevormd. Als u de gegevens kunt ophalen, is dit waarschijnlijk een probleem met de configuratie van de catalogusweergave of een indexfout.</li><li>Controleer of de weergave-id van de catalogus in het `config.json` -bestand overeenkomt met de weergave-id van de catalogus in [!DNL Adobe Commerce Optimizer] .</li><li>In Adobe Commerce Optimizer, verifieer de configuratie van het beleid, de scène, en de prijsboeken die u in de configuratie van de storefrontkopbal gebruikte.</li><li>Verifieer de [ montages van attributenmeta-gegevens ](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata) correct voor onderzoek worden geplaatst.</li></ul> |
+| **Geen getoonde productgegevens** | Op productpagina&#39;s worden tijdelijke aanduidingen of fouten weergegeven | <ul><li>De configuratiewaarden controleren in `config.json`</li><li>Controleer in de [!DNL Adobe Commerce Optimizer] -instantie de pagina Gegevenssynchronisatie om te controleren of er voorbeeldproducten zijn geladen. Als geen producten beschikbaar zijn, laad de steekproefgegevens opnieuw of voeg een product toe gebruikend [&#x200B; Ingestie API van Gegevens &#x200B;](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/using-the-api/#make-your-first-request). Wacht een paar minuten op configuratieveranderingen om zich te verspreiden.</li><li>Probeer de productdetails terug te winnen gebruikend de Merchandising de productvraag van de Dienst [&#x200B; &#x200B;](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#return-product-details) gebruikend de zelfde kopballen die in het `config.json` dossier worden gevormd. Als u de gegevens kunt ophalen, is dit waarschijnlijk een probleem met de configuratie van de catalogusweergave of een indexfout.</li></ul> |
+| **het Onderzoek keert geen resultaten terug** | Lege pagina met zoekresultaten | <ul><li>Verifieer dat u de resultaten van het productonderzoek kunt terugwinnen gebruikend de Merchandising de vraag van de Diensten [&#x200B; productSearch &#x200B;](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/use-cases/#product-search) gebruikend de zelfde kopballen die in het `config.json` dossier worden gevormd. Als u de gegevens kunt ophalen, is dit waarschijnlijk een probleem met de configuratie van de catalogusweergave of een indexfout.</li><li>Controleer of de weergave-id van de catalogus in het `config.json` -bestand overeenkomt met de weergave-id van de catalogus in [!DNL Adobe Commerce Optimizer] .</li><li>In Adobe Commerce Optimizer, verifieer de configuratie van het beleid, de scène, en de prijsboeken die u in de configuratie van de storefrontkopbal gebruikte.</li><li>Verifieer de [&#x200B; montages van attributenmeta-gegevens &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#operation/createProductMetadata) correct voor onderzoek worden geplaatst.</li></ul> |
 
 ### Controlelijst voor validatie
 
 Voordat u verdergaat met de volgende stappen, moet u controleren of de winkel correct werkt. Ga hiervoor als volgt te werk:
 
-![ Checklist ](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de waarden van de Configuratie passen uw instantiemontages <br> aan
-![ Checklist ](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de homepage van de Storefront laadt zonder fouten <br>
-![ Checklist ](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) minstens één pagina van het productdetail toont volledige informatie <br>
-![ Checklist ](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de functionaliteit van het Onderzoek keert relevante resultaten <br> terug
-![ Checklist ](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de beelden van het Product laden correct <br>
-![ Checklist ](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de waarden van de Configuratie passen uw instantiemontages <br> aan
+![&#x200B; Checklist &#x200B;](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de waarden van de Configuratie passen uw instantiemontages <br> aan
+![&#x200B; Checklist &#x200B;](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de homepage van de Storefront laadt zonder fouten <br>
+![&#x200B; Checklist &#x200B;](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) minstens één pagina van het productdetail toont volledige informatie <br>
+![&#x200B; Checklist &#x200B;](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de functionaliteit van het Onderzoek keert relevante resultaten <br> terug
+![&#x200B; Checklist &#x200B;](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de beelden van het Product laden correct <br>
+![&#x200B; Checklist &#x200B;](/help/assets/icons/Smock_CheckmarkCircleOutline_18_N.svg) de waarden van de Configuratie passen uw instantiemontages <br> aan
 
 ### Hulp vragen
 
 Als er problemen blijven optreden:
 
-* Herzie de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/)
-* Controle de [ de ontwikkelaarsgids van Adobe Commerce Optimizer ](https://developer.adobe.com/commerce/services/optimizer/)
-* Bezoek de [ middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
+* Herzie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/)
+* Controle de [&#x200B; de ontwikkelaarsgids van Adobe Commerce Optimizer &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
+* Bezoek de [&#x200B; middelen van de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)
 
 ## Volgende stappen
 
 Nadat u uw winkel hebt ingesteld en geverifieerd, kunt u:
 
-1. **[installeer Sidekick ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#install-and-configure-sidekick)** - Browser uitbreiding voor het uitgeven, het previewing, en het publiceren inhoud direct van uw website
+1. **[installeer Sidekick &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#install-and-configure-sidekick)** - Browser uitbreiding voor het uitgeven, het previewing, en het publiceren inhoud direct van uw website
 
-2. **[opstelling een lokale ontwikkelomgeving ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment)** - creeer een lokaal milieu om uw storefront code en inhoud aan te passen
+2. **[opstelling een lokale ontwikkelomgeving &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment)** - creeer een lokaal milieu om uw storefront code en inhoud aan te passen
 
 ### Leren en verkennen
 
 * **[voltooi het gebruiksgeval van begin tot eind](./use-case/admin-use-case.md)** - Leer meer over storefront opstelling en catalogusbeheer gebruikend [!DNL Adobe Commerce Optimizer]
 
-* **[verken storefront aanpassing ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/)** - leer geavanceerde opstelling en configuratieopties
+* **[verken storefront aanpassing &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/)** - leer geavanceerde opstelling en configuratieopties
 
-* **[drop-ins van Commerce van het Gebruik om storefront ervaring ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/) aan te passen** - voeg pre-gebouwde componenten toe om uw storefront ervaring te verbeteren
+* **[drop-ins van Commerce van het Gebruik om storefront ervaring &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/) aan te passen** - voeg pre-gebouwde componenten toe om uw storefront ervaring te verbeteren
 
 >[!MORELIKETHIS]
 >
-> Zie de [ documentatie van Adobe Commerce Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met Commerce frontend componenten en backend gegevens te integreren.
+> Zie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/) om meer over het bijwerken van plaatsinhoud te leren en met Commerce frontend componenten en backend gegevens te integreren.

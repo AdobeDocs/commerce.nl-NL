@@ -5,7 +5,7 @@ feature: Cloud, Integration
 role: User, Leader
 level: Beginner
 exl-id: fe961c6d-8bd2-4144-b73b-a3d216a46670
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 3fe22d47b6fd6cf1077cbd4644ffad08f55826ca
 workflow-type: tm+mt
 source-wordcount: '1390'
@@ -200,7 +200,7 @@ Overweeg een scenario waarin u de achtergrond van een productafbeelding snel wil
 
 #### De afbeelding toevoegen aan [!DNL Commerce AEM Assets]
 
-1. Van het [&#x200B; Comité van de Navigatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel) van [!DNL AEM as a Cloud Service], uitgezochte [!UICONTROL **Assets**] > [!UICONTROL **Dossiers**] > [!UICONTROL **Commerce**] en klik de activa u in de vorige sectie creeerde.
+1. Van het [&#x200B; Comité van de Navigatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel) van [!DNL AEM as a Cloud Service], uitgezochte [!UICONTROL **Assets**] > [!UICONTROL **Dossiers**] > [!UICONTROL **Commerce**] en klik de activa u in de vorige sectie creeerde.
 
    ![&#x200B; de omslag van Commerce in [!DNL AEM Assets] met productbeelden &#x200B;](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
@@ -250,7 +250,7 @@ Met de functie Variaties genereren van [!DNL Adobe Commerce] maakt u gebruik van
 
 ### Tekst genereren
 
-1. Open uw storefront plaats gebruikend de [&#x200B; Universele Redacteur &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction).
+1. Open uw storefront plaats gebruikend de [&#x200B; Universele Redacteur &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction).
 
 1. Selecteer het tekstblok dat u wilt bewerken.
 
@@ -264,7 +264,7 @@ Met de functie Variaties genereren van [!DNL Adobe Commerce] maakt u gebruik van
 
 ### Inhoud en afbeeldingen genereren
 
-1. Openen [[!DNL Generate Variations] &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)
+1. Openen [[!DNL Generate Variations] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)
 
 1. Selecteer het [!UICONTROL **malplaatje van de Banner van de Hero**].
 

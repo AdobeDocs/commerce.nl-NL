@@ -5,7 +5,7 @@ feature: Storefront
 role: Developer
 level: Beginner
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 6eda2197fde2e88292e58b2bb4fc4759f24da558
 workflow-type: tm+mt
 source-wordcount: '235'
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om [!DNL Adobe Commerce Storefront] powered by [!DNL Edge Delivery Services] for [!DNL Adobe Commerce as a Cloud Service] (SaaS) in te stellen.
 
-Voor een meer klantgerichte en gedetailleerde analyse, verwijs naar de [&#x200B; storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/).
+Voor een meer klantgerichte en gedetailleerde analyse, verwijs naar de [&#x200B; storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL).
 
 1. Open het [&#x200B; hulpmiddel van de plaatsschepper &#x200B;](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator).
 
@@ -47,4 +47,4 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * Meer leren over het beheren van en het tonen van inhoud en gegevens in de storefront, zie [&#x200B; het bijwerken van storefront inhoud &#x200B;](./use-cases.md#update-storefront-content).
 * Voor meer informatie over contextafhankelijke experimenteringseigenschappen, zie [&#x200B; contextafhankelijke experimentatie &#x200B;](./use-cases.md#contextual-experimentation).
 * Voor meer informatie bij het gebruiken van Generatieve AI om de inhoudsgeneratie van uitstekende kwaliteit te automatiseren, zie [&#x200B; Variaties &#x200B;](./use-cases.md#generate-variations) produceren.
-* Zie [[!DNL Adobe Commerce Storefront documentation] &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/) voor meer informatie over het bijwerken van de site-inhoud en het integreren met Commerce frontend-componenten en backend-gegevens.
+* Zie [[!DNL Adobe Commerce Storefront documentation] &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) voor meer informatie over het bijwerken van de site-inhoud en het integreren met Commerce frontend-componenten en backend-gegevens.

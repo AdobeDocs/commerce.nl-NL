@@ -23,13 +23,13 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce as a Cloud Service] bestaat uit de volgende componenten:
 
-* **[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/)** - Uw centraal ingangspunt aan alle [!DNL Adobe Commerce] producten bij [ experience.adobe.com ](https://experience.adobe.com/)
+* **[[!DNL Adobe Experience Cloud]](https://experience.adobe.com/)** - Uw centraal ingangspunt aan alle [!DNL Adobe Commerce] producten bij [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com/)
    * Klik [!UICONTROL **Commerce**] onder [!UICONTROL **Snelle Toegang**] om de Manager van Commerce Cloud te openen
 * **[[!DNL Commerce Cloud Manager]](https://experience.adobe.com/#/commerce/cloud-service)** - creeer en beheer instanties, toegang API URLs, en uw Admin van Commerce
 * **[[!DNL Adobe Admin Console]](https://adminconsole.adobe.com/)** - beheer gebruikers en rollen
 * **Admin van Commerce** - beheer producten, orden, klanten, en opslagconfiguratie
 * **[Storefront die door [!DNL Edge Delivery Services]](./storefront.md)** wordt aangedreven - creeer en pas een klant-onder ogen ziet opslag aan gebruikend een composable, krachtig systeem dat uitzonderlijke snelheid, SEO, en gebruikerservaring voor handelaren en ontwikkelaars levert
-* **[[!DNL Adobe Developer App Builder]](https://developer.adobe.com/app-builder/)** - bouw douaneintegratie gebruikend [!DNL App Builder], samen met andere rekbaarheidshulpmiddelen zoals de [ uitrusting van de integratieaanzet ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) en [[!DNL API Mesh] ](https://developer.adobe.com/graphql-mesh-gateway/)
+* **[[!DNL Adobe Developer App Builder]](https://developer.adobe.com/app-builder/)** - bouw douaneintegratie gebruikend [!DNL App Builder], samen met andere rekbaarheidshulpmiddelen zoals de [&#x200B; uitrusting van de integratieaanzet &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) en [[!DNL API Mesh] &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/)
 
 ## Instellen en beheren
 
@@ -39,18 +39,18 @@ Als onderdeel van het installatieproces van [!DNL Adobe Commerce as a Cloud Serv
 
 Als gecombineerde groep, moeten de systeembeheerder, de handel, en de ontwikkelaar deze essentiële stappen volgen om uw instantie van Commerce in werking te stellen:
 
-1. **Alle Gebruikers**: [ creeer een instantie ](#create-an-instance)
-1. **Beheerder van het Systeem**: [ voeg gebruikers toe en wijs rollen ](user-management.md#add-users-and-admins) toe
-1. **Merchants**: [ heb toegang tot Commerce Admin ](#access-an-instance) en [ voer uw catalogus ](#import-your-catalog) in
-1. **Ontwikkelaars**: [ opstelling uw storefront ](storefront.md) en onderzoek het [ ontwikkelaarsplatform ](overview.md#developer-platform)
+1. **Alle Gebruikers**: [&#x200B; creeer een instantie &#x200B;](#create-an-instance)
+1. **Beheerder van het Systeem**: [&#x200B; voeg gebruikers toe en wijs rollen &#x200B;](user-management.md#add-users-and-admins) toe
+1. **Merchants**: [&#x200B; heb toegang tot Commerce Admin &#x200B;](#access-an-instance) en [&#x200B; voer uw catalogus &#x200B;](#import-your-catalog) in
+1. **Ontwikkelaars**: [&#x200B; opstelling uw storefront &#x200B;](storefront.md) en onderzoek het [&#x200B; ontwikkelaarsplatform &#x200B;](overview.md#developer-platform)
 
 #### Workflow AEM Assets en Product Visuals
 
 De volgende stappen zijn vereist om [!DNL Adobe Experience Manager Assets] of [!DNL Product Visuals powered by AEM Assets] met [!DNL Adobe Commerce as a Cloud Service] te integreren:
 
-1. **Beheerder van het Systeem**: [ voegt gebruikers aan  [!DNL AEM Assets]  toe en  [!DNL Product Visuals]  productprofiel ](user-management.md#add-a-user-to-aem-assets-or-product-visuals)
-1. **Ontwikkelaars**: [ integreren  [!DNL AEM Assets]  en  [!DNL Product Visuals]](../aem-assets-integration/overview.md)
-1. **Merchants**: [ heb toegang tot uw  [!DNL AEM Assets]  en  [!DNL Product Visuals]](./user-management.md#access-the-experience-manager-interface)
+1. **Beheerder van het Systeem**: [&#x200B; voegt gebruikers aan  [!DNL AEM Assets]  toe en  [!DNL Product Visuals]  productprofiel &#x200B;](user-management.md#add-a-user-to-aem-assets-or-product-visuals)
+1. **Ontwikkelaars**: [&#x200B; integreren  [!DNL AEM Assets]  en  [!DNL Product Visuals]](../aem-assets-integration/overview.md)
+1. **Merchants**: [&#x200B; heb toegang tot uw  [!DNL AEM Assets]  en  [!DNL Product Visuals]](./user-management.md#access-the-experience-manager-interface)
 
 ### Op rollen gebaseerde installatie- en beheertaken
 
@@ -60,15 +60,15 @@ Selecteer hieronder een tabblad om werkstroomafbeeldingen op hoog niveau voor de
 
 >[!TAB  de beheerder van het Systeem en handelsstroom ]
 
-Dit diagram biedt een overzicht op hoog niveau van de manier waarop systeembeheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [ Gids van Adobe Admin Console ](https://helpx.adobe.com/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
+Dit diagram biedt een overzicht op hoog niveau van de manier waarop systeembeheerders en verkopers [!DNL Adobe Commerce as a Cloud Service] -instanties benaderen en beheren. Zie de [&#x200B; Gids van Adobe Admin Console &#x200B;](https://helpx.adobe.com/enterprise/admin-guide.html) voor meer informatie over beheerderwerkschema&#39;s.
 
-![ de beheerder van het systeem en bedrijfs werkschemadiagram voor Adobe Commerce as a Cloud Service ](./assets/merchant-flow.svg){zoomable="yes"}
+![&#x200B; de beheerder van het systeem en bedrijfs werkschemadiagram voor Adobe Commerce as a Cloud Service &#x200B;](./assets/merchant-flow.svg){zoomable="yes"}
 
 >[!TAB  werkschema van de Ontwikkelaar ]
 
-Dit diagram biedt een overzicht op hoog niveau van de manier waarop ontwikkelaars integratie maken voor het gebruik van App Builder in [!DNL Adobe Commerce as a Cloud Service] . Zie de [ API documentatie ](https://developer.adobe.com/commerce/webapi/rest/) voor meer informatie.
+Dit diagram biedt een overzicht op hoog niveau van de manier waarop ontwikkelaars integratie maken voor het gebruik van App Builder in [!DNL Adobe Commerce as a Cloud Service] . Zie de [&#x200B; API documentatie &#x200B;](https://developer.adobe.com/commerce/webapi/rest/) voor meer informatie.
 
-![ het werkschemadiagram van de Ontwikkelaar voor het creëren van integratie met Adobe Commerce as a Cloud Service ](./assets/developer-flow.svg){zoomable="yes"}
+![&#x200B; het werkschemadiagram van de Ontwikkelaar voor het creëren van integratie met Adobe Commerce as a Cloud Service &#x200B;](./assets/developer-flow.svg){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -82,11 +82,11 @@ Als systeembeheerder, bent u verantwoordelijk voor vestiging de organisatie en h
 
 | Taak | Beschrijving | Bron |
 |------|-------------|----------|
-| Het platform begrijpen | Meer informatie over Adobe Commerce as a Cloud Service-architectuur en -voordelen | [ Overzicht ](overview.md) |
-| Functies vergelijken | Begrijp de verschillen tussen Cloud Service en andere aanbiedingen van Adobe Commerce | [ vergelijking van de Eigenschap ](feature-comparison.md) |
-| Een instantie maken | Sandbox- en productieomgevingen instellen | [ creeer een geval ](#create-an-instance) |
-| Gebruikersbeheer instellen | Gebruikers toevoegen, rollen toewijzen en machtigingen beheren | [ Gebruikersbeheer ](user-management.md) |
-| Instellen [!DNL AEM Assets] en [!DNL Product Visuals] (optioneel) | Gebruikers toevoegen, rollen toewijzen en machtigingen beheren | [ Gebruikersbeheer ](user-management.md#add-a-user-to-aem-assets-or-product-visuals) |
+| Het platform begrijpen | Meer informatie over Adobe Commerce as a Cloud Service-architectuur en -voordelen | [&#x200B; Overzicht &#x200B;](overview.md) |
+| Functies vergelijken | Begrijp de verschillen tussen Cloud Service en andere aanbiedingen van Adobe Commerce | [&#x200B; vergelijking van de Eigenschap &#x200B;](feature-comparison.md) |
+| Een instantie maken | Sandbox- en productieomgevingen instellen | [&#x200B; creeer een geval &#x200B;](#create-an-instance) |
+| Gebruikersbeheer instellen | Gebruikers toevoegen, rollen toewijzen en machtigingen beheren | [&#x200B; Gebruikersbeheer &#x200B;](user-management.md) |
+| Instellen [!DNL AEM Assets] en [!DNL Product Visuals] (optioneel) | Gebruikers toevoegen, rollen toewijzen en machtigingen beheren | [&#x200B; Gebruikersbeheer &#x200B;](user-management.md#add-a-user-to-aem-assets-or-product-visuals) |
 
 >[!TAB  Merchant ]
 
@@ -94,10 +94,10 @@ Als handelaar, richt u zich op het beheren van producten, orden, en opslag inhou
 
 | Taak | Beschrijving | Bron |
 |------|-------------|----------|
-| Toegang tot uw instantie | Meld u aan bij Commerce Admin om uw winkel te beheren | [ heb toegang tot een instantie ](#access-an-instance) |
-| Gebruiksgevallen verkennen | Meer informatie over praktische zakelijke scenario&#39;s en workflows | [ Gevallen van het Gebruik ](./use-cases.md) |
-| Catalogus importeren | Meer informatie over het importeren van productgegevens naar het platform | [ de Invoer uw catalogus ](#import-your-catalog) |
-| Toegang [!DNL AEM Assets] en [!DNL Product Visuals] (optioneel) | Ga naar Experience Manager om [!DNL AEM Assets] en [!DNL Product Visuals] te gebruiken. | [ heb toegang tot de interface van Experience Manager ](./user-management.md#access-the-experience-manager-interface) |
+| Toegang tot uw instantie | Meld u aan bij Commerce Admin om uw winkel te beheren | [&#x200B; heb toegang tot een instantie &#x200B;](#access-an-instance) |
+| Gebruiksgevallen verkennen | Meer informatie over praktische zakelijke scenario&#39;s en workflows | [&#x200B; Gevallen van het Gebruik &#x200B;](./use-cases.md) |
+| Catalogus importeren | Meer informatie over het importeren van productgegevens naar het platform | [&#x200B; de Invoer uw catalogus &#x200B;](#import-your-catalog) |
+| Toegang [!DNL AEM Assets] en [!DNL Product Visuals] (optioneel) | Ga naar Experience Manager om [!DNL AEM Assets] en [!DNL Product Visuals] te gebruiken. | [&#x200B; heb toegang tot de interface van Experience Manager &#x200B;](./user-management.md#access-the-experience-manager-interface) |
 
 >[!TAB  Ontwikkelaar ]
 
@@ -105,12 +105,12 @@ Als ontwikkelaar moet u weten hoe u aangepaste integratie kunt bouwen en de func
 
 | Taak | Beschrijving | Bron |
 |------|-------------|----------|
-| Architectuur begrijpen | Meer informatie over de uitbreidbaarheid en API&#39;s van het platform | [ Overzicht - het platform van de Ontwikkelaar ](overview.md#developer-platform) |
-| Een ontwikkelomgeving instellen | Een sandboxinstantie maken voor ontwikkeling en testen | [ creeer een geval ](#create-an-instance) |
-| Opslagruimte bouwen | Meer informatie over het instellen en aanpassen van de Commerce Storefront | [ opstelling Storefront ](./storefront.md) |
-| Uw winkel configureren | Meer informatie over het instellen van je winkel | [ opstelling Storefront ](./storefront.md) |
-| Verken integratieopties | Meer informatie over App Builder, API Mesh en andere uitbreidbaarheidsgereedschappen waartoe u toegang hebt | [ Overzicht - het platform van de Ontwikkelaar ](overview.md#developer-platform) |
-| Integeren [!DNL AEM Assets] en [!DNL Product Visuals] (optioneel) | Leer hoe u [!DNL AEM Assets] en [!DNL Product Visuals] met [!DNL Adobe Commerce] kunt integreren | [ de integratie van AEM Assets ](../aem-assets-integration/overview.md) |
+| Architectuur begrijpen | Meer informatie over de uitbreidbaarheid en API&#39;s van het platform | [&#x200B; Overzicht - het platform van de Ontwikkelaar &#x200B;](overview.md#developer-platform) |
+| Een ontwikkelomgeving instellen | Een sandboxinstantie maken voor ontwikkeling en testen | [&#x200B; creeer een geval &#x200B;](#create-an-instance) |
+| Opslagruimte bouwen | Meer informatie over het instellen en aanpassen van de Commerce Storefront | [&#x200B; opstelling Storefront &#x200B;](./storefront.md) |
+| Uw winkel configureren | Meer informatie over het instellen van je winkel | [&#x200B; opstelling Storefront &#x200B;](./storefront.md) |
+| Verken integratieopties | Meer informatie over App Builder, API Mesh en andere uitbreidbaarheidsgereedschappen waartoe u toegang hebt | [&#x200B; Overzicht - het platform van de Ontwikkelaar &#x200B;](overview.md#developer-platform) |
+| Integeren [!DNL AEM Assets] en [!DNL Product Visuals] (optioneel) | Leer hoe u [!DNL AEM Assets] en [!DNL Product Visuals] met [!DNL Adobe Commerce] kunt integreren | [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/overview.md) |
 
 >[!ENDTABS]
 
@@ -118,9 +118,9 @@ Als ontwikkelaar moet u weten hoe u aangepaste integratie kunt bouwen en de func
 
 Na het voltooien van uw rol-specifieke opstellingstaken:
 
-* **Beheerders van het Systeem**: Herzie [ gedeelde verantwoordelijkheid ](shared-responsibility.md) richtlijnen
-* **Merchants**: Onderzoek [ gebruiksgevallen ](use-cases.md) voor gemeenschappelijke bedrijfsscenario&#39;s
-* **Ontwikkelaars**: Controle uit de [ documentatie van de ontwikkelaar van Adobe Commerce ](https://developer.adobe.com/commerce/docs)
+* **Beheerders van het Systeem**: Herzie [&#x200B; gedeelde verantwoordelijkheid &#x200B;](shared-responsibility.md) richtlijnen
+* **Merchants**: Onderzoek [&#x200B; gebruiksgevallen &#x200B;](use-cases.md) voor gemeenschappelijke bedrijfsscenario&#39;s
+* **Ontwikkelaars**: Controle uit de [&#x200B; documentatie van de ontwikkelaar van Adobe Commerce &#x200B;](https://developer.adobe.com/commerce/docs)
 
 ## Basisbegrippen van Adobe Commerce as a Cloud Service
 
@@ -130,11 +130,11 @@ In de volgende secties worden de basisprocessen beschreven die u moet voltooien 
 
 >[!NOTE]
 >
->Voordat u een instantie kunt maken, moet de productbeheerder van uw organisatie of de systeembeheerder u toevoegen als gebruiker van het [!DNL Adobe Commerce as a Cloud Service] -product. Zie [ gebruikers en beheerders ](./user-management.md#add-users-and-admins) voor meer informatie toevoegen.
+>Voordat u een instantie kunt maken, moet de productbeheerder van uw organisatie of de systeembeheerder u toevoegen als gebruiker van het [!DNL Adobe Commerce as a Cloud Service] -product. Zie [&#x200B; gebruikers en beheerders &#x200B;](./user-management.md#add-users-and-admins) voor meer informatie toevoegen.
 
 [!DNL Adobe Commerce as a Cloud Service] -instanties gebruiken een op krediet gebaseerd systeem. U kunt meerdere instanties maken, maar voor elke instantie zijn beschikbare credits vereist. Het aantal credits dat u aanvankelijk hebt, is afhankelijk van uw abonnement.
 
-1. Meld u aan bij uw [[!DNL Adobe Experience Cloud] ](https://experience.adobe.com/) -account.
+1. Meld u aan bij uw [[!DNL Adobe Experience Cloud] &#x200B;](https://experience.adobe.com/) -account.
 
 1. Onder [!UICONTROL Quick access], klik [!UICONTROL **Commerce**] om [!UICONTROL Commerce Cloud Manager] te openen.
 
@@ -142,7 +142,7 @@ In de volgende secties worden de basisprocessen beschreven die u moet voltooien 
 
 1. Klik [!UICONTROL **toevoegen Instantie**] in de hoger-juiste hoek van het scherm.
 
-   ![ creeer de knoop van de Instantie en gebied van de instantienaam in de Manager van Commerce Cloud ](./assets/create-instance.png){width="50%" align="center" zoomable="yes"}
+   ![&#x200B; creeer de knoop van de Instantie en gebied van de instantienaam in de Manager van Commerce Cloud &#x200B;](./assets/create-instance.png){width="50%" align="center" zoomable="yes"}
 
 1. Selecteer [!UICONTROL **Commerce as a Cloud Service**].
 
@@ -178,7 +178,7 @@ In de volgende secties worden de basisprocessen beschreven die u moet voltooien 
 
 Nadat u een instantie hebt gemaakt, kunt u deze openen vanuit de map [!UICONTROL Commerce Cloud Manager] .
 
-1. Login aan uw [ Adobe Experience Cloud ](https://experience.adobe.com/) rekening.
+1. Login aan uw [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com/) rekening.
 
 1. Onder [!UICONTROL Quick access], klik [!UICONTROL **Commerce**] om [!UICONTROL Commerce Cloud Manager] te openen.
 
@@ -207,15 +207,15 @@ Standaard bevatten [!DNL Adobe Commerce as a Cloud Service] -instanties geen pro
 
 U kunt uw catalogus op twee manieren importeren in [!DNL Adobe Commerce as a Cloud Service] :
 
-* [**Admin van Commerce** ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
-* [**de Invoer JSON API** ](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - VERTONEN API die u toestaat om uw catalogusgegevens programmatically in te voeren.
+* [**Admin van Commerce** &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import) - een gebruikersvriendelijke interface die u toestaat om uw catalogusgegevens in een paar kliks in te voeren.
+* [**de Invoer JSON API** &#x200B;](https://developer.adobe.com/commerce/webapi/rest/modules/import/#import-json-api) - VERTONEN API die u toestaat om uw catalogusgegevens programmatically in te voeren.
 
 ### De storefront instellen
 
-Nu u een instantie hebt gecreeerd, bent u klaar aan [ opstelling uw storefront ](storefront.md) aangedreven door [!DNL Edge Delivery Services].
+Nu u een instantie hebt gecreeerd, bent u klaar aan [&#x200B; opstelling uw storefront &#x200B;](storefront.md) aangedreven door [!DNL Edge Delivery Services].
 
 ## Aanvullende bronnen
 
 * [Opmerkingen bij de release](release-notes.md)
 * [Migratiehandleiding](migration/overview.md)
-* [ Commerce Storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+* [&#x200B; Commerce Storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/)

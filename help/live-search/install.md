@@ -3,7 +3,7 @@ title: Aan de slag met  [!DNL Live Search]
 description: Leer de systeemvereisten en installatiestappen voor  [!DNL Live Search]  van Adobe Commerce.
 role: Admin, Developer
 exl-id: 45b985f1-9afb-4a07-93e8-f2fe231c5400
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 66a786c00bf75e965f53afb27c3d4343e8fcfd5f
 workflow-type: tm+mt
 source-wordcount: '2536'
@@ -23,7 +23,7 @@ Dit artikel is bedoeld voor de ontwikkelaar of systeemintegrator in uw team die 
 
 ## Vereisten
 
-- [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html) 2.4.4+
+- [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/nl/products/magento/magento-commerce.html) 2.4.4+
 - PHP 8.1, 8.2 of 8.3
 - [!DNL Composer]
 - Snijtaken en indexeerders uitvoeren
@@ -64,7 +64,7 @@ Op een hoog niveau is het vereist dat u: [!DNL Live Search]
 
 Volg deze instructies als u [!DNL Live Search] op een nieuw Commerce-exemplaar installeert.
 
-1. Bevestig dat [&#x200B; gewassenbanen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen.
+1. Bevestig dat [&#x200B; gewassenbanen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) lopen.
 
 1. Gebruik Composer om de module Live zoeken toe te voegen aan uw project:
 
@@ -92,7 +92,7 @@ Volg deze instructies als u [!DNL Live Search] op een nieuw Commerce-exemplaar i
    bin/magento setup:upgrade
    ```
 
-1. Verifieer dat de volgende [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
+1. Verifieer dat de volgende [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
 
    - Productfeed
    - Diervoeders voor productvarianten
@@ -109,7 +109,7 @@ Na het verifiëren van de indexen, is de volgende stap de API sleutels [&#x200B;
 
 Volg deze instructies als u [!DNL Live Search] op een bestaande Commerce-instantie installeert.
 
-1. Bevestig dat [&#x200B; gewassenbanen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen.
+1. Bevestig dat [&#x200B; gewassenbanen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) lopen.
 
 1. Gebruik Composer om de module Live zoeken toe te voegen aan uw project:
 
@@ -137,7 +137,7 @@ Volg deze instructies als u [!DNL Live Search] op een bestaande Commerce-instant
    bin/magento setup:upgrade
    ```
 
-1. Verifieer dat de volgende [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
+1. Verifieer dat de volgende [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
 
    - Productfeed
    - Diervoeders voor productvarianten
@@ -204,7 +204,7 @@ Wanneer u deze opdrachten uitvoert, begint de eerste synchronisatie van de catal
 
 ### Synchronisatievoortgang controleren
 
-Gebruik het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.md) om synchronisatievooruitgang te controleren. Dit dashboard biedt waardevolle inzichten in de beschikbaarheid van productgegevens in uw winkel, zodat deze direct aan klanten kunnen worden weergegeven.
+Gebruik het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.md) om synchronisatievooruitgang te controleren. Dit dashboard biedt waardevolle inzichten in de beschikbaarheid van productgegevens in uw winkel, zodat deze direct aan klanten kunnen worden weergegeven.
 
 ![&#x200B; Dashboard van het Beheer van Gegevens &#x200B;](assets/data-management-dashboard.png)
 
@@ -227,12 +227,12 @@ Als u wilt controleren of uw catalogusgegevens uit Adobe Commerce zijn geëxport
   >
   >Als u een `table does not exist` -fout krijgt, zoekt u naar items in de tabellen `catalog_data_exporter_products` en `catalog_data_exporter_product_attributes` . Deze tabelnamen worden gebruikt in eerdere [!DNL Live Search] versies dan 4.2.1.
 
-- Gebruik [&#x200B; playground van GraphQL &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/graphql) met de standaardvraag (zie [&#x200B; verwijzing van GraphQL &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) voor meer details) om het volgende te verifiëren:
+- Gebruik [&#x200B; playground van GraphQL &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-admin/graphql) met de standaardvraag (zie [&#x200B; verwijzing van GraphQL &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) voor meer details) om het volgende te verifiëren:
 
    - Het aantal geretourneerde producten ligt dicht bij wat u voor de winkelweergave verwacht.
    - Facetten worden geretourneerd.
 
-Voor extra hulp, zie [[!DNL Live Search]  niet gesynchroniseerde catalogus &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync) in de Kennisbank van de Steun.
+Voor extra hulp, zie [[!DNL Live Search]  niet gesynchroniseerde catalogus &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync) in de Kennisbank van de Steun.
 
 ## &#x200B;5. Vorm de gegevens {#configuredata}
 
@@ -252,7 +252,7 @@ Als u een [!DNL Live Search] -versie hebt die ouder is dan 4.0.0+, moet u de wid
 
 Wanneer u deze configuratie wijzigt, verschijnt het bericht `Page cache is invalidated` . U moet de Magento Cache leegmaken om de wijziging op te slaan.
 
-1. Heb toegang tot de [&#x200B; pagina van het Beheer van het Geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management) door één van het volgende te doen:
+1. Heb toegang tot de [&#x200B; pagina van het Beheer van het Geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management) door één van het volgende te doen:
 
    - Klik op de koppeling **[!UICONTROL Cache Management]** in het bericht boven de werkruimte.
    - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
@@ -263,7 +263,7 @@ Wanneer u deze configuratie wijzigt, verschijnt het bericht `Page cache is inval
 
 ### Categorieën toewijzen
 
-De producten die in [!DNL Live Search] zijn teruggekeerd moeten aan a [&#x200B; worden toegewezen categorie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories). In Luma worden producten bijvoorbeeld ingedeeld in categorieën zoals &quot;Mannen&quot;, &quot;Vrouwen&quot; en &quot;Luma&quot;. Subcategorieën worden ook ingesteld voor Tops, Bottoms en Watches. Deze categorietoewijzingen verbeteren de granulariteit bij het filteren.
+De producten die in [!DNL Live Search] zijn teruggekeerd moeten aan a [&#x200B; worden toegewezen categorie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/categories/categories). In Luma worden producten bijvoorbeeld ingedeeld in categorieën zoals &quot;Mannen&quot;, &quot;Vrouwen&quot; en &quot;Luma&quot;. Subcategorieën worden ook ingesteld voor Tops, Bottoms en Watches. Deze categorietoewijzingen verbeteren de granulariteit bij het filteren.
 
 ## &#x200B;6. Test de verbinding {#test}
 
@@ -347,7 +347,7 @@ Als u een update wilt uitvoeren naar een belangrijke versie zoals 3.1.1 en 4.0.0
 
 ## [!DNL Live Search] verwijderen
 
-Om [!DNL Live Search] te desinstalleren, verwijs naar [&#x200B; modules van de Desinstallatie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules).
+Om [!DNL Live Search] te desinstalleren, verwijs naar [&#x200B; modules van de Desinstallatie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/uninstall-modules).
 
 ## [!DNL Live Search] pakketten
 
@@ -356,7 +356,7 @@ De extensie [!DNL Live Search] bestaat uit de volgende pakketten:
 | Pakket | Beschrijving |
 |--- |--- |
 | `module-live-search` | Staat verkopers toe om hun onderzoeksmontages voor facetting, synoniemen, vraagregels, etc. te vormen, en verleent toegang tot read-only GraphQL playground om vragen van *te testen Admin*. |
-| `module-live-search-adapter` | Routes onderzoeksverzoeken van de storefront aan de [!DNL Live Search] dienst en geeft de resultaten in de storefront terug. <br /> - de doorblader van de Categorie - Routes verzoekt van de storefront [&#x200B; hoogste navigatie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) aan de onderzoeksdienst.<br /> - Globale onderzoek - Routes verzoekt van het [&#x200B; snelle onderzoek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) gebied aan de [!DNL Live Search] dienst. Het snelzoekveld bevindt zich in de rechterbovenhoek van de winkelpagina. |
+| `module-live-search-adapter` | Routes onderzoeksverzoeken van de storefront aan de [!DNL Live Search] dienst en geeft de resultaten in de storefront terug. <br /> - de doorblader van de Categorie - Routes verzoekt van de storefront [&#x200B; hoogste navigatie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/navigation/navigation-top) aan de onderzoeksdienst.<br /> - Globale onderzoek - Routes verzoekt van het [&#x200B; snelle onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search) gebied aan de [!DNL Live Search] dienst. Het snelzoekveld bevindt zich in de rechterbovenhoek van de winkelpagina. |
 | `module-live-search-storefront-popover` | De pop-up &#39;&#39;Zoeken terwijl u typt&#39;&#39; vervangt de standaard snelle zoekopdracht en retourneert gegevens en miniaturen van de bovenste zoekresultaten. |
 
 ## [!DNL Live Search] afhankelijkheden
@@ -468,7 +468,7 @@ Nadat [!DNL Live Search] is ingeschakeld, synchroniseert de extensie Gegevens ex
 
 ### Inventory management
 
-[!DNL Live Search] steunt [&#x200B; Inventory management &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u [&#x200B; de gebiedsdeelmodule &#x200B;](install.md#updating-live-search) aan versie 102.2.0+ bijwerken.`commerce-data-export`
+[!DNL Live Search] steunt [&#x200B; Inventory management &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u [&#x200B; de gebiedsdeelmodule &#x200B;](install.md#updating-live-search) aan versie 102.2.0+ bijwerken.`commerce-data-export`
 
 [!DNL Live Search] retourneert een Booleaanse waarde die aangeeft of een product beschikbaar is in Inventory management, maar die geen informatie bevat over de bron die de voorraad heeft.
 
@@ -505,7 +505,7 @@ Deze module voegt extra contexten aan de vragen van GraphQL toe:
 
 ### B2B-ondersteuning
 
-[!DNL Live Search] steunt [&#x200B; functionaliteit B2B &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview) met extra [&#x200B; beperkingen &#x200B;](boundaries-limits.md#b2b-and-category-permissions).
+[!DNL Live Search] steunt [&#x200B; functionaliteit B2B &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/guide-overview) met extra [&#x200B; beperkingen &#x200B;](boundaries-limits.md#b2b-and-category-permissions).
 
 ### PWA-ondersteuning
 

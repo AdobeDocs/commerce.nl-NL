@@ -29,4 +29,4 @@ ht-degree: 1%
    - [Voorwaarden voor de zelfstudie over de uitbreiding van classificaties](tutorials/tutorial-prerequisites.md)
    - [Zelfstudie over het verlengen van beoordelingen](tutorials/ratings-extension.md)
 - [Opmerkingen bij de release](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

@@ -17,17 +17,17 @@ ht-degree: 0%
 
 De volgende gebruiksgevallen demonstreren kernfunctionaliteit en bedrijfsscenario&#39;s die worden ondersteund door [!DNL Adobe Commerce as a Cloud Service] . Met deze programma&#39;s kunt u de ontwikkeling versnellen en ervaringen met een hoog effect lanceren.
 
-Als u om het even welke kwesties ontmoet, controleer de [ sectie van het Oplossen van problemen ](#troubleshooting) voor begeleiding.
+Als u om het even welke kwesties ontmoet, controleer de [&#x200B; sectie van het Oplossen van problemen &#x200B;](#troubleshooting) voor begeleiding.
 
 ## Vereisten
 
 Voordat u een van deze gebruiksgevallen kunt proberen, moet u aan de volgende voorwaarden voldoen:
 
-1. [ creeer uw instantie van Cloud Service ](./getting-started.md#create-an-instance) gebruikend de volgende opties:
+1. [&#x200B; creeer uw instantie van Cloud Service &#x200B;](./getting-started.md#create-an-instance) gebruikend de volgende opties:
    1. Selecteer [!UICONTROL **Sandbox**] in [!UICONTROL **Milieu**] dropdown.
    1. Selecteer [!UICONTROL **Opslag van Adobe**] in [!UICONTROL **Gegevens van de Test**] dropdown.
-1. [ Login aan uw  [!DNL Adobe Experience Cloud]  rekening ](https://experience.adobe.com)
-1. [ opstelling uw Cloud Service storefront ](./storefront.md) gebruikend de volgende opties:
+1. [&#x200B; Login aan uw  [!DNL Adobe Experience Cloud]  rekening &#x200B;](https://experience.adobe.com)
+1. [&#x200B; opstelling uw Cloud Service storefront &#x200B;](./storefront.md) gebruikend de volgende opties:
    1. Selecteer [!UICONTROL `adobe-commerce/adobe-demo-store`] voor de sjabloon.
    1. Selecteer [!UICONTROL **Kiezen een beschikbare instantie (Net -> SaaS)**] voor de verbindingsmethode.
 
@@ -39,7 +39,7 @@ Deze workflow laat zien hoe een klant een product kan kopen bij de winkel en hoe
 
 1. In Commerce Admin, navigeer aan [!UICONTROL **Opslag**] > [!UICONTROL Settings] > [!UICONTROL **Configuratie**] > [!UICONTROL **de Methoden van de Betaling**].
 
-1. In de [!UICONTROL **Algemene sectie van de Configuratie**], ga uw `Payment Services Sandbox ID` en `Payment Services Sandbox Key` in. U kunt deze IDs krijgen door de stappen te volgen die in [ worden beschreven Sandbox onboarding ](../payment-services/sandbox.md#sandbox-onboarding)
+1. In de [!UICONTROL **Algemene sectie van de Configuratie**], ga uw `Payment Services Sandbox ID` en `Payment Services Sandbox Key` in. U kunt deze IDs krijgen door de stappen te volgen die in [&#x200B; worden beschreven Sandbox onboarding &#x200B;](../payment-services/sandbox.md#sandbox-onboarding)
 
 1. Plaats [!UICONTROL **laat**] dropdown [!UICONTROL **toe ja**].
 
@@ -47,27 +47,27 @@ Deze workflow laat zien hoe een klant een product kan kopen bij de winkel en hoe
 
 ### Een product aanschaffen
 
-1. Ga naar [ storefront ](./storefront.md) u in de eerste vereisten creeerde.
+1. Ga naar [&#x200B; storefront &#x200B;](./storefront.md) u in de eerste vereisten creeerde.
 
 1. Een product zoeken en selecteren. Maak de benodigde aanpassingsselecties. Dan klik [!UICONTROL **toevoegen aan wagentje**].
 
-   ![ het productonderzoek van de Storefront en selectieinterface ](./assets/store-search.png){width="600" zoomable="yes"}
+   ![&#x200B; het productonderzoek van de Storefront en selectieinterface &#x200B;](./assets/store-search.png){width="600" zoomable="yes"}
 
 1. Selecteer het pictogram van het karretje om uw kar te bekijken.
 
-   ![ het Winkelen kart met toegevoegde product en controleopties ](./assets/add-to-cart-and-checkout.png){width="600" zoomable="yes"}
+   ![&#x200B; het Winkelen kart met toegevoegde product en controleopties &#x200B;](./assets/add-to-cart-and-checkout.png){width="600" zoomable="yes"}
 
 1. Klik [!UICONTROL **Controle**].
 
-   ![ knoop van de Controle op kartonpagina ](./assets/click-checkout.png){width="600" zoomable="yes"}
+   ![&#x200B; knoop van de Controle op kartonpagina &#x200B;](./assets/click-checkout.png){width="600" zoomable="yes"}
 
 1. Voer de vereiste contactgegevens en verzendgegevens in. U kunt fictieve informatie voor deze orde gebruiken.
 
-1. Om te controleren, uitgezochte [!UICONTROL **Controle/Geldorde**]. Als u een creditcard wilt gebruiken, gebruik één van de [ testkaarten die door PayPal ](https://developer.paypal.com/tools/sandbox/card-testing/#link-teststaticcardnumbers) worden verstrekt. U kunt deze gebruiken met om het even welke toekomstige vervaldatum en om het even welke CVC.
+1. Om te controleren, uitgezochte [!UICONTROL **Controle/Geldorde**]. Als u een creditcard wilt gebruiken, gebruik één van de [&#x200B; testkaarten die door PayPal &#x200B;](https://developer.paypal.com/tools/sandbox/card-testing/#link-teststaticcardnumbers) worden verstrekt. U kunt deze gebruiken met om het even welke toekomstige vervaldatum en om het even welke CVC.
 
-   ![ vorm van de Afhandeling met contact en het verschepen informatievelden ](./assets/enter-details.png){width="600" zoomable="yes"}
+   ![&#x200B; vorm van de Afhandeling met contact en het verschepen informatievelden &#x200B;](./assets/enter-details.png){width="600" zoomable="yes"}
 
-   ![ Vorm van de creditcardbetaling in kassa ](./assets/credit-card.png){width="600" zoomable="yes"}
+   ![&#x200B; Vorm van de creditcardbetaling in kassa &#x200B;](./assets/credit-card.png){width="600" zoomable="yes"}
 
 1. Klik [!UICONTROL **de Orde van de Plaats**].
 
@@ -79,17 +79,17 @@ Deze workflow laat zien hoe een klant een product kan kopen bij de winkel en hoe
 
 1. Navigeer aan [!UICONTROL **Verkoop**] > [!UICONTROL **Orders**].
 
-   ![ het net van Orden in Commerce Admin die recente orden tonen ](./assets/confirm-order.png){width="600" zoomable="yes"}
+   ![&#x200B; het net van Orden in Commerce Admin die recente orden tonen &#x200B;](./assets/confirm-order.png){width="600" zoomable="yes"}
 
 1. Zoek naar de orde u plaatste en bevestig de details.
 
-   ![ de detailpagina van de Orde met klant en productinformatie ](./assets/order-details.png){width="600" zoomable="yes"}
+   ![&#x200B; de detailpagina van de Orde met klant en productinformatie &#x200B;](./assets/order-details.png){width="600" zoomable="yes"}
 
 ## Stroominhoud bijwerken
 
 Inhoud rechtstreeks in de winkel maken, bewerken en publiceren.
 
-1. Open [ storefront ](./storefront.md) u in de eerste vereisten creeerde.
+1. Open [&#x200B; storefront &#x200B;](./storefront.md) u in de eerste vereisten creeerde.
 
 1. Open Store Builder. Door naar `https://da.live/#/<GitHub User Name>/<Repository Name>/main/da/index.md` te navigeren.
 
@@ -109,7 +109,7 @@ Met de functie voor contextafhankelijke experimenten van [!DNL Adobe Commerce] k
 
 ### Vereisten
 
-* Installeer de [ uitbreiding van AEM Sidekick ](https://www.aem.live/docs/sidekick)
+* Installeer de [&#x200B; uitbreiding van AEM Sidekick &#x200B;](https://www.aem.live/docs/sidekick)
 
 1. In Bouwer Storefront, selecteer uw indexpagina en klik [!UICONTROL **Exemplaar**].
 
@@ -119,7 +119,7 @@ Met de functie voor contextafhankelijke experimenten van [!DNL Adobe Commerce] k
 
 1. Plak de twee exemplaren van de indexpagina in de **1234** omslag.
 
-1. Open elke pagina en wijzig de naam van deze pagina in &quot;homev1&quot; en &quot;homev2&quot;. Dit zijn uw [ uitdagers ](https://www.aem.live/docs/experimentation#create-your-challenger-page).
+1. Open elke pagina en wijzig de naam van deze pagina in &quot;homev1&quot; en &quot;homev2&quot;. Dit zijn uw [&#x200B; uitdagers &#x200B;](https://www.aem.live/docs/experimentation#create-your-challenger-page).
 
 1. Wijzig elke pagina om verschillende inhoud op te nemen. Wijzig bijvoorbeeld de hoofdafbeelding of de tekst. U moet de verschillen tussen elke pagina kunnen identificeren.
 
@@ -138,7 +138,7 @@ Met de functie voor contextafhankelijke experimenten van [!DNL Adobe Commerce] k
       * `https://<your-site>.aem.live/experiments/1234/indexv1`
       * `https://<your-site>.aem.live/experiments/1234/indexv2`
 
-   ![ de blokconfiguratie van Metagegevens voor contextafhankelijke experimentatie ](./assets/metadata-block.png){width="600" zoomable="yes"}
+   ![&#x200B; de blokconfiguratie van Metagegevens voor contextafhankelijke experimentatie &#x200B;](./assets/metadata-block.png){width="600" zoomable="yes"}
 
 1. Open een incognito- of Private Browsing-venster en navigeer naar de hoofdpagina.
 
@@ -156,29 +156,29 @@ Met [!DNL AEM Assets] , [!DNL Adobe Express] en [!DNL Firefly] kunt u snel wijzi
 
 Overweeg een scenario waarin u de achtergrond van een productafbeelding snel wilt wijzigen. Met de combinatie van [!DNL Adobe Commerce] , [!DNL AEM Assets] en [!DNL Adobe Express] kunt u deze wijziging in een paar eenvoudige stappen voltooien.
 
-1. Open [ storefront ](./storefront.md) u in de eerste vereisten creeerde en aan een punt navigeert u wilt veranderen. Noteer de SKU- of productcode van de items.
+1. Open [&#x200B; storefront &#x200B;](./storefront.md) u in de eerste vereisten creeerde en aan een punt navigeert u wilt veranderen. Noteer de SKU- of productcode van de items.
 
-1. Open [!DNL AEM Assets], door het in [ Adobe Experience Cloud ](https://experience.adobe.com/#/home) te selecteren.
+1. Open [!DNL AEM Assets], door het in [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com/#/home) te selecteren.
 
-   ![[!DNL AEM Assets] kiezer die de [!DNL Adobe Experience Cloud] interface ](./assets/select-aem-assets.png){width="600" zoomable="yes"} weergeeft
+   ![[!DNL AEM Assets] kiezer die de [!DNL Adobe Experience Cloud] interface &#x200B;](./assets/select-aem-assets.png){width="600" zoomable="yes"} weergeeft
 
 1. Klik [!UICONTROL **Assets**].
 
-   ![ de navigatieoptie van Assets in [!DNL AEM Assets] interface ](./assets/click-assets.png){width="600" zoomable="yes"}
+   ![&#x200B; de navigatieoptie van Assets in [!DNL AEM Assets] interface &#x200B;](./assets/click-assets.png){width="600" zoomable="yes"}
 
 1. Onderzoek naar het punt door **SKU** of **Code van het Product**.
 
 1. Selecteer het punt u wilt uitgeven en [!UICONTROL **Open in Adobe Express**] klikken.
 
-   ![ Open in de optie van Adobe Express voor activa het uitgeven ](./assets/open-in-adobe-express.png){width="600" zoomable="yes"}
+   ![&#x200B; Open in de optie van Adobe Express voor activa het uitgeven &#x200B;](./assets/open-in-adobe-express.png){width="600" zoomable="yes"}
 
 1. In het [!UICONTROL **paneel van het Beeld**], uitgezochte [!UICONTROL **voorwerp van het Tussenvoegsel**].
 
-   ![ de objecten van het Tussenvoegsel optie in het paneel van het Beeld van Adobe Express ](./assets/insert-object.png){width="600" zoomable="yes"}
+   ![&#x200B; de objecten van het Tussenvoegsel optie in het paneel van het Beeld van Adobe Express &#x200B;](./assets/insert-object.png){width="600" zoomable="yes"}
 
 1. Beschrijf in het tekstvak de afbeelding die u wilt toevoegen. Bijvoorbeeld &quot;sneeuwpijnbomen&quot;.
 
-   ![ vakje van de Tekst voor het beschrijven van het beeld met AI te produceren ](./assets/insert-object-edit.png){width="600" zoomable="yes"}
+   ![&#x200B; vakje van de Tekst voor het beschrijven van het beeld met AI te produceren &#x200B;](./assets/insert-object-edit.png){width="600" zoomable="yes"}
 
 1. Pas de [!UICONTROL Brush size] aan en teken waar u de gegenereerde afbeelding wilt toevoegen. In dit voorbeeld tekent u rondom het bestaande object om de achtergrond te selecteren.
 
@@ -192,37 +192,37 @@ Overweeg een scenario waarin u de achtergrond van een productafbeelding snel wil
 
 1. Klik [!UICONTROL **sparen**] opnieuw om de veranderingen te bewaren.
 
-1. In [!UICONTROL **sparen activa**] dialoog, selecteer de omslag van de Bestemming van Commerce [!UICONTROL ****].
+1. In [!UICONTROL **sparen activa**] dialoog, selecteer de omslag van de Bestemming van Commerce [!UICONTROL **&#x200B;**].
 
-   ![ sparen activadialoog met geselecteerde de bestemmingsomslag van Commerce ](./assets/save-as-new-asset.png){width="600" zoomable="yes"}
+   ![&#x200B; sparen activadialoog met geselecteerde de bestemmingsomslag van Commerce &#x200B;](./assets/save-as-new-asset.png){width="600" zoomable="yes"}
 
 1. Klik [!UICONTROL **sparen als nieuwe activa**] om het beeld te bewaren.
 
 #### De afbeelding toevoegen aan [!DNL Commerce AEM Assets]
 
-1. Van het [ Comité van de Navigatie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel) van [!DNL AEM as a Cloud Service], uitgezochte [!UICONTROL **Assets**] > [!UICONTROL **Dossiers**] > [!UICONTROL **Commerce**] en klik de activa u in de vorige sectie creeerde.
+1. Van het [&#x200B; Comité van de Navigatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/basic-handling#navigation-panel) van [!DNL AEM as a Cloud Service], uitgezochte [!UICONTROL **Assets**] > [!UICONTROL **Dossiers**] > [!UICONTROL **Commerce**] en klik de activa u in de vorige sectie creeerde.
 
-   ![ de omslag van Commerce in [!DNL AEM Assets] met productbeelden ](./assets/commerce-folder.png){width="600" zoomable="yes"}
+   ![&#x200B; de omslag van Commerce in [!DNL AEM Assets] met productbeelden &#x200B;](./assets/commerce-folder.png){width="600" zoomable="yes"}
 
 1. Klik [!UICONTROL **Eigenschappen**].
 
-   ![ knoop van Eigenschappen in [!DNL AEM Assets] toolbar ](./assets/properties.png){width="600" zoomable="yes"}
+   ![&#x200B; knoop van Eigenschappen in [!DNL AEM Assets] toolbar &#x200B;](./assets/properties.png){width="600" zoomable="yes"}
 
 1. Selecteer het [!UICONTROL **Commerce**] lusje.
 
-   ![ het lusje van Commerce in activa eigenschappen paneel ](./assets/commerce-tab.png){width="600" zoomable="yes"}
+   ![&#x200B; het lusje van Commerce in activa eigenschappen paneel &#x200B;](./assets/commerce-tab.png){width="600" zoomable="yes"}
 
 1. Zorg ervoor dat [!UICONTROL **het in Adobe Commerce bestaat?**] gebied wordt geplaatst aan [!UICONTROL **ja**].
 
 1. Klik [!UICONTROL **toevoegen**] en ga productSKU in u de activa aan wilt toevoegen.
 
-   ![ voeg SKU voor het verbinden van activa aan product ](./assets/add-to-sku.png){width="600" zoomable="yes"} toe
+   ![&#x200B; voeg SKU voor het verbinden van activa aan product &#x200B;](./assets/add-to-sku.png){width="600" zoomable="yes"} toe
 
 1. Selecteer de positie voor het element en het type element.
 
 1. Selecteer het [!UICONTROL **Basis**] lusje en verander het [!UICONTROL **lusje van de Status van het Overzicht**] aan [!UICONTROL **Goedgekeurd**].
 
-   ![ drop-down van de Status van het Overzicht die aan Goedgekeurd op Basislusje ](./assets/approve-asset.png){width="600" zoomable="yes"} wordt geplaatst
+   ![&#x200B; drop-down van de Status van het Overzicht die aan Goedgekeurd op Basislusje &#x200B;](./assets/approve-asset.png){width="600" zoomable="yes"} wordt geplaatst
 
 1. Klik [!UICONTROL **sparen &amp; Sluiten**].
 
@@ -234,7 +234,7 @@ Overweeg een scenario waarin u de achtergrond van een productafbeelding snel wil
 
 1. Breid de [!UICONTROL **Beelden en de sectie van Video&#39;s**] uit.
 
-   ![ de sectie van Beelden en van Video&#39;s die in product het uitgeven ](./assets/images-and-videos.png){width="600" zoomable="yes"} wordt uitgebreid
+   ![&#x200B; de sectie van Beelden en van Video&#39;s die in product het uitgeven &#x200B;](./assets/images-and-videos.png){width="600" zoomable="yes"} wordt uitgebreid
 
 1. Controleer of de afbeelding nu beschikbaar is in de lijst met afbeeldingen.
 
@@ -242,7 +242,7 @@ Overweeg een scenario waarin u de achtergrond van een productafbeelding snel wil
 
 1. Controleer of de nieuwe afbeelding wordt weergegeven.
 
-   ![ pagina van het Product op storefront die het nieuwe geproduceerde beeld ](./assets/image-confirm.png){width="600" zoomable="yes"} tonen
+   ![&#x200B; pagina van het Product op storefront die het nieuwe geproduceerde beeld &#x200B;](./assets/image-confirm.png){width="600" zoomable="yes"} tonen
 
 ## Variaties genereren
 
@@ -250,7 +250,7 @@ Met de functie Variaties genereren van [!DNL Adobe Commerce] maakt u gebruik van
 
 ### Tekst genereren
 
-1. Open uw storefront plaats gebruikend de [ Universele Redacteur ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction).
+1. Open uw storefront plaats gebruikend de [&#x200B; Universele Redacteur &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction).
 
 1. Selecteer het tekstblok dat u wilt bewerken.
 
@@ -264,7 +264,7 @@ Met de functie Variaties genereren van [!DNL Adobe Commerce] maakt u gebruik van
 
 ### Inhoud en afbeeldingen genereren
 
-1. Openen [[!DNL Generate Variations] ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)
+1. Openen [[!DNL Generate Variations] &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)
 
 1. Selecteer het [!UICONTROL **malplaatje van de Banner van de Hero**].
 

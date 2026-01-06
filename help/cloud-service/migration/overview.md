@@ -1,30 +1,32 @@
 ---
 title: Migreren naar  [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe te aan  [!DNL Adobe Commerce as a Cloud Service] migreren.
+feature: Cloud
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
-source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
+level: Intermediate
+source-git-commit: 3fe22d47b6fd6cf1077cbd4644ffad08f55826ca
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3020'
 ht-degree: 0%
 
 ---
 
 # Migreren naar [!DNL Adobe Commerce as a Cloud Service]
 
-[!DNL Adobe Commerce as a Cloud Service] biedt een uitgebreide gids voor ontwikkelaars die van een bestaande Adobe Commerce PaaS-implementatie overstappen op het nieuwe Adobe Commerce as a Cloud Service-aanbod (SaaS). Adobe Commerce as a Cloud Service is een belangrijke stap op weg naar een volledig beheerd, versieloos SaaS-model, dat verbeterde prestaties, schaalbaarheid, vereenvoudigde bewerkingen en een strakkere integratie met de bredere Adobe Experience Cloud biedt.
+[!DNL Adobe Commerce as a Cloud Service] biedt een uitgebreide gids voor ontwikkelaars die van een bestaande Adobe Commerce PaaS-implementatie overstappen op het nieuwe Adobe Commerce as a Cloud Service-aanbod (SaaS). Adobe Commerce as a Cloud Service is een belangrijke stap op weg naar een volledig beheerd, versieloos SaaS-model, dat verbeterde prestaties, schaalbaarheid, vereenvoudigde bewerkingen en een strakkere integratie met het bredere [!DNL Adobe Experience Cloud] biedt.
 
 >[!NOTE]
 >
->Voor meer informatie over migratiehulpmiddel, zie het [&#x200B; Bulk Hulpmiddel van de Migratie van Gegevens &#x200B;](./bulk-data.md).
+>Voor meer informatie over migratiehulpmiddel, zie het [ Bulk Hulpmiddel van de Migratie van Gegevens ](./bulk-data.md).
 
 ## De verschuiving begrijpen - PaaS en SaaS vergelijken
 
 **Zeer belangrijke verschillen**
 
-* [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **PaaS (Huidige)**: Merchant beheert toepassingscode, verbeteringen, het patchen, infrastructuurconfiguratie binnen het ontvangen milieu van Adobe. [&#x200B; Gedeeld verantwoordelijkheidsmodel &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/security-and-compliance/shared-responsibility) voor de diensten (MySQL, Elasticsearch, en anderen).
-* [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} **SaaS (Nieuw - [!DNL Adobe Commerce as a Cloud Service])**: Adobe beheert volledig de kerntoepassing, de infrastructuur, en de updates. Merchants richten zich op aanpassing via rekbaarheidspunten (APIs, App Builder, UI SDKs). De code van de kerntoepassing is vergrendeld.
+* [!BADGE  PaaS slechts ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **PaaS (Huidige)**: Merchant beheert toepassingscode, verbeteringen, het patchen, infrastructuurconfiguratie binnen het ontvangen milieu van Adobe. [ Gedeeld verantwoordelijkheidsmodel ](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility) voor de diensten (MySQL, Elasticsearch, en anderen).
+* [!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} **SaaS (Nieuw - [!DNL Adobe Commerce as a Cloud Service])**: Adobe beheert volledig de kerntoepassing, de infrastructuur, en de updates. Merchants richten zich op aanpassing via rekbaarheidspunten (APIs, App Builder, UI SDKs). De code van de kerntoepassing is vergrendeld.
 
 **Architecturale implicaties**
 
@@ -35,10 +37,10 @@ ht-degree: 0%
 
 **Nieuwe tooling &amp; concepten**
 
-* [&#x200B; Adobe Developer App Builder &#x200B;](https://developer.adobe.com/app-builder/) en [&#x200B; API Net voor Adobe Developer App Builder &#x200B;](https://developer.adobe.com/graphql-mesh-gateway)
+* [ Adobe Developer App Builder ](https://developer.adobe.com/app-builder/) en [ API Net voor Adobe Developer App Builder ](https://developer.adobe.com/graphql-mesh-gateway)
 * [Commerce Optimizer](../../optimizer/overview.md)
-* [&#x200B; Edge Delivery Services &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-* Zelfbediening levering met de [&#x200B; Manager van Commerce Cloud &#x200B;](../getting-started.md#create-an-instance)
+* [ Edge Delivery Services ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+* Zelfbediening levering met de [ Manager van Commerce Cloud ](../getting-started.md#create-an-instance)
 
 ## Migratiepaden
 
@@ -48,11 +50,11 @@ Als alternatief voor een volledige migratie biedt [!DNL Adobe Commerce as a Clou
 
 * **Incrementele migratie** - Deze benadering impliceert het migreren van uw gegevens, aanpassingen, en integratie in stadia. Deze benadering is ideaal voor grote handelaren met veel aanpassingen die hun complexe aanpassingen en gegevens geleidelijk in hun eigen tempo naar [!DNL Adobe Commerce as a Cloud Service] willen overbrengen.
 
-![&#x200B; stijgende migratie &#x200B;](../assets/incremental.png){width="600" zoomable="yes"}
+![ stijgende migratie ](../assets/incremental.png){width="600" zoomable="yes"}
 
-* **Commerce Optimizer** - Deze benadering staat u toe om zich herhalend te migreren, door Commerce Optimizer als overgangsfase te gebruiken om complexe aanpassingen en gegevens aan [!DNL Adobe Commerce as a Cloud Service] bij uw eigen tempo te bewegen. Commerce Optimizer biedt toegang tot Merchandising Services, aangedreven door Catalog Views and Policies, Commerce Storefront van Edge Delivery en Product Visuals van AEM Assets.
+* **Commerce Optimizer** - Deze benadering staat u toe om zich herhalend te migreren, door Commerce Optimizer als overgangsfase te gebruiken om complexe aanpassingen en gegevens aan [!DNL Adobe Commerce as a Cloud Service] bij uw eigen tempo te bewegen. Commerce Optimizer biedt toegang tot Merchandising Services via Catalog Views and Policies, Commerce Storefront van Edge Delivery en [!DNL Product Visuals powered by AEM Assets] .
 
-![&#x200B; iteratieve migratie &#x200B;](../assets/optimizer.png){width="600" zoomable="yes"}
+![ iteratieve migratie ](../assets/optimizer.png){width="600" zoomable="yes"}
 
 * **Volledige migratie** - Deze benadering impliceert het migreren van alle gegevens, aanpassingen, en integratie in één keer. Deze benadering is ideaal voor kleinere handelaren met weinig aanpassingen die snel willen overschakelen op [!DNL Adobe Commerce as a Cloud Service] .
 
@@ -70,12 +72,12 @@ In de volgende tabel vindt u een overzicht van het migratieproces voor verschill
 
 Zoals aangegeven in de tabel, bestaan de verzachtende omstandigheden voor elke migratie uit:
 
-* **migratie van Gegevens** - Gebruikend verstrekt [&#x200B; migratiehulpmiddel &#x200B;](./bulk-data.md) om gegevens van uw bestaande instantie aan [!DNL Adobe Commerce as a Cloud Service] te migreren.
+* **migratie van Gegevens** - Gebruikend verstrekt [ migratiehulpmiddel ](./bulk-data.md) om gegevens van uw bestaande instantie aan [!DNL Adobe Commerce as a Cloud Service] te migreren.
 * **Storefront** - de Bestaande Storefronts van Commerce die door Edge Delivery worden aangedreven en headless storefronts vereisen geen matiging, maar de storefronten van de Luma vereisen migrerend aan Commerce Storefront die door Edge Delivery wordt aangedreven. PWA Studio-winkeliers kunnen worden gemigreerd naar Commerce Storefront, aangedreven door Edge Delivery, of in hun huidige staat worden onderhouden. Adobe zal versnellers leveren om hulp te bieden bij het migreren van winkeliers.
-* **[API Net &#x200B;](https://developer.adobe.com/graphql-mesh-gateway)** - creeer een nieuw net of wijzig bestaande. Adobe zal vooraf geconfigureerde netten beschikbaar stellen als hulp bij dit proces.
-* **Integraties** - Alle integraties moeten hefboomwerking of de [&#x200B; de startuitrusting van de integratieaanzet &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) of [[!DNL Adobe Commerce as a Cloud Service]  REST API &#x200B;](https://developer.adobe.com/commerce/webapi/reference/rest/saas/).
+* **[API Net ](https://developer.adobe.com/graphql-mesh-gateway)** - creeer een nieuw net of wijzig bestaande. Adobe zal vooraf geconfigureerde netten beschikbaar stellen als hulp bij dit proces.
+* **Integraties** - Alle integraties moeten hefboomwerking of de [ de startuitrusting van de integratieaanzet ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) of [[!DNL Adobe Commerce as a Cloud Service]  REST API ](https://developer.adobe.com/commerce/webapi/reference/rest/saas/).
 * **Aanpassingen** - Alle aanpassingen moeten zich aan het Net van App Builder en API bewegen.
-* **het Beheer van Assets** - Al activa beheer vereist migratie. Als u AEM Assets al gebruikt, is migratie niet nodig.
+* **het Beheer van Assets** - Al activa beheer vereist migratie. Als u [!DNL AEM Assets] al gebruikt, is migratie niet nodig.
 * **Uitbreidingen** - om het even welke in-proces uitbreidingen moeten als uit-van-procesuitbreidingen worden opnieuw gemaakt. Eind 2025 biedt Adobe toegang tot onze populairste extensies om de ontwikkeltijden te minimaliseren.
 
 ## Migratiefasen
@@ -163,11 +165,11 @@ Dit is een belangrijk eerste integratiepunt met twee opties voor het beheer van 
 
 **Hefboomwerking de bestaande dienst SaaS van de Catalogus die met achterste van PaaS** wordt geïntegreerd
 
-Deze optie dient als overgangsstap, voortbouwend op een bestaande integratie waar uw steun PaaS een bestaand geval van de dienst van Adobe Commerce SaaS met gegevens van de [&#x200B; catalogusdienst &#x200B;](../../catalog-service/guide-overview.md), [&#x200B; levend onderzoek &#x200B;](../../live-search/overview.md), en [&#x200B; productaanbevelingen &#x200B;](../../product-recommendations/overview.md) bevolkt.
+Deze optie dient als overgangsstap, voortbouwend op een bestaande integratie waar uw steun PaaS een bestaand geval van de dienst van Adobe Commerce SaaS met gegevens van de [ catalogusdienst ](../../catalog-service/guide-overview.md), [ levend onderzoek ](../../live-search/overview.md), en [ productaanbevelingen ](../../product-recommendations/overview.md) bevolkt.
 
 * **de gegevenssynchronisatie van de Catalogus**: Verzeker uw instantie van Adobe Commerce PaaS product en catalogusgegevens aan uw bestaande dienst van de Catalogus SaaS van Adobe Commerce blijft synchroniseren. Dit baseert zich typisch op gevestigde schakelaars of modules binnen uw instantie PaaS. De dienst van de Catalogus SaaS blijft de gebiedende bron voor onderzoek en het verhandelen functies, die zijn gegevens uit uw steun PaaS afleiden.
 * **API Net voor optimalisering**: Terwijl de hoofdloze opslag (op Edge Delivery Services) en andere diensten gegevens van de dienst van de Catalogus SaaS direct konden verbruiken, adviseert Adobe hoogst gebruikend API Net (binnen App Builder). API Mesh kan APIs van de dienst van Catalog SaaS met andere noodzakelijke APIs van uw backend van PaaS (bijvoorbeeld, voorraadcontroles in real time van het transactionele gegevensbestand of de attributen van het douaneproduct niet volledig die aan de dienst van Catalog SaaS worden herhaald) verenigen in één enkel, presterend GraphQL eindpunt. Dit staat ook voor gecentraliseerde caching, authentificatie, en reactietransformatie toe.
-* **integreer Levende Onderzoek en de Aanbevelingen van het Product**: Vorm Levende Onderzoek en de diensten SaaS van de Aanbevelingen van het Product aan [&#x200B; direct catalogusgegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/live-search/install#configure-the-data) van uw bestaande dienst van Adobe Commerce Catalog SaaS, die beurtelings door uw achterste van PaaS bevolkt is.
+* **integreer Levende Onderzoek en de Aanbevelingen van het Product**: Vorm Levende Onderzoek en de diensten SaaS van de Aanbevelingen van het Product aan [ direct catalogusgegevens ](https://experienceleague.adobe.com/en/docs/commerce/live-search/install#configure-the-data) van uw bestaande dienst van Adobe Commerce Catalog SaaS, die beurtelings door uw achterste van PaaS bevolkt is.
 
 **Voordeel**: Dit verstrekt een snellere weg aan een headless storefront en geavanceerde SaaS handelend eigenschappen door de bestaande en operationele dienst van Catalog SaaS en zijn integratiepijpleiding met uw backend van PaaS leveraging. Het blijft echter afhankelijk van de PaaS-backend voor de primaire bron van catalogusgegevens en biedt niet de samenvoegingsmogelijkheden met meerdere bronnen die inherent zijn aan het nieuwe Composable Catalog Data Model. Deze optie is een geldige opstap naar een vollediger composable architectuur.
 
@@ -218,7 +220,7 @@ De migratie van gegevens is een kritiek en veelzijdig proces dat gelijktijdig me
 
 De bulkgegevensmigratie impliceert het nemen van een volledige gegevensstortplaats van uw instantie Adobe Commerce PaaS, die volledige dataset transformeert, en het invoert in Adobe Commerce as a Cloud Service allen in één keer. Deze methode wordt doorgaans gebruikt voor de initiële populatie van gegevens.
 
-* **Tooling beschikbaarheid**: De specifieke [&#x200B; tooling van de bulkgegevensmigratie &#x200B;](./bulk-data.md) voor klantengebruik voor de bulkgegevensmigraties van eerste-partij Commerce zal door verzoek halverwege juli 2025 beschikbaar zijn. Als klanten vooraf hulp nodig hebben bij het migreren van bulkgegevens, kan Adobe de gegevensoverdracht namens hen op verzoek vergemakkelijken.
+* **Tooling beschikbaarheid**: De specifieke [ tooling van de bulkgegevensmigratie ](./bulk-data.md) voor klantengebruik voor de bulkgegevensmigraties van eerste-partij Commerce zal door verzoek halverwege juli 2025 beschikbaar zijn. Als klanten vooraf hulp nodig hebben bij het migreren van bulkgegevens, kan Adobe de gegevensoverdracht namens hen op verzoek vergemakkelijken.
 
 * **Proces**:
    * **Volledige gegevensuitvoer**: Extraheer een volledige dataset van uw instantie van Adobe Commerce PaaS (bijvoorbeeld, producten, categorieën, klantenrekeningen, historische ordegegevens, statische blokken, en paginainhoud).

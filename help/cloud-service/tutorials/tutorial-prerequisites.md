@@ -1,12 +1,14 @@
 ---
 title: Voorwaarden voor de zelfstudie over de uitbreiding van classificaties
 description: Leer de eerste vereisten voor het laboratorium van de classificatieuitbreiding.
+feature: App Builder, Cloud
 role: Developer
+level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: c160632905631949c9503ceaf896b47e7a71fe55
+source-git-commit: 4ca909c2f8f95fbc404ce6a745d769958b2c01f4
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -17,7 +19,7 @@ ht-degree: 0%
 >
 >De AI-gereedschappen die in deze zelfstudie worden gebruikt, bevinden zich momenteel in Beta en kunnen bugs of andere problemen bevatten.
 
-Deze pagina maakt een lijst van de eerste vereisten en opstellingsstappen voor leerprogramma&#39;s gebruikend [!DNL Adobe Commerce as a Cloud Service], zoals het [&#x200B; leerprogramma van de classificatieuitbreiding &#x200B;](./ratings-extension.md).
+Deze pagina maakt een lijst van de eerste vereisten en opstellingsstappen voor [!DNL Adobe Commerce as a Cloud Service] leerprogramma&#39;s, zoals het [ leerprogramma van de classificatieuitbreiding ](./ratings-extension.md).
 
 ## Adobe Commerce as a Cloud Service-voorwaarden
 
@@ -27,42 +29,42 @@ Deze pagina maakt een lijst van de eerste vereisten en opstellingsstappen voor l
   npm install -g @adobe/aio-cli
   ```
 
-* Installeer [&#x200B; Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce), [&#x200B; Adobe I/O CLI Runtime &#x200B;](https://github.com/adobe/aio-cli-plugin-runtime), en [&#x200B; App Builder CLI &#x200B;](https://github.com/adobe/aio-cli-plugin-app-dev) stoppen:
+* Installeer [ Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce), [ Adobe I/O CLI Runtime ](https://github.com/adobe/aio-cli-plugin-runtime), en [ App Builder CLI ](https://github.com/adobe/aio-cli-plugin-app-dev) stoppen:
 
   ```bash
   aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
   ```
 
-* Download AI-bijgewoonde winde, zoals [&#x200B; Cursor &#x200B;](https://cursor.com/download) (geadviseerd), andere IDEs, zoals de Code van Claude, Gemini CLI, of Copilot wordt ook gesteund, maar kon wijzigingen in de herinneringen en andere stappen in het leerprogramma vereisen.
+* Download AI-bijgewoonde winde, zoals [ Cursor ](https://cursor.com/download) (geadviseerd), andere IDEs, zoals de Code van Claude, Gemini CLI, of Copilot wordt ook gesteund, maar kon wijzigingen in de herinneringen en andere stappen in het leerprogramma vereisen.
 
 ### Adobe Developer Console-voorwaarden
 
-1. Navigeer aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console){target="_blank"}.
+1. Navigeer aan [ Adobe Developer Console ](https://developer.adobe.com/console){target="_blank"}.
 1. Meld u aan met uw e-mail en wachtwoord.
 
 #### Een nieuw project maken
 
-1. Navigeer aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
+1. Navigeer aan [ Adobe Developer Console ](https://developer.adobe.com/).
 1. Klik [!UICONTROL **creeer project van een malplaatje**].
 1. Selecteer het [!UICONTROL **App Builder**] malplaatje.
 1. Ga Titel van het a [!UICONTROL **Project**] in en [!UICONTROL **App Naam**].
 1. Controleer of het selectievakje **[!UICONTROL Include Runtime]** is gemarkeerd.
 
-   ![&#x200B; creeer project met het malplaatje van App Builder &#x200B;](../assets/app-builder-template.png){width="600" zoomable="yes"}
+   ![ Adobe Developer Console project verwezenlijking met het geselecteerde malplaatje van App Builder ](../assets/app-builder-template.png){width="600" zoomable="yes"}
 
-1. Klik **sparen**.
+1. Klik [!UICONTROL **sparen**].
 
 #### API&#39;s toevoegen aan de werkruimte
 
 1. Klik de [!UICONTROL **werkruimte van het Stadium**] en herhaal dan de volgende stappen voor elke API.
 
-   ![&#x200B; APIs toegevoegd aan werkruimte &#x200B;](../assets/add-apis-workspace.png){width="600" zoomable="yes"}
+   ![ werkruimte van het Stadium met Add de optie van de Dienst voor APIs ](../assets/add-apis-workspace.png){width="600" zoomable="yes"}
 
 1. Klik [!UICONTROL **toevoegen de Dienst**] en selecteren [!UICONTROL **API**].
 
 1. Selecteer een van de volgende API&#39;s. U moet dit proces voor elke API herhalen die hieronder wordt vermeld:
 
-   * [!UICONTROL **filter van de Diensten van 0&rbrace; Adobe &lbrace;:**]
+   * [!UICONTROL **filter van de Diensten van 0} Adobe {:**]
       * [!UICONTROL **I/O Beheer API**]
       * [!UICONTROL **I/O Gebeurtenissen**] API
    * [!UICONTROL **Experience Cloud**] filter:
@@ -74,7 +76,7 @@ Deze pagina maakt een lijst van de eerste vereisten en opstellingsstappen voor l
 
 1. Herhaal de vorige stappen totdat alle API&#39;s zijn toegevoegd aan de werkruimte.
 
-   ![&#x200B; APIs toegevoegd aan werkruimte &#x200B;](../assets/apis-added.png){width="600" zoomable="yes"}
+   ![ Workspace die alle vereiste met succes toegevoegde APIs tonen ](../assets/apis-added.png){width="600" zoomable="yes"}
 
 ### De Adobe I/O CLI configureren
 
@@ -104,7 +106,7 @@ Deze pagina maakt een lijst van de eerste vereisten en opstellingsstappen voor l
    aio console workspace select
    ```
 
-   ![&#x200B; CLI configuratie &#x200B;](../assets/cli-configuration.png){width="600" zoomable="yes"}
+   ![ Eind die Adobe I/O CLI organisatieproject en werkruimteselectie tonen ](../assets/cli-configuration.png){width="600" zoomable="yes"}
 
 ### De integratiestartkit klonen
 
@@ -115,7 +117,7 @@ git clone https://github.com/adobe/commerce-integration-starter-kit.git extensio
 cd extension
 ```
 
-![&#x200B; Kloonstarterkit &#x200B;](../assets/clone-starter-kit.png){width="600" zoomable="yes"}
+![ Eind output die het bevel van de kloonkloon voor de de integratiestarterkit van Commerce tonen ](../assets/clone-starter-kit.png){width="600" zoomable="yes"}
 
 ### Een .env-bestand maken
 
@@ -135,9 +137,9 @@ OAUTH_TECHNICAL_ACCOUNT_EMAIL=
 OAUTH_ORG_ID=
 ```
 
-U kunt deze waarden van de **[!UICONTROL Credential details]** pagina in [&#x200B; Developer Console &#x200B;](https://developer.adobe.com/) kopiëren door het **[!UICONTROL OAuth Server-to-Server]** lusje op uw werkruimte te klikken.
+U kunt deze waarden van de **[!UICONTROL Credential details]** pagina in [ Developer Console ](https://developer.adobe.com/) kopiëren door het **[!UICONTROL OAuth Server-to-Server]** lusje op uw werkruimte te klikken.
 
-![&#x200B; OAuth geloofsbrieven &#x200B;](../assets/oauth-credentials.png){width="600" zoomable="yes"}
+![ OAuth Server-aan-Server geloofsbrieven pagina in Adobe Developer Console ](../assets/oauth-credentials.png){width="600" zoomable="yes"}
 
 #### De Commerce-configuratie toevoegen
 
@@ -150,7 +152,7 @@ COMMERCE_GRAPHQL_ENDPOINT=
 
 U kunt als volgt de volgende waarden vinden:
 
-1. Navigeer aan [&#x200B; instanties van de Dienst van Commerce Cloud &#x200B;](https://experience.adobe.com/#/@commerce/commerce/cloud-service/instances).
+1. Navigeer aan [ instanties van de Dienst van Commerce Cloud ](https://experience.adobe.com/#/@commerce/commerce/cloud-service/instances).
 1. Klik op het informatiepictogram naast de instantie.
 1. Kopieer het REST-eindpunt als `COMMERCE_BASE_URL` .
 1. Kopieer het GraphQL-eindpunt als `COMMERCE_GRAPHQL_ENDPOINT` .
@@ -185,7 +187,7 @@ Koppel uw lokale project aan de externe werkruimte:
 aio app use workspace.json -m
 ```
 
-![&#x200B; verbind met werkruimte &#x200B;](../assets/connect-workspace.png){width="600" zoomable="yes"}
+![ Eind die succesvolle werkruimteverbinding tonen met het bevel van het de toepassingsgebruik van de lucht ](../assets/connect-workspace.png){width="600" zoomable="yes"}
 
 ### Uitbreidbare AI-gereedschappen installeren
 
@@ -201,7 +203,7 @@ Werk het bestand met cursorregels en de MCP-configuratie bij om het `commerce-ex
    aio commerce extensibility tools-setup
    ```
 
-   ![&#x200B; installeer AI hulpmiddelen &#x200B;](../assets/install-ai-tools.png){width="600" zoomable="yes"}
+   ![ Eind die AI de output van het bevel van de de opstellingsbevelopstelling van uitbreidingshulpmiddelen tonen ](../assets/install-ai-tools.png){width="600" zoomable="yes"}
 <!--
 ## Storefront prerequisites
 

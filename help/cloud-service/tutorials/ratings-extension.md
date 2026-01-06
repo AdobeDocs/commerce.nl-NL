@@ -1,12 +1,14 @@
 ---
 title: Zelfstudie over het verlengen van beoordelingen
 description: Leer hoe u een productrating-extensie maakt voor Adobe Commerce as a Cloud Service met App Builder en AI-hulpmiddelen voor ontwikkeling.
+feature: App Builder, Cloud
 role: Developer
+level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: c160632905631949c9503ceaf896b47e7a71fe55
+source-git-commit: 4ca909c2f8f95fbc404ce6a745d769958b2c01f4
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -19,7 +21,7 @@ ht-degree: 0%
 
 Deze zelfstudie begeleidt u bij het maken van een productrating-extensie voor [!DNL Adobe Commerce as a Cloud Service] gebruik van [!DNL Adobe App Builder] - en AI-ontwikkelingsprogramma&#39;s.
 
-Alvorens u begint, voltooi de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md).
+Alvorens u begint, voltooi de [ eerste vereisten ](./tutorial-prerequisites.md).
 
 ## Voorwaarden verifiëren
 
@@ -39,29 +41,29 @@ git --version
 bash --version
 ```
 
-Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, zie de [&#x200B; eerste vereisten &#x200B;](tutorial-prerequisites.md) voor begeleiding.
+Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [ eerste vereisten ](tutorial-prerequisites.md) voor begeleiding.
 
 ## Uitbreiding
 
-Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Adobe Commerce as a Cloud Service te ontwikkelen gebruikend de hulp van AI ontwikkelingshulpmiddelen.
+In deze sectie vindt u instructies voor het ontwikkelen van een extensie voor beoordelingen voor Adobe Commerce as a Cloud Service met behulp van ontwikkelingstools voor AI.
 
 1. Navigeer naar **[!UICONTROL Cursor]** > **[!UICONTROL Settings]** > **[!UICONTROL Cursor Settings]** > **[!UICONTROL Tools & MCP]** en controleer of de gereedschapset `commerce-extensibility` zonder fouten is ingeschakeld. Als er fouten optreden, schakelt u de gereedschapset in en uit.
 
-   ![&#x200B; montages van de Curseur &#x200B;](../assets/cursor-settings.png){width="600" zoomable="yes"}
+   ![ de montages van winde van de Curseur die MCP handel-rekbaarheid toegelaten toolset tonen ](../assets/cursor-settings.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Als u werkt met ontwikkelprogramma&#39;s voor AI-toepassingen, zijn er natuurlijke variaties in de code en de reacties die door de agent worden gegenereerd.
+   >Als u werkt met ontwikkelprogramma&#39;s voor AI, verwacht u natuurlijke variaties in de code en reacties die door de agent worden gegenereerd.
    >Als u om het even welke kwesties met uw code ontmoet, kunt u altijd de agent vragen om u te helpen het zuiveren.
 
 1. Als u documentatie hebt toegevoegd aan de context van de Cursor, maak het onbruikbaar:
 
    - Navigeer aan [!UICONTROL **Curseur**] > [!UICONTROL **Montages**] > [!UICONTROL **de Montages van de Curseur**] > [!UICONTROL **Indexeren &amp; Dokken**] en schrap om het even welke vermelde documentatie.
 
-   ![&#x200B; maak documentatie &#x200B;](../assets/disable-documentation.png){width="600" zoomable="yes"} onbruikbaar
+   ![ Curseur het indexeren en docs montages met lege documentatielijst ](../assets/disable-documentation.png){width="600" zoomable="yes"}
 
 1. Code genereren voor een extensie voor productbeoordelingen:
-   - Van Curseur het curseurpraatje windiow, uitgezochte **wijze van de Agent**.
+   - Van het venster van het het praatje van de Curseur, uitgezochte [!UICONTROL **wijze van de Agent van 0}.**]
    - Voer de volgende vraag in:
 
    ```shell-session
@@ -80,9 +82,9 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
 1. Beantwoord de vragen van de agent precies om het te helpen de beste code produceren.
 
-   ![&#x200B; ga herinnering in Curseur &#x200B;](../assets/enter-prompt.png){width="600" zoomable="yes"} binnen
+   ![ het praatjevenster van de Curseur op de wijze van de Agent met ingevoerde uitbreidingsherinnering ](../assets/enter-prompt.png){width="600" zoomable="yes"}
 
-   ![&#x200B; de Agent vraagt het verduidelijken vragen &#x200B;](../assets/agent-questions.png){width="600" zoomable="yes"}
+   ![ AI agent die vragen die over uitbreidingsvereisten verduidelijken ](../assets/agent-questions.png){width="600" zoomable="yes"}
 
 1. Gebruik de volgende voorbeeldtekst om de vragen van de agent aan opstellings willekeurig gevormde classificatiegegevens te beantwoorden:
 
@@ -90,7 +92,7 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
    Yes, this headless extension is for Adobe Commerce as a Cloud Service storefront,
    but we do not need any authentication for the GET API because guest users should be able to use it on the storefront.
    
-   This extension will be called directly from the storefront, no async invocation, such as events or webhooks, is required.
+   This extension is called directly from the storefront, no async invocation, such as events or webhooks, is required.
    
    Start with just the GET API for now, we will implement other CRUD operations at a later time.
    
@@ -102,7 +104,7 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
    De agent maakt een `requirements.md` -bestand dat als bron van waarheid voor de implementatie fungeert.
 
-   ![&#x200B; gecreeerd dossier van Vereisten &#x200B;](../assets/requirements-file.png){width="600" zoomable="yes"}
+   ![ Requirements.md- dossier dat door AI agent met implementatiedetails ](../assets/requirements-file.png){width="600" zoomable="yes"} wordt gecreeerd
 
 1. Controleer het `requirements.md` -bestand en verifieer het plan.
 
@@ -112,11 +114,11 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
    De agent produceert de noodzakelijke code en verstrekt een gedetailleerde samenvatting met uw volgende stappen.
 
-   ![&#x200B; Architectuur planning &#x200B;](../assets/architecture-planning.png){width="600" zoomable="yes"}
+   ![ AI de architectuurplan van de agentenfase 2 voor classificaties API ](../assets/architecture-planning.png){width="600" zoomable="yes"}
 
-   ![&#x200B; Overzicht van de generatie van de Code &#x200B;](../assets/code-generation-summary.png){width="600" zoomable="yes"}
+   ![ Samenvatting van geproduceerde codedossiers en structuur ](../assets/code-generation-summary.png){width="600" zoomable="yes"}
 
-   ![&#x200B; Volgende stappen &#x200B;](../assets/next-steps.png){width="600" zoomable="yes"}
+   ![ AI agent die volgende stappen voor het testen en plaatsing verstrekt ](../assets/next-steps.png){width="600" zoomable="yes"}
 
 ### Lokale tests
 
@@ -128,9 +130,9 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
 1. Volg de instructies van de agent en bevestig dat de API lokaal werkt.
 
-   ![&#x200B; Lokale het testen &#x200B;](../assets/local-testing.png){width="600" zoomable="yes"}
+   ![ AI agenteninstructies voor lokale API het testen ](../assets/local-testing.png){width="600" zoomable="yes"}
 
-   ![&#x200B; Lokale testende resultaten &#x200B;](../assets/local-testing-1.png){width="600" zoomable="yes"}
+   ![ Eind die succesvolle lokale API testresultaten met cURL tonen ](../assets/local-testing-1.png){width="600" zoomable="yes"}
 
 ### De extensie implementeren
 
@@ -142,19 +144,19 @@ Deze sectie begeleidt u door het proces om een classificatieuitbreiding voor Ado
 
    De agent voert een pre-plaatsingsklaar beoordeling uit alvorens op te stellen.
 
-   ![&#x200B; pre-plaatsingsbeoordeling &#x200B;](../assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
+   ![ AI agent pre-plaatsing controlelist van de de hulpmiddelenbeoordeling ](../assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
 
 1. Wanneer u met de beoordelingsresultaten vertrouwd bent, instrueer de agent om met plaatsing te werk te gaan.
 
    De agent gebruikt toolkit MCP om, automatisch te verifiëren en op te stellen.
 
-   ![&#x200B; Plaatsing &#x200B;](../assets/deployment-process.png){width="600" zoomable="yes"}
+   ![ MCP toolkit ijkverificatie bouwt en plaatsingsproces ](../assets/deployment-process.png){width="600" zoomable="yes"}
 
 ### Post-implementatie
 
 U kunt de API testen voordat u deze integreert in de winkel. De agent moet de locatie van de nieuwe actie en een teststrategie opgeven.
 
-![&#x200B; het Testen strategie &#x200B;](../assets/testing-strategy.png){width="600" zoomable="yes"}
+![ AI agent testende strategie met opgestelde actie URL en testbevelen ](../assets/testing-strategy.png){width="600" zoomable="yes"}
 
 U kunt de API ook handmatig testen met cURL in een terminal:
 
@@ -162,7 +164,7 @@ U kunt de API ook handmatig testen met cURL in een terminal:
 curl -s "https://<your-site>.adobeioruntime.net/api/v1/web/ratings/ratings?sku=TEST-SKU-123"
 ```
 
-![&#x200B; cURL test &#x200B;](../assets/curl-test.png){width="600" zoomable="yes"}
+![ Eind die succesvolle cURL test van opgestelde classificaties API tonen ](../assets/curl-test.png){width="600" zoomable="yes"}
 
 ### Integreren met Edge Delivery Services
 
@@ -172,9 +174,9 @@ Als u de API voor classificaties wilt integreren met een [!DNL Adobe Commerce] s
 Create a service contract for the ratings api that I can pass on to the storefront agent. Name it RATINGS_API_CONTRACT.md
 ```
 
-![&#x200B; contract van de Dienst &#x200B;](../assets/create-contract.png){width="600" zoomable="yes"}
+![ AI agent die het dossier van het de dienstcontract voor storefront integratie creeert ](../assets/create-contract.png){width="600" zoomable="yes"}
 
-![&#x200B; de contractdetails van de Dienst &#x200B;](../assets/contract.png){width="600" zoomable="yes"}
+![ het contractonderdrukkingsdossier van de Verlagingen API met eindpunt en reactiedetails ](../assets/contract.png){width="600" zoomable="yes"}
 <!-- 
 Return to the terminal and run the following command in the `extension` folder to copy the file to the `storefront` folder:
 
@@ -246,7 +248,7 @@ This section teaches you how to implement real storefront features and communica
    You should see the following changes in your development environment and browser:
 
    * A product rating "component" is automatically created.
-   * The component is integrated into product-details, product-list-page, and product-recommendations blocks using [dropin slots](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots?lang=nl-NL).
+   * The component is integrated into product-details, product-list-page, and product-recommendations blocks using [dropin slots](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots).
    * Stars display with proper fill proportions based on mock rating values.
 
 ![Product Ratings Implementation](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}

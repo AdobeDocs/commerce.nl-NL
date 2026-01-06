@@ -1,22 +1,24 @@
 ---
 title: AI-coderingsgereedschappen voor extensies
 description: Leer hoe u de AI-gereedschappen gebruikt om Commerce App Builder-extensies te maken.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+feature: App Builder, Cloud
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
+level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: d2f2563a1f3a656d7bfaa12a0c3ca2b828e7fc33
+source-git-commit: 991a8683b9a333d2699f1ef22f3dc54d7b401573
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
 
 # AI-coderingsgereedschappen voor extensies
 
-Wanneer u naar [!DNL Adobe Commerce as a Cloud Service] migreert, kunt u de AI-coderingsgereedschappen gebruiken om bestaande [!DNL Adobe Commerce] PHP-extensies om te zetten in [!DNL Adobe Developer App Builder] -extensies. Deze kan ook worden gebruikt om nieuwe [!DNL App Builder] extensies te maken.
+Wanneer u naar [!DNL Adobe Commerce as a Cloud Service] migreert, kunt u de AI-coderingsgereedschappen gebruiken om bestaande [!DNL Adobe Commerce] PHP-extensies om te zetten in [!DNL Adobe Developer App Builder] -extensies. U kunt deze gereedschappen ook gebruiken om nieuwe [!DNL App Builder] -extensies te maken.
 
-Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
+De AI-coderingsgereedschappen bieden de volgende voordelen:
 
 * **Verbeterde ontwikkelingswerkschema**: Geïntegreerde de ontwikkelingshulpmiddelen van Adobe Commerce.
 * **op AI-Gerichte hulp**: Contextbewuste codegeneratie en het zuiveren.
@@ -26,21 +28,21 @@ Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
 ## Vereisten
 
 * Een van de volgende coderingsagents:
-   * [&#x200B; Curseur &#x200B;](https://cursor.com/download) (geadviseerd)
-   * [&#x200B; Github Copilot &#x200B;](https://github.com/features/copilot)
-   * [&#x200B; Google Gemini CLI &#x200B;](https://github.com/google-gemini/gemini-cli)
-   * [&#x200B; Claude Code &#x200B;](https://www.claude.com/product/claude-code)
-* [&#x200B; Node.js &#x200B;](https://nodejs.org/en/download): De versie van LTS
-* De Manager van het pakket: [&#x200B; npm &#x200B;](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [&#x200B; garen &#x200B;](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
-* [&#x200B; Git &#x200B;](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
+   * [ Curseur ](https://cursor.com/download) (geadviseerd)
+   * [ Github Copilot ](https://github.com/features/copilot)
+   * [ Google Gemini CLI ](https://github.com/google-gemini/gemini-cli)
+   * [ Claude Code ](https://www.claude.com/product/claude-code)
+* [ Node.js ](https://nodejs.org/en/download): De versie van LTS
+* De Manager van het pakket: [ npm ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [ garen ](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* [ Git ](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
 
 ## Installatie
 
 >[!NOTE]
 >
->Als u slechts de dienst van de Documentatie RAG en niet het volledige AI coderingshulpmiddelenpakket wilt installeren, zie {de dienst van de RAG van de Documentatie 1}.[&#128279;](./doc-rag.md)
+>Als u slechts de dienst van de Documentatie RAG en niet het volledige AI coderingshulpmiddelenpakket wilt installeren, zie {de dienst van de RAG van de Documentatie 1}.[](./doc-rag.md)
 
-1. Installeer de recentste [&#x200B; CLI van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli) globaal:
+1. Installeer de recentste [ CLI van Adobe I/O ](https://github.com/adobe/aio-cli) globaal:
 
    ```bash
    npm install -g @adobe/aio-cli
@@ -48,15 +50,15 @@ Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
 
 1. Installeer de volgende plug-ins:
 
-   * [&#x200B; Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
-   * [&#x200B; CLI Runtime van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli-plugin-runtime)
-   * [&#x200B; App Builder CLI &#x200B;](https://github.com/adobe/aio-cli-plugin-app-dev)
+   * [ Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
+   * [ CLI Runtime van Adobe I/O ](https://github.com/adobe/aio-cli-plugin-runtime)
+   * [ App Builder CLI ](https://github.com/adobe/aio-cli-plugin-app-dev)
 
    ```bash
    aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
    ```
 
-1. Kloon de de integratiestarterkit van Commerce [&#x200B; &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
+1. Kloon de de integratiestarterkit van Commerce [ ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
 
    ```bash
    git clone git@github.com:adobe/commerce-integration-starter-kit.git
@@ -74,7 +76,7 @@ Het gebruik van de AI-coderingsgereedschappen biedt de volgende voordelen:
    aio commerce extensibility tools-setup
    ```
 
-Tijdens het installatieproces worden configuratieopties weergegeven. Kies voor de installatielocatie de optie &quot;Huidige map&quot; om de gereedschappen in de huidige werkruimte te installeren:
+Het installatieproces vraagt u om configuratieopties. Kies voor de installatielocatie de optie &quot;Huidige map&quot; om de gereedschappen in de huidige werkruimte te installeren:
 
 ```shell-session
 ? Where would you like to setup the tools?
@@ -122,15 +124,15 @@ Als Adobe pakketbeheer selecteert, wordt u aangeraden `npm` te gebruiken voor co
 >
 >Alvorens uw project op te stellen, zult u de volgende configuratietaken moeten voltooien:
 >
->* Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
->* Creeer een project van App Builder (zie [&#x200B; de opstelling van het Project &#x200B;](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
+>* Login aan [ Adobe Developer Console ](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
+>* Creeer een project van App Builder (zie [ de opstelling van het Project ](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
 >* Omgevingsvariabelen instellen in een `.env` -bestand.
 >
->U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [&#x200B; een integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
+>U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [ een integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
 
 ## Configuratie na installatie
 
-### Aanmelden bij de [!DNL Adobe I/O CLI]
+### Aanmelden bij de Adobe I/O CLI
 
 Nadat u [!DNL Adobe I/O CLI] hebt geïnstalleerd, moet u zich op elk gewenst moment aanmelden bij de MCP-server.
 
@@ -193,9 +195,9 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 1. Schakel de MCP-server in:
 
    * Open het Comité van Uitbreidingen door het **pictogram van Uitbreidingen** in de bar van de Activiteit op linkerzijbalk te klikken of door **Cmd+Shift+X** (macOs) of **Ctrl+Shift+X** (Vensters en Linux) te gebruiken.
-   * Klik **MCP SERVERS - GEÏNSTALLEERD**.
-   * Klik het tandwielpictogram naast **handel-rekbaarheid MCP Server** en selecteer **de Server van het Begin**, als de server wordt tegengehouden.
-   * Klik opnieuw het tandwielpictogram, en selecteer **tonen Output**.
+   * Klik [!UICONTROL **MCP SERVERS - GEÏNSTALLEERD**].
+   * Klik het tandwielpictogram naast [!UICONTROL **handel-rekbaarheid MCP Server**] en selecteer [!UICONTROL **de Server van het Begin**], als de server wordt tegengehouden.
+   * Klik opnieuw het tandwielpictogram, en selecteer [!UICONTROL **tonen Output**].
 
 1. Controleer de serverstatus. De uitvoer van `MCP:commerce-extensibility` moet overeenkomen met het volgende:
 
@@ -253,7 +255,7 @@ Voordat u een ontwikkelingssessie start:
 
 Tijdens de ontwikkeling:
 
-* Vertrouw het vier-fase [&#x200B; protocol &#x200B;](#protocol)
+* Vertrouw het vier-fase [ protocol ](#protocol)
 * Implementatieplannen aanvragen voor complexe ontwikkeling
 * MCP-gereedschappen gebruiken indien beschikbaar
 * Elke functie na implementatie testen
@@ -277,10 +279,10 @@ Hierdoor kunt u ook Adobe-sjablonen gebruiken en bouwen op beproefde patronen en
 
 Raadpleeg de volgende bronnen om aan de slag te gaan:
 
-* [&#x200B; Startuitrusting van de Integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
-* [&#x200B; Adobe Commerce starter kit malplaatjes &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
-* [&#x200B; de steekproeftoepassingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
+* [ Startuitrusting van de Integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
+* [ Adobe Commerce starter kit malplaatjes ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
+* [ de aanzetmalplaatjes van Adobe I/O Events ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [ de steekproeftoepassingen van App Builder ](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### Waarom u deze middelen zou moeten gebruiken
 
@@ -306,7 +308,7 @@ Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensyst
 
 ### Implementatieplannen aanvragen voor complexe ontwikkeling
 
-Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [&#x200B; Fase 2 &#x200B;](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
+Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [ Fase 2 ](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
 
 ```shell-session
 Create a detailed implementation plan for this complex development.
@@ -324,9 +326,9 @@ Complexe Adobe Commerce-extensies hebben vaak betrekking op:
 
 >[!NOTE]
 >
->Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [&#x200B; aan Adobe I/O CLI &#x200B;](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
+>Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [ aan Adobe I/O CLI ](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
 
-Het hulpmiddel blijft aan hulpmiddelen MCP in gebreke, maar in bepaalde omstandigheden, kan het bevelen CLI in plaats daarvan gebruiken. Als u MCP hulpmiddelgebruik wilt verzekeren, uitdrukkelijk verzoek hen in uw herinnering.
+Het gereedschap is standaard ingesteld op MCP-gereedschappen, maar in bepaalde omstandigheden kan het in plaats daarvan CLI-opdrachten gebruiken. Om MCP hulpmiddelgebruik te verzekeren, verzoek uitdrukkelijk hen in uw herinnering.
 
 Als u CLI bevelen ziet die en hulpmiddelen MCP in plaats daarvan willen gebruiken, gebruik de volgende herinnering:
 
@@ -346,7 +348,7 @@ CLI de bevelen kunnen voor de volgende scenario&#39;s worden gebruikt:
 
 ### Ontwikkeling
 
-Het is belangrijk om onnodige complexiteit die door de AI-gereedschappen wordt veroorzaakt, in twijfel te trekken.
+De onnodige ingewikkeldheid die door de hulpmiddelen van AI wordt gecreeerd.
 
 Wanneer overbodige bestanden worden toegevoegd (`validator.js` , `transformer.js` , `sender.js` ) voor eenvoudige alleen-lezen eindpunten, volgt u de volgende aanwijzingen:
 
@@ -466,7 +468,7 @@ Gebruik de volgende beste praktijken wanneer het opstellen:
 
 #### Stapsgewijs implementeren
 
-Implementeer alleen gewijzigde acties om de ontwikkeling te versnellen. Hierdoor wordt het risico op een onderbreking van de bestaande functionaliteit beperkt en wordt sneller feedback over wijzigingen gegeven. Het vermindert ook het risico van het breken van bestaande functionaliteit.
+Implementeer alleen gewijzigde acties om de ontwikkeling te versnellen. Deze benadering vermindert het risico van het breken van bestaande functionaliteit en verstrekt snellere terugkoppelen op veranderingen.
 
 * Gebruik hulpmiddelen MCP om specifieke acties op te stellen
 
@@ -479,7 +481,7 @@ Implementeer alleen gewijzigde acties om de ontwikkeling te versnellen. Hierdoor
 
 #### Opschonen van runtime
 
-Na grote wijzigingen kunt u de gereedschappen gebruiken om zwevende handelingen op te schonen. De AI-werktuigen kunnen het schoonmaakproces systematisch afhandelen, ze kunnen op efficiënte wijze de zwevende handelingen identificeren, hun status controleren en ze veilig verwijderen zonder handmatige tussenkomst.
+Na grote wijzigingen kunt u de gereedschappen gebruiken om zwevende handelingen op te schonen. De AI-gereedschappen systematisch laten werken met het opschoonproces. Het kan op efficiënte wijze de zwevende handelingen identificeren, hun status controleren en ze veilig verwijderen zonder handmatige tussenkomst.
 
 ```shell-session
 Help me identify and clean up orphaned runtime actions
@@ -520,7 +522,7 @@ Gebruikspatronen voor token bijhouden:
 
 ## Wat te vermijden
 
-Gebruik de AI-coderingsgereedschappen om de volgende antipatronen te vermijden:
+Vermijd de volgende anti-patronen wanneer het gebruiken van de AI codeerhulpmiddelen:
 
 * **overslaat niet de verklaringsfase** - altijd verzekert Fase 1 vóór implementatie wordt voltooid.
 * **slaat het testen na elke eigenschap** niet over - test incrementeel, wacht niet tot alles volledig is.

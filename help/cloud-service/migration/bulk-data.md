@@ -1,27 +1,29 @@
 ---
 title: Bulkgegevensmigratie
 description: Leer hoe u het Bulk-hulpprogramma voor gegevensmigratie kunt gebruiken om gegevens van uw bestaande Adobe Commerce op Cloud-instantie te migreren naar  [!DNL Adobe Commerce as a Cloud Service] .
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+feature: Cloud
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
+level: Intermediate
 exl-id: 81522de9-df54-4651-b8ed-58956376af86
-source-git-commit: 5dd290a4e10bdbd1f6c96b67ab6c9ba1598705dc
+source-git-commit: 06bdcfbff5d376064b18bdab3945e7609075b8bc
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
 # Bulkgegevensmigratiehulpprogramma
 
-Het hulpmiddel voor bulkgegevensmigratie volgt een gedistribueerde architectuur die veilige en efficiënte gegevensmigratie van PaaS naar SaaS-omgevingen mogelijk maakt. Dit hulpmiddel is ontworpen voor oplossingsimplementators om gegevens van een bestaande Adobe Commerce on Cloud instantie (PaaS) aan [!DNL Adobe Commerce as a Cloud Service] (SaaS) te migreren. Voor meer informatie over het migratieproces, zie het [&#x200B; overzicht van de Migratie &#x200B;](./overview.md).
+Het hulpmiddel voor bulkgegevensmigratie volgt een gedistribueerde architectuur die veilige en efficiënte gegevensmigratie van PaaS naar SaaS-omgevingen mogelijk maakt. Met dit gereedschap kunnen implementatoren van oplossingen gegevens migreren van een bestaande Adobe Commerce on Cloud-instantie (PaaS) naar [!DNL Adobe Commerce as a Cloud Service] (SaaS). Voor meer informatie over het migratieproces, zie het [ overzicht van de Migratie ](./overview.md).
 
 >[!NOTE]
 >
->Het hulpmiddel van de bulkgegevensmigratie steunt slechts het migreren van de eerste-partijkern handelsgegevens. Aangepaste gegevensmigratie wordt momenteel niet ondersteund.
+>Het hulpmiddel van de bulkgegevensmigratie steunt het migreren van de eerste-partijkern handelsgegevens slechts. Aangepaste gegevensmigratie wordt momenteel niet ondersteund.
 
 In de volgende afbeelding ziet u de architectuur en de belangrijkste componenten voor het gebruik van het gereedschap Bulk voor gegevensmigratie.
 
-![&#x200B; Bulk de architectuur van het Hulpmiddel van de Migratie van Gegevens &#x200B;](../assets/bulk-data-diagram.png)
+![ Bulk het diagram van de architectuur van het Hulpmiddel van de Migratie van Gegevens die PaaS aan de gegevensstroom van SaaS tonen ](../assets/bulk-data-diagram.png){zoomable="yes"}
 
 ## Migratieworkflow
 
@@ -44,13 +46,13 @@ De beschikbaarheid van het bulkgegevensmigratiehulpmiddel is als volgt:
 
 ## Doelomgeving maken
 
-De oplossingsimplementer (SI) leidt tot een doelmilieu voor de migratie. Deze omgeving wordt gebruikt om de gegevens op te slaan die uit de broninstantie zijn gemigreerd.
+De oplossingsimplementer (SI) leidt tot een doelmilieu voor de migratie. In deze omgeving worden de gegevens opgeslagen die uit de broninstantie zijn gemigreerd.
 
-Eerst, [&#x200B; creeer een nieuwe  [!DNL Adobe Commerce as a Cloud Service]  (SaaS) instantie &#x200B;](../getting-started.md#create-an-instance).
+Eerst, [ creeer een nieuwe  [!DNL Adobe Commerce as a Cloud Service]  (SaaS) instantie ](../getting-started.md#create-an-instance).
 
 ### Extractieprogramma configureren
 
-Het extractiegereedschap wordt gebruikt om gegevens uit de broninstantie te extraheren.
+Gebruik het extractiegereedschap om gegevens uit de broninstantie te extraheren.
 
 1. Download het extractiegereedschap via de koppeling die u van Adobe hebt ontvangen.
 1. Stel de volgende omgevingsvariabelen in het extractiegereedschap in:
@@ -63,7 +65,7 @@ Het extractiegereedschap wordt gebruikt om gegevens uit de broninstantie te extr
       - IMS URL - De basis-URL. Bijvoorbeeld `https://ims-na1.adobelogin.com/` .
       - IMS-organisatie-id
 
-   Voor werkingsgebied IMS en andere waarden, selecteer uw type OAuth in de **sectie van Referenties** binnen uw project in [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console/). Meer informatie vindt u in het `.example.env` -bestand dat bij het extractiegereedschap wordt geleverd.
+   Voor werkingsgebied IMS en andere waarden, selecteer uw type OAuth in de **sectie van Referenties** binnen uw project in [ Adobe Developer Console ](https://developer.adobe.com/console/). Meer informatie vindt u in het `.example.env` -bestand dat bij het extractiegereedschap wordt geleverd.
 
 ### Gegevens extraheren
 
@@ -87,7 +89,7 @@ Voer het gereedschap voor het laden van gegevens van Adobe uit. Dit gereedschap:
 1. Genereer een laadplan.
 1. Voer het plan uit, bewegend gegevens naar het huurdersgegevensbestand SaaS in partijen.
 1. De catalogusmedia verwerken en deze naar de doelomgeving overbrengen.
-1. Voegt het geheime voorgeheugen van SaaS Redis en maakt gegevensbestandindexen voor de huurder ongeldig.
+1. Duw SaaS Redis geheim voorgeheugen en maakt gegevensbestandindexen voor de huurder ongeldig.
 
 ### Gegevens uit catalogus
 

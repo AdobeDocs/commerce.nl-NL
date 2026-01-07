@@ -113,11 +113,11 @@ Voor een overzicht van uit-van-de-doos betalingsoplossingen, met inbegrip van ei
 
 >[!MORELIKETHIS]
 >
-> * [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) - Merchant-geconcentreerde documentatie voor zowel [!DNL Adobe Commerce] als [!DNL Magento Open Source]
-> * [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) - ontwikkelaar-geconcentreerde documentatie wordt gebruikt om [!DNL Adobe Commerce] of [!DNL Magento Open Source] te bouwen en aan te passen
+> * [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL) - Merchant-geconcentreerde documentatie voor zowel [!DNL Adobe Commerce] als [!DNL Magento Open Source]
+> * [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL) - ontwikkelaar-geconcentreerde documentatie wordt gebruikt om [!DNL Adobe Commerce] of [!DNL Magento Open Source] te bouwen en aan te passen
 > * [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes.md) - leer meer over aanstaande versies, productdetails, en welke versies van Adobe Commerce de [!DNL Payment Services] uitbreiding steunen
-> * [&#x200B; centrum van de Hulp &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) - onderzoek naar [!DNL Payment Services] verwante het oplossen van problemenartikelen in knowledgebase
-> * [&#x200B; de kaartjes van de Steun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - de klanten van Commerce kunnen een kaartje voorleggen om extra hulp te ontvangen
+> * [&#x200B; centrum van de Hulp &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=nl-NL) - onderzoek naar [!DNL Payment Services] verwante het oplossen van problemenartikelen in knowledgebase
+> * [&#x200B; de kaartjes van de Steun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) - de klanten van Commerce kunnen een kaartje voorleggen om extra hulp te ontvangen
 
 ## Ondersteuning
 

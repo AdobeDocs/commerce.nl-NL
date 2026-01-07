@@ -6,9 +6,9 @@ seo-description: Describes contents of the [!DNL Payment Services] for Adobe Com
 exl-id: 30b23f26-9aac-4a24-a607-2431455fc935
 feature: Payments, Checkout, Paas, Saas
 recommendations: noCatalog
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: b75cad4fd71b5ab9c0199ca47800c36cbd1ae76c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,21 @@ Deze handleiding biedt een overzicht van de functies en voordelen van [!DNL Paym
 
 Deze handleiding is van toepassing op:
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Overzicht van het doel, de voordelen, en zeer belangrijke eigenschappen zoals het melden van mogelijkheden en veiligheidsnaleving.
+![ controle ](assets/icon-check.png) Overzicht van het doel, de voordelen, en zeer belangrijke eigenschappen zoals het melden van mogelijkheden en veiligheidsnaleving.
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Verenigbaarheid en Beschikbare die opties van de betalingservaring (door gebied wordt bepaald) en gesteunde betalingsmethodes.
+![ controle ](assets/icon-check.png) Verenigbaarheid en Beschikbare die opties van de betalingservaring (door gebied wordt bepaald) en gesteunde betalingsmethodes.
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) geleidelijke documentatie op het aan boord gaan, configuratieopties, zandbakopstelling (voor het testen) en productieopstelling (voor verwerking levende betalingen).
+![ controle ](assets/icon-check.png) geleidelijke documentatie op het aan boord gaan, configuratieopties, zandbakopstelling (voor het testen) en productieopstelling (voor verwerking levende betalingen).
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Hulpmiddelen voor het beheren van en het controleren van betalingen, met inbegrip van financiële rapportering, terugbetalingsverwerking en lege ruimten.
+![ controle ](assets/icon-check.png) Hulpmiddelen voor het beheren van en het controleren van betalingen, met inbegrip van financiële rapportering, terugbetalingsverwerking en lege ruimten.
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Aanvullende middelen zoals beste praktijken, steunkanalen, en versienota&#39;s voor aan de gang zijnde updates.
+![ controle ](assets/icon-check.png) Aanvullende middelen zoals beste praktijken, steunkanalen, en versienota&#39;s voor aan de gang zijnde updates.
 
 ## Documentatie [!DNL Payment Services] verkennen
 
 Als u nieuwsgierig bent naar de manier waarop [!DNL Payment Services] uw handelsbewerkingen kan transformeren of als u meer technische instructies nodig hebt rond [!DNL Payment Services] voor Adobe Commerce en Magento Open Source, komt deze handleiding voor u.
 
-Voor een overzicht van uit-van-de-doos betalingsoplossingen, met inbegrip van eigenschappen en voordelen, begin met [&#x200B; Zeer belangrijke Voordelen &#x200B;](introduction.md). Voor geleidelijke instructies op implementatie, overslaan aan [&#x200B; onboarding &#x200B;](onboard.md).
+Voor een overzicht van uit-van-de-doos betalingsoplossingen, met inbegrip van eigenschappen en voordelen, begin met [ Zeer belangrijke Voordelen ](introduction.md). Voor geleidelijke instructies op implementatie, overslaan aan [ onboarding ](onboard.md).
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -113,16 +113,16 @@ Voor een overzicht van uit-van-de-doos betalingsoplossingen, met inbegrip van ei
 
 >[!MORELIKETHIS]
 >
-> * [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL) - Merchant-geconcentreerde documentatie voor zowel [!DNL Adobe Commerce] als [!DNL Magento Open Source]
-> * [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL) - ontwikkelaar-geconcentreerde documentatie wordt gebruikt om [!DNL Adobe Commerce] of [!DNL Magento Open Source] te bouwen en aan te passen
-> * [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes.md) - leer meer over aanstaande versies, productdetails, en welke versies van Adobe Commerce de [!DNL Payment Services] uitbreiding steunen
-> * [&#x200B; centrum van de Hulp &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html?lang=nl-NL) - onderzoek naar [!DNL Payment Services] verwante het oplossen van problemenartikelen in knowledgebase
-> * [&#x200B; de kaartjes van de Steun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) - de klanten van Commerce kunnen een kaartje voorleggen om extra hulp te ontvangen
+> * [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) - Merchant-geconcentreerde documentatie voor zowel [!DNL Adobe Commerce] als [!DNL Magento Open Source]
+> * [[!DNL Adobe Commerce]  2.4 Gids van de Gebruiker ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) - ontwikkelaar-geconcentreerde documentatie wordt gebruikt om [!DNL Adobe Commerce] of [!DNL Magento Open Source] te bouwen en aan te passen
+> * [ de nota&#39;s van de Versie ](release-notes.md) - leer meer over aanstaande versies, productdetails, en welke versies van Adobe Commerce de [!DNL Payment Services] uitbreiding steunen
+> * [ centrum van de Hulp ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html) - onderzoek naar [!DNL Payment Services] verwante het oplossen van problemenartikelen in knowledgebase
+> * [ de kaartjes van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) - de klanten van Commerce kunnen een kaartje voorleggen om extra hulp te ontvangen
 
 ## Ondersteuning
 
-Als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld, neemt u contact op met uw [!DNL Payment Services] -verkoper of gebruikt u de bronnen in uw [!DNL Payment Services] startpagina:
+Als u informatie nodig hebt of vragen hebt die niet in deze handleiding worden behandeld over [!DNL Payment Services] , neemt u contact op met uw [!DNL Payment Services] -vertegenwoordiger of gebruikt u de bronnen in uw [!DNL Payment Services] startpagina:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448233?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3447836)
 
-Zie [&#x200B; Welke  [!DNL Payment Services]  optie voor u juist is?](compatibility.md#which-payment-services-option-is-right-for-you) om te controleren welke optie het meest geschikt is voor u.[!DNL Payment Services]
+Zie [ Welke  [!DNL Payment Services]  optie voor u juist is?](compatibility.md#which-payment-services-option-is-right-for-you) om te controleren welke optie het meest geschikt is voor u.[!DNL Payment Services]

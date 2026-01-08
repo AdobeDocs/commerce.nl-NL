@@ -5,7 +5,7 @@ seo-title: Services for Adobe Commerce
 seo-description: Access the product documentation for hosted services that help Adobe Commerce merchants support key components of their business.
 recommendations: noCatalog
 exl-id: 507af1fa-9f3e-41bc-9aaf-cd89839aae0b
-source-git-commit: 1b3d13da00644c9e01344a8a68ca859bca24aaf1
+source-git-commit: b1c1fa143a9a3e61b3829b923a062b0cee2e5ae9
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Adobe Commerce Services biedt krachtige mogelijkheden die uw winkel uitbreiden, 
 
 ## Hoe maakt Commerce verbinding met services?
 
-Alle diensten van Commerce verbinden met uw instantie van Commerce door de [&#x200B; schakelaar van de Diensten van Commerce &#x200B;](saas.md).
+Alle diensten van Commerce verbinden met uw instantie van Commerce door de [ schakelaar van de Diensten van Commerce ](saas.md).
 
 Wanneer de Commerce Services-connector is geconfigureerd, hebt u toegang tot de volgende functies:
 
@@ -27,11 +27,11 @@ Wanneer de Commerce Services-connector is geconfigureerd, hebt u toegang tot de 
 
 Met deze services kunt u conversies verhogen, persoonlijke ervaringen bieden en beter gebruik maken van uw handelsgegevens in het Adobe-ecosysteem.
 
-![&#x200B; Laag van de Diensten &#x200B;](./assets/services-layer.png)
+![ Laag van de Diensten ](./assets/services-layer.png)
 
 >[!NOTE]
 >
->Adobe raadt aan een upgrade uit te voeren naar de nieuwste ondersteunde versie van alle Commerce-services. Zie de [&#x200B; versienota&#39;s &#x200B;](release-notes-all.md).
+>Adobe raadt aan een upgrade uit te voeren naar de nieuwste ondersteunde versie van alle Commerce-services. Zie de [ versienota&#39;s ](release-notes-all.md).
 
 Naast deze functies zijn er gereedschappen waarmee u de gegevensstroom van uw Commerce-instantie naar het SaaS-platform kunt controleren. Deze gegevensgereedschappen kunnen de gegevens automatisch synchroniseren en u helpen de prestaties te optimaliseren.
 
@@ -39,7 +39,7 @@ Naast deze functies zijn er gereedschappen waarmee u de gegevensstroom van uw Co
 
 >[!BEGINTABS]
 
->[!TAB  de diensten van 0&rbrace; Storefront]
+>[!TAB  de diensten van 0} Storefront]
 
 Storefront-services zijn een groep door AI aangedreven functies die productdetectie optimaliseren, klantinteracties aanpassen en betalingsverwerking stroomlijnen om de betrokkenheid en conversies te verhogen. Met winkelservices kunt u de winkelervaring verbeteren en de groei van uw bedrijf stimuleren.
 
@@ -168,11 +168,11 @@ Met behulp van gegevensgereedschappen kunt u de informatiestroom tussen uw Comme
       </p>
    </td>
    <td valign="top">
-      <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
+      <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
       <img alt="Gegevenssynchronisatie controleren" src="../assets/icons/Monitoring.svg" width="40">
       </a>
       <div>
-          <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
+          <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard" target="_blank">
          <strong> Dashboard van het Beheer van Gegevens </strong>
          </a>
       </div>
@@ -184,7 +184,7 @@ Met behulp van gegevensgereedschappen kunt u de informatiestroom tussen uw Comme
 
 >[!NOTE]
 >
->Het gegevensbeheerdashboard is zonder extra kosten beschikbaar voor Commerce-handelaren die productaanbevelingen v6.0.0, Live Search v4.1.0 of Catalog Service v1.17 gebruiken met een actieve licentie. De handelaren die vroegere de dienstversies gebruiken kunnen [&#x200B; Synchronisatie van de Catalogus gebruiken &#x200B;](../landing/catalog-sync.md) om gegevenssynchronisatie te beheren en te volgen.
+>Het gegevensbeheerdashboard is zonder extra kosten beschikbaar voor Commerce-handelaren die productaanbevelingen v6.0.0, Live Search v4.1.0 of Catalog Service v1.17 gebruiken met een actieve licentie. De handelaren die vroegere de dienstversies gebruiken kunnen [ Synchronisatie van de Catalogus gebruiken ](../landing/catalog-sync.md) om gegevenssynchronisatie te beheren en te volgen.
 
 >[!ENDTABS]
 
@@ -194,15 +194,15 @@ Of u uw zaken wilt schrapen, klantenervaringen verbeteren, of gegevensgedreven b
 
 | Probleem | Uitdaging | Oplossing |
 |---------|-----------|----------|
-| Detectie en conversie van producten verbeteren | Winkelaars kunnen niet vinden wat ze zoeken, wat leidt tot hoge stuiterende prijzen en verlies van verkopen. | Het Levende Onderzoek van het gebruik [&#x200B; en &#x200B;](../live-search/overview.md) Aanbevelingen van het Product [&#x200B; om AI-Gedreven onderzoek met typetolerantie te leveren, onmiddellijk &quot;onderzoek aangezien u&quot;resultaten typt, dynamische facetting, en gepersonaliseerde productaanbevelingen die op verkoopgedrag in real time worden gebaseerd.](../product-recommendations/overview.md) |
-| Omnichannel persoonlijke ervaringen maken | Uw commerciële gegevens worden gesiloed, verhinderend u gepersonaliseerde ervaringen over kanalen te leveren. | Gebruik [&#x200B; Verbinding van Gegevens &#x200B;](../data-connection/overview.md) om gedrag, transactie, en profielgegevens naar Adobe Experience Platform te verzenden. Maak geavanceerde klantensegmenten, maak verlaten kartcampagnes, richt lookalike publiek, en analyseer seizoensgebonden tendensen over uw volledige klantenreis. |
-| Digitaal middelenbeheer stroomlijnen | Het is tijdrovend om productafbeeldingen en rich media op meerdere systemen te beheren en vaak fouten te maken. | De [&#x200B; Integratie van AEM Assets &#x200B;](../aem-assets-integration/overview.md) verstrekt gecentraliseerd activabeheer door Adobe Commerce met een project van Adobe Experience Manager Assets te verbinden, werkschema&#39;s te vereenvoudigen en verenigbare merkervaringen over alle touchpoints te verzekeren. |
-| Betalingsverwerking optimaliseren | Beperkte betalingsopties en slechte betalingservaringen zijn nadelig voor de tevredenheid en conversie van klanten. | [&#x200B; de Diensten van de Betaling &#x200B;](../payment-services/guide-overview.md) biedt veelvoudige betalingsmethodes, met inbegrip van rentevrije termijnen, met een verenigd dashboard voor het beheren van betalingen, orden, en facturen aan. |
-| Gegevenssynchronisatie op schaal beheren | Het middel-intensieve indexeren vertraagt uw plaats, en u kunt niet gemakkelijk de kwesties van de gegevenssynchronisatie volgen. | [&#x200B; de Uitvoer van Gegevens SaaS &#x200B;](../data-export/overview.md), [&#x200B; Prijsindexer SaaS &#x200B;](../price-index/price-indexing.md), en het [&#x200B; Dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) synchroniseren automatisch catalogus, orde, en inventarisgegevens, offload prijsberekeningen aan de wolkeninfrastructuur van Adobe, en verstrekken zicht in real time in synchronisatiestatus. |
-| Win terug verloren klanten en vermindert terugkeer | De hoge kosten voor de klant en de rendementspercentages voor het product hebben gevolgen voor de winstgevendheid. | Combineer [&#x200B; Verbinding van Gegevens &#x200B;](../data-connection/overview.md) met Adobe Journey Optimizer en Real-Time CDP om terugkeerpatronen te identificeren, win-backcampagnes tot stand te brengen, klanten door gedrag te segmenteren, en gepersonaliseerde re-engagement campagnes over e-mail en SMS te verzenden. |
-| Gegevensgestuurde beslissingen over het verhandelen maken | Je weet niet zeker welke producten je wilt promoten of wanneer je promoties wilt uitvoeren. | [&#x200B; Levende Onderzoek &#x200B;](../live-search/overview.md) verstrekt de inzichten van onderzoeksprestaties en het verhandelen hulpmiddelen om tot zeer belangrijke metriek toegang te hebben, onderzoekstermijnen te analyseren, en intelligente handelsregels te gebruiken om producten op echt klantengedrag en bedrijfsdoelstellingen te bevorderen of te begraven. |
-| Compatibiliteit met gevoelige gegevens behouden | U moet gevoelige klantengegevens behandelen terwijl het handhaven van naleving HIPAA. | [&#x200B; Verbinding van Gegevens &#x200B;](../data-connection/overview.md) is HIPAA-klaar, toestaand u om achterbureaugegevens met Experience Platform te delen terwijl het handhaven van naleving en systematisch behandeling van privacyverzoeken. |
+| Detectie en conversie van producten verbeteren | Winkelaars kunnen niet vinden wat ze zoeken, wat leidt tot hoge stuiterende prijzen en verlies van verkopen. | Het Levende Onderzoek van het gebruik [ en ](../live-search/overview.md) Aanbevelingen van het Product [ om AI-Gedreven onderzoek met typetolerantie te leveren, onmiddellijk &quot;onderzoek aangezien u&quot;resultaten typt, dynamische facetting, en gepersonaliseerde productaanbevelingen die op verkoopgedrag in real time worden gebaseerd.](../product-recommendations/overview.md) |
+| Omnichannel persoonlijke ervaringen maken | Uw commerciële gegevens worden gesiloed, verhinderend u gepersonaliseerde ervaringen over kanalen te leveren. | Gebruik [ Verbinding van Gegevens ](../data-connection/overview.md) om gedrag, transactie, en profielgegevens naar Adobe Experience Platform te verzenden. Maak geavanceerde klantensegmenten, maak verlaten kartcampagnes, richt lookalike publiek, en analyseer seizoensgebonden tendensen over uw volledige klantenreis. |
+| Digitaal middelenbeheer stroomlijnen | Het is tijdrovend om productafbeeldingen en rich media op meerdere systemen te beheren en vaak fouten te maken. | De [ Integratie van AEM Assets ](../aem-assets-integration/overview.md) verstrekt gecentraliseerd activabeheer door Adobe Commerce met een project van Adobe Experience Manager Assets te verbinden, werkschema&#39;s te vereenvoudigen en verenigbare merkervaringen over alle touchpoints te verzekeren. |
+| Betalingsverwerking optimaliseren | Beperkte betalingsopties en slechte betalingservaringen zijn nadelig voor de tevredenheid en conversie van klanten. | [ de Diensten van de Betaling ](../payment-services/guide-overview.md) biedt veelvoudige betalingsmethodes, met inbegrip van rentevrije termijnen, met een verenigd dashboard voor het beheren van betalingen, orden, en facturen aan. |
+| Gegevenssynchronisatie op schaal beheren | Het middel-intensieve indexeren vertraagt uw plaats, en u kunt niet gemakkelijk de kwesties van de gegevenssynchronisatie volgen. | [ de Uitvoer van Gegevens SaaS ](../data-export/overview.md), [ Prijsindexer SaaS ](../price-index/price-indexing.md), en het [ Dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) synchroniseren automatisch catalogus, orde, en inventarisgegevens, offload prijsberekeningen aan de wolkeninfrastructuur van Adobe, en verstrekken zicht in real time in synchronisatiestatus. |
+| Win terug verloren klanten en vermindert terugkeer | De hoge kosten voor de klant en de rendementspercentages voor het product hebben gevolgen voor de winstgevendheid. | Combineer [ Verbinding van Gegevens ](../data-connection/overview.md) met Adobe Journey Optimizer en Real-Time CDP om terugkeerpatronen te identificeren, win-backcampagnes tot stand te brengen, klanten door gedrag te segmenteren, en gepersonaliseerde re-engagement campagnes over e-mail en SMS te verzenden. |
+| Gegevensgestuurde beslissingen over het verhandelen maken | Je weet niet zeker welke producten je wilt promoten of wanneer je promoties wilt uitvoeren. | [ Levende Onderzoek ](../live-search/overview.md) verstrekt de inzichten van onderzoeksprestaties en het verhandelen hulpmiddelen om tot zeer belangrijke metriek toegang te hebben, onderzoekstermijnen te analyseren, en intelligente handelsregels te gebruiken om producten op echt klantengedrag en bedrijfsdoelstellingen te bevorderen of te begraven. |
+| Compatibiliteit met gevoelige gegevens behouden | U moet gevoelige klantengegevens behandelen terwijl het handhaven van naleving HIPAA. | [ Verbinding van Gegevens ](../data-connection/overview.md) is HIPAA-klaar, toestaand u om achterbureaugegevens met Experience Platform te delen terwijl het handhaven van naleving en systematisch behandeling van privacyverzoeken. |
 
 {{$include /help/_includes/templated/whats-new.md}}
 
-<!-- Last updated from includes: 2025-12-10 17:14:24 -->
+<!-- Last updated from includes: 2025-12-19 22:44:55 -->

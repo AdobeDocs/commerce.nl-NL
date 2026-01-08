@@ -1,7 +1,7 @@
 ---
-source-git-commit: 39977196f322cac571ecdb0219f006970aff3575
+source-git-commit: e97db43bcd167acc5d537a6c53479923fd761cc9
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ bundle exec rake images:optimize path=../path/to/images
 
 ## Configuratie
 
-De haken gebruiken het configuratiedossier `_jekyll/.image_optim` om optimalisatie montages aan te passen:
+De haken gebruiken het configuratiedossier `_jekyll/.image_optim.yml` om optimalisatie montages aan te passen:
 
 - **PNG**: Gebruik `advpng`, `optipng`, en `pngquant`
 - **JPEG**: Gebruik `jhead`, `jpegoptim`, en `jpegtran`
@@ -120,12 +120,12 @@ De haken gebruiken het configuratiedossier `_jekyll/.image_optim` om optimalisat
 ### Optimalisatie mislukt
 
 - Controleren of `bundle install` is uitgevoerd in de map `_jekyll`
-- Controleer of `image_optim` en `image_optim_pack` gems zijn geïnstalleerd
-- Controleer het `.image_optim` configuratiebestand
+- Controleer of de `adobe-comdox-exl-rake-tasks` gem is geïnstalleerd (biedt `image_optim` )
+- Controleer het `.image_optim.yml` configuratiebestand
 
 ### Prestatieproblemen
 
-- Aantal verbindingen aanpassen in `_jekyll/.image_optim`
+- Aantal verbindingen aanpassen in `_jekyll/.image_optim.yml`
 - Omgevingsvariabele `DEBUG=1` instellen voor gedetailleerde foutinformatie
 
 ## Hoe werkt het

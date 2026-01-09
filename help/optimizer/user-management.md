@@ -1,7 +1,7 @@
 ---
 title: Gebruiker en Identity Management
 description: Leer om gebruikers tot stand te brengen en te beheren en gebruikersrollen voor  [!DNL Adobe Commerce Optimizer] toe te wijzen.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 9ab2118d-b7e3-4e2e-adac-8f3950fe1824
 source-git-commit: 423d6f3fb544fb33b8e4e689fdfbbb3cf5b700f3
 workflow-type: tm+mt
@@ -18,10 +18,10 @@ U kunt gebruikers aan om het even welke volgende rollen toewijzen:
 
 - **Gebruiker** - de gebruikers hebben toegang tot [!DNL Adobe Commerce Optimizer] UI om catalogusmeningen en het verhandelen regels te bekijken en te beheren, en prestatiesmetriek te volgen.
 
-- [**Ontwikkelaar** &#x200B;](https://helpx.adobe.com/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} - de Ontwikkelaars hebben gebruikerstoestemmingen en toegang tot Adobe Developer Console. Dit betekent dat zij projecten kunnen maken en referenties kunnen configureren voor het gebruik van ontwikkelaarsgereedschappen zoals de API&#39;s en SDK&#39;s van [!DNL Adobe Commerce Optimizer] en uitbreidbaarheidsprogramma&#39;s van Adobe, zoals App Builder en API Mesh.
+- [**Ontwikkelaar** &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html#Adddevelopers){target="_blank"} - de Ontwikkelaars hebben gebruikerstoestemmingen en toegang tot Adobe Developer Console. Dit betekent dat zij projecten kunnen maken en referenties kunnen configureren voor het gebruik van ontwikkelaarsgereedschappen zoals de API&#39;s en SDK&#39;s van [!DNL Adobe Commerce Optimizer] en uitbreidbaarheidsprogramma&#39;s van Adobe, zoals App Builder en API Mesh.
 
 - **Admin** - er zijn drie verschillende soorten admin rollen:
-   - [&#x200B; beheerders van het Systeem &#x200B;](https://helpx.adobe.com/enterprise/using/admin-roles.html){target="_blank"} - het systeemadmin heeft toegang tot alle producten en productprofielen in de organisatie door Adobe Admin Console.
+   - [&#x200B; beheerders van het Systeem &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-roles.html){target="_blank"} - het systeemadmin heeft toegang tot alle producten en productprofielen in de organisatie door Adobe Admin Console.
    - [&#x200B; Admins van het Product &#x200B;](#add-a-product-admin) - de beheerders van het Product kunnen [&#x200B; gebruikers, rollen, en toestemmingen voor het product &#x200B;](#add-users-and-admins) in [!DNL Adobe Admin Console] beheren.
    - [&#x200B; het profielbeheerders van het Product &#x200B;](#add-users-developers-and-product-profile-admins) - de profielbeheerders van het Product kunnen gebruikers voor het product in [!DNL Adobe Admin Console] beheren.
 
@@ -145,8 +145,8 @@ Om ontwikkelaars en productprofielbeheerders toe te voegen, herhaal [&#x200B; ge
 
 U kunt meerdere gebruikers efficiënter toevoegen met een van de volgende methoden:
 
-- Gebruik **voegt Gebruikers door CSV** eigenschap in Adobe Admin Console toe om a [&#x200B; bulkCSV uit te voeren uploadt &#x200B;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html){target="_blank"}.
-- Voeg veelvoudige gebruikers aan een rol toe door a [&#x200B; gebruikersgroep &#x200B;](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} te creëren. Vervolgens kunt u de juiste producten aan de gebruikersgroep toevoegen.
+- Gebruik **voegt Gebruikers door CSV** eigenschap in Adobe Admin Console toe om a [&#x200B; bulkCSV uit te voeren uploadt &#x200B;](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html){target="_blank"}.
+- Voeg veelvoudige gebruikers aan een rol toe door a [&#x200B; gebruikersgroep &#x200B;](https://helpx.adobe.com/nl/enterprise/using/user-groups.html){target="_blank"} te creëren. Vervolgens kunt u de juiste producten aan de gebruikersgroep toevoegen.
 
 ## Identiteitsbeheer en Single Sign-On configuratie
 

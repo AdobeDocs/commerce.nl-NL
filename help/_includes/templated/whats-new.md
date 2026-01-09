@@ -1,7 +1,7 @@
 ---
-source-git-commit: b1c1fa143a9a3e61b3829b923a062b0cee2e5ae9
+source-git-commit: 21de0fce3bda115ac0c678bd32154840ef11f9bf
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 0%
 ## Nieuwe functies
 
 Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, worden van deze lijst uitgesloten.
+
+### 6 januari 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>De toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes"> versie 103.4.16 en 103.4.17 van de Gegevens van Adobe Commerce SaaS </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce/price-indexer/catalog-adapter/release-notes"> versie van de Adapter van de Catalogus 1.10.0 </a>.</p>
+</td>
+      <td>
+        Technisch
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/948267ac789ed6432b0bfe57a82ca7b1f1be0807">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 18 december 2025
 
@@ -23,7 +45,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/configure-aem#install-the-commerce-assets-package"> vorm het onderwerp van AEM </a> in de documentatie van de Integratie van AEM Assets.</p>
+      <td><p>Bijgewerkt <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aem#install-the-commerce-assets-package"> vorm het onderwerp van AEM </a> in de documentatie van de Integratie van AEM Assets.</p>
 </td>
       <td>
         Belangrijke update
@@ -45,7 +67,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde nieuwe onderwerpen:<br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/manage-results/opportunities"> Kansen </a> aan documentaAI-Aangedreven aanbevelingen van de plaatsoptimalisering door de integratie van Adobe Sites Optimizer, met inbegrip van auto-ontdekt en auto-moeilijke werkschema's voor het verbeteren van SEO, meta-gegevens, en de kwaliteit van productgegevens.<br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/catalog-layer"> de Lagen van de Catalogus </a> om uit te leggen hoe te om productgegevens te wijzigen zonder brongegevens, met inbegrip van laag prioritaire beheer en integratie met Sites Optimizer auto-moeilijke eigenschappen te veranderen.</p>
+      <td><p>Toegevoegde nieuwe onderwerpen:<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/manage-results/opportunities"> Kansen </a> aan documentaAI-Aangedreven aanbevelingen van de plaatsoptimalisering door de integratie van Adobe Sites Optimizer, met inbegrip van auto-ontdekt en auto-moeilijke werkschema's voor het verbeteren van SEO, meta-gegevens, en de kwaliteit van productgegevens.<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-layer"> de Lagen van de Catalogus </a> om uit te leggen hoe te om productgegevens te wijzigen zonder brongegevens, met inbegrip van laag prioritaire beheer en integratie met Sites Optimizer auto-moeilijke eigenschappen te veranderen.</p>
 </td>
       <td>
         Belangrijke update, nieuw onderwerp
@@ -67,7 +89,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Het bijwerken van de aanbevelingen eigenschap in de documentatie van Commerce Optimizer aangezien de <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/merchandising/recommendations/create#preview-recommendations"> voorproefruit </a> nu wordt gesteund.</p>
+      <td><p>Het bijwerken van de aanbevelingen eigenschap in de documentatie van Commerce Optimizer aangezien de <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/recommendations/create#preview-recommendations"> voorproefruit </a> nu wordt gesteund.</p>
 </td>
       <td>
         Technisch
@@ -89,7 +111,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor de versie van as a Cloud Service van november Adobe Commerce.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor de versie van as a Cloud Service van november Adobe Commerce.</p>
 </td>
       <td>
         Belangrijke update
@@ -111,7 +133,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Documenteerde hoe Commerce Optimizer-klanten die verbinding maken met een Adobe Commerce-backend, de export van gegevenstoevoer kunnen controleren en problemen kunnen oplossen via de statuspagina van Feed Sync. Zie <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/data-sync"> Synchronisatie van Gegevens </a> in de Gids van Adobe Commerce Optimizer.</p>
+      <td><p>Documenteerde hoe Commerce Optimizer-klanten die verbinding maken met een Adobe Commerce-backend, de export van gegevenstoevoer kunnen controleren en problemen kunnen oplossen via de statuspagina van Feed Sync. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync"> Synchronisatie van Gegevens </a> in de Gids van Adobe Commerce Optimizer.</p>
 </td>
       <td>
         Technisch
@@ -133,7 +155,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/release-notes"> versienota's </a> voor de versie van de Diensten van de Betaling v2.13.0.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/release-notes"> versienota's </a> voor de versie van de Diensten van de Betaling v2.13.0.</p>
 </td>
       <td>
         Technisch

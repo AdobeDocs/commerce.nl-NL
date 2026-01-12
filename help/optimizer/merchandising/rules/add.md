@@ -19,7 +19,7 @@ Om een regel te bouwen, moet de eerste stap de regelredacteur gebruiken om de vo
 1. In het linkerspoor, ga _Merchandising_ > **Regels van het Merchandising**.
 1. Klik **creeer regel** om de regelredacteur te lanceren.
 
-![ creeer Regel ](../../assets/create-rule.png)
+![&#x200B; creeer Regel &#x200B;](../../assets/create-rule.png)
 
 In **bouwt uw regel** sectie, bepaalt u specifieke onderzoekscriteria, voorwaarden, en het rangschikken types.
 
@@ -35,7 +35,7 @@ In **bouwt uw regel** sectie, bepaalt u specifieke onderzoekscriteria, voorwaard
 
 Voorwaarden zijn de vereisten om een gebeurtenis te activeren. Een regel kan tot tien voorwaarden en 25 gebeurtenissen hebben. Een standaardregel kan geen voorwaarden hebben.
 
-![ Uitgezochte Voorwaarde van de Regel ](../../assets/rule-set-condition.png)
+![&#x200B; Uitgezochte Voorwaarde van de Regel &#x200B;](../../assets/rule-set-condition.png)
 
 #### Eén voorwaarde
 
@@ -75,7 +75,7 @@ Een regel kan tot tien voorwaarden hebben. De logische exploitant die zich bij t
 De intelligente rangschikking combineert gebruikersgedrag en plaatsstatistieken om productrangschikking te bepalen.
 Winkeleigenaars kunnen de volgende typen classificatiestrategieën instellen:
 
-![ Intelligente Rankings ](../../assets/rule-intelligent-ranking.png)
+![&#x200B; Intelligente Rankings &#x200B;](../../assets/rule-intelligent-ranking.png)
 
 - Meest aangeschaft: dit rangschikt de producten op basis van de totale aankopen per SKU in de afgelopen 7 dagen.
 - Meestal toegevoegd aan winkelwagentjes in volgorde van de totale &quot;Add to Cart&quot;-activiteiten in de afgelopen 7 dagen.
@@ -111,14 +111,14 @@ Een handelaar gebruikt de &quot;meest bekeken&quot;intelligente rangschikkingsst
 
 - **YAN-K-E-512** (lagere positie): Ondanks het hebben van het hoogste meningspercentiel in de &quot;Meest bekeken&quot;gedragsgegevens, produceert zijn complexe op SKU-Gebaseerde naam een lagere score van de tekstrelevantie. De vaste gedragsstimulans is niet genoeg om deze leemte in de relevantie van de tekst te overbruggen.
 
-Zie [ onderzoeksregels ](./best-practice.md#tips-to-optimize-search-rules) leren hoe te om productfindability te verbeteren gebruikend regels.
+Zie [&#x200B; onderzoeksregels &#x200B;](./best-practice.md#tips-to-optimize-search-rules) leren hoe te om productfindability te verbeteren gebruikend regels.
 
 #### Caveats
 
 - Apostroffen en aanhalingstekens in query&#39;s kunnen leiden tot enkele kleine problemen met rangschikking en relevantie in sommige talen.
 - Om het intelligente rangschikken te verzekeren werkt correct, zorg ervoor dat het **Gewicht van het Onderzoek** voor om het even welke attributen die voor onderzoek of het filtreren (facetten) worden gebruikt `5` of minder is.
 
-Voor informatie over het plaatsen van onderzoeksdikten, zie [ Meta-gegevens API ](https://developer.adobe.com/commerce/services/reference/rest/).
+Voor informatie over het plaatsen van onderzoeksdikten, zie [&#x200B; Meta-gegevens API &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/).
 
 ### Handmatige classificatie
 
@@ -155,7 +155,7 @@ Of gebeurtenissen kunnen handmatig worden ingesteld:
 1. Als de regel veelvoudige vragen heeft, test elk die door de regel zou kunnen worden beïnvloed.
 1. Wanneer volledig, klik **sparen en publiceer**.
 
-   De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.*
+   De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.*
 
 1. Hoewel de actieve regels onmiddellijk in werking treden, zou u tot 15 minuten kunnen moeten wachten op de caching vraagresultaten in de storefront om worden verfrist.
 
@@ -175,7 +175,7 @@ Volg deze instructies om de eigenschappen van bestaande regels bij te werken.
 1. Werk de naam, de begin- en einddatum en beschrijvingsvelden naar wens bij. Alle regelnamen moeten uniek zijn.
 1. Test de regel.
 1. Publiceer de wijzigingen.
-De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.* Hoewel de actieve regels onmiddellijk in werking treden, zou het tot 15 minuten voor caching vraagresultaten in de storefront kunnen verfrissen vergen.
+De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.* Hoewel de actieve regels onmiddellijk in werking treden, zou het tot 15 minuten voor caching vraagresultaten in de storefront kunnen verfrissen vergen.
 
 ### Details weergeven
 

@@ -2,7 +2,7 @@
 title: Grenswaarden en grenzen
 description: Begrijp  [!DNL Adobe Commerce Optimizer]  grenzen en grenzen om capaciteit te plannen en prestatieskwesties te verhinderen.
 role: Admin, Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
 source-git-commit: f9ac230d448f071e6e8e6368b940f0c415abb02b
 workflow-type: tm+mt
@@ -24,7 +24,7 @@ Uw gebruik moet binnen deze grenzen blijven. Als u deze overschrijdt, kan de lat
 
 De grenzen van de vergunning kunnen worden verhoogd door de vergunningspakketten te kopen die in de [&#x200B; grenzen van de Vergunning en systeemgrenzen &#x200B;](#license-limits-and-system-boundaries) sectie worden beschreven, of door douanevergunning voor unieke gebruiksgevallen te bespreken. Neem contact op met uw Adobe-accountvertegenwoordiger om uw vereisten te bespreken.
 
-Voor vragen over systeemgrenzen, contacteer [&#x200B; de Steun van Adobe &#x200B;](https://experienceleague.adobe.com/home?lang=en#support).
+Voor vragen over systeemgrenzen, contacteer [&#x200B; de Steun van Adobe &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL#support).
 
 ## Prestatieproblemen voorkomen
 
@@ -157,7 +157,7 @@ De volgende mogelijkheden zijn beschikbaar voor productaanbevelingen. Sommige fu
 
 | **Capability** | **Beschrijving** | **Basis toewijzing** | **uitbreidbaar?** | **Nota&#39;s** |
 | --- | --- | --- | --- | --- |
-| Adobe Developer App Builder | Capaciteit voor het bouwen van cloud-native extensies en integratie | Gebaseerd op GMV-laag<p>Minimumtoewijzing: 1 verpakking/jaar</p> | Ja<p>Extra pakketten toevoegen</p> | Voor de per verpakking vastgestelde limieten, zie:<ul><li>[&#x200B; App Builder productbeschrijving &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-developer-app-builder.html) voor grenzen die per pak worden bepaald.</li><li>[&#x200B; de Montages en de beperkingen van het Systeem &#x200B;](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings) in de *Runtime van App Builder Gidsen*.</li><li>[&#x200B; de vereisten van de Opslag van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
+| Adobe Developer App Builder | Capaciteit voor het bouwen van cloud-native extensies en integratie | Gebaseerd op GMV-laag<p>Minimumtoewijzing: 1 verpakking/jaar</p> | Ja<p>Extra pakketten toevoegen</p> | Voor de per verpakking vastgestelde limieten, zie:<ul><li>[&#x200B; App Builder productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-developer-app-builder.html) voor grenzen die per pak worden bepaald.</li><li>[&#x200B; de Montages en de beperkingen van het Systeem &#x200B;](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings) in de *Runtime van App Builder Gidsen*.</li><li>[&#x200B; de vereisten van de Opslag van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
 
 {style="table-layout:auto"}
 

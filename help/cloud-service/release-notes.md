@@ -4,32 +4,97 @@ description: Leer over de recentste eigenschappen en de verbeteringen in  [!DNL 
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
 level: Beginner
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: cf06dec6-8d6b-413e-9977-df88373c188e
-source-git-commit: 1ce3b6b6b94b1b4e94c0d34c081dec2884d7f0f8
+source-git-commit: fb4c497c9efc184ffb6bd884cb2f37ad9cc87b02
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen bij de release
 
-De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a Cloud Service] . Voor versieinformatie voor andere producten, verwijs naar [&#x200B; Adobe Commerce Optimizer &#x200B;](../optimizer/release-notes.md) of [&#x200B; Adobe Commerce op-gebouw en Adobe Commerce op Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/notes/overview).
+De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a Cloud Service] .
 
-[!DNL Adobe Commerce as a Cloud Service] bevat de meest recente versies van de handelsdiensten, de betalingsdiensten, en de uitbreidingsversies. Gebruik de volgende koppelingen om de releaseopmerkingen voor elke versie weer te geven:
+>[!NOTE]
+>
+>Als u Adobe Commerce op-gebouw of Adobe Commerce op wolkeninfrastructuur gebruikt, zie de [ versienota&#39;s van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview).
 
-* Services
-   * [Catalogusservice](../catalog-service/release-notes.md)
-   * [Live zoeken](../live-search/release-notes.md)
-   * [Betalingsdiensten](../payment-services/release-notes.md)
-   * [Aanbevelingen voor producten](../product-recommendations/release-notes.md)
-   * [SaaS-gegevens exporteren](../data-export/release-notes.md)
-* Uitbreidbaarheid
-   * [&#x200B; Admin UI SDK &#x200B;](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)
-   * [&#x200B; API Net &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)
-   * [&#x200B; Gebeurtenissen &#x200B;](https://developer.adobe.com/commerce/extensibility/events/release-notes/)
-   * [&#x200B; Webhooks &#x200B;](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)
+## januari 2026 {#latest}
+
+[!BADGE  Sandbox ]{type=Caution tooltip="De vermelde items zijn momenteel alleen beschikbaar in Sandbox-omgevingen. Adobe stelt nieuwe releases eerst beschikbaar in Sandbox-omgevingen, zodat u tijd hebt om toekomstige wijzigingen te testen voordat de release beschikbaar is in Productomgevingen."}
+
+De volgende items zijn momenteel alleen beschikbaar in Sandbox-omgevingen van [!DNL Adobe Commerce as a Cloud Service] . Deze release is gepland om op 20 januari 2026 over te schakelen naar productieomgevingen.
+
+>[!BEGINSHADEBOX]
+
+### Verbeterde verificatie
+
+Toegangstokens voor Adobe IMS-beheerverificatie worden nu alleen geaccepteerd via POST-aanvragen. <!-- CCSAAS-4421 -->
+
+### B2B-dropins
+
+De volgende wijzigingen zijn aangebracht in B2B-drop-in onderdelen:
+
+* [!DNL Commerce Storefront on Edge Delivery Services] omvat nu [ B2B drop-in componenten ](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/). De volgende B2B-dropins zijn nu beschikbaar:
+
+   * **Beheer van het Bedrijf** - laat het beheer van het bedrijfprofiel en op rol-gebaseerde toestemmingen voor de storefronts van Adobe Commerce toe.
+   * **de schakelaar van het Bedrijf** - verstrekt een component UI voor gebruikers om tussen veelvoudige bedrijven te schakelen zij met worden geassocieerd.
+   * **de orden van de Aankoop** - beheert de werkschema&#39;s van de inkooporde, goedkeuringsregels, en de geschiedenis van de inkooporde voor B2B transacties.
+   * **het beheer van het Citaat** - laat verhandelbare citaten voor klanten B2B met citaatverzoek, onderhandeling, en goedkeuringswerkschema&#39;s toe.
+   * **de lijsten van de Verzoek** - verstrekt hulpmiddelen om en het leiden van vraaglijsten voor herhaalde aankopen en bulkopdracht tot stand te brengen.
+
+     >[!NOTE]
+     >
+     >Gedetailleerde documentatie voor de B2B-drop-in componenten zal beschikbaar zijn wanneer deze eigenschap tot Productie wordt bevorderd.
+
+* Release van het B2B Storefront Compatibility Package. Dit pakket verbetert het [!DNL Adobe Commerce] B2B GraphQL-schema om de ontwikkeling op B2B-systemen te helpen verbeteren.
+
+<!-- 
+* [!DNL Commerce Storefront on Edge Delivery Services] now includes [B2B drop-in components](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/). For a complete list of available B2B drop-in blocks, refer to the [storefront documentation](http://experienceleague.adobe.com/developer/commerce/storefront/merchants/b2b-commerce-blocks/).
+
+* Released the [B2B Storefront Compatibility Package](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility-b2b/). This package enhances the [!DNL Adobe Commerce] B2B GraphQL schema to help improve development on B2B systems. -->
+
+### Klikbare koppelingen naar externe transporttrackers
+
+Transformeer verzending volgnummers inbegrepen in winkele-mails van gewone tekst in klikbare verbindingen door [ toelatend Aangepast die URLs ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls) volgen. Deze functie wordt ondersteund voor USPS, UPS, FedEx en DHL. <!-- See PR #716 in commerce-admin -->
+
+### Google reCAPTCHA Enterprise-ondersteuning
+
+[!DNL Adobe Commerce as a Cloud Service] storefronts steunt nu [ reCAPTCHA Onderneming ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise). Deze functie biedt geavanceerde botbescherming door gebruik te maken van adaptieve risicoanalyse en machinaal leren om menselijke gebruikers nauwkeurig te onderscheiden van geautomatiseerde bots. Het versterkt de veiligheid van sites, voorkomt frauduleuze activiteiten en beperkt spam en misbruik om een vertrouwde winkelervaring te behouden. <!-- CCSAAS-4242 -->
+
+### Instantiespecifieke beheerderstoegang
+
+U kunt [ gebruikerstoegang ](./user-management.md#add-users) aan individuele [!DNL Adobe Commerce as a Cloud Service] instanties in Admin Console nu toewijzen. <!-- CCSAAS-4337 --><!-- See PR #332 -->
+
+### Waarneming
+
+Verbeter dieper zicht in uw [!DNL Adobe Commerce as a Cloud Service] instantie met [ OpenTelemetry observability ](https://developer.adobe.com/commerce/extensibility/observability/), nu automatisch beschikbaar. OpenTelemetry biedt meetgegevens, logboeken en sporen om u te helpen de prestaties te bewaken, problemen sneller op te lossen en uw winkel te optimaliseren. Dit vermogen laat pro-actieve inzichten in systeemgezondheid toe en verbetert betrouwbaarheid voor uw klanten.
+
+### Prijsniveau voor catalogusprijzen
+
+U kunt tiered tarifering kortingen met de kortingen van de catalogusregel nu combineren gebruikend [ de regels van de catalogusprijs ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules). Deze verbetering staat u toe om dynamischere en concurrerende het tarief strategieën-belonend bulkaankopen te creëren terwijl het toepassen van promotionele kortingen tezelfdertijd. Het resultaat is grotere flexibiliteit om klanten aan te trekken, orde te verhogen waarde, en aandrijvingsomzettingen.<!-- See PR #708 in commerce-admin -->
+
+### Verbeteringen en foutoplossingen
+
+De volgende geselecteerde verbeteringen, optimalisaties en foutoplossingen zijn opgenomen in deze release:
+
+* Oplossing voor een fout die kan optreden wanneer een bestand naar S3 wordt geüpload. <!-- CCSAAS-4189 -->
+
+* Oplossing voor een `User is not entitled to access this instance` -fout die kan optreden wanneer u zich aanmeldt bij de Commerce-beheerder of de REST-API opent. <!-- CCSAAS-4324 -->
+
+* Correctie van een fout die optrad bij het voorvertonen of een wachtrij maken van een nieuwsbrief in het raster Sjabloon nieuwsbrief. <!-- CCSAAS-4398 -->
+
+* Vaste a `404` fout die voorkwam wanneer het klikken van de [!UICONTROL **knoop van Gegevens**] op het Admin dashboard opnieuw laadt. <!-- CCSAAS-4468 -->
+
+* Correctie van een probleem waarbij aangepaste productkenmerken niet konden worden bijgewerkt via de REST API toen [!DNL AEM Assets integration] was ingeschakeld en het product afbeeldingen bevatte. <!-- ACAP-1178 -->
+
+* Diverse prestaties en optimalisatieverbeteringen.<!-- CCSAAS-4255 --><!-- CCSAAS-4233 --><!-- CCSAAS-4220 --><!-- CCSAAS-4252 --><!-- CCSAAS-4330 --><!-- CCSAAS-3669 --><!-- CCSAAS-4462 -->
+
+{{accs-release}}
+
+>[!ENDSHADEBOX]
 
 ## november 2025
 
@@ -37,18 +102,18 @@ De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a C
 
 ### Verbeteringen
 
-* [&#x200B; Gebruikersbeheer &#x200B;](./user-management.md) - veranderde **rol Admin van het Product** in Admin Console om gebruikerstoegang tot Commerce automatisch bij te werken Admin. <!-- CCSAAS-3012 -->
+* [ Gebruikersbeheer ](./user-management.md) - veranderde **rol Admin van het Product** in Admin Console om gebruikerstoegang tot Commerce automatisch bij te werken Admin. <!-- CCSAAS-3012 -->
 
-* Toegevoegd de capaciteit om verhandelbare citaatgehechtheid evenals dossiers en beelden te uploaden en terug te winnen verbonden aan klanten en klantenadressen aan Amazon S3 gebruikend presigned URLs in [&#x200B; GraphQL &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads) en [&#x200B; REST &#x200B;](https://developer.adobe.com/commerce/webapi/rest/modules/s3-uploads). Met REST kunt u ook categorieafbeeldingen uploaden. <!-- CCSAAS-3250 -->
+* Toegevoegd de capaciteit om verhandelbare citaatgehechtheid evenals dossiers en beelden te uploaden en terug te winnen verbonden aan klanten en klantenadressen aan Amazon S3 gebruikend presigned URLs in [ GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/schema/uploads) en [ REST ](https://developer.adobe.com/commerce/webapi/rest/modules/s3-uploads). Met REST kunt u ook categorieafbeeldingen uploaden. <!-- CCSAAS-3250 -->
 
-* Toegevoegde `POST /V1/customers` en `PUT /V1/customers/{customerId}` eindpunten aan [&#x200B; REST API &#x200B;](https://developer.adobe.com/commerce/webapi/rest/reference/) om klanten tot stand te brengen en bij te werken. Voor deze eindpunten is beheerderstoestemming vereist. <!-- CCSAAS-3112 -->
+* Toegevoegde `POST /V1/customers` en `PUT /V1/customers/{customerId}` eindpunten aan [ REST API ](https://developer.adobe.com/commerce/webapi/rest/reference/) om klanten tot stand te brengen en bij te werken. Voor deze eindpunten is beheerderstoestemming vereist. <!-- CCSAAS-3112 -->
 
-* De [`exchangeOtpForCustomerToken` mutatie &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/exchange-otp-customer-token/) werd toegevoegd, die het e-mailadres en het eenmalige wachtwoord van een klant (OTP) vereist, en ontvangt een klantentoken in ruil. Deze mutatie wordt typisch gebruikt in scenario&#39;s waar een klant gebruikend OTP moet voor authentiek verklaren die naar hun e-mail of telefoon wordt verzonden.
+* De [`exchangeOtpForCustomerToken` mutatie ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/exchange-otp-customer-token/) werd toegevoegd, die het e-mailadres en het eenmalige wachtwoord van een klant (OTP) vereist, en ontvangt een klantentoken in ruil. Deze mutatie wordt typisch gebruikt in scenario&#39;s waar een klant gebruikend OTP moet voor authentiek verklaren die naar hun e-mail of telefoon wordt verzonden.
 
 * Als een adres dat in het [!UICONTROL **configuratiescherm van de Adressen van de E-mail van de Opslag**] wordt bepaald een waarde bevat die met `example.com` beëindigt, verzendt Commerce geen e-mails naar dit adres. In plaats daarvan logt het systeem aan dat de e-mail niet is verzonden.  <!-- CCSAAS-3533 -->
 
 #### Aangepaste orderkenmerken
 
-* De gebruikers Admin kunnen [&#x200B; attributen van de douaneorde &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes) van de Mening van de Orde nu bekijken en uitgeven, en schermen in het Admin paneel creëren. Deze verbetering verbetert het beheer van aangepaste ordergegevens die via GraphQL zijn gemaakt. <!-- CEXT-5044 -->
+* De gebruikers Admin kunnen [ attributen van de douaneorde ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes) van de Mening van de Orde nu bekijken en uitgeven, en schermen in het Admin paneel creëren. Deze verbetering verbetert het beheer van aangepaste ordergegevens die via GraphQL zijn gemaakt. <!-- CEXT-5044 -->
 
 >[!ENDSHADEBOX]

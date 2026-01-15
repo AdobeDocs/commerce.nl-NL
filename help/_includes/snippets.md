@@ -21,10 +21,10 @@ ht-degree: 0%
 <table style="table-layout:fixed">
   <tr>
     <td style="vertical-align: middle;"><a href="https://developer.adobe.com/commerce/webapi/"><img alt="Developers" src="../assets/icons/developers.svg" /> <strong>Developers</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
     <td style="vertical-align: middle;"><a href="../cloud-service/overview.md"><img alt="Merchants" src="../assets/icons/merchants.svg" /> <strong>Merchants</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/?lang=nl-NL"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
   </tr>
 </table>
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 Adobe Commerce-identiteitsbeheer en -verificatie worden beheerd door het Adobe Identity Management System (IMS) via de Adobe Admin Console.
 
-Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van Adobe ID, Enterprise ID, en Federated ID, en instructies voor het vormen Enige Sign-On (SSO) voor veilige toegang tot Adobe apps, zie [&#x200B; de identiteit van de Opstelling en Enige Sign-On &#x200B;](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in de *Admin Console van de Onderneming* documentatie.
+Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van Adobe ID, Enterprise ID, en Federated ID, en instructies voor het vormen Enige Sign-On (SSO) voor veilige toegang tot Adobe apps, zie [&#x200B; de identiteit van de Opstelling en Enige Sign-On &#x200B;](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html) in de *Admin Console van de Onderneming* documentatie.
 
 ## ACCS-services en opmerkingen bij de uitbreidingsrelease {#accs-release}
 
@@ -51,4 +51,4 @@ Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van A
 
 | Services | Uitbreidbaarheid | Storefront |
 | --- | --- | --- |
-| <ul><li>[&#x200B; de Dienst van de Catalogus &#x200B;](../catalog-service/release-notes.md)</li><li>[&#x200B; Levend Onderzoek &#x200B;](../live-search/release-notes.md)</li><li>[&#x200B; de Diensten van de Betaling &#x200B;](../payment-services/release-notes.md)</li><li>[&#x200B; Aanbevelingen van het Product &#x200B;](../product-recommendations/release-notes.md)</li><li>[&#x200B; de Uitvoer van Gegevens SaaS &#x200B;](../data-export/release-notes.md)</li></ul> | <ul><li>[&#x200B; Admin UI SDK &#x200B;](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[&#x200B; API Net &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[&#x200B; Gebeurtenissen &#x200B;](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[&#x200B; Webhooks &#x200B;](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[&#x200B; de informatie van de Versie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)</li><li>[&#x200B; Changelog &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/)</li></ul> |
+| <ul><li>[&#x200B; de Dienst van de Catalogus &#x200B;](../catalog-service/release-notes.md)</li><li>[&#x200B; Levend Onderzoek &#x200B;](../live-search/release-notes.md)</li><li>[&#x200B; de Diensten van de Betaling &#x200B;](../payment-services/release-notes.md)</li><li>[&#x200B; Aanbevelingen van het Product &#x200B;](../product-recommendations/release-notes.md)</li><li>[&#x200B; de Uitvoer van Gegevens SaaS &#x200B;](../data-export/release-notes.md)</li></ul> | <ul><li>[&#x200B; Admin UI SDK &#x200B;](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[&#x200B; API Net &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[&#x200B; Gebeurtenissen &#x200B;](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[&#x200B; Webhooks &#x200B;](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[&#x200B; de informatie van de Versie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=nl-NL)</li><li>[&#x200B; Changelog &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=nl-NL)</li></ul> |

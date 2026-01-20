@@ -3,7 +3,7 @@ title: Gegevens verzamelen
 description: Leer hoe de gebeurtenissen gegevens voor  [!DNL Product Recommendations] verzamelen.
 feature: Services, Recommendations, Eventing
 exl-id: 0d5317e3-c049-4fcd-a8e4-228668d89386
-source-git-commit: d770d4d99802f7ecf6e395518dfc9aeaac9aa130
+source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Wanneer u [[!DNL Product Recommendations]](install-configure.md) installeert en vormt, stelt de module gedragsgegevensinzameling aan uw storefront op. Dit mechanisme verzamelt geanonimiseerde gedragsgegevens van uw kopers en machten [!DNL Product Recommendations] . De gebeurtenis `view` wordt bijvoorbeeld gebruikt om het `Viewed this, viewed that` aanbeveling-type te berekenen en de gebeurtenis `place-order` wordt gebruikt om het `Bought this, bought that` aanbeveling-type te berekenen.
 
-Zie de [&#x200B; ontwikkelaardocumentatie &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) om meer over de gedragsgegevens te leren de [!DNL Product Recommendations] gebeurtenissen verzamelen.
+Zie de [ ontwikkelaardocumentatie ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#product-recommendations) om meer over de gedragsgegevens te leren de [!DNL Product Recommendations] gebeurtenissen verzamelen.
 
 >[!NOTE]
 >
->Gegevensverzameling ten behoeve van [!DNL Product Recommendations] omvat geen PII (Persoonlijk identificeerbare informatie). Alle gebruikers-id&#39;s, zoals cookie-id&#39;s en IP-adressen, worden strikt geanonimiseerd. Leer [&#x200B; meer &#x200B;](https://www.adobe.com/privacy/experience-cloud.html).
+>Gegevensverzameling ten behoeve van [!DNL Product Recommendations] omvat geen PII (Persoonlijk identificeerbare informatie). Alle gebruikers-id&#39;s, zoals cookie-id&#39;s en IP-adressen, worden strikt geanonimiseerd. Leer [ meer ](https://www.adobe.com/privacy/experience-cloud.html).
 
 ## Gezondheidszorgklanten
 
-Als u een gezondheidszorgklant bent en u de [&#x200B; uitbreiding van HIPAA van de Diensten van Gegevens &#x200B;](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [&#x200B; uitbreiding van de Verbinding van Gegevens &#x200B;](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Product Recommendations] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Product Recommendations] . Zie [&#x200B; algemene configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/general/general#data-services) om meer te leren.
+Als u een gezondheidszorgklant bent en u de [ uitbreiding van HIPAA van de Diensten van Gegevens ](../data-connection/hipaa-readiness.md#installation) installeerde, die deel van de [ uitbreiding van de Verbinding van Gegevens ](../data-connection/overview.md) uitmaakt, worden de gegevens van de storefront gebeurtenis die door [!DNL Product Recommendations] worden gebruikt niet meer gevangen. Dit komt doordat gebeurtenisgegevens voor storefront op de client worden gegenereerd. Als u wilt doorgaan met het vastleggen en verzenden van gegevens over storefront-gebeurtenissen, schakelt u gebeurtenisverzameling opnieuw in voor [!DNL Product Recommendations] . Zie [ algemene configuratie ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/general/general#data-services) om meer te leren.
 
 ## Gegevenstypen en gebeurtenissen
 
@@ -31,7 +31,7 @@ Er worden twee soorten gegevens gebruikt in productaanbevelingen:
 - **Gedrag** - Gegevens van de overeenkomst van een verkoopster op uw plaats, zoals productmeningen, punten die aan een kar worden toegevoegd, en aankopen.
 - **Catalogus** - de meta-gegevens van het Product, zoals naam, prijs, beschikbaarheid, etc.
 
-Wanneer u de module `magento/product-recommendations` installeert, aggregeert Adobe Sensei de gedrags- en catalogusgegevens en worden productaanbevelingen voor elk type aanbeveling gemaakt. De dienst van de Aanbevelingen van het Product stelt dan die aanbevelingen aan uw opslag in de vorm van een widget op die de geadviseerde product _punten_ bevat.
+Wanneer u de module `magento/product-recommendations` installeert, aggregeert Adobe AI de gedrags- en catalogusgegevens en worden productaanbevelingen voor elk type aanbeveling gemaakt. De dienst van de Aanbevelingen van het Product stelt dan die aanbevelingen aan uw opslag in de vorm van een widget op die de geadviseerde product _punten_ bevat.
 
 Sommige soorten aanbevelingen gebruiken gedragsgegevens van uw klanten om machine het leren modellen op te leiden om gepersonaliseerde aanbevelingen te bouwen. Andere soorten aanbevelingen gebruiken alleen catalogusgegevens en gebruiken geen gedragsgegevens. Als u snel wilt beginnen met het gebruik van productaanbevelingen op uw site, kunt u de volgende aanbevolen typen gebruiken, alleen voor catalogi:
 
@@ -42,7 +42,7 @@ Sommige soorten aanbevelingen gebruiken gedragsgegevens van uw klanten om machin
 
 Wanneer kunt u beginnen met het gebruiken van aanbevelingen die gedragsgegevens gebruiken? Het hangt ervan af. Dit wordt bedoeld als _Koud Begin_ probleem.
 
-Het _Koude 1&rbrace; probleem van het Begin van het Begin &lbrace;verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor productaanbevelingen betekent dit dat Adobe Sensei moet wachten om voldoende gegevens te verzamelen voor het trainen van zijn modellen voor machinaal leren voordat het aanbevelingen op uw plaats opstelt. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen door de `magento/production-recommendations` module te installeren en te plaatsen.
+Het _Koude 1} probleem van het Begin van het Begin {verwijst naar de tijd het voor een model neemt om te trainen en effectief te worden._ Voor productaanbevelingen betekent dit dat moet worden gewacht totdat Adobe AI voldoende gegevens verzamelt om zijn modellen voor machinaal leren op te leiden voordat aanbevelingen op uw site worden geïmplementeerd. Hoe meer gegevens de modellen hebben, des te nauwkeuriger en nuttiger de aanbevelingen zijn. Aangezien de gegevensinzameling op een levende plaats gebeurt, is het best om dit proces vroegtijdig te beginnen door de `magento/production-recommendations` module te installeren en te plaatsen.
 
 De volgende tabel bevat een aantal algemene richtlijnen voor de hoeveelheid tijd die nodig is om voldoende gegevens voor elk type aanbeveling te verzamelen:
 
@@ -59,11 +59,11 @@ Andere variabelen die van invloed kunnen zijn op de tijd die nodig is om te trai
 - Sommige aanbevelingen typen sneller dan andere
 - Adobe Commerce berekent de gedragsgegevens elke vier uur opnieuw. Aanbevelingen worden nauwkeuriger naarmate ze langer op uw site worden gebruikt.
 
-Om u te helpen de opleidingsvooruitgang van elk aanbevelingstype visualiseren, [&#x200B; creeer aanbeveling &#x200B;](create.md#readiness-indicators) de indicatoren van de paginabereidheid.
+Om u te helpen de opleidingsvooruitgang van elk aanbevelingstype visualiseren, [ creeer aanbeveling ](create.md#readiness-indicators) de indicatoren van de paginabereidheid.
 
 Terwijl gegevens worden verzameld op uw livesite en de modellen voor het leren van machines een training zijn, kunt u andere test- en configuratietaken voltooien die nodig zijn om aanbevelingen op te stellen. Tegen de tijd dat u met dit werk wordt gedaan, zullen de modellen genoeg gegevens hebben om nuttige aanbevelingen tot stand te brengen, die u toestaan om hen aan uw winkel op te stellen.
 
-Als uw plaats niet genoeg verkeer (meningen, aankopen, tendensen) voor de meeste product SKUs krijgt, zouden er niet genoeg gegevens kunnen zijn om het het leren proces te voltooien. Hierdoor kan de gereedheidsindicator in de Admin vastzitten. De gereedheidsindicatoren zijn bedoeld om handelaren een ander gegevenspunt te bieden bij het kiezen van het aanbevolen type voor hun winkel. De getallen zijn een leidraad en mogen nooit 100% bedragen. [&#x200B; Leer meer &#x200B;](create.md#readiness-indicators) over bereidheid indicatoren.
+Als uw plaats niet genoeg verkeer (meningen, aankopen, tendensen) voor de meeste product SKUs krijgt, zouden er niet genoeg gegevens kunnen zijn om het het leren proces te voltooien. Hierdoor kan de gereedheidsindicator in de Admin vastzitten. De gereedheidsindicatoren zijn bedoeld om handelaren een ander gegevenspunt te bieden bij het kiezen van het aanbevolen type voor hun winkel. De getallen zijn een leidraad en mogen nooit 100% bedragen. [ Leer meer ](create.md#readiness-indicators) over bereidheid indicatoren.
 
 ### Aanbevelingen voor back-up {#backuprecs}
 
@@ -81,10 +81,10 @@ In het geval van onvoldoende gegevensverzameling worden de volgende aanbevelinge
 
 #### Caveats
 
-- Ad blokkers en privacymontages kunnen gebeurtenissen verhinderen worden gevangen en zouden de overeenkomst en opbrengst [&#x200B; metriek &#x200B;](workspace.md#column-descriptions) kunnen veroorzaken om worden onderdrukt. Bovendien kunnen bepaalde gebeurtenissen niet worden verzonden omdat de gebruiker de pagina of het netwerk heeft verlaten.
-- [&#x200B; Headless implementaties &#x200B;](headless.md) moet het verhinderen uitvoeren om het dashboard van de Aanbevelingen van het Product te aandrijven.
+- Ad blokkers en privacymontages kunnen gebeurtenissen verhinderen worden gevangen en zouden de overeenkomst en opbrengst [ metriek ](workspace.md#column-descriptions) kunnen veroorzaken om worden onderdrukt. Bovendien kunnen bepaalde gebeurtenissen niet worden verzonden omdat de gebruiker de pagina of het netwerk heeft verlaten.
+- [ Headless implementaties ](headless.md) moet het verhinderen uitvoeren om het dashboard van de Aanbevelingen van het Product te aandrijven.
 - Voor configureerbare producten gebruiken de Aanbevelingen van het Product het beeld van het ouderproduct in de adviseringseenheid. Als voor het configureerbare product geen afbeelding is opgegeven, is de aanbevolen eenheid leeg voor dat specifieke product.
 
 >[!NOTE]
 >
->Als [&#x200B; de Wijze van de Beperking van het Koekje &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html?lang=nl-NL) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.
+>Als [ de Wijze van de Beperking van het Koekje ](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law.html) wordt toegelaten, verzamelt Adobe Commerce geen gedragsgegevens tot de verkoopster toestemming geeft om koekjes te gebruiken. Als de modus Cookie-beperking is uitgeschakeld, verzamelt Adobe Commerce standaard gedragsgegevens.

@@ -3,8 +3,8 @@ title: Categorieverhandeling
 description: Het Verkopen van de Categorie van het gebruik  [!DNL Live Search]  voor een snellere het winkelen ervaring.
 gourl: ls_catalog_merchandising
 exl-id: b2645096-aafc-4d68-8adc-ab5410a9dfb6
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 59aa4ae67a1a8a853b72d78cd65a6cc44a6bc662
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 458f34c45406db871ec61ff408aa624f163b6ee0
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 # Categorieverhandeling
 
-De categorie het Merchandising staat opslageigenaars toe om [!DNL Live Search] Intelligente het rangschikken [&#x200B; regels &#x200B;](rules.md) op productcategorieën en subcategorieën toe te passen.
+De categorie het Merchandising staat opslageigenaars toe om [!DNL Live Search] Intelligente het rangschikken [ regels ](rules.md) op productcategorieën en subcategorieën toe te passen.
 
 Deze video is een inleiding op Categorie Merchandising.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448857?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3424617)
 
 De eigenschap wordt betreden in Admin bij **Marketing** > SEO &amp; Onderzoek > **[!DNL Live Search]** > **Categorie die** verhandelen.
 
 >[!NOTE]
 >
->De categorie die is het verwisselen beschikbaar met [!DNL Live Search] [&#x200B; 3.0.0 of hoger &#x200B;](release-notes.md). Werk de module [!DNL Live Search] bij als u de werkruimte Categorie-omzetting ziet, maar deze niet met gegevens wordt gevuld.
+>De categorie die is het verwisselen beschikbaar met [!DNL Live Search] [ 3.0.0 of hoger ](release-notes.md). Werk de module [!DNL Live Search] bij als u de werkruimte Categorie-omzetting ziet, maar deze niet met gegevens wordt gevuld.
 
-![&#x200B; het Merchandising van de Categorie &#x200B;](assets/category_workspace.png)
+![ het Merchandising van de Categorie ](assets/category_workspace.png)
 
 De mening van de Verkoop van de Categorie toont bepaalde categorieregels, met kolommen voor:
 
@@ -39,10 +39,10 @@ U kunt een categorie of subcategorie zoeken in het veld Zoeken op categorie.
 
 ## Rangorde van strategieën
 
-Het Merchandising van de categorie gebruikt de zelfde rangschikkende types zoals met [&#x200B; individuele producten &#x200B;](rules-workspace.md).
+Het Merchandising van de categorie gebruikt de zelfde rangschikkende types zoals met [ individuele producten ](rules-workspace.md).
 Er zijn twee soorten rangschikkingen: Intelligent en Handmatig.
 
-**Intelligente het rangschikken** hefboomwerkingen storefront gedragsgegevensanalyse door [&#x200B; Adobe Sensei &#x200B;](https://www.adobe.com/sensei.html) om alle producten binnen gekozen categorieën door een bepaald algoritme te sorteren. Zodra een intelligente rangschikking wordt gekozen, zal de specifieke volgorde van de producten naar verwachting in de loop der tijd veranderen naarmate de onderliggende gegevens doorlopend opnieuw door Adobe Sensei worden geanalyseerd. De bovenste trendproducten veranderen bijvoorbeeld automatisch in de loop van de tijd wanneer de winkelvoorkeuren veranderen.
+**Intelligente het rangschikken** hefboomwerkingen storefront gedragsgegevensanalyse door [ Adobe AI ](https://business.adobe.com/ai.html) om alle producten binnen gekozen categorieën door een bepaald algoritme te sorteren. Zodra een intelligente rangorde wordt gekozen, zal naar verwachting de specifieke volgorde van de producten in de loop der tijd veranderen naarmate de onderliggende gegevens doorlopend opnieuw worden geanalyseerd door Adobe AI. De bovenste trendproducten veranderen bijvoorbeeld automatisch in de loop van de tijd wanneer de winkelvoorkeuren veranderen.
 Intelligente classificatiemethoden zijn:
 
 * De meeste aankopen: producten worden gerangschikt op basis van de frequentie waarmee ze in de afgelopen zeven dagen door kopers zijn gekocht.
@@ -66,11 +66,11 @@ Voor elke categorie of subcategorie kan slechts één intelligente classificatie
 
 Als u een Intelligente rangschikking op een categorie toepast en **aanzet pas intelligente rangschikking op subcategorieën** optie toe, wordt om het even welke Intelligente die rangschikking reeds op subcategorieën wordt toegepast beschreven.
 
-![&#x200B; Geboekte subcategorielijst &#x200B;](assets/category_overwite_subs.png){width="700"}
+![ Geboekte subcategorielijst ](assets/category_overwite_subs.png){width="700"}
 
 Als u **Mening allen** klikt, opent een dialoog met details van de voorgestelde veranderingen.
 
-![&#x200B; het Rangschikken verandert details &#x200B;](assets/category_overwrite.png)
+![ het Rangschikken verandert details ](assets/category_overwrite.png)
 
 Wanneer u een Intelligent ranking rechtstreeks toevoegt aan een categorie met een overgeërfde Intelligent ranking, wordt de overerving overschreven door de nieuwe Intelligent ranking.
 
@@ -81,7 +81,7 @@ Als u een Intelligente rangschikking uit een categorie verwijdert en de subcateg
 
 Er wordt een dialoogvenster weergegeven waarin wordt uitgelegd welke overgeërfde subcategorieën worden beïnvloed door wijzigingen die u aanbrengt in een categorie op een hoger niveau.
 
-![&#x200B; het Rangschikken verandert modale dialoog &#x200B;](assets/category_overwrite_modal.png){width="1200"}
+![ het Rangschikken verandert modale dialoog ](assets/category_overwrite_modal.png){width="1200"}
 
 ## Een categorieregel maken
 
@@ -92,13 +92,13 @@ Een categorieregel maken:
 1. Schakel het selectievakje in om de categorie te selecteren die u wilt rangschikken.
 1. Klik **toepassen**.
 
-   ![&#x200B; selecteer een categorie &#x200B;](assets/category_select.png)
+   ![ selecteer een categorie ](assets/category_select.png)
 
 1. In _voeg de regel van de Categorie_ mening toe, selecteer de Intelligente het rangschikken methode u wenst om op de categorie van toepassing te zijn.
 Op de pagina Voorvertoning categorie worden de werkelijke resultaten van de geselecteerde positie weergegeven met behulp van uw Live zoeken-gegevens.
 1. Klik **sparen en publiceer** om de regel te bewaren.
 
-![&#x200B; selecteer de Intelligente het rangschikken methode &#x200B;](assets/category_ranking.png)
+![ selecteer de Intelligente het rangschikken methode ](assets/category_ranking.png)
 
 De service [!DNL Live Search] verwerkt de regel en activeert deze in de winkel wanneer u klaar bent.
 

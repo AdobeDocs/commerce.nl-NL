@@ -29,7 +29,7 @@ Wanneer u `magento/product-recommendations module` installeert, aggregeert Adobe
 
    Het opstellen [!DNL Product Recommendations] vereist twee belangrijkste [&#x200B; gegevensbronnen &#x200B;](type.md): catalogus en gedrag. Omdat productie de enige omgeving is waarin de acties van uw klanten worden vastgelegd en geanalyseerd, moet u zo vroeg mogelijk beginnen met het verzamelen van gegevens over productie. [&#x200B; Leer &#x200B;](events.md) hoe Adobe AI machine het leren modellen die in hogere kwaliteitsaanbevelingen resulteren. Als toegevoegd voordeel, wanneer u gedragsgegevens over productie begint te verzamelen, kunt u [&#x200B; aanbevelingen &#x200B;](staging-environment.md#fetch-recommendations-from-production-environment-recommended) halen die op deze productiegegevens worden gebaseerd terwijl het werken in niet-productiemilieu&#39;s. Vervolgens kunt u testen en experimenteren met verschillende aanbevelingen die worden berekend op basis van echte verkoopgegevens die in productie worden verzameld.
 
-   Om gegevensinzameling aan productie op te stellen, moet u [&#x200B; installeren en vormen &#x200B;](install-configure.md) module door een [!DNL Product Recommendations] API sleutel [&#x200B; te verstrekken.](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html)
+   Om gegevensinzameling aan productie op te stellen, moet u [&#x200B; installeren en vormen &#x200B;](install-configure.md) module door een [!DNL Product Recommendations] API sleutel [&#x200B; te verstrekken.](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=nl-NL)
 
    >[!TIP]
    >
@@ -43,7 +43,7 @@ Wanneer u `magento/product-recommendations module` installeert, aggregeert Adobe
    >
    > Door het malplaatje aan te passen, kunt u uw stijlblad specificeren, beschrijven waar een aanbevelingseenheid op een pagina, etc. verschijnt.
 
-   Zie [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/customize.html) aanpassen in de ontwikkelaardocumentatie leren hoe te om deze stap te voltooien.
+   Zie [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/customize.html?lang=nl-NL) aanpassen in de ontwikkelaardocumentatie leren hoe te om deze stap te voltooien.
 
 1. **aanbevelingen van de Test op uw niet-productiemilieu**
 

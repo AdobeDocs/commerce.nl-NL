@@ -15,7 +15,7 @@ U kunt [!DNL Product Recommendations] in een headless winkel integreren gebruike
 
 Aangepaste integratoren en ontwikkelaars zonder kop dienen deze Luma- en PWA-instructies te gebruiken als een voorgestelde implementatie. Er zijn vele manieren om de Aanbevelingen van het Product in hoofdloze oplossingen uit te voeren en deze documentatie behandelt niet alle scenario&#39;s. Integratoren moeten gebeurtenissen, ontwerpen en testen voor hun implementaties bestrijken.
 
-[!DNL Product Recommendations] vereist [&#x200B; gedrag en catalogusgegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html) om te werken. Het synchronisatieproces van catalogusgegevens blijft ongewijzigd in een headless-implementatie, maar er zijn wijzigingen nodig voor het verzamelen van gedragsgegevens.
+[!DNL Product Recommendations] vereist [&#x200B; gedrag en catalogusgegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce/product-recommendations/developer/development-overview.html?lang=nl-NL) om te werken. Het synchronisatieproces van catalogusgegevens blijft ongewijzigd in een headless-implementatie, maar er zijn wijzigingen nodig voor het verzamelen van gedragsgegevens.
 
 >[!NOTE]
 >

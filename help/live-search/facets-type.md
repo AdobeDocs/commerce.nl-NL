@@ -35,7 +35,7 @@ In tegenstelling, [&#x200B; worden de uitvoeringen zonder kop &#x200B;](https://
 
 ### Facet-labels
 
-Voor [!DNL Commerce] storefronts, wordt het facetetiket bepaald door de [*Eigenschappen van Attributen* &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html). Voor opslag met veelvoudige meningen, kunnen de extra etiketten onder *worden bepaald beheren Etiketten*. Voor hoofdloze implementaties, worden de etiketten uitgegeven van de [&#x200B; facetende werkruimte &#x200B;](faceting-workspace.md).
+Voor [!DNL Commerce] storefronts, wordt het facetetiket bepaald door de [*Eigenschappen van Attributen* &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create.html?lang=nl-NL). Voor opslag met veelvoudige meningen, kunnen de extra etiketten onder *worden bepaald beheren Etiketten*. Voor hoofdloze implementaties, worden de etiketten uitgegeven van de [&#x200B; facetende werkruimte &#x200B;](faceting-workspace.md).
 
 ### Tekst sorteren
 

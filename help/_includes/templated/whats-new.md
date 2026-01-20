@@ -45,7 +45,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes#latest"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes#latest"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -67,7 +67,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits"> Limieten en grenzen </a> onderwerp voor Adobe Commerce Optimizer om vergunningsgrenzen en systeemgrenzen te beschrijven, grensbeschrijvingen toe te voegen, en begeleiding voor capaciteit te omvatten planning en prestatieskwesties te verhinderen.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/boundaries-limits"> Limieten en grenzen </a> onderwerp voor Adobe Commerce Optimizer om vergunningsgrenzen en systeemgrenzen te beschrijven, grensbeschrijvingen toe te voegen, en begeleiding voor capaciteit te omvatten planning en prestatieskwesties te verhinderen.</p>
 </td>
       <td>
         Feedback, technisch
@@ -89,7 +89,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes"> versie 103.4.16 en 103.4.17 van de Gegevens van Adobe Commerce SaaS </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce/price-indexer/catalog-adapter/release-notes"> versie van de Adapter van de Catalogus 1.10.0 </a>.</p>
+      <td><p>De toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/release-notes"> versie 103.4.16 en 103.4.17 van de Gegevens van Adobe Commerce SaaS </a> en <a href="https://experienceleague.adobe.com/nl/docs/commerce/price-indexer/catalog-adapter/release-notes"> versie van de Adapter van de Catalogus 1.10.0 </a>.</p>
 </td>
       <td>
         Technisch
@@ -111,7 +111,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aem#install-the-commerce-assets-package"> vorm het onderwerp van AEM </a> in de documentatie van de Integratie van AEM Assets.</p>
+      <td><p>Bijgewerkt <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/configure-aem#install-the-commerce-assets-package"> vorm het onderwerp van AEM </a> in de documentatie van de Integratie van AEM Assets.</p>
 </td>
       <td>
         Belangrijke update
@@ -133,7 +133,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde nieuwe onderwerpen:<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/manage-results/opportunities"> Kansen </a> aan documentaAI-Aangedreven aanbevelingen van de plaatsoptimalisering door de integratie van Adobe Sites Optimizer, met inbegrip van auto-ontdekt en auto-moeilijke werkschema's voor het verbeteren van SEO, meta-gegevens, en de kwaliteit van productgegevens.<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-layer"> de Lagen van de Catalogus </a> om uit te leggen hoe te om productgegevens te wijzigen zonder brongegevens, met inbegrip van laag prioritaire beheer en integratie met Sites Optimizer auto-moeilijke eigenschappen te veranderen.</p>
+      <td><p>Toegevoegde nieuwe onderwerpen:<br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/manage-results/opportunities"> Kansen </a> aan documentaAI-Aangedreven aanbevelingen van de plaatsoptimalisering door de integratie van Adobe Sites Optimizer, met inbegrip van auto-ontdekt en auto-moeilijke werkschema's voor het verbeteren van SEO, meta-gegevens, en de kwaliteit van productgegevens.<br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/catalog-layer"> de Lagen van de Catalogus </a> om uit te leggen hoe te om productgegevens te wijzigen zonder brongegevens, met inbegrip van laag prioritaire beheer en integratie met Sites Optimizer auto-moeilijke eigenschappen te veranderen.</p>
 </td>
       <td>
         Belangrijke update, nieuw onderwerp
@@ -155,7 +155,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Het bijwerken van de aanbevelingen eigenschap in de documentatie van Commerce Optimizer aangezien de <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/recommendations/create#preview-recommendations"> voorproefruit </a> nu wordt gesteund.</p>
+      <td><p>Het bijwerken van de aanbevelingen eigenschap in de documentatie van Commerce Optimizer aangezien de <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/merchandising/recommendations/create#preview-recommendations"> voorproefruit </a> nu wordt gesteund.</p>
 </td>
       <td>
         Technisch

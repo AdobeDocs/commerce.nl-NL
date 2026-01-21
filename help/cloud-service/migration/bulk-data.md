@@ -1,123 +1,123 @@
 ---
-title: Bulkgegevensmigratie
-description: Leer hoe u het Bulk-hulpprogramma voor gegevensmigratie kunt gebruiken om gegevens van uw bestaande Adobe Commerce op Cloud-instantie te migreren naar  [!DNL Adobe Commerce as a Cloud Service] .
+title: Bulk Data Migratietool
+description: Leer hoe je de Bulk Data Migration Tool gebruikt om data te migreren van je bestaande Adobe Commerce on Cloud-instantie [!DNL Adobe Commerce as a Cloud Service].
 feature: Cloud
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce als Cloud Service en alleen Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 level: Intermediate
 exl-id: 81522de9-df54-4651-b8ed-58956376af86
-source-git-commit: 06bdcfbff5d376064b18bdab3945e7609075b8bc
+source-git-commit: e582ce85b58b57922a8cdd63dbe32bd0f08c64f9
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
-# Bulkgegevensmigratiehulpprogramma
+# Bulk datamigratietool
 
-Het hulpmiddel voor bulkgegevensmigratie volgt een gedistribueerde architectuur die veilige en efficiënte gegevensmigratie van PaaS naar SaaS-omgevingen mogelijk maakt. Met dit gereedschap kunnen implementatoren van oplossingen gegevens migreren van een bestaande Adobe Commerce on Cloud-instantie (PaaS) naar [!DNL Adobe Commerce as a Cloud Service] (SaaS). Voor meer informatie over het migratieproces, zie het [&#x200B; overzicht van de Migratie &#x200B;](./overview.md).
+De bulk datamigratietool volgt een gedistribueerde architectuur die veilige en efficiënte datamigratie van PaaS naar SaaS-omgevingen mogelijk maakt. Deze tool helpt oplossingsimplementeerders om data te migreren van een bestaande Adobe Commerce on Cloud-instantie (PaaS) naar [!DNL Adobe Commerce as a Cloud Service] (SaaS). Voor meer informatie over het migratieproces, zie het overzicht[ van migratie](./overview.md).
 
 >[!NOTE]
 >
->Het hulpmiddel van de bulkgegevensmigratie steunt het migreren van de eerste-partijkern handelsgegevens slechts. Aangepaste gegevensmigratie wordt momenteel niet ondersteund.
+>De bulk datamigratietool ondersteunt alleen het migreren van eerstepartij kernhandelsgegevens. Aangepaste datamigratie wordt momenteel niet ondersteund.
 
-In de volgende afbeelding ziet u de architectuur en de belangrijkste componenten voor het gebruik van het gereedschap Bulk voor gegevensmigratie.
+De volgende afbeelding beschrijft de architectuur en de belangrijkste componenten voor het gebruik van de Bulk datamigratietool.
 
-![&#x200B; Bulk het diagram van de architectuur van het Hulpmiddel van de Migratie van Gegevens die PaaS aan de gegevensstroom van SaaS tonen &#x200B;](../assets/bulk-data-diagram.png){zoomable="yes"}
+![Diagram van de architectuur van de Bulk Data Migration Tool dat PaaS naar SaaS dataflow toen.](../assets/bulk-data-diagram.png){zoomable="yes"}
 
 ## Migratieworkflow
 
-De workflow voor bulkgegevensmigratie bestaat uit de volgende stappen:
+De workflow voor bulkdatamigratie bestaat uit de volgende stappen:
 
-1. Stel een nieuwe omgeving in voor uw migratie.
-1. Kopieer uw gegevens van uw oude systeem.
-1. Verplaats uw gegevens naar het nieuwe systeem.
-1. Maak uw productcatalogus beschikbaar in het nieuwe systeem.
-1. Controleer of uw gegevens correct zijn gemigreerd.
+1. Richt een nieuwe omgeving in voor je migratie.
+1. Kopieer je gegevens van je oude systeem.
+1. Verplaats je gegevens naar het nieuwe systeem.
+1. Maak je productcatalogus beschikbaar in het nieuwe systeem.
+1. Bevestig dat je data correct is gemigrerd.
 
-In de volgende secties worden deze stappen gedetailleerd beschreven.
+De volgende secties beschrijven deze stappen in detail.
 
-## Toegang tot het hulpprogramma voor bulkgegevensmigratie
+## Toegang tot de bulk datamigratietool
 
-De beschikbaarheid van het bulkgegevensmigratiehulpmiddel is als volgt:
+De beschikbaarheid van de bulk datamigratietool is als volgt:
 
-- **Q4 2025** (nog niet beschikbaar) - na de aanvankelijke versie van het bulkhulpmiddel van de gegevensmigratie, zult u tot het kunnen toegang hebben door een steunkaartje voor te leggen.
-- **Q4 2025** (nog niet beschikbaar) - na de openbare versie van het bulkhulpmiddel van de gegevensmigratie, zal het van deze pagina toegankelijk zijn.
+- **Q1 2026** (nog niet beschikbaar) - Na de eerste release van de bulk data migratietool kun je er toegang toe krijgen door een supportticket in te dienen.
+- **Q1 2026** (nog niet beschikbaar) - Na de publieke release van de bulk data migratietool zal deze toegankelijk zijn vanaf deze pagina.
 
-## Doelomgeving maken
+## Creëer doelomgeving
 
-De oplossingsimplementer (SI) leidt tot een doelmilieu voor de migratie. In deze omgeving worden de gegevens opgeslagen die uit de broninstantie zijn gemigreerd.
+De solution implementer (SI) creëert een doelomgeving voor de migratie. Deze omgeving slaat de data op die van de broninstantie is gegenereerd.
 
-Eerst, [&#x200B; creeer een nieuwe  [!DNL Adobe Commerce as a Cloud Service]  (SaaS) instantie &#x200B;](../getting-started.md#create-an-instance).
+Maak eerst [een nieuwe [!DNL Adobe Commerce as a Cloud Service]  (SaaS)instantie](../getting-started.md#create-an-instance).
 
-### Extractieprogramma configureren
+### Configureer extractietool
 
-Gebruik het extractiegereedschap om gegevens uit de broninstantie te extraheren.
+Gebruik de extractietool om data uit de broninstantie te halen.
 
-1. Download het extractiegereedschap via de koppeling die u van Adobe hebt ontvangen.
-1. Stel de volgende omgevingsvariabelen in het extractiegereedschap in:
-   - Verbindingsgegevens met uw bestaande MySQL-database
-   - De doel-huurder-id voor uw [!DNL Adobe Commerce as a Cloud Service] -instantie
-   - Uw IMS-referenties, waaronder:
-      - Client-id
-      - Clientgeheim
-      - IMS-bereik
-      - IMS URL - De basis-URL. Bijvoorbeeld `https://ims-na1.adobelogin.com/` .
-      - IMS-organisatie-id
+1. Download de extractietool via de link die Adobe je heeft gegeven.
+1. Stel de volgende omgevingsvariabelen in in de extractietool:
+   - Verbindingsgegevens naar je bestaande MySQL-database
+   - De target tenant ID voor jouw [!DNL Adobe Commerce as a Cloud Service] instantie
+   - Je IMS-kwalificaties, waaronder:
+      - Klant-ID
+      - Cliëntgeheim
+      - IMS-scopes
+      - IMS URL - De basis-URL. Bijvoorbeeld, `https://ims-na1.adobelogin.com/`.
+      - IMS-organisatie-ID
 
-   Voor werkingsgebied IMS en andere waarden, selecteer uw type OAuth in de **sectie van Referenties** binnen uw project in [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console/). Meer informatie vindt u in het `.example.env` -bestand dat bij het extractiegereedschap wordt geleverd.
+   Voor IMS-scopes en andere waarden selecteert u uw OAuth-type in het **gedeelte Credentials** binnen uw project in de [Adobe Developer Console](https://developer.adobe.com/console/). Meer informatie wordt verstrekt in het `.example.env` bestand dat bij de extractietool is geleverd.
 
 ### Gegevens extraheren
 
-Alvorens het winningshulpmiddel in werking te stellen, moet de oplossingsimplementator een tunnel van SSH aan het gegevensbestand van PaaS vestigen gebruikend:
+Voordat de extractietool wordt uitgevoerd, moet de oplossingsimplementator een SSH-tunnel naar de PaaS-database opzetten met behulp van:
 
 ```bash
 magento-cloud tunnel:open
 ```
 
-Voer vervolgens het extractiegereedschap uit, dat:
+Voer vervolgens het extractiegereedschap uit, dat zal:
 
-1. Verbind met het gegevensbestand van PaaS, analyseer zijn schema, en vergelijk het met de details van het huurdersschema SaaS.
-1. Genereer een extractie- en transformatieplan op basis van de gemeenschappelijke schema-elementen tussen PaaS en SaaS.
-1. Haal de gegevens uit de Catalog Data Management Service (CDMS).
+1. Maak verbinding met de PaaS-database, analyseer het schema en vergelijk het met de details van de SaaS-tenant-schema.
+1. Genereer een extractie- en transformatieplan gebaseerd op de gemeenschappelijke schema-elementen tussen PaaS en SaaS.
+1. Haal de gegevens uit met behulp van de Catalog Data Management Service (CDMS).
 
-### Gegevens laden
+### Laadgegevens
 
-Voer het gereedschap voor het laden van gegevens van Adobe uit. Dit gereedschap:
+Voer de load data-tool uit die door Adobe wordt geleverd. Deze tool zal:
 
-1. Verbind met het huurdersgegevensbestand SaaS gebruikend een migratierekening.
-1. Genereer een laadplan.
-1. Voer het plan uit, bewegend gegevens naar het huurdersgegevensbestand SaaS in partijen.
-1. De catalogusmedia verwerken en deze naar de doelomgeving overbrengen.
-1. Duw SaaS Redis geheim voorgeheugen en maakt gegevensbestandindexen voor de huurder ongeldig.
+1. Maak verbinding met de SaaS-tenantdatabase via een migratieaccount.
+1. Maak een laadplan.
+1. Voer het plan uit en verplaats data in batches naar de SaaS-tenantdatabase.
+1. Verwerk catalogusmedia en breng deze over naar de doelomgeving.
+1. Leeg de SaaS Redis-cache en maak database-indexen voor de tenant ongeldig.
 
-### Gegevens uit catalogus
+### Catalogusgegevensopname
 
-Nadat de gegevens worden geladen, stromen de catalogusgegevens automatisch van het huurdersgegevensbestand SaaS aan de Dienst van de Catalogus.
+Nadat de data is geladen, stroomt de catalogusgegevens automatisch van de SaaS-tenantdatabase naar de Catalogusdienst.
 
-De Catalogusservice deelt deze gegevens met Live zoeken en productaanbevelingen. Voor dit proces is geen handmatige interventie vereist. De gegevens zijn beschikbaar in alle services nadat de invoer is voltooid.
+De Catalogusdienst deelt deze gegevens met Live Search en Product Recommendations. Voor dit proces is geen handmatige interventie nodig. De data is beschikbaar in alle diensten zodra de invoering is voltooid.
 
 ### Verificatie van gegevensintegriteit
 
-Na de migratie voert CDMS de volgende automatische controles op de gegevensintegriteit uit om de nauwkeurigheid en volledigheid van de gemigreerde gegevens te waarborgen:
+Na migratie voert CDMS de volgende automatische gegevensintegriteitscontroles uit om de nauwkeurigheid en volledigheid van de gemigreerde data te waarborgen:
 
-**op API-Gebaseerde controle**
+**API-gebaseerde verificatie**
 
-Tijdens verificatie vergelijkt CDMS REST- en GraphQL API-antwoorden van eerder uitgevoerde query&#39;s met corresponderende records van de doelinstantie. Eventuele verschillen zijn zichtbaar in de migratiestatus.
+Tijdens verificatie vergelijkt CDMS REST- en GraphQL API-antwoorden van eerder uitgevoerde queries met de bijbehorende records van de doelinstantie. Eventuele afwijkingen zijn zichtbaar in de migratiestatus.
 
-**gegevensbestand-vlakke controle**
+**Verificatie op databaseniveau**
 
-Tijdens controle, telt CDMS het aantal gehaalde verslagen en vergelijkt dat aantal met de hoeveelheid geladen verslagen.
+Tijdens verificatie telt CDMS het aantal geëxtraheerde records en vergelijkt dat aantal met het aantal geladen records.
 
-**Controle op bestelling (facultatief)**
+**On-demand verificatie (optioneel)**
 
-U kunt ook handmatig een uitgebreide verificatie van alle systeemrecords starten:
+U kunt ook handmatig een uitgebreide verificatie van alle systeemrecords activeren:
 
 >[!NOTE]
 >
->Dit proces is hulpbronnenintensief en mag alleen worden gebruikt in sandboxomgevingen.
+>Dit proces is resource-intensief en mag alleen worden gebruikt in sandbox-omgevingen.
 
 De volledige verificatie omvat:
 
-- Volledige API-verificatie met alle vooraf uitgenomen REST- en GraphQL API-reacties
-- Gedetailleerd verslag van eventuele geconstateerde inconsistenties
+- Volledige API-gebaseerde verificatie met alle vooraf geëxtraheerde REST- en GraphQL API-antwoorden
+- Gedetailleerde rapportage van eventuele gevonden inconsistenties

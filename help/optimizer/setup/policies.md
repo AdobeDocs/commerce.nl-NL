@@ -2,11 +2,11 @@
 title: Beleid
 description: Leer hoe te om beleid in  [!DNL Adobe Commerce Optimizer] tot stand te brengen en te beheren.
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 77f524f6-e283-44d2-9c79-9d40f686a7bf
-source-git-commit: 845d93e367c8e2495943afe8c7d5d0a4bde990c2
+source-git-commit: 4f238b002d1481126d4fec0a249b7f9ff437248e
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Een filter bestaat uit de volgende onderdelen:
 |---|---|---|
 | **Attribuut** | The product attribute used for filtering. | `part_category` |
 | **Exploitant** | De voorwaarde die op het attribuut wordt toegepast. | `IN`, `EQUALS`, `CONTAINS` |
-| **bron van de Waarde** | Geeft aan of de waarden `STATIC` of `TRIGGER` zijn. | `STATIC` [&#x200B; Leer meer &#x200B;](#value-source-types) |
+| **bron van de Waarde** | Geeft aan of de waarden `STATIC` of `TRIGGER` zijn. | `STATIC` [ Leer meer ](#value-source-types) |
 | **Waarde** | De specifieke waarden die aan de voorwaarde voldoen. | `brakes, suspension` |
 
 ### Voorbeeld
@@ -44,7 +44,7 @@ Het beleid met a **bron van de Waarde** van **STATIC** wordt beschouwd als unive
 
 Het beleid met a **bron van de Waarde** van **TRIGGER** wordt bedoeld als exclusief beleid. Dit betekent dat de catalogusweergave dat beleid alleen zal uitvoeren wanneer de trigger is opgegeven in de header van de API-aanroep. Op de winkel betekent dit dat de informatie wordt weergegeven op basis van wat de verkoper selecteert. Bijvoorbeeld, in het volgende beeld, zijn er twee drop-down menu&#39;s: **Merk** en **Model**.
 
-![&#x200B; Trigger waardebron op storefront &#x200B;](../assets/policy-trigger.png)
+![ Trigger waardebron op storefront ](../assets/policy-trigger.png)
 
 **Merk** en **Model** worden bepaalde trekkers:
 
@@ -76,14 +76,14 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
    1. **Attribuut** - ga een attribuut van uw catalogus in. Bijvoorbeeld &quot;part_category&quot;. Deze naam moet exact overeenkomen met de naam van het kenmerk in de catalogus.
    1. **Exploitant** - kies de exploitant. Bijvoorbeeld, **IN**. &#x200B;
    1. **waarde Source** - Uitgezochte **STATIC**. &#x200B;
-   1. **Waarde** - ga een waarde van de attributendefinitie in die u eerder specificeerde. Voer bijvoorbeeld &quot;remmen&quot; in om een filter voor remonderdelen te maken. &#x200B;De waarde moet exact overeenkomen met de kenmerknaam.
+   1. **Waarde** - ga een waarde van de attributendefinitie in die u eerder specificeerde. Voer bijvoorbeeld &quot;remmen&quot; in om een filter voor remonderdelen te maken.
    1. Om de waarde te bewaren, druk **binnengaan**.
 
       Als het beleid wordt ontworpen om door veelvoudige waarden te filtreren, ga elke waarde afzonderlijk in.
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 
@@ -124,7 +124,7 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 

@@ -2,7 +2,7 @@
 title: Bulk Data Migratietool
 description: Leer hoe je de Bulk Data Migration Tool gebruikt om data te migreren van je bestaande Adobe Commerce on Cloud-instantie [!DNL Adobe Commerce as a Cloud Service].
 feature: Cloud
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce als Cloud Service en alleen Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce als Cloud Service en alleen Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 level: Intermediate
 exl-id: 81522de9-df54-4651-b8ed-58956376af86

@@ -3,7 +3,7 @@ title: Migreren naar [!DNL Adobe Commerce as a Cloud Service]
 description: Leer hoe je kunt migreren naar [!DNL Adobe Commerce as a Cloud Service].
 feature: Cloud
 exl-id: 9065c92a-f6b2-4464-8ec0-5c549bf78104
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce als Cloud Service en alleen Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce als Cloud Service en alleen Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 level: Intermediate
 source-git-commit: af56d52f98a83310b858f82f16693f5323c1b962
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 **Belangrijke verschillen**
 
-* [!BADGE PaaS alleen]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce on Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en alleen on-premises projecten."} **PaaS (Actueel):** Merchant beheert applicatiecode, upgrades, patches en infrastructuurconfiguratie binnen de gehoste omgeving van Adobe. [Gedeelde verantwoordelijkheidsmodel](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility) voor diensten (MySQL, Elasticsearch en anderen).
-* [!BADGE Alleen]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce als Cloud Service en alleen Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} **SaaS SaaS (Nieuw - [!DNL Adobe Commerce as a Cloud Service])**: Adobe beheert volledig de kernapplicatie, infrastructuur en updates. Handelaren richten zich op maatwerk via uitbreidbaarheidspunten (API&#39;s, App Builder, UI SDK&#39;s). De kernapplicatiecode is vergrendeld.
+* [!BADGE PaaS alleen]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce on Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en alleen on-premises projecten."} **PaaS (Actueel):** Merchant beheert applicatiecode, upgrades, patches en infrastructuurconfiguratie binnen de gehoste omgeving van Adobe. [Gedeelde verantwoordelijkheidsmodel](https://experienceleague.adobe.com/nl/docs/commerce-operations/security-and-compliance/shared-responsibility) voor diensten (MySQL, Elasticsearch en anderen).
+* [!BADGE Alleen]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Van toepassing op Adobe Commerce als Cloud Service en alleen Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} **SaaS SaaS (Nieuw - [!DNL Adobe Commerce as a Cloud Service])**: Adobe beheert volledig de kernapplicatie, infrastructuur en updates. Handelaren richten zich op maatwerk via uitbreidbaarheidspunten (API&#39;s, App Builder, UI SDK&#39;s). De kernapplicatiecode is vergrendeld.
 
 **Architectonische implicaties**
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * [Adobe Developer App Builder](https://developer.adobe.com/app-builder/) en [API Mesh voor Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway)
 * [Commerce Optimizer](../../optimizer/overview.md)
-* [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/)
+* [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
 * Selfservice-provisioning met de [Commerce Cloud Manager](../getting-started.md#create-an-instance)
 
 ## Migratieroutes
@@ -169,7 +169,7 @@ Deze optie dient als overgangsstap, voortbouwend op een bestaande integratie waa
 
 * **de gegevenssynchronisatie van de Catalogus**: Verzeker uw instantie van Adobe Commerce PaaS product en catalogusgegevens aan uw bestaande dienst van de Catalogus SaaS van Adobe Commerce blijft synchroniseren. Dit baseert zich typisch op gevestigde schakelaars of modules binnen uw instantie PaaS. De dienst van de Catalogus SaaS blijft de gebiedende bron voor onderzoek en het verhandelen functies, die zijn gegevens uit uw steun PaaS afleiden.
 * **API Net voor optimalisering**: Terwijl de hoofdloze opslag (op Edge Delivery Services) en andere diensten gegevens van de dienst van de Catalogus SaaS direct konden verbruiken, adviseert Adobe hoogst gebruikend API Net (binnen App Builder). API Mesh kan APIs van de dienst van Catalog SaaS met andere noodzakelijke APIs van uw backend van PaaS (bijvoorbeeld, voorraadcontroles in real time van het transactionele gegevensbestand of de attributen van het douaneproduct niet volledig die aan de dienst van Catalog SaaS worden herhaald) verenigen in één enkel, presterend GraphQL eindpunt. Dit staat ook voor gecentraliseerde caching, authentificatie, en reactietransformatie toe.
-* **Integreer Live Search en productaanbevelingen**: Configureer Live Search en Product Recommendations SaaS-diensten om [catalogusgegevens](https://experienceleague.adobe.com/en/docs/commerce/live-search/install#configure-the-data) direct van je bestaande Adobe Commerce Catalog SaaS-dienst te importeren, die op zijn beurt wordt gevuld door je PaaS-backend.
+* **Integreer Live Search en productaanbevelingen**: Configureer Live Search en Product Recommendations SaaS-diensten om [catalogusgegevens](https://experienceleague.adobe.com/nl/docs/commerce/live-search/install#configure-the-data) direct van je bestaande Adobe Commerce Catalog SaaS-dienst te importeren, die op zijn beurt wordt gevuld door je PaaS-backend.
 
 **Voordeel**: Dit biedt een snellere weg naar een headless storefront en geavanceerde SaaS-merchandisingfuncties door gebruik te maken van een bestaande en operationele Catalog SaaS-dienst en de integratiepijplijn daarvan met je PaaS-backend. Het blijft echter afhankelijk van de PaaS-backend voor de primaire bron van catalogusgegevens en biedt niet de samenvoegingsmogelijkheden met meerdere bronnen die inherent zijn aan het nieuwe Composable Catalog Data Model. Deze optie is een geldig opstapje naar een volledigere samenstelbare architectuur.
 

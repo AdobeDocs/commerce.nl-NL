@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Bulk datamigratietool
 
-De bulk datamigratietool volgt een gedistribueerde architectuur die veilige en efficiënte datamigratie van PaaS naar SaaS-omgevingen mogelijk maakt. Deze tool helpt oplossingsimplementeerders om data te migreren van een bestaande Adobe Commerce on Cloud-instantie (PaaS) naar [!DNL Adobe Commerce as a Cloud Service] (SaaS). Voor meer informatie over het migratieproces, zie het overzicht[ van migratie](./overview.md).
+De bulk datamigratietool volgt een gedistribueerde architectuur die veilige en efficiënte datamigratie van PaaS naar SaaS-omgevingen mogelijk maakt. Deze tool helpt oplossingsimplementeerders om data te migreren van een bestaande Adobe Commerce on Cloud-instantie (PaaS) naar [!DNL Adobe Commerce as a Cloud Service] (SaaS). Voor meer informatie over het migratieproces, zie het overzicht[&#x200B; van migratie](./overview.md).
 
 >[!NOTE]
 >

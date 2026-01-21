@@ -72,7 +72,7 @@ De volgende tabel geeft een overzicht van het migratieproces voor verschillende 
 
 Zoals aangegeven in de tabel, zullen de mitigaties voor elke migratie bestaan uit:
 
-* **Datamigratie**—Gebruik van meegeleverde [](./bulk-data.md) migratietools om data van je bestaande instantie naar te migreren[!DNL Adobe Commerce as a Cloud Service].
+* **Datamigratie**—Gebruik van meegeleverde [&#128279;](./bulk-data.md) migratietools om data van je bestaande instantie naar te migreren[!DNL Adobe Commerce as a Cloud Service].
 * **Storefront**—Bestaande Commerce Storefronts die worden aangedreven door Edge Delivery en headless storefronts vereisen geen mitigatie, maar Luma-storefronts vereisen migratie naar Commerce Storefront powered by Edge Delivery. PWA Studio-winkelfronts kunnen worden gemigreerd naar Commerce Storefront die wordt aangedreven door Edge Delivery of in hun huidige staat wordt onderhouden. Adobe zal accelerators bieden om te helpen bij de migratie van winkelfronts.
 * **[API Mesh](https://developer.adobe.com/graphql-mesh-gateway)**—Maak een nieuwe mesh of wijzig de bestaande. Adobe zal vooraf geconfigureerde meshes leveren om dit proces te ondersteunen.
 * **Integraties**—Alle integraties moeten gebruikmaken van ofwel de [integratiestarterkit](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/) of de [[!DNL Adobe Commerce as a Cloud Service] REST API.](https://developer.adobe.com/commerce/webapi/reference/rest/saas/)
@@ -165,7 +165,7 @@ Dit is een cruciaal initiële integratiepunt met twee opties voor catalogusgegev
 
 **Maak gebruik van bestaande Catalog SaaS-service geïntegreerd met PaaS-backend**
 
-Deze optie dient als overgangsstap, voortbouwend op een bestaande integratie waar uw steun PaaS een bestaand geval van de dienst van Adobe Commerce SaaS met gegevens van de [ catalogusdienst ](../../catalog-service/guide-overview.md), [ levend onderzoek ](../../live-search/overview.md), en [ productaanbevelingen ](../../product-recommendations/overview.md) bevolkt.
+Deze optie dient als overgangsstap, voortbouwend op een bestaande integratie waar uw steun PaaS een bestaand geval van de dienst van Adobe Commerce SaaS met gegevens van de [&#x200B; catalogusdienst &#x200B;](../../catalog-service/guide-overview.md), [&#x200B; levend onderzoek &#x200B;](../../live-search/overview.md), en [&#x200B; productaanbevelingen &#x200B;](../../product-recommendations/overview.md) bevolkt.
 
 * **de gegevenssynchronisatie van de Catalogus**: Verzeker uw instantie van Adobe Commerce PaaS product en catalogusgegevens aan uw bestaande dienst van de Catalogus SaaS van Adobe Commerce blijft synchroniseren. Dit baseert zich typisch op gevestigde schakelaars of modules binnen uw instantie PaaS. De dienst van de Catalogus SaaS blijft de gebiedende bron voor onderzoek en het verhandelen functies, die zijn gegevens uit uw steun PaaS afleiden.
 * **API Net voor optimalisering**: Terwijl de hoofdloze opslag (op Edge Delivery Services) en andere diensten gegevens van de dienst van de Catalogus SaaS direct konden verbruiken, adviseert Adobe hoogst gebruikend API Net (binnen App Builder). API Mesh kan APIs van de dienst van Catalog SaaS met andere noodzakelijke APIs van uw backend van PaaS (bijvoorbeeld, voorraadcontroles in real time van het transactionele gegevensbestand of de attributen van het douaneproduct niet volledig die aan de dienst van Catalog SaaS worden herhaald) verenigen in één enkel, presterend GraphQL eindpunt. Dit staat ook voor gecentraliseerde caching, authentificatie, en reactietransformatie toe.
@@ -220,7 +220,7 @@ Datamigratie is een cruciaal en veelzijdig proces dat gelijktijdig wordt uitgevo
 
 Bulkmigratie van data houdt in dat je een volledige datadump uit je Adobe Commerce PaaS-instantie neemt, die volledige dataset transformeert en deze in één keer importeert in Adobe Commerce als Cloud Service. Deze methode wordt doorgaans gebruikt voor de initiële populatie van data.
 
-* **Tooling beschikbaarheid**: De specifieke [ tooling van de bulkgegevensmigratie ](./bulk-data.md) voor klantengebruik voor de bulkgegevensmigraties van eerste-partij Commerce zal door verzoek in Q1 2026 beschikbaar zijn. Als klanten vooraf hulp nodig hebben bij het migreren van bulkgegevens, kan Adobe de gegevensoverdracht namens hen op verzoek vergemakkelijken.
+* **Tooling beschikbaarheid**: De specifieke [&#x200B; tooling van de bulkgegevensmigratie &#x200B;](./bulk-data.md) voor klantengebruik voor de bulkgegevensmigraties van eerste-partij Commerce zal door verzoek in Q1 2026 beschikbaar zijn. Als klanten vooraf hulp nodig hebben bij het migreren van bulkgegevens, kan Adobe de gegevensoverdracht namens hen op verzoek vergemakkelijken.
 
 * **Proces**:
    * **Volledige data-export:** Haal een volledige dataset uit je Adobe Commerce PaaS-instantie (bijvoorbeeld producten, categorieën, klantaccounts, historische ordergegevens, statische blokken en paginainhoud).

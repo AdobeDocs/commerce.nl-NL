@@ -5,7 +5,7 @@ feature: Storefront
 role: Developer
 level: Beginner
 exl-id: 02928dc4-1777-483e-b0ee-b04fc813864d
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 0cd9749574460374a8fe875f1eff54f2a4a8d614
 workflow-type: tm+mt
 source-wordcount: '250'
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Voer de volgende stappen uit om [!DNL Adobe Commerce Storefront] powered by [!DNL Edge Delivery Services] for [!DNL Adobe Commerce as a Cloud Service] (SaaS) in te stellen.
 
-Voor een meer klantgerichte en gedetailleerde analyse, verwijs naar de [&#x200B; storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/).
+Voor een meer klantgerichte en gedetailleerde analyse, verwijs naar de [&#x200B; storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/?lang=nl-NL).
 
 1. Open het [&#x200B; hulpmiddel van de plaatsschepper &#x200B;](https://da.live/app/adobe-commerce/storefront-tools/tools/site-creator/site-creator).
 
@@ -47,5 +47,5 @@ Raadpleeg de volgende artikelen voor meer informatie:
 * [&#x200B; het Bijwerken van storefront inhoud &#x200B;](./use-cases.md#update-storefront-content) - beheer en vertoningsinhoud en gegevens over de storefront.
 * [&#x200B; Contextafhankelijke experimentatie &#x200B;](./use-cases.md#contextual-experimentation) - creeer en beheer experimenten op uw storefront.
 * [&#x200B; produceer Variaties &#x200B;](./use-cases.md#generate-variations) - Gebruik Generatieve AI om de inhoudsgeneratie van uitstekende kwaliteit te automatiseren.
-* [&#x200B; Adobe Commerce Storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/) - krijg gedetailleerde informatie over het bijwerken van plaatsinhoud en het integreren met Commerce frontend componenten en backend gegevens.
+* [&#x200B; Adobe Commerce Storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL) - krijg gedetailleerde informatie over het bijwerken van plaatsinhoud en het integreren met Commerce frontend componenten en backend gegevens.
 * [&#x200B; Dienst van de Configuratie &#x200B;](https://www.aem.live/docs/config-service-setup) - leer over het migreren van uw storefront configuratie van `config.json` om de Dienst van de Configuratie te gebruiken, die geavanceerde gebruiksgevallen zoals repoless configuratie en bekledingen steunt.

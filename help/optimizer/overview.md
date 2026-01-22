@@ -2,11 +2,11 @@
 title: Wat is Adobe Commerce Optimizer?
 description: Leer over  [!DNL Adobe Commerce Optimizer]  en zijn belangrijkste eigenschappen.
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: f9516d4c-fbae-4db2-a1a9-cda3684a8122
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: 8cf3e66641cf4bbc6db1da1dec14f7aaa291d6fe
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Met [!DNL Adobe Commerce Optimizer] kunt u:
 
 Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450469?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3450226)
 
 ## Wie profiteert het meest van [!DNL Adobe Commerce Optimizer]?
 
@@ -39,7 +39,7 @@ Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Comme
 
 Wanneer u [!DNL Adobe Commerce Optimizer] de eerste keer start, ziet u het volgende:
 
-![[!DNL Adobe Commerce Optimizer] UI &#x200B;](./assets/user-interface.png){zoomable="yes"}
+![[!DNL Adobe Commerce Optimizer] UI ](./assets/user-interface.png){zoomable="yes"}
 
 >[!BEGINTABS]
 
@@ -85,8 +85,12 @@ De belangrijkste mogelijkheden omvatten:
 - **Commerce storefront die door Edge Delivery** wordt aangedreven - met de levering van Edge, kunt u uw plaats snel lanceren gebruikend prebuilt storefront componenten met geïntegreerde handelsfunctionaliteit - met inbegrip van de pagina&#39;s van de productlijst, productdetailpagina&#39;s, kar, en controle.
 - **de kart en controle van de derde** - gebruik API netwerk en App bouwer om met derdekart en controlesystemen te integreren.
 
+>[!NOTE]
+>
+>Om systeemgrenzen en verlenen van vergunningen voor [!DNL Adobe Commerce Optimizer] mogelijkheden te begrijpen, zie de [ Limieten en het grenzen ](boundaries-limits.md) onderwerp.
+
 ## Architectuur
 
 In het volgende diagram wordt de basisarchitectuur van [!DNL Adobe Commerce Optimizer] beschreven, van het opnemen van catalogusgegevens tot de relatie tussen merchandising-services, uw winkeliefront en de integratie met een karretje- en uitcheckproces van derden.
 
-![[!DNL Adobe Commerce Optimizer] Architectuur &#x200B;](./assets/architecture.png)
+![[!DNL Adobe Commerce Optimizer] Architectuur ](./assets/architecture.png)

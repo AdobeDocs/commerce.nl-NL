@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Hieronder ziet u een lijst met Commerce-back office-gebeurtenissen die beschikbaar zijn wanneer u de extensie [!DNL Data Connection] installeert. De gegevens die deze gebeurtenissen verzamelen, worden naar de Adobe Experience Platform verzonden. U kunt [&#x200B; douanegebeurtenissen &#x200B;](custom-events.md) ook tot stand brengen om extra gegevens te verzamelen die niet uit de doos worden verstrekt.
 
-Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [&#x200B; andere gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html) die door het Web SDK van Adobe Experience Platform worden verstrekt.
+Naast de gegevens verzamelen de volgende gebeurtenissen zich, krijgt u ook [&#x200B; andere gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/automatic-information.html?lang=nl-NL) die door het Web SDK van Adobe Experience Platform worden verstrekt.
 
 De gebeurtenissen van het achterkantoor bevatten server-zijgegevens. Dit gegeven bestaat uit [&#x200B; de status van de orde &#x200B;](#order-status) informatie zoals als een orde werd geplaatst, geannuleerd, terugbetaald, verscheept, of voltooid. De server-zijgegevens omvatten ook [&#x200B; informatie van de de klantenprofielgebeurtenissen van 0&rbrace; &lbrace;, zoals als een rekening werd gecreeerd, bijgewerkt, of geschrapt.](#customer-profile-events)
 
 >[!NOTE]
 >
->Alle achterkantoorgebeurtenissen omvatten het [`identityMap` &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
+>Alle achterkantoorgebeurtenissen omvatten het [`identityMap` &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het e-mailadres van de verkoopster, indien beschikbaar, en ECID omvat.
 
 ## Status van bestelling
 
@@ -408,7 +408,7 @@ Profielgebeurtenissen die vanaf de server zijn vastgelegd, bevatten accountinfor
 
 >[!NOTE]
 >
->Elke gebeurtenis van het klantenprofiel omvat ook het [`identityMap` &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html) gebied, dat het systeem geproduceerde identiteitskaart van de Klant van Commerce als primaire herkenningsteken voor het profiel en een e-mailidentiteitskaart omvat die als secundaire herkenningsteken wordt gebruikt. [&#x200B; Leer &#x200B;](custom-identities.md) hoe te om de attributen van de douanetidentity tot stand te brengen om de identificatie van het klantenprofiel te verbeteren.
+>Elke gebeurtenis van het klantenprofiel omvat ook het [`identityMap` &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/identitymap.html?lang=nl-NL) gebied, dat het systeem geproduceerde identiteitskaart van de Klant van Commerce als primaire herkenningsteken voor het profiel en een e-mailidentiteitskaart omvat die als secundaire herkenningsteken wordt gebruikt. [&#x200B; Leer &#x200B;](custom-identities.md) hoe te om de attributen van de douanetidentity tot stand te brengen om de identificatie van het klantenprofiel te verbeteren.
 
 ### accountCreated
 

@@ -319,7 +319,7 @@ In dit scenario is het bekend dat het inschakelen van de PLP-widget ertoe kan le
 
 **Optie 3: Vervang GTM met Adobe Analytics**
 
-- Overweeg migrerend aan [&#x200B; Adobe Analytics &#x200B;](https://business.adobe.com/products/adobe-analytics.html) als toepasselijk.
+- Overweeg migrerend aan [&#x200B; Adobe Analytics &#x200B;](https://business.adobe.com/nl/products/adobe-analytics.html) als toepasselijk.
 - Neem contact op met Customer Engineering voor hulp.
 
 **die om** te contacteren: leg een steunkaartje voor GTM verenigbaarheidsupdates of de hulp van de Techniek van de Klant voor.
@@ -444,7 +444,7 @@ Neem contact op met de juiste bron op basis van uw specifieke behoeften.
 - Implementaties voor headless of PWA
 - Aangepaste gebeurtenistracering
 
-Om de Steun van Adobe te contacteren, zie de [&#x200B; Gids van de Gebruiker van het Centrum van de Hulp &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
+Om de Steun van Adobe te contacteren, zie de [&#x200B; Gids van de Gebruiker van het Centrum van de Hulp &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
 
 ## Veelgestelde vragen
 

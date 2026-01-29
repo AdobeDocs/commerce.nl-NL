@@ -3,9 +3,9 @@ user-guide-title: '[!DNL Live Search] Handleiding'
 user-guide-description: Deze gids verstrekt gedetailleerde instructies om  [!DNL Live Search]  van Adobe Commerce te gebruiken.
 role: Admin
 feature: Services, Search
-source-git-commit: 2796cefcc9edf6247efdb9ad275048566e94c559
+source-git-commit: c0a6f038d2528a67da6f1bb4f5e5bb140afc7dfc
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '81'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 3%
    - [Storefront-widgets](storefront-widgets.md)
    - [Pagina met productaanbiedingen](plp-styling.md)
    - [Storefront  [!DNL Popover]](storefront-popover.md)
+   - [Migreren naar PLP-widget](migrate-to-plp.md)
 - Beheerder {#live-search-admin}
    - [Prestaties](performance.md)
    - Facetten {#facets}
@@ -44,5 +45,5 @@ ht-degree: 3%
    - [Indexeren](indexing.md)
    - [GraphQL](graphql.md)
    - [Instellingen](settings.md)
-- [&#x200B; Gids van de Ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)
+- [ Gids van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

@@ -2,9 +2,9 @@
 title: Widget pagina met productaanbiedingen
 description: Het toelaten van en het stileren van  [!DNL Live Search Product Listing Page Widget]
 exl-id: 50ba8046-869a-4071-b3a3-a6392544c07b
-source-git-commit: 7684d5cded63f2b0805ee307dff77932607c47eb
+source-git-commit: c0a6f038d2528a67da6f1bb4f5e5bb140afc7dfc
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,14 @@ Wanneer de service [!DNL Live Search] is geïnstalleerd, wordt de standaardzoekf
 
 De [!DNL Live Search] PLP-widget is standaard ingeschakeld voor nieuwe installaties.
 
-Als u [!DNL Live Search] bijwerkt en de PLP-widget al is uitgeschakeld, blijft deze ook actief. U schakelt deze in:
+Als u [!DNL Live Search] bijwerkt en de PLP-widget al is uitgeschakeld, blijft deze ook actief.
+
+>[!NOTE]
+>
+>Als u van de afgekeurde Adapter van het Onderzoek migreert, zie de [ migratiegids ](migrate-to-plp.md) voor gedetailleerde begeleiding op scenario&#39;s, eerste vereisten, en geleidelijke instructies.
+
+De PLP-widget inschakelen:
+
 1. Ga in Adobe Commerce Admin naar Opslagruimten → Settings → Configuration.
 1. Klik in de linkernavigatie op **[!UICONTROL Live Search]** > **[!UICONTROL Storefront Features]** .
 1. Klik op de sectie [!UICONTROL Storefront Features] .
@@ -47,7 +54,7 @@ Naast de functies in de box van de PLP-widget kunt u de widget verder aanpassen 
 - Ondersteuning voor meerdere talen
 - Prijsschuifregelaars
 
-Voor informatie over hoe te om de widget PLOP aan te passen om de bovengenoemde eigenschappen te behandelen, zie `storefront-product-listing-page` leest in de volgende [&#x200B; bewaarplaats &#x200B;](https://github.com/adobe/storefront-product-listing-page/). Het Lees mij-bestand in deze opslagplaats biedt een voorbeeld voor het aanpassen van de PLP-widget en het implementeren van deze aanpassingen op uw site.
+Voor informatie over hoe te om de widget PLOP aan te passen om de bovengenoemde eigenschappen te behandelen, zie `storefront-product-listing-page` leest in de volgende [ bewaarplaats ](https://github.com/adobe/storefront-product-listing-page/). Het Lees mij-bestand in deze opslagplaats biedt een voorbeeld voor het aanpassen van de PLP-widget en het implementeren van deze aanpassingen op uw site.
 
 >[!WARNING]
 >
@@ -55,7 +62,7 @@ Voor informatie over hoe te om de widget PLOP aan te passen om de bovengenoemde 
 
 ## Voorbeeld van stijlen
 
-U kunt de blik en het gevoel van PLP widget aanpassen om uw plaats aan te passen gebruikend [&#x200B; CSS &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/css/).
+U kunt de blik en het gevoel van PLP widget aanpassen om uw plaats aan te passen gebruikend [ CSS ](https://developer.adobe.com/commerce/frontend-core/guide/css/).
 
 >[!NOTE]
 >
@@ -63,7 +70,7 @@ U kunt de blik en het gevoel van PLP widget aanpassen om uw plaats aan te passen
 
 De gemarkeerde div-elementen bevatten de doelklasse `ds-sdk-product-item__product-name` .
 
-![&#x200B; Paginering &#x200B;](assets/plp-css-example.png)
+![ Paginering ](assets/plp-css-example.png)
 
 Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt geschreven.
 
@@ -73,7 +80,7 @@ Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt ge
 }
 ```
 
-![&#x200B; Paginering &#x200B;](assets/plp-css-example-after.png)
+![ Paginering ](assets/plp-css-example-after.png)
 
 ## CSS-klassen
 
@@ -82,21 +89,21 @@ Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt ge
 - `.ds-sdk-product-list`: div buiten
 - `.ds-sdk-product-list__grid`: div binnen
 
-![&#x200B; Paginering &#x200B;](assets/plp-css-product-list.png)
+![ Paginering ](assets/plp-css-product-list.png)
 
 #### Paginering van de productlijst
 
 - `.ds-plp-pagination`
 
-![&#x200B; Paginering &#x200B;](assets/plp-css-pagination.png)
+![ Paginering ](assets/plp-css-pagination.png)
 
 - `.ds-plp-pagination_item`
 
-![&#x200B; het punt van de Paginering &#x200B;](assets/plp-css-pagination-item.png)
+![ het punt van de Paginering ](assets/plp-css-pagination-item.png)
 
 - `.ds-plp-pagination_item--current`
 
-![&#x200B; het huidige punt van de Paginering &#x200B;](assets/plp-css-pagination-item-current.png)
+![ het huidige punt van de Paginering ](assets/plp-css-pagination-item-current.png)
 
 ### Widgets
 
@@ -104,33 +111,33 @@ Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt ge
 - `.ds-widgets__actions`: binnenste div links
 - `.ds-widgets__results`: Div aan rechterkant binnenste div
 
-![&#x200B; Resultaten Widget &#x200B;](assets/plp-css-widgets.png)
+![ Resultaten Widget ](assets/plp-css-widgets.png)
 
 ### Vervolgkeuzelijst sorteren
 
 - `.ds-sdk-sort-dropdown`
 
-![&#x200B; dropdown van de Sortering &#x200B;](assets/plp-css-dropdown.png)
+![ dropdown van de Sortering ](assets/plp-css-dropdown.png)
 
 - `.ds-sdk-sort-dropdown__button`
 
-![&#x200B; Knoop Dropdown &#x200B;](assets/plp-css-dropdown-button.png)
+![ Knoop Dropdown ](assets/plp-css-dropdown-button.png)
 
 - `.ds-sdk-sort-dropdown__items`
 
-![&#x200B; Punten Dropdown &#x200B;](assets/plp-css-dropdown-items.png)
+![ Punten Dropdown ](assets/plp-css-dropdown-items.png)
 
 - `.ds-sdk-sort-dropdown__items--item`
 
-![&#x200B; Punt Dropdown &#x200B;](assets/plp-css-dropdown-item.png)
+![ Punt Dropdown ](assets/plp-css-dropdown-item.png)
 
 - `.ds-sdk-sort-dropdown__items--item-selected`
 
-![&#x200B; Dropdown geselecteerd punt &#x200B;](assets/plp-css-dropdown-selected.png)
+![ Dropdown geselecteerd punt ](assets/plp-css-dropdown-selected.png)
 
 - `.ds-sdk-sort-dropdown__items--item-active`
 
-![&#x200B; Dropdown actieve selectie &#x200B;](assets/plp-css-dropdown-active.png)
+![ Dropdown actieve selectie ](assets/plp-css-dropdown-active.png)
 
 ### Facetten
 
@@ -139,21 +146,21 @@ Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt ge
 - `.ds-plp-facets__header_title`
 - `.ds-plp-facets__header__clear-all`
 
-![&#x200B; Facets kopbaltitel &#x200B;](assets/plp-css-facets-title-clear.png){width="350"}
+![ Facets kopbaltitel ](assets/plp-css-facets-title-clear.png){width="350"}
 
 - `.ds-plp-facets__pills`
 - `.ds-sdk-pill`
 
-![&#x200B; pillen van 0&rbrace; Facet](assets/plp-css-facets-pill.png){width="350"}
+![ pillen van 0} Facet](assets/plp-css-facets-pill.png){width="350"}
 
 - `.ds-sdk-pill__label`
 - `.ds-sdk-pill__cta`
 
-![&#x200B; etiket van Facets &#x200B;](assets/plp-css-pill-label-cta.png){width="350"}
+![ etiket van Facets ](assets/plp-css-pill-label-cta.png){width="350"}
 
 - `.ds-plp-facets__list`
 
-![&#x200B; lijst van Facetten &#x200B;](assets/plp-css-facets-list.png){width="350"}
+![ lijst van Facetten ](assets/plp-css-facets-list.png){width="350"}
 
 - `.ds-sdk-input`
 - `.ds-sdk-input__label`
@@ -161,16 +168,16 @@ Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt ge
 - `ds-sdk-product-item__product-swatch-item`
 - `.ds-sdk-input_fieldset_show-more`
 
-![&#x200B; Input &#x200B;](assets/plp-css-sdk-input.png)
+![ Input ](assets/plp-css-sdk-input.png)
 
 - `.ds-sdk-labelled-input`
 
-![&#x200B; Gelabelde input &#x200B;](assets/plp-css-labelled-input.png)
+![ Gelabelde input ](assets/plp-css-labelled-input.png)
 
 - `.ds-sdk-labelled-input__input`
 - `.ds-sdk-labelled-input__label`
 
-![&#x200B; etiket van de Input &#x200B;](assets/plp-css-labelled-input-label.png)
+![ etiket van de Input ](assets/plp-css-labelled-input-label.png)
 
 ### Product-item
 
@@ -184,7 +191,7 @@ Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt ge
    - `.ds-sdk-product-price--bundle`
    - `.ds-sdk-product-price--discount`
 
-![&#x200B; Product &#x200B;](assets/plp-css-product.png)
+![ Product ](assets/plp-css-product.png)
 
 ### Laden
 
@@ -192,7 +199,7 @@ Pas de productnaam aan door een regel toe te voegen die in hoofdletters wordt ge
 - `.ds-sdk-loading__spinner`
 - `.ds-sdk-loading__spinner-label`
 
-![&#x200B; Ladende indicator &#x200B;](assets/plp-css-loading.png)
+![ Ladende indicator ](assets/plp-css-loading.png)
 
 ## De PLP-widget uitschakelen
 

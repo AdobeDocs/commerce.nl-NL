@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Migreren van zoekadapter naar PLP-widget
 
-De onderzoeksadapter is [ afgekeurd ](release-notes.md#live-search-400) vanaf [!DNL Live Search] 4.0.0 en zal slechts veiligheidsupdates ontvangen. De [ Van de Lijst van het Product van de Pagina (PLP) Widget ](plp-styling.md) is de gesteunde oplossing voor alle [!DNL Live Search] implementaties die door:gaan. Deze gids helpt u begrijpen wanneer de migratie ongecompliceerd is en wanneer het extra werk wordt vereist.
+De onderzoeksadapter is [&#x200B; afgekeurd &#x200B;](release-notes.md#live-search-400) vanaf [!DNL Live Search] 4.0.0 en zal slechts veiligheidsupdates ontvangen. De [&#x200B; Van de Lijst van het Product van de Pagina (PLP) Widget &#x200B;](plp-styling.md) is de gesteunde oplossing voor alle [!DNL Live Search] implementaties die door:gaan. Deze gids helpt u begrijpen wanneer de migratie ongecompliceerd is en wanneer het extra werk wordt vereist.
 
 ## Vereisten
 
@@ -30,7 +30,7 @@ Voordat u de migratie start:
 
 1. Maak een back-up van uw database en code.
 1. Huidige aanpassingen documenteren.
-1. Het overzicht [ Grenzen en Beperkingen ](boundaries-limits.md) om ervoor te zorgen dat de PLOP widget aan uw behoeften voldoet.
+1. Het overzicht [&#x200B; Grenzen en Beperkingen &#x200B;](boundaries-limits.md) om ervoor te zorgen dat de PLOP widget aan uw behoeften voldoet.
 1. De migratie van het programma tijdens een laag-verkeersperiode.
 1. Belanghebbenden op de hoogte stellen van mogelijke wijzigingen in het verkoopgedrag.
 
@@ -69,7 +69,7 @@ U kunt rechtstreeks naar de PLP-widget migreren als uw implementatie aan alle vo
 - U gebruikt Google Tag Manager (GTM) niet voor analyses.
 - U gebruikt geen extensies van derden die het zoekgedrag wijzigen.
 
-Als uw implementatie deze criteria aanpast, ga aan [ Standaard migratiestappen ](#standard-migration-steps) te werk.
+Als uw implementatie deze criteria aanpast, ga aan [&#x200B; Standaard migratiestappen &#x200B;](#standard-migration-steps) te werk.
 
 ### Migratie vereist extra werk
 
@@ -108,7 +108,7 @@ Extra werk is vereist als uw implementatie om het even welke volgend heeft:
 - Aangepaste versies van widgets hosten op uw eigen CDN.
 - Aangepaste JavaScript-extensies voor zoekfunctionaliteit.
 
-Als uw implementatie om het even welk van deze scenario&#39;s heeft, zie [ Complexe migratiescenario&#39;s ](#complex-migration-scenarios).
+Als uw implementatie om het even welk van deze scenario&#39;s heeft, zie [&#x200B; Complexe migratiescenario&#39;s &#x200B;](#complex-migration-scenarios).
 
 ## Standaardmigratiestappen
 
@@ -214,7 +214,7 @@ Verplaats de gevalideerde configuratie naar uw live winkel.
 
 1. Plan indien mogelijk de implementatie tijdens het onderhoudsvenster.
 1. Volg uw standaard implementatieproces.
-1. Laat PLP widget in productie toe gebruikend [ Stap 2: laat PLP widget ](#step-2-enable-the-plp-widget) toe.
+1. Laat PLP widget in productie toe gebruikend [&#x200B; Stap 2: laat PLP widget &#x200B;](#step-2-enable-the-plp-widget) toe.
 1. Bewaak onmiddellijk na de implementatie op eventuele problemen.
 1. Hebt u een terugdraaiplan klaar als zich kritieke problemen voordoen.
 
@@ -249,7 +249,7 @@ In dit scenario hebt u aangepaste sjablonen of lay-outs die het standaardgedrag 
    - Aangepaste JavaScript-interacties documenteren.
 
 1. **migreren aan op CSS-Gebaseerde aanpassingen**:
-   - De PLP widget gebruikt specifieke CSS klassen (zie [ PLP het stileren gids ](plp-styling.md)).
+   - De PLP widget gebruikt specifieke CSS klassen (zie [&#x200B; PLP het stileren gids &#x200B;](plp-styling.md)).
    - Maak opnieuw visuele aanpassingen met behulp van de CSS-klassen van de PLP-widget.
    - Testen of aangepaste stijlen correct worden toegepast.
 
@@ -275,7 +275,7 @@ In dit scenario beschikt u over facetten die productkenmerken gebruiken met aang
    - Huidige facetconfiguratie van document.
 
 1. **Bevorder en laat PLP widget** toe:
-   - Volg [ Standaardmigratiestappen ](#standard-migration-steps).
+   - Volg [&#x200B; Standaardmigratiestappen &#x200B;](#standard-migration-steps).
    - De PLP-widget ondersteunt aangepaste bronmodelkenmerken.
 
 1. **opnieuw samenstellen facetten**:
@@ -305,7 +305,7 @@ In dit scenario is het bekend dat het inschakelen van de PLP-widget ertoe kan le
 
 1. **voer een inzameling van de douanegebeurtenis** uit:
 
-   - Gebruik [ Storefront Gebeurtenissen SDK ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/).
+   - Gebruik [&#x200B; Storefront Gebeurtenissen SDK &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/).
    - Zoek- en productinteractiegebeurtenissen vastleggen.
    - Druk gebeurtenissen handmatig op de GTM-gegevenslaag.
 
@@ -319,7 +319,7 @@ In dit scenario is het bekend dat het inschakelen van de PLP-widget ertoe kan le
 
 **Optie 3: Vervang GTM met Adobe Analytics**
 
-- Overweeg migrerend aan [ Adobe Analytics ](https://business.adobe.com/products/adobe-analytics.html) als toepasselijk.
+- Overweeg migrerend aan [&#x200B; Adobe Analytics &#x200B;](https://business.adobe.com/products/adobe-analytics.html) als toepasselijk.
 - Neem contact op met Customer Engineering voor hulp.
 
 **die om** te contacteren: leg een steunkaartje voor GTM verenigbaarheidsupdates of de hulp van de Techniek van de Klant voor.
@@ -331,9 +331,9 @@ In dit scenario hebt u een headless- of PWA-winkel die aangepaste gebeurtenisver
 **Rol**: Ontwikkelaar/Partner
 
 1. **de verwijzingsimplementaties van het Overzicht**:
-   - Onderzoek de [ PLOP broncode van widget ](https://github.com/adobe/storefront-product-listing-page).
-   - Herzie API documentatie voor [[!DNL Live Search]  GraphQL ](graphql.md).
-   - Begrijp de [ vragen van de Dienst van de Catalogus ](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/).
+   - Onderzoek de [&#x200B; PLOP broncode van widget &#x200B;](https://github.com/adobe/storefront-product-listing-page).
+   - Herzie API documentatie voor [[!DNL Live Search]  GraphQL &#x200B;](graphql.md).
+   - Begrijp de [&#x200B; vragen van de Dienst van de Catalogus &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/).
 
 1. **voer een douane UI** uit:
    - Gebruik [!DNL Live Search] GraphQL API voor query&#39;s.
@@ -342,7 +342,7 @@ In dit scenario hebt u een headless- of PWA-winkel die aangepaste gebeurtenisver
    - Paginering en sorteren verwerken.
 
 1. **voer gebeurtenisinzameling** uit:
-   - De documentatie van de Gebeurtenissen van het overzicht [ Storefront ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search).
+   - De documentatie van de Gebeurtenissen van het overzicht [&#x200B; Storefront &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search).
    - Voer de vereiste gebeurtenissen uit:
       - `search-request-sent`
       - `search-response-received`
@@ -375,12 +375,12 @@ In dit scenario hebt u eerder de zoekadapter of widgetcode aangepast en moet u a
    - Bepaal of er nog aanpassingen nodig zijn.
 
 1. **Controle als de ingebouwde eigenschappen aan uw behoeften** voldoen:
-   - De eigenschappen van de overzicht [ PLP widget ](plp-styling.md#widget-features).
+   - De eigenschappen van de overzicht [&#x200B; PLP widget &#x200B;](plp-styling.md#widget-features).
    - Controleer of aanpassing op basis van CSS volstaat.
    - Standaardgedrag voor PLP-widget testen.
 
 1. **als de douanecode nog nodig is**:
-   - Kloon de [ PLOTSELPAGINA widget bewaarplaats ](https://github.com/adobe/storefront-product-listing-page).
+   - Kloon de [&#x200B; PLOTSELPAGINA widget bewaarplaats &#x200B;](https://github.com/adobe/storefront-product-listing-page).
    - Implementeer uw aanpassingen.
    - Host op uw eigen CDN.
    - Werk de Commerce-configuratie bij om uw aangepaste widget te gebruiken.
@@ -420,7 +420,7 @@ Houd rekening met de volgende beperkingen bij het migreren:
 
 **de kwesties van de Verenigbaarheid**:
 
-- De verenigbaarheidskwestie van de Manager van de Markering van Google (zie [ scenario GTM ](#google-tag-manager-gtm-integration)).
+- De verenigbaarheidskwestie van de Manager van de Markering van Google (zie [&#x200B; scenario GTM &#x200B;](#google-tag-manager-gtm-integration)).
 - Sommige extensies van derden kunnen een conflict veroorzaken met de PLP-widget.
 - Aangepaste uitcheckextensies moeten mogelijk worden bijgewerkt.
 
@@ -444,7 +444,7 @@ Neem contact op met de juiste bron op basis van uw specifieke behoeften.
 - Implementaties voor headless of PWA
 - Aangepaste gebeurtenistracering
 
-Om de Steun van Adobe te contacteren, zie de [ Gids van de Gebruiker van het Centrum van de Hulp ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
+Om de Steun van Adobe te contacteren, zie de [&#x200B; Gids van de Gebruiker van het Centrum van de Hulp &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
 
 ## Veelgestelde vragen
 
@@ -472,7 +472,7 @@ A: Over het algemeen niet, maar als u beperkt was door aangepaste bronmodelkenme
 
 **Q: Wat over mijn douane CSS?**
 
-A: U moet CSS bijwerken om de klassen van de PLAP widget te richten. Zie [ CSS klassenverwijzing ](plp-styling.md#css-classes).
+A: U moet CSS bijwerken om de klassen van de PLAP widget te richten. Zie [&#x200B; CSS klassenverwijzing &#x200B;](plp-styling.md#css-classes).
 
 **Q: Zal dit mijn onderzoeksprestaties beïnvloeden?**
 

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Adobe Commerce biedt drie implementatiemodellen:
 
-- [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} [&#x200B; Adobe Commerce as a Cloud Service &#x200B;](overview.md) (SaaS)
-- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [&#x200B; Adobe Commerce op Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) (PaaS)
-- [&#x200B; Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) (op-gebouw)
+- [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} [&#x200B; Adobe Commerce as a Cloud Service &#x200B;](overview.md) (SaaS)
+- [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} [&#x200B; Adobe Commerce op Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/overview) (PaaS)
+- [&#x200B; Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/overview) (op-gebouw)
 
 Deze vergelijking richt zich op de verschillen tussen software-als-a-dienst (SaaS) en platform-als-a-dienst (PaaS) modellen. Deze modellen bieden verschillende niveaus van aanpassing, uitbreidbaarheid en controle over uw Commerce-implementatie.
 
@@ -28,7 +28,7 @@ Deze vergelijking richt zich op de verschillen tussen software-als-a-dienst (Saa
 
 ## Functies voor opslagbeheer
 
-[&#x200B; Commerce Admin UI &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die sommige bekende functies in [!DNL Adobe Commerce on Cloud] en in projecten op locatie vervangen.
+[&#x200B; Commerce Admin UI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/guide-overview) is de primaire interface voor de toegang tot van eigenschappen om achterste opslagverrichtingen, inventaris, tarifering, promoties, en klanteninteractie te beheren. [!DNL Adobe Commerce as a Cloud Service] biedt echter unieke oplossingen die sommige bekende functies in [!DNL Adobe Commerce on Cloud] en in projecten op locatie vervangen.
 
 In de volgende tabel worden de functies en vervangende oplossingen beschreven die beschikbaar zijn in [!DNL Adobe Commerce as a Cloud Service] :
 
@@ -36,29 +36,29 @@ In de volgende tabel worden de functies en vervangende oplossingen beschreven di
     <thead>
         <tr>
             <th>Functie</th>
-            <th>Het model van PaaS [!BADGE PaaS slechts]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}</th>
-            <th>SaaS model [!BADGE SaaS slechts]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce as a Cloud Service en de projecten van Adobe Commerce Optimizer slechts (Adobe-beheerde infrastructuur SaaS)."}</th>
+            <th>Het model van PaaS [!BADGE PaaS slechts]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}</th>
+            <th>SaaS model [!BADGE SaaS slechts]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce as a Cloud Service en de projecten van Adobe Commerce Optimizer slechts (Adobe-beheerde infrastructuur SaaS)."}</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Digitaal middelenbeheer</td>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management">Medialerie</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/wysiwyg/gallery/media-gallery-asset-management">Medialerie</a></td>
             <td><a href="../aem-assets-integration/overview.md">Productvisa</a></td>
         </tr>
         <tr>
             <td>Inhoudsbeheer</td>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview"> het Systeem van het Beheer van de Inhoud (CMS) </a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview"> Bouwer van de Pagina </a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a></td>
-            <td><a href="https://experienceleague.adobe.com/developer/commerce/storefront/merchants/get-started/">Storefront Builder</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/guide-overview"> het Systeem van het Beheer van de Inhoud (CMS) </a>, <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/guide-overview"> Bouwer van de Pagina </a>, <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite"> URL herschrijft </a></td>
+            <td><a href="https://experienceleague.adobe.com/developer/commerce/storefront/merchants/get-started/?lang=nl-NL">Storefront Builder</a></td>
         </tr>
         <tr>
             <td>Catalogusverkoop</td>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/staging/content-staging"> Inhoud die </a> staging, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser"> Visuele Merchandiser </a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/content-design/staging/content-staging"> Inhoud die </a> staging, <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/merchandising/visual-merch/visual-merchandiser"> Visuele Merchandiser </a></td>
             <td><a href="../catalog-service/overview.md">Catalogusservice</a></td>
         </tr>
         <tr>
             <td>Betalingen</td>
-            <td><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/payments">Betalingsoplossingen</a></td>
+            <td><a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/payments/payments">Betalingsoplossingen</a></td>
             <td><a href="../payment-services/guide-overview.md">Betalingsdiensten</a></td>
         </tr>
         <tr>
@@ -75,7 +75,7 @@ In de volgende tabel worden de functies en vervangende oplossingen beschreven di
     <tfoot>
         <tr>
             <td colspan="3">
-                <sup> 1 </sup> Kern <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview"> B2B eigenschappen </a>, als bedrijfbeheer en het citeren, zijn beschikbaar uit-van-de-doos in SaaS. Voor industriespecifieke aanpassingen kunnen echter aanvullende implementatieoverwegingen nodig zijn.
+                <sup> 1 </sup> Kern <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/b2b/guide-overview"> B2B eigenschappen </a>, als bedrijfbeheer en het citeren, zijn beschikbaar uit-van-de-doos in SaaS. Voor industriespecifieke aanpassingen kunnen echter aanvullende implementatieoverwegingen nodig zijn.
             </td>
         </tr>
     </tfoot>
@@ -89,8 +89,8 @@ In de volgende tabel worden de mogelijkheden en uitbreidbaarheidskenmerken van h
     <thead>
         <tr>
             <th>Functie</th>
-            <th>Het model van PaaS [!BADGE PaaS slechts]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}</th>
-            <th>SaaS model [!BADGE SaaS slechts]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce as a Cloud Service en de projecten van Adobe Commerce Optimizer slechts (Adobe-beheerde infrastructuur SaaS)."}</th>
+            <th>Het model van PaaS [!BADGE PaaS slechts]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce op de projecten van de Wolk (de infrastructuur van Adobe-Beheerde PaaS) en op-gebouw slechts projecten."}</th>
+            <th>SaaS model [!BADGE SaaS slechts]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions"tooltip="van toepassing is op Adobe Commerce as a Cloud Service en de projecten van Adobe Commerce Optimizer slechts (Adobe-beheerde infrastructuur SaaS)."}</th>
         </tr>
     </thead>
     <tbody>

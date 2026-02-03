@@ -1,7 +1,7 @@
 ---
 title: Aanbevelingen maken en beheren
 description: Leer hoe u aanbevelingen kunt maken en beheren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: 7cee0a37-4d43-4ee9-889d-9a0ab9684bb8
 source-git-commit: ca0e786da6d23364d27d69ccf0fc5ded1f39f46e
 workflow-type: tm+mt
@@ -65,7 +65,7 @@ Na het creëren van een aanbeveling, moet u zijn identiteitskaart terugwinnen om
 
 1. In de **sectie van identiteitskaart van de Aanbeveling**, kopieer identiteitskaart
 
-1. Gebruik dit identiteitskaart om het [&#x200B; drop-in van de aanbeveling &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/blocks/product-recommendations/) op uw storefront van Edge Delivery Services te vormen.
+1. Gebruik dit identiteitskaart om het [&#x200B; drop-in van de aanbeveling &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/blocks/product-recommendations/?lang=nl-NL) op uw storefront van Edge Delivery Services te vormen.
 
 ## Bestaande aanbevelingen beheren
 

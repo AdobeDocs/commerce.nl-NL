@@ -48,7 +48,7 @@ In het categorieveld worden categorieën weergegeven die bij de huidige voorvert
 
 >[!NOTE]
 >
->Voor kooplieden B2B, blijft het filter van de Categorie aan om het even welke [&#x200B; klant-specifieke productcategorieën &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html) u hebt gevormd.
+>Voor kooplieden B2B, blijft het filter van de Categorie aan om het even welke [&#x200B; klant-specifieke productcategorieën &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/category-permissions.html?lang=nl-NL) u hebt gevormd.
 
 Adobe Commerce raadt u aan de volgende configuratie voor categoriefilters te gebruiken wanneer u aanbevelingen op uw paginatypen toepast:
 
@@ -78,11 +78,11 @@ De producten van filters die op zicht, zoals worden gebaseerd: _Catalogus_, _Ond
 
 ### Prijs
 
-Een filter op basis van de productprijs gebruikt de uiteindelijke prijs om de vergelijking uit te voeren. De uiteindelijke prijs omvat alle kortingen die beschikbaar zijn voor anonieme kopers. Voor kooplieden B2B, wijst de getoonde prijs op de [&#x200B; klant-specifieke groepsprijzen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) u hebt gevormd.
+Een filter op basis van de productprijs gebruikt de uiteindelijke prijs om de vergelijking uit te voeren. De uiteindelijke prijs omvat alle kortingen die beschikbaar zijn voor anonieme kopers. Voor kooplieden B2B, wijst de getoonde prijs op de [&#x200B; klant-specifieke groepsprijzen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=nl-NL) u hebt gevormd.
 
 ### Status van voorraad
 
 De volgende uitsluitingsfilters kunnen worden gebruikt om producten te filteren op basis van de voorraadstatus:
 
 - Niet in voorraad - (alleen Uitsluiting) Omvat geen producten die niet in voorraad zijn.
-- Lage voorraad - (Uitsluiting alleen) Omvat geen producten die weinig voorraad hebben. De lage voorraadstatus is gebaseerd op _slechts X verlaten de waarde van de Drempel_ in [&#x200B; configuratie van de Inventaris &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html).
+- Lage voorraad - (Uitsluiting alleen) Omvat geen producten die weinig voorraad hebben. De lage voorraadstatus is gebaseerd op _slechts X verlaten de waarde van de Drempel_ in [&#x200B; configuratie van de Inventaris &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/inventory.html?lang=nl-NL).

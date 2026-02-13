@@ -42,11 +42,11 @@ Volg de migratieworkflow om mediabestanden uit Adobe Commerce of een ander exter
 
 ### Stap 1: Inhoud exporteren uit de bestaande gegevensbron
 
-[!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
 
-Voor de handelaren van Adobe Commerce, kan de **Verre module van de Opslag** de invoer en de uitvoer van media dossier vergemakkelijken. Met deze module kunnen bedrijven mediabestanden opslaan en beheren met externe opslagservices zoals AWS S3. Aan opstellings verre opslag voor uw instantie van Commerce, zie [ Verre Opslag ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) in de **Gids van de Configuratie van Commerce** vormen.
+Voor de handelaren van Adobe Commerce, kan de **Verre module van de Opslag** de invoer en de uitvoer van media dossier vergemakkelijken. Met deze module kunnen bedrijven mediabestanden opslaan en beheren met externe opslagservices zoals AWS S3. Aan opstellings verre opslag voor uw instantie van Commerce, zie [&#x200B; Verre Opslag &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) in de **Gids van de Configuratie van Commerce** vormen.
 
-Als u media dossiers hebt die buiten Adobe Commerce worden opgeslagen, upload hen rechtstreeks aan één van de [ gegevensbronnen ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) door AEM as a Cloud Service worden gesteund.
+Als u media dossiers hebt die buiten Adobe Commerce worden opgeslagen, upload hen rechtstreeks aan één van de [&#x200B; gegevensbronnen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) door AEM as a Cloud Service worden gesteund.
 
 ### Stap 2: Een CSV-bestand maken voor de toewijzing van metagegevens
 
@@ -57,7 +57,7 @@ Maak een CSV-bestand waarmee elk mediabestand wordt toegewezen aan de Commerce-p
 
 #### Metagegevens exporteren met CLI
 
-[!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
+[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."}
 
 Met de CLI-opdracht AEM Assets Integration kunt u automatisch een CSV-bestand met metagegevens genereren dat URL&#39;s, posities en rollen van de productmediabestanden bevat die in uw Commerce-project zijn opgeslagen.
 
@@ -85,7 +85,7 @@ Met de CLI-opdracht AEM Assets Integration kunt u automatisch een CSV-bestand me
 
 #### De CSV handmatig maken
 
-Voor mediabestanden die buiten Adobe Commerce zijn opgeslagen, maakt u het CSV-bestand handmatig. De kolomkopballen **moeten** de gebiedsnamen aanpassen die in uw [ worden gevormd de meta-gegevensprofiel van AEM Assets ](configure-aem.md). Nadat u het bestand hebt gemaakt, vult u de rijen met de metagegevenswaarden voor elk mediabestand in.
+Voor mediabestanden die buiten Adobe Commerce zijn opgeslagen, maakt u het CSV-bestand handmatig. De kolomkopballen **moeten** de gebiedsnamen aanpassen die in uw [&#x200B; worden gevormd de meta-gegevensprofiel van AEM Assets &#x200B;](configure-aem.md). Nadat u het bestand hebt gemaakt, vult u de rijen met de metagegevenswaarden voor elk mediabestand in.
 
 | Metagegevens | Beschrijving | Waarde |
 |-------|-------------|--------|
@@ -113,15 +113,15 @@ Nadat u het metagegevenstoewijzingsbestand hebt gemaakt, importeert u uw element
 
 Hieronder vindt u een overzicht op hoog niveau voor het gebruik van het gereedschap.
 
-1. [ Login aan uw het auteursmilieu van AEM Assets as a Cloud Service ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/aem-users#login-aem).
+1. [&#x200B; Login aan uw het auteursmilieu van AEM Assets as a Cloud Service &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/aem-users#login-aem).
 
 1. Selecteer in de weergave Experience Manager Tools **[!UICONTROL Assets]** > **[!UICONTROL Bulk Import]** .
 
-   ![ AEM Assets authoring ](../assets/aem-assets-bulk-import-selection.png){width="600" zoomable="yes"}
+   ![&#x200B; AEM Assets authoring &#x200B;](../assets/aem-assets-bulk-import-selection.png){width="600" zoomable="yes"}
 
 1. Selecteer in het venster Configuraties voor bulkimport de optie **[!UICONTROL Create]** om het configuratieformulier te openen.
 
-   ![ AEM Assets authoring ](../assets/aem-assets-bulk-import-configuration.png){width="600" zoomable="yes"}
+   ![&#x200B; AEM Assets authoring &#x200B;](../assets/aem-assets-bulk-import-configuration.png){width="600" zoomable="yes"}
 
 1. Opstelling en sparen de configuratie.
 
@@ -132,12 +132,12 @@ Hieronder vindt u een overzicht op hoog niveau voor het gebruik van het gereedsc
    * Optioneel. Informatie over de MIME-typen, bestandsgrootte en andere parameters om de importconfiguratie aan te passen
    * Het pad naar het CSV-bestand met metagegevenstoewijzing dat u hebt geüpload naar de opslaginstantie in de cloud.
 
-   Voor gedetailleerde stappen, zie [ het Bulk hulpmiddel van de Invoer ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#configure-bulk-ingestor-tool) in de *Gids van de Gebruiker van AEM Assets as a Cloud Service* vormen.
+   Voor gedetailleerde stappen, zie [&#x200B; het Bulk hulpmiddel van de Invoer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#configure-bulk-ingestor-tool) in de *Gids van de Gebruiker van AEM Assets as a Cloud Service* vormen.
 
 1. Nadat u de configuratie hebt opgeslagen, gebruikt u de gereedschappen voor bulkimport om de importbewerking te testen en uit te voeren.
 
 >[!MORELIKETHIS]
 >
-> [ Bulk het hulpmiddel van de Invoer videodemo ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
-> [Tips, beste praktijken, en beperkingen ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
-> [Elementen uploaden of invoegen met behulp van API&#39;s ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
+> [&#x200B; Bulk het hulpmiddel van de Invoer videodemo &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+> [Tips, beste praktijken, en beperkingen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
+> [Elementen uploaden of invoegen met behulp van API&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)

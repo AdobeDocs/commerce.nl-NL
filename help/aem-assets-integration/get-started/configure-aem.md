@@ -50,21 +50,21 @@ Met deze pakketcode worden de volgende bronnen toegevoegd aan de AEM Assets-ontw
 
 U hebt de volgende bronnen en machtigingen nodig om de pakketcode `assets-commerce` te implementeren in de AEM Assets as a Cloud Service AEM-omgeving:
 
-* [&#x200B; Toegang tot het Programma van AEM Assets Cloud Manager en milieu&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) met de rollen van de Manager van het Programma en van de Plaatsing.
+* [&#x200B; Toegang tot het Programma van AEM Assets Cloud Manager en milieu&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/journey/cloud-manager#access-sysadmin-bo) met de rollen van de Manager van het Programma en van de Plaatsing.
 
-* A [&#x200B; lokale de ontwikkelomgeving van AEM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) en vertrouwdheid met het lokale ontwikkelingsproces van AEM.
+* A [&#x200B; lokale de ontwikkelomgeving van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview) en vertrouwdheid met het lokale ontwikkelingsproces van AEM.
 
-* Begrijp [&#x200B; het projectstructuur van AEM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) en hoe te om de pakketten van de douaneinhoud op te stellen gebruikend Cloud Manager.
+* Begrijp [&#x200B; het projectstructuur van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) en hoe te om de pakketten van de douaneinhoud op te stellen gebruikend Cloud Manager.
 
 * **IMS Org ID** voor uw instantie van Commerce. Zowel uw Commerce-instantie als de AEM Assets-ontwerpomgeving moeten zich in dezelfde IMS-organisatie bevinden.
 
-* Om [&#x200B; Dynamische Media met mogelijkheden OpenAPI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) toe te laten:
+* Om [&#x200B; Dynamische Media met mogelijkheden OpenAPI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis) toe te laten:
 
 >[!BEGINTABS]
 
 >[!TAB  Visuals van het Product ]
 
-[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Dynamische Media met mogelijkheden OpenAPI is zelfbediening voor de Visuals van het Product die door AEM Assets worden aangedreven.
+[!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} Dynamische Media met mogelijkheden OpenAPI is zelfbediening voor de Visuals van het Product die door AEM Assets worden aangedreven.
 
 1. Navigeer naar je Cloud Manager.
 
@@ -93,15 +93,15 @@ Nadat u het ondersteuningsticket hebt verzonden, schakelt Adobe Dynamic Media me
 
 ## Stap 1: Installeer het element-commerce pakket
 
-1. Navigeer aan AEM Cloud Manager, selecteer een programma, en [&#x200B; creeer productie en het opvoeren milieu&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/create-environments#creating-environments) die u met Adobe Commerce wilt integreren.
+1. Navigeer aan AEM Cloud Manager, selecteer een programma, en [&#x200B; creeer productie en het opvoeren milieu&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/journey/create-environments#creating-environments) die u met Adobe Commerce wilt integreren.
 
-1. Vorm a [&#x200B; plaatsingspijpleiding &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/pipeline-setup#create-front-end-pipeline), of verifieer dat uw pijpleiding veranderingen in het geselecteerde milieu kan opstellen.
+1. Vorm a [&#x200B; plaatsingspijpleiding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/pipeline-setup#create-front-end-pipeline), of verifieer dat uw pijpleiding veranderingen in het geselecteerde milieu kan opstellen.
 
-1. [&#x200B; kloon de Adobe beheerde git bewaarplaats &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/retrieve-access#repo-access) voor het geselecteerde programma.
+1. [&#x200B; kloon de Adobe beheerde git bewaarplaats &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/site-creation/quick-site/retrieve-access#repo-access) voor het geselecteerde programma.
 
 1. Van GitHub, download de pakketcode van de [&#x200B; plaats van Commerce van AEM Assets &#x200B;](https://github.com/ankumalh/assets-commerce).
 
-1. Van uw [&#x200B; lokale de ontwikkelomgeving van AEM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), kopieer manueel de gedownloade code in de bestaande Adobe beheerde bewaarplaats.
+1. Van uw [&#x200B; lokale de ontwikkelomgeving van AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview), kopieer manueel de gedownloade code in de bestaande Adobe beheerde bewaarplaats.
 
 1. In alle `filter.xml` en `pom.xml files` voor uw project vervangt u alle instanties van `<my-app>` door uw toepassingsnaam.
 
@@ -135,7 +135,7 @@ Als het **Commerce** lusje niet in eigenschappen verschijnt, moet u manueel tot 
 
 1. De belemmering en laat vallen a **checkbox** component in het **Commerce** lusje, en brengt het in kaart aan het bezit `commerce:isCommerce`. Bepaal **ja** en **Nr** als opties.
 
-Als u om het even welke andere kwesties ontmoet, creeer a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) of contacteer uw vertegenwoordiger van de Integratie van AEM Assets voor hulp.
+Als u om het even welke andere kwesties ontmoet, creeer a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=nl-NL#submit-ticket) of contacteer uw vertegenwoordiger van de Integratie van AEM Assets voor hulp.
 
 ## Stap 2: Optioneel. Een metagegevensprofiel configureren
 
@@ -213,4 +213,4 @@ De UI-component Productgegevens wordt automatisch toegevoegd op basis van de sja
 
 * [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [&#x200B; installeert de pakketten van Adobe Commerce &#x200B;](configure-commerce.md).
 
-* [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} [&#x200B; vormt de integratie van Commerce Admin &#x200B;](setup-synchronization.md).
+* [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} [&#x200B; vormt de integratie van Commerce Admin &#x200B;](setup-synchronization.md).

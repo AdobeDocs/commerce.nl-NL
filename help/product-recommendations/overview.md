@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Inleiding tot [!DNL Product Recommendations]
 
-De aanbevelingen van het product zijn een krachtig marketing hulpmiddel dat u kunt gebruiken om omzettingen te verhogen, opbrengst te verhogen, en winkelbetrokkenheid te stimuleren. De het productaanbevelingen van Adobe Commerce worden aangedreven door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/ai.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Als deze gegevens worden gecombineerd met uw Adobe Commerce-catalogus, resulteert dit in een zeer aantrekkelijke, relevante en persoonlijke ervaring.
+De aanbevelingen van het product zijn een krachtig marketing hulpmiddel dat u kunt gebruiken om omzettingen te verhogen, opbrengst te verhogen, en winkelbetrokkenheid te stimuleren. De het productaanbevelingen van Adobe Commerce worden aangedreven door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/nl/ai.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Als deze gegevens worden gecombineerd met uw Adobe Commerce-catalogus, resulteert dit in een zeer aantrekkelijke, relevante en persoonlijke ervaring.
 
 De aanbevelingen van het product worden getoond op de winkel als eenheden met etiketten, zoals &quot;Klanten die dit product ook bekeken&quot;hebben. U kunt rechtstreeks vanuit Adobe Commerce Admin aanbevelingen maken, beheren en implementeren in uw winkelweergaven.
 

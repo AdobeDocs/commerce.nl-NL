@@ -42,7 +42,7 @@ U kunt een categorie of subcategorie zoeken in het veld Zoeken op categorie.
 Het Merchandising van de categorie gebruikt de zelfde rangschikkende types zoals met [&#x200B; individuele producten &#x200B;](rules-workspace.md).
 Er zijn twee soorten rangschikkingen: Intelligent en Handmatig.
 
-**Intelligente het rangschikken** hefboomwerkingen storefront gedragsgegevensanalyse door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/ai.html) om alle producten binnen gekozen categorieën door een bepaald algoritme te sorteren. Zodra een intelligente rangorde wordt gekozen, zal naar verwachting de specifieke volgorde van de producten in de loop der tijd veranderen naarmate de onderliggende gegevens doorlopend opnieuw worden geanalyseerd door Adobe AI. De bovenste trendproducten veranderen bijvoorbeeld automatisch in de loop van de tijd wanneer de winkelvoorkeuren veranderen.
+**Intelligente het rangschikken** hefboomwerkingen storefront gedragsgegevensanalyse door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/nl/ai.html) om alle producten binnen gekozen categorieën door een bepaald algoritme te sorteren. Zodra een intelligente rangorde wordt gekozen, zal naar verwachting de specifieke volgorde van de producten in de loop der tijd veranderen naarmate de onderliggende gegevens doorlopend opnieuw worden geanalyseerd door Adobe AI. De bovenste trendproducten veranderen bijvoorbeeld automatisch in de loop van de tijd wanneer de winkelvoorkeuren veranderen.
 Intelligente classificatiemethoden zijn:
 
 * De meeste aankopen: producten worden gerangschikt op basis van de frequentie waarmee ze in de afgelopen zeven dagen door kopers zijn gekocht.

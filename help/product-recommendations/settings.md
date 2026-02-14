@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Instellingen
 
-Wanneer u [&#x200B; een SaaS gegevensruimte &#x200B;](../landing/saas.md#saas-configuration) voor Aanbevelingen vormt, verzamelt de SaaS gegevensruimte catalogusgegevens en opslag-gedrag gegevens. [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/ai.html) analyseert dat de gegevens en de productverenigingen verwerken die worden gebruikt om de Aanbevelingen van het Product te dienen.
+Wanneer u [&#x200B; een SaaS gegevensruimte &#x200B;](../landing/saas.md#saas-configuration) voor Aanbevelingen vormt, verzamelt de SaaS gegevensruimte catalogusgegevens en opslag-gedrag gegevens. [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/nl/ai.html) analyseert dat de gegevens en de productverenigingen verwerken die worden gebruikt om de Aanbevelingen van het Product te dienen.
 
 Niet-productieomgevingen voor het testen of opvoeren hebben doorgaans niet de hoeveelheid of kwaliteit van gedragsgegevens van de winkel om realistische productaanbevelingen te kunnen doen. Werkelijk winkelgedrag op schaal kan alleen in een productieomgeving worden vastgelegd. Om dit probleem op te lossen, staat Adobe Commerce u toe om productaanbevelingen van uw productiemilieu met andere, niet productieSaaS gegevensruimten te gebruiken. Met werkelijke storefront-gegevens in een niet-productieomgeving kunt u een voorvertoning weergeven van de aanbevelingen die uw klanten zien en experimenteren met verschillende soorten aanbevelingen en plaatsingslocaties. Aanbevelingen vanuit een andere SaaS-gegevensruimte kunnen door kopers worden voorvertoond, maar er wordt niet op geklikt.
 

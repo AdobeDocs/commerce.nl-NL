@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Productaanbevelingen Beheerderontwikkeling
 
-De Aanbevelingen van het product zijn een krachtig marketing hulpmiddel u kunt gebruiken om omzettingen te verhogen, opbrengst te verhogen, en winkelbetrokkenheid te stimuleren. De aanbevelingen van het product worden op de winkel in de vorm van eenheden zoals &quot;Klanten die dit product ook bekeken hebben&quot;, &quot;Klanten die dit product ook kochten&quot;, &quot;Aanbevolen voor u&quot;, enzovoort. De Aanbevelingen van het Product van Adobe Commerce worden aangedreven door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/ai.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van samengevoegde verkoopgegevens uit te voeren. Deze gegevens, in combinatie met uw Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.
+De Aanbevelingen van het product zijn een krachtig marketing hulpmiddel u kunt gebruiken om omzettingen te verhogen, opbrengst te verhogen, en winkelbetrokkenheid te stimuleren. De aanbevelingen van het product worden op de winkel in de vorm van eenheden zoals &quot;Klanten die dit product ook bekeken hebben&quot;, &quot;Klanten die dit product ook kochten&quot;, &quot;Aanbevolen voor u&quot;, enzovoort. De Aanbevelingen van het Product van Adobe Commerce worden aangedreven door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/nl/ai.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van samengevoegde verkoopgegevens uit te voeren. Deze gegevens, in combinatie met uw Commerce-catalogus, resulteren in zeer boeiende, relevante en persoonlijke ervaringen voor de klant.
 
 >[!NOTE]
 >

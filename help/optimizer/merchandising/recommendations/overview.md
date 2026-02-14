@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Inleiding tot aanbevelingen
 
-Aanbevelingen zijn een krachtig marketinginstrument dat u kunt gebruiken om conversies te verhogen, inkomsten te verhogen en de betrokkenheid van winkels te stimuleren. De aanbevelingen worden aangedreven door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/ai.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Als deze gegevens worden gecombineerd met uw Adobe Commerce-catalogus, resulteert dit in een zeer aantrekkelijke, relevante en persoonlijke ervaring.
+Aanbevelingen zijn een krachtig marketinginstrument dat u kunt gebruiken om conversies te verhogen, inkomsten te verhogen en de betrokkenheid van winkels te stimuleren. De aanbevelingen worden aangedreven door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/nl/ai.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Als deze gegevens worden gecombineerd met uw Adobe Commerce-catalogus, resulteert dit in een zeer aantrekkelijke, relevante en persoonlijke ervaring.
 
 Aanbevelingen worden in de winkel weergegeven als eenheden met labels, zoals &quot;Klanten die dit product ook hebben bekeken&quot;. U kunt rechtstreeks vanuit de Adobe Commerce Optimizer aanbevelingen maken, beheren en implementeren in uw winkelweergaven.
 

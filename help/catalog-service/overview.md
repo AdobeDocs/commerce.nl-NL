@@ -129,7 +129,7 @@ De Catalogusdienst verzekert nauwkeurige prijsupdates en berekeningen door prijz
 
 Het implementatieproces omvat:
 
-1. [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **[installeert en vormt de Dienst van de Catalogus](installation.md)** - installeert en vormt de uitbreiding van de Dienst van de Catalogus en opstelling de verbinding SaaS gebruikend [!DNL Commerce Services Connector].
+1. [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **[installeert en vormt de Dienst van de Catalogus](installation.md)** - installeert en vormt de uitbreiding van de Dienst van de Catalogus en opstelling de verbinding SaaS gebruikend [!DNL Commerce Services Connector].
 2. **de storefrontcode van de Update**: Integreer de vragen van GraphQL van de Dienst van de Catalogus in uw frontend.
 3. **vragen van de Route**: Alle vragen van de Dienst van de Catalogus gaan door de gateway van GraphQL (URL die tijdens onboarding wordt verstrekt)
 4. **Monitor en los gegevenssynchronisatie** problemen op: Verifieer betere prestaties en monitorresultaten

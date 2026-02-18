@@ -3,16 +3,16 @@ title: Aangepaste automatische matching
 description: Leer hoe aangepaste automatische overeenkomsten vooral handig zijn voor handelaren met complexe matching-logica of voor bedrijven die vertrouwen op een systeem van derden dat geen metagegevens in AEM Assets kan invullen.
 feature: CMS, Media, Integration
 exl-id: e7d5fec0-7ec3-45d1-8be3-1beede86c87d
-source-git-commit: dfc4aaf1f780eb4a57aa4b624325fa24e571017d
+source-git-commit: 6e8d266aeaec4d47b82b0779dfc3786ccaa7d83a
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 0%
+source-wordcount: '546'
+ht-degree: 1%
 
 ---
 
 # Aangepaste automatische matching
 
-Als de standaard automatische passende strategie (**automatische aanpassing OTB**) niet met uw specifieke bedrijfsvereisten wordt gericht, selecteer de optie van de douanegelijke. Deze optie steunt het gebruik van [&#x200B; Adobe Developer App Builder &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) om een toepassing van de douanematcher te ontwikkelen die complexe passende logica, of activa behandelt die uit een derdesysteem komen dat meta-gegevens in AEM Assets niet kan bevolken.
+Als de standaard automatische passende strategie (**automatische aanpassing OTB**) niet met uw specifieke bedrijfsvereisten wordt gericht, selecteer de optie van de douanegelijke. Deze optie steunt het gebruik van [ Adobe Developer App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) om een toepassing van de douanematcher te ontwikkelen die complexe passende logica, of activa behandelt die uit een derdesysteem komen dat meta-gegevens in AEM Assets niet kan bevolken.
 
 ## Aangepaste automatische overeenkomsten configureren
 
@@ -26,7 +26,7 @@ Als de standaard automatische passende strategie (**automatische aanpassing OTB*
 
 Het veld **[!UICONTROL Adobe I/O Workspace Configuration]** biedt een gestroomlijnde manier om uw aangepaste matcher te configureren door het App Builder `workspace.json` -configuratiebestand te importeren.
 
-U kunt het `workspace.json` dossier van [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console) downloaden. Het bestand bevat alle gegevens en configuratiegegevens voor uw App Builder-werkruimte.
+U kunt het `workspace.json` dossier van [ Adobe Developer Console ](https://developer.adobe.com/console) downloaden. Het bestand bevat alle gegevens en configuratiegegevens voor uw App Builder-werkruimte.
 
 +++Voorbeeld `workspace.json`
 
@@ -99,7 +99,7 @@ U kunt het `workspace.json` dossier van [&#x200B; Adobe Developer Console &#x200
 
 1. Sleep het `workspace.json` -bestand van uw App Builder-project naar het veld **[!UICONTROL Adobe I/O Workspace Configuration]** . U kunt ook klikken om te bladeren en het bestand te selecteren.
 
-![&#x200B; Configuratie van Workspace &#x200B;](../assets/workspace-configuration.png){width="600" zoomable="yes"}
+![ Configuratie van Workspace ](../assets/workspace-configuration.png){width="600" zoomable="yes"}
 
 1. Het systeem automatisch:
 
@@ -114,7 +114,7 @@ U kunt het `workspace.json` dossier van [&#x200B; Adobe Developer Console &#x200
 
 ## Eindpunten voor aangepaste matcher-API
 
-Wanneer u een toepassing van de douanematcher gebruikend [&#x200B; App Builder &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank} bouwt, moet de toepassing de volgende eindpunten blootstellen:
+Wanneer u een toepassing van de douanematcher gebruikend [ App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank} bouwt, moet de toepassing de volgende eindpunten blootstellen:
 
 * **activa van App Builder aan productURL** eindpunt
 * **het product van App Builder aan activaURL** eindpunt
@@ -125,7 +125,7 @@ Dit eindpunt wint de lijst van SKUs verbonden aan een bepaald activa terug:
 
 #### Voorbeeldgebruik
 
-```bash
+```javascript
 const { Core } = require('@adobe/aio-sdk')
 
 async function main(params) {
@@ -140,8 +140,11 @@ async function main(params) {
     // ...
     // End of your matching logic
 
+    // Set skip to true if the mapping hasn't changed
+    const skipSync = false;
+
     return {
-        statusCode: 500,
+        statusCode: 200,
         body: {
             asset_id: params.assetId,
             product_matches: [
@@ -150,7 +153,8 @@ async function main(params) {
                     asset_roles: ["thumbnail", "image", "swatch_image", "small_image"],
                     asset_position: 1
                 }
-            ]
+            ],
+            skip: skipSync
         }
     };
 }
@@ -160,7 +164,7 @@ exports.main = main;
 
 **Verzoek**
 
-```bash
+```text
 POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/asset-to-product
 ```
 
@@ -171,21 +175,28 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/asset-to-
 
 **Reactie**
 
-```bash
+```json
 {
   "asset_id": "{ASSET_ID}",
   "product_matches": [
     {
       "product_sku": "{PRODUCT_SKU_1}",
-      "asset_roles": ["thumbnail","image"]
+      "asset_roles": ["thumbnail", "image"]
     },
     {
       "product_sku": "{PRODUCT_SKU_2}",
       "asset_roles": ["thumbnail"]
     }
-  ]
+  ],
+  "skip": false
 }
 ```
+
+| Parameter | Gegevenstype | Beschrijving |
+| --- | --- | --- |
+| `asset_id` | String | De element-id die overeenkomt. |
+| `product_matches` | Array | Lijst met producten die aan het element zijn gekoppeld. |
+| `skip` | Boolean | (Optioneel) In `true` slaat de regelengine de synchronisatie voor dit element over (geen update voor producttoewijzing). Wanneer `false` wordt uitgevoerd of weggelaten, wordt de normale verwerking uitgevoerd. Zie [ synchronisatieverwerking ](#skip-sync-processing) overslaan. |
 
 ### App Builder-product naar URL-eindpunt van element
 
@@ -193,7 +204,7 @@ Dit eindpunt wint de lijst van activa verbonden aan bepaalde SKU terug:
 
 #### Voorbeeldgebruik
 
-```bash
+```javascript
 const { Core } = require('@adobe/aio-sdk')
 
 async function main(params) {
@@ -204,8 +215,11 @@ async function main(params) {
     // ...
     // End of your matching logic
 
+    // Set skip to true if the mapping hasn't changed
+    const skipSync = false;
+
     return {
-        statusCode: 500,
+        statusCode: 200,
         body: {
             product_sku: params.productSku,
             asset_matches: [
@@ -215,7 +229,8 @@ async function main(params) {
                     asset_format: "image", // can be "image" or "video"
                     asset_position: 1
                 }
-            ]
+            ],
+            skip: skipSync
         }
     };
 }
@@ -225,7 +240,7 @@ exports.main = main;
 
 **Verzoek**
 
-```bash
+```text
 POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-to-asset
 ```
 
@@ -236,36 +251,44 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 
 **Reactie**
 
-```bash
+```json
 {
   "product_sku": "{PRODUCT_SKU}",
   "asset_matches": [
     {
       "asset_id": "{ASSET_ID_1}",
-      "asset_roles": ["thumbnail","image"],
+      "asset_roles": ["thumbnail", "image"],
       "asset_position": 1,
-      "asset_format": image
+      "asset_format": "image"
     },
     {
       "asset_id": "{ASSET_ID_2}",
-      "asset_roles": ["thumbnail"]
+      "asset_roles": ["thumbnail"],
       "asset_position": 2,
-      "asset_format": image     
+      "asset_format": "image"
     }
-  ]
+  ],
+  "skip": false
 }
 ```
 
 | Parameter | Gegevenstype | Beschrijving |
 | --- | --- | --- |
-| `productSKU` | String | Vertegenwoordigt de bijgewerkte product SKU. |
-| `asset_matches` | String | Retourneert alle elementen die aan een specifieke product-SKU zijn gekoppeld. |
+| `product_sku` | String | Het product-SKU dat wordt aangepast. |
+| `asset_matches` | Array | Lijst met elementen die aan het product zijn gekoppeld. |
+| `skip` | Boolean | (Optioneel) Wanneer `true` , slaat de regelengine de synchronisatie voor dit product over (geen update voor middelentoewijzing). Wanneer `false` wordt uitgevoerd of weggelaten, wordt de normale verwerking uitgevoerd. Zie [ synchronisatieverwerking ](#skip-sync-processing) overslaan. |
 
 De parameter `asset_matches` bevat de volgende kenmerken:
 
 | Kenmerk | Gegevenstype | Beschrijving |
 | --- | --- | --- |
-| `asset_id` | String | Vertegenwoordigt de bijgewerkte element-id. |
-| `asset_roles` | String | Retourneert alle beschikbare elementrollen. Gebruikt gesteunde [&#x200B; Commerce activa rollen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles) als `thumbnail`, `image`, `small_image`, en `swatch_image`. |
-| `asset_format` | String | Geeft de beschikbare indelingen voor het element. Mogelijke waarden zijn `image` en `video` . |
-| `asset_position` | String | Hiermee geeft u de positie van het element weer. |
+| `asset_id` | String | De element-id. |
+| `asset_roles` | Array | Elementrollen. Gebruikt gesteunde [ Commerce activa rollen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles) als `thumbnail`, `image`, `small_image`, en `swatch_image`. |
+| `asset_format` | String | De indeling van het element. Mogelijke waarden zijn `image` en `video` . |
+| `asset_position` | Getal | De positie van het element in de productgalerie. |
+
+## Synchronisatieverwerking overslaan
+
+Met de parameter `skip` kan uw aangepaste matcher de synchronisatie-verwerking voor specifieke elementen of producten omzeilen.
+
+Wanneer uw App Builder-toepassing `"skip": true` retourneert in de reactie, verzendt de regelengine geen API-aanvragen voor dat middel of product naar Commerce. Deze optimalisatie vermindert onnodige API-aanroepen en verbetert de prestaties.

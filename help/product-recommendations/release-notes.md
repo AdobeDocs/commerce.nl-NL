@@ -25,7 +25,7 @@ De opmerkingen bij de release omvatten:
 ![&#x200B; bevestig &#x200B;](../assets/fix.svg) Bevestigingen en verbeteringen
 ![&#x200B; Bug &#x200B;](../assets/bug.svg) Bekende kwesties
 
-Zie de ontwikkelaardocumentatie [&#x200B; over productsteun &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/product-availability) leren.
+Zie de ontwikkelaardocumentatie [&#x200B; over productsteun &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/product-availability) leren.
 
 ## Gehoste service-updates
 
@@ -68,7 +68,7 @@ _Januari 28, 2026_
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
-![&#x200B; Nieuw &#x200B;](../assets/new.svg) Toegevoegde gebiedsdeel aan het [&#x200B; Dashboard van de Controle van de Status van de Synchronisatie van het Gegeven van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status). Met dit dashboard kunt u real-time inzichten bekijken in de gezondheid en prestaties van gegevensexportfeeds die product- en categoriegegevens van Commerce overbrengen naar externe services, zoals productaanbevelingen.
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) Toegevoegde gebiedsdeel aan het [&#x200B; Dashboard van de Controle van de Status van de Synchronisatie van het Gegeven van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status). Met dit dashboard kunt u real-time inzichten bekijken in de gezondheid en prestaties van gegevensexportfeeds die product- en categoriegegevens van Commerce overbrengen naar externe services, zoals productaanbevelingen.
 
 ### Vorige versies
 
@@ -154,7 +154,7 @@ _22 Februari, 2024_
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
-![&#x200B; Nieuw &#x200B;](../assets/new.svg) [!DNL Catalog Sync Dashboard] is nu [[!DNL Data Management Dashboard] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard). Dit vernieuwde dashboard biedt inzichten in gegevensstromen voor [!DNL Product Recommendations] , [!DNL Live Search] en [!DNL Catalog Service] .
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) [!DNL Catalog Sync Dashboard] is nu [[!DNL Data Management Dashboard] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard). Dit vernieuwde dashboard biedt inzichten in gegevensstromen voor [!DNL Product Recommendations] , [!DNL Live Search] en [!DNL Catalog Service] .
 ![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie die controlefouten voor [!DNL Product Recommendations] veroorzaakte.
 
 +++5.0.0 en eerdere
@@ -181,7 +181,7 @@ _Maart 20.2023_
 
 ![&#x200B; Nieuw &#x200B;](../assets/new.svg) Bijgewerkt [!DNL Product Recommendations] om Adobe Commerce 2.4.6 te steunen.
 ![&#x200B; Nieuw &#x200B;](../assets/new.svg) Dit is een belangrijke versieversie. [&#x200B; geeft &#x200B;](install-configure.md#update) het wortel `composer.json` dossier voor uw project uit.
-![&#x200B; Nieuw &#x200B;](../assets/new.svg) [!DNL Product Recommendations] steunt nu volledige [&#x200B; Inventory management &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (vroeger weet als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u [&#x200B; de gebiedsdeelmodule &#x200B;](install-configure.md#update) aan versie 102.2.0+ bijwerken.`commerce-data-export`
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) [!DNL Product Recommendations] steunt nu volledige [&#x200B; Inventory management &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (vroeger weet als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u [&#x200B; de gebiedsdeelmodule &#x200B;](install-configure.md#update) aan versie 102.2.0+ bijwerken.`commerce-data-export`
 
 ### 4.0.1 van magento/productaanbevelingen
 
@@ -218,7 +218,7 @@ _Maart 20.2023_
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde [&#x200B; B2B steun &#x200B;](onboarding.md#b2bsupport) in [!DNL Product Recommendations]
-![&#x200B; Nieuw &#x200B;](../assets/new.svg) Toegevoegde nieuwe voer aan [&#x200B; gegevens van de synchronisatiecatalogus &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync) aan de Diensten van Commerce via de bevellijn
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) Toegevoegde nieuwe voer aan [&#x200B; gegevens van de synchronisatiecatalogus &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/data-services/catalog-sync) aan de Diensten van Commerce via de bevellijn
 
 ### 3.3.3 van de aanbevelingen inzake magento/product
 
@@ -258,7 +258,7 @@ _Maart 20.2023_
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
-![&#x200B; Nieuw &#x200B;](../assets/new.svg) anders genoemd de Diensten van Magento aan [&#x200B; de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas) en betere bruikbaarheid in Admin
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) anders genoemd de Diensten van Magento aan [&#x200B; de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/integration-services/saas) en betere bruikbaarheid in Admin
 
 ### 3.2.4 van de aanbevelingen inzake magento/product
 
@@ -279,7 +279,7 @@ _Maart 20.2023_
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
 ![&#x200B; Nieuw &#x200B;](../assets/new.svg) voegde de capaciteit toe aan [&#x200B; resultaten van de voorproefaanbeveling &#x200B;](create.md) in aanmaaktijd. Hiervoor moet u mogelijk de module bijwerken naar de meest recente versie.
-![&#x200B; Nieuw &#x200B;](../assets/new.svg) voegde de capaciteit toe om [&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync) het proces van de catalogussynchronisatie van Admin te controleren en te beheren.
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) voegde de capaciteit toe om [&#x200B; &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/data-services/catalog-sync) het proces van de catalogussynchronisatie van Admin te controleren en te beheren.
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) toegevoegde filters [&#128279;](filters.md) om te controleren welke producten in aanbevelingen worden getoond.
 
 ![&#x200B; Nieuw &#x200B;](../assets/new.svg) voegde het [&#x200B; Visuele gelijkenis &#x200B;](type.md#visualsim) aanbevelingen type toe.
@@ -294,7 +294,7 @@ _Maart 20.2023_
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
-![&#x200B; Nieuw &#x200B;](../assets/new.svg) voegde de capaciteit aan [&#x200B; opnieuw toe &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/data-services/catalog-sync) uw catalogus aan diensten SaaS via bevellijn.
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) voegde de capaciteit aan [&#x200B; opnieuw toe &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/data-services/catalog-sync) uw catalogus aan diensten SaaS via bevellijn.
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor prefixen van de gegevensbestandlijst
 ![&#x200B; Repareren &#x200B;](../assets/fix.svg) Verwijderde PHP 7.1 steun
 
@@ -363,7 +363,7 @@ Dit is een belangrijke versie. [&#x200B; geeft &#x200B;](install-configure.md#up
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.x en nieuwer
 
-![&#x200B; Nieuwe &#x200B;](../assets/new.svg) steun van de Bouwer van de Pagina. Met de integratie van de Bouwer van de Pagina, kunt u de eenheden van de Aanbeveling nauwkeurig en korrelig in om het even welke willekeurige plaats op de Bouwer van de Pagina-geschreven inhoud plaatsen. U kunt ook zelf de koppen en aanbevelingen opmaken. Ga naar [&#x200B; Bouwer van de Pagina &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/add-content/recommendations) voor meer informatie.
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) steun van de Bouwer van de Pagina. Met de integratie van de Bouwer van de Pagina, kunt u de eenheden van de Aanbeveling nauwkeurig en korrelig in om het even welke willekeurige plaats op de Bouwer van de Pagina-geschreven inhoud plaatsen. U kunt ook zelf de koppen en aanbevelingen opmaken. Ga naar [&#x200B; Bouwer van de Pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/page-builder/add-content/recommendations) voor meer informatie.
 
 ### 2.0.0 van magento/productaanbevelingen
 
@@ -378,4 +378,4 @@ Dit is een belangrijke versie. [&#x200B; geeft &#x200B;](install-configure.md#up
 Meer informatie over [!DNL Product Recommendations] en [!DNL Product Recommendations] ontwikkeling:
 
 * [Gebruikershandleiding](overview.md)
-* [&#x200B; Documentatie van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/development-overview)
+* [&#x200B; Documentatie van de Ontwikkelaar &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/developer/development-overview)

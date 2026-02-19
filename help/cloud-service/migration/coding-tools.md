@@ -1,22 +1,22 @@
 ---
-title: AI-coderingsgereedschappen voor extensies
-description: Leer hoe u de AI-gereedschappen gebruikt om Commerce App Builder-extensies te maken.
+title: Gereedschap voor AI-codeontwikkelaars voor Adobe Commerce App Builder
+description: Leer hoe u de AI-gereedschappen kunt gebruiken voor het maken van Commerce App Builder-toepassingen.
 feature: App Builder, Cloud
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 991a8683b9a333d2699f1ef22f3dc54d7b401573
+source-git-commit: 5d4726f7191f74507524667555ab46838bb2407a
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
 
-# AI-coderingsgereedschappen voor extensies
+# Gereedschap voor AI-codeontwikkelaars voor Adobe Commerce App Builder
 
-Wanneer u naar [!DNL Adobe Commerce as a Cloud Service] migreert, kunt u de AI-coderingsgereedschappen gebruiken om bestaande [!DNL Adobe Commerce] PHP-extensies om te zetten in [!DNL Adobe Developer App Builder] -extensies. U kunt deze gereedschappen ook gebruiken om nieuwe [!DNL App Builder] -extensies te maken.
+Wanneer u naar [!DNL Adobe Commerce as a Cloud Service] migreert, kunt u de AI-coderingsgereedschappen gebruiken om bestaande [!DNL Adobe Commerce] PHP-extensies om te zetten in [!DNL Adobe Developer App Builder] -toepassingen. U kunt deze gereedschappen ook gebruiken om nieuwe [!DNL App Builder] -toepassingen te maken.
 
 De AI-coderingsgereedschappen bieden de volgende voordelen:
 
@@ -25,24 +25,40 @@ De AI-coderingsgereedschappen bieden de volgende voordelen:
 * **Commerce-specifieke eigenschappen**: Gespecialiseerde hulpmiddelen voor de ontwikkeling van Adobe Commerce App Builder.
 * **Geautomatiseerde werkschema&#39;s**: Gestroomlijnde ontwikkeling en plaatsingsprocessen.
 
+Als u de AI-coderingsgereedschappen installeert, hebt u toegang tot:
+
+* Regels - Een specifieke Adobe Commerce- en App Builder-regel die is ontworpen om de ontwikkeling van uw toepassing te begeleiden en te informeren.
+* Developer MCP Server
+* App Builder MCP Server
+
+## Bijwerken naar de meest recente versie
+
+Na [ het installeren van het hulpmiddel van de AI codeerontwikkelaar ](#installation), kunt u aan de recentste versie bijwerken door het volgende bevel in werking te stellen:
+
+```bash
+aio commerce extensibility tools-setup
+```
+
+Hiermee worden de gereedschappen bijgewerkt naar de nieuwste versie.
+
 ## Vereisten
 
 * Een van de volgende coderingsagents:
-   * [&#x200B; Curseur &#x200B;](https://cursor.com/download) (geadviseerd)
-   * [&#x200B; Github Copilot &#x200B;](https://github.com/features/copilot)
-   * [&#x200B; Google Gemini CLI &#x200B;](https://github.com/google-gemini/gemini-cli)
-   * [&#x200B; Claude Code &#x200B;](https://www.claude.com/product/claude-code)
-* [&#x200B; Node.js &#x200B;](https://nodejs.org/en/download): De versie van LTS
-* De Manager van het pakket: [&#x200B; npm &#x200B;](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [&#x200B; garen &#x200B;](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
-* [&#x200B; Git &#x200B;](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
+   * [ Cursor ](https://cursor.com/download)
+   * [ Github Copilot ](https://github.com/features/copilot)
+   * [ Google Gemini CLI ](https://github.com/google-gemini/gemini-cli)
+   * [ Claude Code ](https://www.claude.com/product/claude-code)
+* [ Node.js ](https://nodejs.org/en/download): De versie van LTS
+* De Manager van het pakket: [ npm ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [ garen ](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* [ Git ](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
 
 ## Installatie
 
 >[!NOTE]
 >
->Als u slechts de dienst van de Documentatie RAG en niet het volledige AI coderingshulpmiddelenpakket wilt installeren, zie {de dienst van de RAG van de Documentatie 1}.[&#128279;](./doc-rag.md)
+>Als u slechts de dienst van de Documentatie RAG en niet het volledige AI coderingshulpmiddelenpakket wilt installeren, zie {de dienst van de RAG van de Documentatie 1}.[](./doc-rag.md)
 
-1. Installeer de recentste [&#x200B; CLI van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli) globaal:
+1. Installeer de recentste [ CLI van Adobe I/O ](https://github.com/adobe/aio-cli) globaal:
 
    ```bash
    npm install -g @adobe/aio-cli
@@ -50,15 +66,15 @@ De AI-coderingsgereedschappen bieden de volgende voordelen:
 
 1. Installeer de volgende plug-ins:
 
-   * [&#x200B; Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
-   * [&#x200B; CLI Runtime van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli-plugin-runtime)
-   * [&#x200B; App Builder CLI &#x200B;](https://github.com/adobe/aio-cli-plugin-app-dev)
+   * [ Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
+   * [ CLI Runtime van Adobe I/O ](https://github.com/adobe/aio-cli-plugin-runtime)
+   * [ App Builder CLI ](https://github.com/adobe/aio-cli-plugin-app-dev)
 
    ```bash
    aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
    ```
 
-1. Kloon de de integratiestarterkit van Commerce [&#x200B; &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
+1. Kloon de de integratiestarterkit van Commerce [ ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
 
    ```bash
    git clone git@github.com:adobe/commerce-integration-starter-kit.git
@@ -84,7 +100,7 @@ Het installatieproces vraagt u om configuratieopties. Kies voor de installatielo
   New directory
 ```
 
-Bij het selecteren van de coderingsagent raadt Adobe aan `Cursor` te selecteren voor de beste ontwikkelervaring:
+Selecteer de gewenste coderingsagent:
 
 ```shell-session
 ? Which coding agent would you like to use?
@@ -124,11 +140,11 @@ Als Adobe pakketbeheer selecteert, wordt u aangeraden `npm` te gebruiken voor co
 >
 >Alvorens uw project op te stellen, zult u de volgende configuratietaken moeten voltooien:
 >
->* Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
->* Creeer een project van App Builder (zie [&#x200B; de opstelling van het Project &#x200B;](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
+>* Login aan [ Adobe Developer Console ](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
+>* Creeer een project van App Builder (zie [ de opstelling van het Project ](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
 >* Omgevingsvariabelen instellen in een `.env` -bestand.
 >
->U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [&#x200B; een integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
+>U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [ een integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
 
 ## Configuratie na installatie
 
@@ -221,10 +237,10 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 ## Voorbeeldprompt
 
-Met de volgende voorbeeldprompt wordt een extensie gemaakt voor het verzenden van meldingen wanneer een bestelling wordt geplaatst.
+De volgende voorbeeldvraag leidt tot een toepassing om berichten te verzenden wanneer een orde wordt geplaatst.
 
 ```shell-session
-Implement an Adobe Commerce SaaS extension that will send an ERP notification when a customer places an order. The ERP notification must be sent as a POST HTTP call to <ERP URL> with the following details in the request JSON body:
+Implement an Adobe Commerce SaaS application that will send an ERP notification when a customer places an order. The ERP notification must be sent as a POST HTTP call to <ERP URL> with the following details in the request JSON body:
 
 Order ID -> orderID
 Order Total -> total
@@ -255,7 +271,7 @@ Voordat u een ontwikkelingssessie start:
 
 Tijdens de ontwikkeling:
 
-* Vertrouw het vier-fase [&#x200B; protocol &#x200B;](#protocol)
+* Vertrouw het vier-fase [ protocol ](#protocol)
 * Implementatieplannen aanvragen voor complexe ontwikkeling
 * MCP-gereedschappen gebruiken indien beschikbaar
 * Elke functie na implementatie testen
@@ -279,16 +295,16 @@ Hierdoor kunt u ook Adobe-sjablonen gebruiken en bouwen op beproefde patronen en
 
 Raadpleeg de volgende bronnen om aan de slag te gaan:
 
-* [&#x200B; Startuitrusting van de Integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
-* [&#x200B; Adobe Commerce starter kit malplaatjes &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
-* [&#x200B; de steekproeftoepassingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
+* [ Startuitrusting van de Integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
+* [ Adobe Commerce starter kit malplaatjes ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
+* [ de aanzetmalplaatjes van Adobe I/O Events ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [ de steekproeftoepassingen van App Builder ](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### Waarom u deze middelen zou moeten gebruiken
 
 * **Bewezen patronen**: De kits van de aanzet embody Adobe beste praktijken en architecturale besluiten
 * **Snellere ontwikkeling**: Vermindert tijd besteed aan boilerplate en configuratie
-* **Consistentie**: Verzekert uw uitbreiding gevestigde overeenkomsten volgt
+* **Consistentie**: Zorgt ervoor uw toepassing gevestigde overeenkomsten volgt
 * **Handhaving**: Gemakkelijker om te handhaven en bij te werken wanneer het volgen van standaardpatronen
 * **Documentatie**: De kits van de aanzet komen met voorbeelden en documentatie
 * **Communautaire steun**: Gemakkelijker om hulp te krijgen wanneer het gebruiken van standaardbenaderingen
@@ -297,7 +313,7 @@ Raadpleeg de volgende bronnen om aan de slag te gaan:
 
 ### Protocol
 
-Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensysteem. De hulpmiddelen zouden dit protocol automatisch moeten volgen wanneer het ontwikkelen van uitbreidingen:
+Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensysteem. De hulpmiddelen zouden dit protocol automatisch moeten volgen wanneer het ontwikkelen van toepassingen:
 
 * Fase 1: Analyse en verduidelijking van de eisen
    * Geef volledige antwoorden op de gestelde vragen om de vragen te verduidelijken.
@@ -308,13 +324,13 @@ Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensyst
 
 ### Implementatieplannen aanvragen voor complexe ontwikkeling
 
-Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [&#x200B; Fase 2 &#x200B;](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
+Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [ Fase 2 ](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
 
 ```shell-session
 Create a detailed implementation plan for this complex development.
 ```
 
-Complexe Adobe Commerce-extensies hebben vaak betrekking op:
+Complexe Adobe Commerce-toepassingen hebben vaak betrekking op:
 
 * Meerdere runtimeacties
 * De configuratie van de gebeurtenis over veelvoudige touchpoints
@@ -326,7 +342,7 @@ Complexe Adobe Commerce-extensies hebben vaak betrekking op:
 
 >[!NOTE]
 >
->Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [&#x200B; aan Adobe I/O CLI &#x200B;](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
+>Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [ aan Adobe I/O CLI ](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
 
 Het gereedschap is standaard ingesteld op MCP-gereedschappen, maar in bepaalde omstandigheden kan het in plaats daarvan CLI-opdrachten gebruiken. Om MCP hulpmiddelgebruik te verzekeren, verzoek uitdrukkelijk hen in uw herinnering.
 
@@ -529,3 +545,31 @@ Vermijd de volgende anti-patronen wanneer het gebruiken van de AI codeerhulpmidd
 * **voeg geen ingewikkeldheid zonder de analyse van de worteloorzaak toe** - vraag onnodige dossiertoevoegingen en verzoek behoorlijk onderzoek.
 * **verklaart geen succes zonder echte gegevens het testen** - altijd test met daadwerkelijke gegevens, niet enkel randgevallen.
 * **vergeet runtime schoonmaakbeurt** niet - schoon altijd orphaned acties na belangrijke veranderingen.
+
+## Feedback geven
+
+Ontwikkelaars die geïnteresseerd zijn in het geven van feedback over de AI-coderingsgereedschappen, kunnen de opdracht `/feedback` gebruiken.
+
+Met deze opdracht kunt u feedback geven op tekst en logbestanden verzenden naar Adobe. Alle logbestanden die u verzendt, worden ontsmet om persoonlijke of persoonlijke gegevens te verwijderen.
+
+>[!TIP]
+>
+>De gebruikerservaring zal lichtjes afhankelijk van winde variëren u gebruikt. In het volgende proces wordt de ervaring in Cursor beschreven.
+
+1. Typ `/feedback` in de agent en selecteer de opdracht `commerce-extensibility/feedback` .
+
+1. Verstrek uw terugkoppel voor het hulpmiddel op het **terugkoppelen** gebied dat bij de bovenkant van winde verschijnt en **druk binnengaan** sleutel.
+
+   ![ curseur terugkoppelt het gebied van de bevelinput ](../assets/feedback-response.png){width="600" zoomable="yes"}
+
+1. Op **sparen Lokaal** gebied, type of `yes` of `no` en druk **binnengaan** om erop te wijzen als u een lokaal exemplaar van uw logboeken wilt bewaren.
+
+   ![ curseur terugkoppelt bevel sparen plaatselijk gebied ](../assets/feedback-save.png){width="600" zoomable="yes"}
+
+   Als u **ja** selecteerde, kunt u de logboeken in uw `chats` omslag herzien na het verzenden van uw terugkoppelt.
+
+1. De opdracht `commerce-extensibility/feedback` wordt weergegeven in het veld voor chatinvoer van de agent. De pers **gaat** binnen of klikt **verzendt** om uw te verzenden terugkoppelt aan Adobe.
+
+>[!NOTE]
+>
+>Als u niet het `/feedback` bevel ziet, kunt u aan [ update aan de recentste versie ](#updating-to-the-latest-version) moeten.

@@ -111,7 +111,7 @@ _3 November, 2025_
 - Velden overschrijven met laagmaskers beheren
 - Ondersteuning voor hoogwaardige, seizoensgebonden en voor mobiele apparaten geoptimaliseerde inhoudlagen
 
-  Lagen worden opgehaald met de bestaande `products` -query, worden op de server toegepast vanuit aanvraagheaders en vereisen geen wijzigingen in het schema. Zie [&#x200B; de laag van de Catalogus &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-layer) in de _Gids van Adobe Commerce Optimizer_.
+  Lagen worden opgehaald met de bestaande `products` -query, worden op de server toegepast vanuit aanvraagheaders en vereisen geen wijzigingen in het schema. Zie [&#x200B; de laag van de Catalogus &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/catalog-layer) in de _Gids van Adobe Commerce Optimizer_.
 
 ![&#x200B; Gegroepeerde producten van 0&rbrace; herstellen &lbrace;kunnen nu worden gevraagd wanneer de ouder geen tarifering heeft; de kindproducten keren hun eigen zichtbaarheidsrollen terug.](../assets/fix.svg)<!--DATA-6779-->
 
@@ -222,7 +222,7 @@ _15 juli 2025_
 
 _Juni 20, 2025_
 
-![&#x200B; Nieuwe &#x200B;](../assets/new.svg) **Hiërarchische configuratie van het prijzenboek** - nauwkeurige prijswaaiers voor ouder-kind prijzenboeken. De berekeningen respecteren hiërarchie en geërfte regels; vermindert prijsfouten wanneer de veelvoudige prijsboeken met elkaar verbonden zijn. Alleen Adobe Commerce Optimizer. Zie [&#x200B; de Boeken van de Prijs &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/pricebooks).
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) **Hiërarchische configuratie van het prijzenboek** - nauwkeurige prijswaaiers voor ouder-kind prijzenboeken. De berekeningen respecteren hiërarchie en geërfte regels; vermindert prijsfouten wanneer de veelvoudige prijsboeken met elkaar verbonden zijn. Alleen Adobe Commerce Optimizer. Zie [&#x200B; de Boeken van de Prijs &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/pricebooks).
 
 ![&#x200B; Nieuwe &#x200B;](../assets/new.svg) **case-insensitive sleutels** - de zeer belangrijke raadplegingen in vragen zijn nu case-insensitive, verminderend fouten van zeer belangrijke casing. <!--DATA-6494, DCAT-2495-->
 
@@ -351,7 +351,7 @@ _Mei 23, 2024_
 
 ![&#x200B; bevestig &#x200B;](../assets/fix.svg) <!--DATA-5033--> de `InStock` vlag voor optiewaarden respecteert nu het scoped `enabled` status van de productvariant.
 
-![&#x200B; Bevestig &#x200B;](../assets/fix.svg) toegevoegde steun voor productprijzen met maximaal 16 cijfers en 4 decimalen. <!--DATA-5888--> Hersynchroniseer van het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) of [&#x200B; CLI &#x200B;](../landing/catalog-sync.md#command-line-interface) om updates toe te passen.
+![&#x200B; Bevestig &#x200B;](../assets/fix.svg) toegevoegde steun voor productprijzen met maximaal 16 cijfers en 4 decimalen. <!--DATA-5888--> Hersynchroniseer van het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) of [&#x200B; CLI &#x200B;](../landing/catalog-sync.md#command-line-interface) om updates toe te passen.
 
 #### Bekende beperkingen
 
@@ -385,7 +385,7 @@ _22 Februari, 2024_
 
 [!BADGE &#x200B; Ondersteunde &#x200B;]{type=Informative tooltip="Ondersteund"} versies van Adobe Commerce 2.4.4 en nieuwer
 
-![&#x200B; Nieuw &#x200B;](../assets/new.svg) [[!DNL Data Management Dashboard] &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html) is nu beschikbaar voor gegevensstromen (de Aanbevelingen van het Product, Levend Onderzoek, de Dienst van de Catalogus). Vereist `catalog-service` metapack v3.1.0+.
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) [[!DNL Data Management Dashboard] &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html?lang=nl-NL) is nu beschikbaar voor gegevensstromen (de Aanbevelingen van het Product, Levend Onderzoek, de Dienst van de Catalogus). Vereist `catalog-service` metapack v3.1.0+.
 
 ### v1.16-release
 

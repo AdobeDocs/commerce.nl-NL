@@ -29,7 +29,7 @@ ht-degree: 6%
    - [Voorwaarden voor de zelfstudie over de uitbreiding van classificaties](tutorials/tutorial-prerequisites.md)
    - [Zelfstudie over het verlengen van beoordelingen](tutorials/ratings-extension.md)
 - Schema&#39;s {#schemas}
-   - [ schema van GraphQL ](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
-   - [ REST API schema ](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
+   - [&#x200B; schema van GraphQL](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
+   - [&#x200B; REST API schema](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
 - [Aanvullende informatie](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

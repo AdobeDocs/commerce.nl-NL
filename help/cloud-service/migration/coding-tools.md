@@ -33,7 +33,7 @@ Als u de AI-coderingsgereedschappen installeert, hebt u toegang tot:
 
 ## Bijwerken naar de meest recente versie
 
-Na [ het installeren van het hulpmiddel van de AI codeerontwikkelaar ](#installation), kunt u aan de recentste versie bijwerken door het volgende bevel in werking te stellen:
+Na [&#x200B; het installeren van het hulpmiddel van de AI codeerontwikkelaar &#x200B;](#installation), kunt u aan de recentste versie bijwerken door het volgende bevel in werking te stellen:
 
 ```bash
 aio commerce extensibility tools-setup
@@ -44,21 +44,21 @@ Hiermee worden de gereedschappen bijgewerkt naar de nieuwste versie.
 ## Vereisten
 
 * Een van de volgende coderingsagents:
-   * [ Cursor ](https://cursor.com/download)
-   * [ Github Copilot ](https://github.com/features/copilot)
-   * [ Google Gemini CLI ](https://github.com/google-gemini/gemini-cli)
-   * [ Claude Code ](https://www.claude.com/product/claude-code)
-* [ Node.js ](https://nodejs.org/en/download): De versie van LTS
-* De Manager van het pakket: [ npm ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [ garen ](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
-* [ Git ](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
+   * [&#x200B; Cursor &#x200B;](https://cursor.com/download)
+   * [&#x200B; Github Copilot &#x200B;](https://github.com/features/copilot)
+   * [&#x200B; Google Gemini CLI &#x200B;](https://github.com/google-gemini/gemini-cli)
+   * [&#x200B; Claude Code &#x200B;](https://www.claude.com/product/claude-code)
+* [&#x200B; Node.js &#x200B;](https://nodejs.org/en/download): De versie van LTS
+* De Manager van het pakket: [&#x200B; npm &#x200B;](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [&#x200B; garen &#x200B;](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* [&#x200B; Git &#x200B;](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
 
 ## Installatie
 
 >[!NOTE]
 >
->Als u slechts de dienst van de Documentatie RAG en niet het volledige AI coderingshulpmiddelenpakket wilt installeren, zie {de dienst van de RAG van de Documentatie 1}.[](./doc-rag.md)
+>Als u slechts de dienst van de Documentatie RAG en niet het volledige AI coderingshulpmiddelenpakket wilt installeren, zie {de dienst van de RAG van de Documentatie 1}.[&#128279;](./doc-rag.md)
 
-1. Installeer de recentste [ CLI van Adobe I/O ](https://github.com/adobe/aio-cli) globaal:
+1. Installeer de recentste [&#x200B; CLI van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli) globaal:
 
    ```bash
    npm install -g @adobe/aio-cli
@@ -66,15 +66,15 @@ Hiermee worden de gereedschappen bijgewerkt naar de nieuwste versie.
 
 1. Installeer de volgende plug-ins:
 
-   * [ Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
-   * [ CLI Runtime van Adobe I/O ](https://github.com/adobe/aio-cli-plugin-runtime)
-   * [ App Builder CLI ](https://github.com/adobe/aio-cli-plugin-app-dev)
+   * [&#x200B; Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
+   * [&#x200B; CLI Runtime van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli-plugin-runtime)
+   * [&#x200B; App Builder CLI &#x200B;](https://github.com/adobe/aio-cli-plugin-app-dev)
 
    ```bash
    aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
    ```
 
-1. Kloon de de integratiestarterkit van Commerce [ ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
+1. Kloon de de integratiestarterkit van Commerce [&#x200B; &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
 
    ```bash
    git clone git@github.com:adobe/commerce-integration-starter-kit.git
@@ -140,11 +140,11 @@ Als Adobe pakketbeheer selecteert, wordt u aangeraden `npm` te gebruiken voor co
 >
 >Alvorens uw project op te stellen, zult u de volgende configuratietaken moeten voltooien:
 >
->* Login aan [ Adobe Developer Console ](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
->* Creeer een project van App Builder (zie [ de opstelling van het Project ](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
+>* Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
+>* Creeer een project van App Builder (zie [&#x200B; de opstelling van het Project &#x200B;](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
 >* Omgevingsvariabelen instellen in een `.env` -bestand.
 >
->U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [ een integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
+>U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [&#x200B; een integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
 
 ## Configuratie na installatie
 
@@ -271,7 +271,7 @@ Voordat u een ontwikkelingssessie start:
 
 Tijdens de ontwikkeling:
 
-* Vertrouw het vier-fase [ protocol ](#protocol)
+* Vertrouw het vier-fase [&#x200B; protocol &#x200B;](#protocol)
 * Implementatieplannen aanvragen voor complexe ontwikkeling
 * MCP-gereedschappen gebruiken indien beschikbaar
 * Elke functie na implementatie testen
@@ -295,10 +295,10 @@ Hierdoor kunt u ook Adobe-sjablonen gebruiken en bouwen op beproefde patronen en
 
 Raadpleeg de volgende bronnen om aan de slag te gaan:
 
-* [ Startuitrusting van de Integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
-* [ Adobe Commerce starter kit malplaatjes ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [ de aanzetmalplaatjes van Adobe I/O Events ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
-* [ de steekproeftoepassingen van App Builder ](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
+* [&#x200B; Startuitrusting van de Integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
+* [&#x200B; Adobe Commerce starter kit malplaatjes &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
+* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [&#x200B; de steekproeftoepassingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### Waarom u deze middelen zou moeten gebruiken
 
@@ -324,7 +324,7 @@ Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensyst
 
 ### Implementatieplannen aanvragen voor complexe ontwikkeling
 
-Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [ Fase 2 ](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
+Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [&#x200B; Fase 2 &#x200B;](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
 
 ```shell-session
 Create a detailed implementation plan for this complex development.
@@ -342,7 +342,7 @@ Complexe Adobe Commerce-toepassingen hebben vaak betrekking op:
 
 >[!NOTE]
 >
->Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [ aan Adobe I/O CLI ](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
+>Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [&#x200B; aan Adobe I/O CLI &#x200B;](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
 
 Het gereedschap is standaard ingesteld op MCP-gereedschappen, maar in bepaalde omstandigheden kan het in plaats daarvan CLI-opdrachten gebruiken. Om MCP hulpmiddelgebruik te verzekeren, verzoek uitdrukkelijk hen in uw herinnering.
 
@@ -560,11 +560,11 @@ Met deze opdracht kunt u feedback geven op tekst en logbestanden verzenden naar 
 
 1. Verstrek uw terugkoppel voor het hulpmiddel op het **terugkoppelen** gebied dat bij de bovenkant van winde verschijnt en **druk binnengaan** sleutel.
 
-   ![ curseur terugkoppelt het gebied van de bevelinput ](../assets/feedback-response.png){width="600" zoomable="yes"}
+   ![&#x200B; curseur terugkoppelt het gebied van de bevelinput &#x200B;](../assets/feedback-response.png){width="600" zoomable="yes"}
 
 1. Op **sparen Lokaal** gebied, type of `yes` of `no` en druk **binnengaan** om erop te wijzen als u een lokaal exemplaar van uw logboeken wilt bewaren.
 
-   ![ curseur terugkoppelt bevel sparen plaatselijk gebied ](../assets/feedback-save.png){width="600" zoomable="yes"}
+   ![&#x200B; curseur terugkoppelt bevel sparen plaatselijk gebied &#x200B;](../assets/feedback-save.png){width="600" zoomable="yes"}
 
    Als u **ja** selecteerde, kunt u de logboeken in uw `chats` omslag herzien na het verzenden van uw terugkoppelt.
 
@@ -572,4 +572,4 @@ Met deze opdracht kunt u feedback geven op tekst en logbestanden verzenden naar 
 
 >[!NOTE]
 >
->Als u niet het `/feedback` bevel ziet, kunt u aan [ update aan de recentste versie ](#updating-to-the-latest-version) moeten.
+>Als u niet het `/feedback` bevel ziet, kunt u aan [&#x200B; update aan de recentste versie &#x200B;](#updating-to-the-latest-version) moeten.

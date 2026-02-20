@@ -38,4 +38,4 @@ ht-degree: 1%
 - Gevallen gebruiken {#use-cases}
    - [Adobe Journey Optimizer gebruiken om een e-mailbericht voor verlaten winkelwagentje te verzenden](using-ajo.md)
    - [Een publiek maken in Real-Time CDP met Commerce-gebeurtenisgegevens](create-audience.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

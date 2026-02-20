@@ -1,8 +1,8 @@
 ---
-source-git-commit: b8e5e9ea5673bea4e21f18e22f8655f4ef861e6c
+source-git-commit: 6223e2d990232beac1eb04ff7c6c6a94eecfe1b6
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 0%
+source-wordcount: '685'
+ht-degree: 2%
 
 ---
 # Nieuwe sjabloon
@@ -10,6 +10,80 @@ ht-degree: 0%
 ## Nieuwe functies
 
 Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. Alle kleine updates, zoals het bewerken van kopieën, worden van deze lijst uitgesloten.
+
+### 19 februari 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/overview"> overzicht van de Integratie van AEM Assets </a> met een nieuwe zelfstudie video voor de gebruikers van Adobe Commerce as a Cloud Service (ACCS).</p>
+</td>
+      <td>
+        Feedback, belangrijke update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1cef99b8284aef05e34ab8ca65b776492ec5bee7">begaan</a></td>
+    </tr>
+    <tr>
+      <td><p>Bijgewerkt Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> met de recentste versie Sandbox.</p>
+</td>
+      <td>
+        Feedback, belangrijke update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/c396ca7cbfe7f00ec9e164c397ff0438aa5c6f87">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 18 februari 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match"> automatische aanpassing van de Douane </a> met steun voor de <code class="language-plaintext highlighter-rouge">skip</code> synchronisatieparameter, toestaand douanematchers om synchronisatieverwerking te omzeilen wanneer de afbeeldingen niet zijn veranderd.</p>
+</td>
+      <td>
+        Belangrijke update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/6e8d266aeaec4d47b82b0779dfc3786ccaa7d83a">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
+
+### 17 februari 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschrijving</th>
+      <th>Type</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>De belangrijkste update aan <a href="https://experienceleague.adobe.com/en/docs/commerce/catalog-service/release-notes"> Nota's van de Versie van de Dienst van de Catalogus van de Catalogus van de Catalogus van de Catalogus </a>: opnieuw gestructureerde intro, toegevoegde versies v1.46-v1.36 en GA, uitgebreide eigenschapbeschrijvingen met de voorbeelden van GraphQL (attribuut het filtreren, rij het tarief, de Lagen van het Product, recommendationsByUnitIds, en meer), en gerichte vorige versies met huidige formatteren.</p>
+</td>
+      <td>
+        Belangrijke update
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/e31961c92342cce96433ef42861e807249a75eaf">begaan</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### 13 februari 2026
 
@@ -23,7 +97,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Verbetert de documentatie van de Integratie van AEM Assets door vereisten te verduidelijken en <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/migrate-data"> CLI beveldocumentatie voor meta-gegevensuitvoer </a> toe te voegen.</p>
+      <td><p>Verbetert de documentatie van de Integratie van AEM Assets door vereisten te verduidelijken en <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/migrate-data"> CLI beveldocumentatie voor meta-gegevensuitvoer </a> toe te voegen.</p>
 </td>
       <td>
         Feedback
@@ -45,7 +119,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/nl/docs/commerce/product-recommendations/boundaries-limits"> Grenzen en Grenzen </a> voor de Aanbevelingen van het Product, documenterend gesteunde producttypes, speciale prijsbeperkingen, eenheid en filtergrenzen, voorproef/API/koekjesgedrag, en verwante beperkingen.</p>
+      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/boundaries-limits"> Grenzen en Grenzen </a> voor de Aanbevelingen van het Product, documenterend gesteunde producttypes, speciale prijsbeperkingen, eenheid en filtergrenzen, voorproef/API/koekjesgedrag, en verwante beperkingen.</p>
 </td>
       <td>
         Feedback, nieuw onderwerp
@@ -53,7 +127,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/2b850e32660f1a8540bb6a024f3617994b6c13f6">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Verbeterde v2.12.0 PAY-6227 ingang om aan de nieuwe <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/payments-checkout/payments-options#paypal-payment-buttons"> server-kant verschepen callback </a> sectie te verbinden, die verduidelijkt hoe deze eigenschap een sneller controleproces toelaat.</p>
+      <td><p>Verbeterde v2.12.0 PAY-6227 ingang om aan de nieuwe <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/payments-options#paypal-payment-buttons"> server-kant verschepen callback </a> sectie te verbinden, die verduidelijkt hoe deze eigenschap een sneller controleproces toelaat.</p>
 </td>
       <td>
         Feedback
@@ -75,7 +149,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service voor de versie van februari aan productie.</p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service voor de versie van februari aan productie.</p>
 </td>
       <td>
         Belangrijke update
@@ -97,7 +171,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De Integratie van AEM Assets v1.2.13 voegt {de Configuratie van Workspace van 0} toe <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/synchronize/custom-match"> voor de opstelling van de douanematcher. </a> U kunt uw App Builder <code class="language-plaintext highlighter-rouge">workspace.json</code> uploaden voor automatische validatie en uitname van referenties, of handmatig configureren. Zie de <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/release-notes"> versienota's </a> voor v1.2.13 en de bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/synchronize/custom-match"> douane passende </a> gids.</p>
+      <td><p>De Integratie van AEM Assets v1.2.13 voegt {de Configuratie van Workspace van 0} toe <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match"> voor de opstelling van de douanematcher. </a> U kunt uw App Builder <code class="language-plaintext highlighter-rouge">workspace.json</code> uploaden voor automatische validatie en uitname van referenties, of handmatig configureren. Zie de <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes"> versienota's </a> voor v1.2.13 en de bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match"> douane passende </a> gids.</p>
 </td>
       <td>
         Belangrijke update
@@ -119,7 +193,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/release-notes"> versie 103.4.19 van de Uitvoer van Gegevens van Adobe Commerce SaaS </a>.</p>
+      <td><p>Toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes"> versie 103.4.19 van de Uitvoer van Gegevens van Adobe Commerce SaaS </a>.</p>
 </td>
       <td>
         Technisch
@@ -141,7 +215,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> de versienota's van as a Cloud Service van Adobe Commerce </a> voor de versie van Sandbox van februari 2026.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> de versienota's van as a Cloud Service van Adobe Commerce </a> voor de versie van Sandbox van februari 2026.</p>
 </td>
       <td>
         Belangrijke update
@@ -163,7 +237,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/release-notes"> versie 103.4.18 van de Uitvoer van Gegevens van Adobe Commerce SaaS </a>.</p>
+      <td><p>Toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes"> versie 103.4.18 van de Uitvoer van Gegevens van Adobe Commerce SaaS </a>.</p>
 </td>
       <td>
         Technisch
@@ -185,7 +259,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Documenteerde hoe Commerce-klanten gegevensuitvoer kunnen controleren en oplossen via de statuspagina voor Feed Sync in Commerce Admin. Zie <a href="https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/data-synchronization#view-and-manage-the-synchronization-process"> Mening en beheer het synchronisatieproces </a> in de Gids van de Uitvoer van Gegevens.</p>
+      <td><p>Documenteerde hoe Commerce-klanten gegevensuitvoer kunnen controleren en oplossen via de statuspagina voor Feed Sync in Commerce Admin. Zie <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization#view-and-manage-the-synchronization-process"> Mening en beheer het synchronisatieproces </a> in de Gids van de Uitvoer van Gegevens.</p>
 </td>
       <td>
         Technisch
@@ -207,7 +281,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde meer informatie aan de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/feature-comparison"> pagina van de eigenschapvergelijking </a>, met inbegrip van nieuwe infrastructuur, operationeel vermogen, en marktplaatsinformatie.</p>
+      <td><p>Toegevoegde meer informatie aan de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/feature-comparison"> pagina van de eigenschapvergelijking </a>, met inbegrip van nieuwe infrastructuur, operationeel vermogen, en marktplaatsinformatie.</p>
 </td>
       <td>
         Feedback
@@ -229,7 +303,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/nl/docs/commerce/live-search/live-search-storefront/migrate-to-plp"> Migrerend van de Adapter van het Onderzoek aan PLP </a> gids met gedetailleerde migratiescenario's, geleidelijke procedures, op rol-gebaseerde begeleiding, en het oplossen van problemen voor klanten die van de vervangen Adapter van het Onderzoek overgaan.</p>
+      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/migrate-to-plp"> Migrerend van de Adapter van het Onderzoek aan PLP </a> gids met gedetailleerde migratiescenario's, geleidelijke procedures, op rol-gebaseerde begeleiding, en het oplossen van problemen voor klanten die van de vervangen Adapter van het Onderzoek overgaan.</p>
 </td>
       <td>
         Feedback, belangrijke update, nieuw onderwerp
@@ -251,7 +325,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de de opstellingsgidsen van de Stroefront voor <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/storefront"> Adobe Commerce Optimizer </a> en <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/storefront"> Adobe Commerce as a Cloud Service </a> om informatie over het migreren van de Commerce storefront configuratie voor Edge Delivery Services te omvatten om de Dienst van de Configuratie in plaats van <code class="language-plaintext highlighter-rouge">config.json</code> dossier in de opslagforefront boilerplate bewaarplaats te gebruiken. Adobe raadt u aan de configuratieservice te gebruiken voor het beheer van de configuratie voor winkeliers die op Edge Delivery Services worden geïmplementeerd.</p>
+      <td><p>Bijgewerkt de de opstellingsgidsen van de Stroefront voor <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/storefront"> Adobe Commerce Optimizer </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/storefront"> Adobe Commerce as a Cloud Service </a> om informatie over het migreren van de Commerce storefront configuratie voor Edge Delivery Services te omvatten om de Dienst van de Configuratie in plaats van <code class="language-plaintext highlighter-rouge">config.json</code> dossier in de opslagforefront boilerplate bewaarplaats te gebruiken. Adobe raadt u aan de configuratieservice te gebruiken voor het beheer van de configuratie voor winkeliers die op Edge Delivery Services worden geïmplementeerd.</p>
 </td>
       <td>
         Feedback, technisch
@@ -317,7 +391,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes#latest"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes#latest"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -339,7 +413,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/boundaries-limits"> Limieten en grenzen </a> onderwerp voor Adobe Commerce Optimizer om vergunningsgrenzen en systeemgrenzen te beschrijven, grensbeschrijvingen toe te voegen, en begeleiding voor capaciteit te omvatten planning en prestatieskwesties te verhinderen.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/boundaries-limits"> Limieten en grenzen </a> onderwerp voor Adobe Commerce Optimizer om vergunningsgrenzen en systeemgrenzen te beschrijven, grensbeschrijvingen toe te voegen, en begeleiding voor capaciteit te omvatten planning en prestatieskwesties te verhinderen.</p>
 </td>
       <td>
         Feedback, technisch
@@ -361,34 +435,12 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/nl/docs/commerce/saas-data-export/release-notes"> versie 103.4.16 en 103.4.17 van de Gegevens van Adobe Commerce SaaS </a> en <a href="https://experienceleague.adobe.com/nl/docs/commerce/price-indexer/catalog-adapter/release-notes"> versie van de Adapter van de Catalogus 1.10.0 </a>.</p>
+      <td><p>De toegevoegde versienota's voor <a href="https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/release-notes"> versie 103.4.16 en 103.4.17 van de Gegevens van Adobe Commerce SaaS </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce/price-indexer/catalog-adapter/release-notes"> versie van de Adapter van de Catalogus 1.10.0 </a>.</p>
 </td>
       <td>
         Technisch
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/948267ac789ed6432b0bfe57a82ca7b1f1be0807">begaan</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### 18 december 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschrijving</th>
-      <th>Type</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Bijgewerkt <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/configure-aem#install-the-commerce-assets-package"> vorm het onderwerp van AEM </a> in de documentatie van de Integratie van AEM Assets.</p>
-</td>
-      <td>
-        Belangrijke update
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/commit/d46526db56dad08a8f865664c92d1214bbf063d8">begaan</a></td>
     </tr>
   </tbody>
 </table>

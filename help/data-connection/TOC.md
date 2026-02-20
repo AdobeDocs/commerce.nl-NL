@@ -4,7 +4,7 @@ user-guide-description: Deze gids verstrekt gedetailleerde instructies om de  [!
 role: Admin
 feature: Personalization, Integration
 recommendations: noDisplay
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: 60a8e8f5cedff0c6fa56c563807b9604e3ae1d21
 workflow-type: tm+mt
 source-wordcount: '138'
@@ -38,4 +38,4 @@ ht-degree: 1%
 - Gevallen gebruiken {#use-cases}
    - [Adobe Journey Optimizer gebruiken om een e-mailbericht voor verlaten winkelwagentje te verzenden](using-ajo.md)
    - [Een publiek maken in Real-Time CDP met Commerce-gebeurtenisgegevens](create-audience.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)

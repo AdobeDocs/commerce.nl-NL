@@ -1,7 +1,7 @@
 ---
 title: Typen aanbevelingen
 description: Leer meer over de aanbevelingen die u op verschillende pagina's op uw site kunt implementeren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: f1c4e0ef-a8fe-452d-9870-6d6964b4335d
 source-git-commit: 6fed7dd049019918646a9b871147c2d6ae27ed36
 workflow-type: tm+mt

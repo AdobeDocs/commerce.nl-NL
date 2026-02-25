@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Zelfstudie over het verlengen van verzendmethoden
 
-Deze zelfstudie begeleidt u door het bouwen van een het verschepen methodeuitbreiding voor [!DNL Adobe Commerce as a Cloud Service] gebruikend [!DNL Adobe App Builder], de [ uitcheckstarter uitrusting ](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/){target="_blank"}, en AI-bijgewoonde ontwikkelingshulpmiddelen.
+Deze zelfstudie begeleidt u door het bouwen van een het verschepen methodeuitbreiding voor [!DNL Adobe Commerce as a Cloud Service] gebruikend [!DNL Adobe App Builder], de [&#x200B; uitcheckstarter uitrusting &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/){target="_blank"}, en AI-bijgewoonde ontwikkelingshulpmiddelen.
 
 De extensie voegt een configureerbare verzendmethode toe aan de kassa waar de tarieven afkomstig zijn van een externe service voor de verzending van mock-verzendkosten. De handelaren vormen de dienst URL, de API sleutel, en het pakhuis (schip-van) adres in Admin UI, en bij controle de tarieven van uitbreidingsverzoeken van die dienst en toont de teruggekeerde opties aan de klant.
 
-Alvorens u begint, voltooi de [ eerste vereisten ](./tutorial-prerequisites.md).
+Alvorens u begint, voltooi de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md).
 
 ## Voorwaarden verifiëren {#tutorial-verify-prerequisites}
 
@@ -37,26 +37,26 @@ git --version
 bash --version
 ```
 
-Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [ eerste vereisten ](./tutorial-prerequisites.md) voor begeleiding.
+Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md) voor begeleiding.
 
 ## De mock Shipping Rate API maken
 
-Na de voltooiing van de [ eerste vereisten ](./tutorial-prerequisites.md), creeer de model verschepende tarieven API, zodat hebt u de dienst URL en API sleutel klaar wanneer u de uitbreiding in [!DNL Commerce Admin] vormt. De extensie roept een externe API voor verzendkosten aan. Voor deze zelfstudie gebruikt u een mock-API waarmee u de flow kunt uitvoeren zonder een echte carrier-account. U zult modelAPI creëren gebruikend [ Pijptemam ](https://pipedream.com) (vrije vereiste rekening). De mock-API gebruikt een aanvraag-/antwoordcontract dat vergelijkbaar is met de gewone API&#39;s voor werkelijke verzendkosten. Het is dus raadzaam deze extensie later aan te sluiten op een echte provider.
+Na de voltooiing van de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md), creeer de model verschepende tarieven API, zodat hebt u de dienst URL en API sleutel klaar wanneer u de uitbreiding in [!DNL Commerce Admin] vormt. De extensie roept een externe API voor verzendkosten aan. Voor deze zelfstudie gebruikt u een mock-API waarmee u de flow kunt uitvoeren zonder een echte carrier-account. U zult modelAPI creëren gebruikend [&#x200B; Pijptemam &#x200B;](https://pipedream.com) (vrije vereiste rekening). De mock-API gebruikt een aanvraag-/antwoordcontract dat vergelijkbaar is met de gewone API&#39;s voor werkelijke verzendkosten. Het is dus raadzaam deze extensie later aan te sluiten op een echte provider.
 
-Om de mock API te creëren, download het [ mock rates API specificatiedossier ](../assets/mock-rates-api-spec.zip), open het, en voeg het `.md` dossier aan uw project (bijvoorbeeld `docs/mock-rates-api-spec.md`) toe.
+Om de mock API te creëren, download het [&#x200B; mock rates API specificatiedossier &#x200B;](../assets/mock-rates-api-spec.zip), open het, en voeg het `.md` dossier aan uw project (bijvoorbeeld `docs/mock-rates-api-spec.md`) toe.
 
 **Tijd:** het zou ongeveer **5-10 minuten** moeten vergen om mock API tot stand te brengen.
 
 ### Een workflow en HTTP-trigger maken
 
-1. Ga naar [ pipedream.com ](https://pipedream.com) en teken omhoog of login.
+1. Ga naar [&#x200B; pipedream.com &#x200B;](https://pipedream.com) en teken omhoog of login.
 1. Klik **Nieuw werkschema** (of **voeg werkschema** toe).
 1. Voor de trekker, uitgezochte **HTTP / Webhaak**.
 1. In de trekkerconfiguratie, plaats **de Reactie van HTTP** aan **keert een douanerespons van uw werkschema** terug. Dit staat de stap van de Code toe om de mockJSON reactie te verzenden.
 1. Pipedream toont een uniek **eindpunt URL van HTTP**, zoals `https://123456.m.pipedream.net`.
 1. **Exemplaar dit URL** en gebruik het als **Dienst URL** wanneer het vormen van de uitbreiding in Commerce Admin.
 
-   ![ Pipedream werkschema met HTTP/Webhaak trekker en eindpuntURL zichtbaar ](../assets/mock-api-trigger.png){width="600" zoomable="yes"}
+   ![&#x200B; Pipedream werkschema met HTTP/Webhaak trekker en eindpuntURL zichtbaar &#x200B;](../assets/mock-api-trigger.png){width="600" zoomable="yes"}
 
 U te hoeven niet om **Vergunning** op de trekker te vormen; het model API bevestigt de `API-Key` kopbal in de stap van de Code.
 
@@ -126,17 +126,17 @@ U te hoeven niet om **Vergunning** op de trekker te vormen; het model API bevest
 
 1. Klik **opstellen**.
 
-   ![ de stap van de Code van de Pijpleiding met mock het manuscript van verschepende tarieven ](../assets/mock-api-code-step.png){width="600" zoomable="yes"}
+   ![&#x200B; de stap van de Code van de Pijpleiding met mock het manuscript van verschepende tarieven &#x200B;](../assets/mock-api-code-step.png){width="600" zoomable="yes"}
 
 De mock retourneert twee tariefopties (Mock Standard en Mock Express) voor elke geldige aanvraag die een niet-lege `API-Key` header en een `shipment` -object bevat. U configureert de API-sleutel later in de [!DNL Commerce Admin] -zelfstudie. U zult ook het het werkschema URL van de Pijpnaam op het zelfde configuratiescherm specificeren, zo nota van het.
 
 ## Uitbreiding
 
-Deze sectie begeleidt u door het ontwikkelen van een het verschepen methodeuitbreiding voor [!DNL Adobe Commerce as a Cloud Service] gebruikend de [ uitcheckstarter kit ](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/){target="_blank"} en AI-bijgewoonde ontwikkelingshulpmiddelen.
+Deze sectie begeleidt u door het ontwikkelen van een het verschepen methodeuitbreiding voor [!DNL Adobe Commerce as a Cloud Service] gebruikend de [&#x200B; uitcheckstarter kit &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/){target="_blank"} en AI-bijgewoonde ontwikkelingshulpmiddelen.
 
 1. Navigeer aan de montages MCP in uw coderende agent. Ga bijvoorbeeld in Cursor naar **[!UICONTROL Cursor]** > **[!UICONTROL Settings]** > **[!UICONTROL Cursor Settings]** > **[!UICONTROL Tools & MCP]** . Controleer of de gereedschapsset `commerce-extensibility` zonder fouten is ingeschakeld. Als er fouten optreden, schakelt u de gereedschapset in en uit.
 
-   ![ de montages van winde van de Curseur die MCP handel-rekbaarheid toegelaten toolset tonen ](../assets/cursor-settings-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; de montages van winde van de Curseur die MCP handel-rekbaarheid toegelaten toolset tonen &#x200B;](../assets/cursor-settings-shipping.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -146,9 +146,9 @@ Deze sectie begeleidt u door het ontwikkelen van een het verschepen methodeuitbr
 
 1. Als u documentatie hebt toegevoegd aan de context van de Cursor, maak het onbruikbaar. Navigeer aan [!UICONTROL **Curseur**] > [!UICONTROL **Montages**] > [!UICONTROL **de Montages van de Curseur**] > [!UICONTROL **Indexeren &amp; Dokken**] en schrap om het even welke vermelde documentatie.
 
-   ![ Curseur het indexeren en docs montages met lege documentatielijst ](../assets/disable-documentation.png){width="600" zoomable="yes"}
+   ![&#x200B; Curseur het indexeren en docs montages met lege documentatielijst &#x200B;](../assets/disable-documentation.png){width="600" zoomable="yes"}
 
-1. Geef de agent toegang tot de mock rates API specificatie, zodat kan het de cliënt correct uitvoeren. Als u dit nog niet hebt gedaan, download het [ mock rates API specificatiedossier ](../assets/mock-rates-api-spec.zip), open het, en voeg het `.md` dossier aan uw project (bijvoorbeeld `docs/mock-rates-api-spec.md`) toe, dan verwijzing dat dossier in uw herinnering.
+1. Geef de agent toegang tot de mock rates API specificatie, zodat kan het de cliënt correct uitvoeren. Als u dit nog niet hebt gedaan, download het [&#x200B; mock rates API specificatiedossier &#x200B;](../assets/mock-rates-api-spec.zip), open het, en voeg het `.md` dossier aan uw project (bijvoorbeeld `docs/mock-rates-api-spec.md`) toe, dan verwijzing dat dossier in uw herinnering.
 
 1. De extensie van de verzendmethode genereren:
 
@@ -172,9 +172,9 @@ Deze sectie begeleidt u door het ontwikkelen van een het verschepen methodeuitbr
    >
    >Als de agent om de documentatie verzoekt te zoeken, sta het toe.
 
-   ![ het praatjevenster van de Curseur op de wijze van de Agent met het verschepen van uitbreidingsherinnering ingegaan ](../assets/enter-prompt-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; het praatjevenster van de Curseur op de wijze van de Agent met het verschepen van uitbreidingsherinnering ingegaan &#x200B;](../assets/enter-prompt-shipping.png){width="600" zoomable="yes"}
 
-1. Beantwoord de vragen van de agent precies om het te helpen de beste code produceren. Als de agent vraagt welke uitrusting of malplaatje te gebruiken, het aan de [ kassa van de controleaanzet ](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/){target="_blank"} met het verschepen domein en Admin UI de uitbreiding van SDK zodat zowel de verschepende webhaak als het koopvaardijconfiguratiescherm worden uitgevoerd.
+1. Beantwoord de vragen van de agent precies om het te helpen de beste code produceren. Als de agent vraagt welke uitrusting of malplaatje te gebruiken, het aan de [&#x200B; kassa van de controleaanzet &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/){target="_blank"} met het verschepen domein en Admin UI de uitbreiding van SDK zodat zowel de verschepende webhaak als het koopvaardijconfiguratiescherm worden uitgevoerd.
 
    De agent kan een `requirements.md` (of gelijkwaardig) dossier tot stand brengen dat als bron van waarheid voor de implementatie dient.
 
@@ -184,19 +184,19 @@ Deze sectie begeleidt u door het ontwikkelen van een het verschepen methodeuitbr
    - A **verschepen-config** (of gelijkwaardig) actie steunt GET (gelezen config, API zeer gemaskeerde sleutel) en SET (sparen dienst URL, API sleutel, pakhuisadres), met veilig opgeslagen config, bijvoorbeeld in Runtime staat.
    - Admin UI omvat a **Mock die** (of gelijkaardig) lusje met gebieden voor de Dienst URL, API sleutel (wachtwoord/gemaskeerd), en pakhuisadres verscheept.
 
-   ![ dossier van Vereisten dat door AI agent met de details van de het verschepen implementatie van de extensie wordt gecreeerd ](../assets/requirements-file-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; dossier van Vereisten dat door AI agent met de details van de het verschepen implementatie van de extensie wordt gecreeerd &#x200B;](../assets/requirements-file-shipping.png){width="600" zoomable="yes"}
 
 1. Herzie het architectuurplan wanneer de agent het verstrekt.
 
-   ![ AI plan van de agentenimplementatie voor de uitbreiding van de Tarieven van het Mock Verschepende ](../assets/implementation-plan-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; AI plan van de agentenimplementatie voor de uitbreiding van de Tarieven van het Mock Verschepende &#x200B;](../assets/implementation-plan-shipping.png){width="600" zoomable="yes"}
 
 1. Geef de agent de opdracht om door te gaan met het genereren van code. De agent zou a **mock** drager aan de het verschepen dragers configuratie moeten toevoegen die Commerce toestaat om de teruggekeerde methodes goed te keuren, en de webhaakmethode `plugin.magento.out_of_process_shipping_methods.api.shipping_rate_repository.get_rates` te gebruiken (webhaaktype **na**, vereiste **Facultatief**).
 
    De agent genereert de vereiste code en geeft een gedetailleerd overzicht van uw volgende stappen (waaronder het installeren van afhankelijkheden, het registreren van de mock-carrier, het configureren van de Commerce-webhaak en het implementeren).
 
-   ![ Samenvatting van geproduceerde code en implementatie voor het verschepen uitbreiding ](../assets/code-generation-summary-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; Samenvatting van geproduceerde code en implementatie voor het verschepen uitbreiding &#x200B;](../assets/code-generation-summary-shipping.png){width="600" zoomable="yes"}
 
-   ![ AI agent volgende stappen voor het installeren van, het vormen webhaak, en het opstellen van de verschepende uitbreiding ](../assets/next-steps-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; AI agent volgende stappen voor het installeren van, het vormen webhaak, en het opstellen van de verschepende uitbreiding &#x200B;](../assets/next-steps-shipping.png){width="600" zoomable="yes"}
 
 ### Opschonen voor implementatie
 
@@ -208,7 +208,7 @@ Proceed with Phase 5 cleanup.
 
 De agent produceert een opschoonrapport, verwijdert ongebruikte acties, config, en manuscripten, en werkt het project bij. Voltooi deze stap voordat u deze implementeert.
 
-![ AI agentenfase 5 schoonmaakrapport dat verwijderde en gehouden componenten ](../assets/cleanup-report-shipping.png){width="600" zoomable="yes"} toont
+![&#x200B; AI agentenfase 5 schoonmaakrapport dat verwijderde en gehouden componenten &#x200B;](../assets/cleanup-report-shipping.png){width="600" zoomable="yes"} toont
 
 ### De extensie implementeren
 
@@ -220,11 +220,11 @@ De agent produceert een opschoonrapport, verwijdert ongebruikte acties, config, 
 
    De agent voert een pre-implementatiebeoordeling van gereedheid uit (bijvoorbeeld het controleren van `.env` op `COMMERCE_WEBHOOKS_PUBLIC_KEY` , `COMMERCE_BASE_URL` en OAuth/IMS-variabelen als de Admin UI of Commerce API wordt gebruikt).
 
-   ![ AI agent pre-plaatsingsbereidheid en plaatsingsstappen voor de Verzenduitbreiding van het Mock ](../assets/pre-deployment-assessment-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; AI agent pre-plaatsingsbereidheid en plaatsingsstappen voor de Verzenduitbreiding van het Mock &#x200B;](../assets/pre-deployment-assessment-shipping.png){width="600" zoomable="yes"}
 
 1. Wanneer u met de beoordelingsresultaten vertrouwd bent, instrueer de agent om met plaatsing te werk te gaan. De agent gebruikt toolkit MCP om, automatisch te verifiëren en op te stellen.
 
-   ![ MCP toolkit plaatsingsoutput met opgestelde pakketten en webhaak URL voor het verschepen van uitbreiding ](../assets/deployment-process-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; MCP toolkit plaatsingsoutput met opgestelde pakketten en webhaak URL voor het verschepen van uitbreiding &#x200B;](../assets/deployment-process-shipping.png){width="600" zoomable="yes"}
 
 ### Post-implementatie
 
@@ -247,17 +247,17 @@ Na plaatsing, voltooi de volgende stappen om de mock drager te registreren, webh
       - **URL:** opgesteld **verschepen-methodes** Webactie URL (van opstellen output of [!DNL Adobe Developer Console]).
       - **Vereist:** **Facultatief** - dit staat controle toe om nog te werken als externe API geen tarieven terugkeert.
 
-   ![ Commerce Admin webshconfiguratie voor Mock die Tarieven verscheept ](../assets/admin-webhook-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; Commerce Admin webshconfiguratie voor Mock die Tarieven verscheept &#x200B;](../assets/admin-webhook-shipping.png){width="600" zoomable="yes"}
 
 1. **vorm de [!DNL Admin UI SDK] uitbreiding:**
 
    - In [!DNL Commerce Admin], ga naar **Opslag** > Montages > **Configuratie**.
    - Open {de Diensten van 0} Adobe **>** Admin UI SDK **.**
    - Plaats **toelaten Admin UI SDK** aan **ja** en klik **sparen Config** als het niet reeds wordt toegelaten.
-   - Klik **vormen uitbreidingen**, kies de werkruimte uw app aan wordt opgesteld, dan klik **** toepassen. U kunt de **optie van de Douane** ook selecteren en de werkruimtenaam ingaan.
+   - Klik **vormen uitbreidingen**, kies de werkruimte uw app aan wordt opgesteld, dan klik **&#x200B;**&#x200B;toepassen. U kunt de **optie van de Douane** ook selecteren en de werkruimtenaam ingaan.
    - Selecteer de [!DNL App Builder] -toepassing in de lijst en sla deze op. Als app niet verschijnt, klik **verfrist registraties** en probeert opnieuw.
 
-   ![ Admin UI SDK vormt uitbreidingen modaal met werkruimte en uitbreidingsselectie ](../assets/admin-ui-configure-extensions.png){width="600" zoomable="yes"}
+   ![&#x200B; Admin UI SDK vormt uitbreidingen modaal met werkruimte en uitbreidingsselectie &#x200B;](../assets/admin-ui-configure-extensions.png){width="600" zoomable="yes"}
 
 1. **vorm de Verzendmethode van het Mock in Adobe Commerce Admin UI:**
    - Open **Apps** en selecteer uw app.
@@ -268,11 +268,11 @@ Na plaatsing, voltooi de volgende stappen om de mock drager te registreren, webh
       - **Warehouse (schip-van) adres:** naam, telefoon, straat, stad, staat, postcode, land.
    - Klik **sparen**. De configuratie wordt opgeslagen in Runtime staat en door de verschepen-methodes actie gebruikt.
 
-   ![ Verzendconfiguratie van het Mock met de Dienst URL, API sleutel, en pakhuisadres ](../assets/admin-ui-mock-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; Verzendconfiguratie van het Mock met de Dienst URL, API sleutel, en pakhuisadres &#x200B;](../assets/admin-ui-mock-shipping.png){width="600" zoomable="yes"}
 
 1. **verifieer bij controle:** voeg een product aan de kar toe, ga aan controle, en ga een verschepend adres in. U zou de mock die opties verschepen, bijvoorbeeld **StandaardMock** en **Uitdrukkelijke Mock** moeten zien.
 
-   ![ pagina die van de Controle Mock Verzendopties van externe tarieven API toont ](../assets/checkout-mock-shipping.png){width="600" zoomable="yes"}
+   ![&#x200B; pagina die van de Controle Mock Verzendopties van externe tarieven API toont &#x200B;](../assets/checkout-mock-shipping.png){width="600" zoomable="yes"}
 
 ### Problemen oplossen
 

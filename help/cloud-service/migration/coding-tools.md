@@ -2,14 +2,12 @@
 title: Gereedschap voor AI-codeontwikkelaars voor Adobe Commerce App Builder
 description: Leer hoe u de AI-gereedschappen kunt gebruiken voor het maken van Commerce App Builder-toepassingen.
 feature: App Builder, Cloud
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 role: Developer
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 5d4726f7191f74507524667555ab46838bb2407a
+source-git-commit: 4e3f593ead4b0e32bdf474498421b20475dcbe52
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2470'
 ht-degree: 0%
 
 ---
@@ -27,13 +25,13 @@ De AI-coderingsgereedschappen bieden de volgende voordelen:
 
 Als u de AI-coderingsgereedschappen installeert, hebt u toegang tot:
 
-* Regels - Een specifieke Adobe Commerce- en App Builder-regel die is ontworpen om de ontwikkeling van uw toepassing te begeleiden en te informeren.
+* Vaardigheden - Een specifieke Adobe Commerce- en App Builder-vaardigheden die zijn ontworpen om uw toepassingsontwikkeling te begeleiden en te informeren.
 * Developer MCP Server
 * App Builder MCP Server
 
 ## Bijwerken naar de meest recente versie
 
-Na [&#x200B; het installeren van het hulpmiddel van de AI codeerontwikkelaar &#x200B;](#installation), kunt u aan de recentste versie bijwerken door het volgende bevel in werking te stellen:
+Na [ het installeren van het hulpmiddel van de AI codeerontwikkelaar ](#installation), kunt u aan de recentste versie bijwerken door het volgende bevel in werking te stellen:
 
 ```bash
 aio commerce extensibility tools-setup
@@ -43,22 +41,27 @@ Hiermee worden de gereedschappen bijgewerkt naar de nieuwste versie.
 
 ## Vereisten
 
-* Een van de volgende coderingsagents:
-   * [&#x200B; Cursor &#x200B;](https://cursor.com/download)
-   * [&#x200B; Github Copilot &#x200B;](https://github.com/features/copilot)
-   * [&#x200B; Google Gemini CLI &#x200B;](https://github.com/google-gemini/gemini-cli)
-   * [&#x200B; Claude Code &#x200B;](https://www.claude.com/product/claude-code)
-* [&#x200B; Node.js &#x200B;](https://nodejs.org/en/download): De versie van LTS
-* De Manager van het pakket: [&#x200B; npm &#x200B;](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [&#x200B; garen &#x200B;](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
-* [&#x200B; Git &#x200B;](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
+* Om het even welke coderingsagent die [ agentenvaardigheden ](https://agentskills.io/home#adoption) steunt, zoals:
+
+   * [ Cursor ](https://cursor.com/download)
+   * [ Claude Code ](https://www.claude.com/product/claude-code)
+   * [ GitHub Copilot ](https://github.com/features/copilot)
+   * [ Windsurf ](https://windsurf.com)
+   * [ Gemini CLI ](https://github.com/google-gemini/gemini-cli)
+   * [ Codex OpenAI ](https://openai.com/index/introducing-codex/)
+   * [ Cline ](https://cline.bot)
+
+* [ Node.js ](https://nodejs.org/en/download): De versie van LTS
+* De Manager van het pakket: [ npm ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) of [ garen ](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* [ Git ](https://github.com/git-guides/install-git): Voor bewaarplaats het klonen en versiecontrole
 
 ## Installatie
 
 >[!NOTE]
 >
->Als u slechts de dienst van de Documentatie RAG en niet het volledige AI coderingshulpmiddelenpakket wilt installeren, zie {de dienst van de RAG van de Documentatie 1}.[&#128279;](./doc-rag.md)
+>Als u slechts de dienst van de Documentatie RAG en niet het volledige AI coderingshulpmiddelenpakket wilt installeren, zie {de dienst van de RAG van de Documentatie 1}.[](./doc-rag.md)
 
-1. Installeer de recentste [&#x200B; CLI van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli) globaal:
+1. Installeer de recentste [ CLI van Adobe I/O ](https://github.com/adobe/aio-cli) globaal:
 
    ```bash
    npm install -g @adobe/aio-cli
@@ -66,19 +69,27 @@ Hiermee worden de gereedschappen bijgewerkt naar de nieuwste versie.
 
 1. Installeer de volgende plug-ins:
 
-   * [&#x200B; Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
-   * [&#x200B; CLI Runtime van Adobe I/O &#x200B;](https://github.com/adobe/aio-cli-plugin-runtime)
-   * [&#x200B; App Builder CLI &#x200B;](https://github.com/adobe/aio-cli-plugin-app-dev)
+   * [ Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce)
+   * [ CLI Runtime van Adobe I/O ](https://github.com/adobe/aio-cli-plugin-runtime)
+   * [ App Builder CLI ](https://github.com/adobe/aio-cli-plugin-app-dev)
 
    ```bash
    aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
    ```
 
-1. Kloon de de integratiestarterkit van Commerce [&#x200B; &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration):
+1. Kies een van de volgende opties:
 
-   ```bash
-   git clone git@github.com:adobe/commerce-integration-starter-kit.git
-   ```
+   * Commerce [ integratiestartkit ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration) - voor de bouw van rug-bureau integratie.
+
+     ```bash
+     git clone git@github.com:adobe/commerce-integration-starter-kit.git
+     ```
+
+   * Commerce [ checkout starter kit ](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/) voor de bouw van of het uitbreiden van de controleervaring, met inbegrip van betalingen, het verschepen, en belastingen.
+
+     ```bash
+     git clone git@github.com:adobe/commerce-checkout-starter-kit.git
+     ```
 
 1. Navigeer naar de startmap:
 
@@ -92,59 +103,55 @@ Hiermee worden de gereedschappen bijgewerkt naar de nieuwste versie.
    aio commerce extensibility tools-setup
    ```
 
-Het installatieproces vraagt u om configuratieopties. Kies voor de installatielocatie de optie &quot;Huidige map&quot; om de gereedschappen in de huidige werkruimte te installeren:
+   Het installatieproces vraagt u om configuratieopties. Volg de aanwijzingen om de installatie te voltooien. De gereedschappen worden in de geselecteerde map geïnstalleerd.
 
-```shell-session
-? Where would you like to setup the tools?
-❯ Current directory
-  New directory
-```
+   * Selecteer de startkit die u voor uw project wilt gebruiken.
 
-Selecteer de gewenste coderingsagent:
+     ```shell-session
+     ? Which starter kit would you like to use?
+     ❯ Integration starter kit
+        Checkout starter kit
+     ```
 
-```shell-session
-? Which coding agent would you like to use?
-❯ Cursor
-  Copilot
-  Gemini CLI
-  Claude Code
-```
+   * Selecteer de gewenste coderingsagent. Meer dan 40 coderingsagenten worden gesteund, maar als u uw aangewezen agent niet ziet, kunt u de `Other` optie gebruiken om vaardigheden voor om het even welke coderingsagent te installeren. Verwijs naar de documentatie van uw coderingsagent voor instructies op hoe te om de vaardigheden te vormen.
 
-Als Adobe pakketbeheer selecteert, wordt u aangeraden `npm` te gebruiken voor consistentie:
+     ```shell-session
+     ? Which coding agent would you like to install skills for?
+     ❯ Cursor
+        Claude Code
+        GithubCopilot
+        Windsurf
+        Gemini CLI
+        OpenAI Codex
+        Cline
+        ...
+     ```
 
-```shell-session
-? Which package manager would you like to use?
-❯ npm
-  yarn
-```
+   * Het installatieprogramma gaat na of NPM of Yarn is geïnstalleerd en selecteert automatisch de gewenste optie. Als u echter geen van beide hebt geïnstalleerd, wordt u gevraagd om uw pakketbeheer te selecteren, raadt Adobe u aan `npm` te gebruiken voor consistentie:
+
+     ```shell-session
+     ? Which package manager would you like to use?
+     ❯ npm
+        yarn
+     ```
 
 1. Nadat de coderingsgereedschappen zijn geïnstalleerd, wordt het installatieproces geconfigureerd:
 
    * Integratie van MCP-servers voor Adobe Commerce-ontwikkeling
-   * Cursor IDE-regels voor verbeterde ontwikkelervaring
+   * [ de vaardigheden van de Agent ](#skills) voor verbeterde ontwikkelingservaring
    * Commerce-specifieke ontwikkelingsinstrumenten en -workflows
 
-   De volgende bestanden worden toegevoegd aan de werkruimte:
-
-   **Cursor**
-
-   * MCP-configuratie: `.cursor/mcp.json`
-   * Map met regels: `.cursor/rules/`
-
-   **Copilot**
-
-   * MCP-configuratie: `.vscode/mcp.json`
-   * Map met regels: `.github/copilot-instructions.md`
+   De vaardigheden en hulpmiddelen MCP zijn nu geïnstalleerd. Als u niet de vaardigheden en hulpmiddelen MCP ziet, begin uw coderingsagent opnieuw.
 
 >[!NOTE]
 >
 >Alvorens uw project op te stellen, zult u de volgende configuratietaken moeten voltooien:
 >
->* Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
->* Creeer een project van App Builder (zie [&#x200B; de opstelling van het Project &#x200B;](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
+>* Login aan [ Adobe Developer Console ](https://developer.adobe.com/console) gebruikend Adobe I/O CLI.
+>* Creeer een project van App Builder (zie [ de opstelling van het Project ](https://developer.adobe.com/commerce/extensibility/events/project-setup)).
 >* Omgevingsvariabelen instellen in een `.env` -bestand.
 >
->U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [&#x200B; een integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
+>U kunt deze configuratiestappen manueel voltooien of hefboomwerking de codeerhulpmiddelen van AI om u door het proces te begeleiden. Zie [ een integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration/) voor gedetailleerde configuratieinstructies tot stand brengen.
 
 ## Configuratie na installatie
 
@@ -179,7 +186,7 @@ aio auth login
 
 1. Begin winde van de Curseur opnieuw om de nieuwe hulpmiddelen MCP en de configuratie te laden.
 
-1. Controleer de installatie door te bevestigen dat de regels aanwezig zijn in de map `.cursor/rules/` .
+1. Controleer de installatie door te bevestigen dat de vaardigheden aanwezig zijn in de map `.cursor/skills/` .
 
 1. Schakel de MCP-server in:
 
@@ -198,9 +205,9 @@ aio auth login
 
 1. Gebruik de volgende herinnering om te zien of gebruikt de agent de server MCP. Als het niet, vraag de agent uitdrukkelijk om de beschikbare hulpmiddelen MCP te gebruiken.
 
-```shell-session
-What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Cloud Service when configuring a webhook that activates an App Builder runtime action?
-```
+   ```shell-session
+   What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Cloud Service when configuring a webhook that activates an App Builder runtime action?
+   ```
 
 ### Copilot
 
@@ -237,7 +244,7 @@ What are the differences between Adobe Commerce PaaS and Adobe Commerce as a Clo
 
 ## Voorbeeldprompt
 
-De volgende voorbeeldvraag leidt tot een toepassing om berichten te verzenden wanneer een orde wordt geplaatst.
+De volgende voorbeeldherinnering gebruikt de integratiestartuitrusting om een toepassing tot stand te brengen om berichten te verzenden wanneer een orde wordt geplaatst.
 
 ```shell-session
 Implement an Adobe Commerce SaaS application that will send an ERP notification when a customer places an order. The ERP notification must be sent as a POST HTTP call to <ERP URL> with the following details in the request JSON body:
@@ -248,6 +255,19 @@ Customer Email ID -> emailID
 Payment Type -> pType
 ```
 
+In de volgende voorbeeldprompt wordt de startkit voor uitchecken gebruikt om een toepassing te maken die aangepaste verzendmethoden biedt.
+
+```shell-session
+Implement an Adobe Commerce SaaS application that provides custom shipping methods.
+The extension should:
+1. Return shipping options based on the destination postal code
+2. If postal code is in California, add an "Express California" option for $15
+3. If postal code is outside US, add an "International Standard" option for $25
+4. The carrier code should be "MYSHIP"
+```
+
+
+
 ## Opdrachten Vragen
 
 Naast het vragen, kunt u het `/search-commerce-docs` bevel gebruiken om documentatie in gesprekken met uw agent te zoeken. Bijvoorbeeld:
@@ -256,9 +276,31 @@ Naast het vragen, kunt u het `/search-commerce-docs` bevel gebruiken om document
 /search-commerce-docs "How do I subscribe to Commerce events?"
 ```
 
+## Vaardigheden
+
+Terwijl de vaardigheden automatisch zullen worden aangehaald wanneer u met uw coderingsagent babbelt, kunt u hen manueel ook aanhalen gebruikend de volgende bevelen:
+
+* `/architect` - Ontwerpen de architectuur voor Adobe Commerce-extensies met behulp van [!DNL App Builder] en de geselecteerde startkit. Gebruik deze optie wanneer u integraties wilt plannen, gebeurtenissen wilt selecteren, gegevensstromen wilt ontwerpen of architecturale beslissingen wilt nemen.
+* `/developer` - Hiermee implementeert u Adobe Commerce-extensies volgens [!DNL App Builder] -patronen en de bestandsstructuur. Gebruik deze optie wanneer u code genereert, configuratiebestanden bijwerkt of runtimehandelingen implementeert.
+* `/devops-engineer` - Implementeert en voert [!DNL App Builder] -extensies uit. Gebruik bij het implementeren van toepassingen, het configureren van omgevingen, het oplossen van problemen met de implementatie, het instellen van CI/CD of het oplossen van instapfouten.
+* `/product-manager` - Verzamelt en documentenvereisten voor Adobe Commerce-extensies. Gebruik deze methode wanneer u een nieuw project start, acceptatiecriteria definieert, bedrijfsdoelstellingen verduidelijkt of `REQUIREMENTS.md` -documentatie maakt.
+* `/technical-writer` - Maakt uitgebreide documentatie voor [!DNL App Builder] -toepassingen. Gebruik deze methode wanneer u `README.md` schrijft, gebruikersgidsen, API-documentatie, wijzigingen of voor de volledigheid van de documentatie.
+* `/tester` - Maakt uitgebreide tests voor [!DNL App Builder] -toepassingen. Gebruik bij het schrijven van eenheidstests, integratietests, het bevestigen van veiligheid, of het verzekeren van codekwaliteit en dekking.
+* `/tutor` (experimenteel) - Leert de ontwikkelingsconcepten van [!DNL Adobe Commerce] -toepassingen met duidelijke uitleg en voorbeelden. Gebruik deze functie wanneer u [!DNL App Builder] leert, gebeurtenissen begrijpt of hulp nodig hebt bij het ontwikkelen van patronen.
+
 ## Aanbevolen procedures
 
 Adobe raadt u aan de volgende aanbevolen procedures toe te passen wanneer u de AI-coderingsgereedschappen gebruikt:
+
+### Abonnementsmodus
+
+Wanneer het babbelen met uw coderende agent, zou u **wijze van het Plan** moeten selecteren om een gedetailleerd implementatieplan voor uw project tot stand te brengen.
+
+De methode om **wijze van het Plan** te selecteren varieert afhankelijk van de agent u gebruikt. Raadpleeg de documentatie van uw agent voor instructies. Bijvoorbeeld:
+
+* [ Cursor ](https://cursor.com/docs/agent/modes)
+* [ Claude Code ](https://code.claude.com/docs/en/common-workflows#when-to-use-plan-mode)
+* [ Gemini CLI ](https://geminicli.com/docs/cli/plan-mode/)
 
 ### Checklist
 
@@ -271,7 +313,7 @@ Voordat u een ontwikkelingssessie start:
 
 Tijdens de ontwikkeling:
 
-* Vertrouw het vier-fase [&#x200B; protocol &#x200B;](#protocol)
+* Vertrouw het vier-fase [ protocol ](#protocol)
 * Implementatieplannen aanvragen voor complexe ontwikkeling
 * MCP-gereedschappen gebruiken indien beschikbaar
 * Elke functie na implementatie testen
@@ -295,10 +337,11 @@ Hierdoor kunt u ook Adobe-sjablonen gebruiken en bouwen op beproefde patronen en
 
 Raadpleeg de volgende bronnen om aan de slag te gaan:
 
-* [&#x200B; Startuitrusting van de Integratie &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
-* [&#x200B; Adobe Commerce starter kit malplaatjes &#x200B;](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
-* [&#x200B; de aanzetmalplaatjes van Adobe I/O Events &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
-* [&#x200B; de steekproeftoepassingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
+* [ Startuitrusting van de Integratie ](https://developer.adobe.com/commerce/extensibility/starter-kit/integration/create-integration)
+* [ Uitchecken starter kit ](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/)
+* [ Adobe Commerce starter kit malplaatjes ](https://github.com/adobe/adobe-commerce-samples/tree/main/starter-kit)
+* [ de aanzetmalplaatjes van Adobe I/O Events ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/io-events/getting-started-io-events)
+* [ de steekproeftoepassingen van App Builder ](https://developer.adobe.com/app-builder/docs/resources/sample_apps)
 
 #### Waarom u deze middelen zou moeten gebruiken
 
@@ -313,7 +356,7 @@ Raadpleeg de volgende bronnen om aan de slag te gaan:
 
 ### Protocol
 
-Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensysteem. De hulpmiddelen zouden dit protocol automatisch moeten volgen wanneer het ontwikkelen van toepassingen:
+Het volgende vierfaseprotocol wordt automatisch afgedwongen door de geïnstalleerde vaardigheden. De hulpmiddelen zouden dit protocol automatisch moeten volgen wanneer het ontwikkelen van toepassingen:
 
 * Fase 1: Analyse en verduidelijking van de eisen
    * Geef volledige antwoorden op de gestelde vragen om de vragen te verduidelijken.
@@ -324,7 +367,7 @@ Het volgende vierfaseprotocol wordt automatisch afgedwongen door het regelensyst
 
 ### Implementatieplannen aanvragen voor complexe ontwikkeling
 
-Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [&#x200B; Fase 2 &#x200B;](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
+Voor complexe ontwikkeling met meerdere runtimeacties, aanraakpunten of integraties, moet u expliciet vragen dat de AI-gereedschappen een gedetailleerd implementatieplan maken. Wanneer u een plan op hoog niveau in [ Fase 2 ](#protocol) ziet dat veelvoudige componenten impliceert, vraag om een gedetailleerd implementatieplan om het in handelbare taken neer te breken:
 
 ```shell-session
 Create a detailed implementation plan for this complex development.
@@ -342,7 +385,7 @@ Complexe Adobe Commerce-toepassingen hebben vaak betrekking op:
 
 >[!NOTE]
 >
->Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [&#x200B; aan Adobe I/O CLI &#x200B;](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
+>Alvorens hulpmiddelen te gebruiken MCP, zorg ervoor u [ aan Adobe I/O CLI ](#log-in-to-the-adobe-io-cli) het programma wordt geopend.
 
 Het gereedschap is standaard ingesteld op MCP-gereedschappen, maar in bepaalde omstandigheden kan het in plaats daarvan CLI-opdrachten gebruiken. Om MCP hulpmiddelgebruik te verzekeren, verzoek uitdrukkelijk hen in uw herinnering.
 
@@ -560,11 +603,11 @@ Met deze opdracht kunt u feedback geven op tekst en logbestanden verzenden naar 
 
 1. Verstrek uw terugkoppel voor het hulpmiddel op het **terugkoppelen** gebied dat bij de bovenkant van winde verschijnt en **druk binnengaan** sleutel.
 
-   ![&#x200B; curseur terugkoppelt het gebied van de bevelinput &#x200B;](../assets/feedback-response.png){width="600" zoomable="yes"}
+   ![ curseur terugkoppelt het gebied van de bevelinput ](../assets/feedback-response.png){width="600" zoomable="yes"}
 
 1. Op **sparen Lokaal** gebied, type of `yes` of `no` en druk **binnengaan** om erop te wijzen als u een lokaal exemplaar van uw logboeken wilt bewaren.
 
-   ![&#x200B; curseur terugkoppelt bevel sparen plaatselijk gebied &#x200B;](../assets/feedback-save.png){width="600" zoomable="yes"}
+   ![ curseur terugkoppelt bevel sparen plaatselijk gebied ](../assets/feedback-save.png){width="600" zoomable="yes"}
 
    Als u **ja** selecteerde, kunt u de logboeken in uw `chats` omslag herzien na het verzenden van uw terugkoppelt.
 
@@ -572,4 +615,4 @@ Met deze opdracht kunt u feedback geven op tekst en logbestanden verzenden naar 
 
 >[!NOTE]
 >
->Als u niet het `/feedback` bevel ziet, kunt u aan [&#x200B; update aan de recentste versie &#x200B;](#updating-to-the-latest-version) moeten.
+>Als u niet het `/feedback` bevel ziet, kunt u aan [ update aan de recentste versie ](#updating-to-the-latest-version) moeten.

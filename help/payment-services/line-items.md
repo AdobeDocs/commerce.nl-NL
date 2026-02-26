@@ -29,9 +29,9 @@ Regelitems zijn standaard ingeschakeld voor [!DNL Payment Services] . Om te vorm
 
 1. Ga naar **[!UICONTROL Sales]** en selecteer **[!UICONTROL Payment Methods]** .
 
-1. Vouw de sectie _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_uit.
+1. Vouw de sectie _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;uit.
 
-1. Vouw in de sectie _[!UICONTROL Payment Services]_de sectie_[!UICONTROL Line Items]_ uit.
+1. Vouw in de sectie _[!UICONTROL Payment Services]_&#x200B;de sectie&#x200B;_[!UICONTROL Line Items]_ uit.
 
 1. Selecteer voor **[!UICONTROL Line Items Enabled]** `Yes` om in te schakelen (standaard) of `No` om regelitems uit te schakelen.
 
@@ -45,7 +45,7 @@ Regelitems zijn standaard ingeschakeld voor [!DNL Payment Services] . Om te vorm
 
 Lijstitems weergeven:
 
-1. Navigeer aan uw [ handelsPAL dashboard ](https://www.paypal.com/merchant/){target=_blank}.
+1. Navigeer aan uw [&#x200B; handelsPAL dashboard &#x200B;](https://www.paypal.com/merchant/){target=_blank}.
 
 1. Klik **Activiteit** > **Alle transacties**.
 
@@ -53,7 +53,7 @@ Lijstitems weergeven:
 
    > Voorbeeld van regelitems in de weergave van het winkeldashboard
 
-   ![ de punten van de Lijn mening ](assets/paypal-shopper-dashboard-line-items-view.png){width="500" zoomable="yes"}
+   ![&#x200B; de punten van de Lijn mening &#x200B;](assets/paypal-shopper-dashboard-line-items-view.png){width="500" zoomable="yes"}
 
 ## Kenmerken van lijnitems
 
@@ -77,7 +77,7 @@ Het `unit_amount` -object bevat de volgende kenmerken:
 
 | Kenmerk | Gegevenstype | Beschrijving |
 | --- | --- | --- |
-| `currency_code` | Tekenreeks! | De [ driepunts ISO-4217 muntcode ](https://developer.paypal.com/api/rest/reference/currency-codes/) die de munt identificeert. |
+| `currency_code` | Tekenreeks! | De [&#x200B; driepunts ISO-4217 muntcode &#x200B;](https://developer.paypal.com/api/rest/reference/currency-codes/) die de munt identificeert. |
 | `value` | Tekenreeks! | Geeft de waarde van het item aan. `currency_code` bepaalt het vereiste aantal decimalen, als om het even welk. |
 
 ### `tax` kenmerken
@@ -86,7 +86,7 @@ Het `tax` -object bevat de volgende kenmerken:
 
 | Kenmerk | Gegevenstype | Beschrijving |
 | --- | --- | --- |
-| `currency_code` | Tekenreeks! | De [ driepunts ISO-4217 muntcode ](https://developer.paypal.com/api/rest/reference/currency-codes/) die de munt identificeert. |
+| `currency_code` | Tekenreeks! | De [&#x200B; driepunts ISO-4217 muntcode &#x200B;](https://developer.paypal.com/api/rest/reference/currency-codes/) die de munt identificeert. |
 | `value` | Tekenreeks! | Geeft de waarde van het item aan. Afhankelijk van elke `currency_code` voor het vereiste aantal decimalen. |
 
 ### `upc` kenmerken
@@ -145,15 +145,15 @@ Het `upc` -object bevat de volgende kenmerken:
 
 +++
 
-Zie [ PayPal ontwikkelaarsdocumentatie over lijnpunten ](https://developer.paypal.com/docs/api/orders/v2/#definition-line_item){target=_blank} voor meer informatie over deze gebieden en hun beperkingen.
+Zie [&#x200B; PayPal ontwikkelaarsdocumentatie over lijnpunten &#x200B;](https://developer.paypal.com/docs/api/orders/v2/#definition-line_item){target=_blank} voor meer informatie over deze gebieden en hun beperkingen.
 
 ## Regelitems beheren
 
-Adobe Commerce [ berekent belasting die op het totale bedrag voor elke rij ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd, die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
+Adobe Commerce [&#x200B; berekent belasting die op het totale bedrag voor elke rij &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd, die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
 
 > Voorbeeld van regelitems met afrondingsproblemen in de dashboardweergave voor handelsdoeleinden
 
-![ de punten van de Lijn mening ](assets/line-items-example.png){width="600" zoomable="yes"}
+![&#x200B; de punten van de Lijn mening &#x200B;](assets/line-items-example.png){width="600" zoomable="yes"}
 
 +++Hoe Adobe Commerce een afrondingsprobleem berekent in line-items
 

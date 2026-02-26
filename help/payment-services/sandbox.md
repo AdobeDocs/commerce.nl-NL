@@ -20,19 +20,19 @@ Met een PayPal-sandboxaccount kunt u [!DNL Payment Services] gebruiken in de tes
 
 Sandbox aan boord voltooien:
 
-1. Navigeer aan de [ pagina van de Rekening van de Ontwikkelaar van PayPal ](https://developer.paypal.com/developer/accounts/).
+1. Navigeer aan de [&#x200B; pagina van de Rekening van de Ontwikkelaar van PayPal &#x200B;](https://developer.paypal.com/developer/accounts/).
 1. Klik **[!UICONTROL Log in to Dashboard]** en login met uw bestaande Portaal-Gegenereerde Van Bedrijfs PayPal Ontwikkelaar sandbox testrekening of klik **Teken omhoog** om een rekening tot stand te brengen.
 1. Een PayPal-sandboxaccount maken:
    1. Ga naar _[!UICONTROL Testing Tools]_>**[!UICONTROL Sandbox Accounts]**.
    1. Klik op **[!UICONTROL Create account]**.
 
-      Als u een Paypal- zandbakrekening tijdens het zandbakPayPal op instapend proces creeerde, moet u [ uw onboarding zandbak ](#reset-your-sandbox-account) opnieuw instellen omdat of u kunt uw e-mail niet verifiëren.
+      Als u een Paypal- zandbakrekening tijdens het zandbakPayPal op instapend proces creeerde, moet u [&#x200B; uw onboarding zandbak &#x200B;](#reset-your-sandbox-account) opnieuw instellen omdat of u kunt uw e-mail niet verifiëren.
 
    1. Selecteer **[!UICONTROL Business]** als het accounttype en klik op **[!UICONTROL Create]** .
-   1. Klik in de sectie _[!UICONTROL Sandbox Accounts]_op de drie stippen in de kolom_[!UICONTROL Manage accounts]_ voor de sandboxaccount die u hebt gemaakt.
+   1. Klik in de sectie _[!UICONTROL Sandbox Accounts]_&#x200B;op de drie stippen in de kolom&#x200B;_[!UICONTROL Manage accounts]_ voor de sandboxaccount die u hebt gemaakt.
    1. Klik op **[!UICONTROL View/edit account]**.
 
-      ![ PayPal - Mening/geef zandbakrekening uit ](assets/onboarding-viewedit-sandbox.png){width="300" zoomable="yes"}
+      ![&#x200B; PayPal - Mening/geef zandbakrekening uit &#x200B;](assets/onboarding-viewedit-sandbox.png){width="300" zoomable="yes"}
 
    1. Kopieer en sla de e-mailid en het door het systeem gegenereerde wachtwoord op voor toekomstig gebruik.
 
@@ -41,14 +41,14 @@ Sandbox aan boord voltooien:
 
    Deze optie is zichtbaar als u de sandbox voor [!DNL Payment Services] nog niet hebt voltooid.
 
-   Een zandbak handelings identiteitskaart wordt auto-geproduceerd en bevolkt in [ montages ](configure-admin.md). Wijzig of wijzig deze id niet.
+   Een zandbak handelings identiteitskaart wordt auto-geproduceerd en bevolkt in [&#x200B; montages &#x200B;](configure-admin.md). Wijzig of wijzig deze id niet.
 
    Je krijgt een PayPal-venster te zien waarin je een PayPal-rekening verbindt om betalingen te accepteren.
 
 1. Voer het e-mailadres en het wachtwoord in van de Paypal-sandboxaccount die u hebt gegenereerd in stap 3 (niet uw Paypal-zakelijke accountgegevens) en uw land of regio.
 1. Klik op **[!UICONTROL Next]**.
 
-   ![ PayPal - Connect PayPal-rekening voor betalingen ](assets/paypal-connectacct.png){width="300" zoomable="yes"}
+   ![&#x200B; PayPal - Connect PayPal-rekening voor betalingen &#x200B;](assets/paypal-connectacct.png){width="300" zoomable="yes"}
 
 1. Ga door met het volgen van de PayPal-stroom en gebruik de gegevens van uw eerder opgeslagen sandbox-account.
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**.
@@ -67,12 +67,12 @@ Als u een Paypal-sandboxaccount hebt gemaakt tijdens het PayPal-instapproces in 
 
 Uw sandboxaccount opnieuw instellen:
 
-1. Klik op **[!UICONTROL Reset sandbox]**. [ creeer een Paypal zaken zandbakrekening ](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account).
+1. Klik op **[!UICONTROL Reset sandbox]**. [&#x200B; creeer een Paypal zaken zandbakrekening &#x200B;](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account).
 1. Klik op **[!UICONTROL Sandbox onboarding]** en voer de volgende reeks stappen uit.
 
 ## Telefoonnummer van contactpersoon inschakelen
 
-Met het telefoonnummer waarmee je contact kunt opnemen, kun je telefoonnummers opvragen die PayPal van je klanten ophaalt. PayPal verzamelt altijd telefoonnummers van PayPal-rekeninghouders om hun identiteit te bevestigen en contact met hen op te nemen om problemen op hun accounts op te lossen of om hun afhandeling te voltooien. PayPal ontmoedigt echter het gebruik van contacttelefoonnummers rechtstreeks van de handelaar, omdat dit negatieve gevolgen kan hebben voor de verkoop. Zie [ PayPal krijgen de telefoonaantallen van het contactcontact ](https://www.sandbox.paypal.com/businessmanage/preferences/website) documentatie voor meer informatie.
+Met het telefoonnummer waarmee je contact kunt opnemen, kun je telefoonnummers opvragen die PayPal van je klanten ophaalt. PayPal verzamelt altijd telefoonnummers van PayPal-rekeninghouders om hun identiteit te bevestigen en contact met hen op te nemen om problemen op hun accounts op te lossen of om hun afhandeling te voltooien. PayPal ontmoedigt echter het gebruik van contacttelefoonnummers rechtstreeks van de handelaar, omdat dit negatieve gevolgen kan hebben voor de verkoop. Zie [&#x200B; PayPal krijgen de telefoonaantallen van het contactcontact &#x200B;](https://www.sandbox.paypal.com/businessmanage/preferences/website) documentatie voor meer informatie.
 
 Deze functie is standaard ingesteld op `off` . Wanneer u het toelaat, kunnen de opslagbeheerders telefoonaantallen zien wanneer een klant een Branded stroom van de Controle buiten de controlepagina voltooit.
 
@@ -82,9 +82,9 @@ Deze functie is standaard ingesteld op `off` . Wanneer u het toelaat, kunnen de 
 
 ## Land van koper
 
-In productie gebruikt PayPal de geolocatie van de koper om te bepalen welke betalingsmethoden beschikbaar zijn bij het afrekenen en uitdrukken van stromen. Aangezien de zandbakwijze geen geolocatie steunt, gebruik de **configuratie van het land van de Koper** {om de plaats en de controle van de koper te simuleren welke betalingsmethodes worden teruggegeven.
+In productie gebruikt PayPal de geolocatie van de koper om te bepalen welke betalingsmethoden beschikbaar zijn bij het afrekenen en uitdrukken van stromen. Aangezien de zandbakwijze geen geolocatie steunt, gebruik de **configuratie van het land van de Koper** &lbrace;om de plaats en de controle van de koper te simuleren welke betalingsmethodes worden teruggegeven.
 
-Dit het plaatsen is nuttig voor het testen van regio-specifieke betalingsmethodes zoals Venmo (de V.S. slechts), Betaal Later (de V.S. en VK), of [ Lokale Betalingsmethodes ](payments-options.md#local-payment-methods) (Europa) zonder VPN te vereisen.
+Dit het plaatsen is nuttig voor het testen van regio-specifieke betalingsmethodes zoals Venmo (de V.S. slechts), Betaal Later (de V.S. en VK), of [&#x200B; Lokale Betalingsmethodes &#x200B;](payments-options.md#local-payment-methods) (Europa) zonder VPN te vereisen.
 
 Het land van de koper configureren:
 
@@ -92,9 +92,9 @@ Het land van de koper configureren:
 
 1. Vouw in het linkerdeelvenster **[!UICONTROL Sales]** uit en selecteer **[!UICONTROL Payment Methods]** .
 
-1. Vouw de sectie _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_uit.
+1. Vouw de sectie _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_&#x200B;uit.
 
-1. Vouw in de sectie _[!UICONTROL Payment Services]_de sectie_[!UICONTROL General Configuration]_ uit.
+1. Vouw in de sectie _[!UICONTROL Payment Services]_&#x200B;de sectie&#x200B;_[!UICONTROL General Configuration]_ uit.
 
 1. Stel **[!UICONTROL Method]** in op `Sandbox` .
 
@@ -110,4 +110,4 @@ Het land van de koper configureren:
 
 Het wordt ten zeerste aanbevolen testgegevensruimten te gebruiken voor integratie- en staging-omgevingen, en Betalingen in productie te testen met echte creditcards en banken, voordat u deze functionaliteit toegankelijk maakt voor klanten.
 
-Zie [ Testen en bevestigen ](test-validate.md) voor meer informatie.
+Zie [&#x200B; Testen en bevestigen &#x200B;](test-validate.md) voor meer informatie.

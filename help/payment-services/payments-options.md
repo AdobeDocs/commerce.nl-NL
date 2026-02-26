@@ -166,7 +166,7 @@ Om **betalingen met uw bestaande creditcardleverancier _en_ PayPal betaalknopen*
 1. Zorg ervoor dat uw opslag [&#x200B; op productiemodus &#x200B;](configure-admin.md#enable-payment-services) is.
 1. [&#x200B; vorm de gewenste PayPal betalingsknopen &#x200B;](configure-admin.md#payment-buttons).
 1. Draai _weg_ de **[[!UICONTROL PayPal Show Credit and Debit card button]](configure-admin.md#payment-buttons)** optie in de _[!UICONTROL Payment buttons]_&#x200B;sectie.
-1. Draai _van_ de **[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)** optie in de _[!UICONTROL Credit card fields]_&#x200B;sectie en gebruik uw [&#x200B; bestaande rekening van de creditcardleverancier &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html#payments).
+1. Draai _van_ de **[[!UICONTROL Show on checkout page]](configure-admin.md#credit-card-fields)** optie in de _[!UICONTROL Credit card fields]_&#x200B;sectie en gebruik uw [&#x200B; bestaande rekening van de creditcardleverancier &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/payments.html?lang=nl-NL#payments).
 
 ## Lokale betalingsmethoden
 

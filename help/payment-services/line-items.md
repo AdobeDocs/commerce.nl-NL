@@ -149,7 +149,7 @@ Zie [&#x200B; PayPal ontwikkelaarsdocumentatie over lijnpunten &#x200B;](https:/
 
 ## Regelitems beheren
 
-Adobe Commerce [&#x200B; berekent belasting die op het totale bedrag voor elke rij &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd, die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
+Adobe Commerce [&#x200B; berekent belasting die op het totale bedrag voor elke rij &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd, die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
 
 > Voorbeeld van regelitems met afrondingsproblemen in de dashboardweergave voor handelsdoeleinden
 

@@ -4,10 +4,10 @@ description: Leer over lijnpunten voor  [!DNL Payment Services]  en hoe te om li
 feature: Payments, Paas, Saas
 role: User
 exl-id: f690ff94-f83d-4525-9d52-1dea25a71060
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+source-git-commit: 6727102c54e0ac81df289ecd66ec61156662b8b9
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: '651'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +21,31 @@ De punten van de lijn voor [!DNL Payment Services] zijn de punten inbegrepen in 
 
 Deze informatie is nuttig voor de klantendienst, orderbeheer, en juiste het factureren.
 
-Deze functie is standaard ingeschakeld voor [!DNL Payment Services] . Lijstitems weergeven:
+## Lijnitems configureren
 
-1. Navigeer aan uw [&#x200B; handelsPAL dashboard &#x200B;](https://www.paypal.com/merchant/){target=_blank}.
+Regelitems zijn standaard ingeschakeld voor [!DNL Payment Services] . Om te vormen:
+
+1. Voor _Admin_ sidebar, navigeer aan **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Ga naar **[!UICONTROL Sales]** en selecteer **[!UICONTROL Payment Methods]** .
+
+1. Vouw de sectie _[!UICONTROL FEATURED ADOBE PAYMENT SOLUTION]_uit.
+
+1. Vouw in de sectie _[!UICONTROL Payment Services]_de sectie_[!UICONTROL Line Items]_ uit.
+
+1. Selecteer voor **[!UICONTROL Line Items Enabled]** `Yes` om in te schakelen (standaard) of `No` om regelitems uit te schakelen.
+
+1. Klik op **[!UICONTROL Save Config]** om de wijzigingen op te slaan.
+
+>[!IMPORTANT]
+>
+> Als u extensies van derden hebt die aangepaste kosten (zoals verwerkingskosten) aan uw bestellingen toevoegen, moet u mogelijk lijnitems uitschakelen. [!DNL Payment Services] berekent lijnobjecten op basis van standaardbestelcomponenten van Commerce (objecten, belastingen, verzendkosten en kortingen). Kosten van derden die niet door [!DNL Payment Services] worden herkend, kunnen een verschil veroorzaken tussen het totaal van het regelitem en het totaal van de bestelling, waardoor afhandeling niet kan worden voltooid.
+
+## Regelitems weergeven
+
+Lijstitems weergeven:
+
+1. Navigeer aan uw [ handelsPAL dashboard ](https://www.paypal.com/merchant/){target=_blank}.
 
 1. Klik **Activiteit** > **Alle transacties**.
 
@@ -31,7 +53,7 @@ Deze functie is standaard ingeschakeld voor [!DNL Payment Services] . Lijstitems
 
    > Voorbeeld van regelitems in de weergave van het winkeldashboard
 
-   ![&#x200B; de punten van de Lijn mening &#x200B;](assets/paypal-shopper-dashboard-line-items-view.png){width="500" zoomable="yes"}
+   ![ de punten van de Lijn mening ](assets/paypal-shopper-dashboard-line-items-view.png){width="500" zoomable="yes"}
 
 ## Kenmerken van lijnitems
 
@@ -55,7 +77,7 @@ Het `unit_amount` -object bevat de volgende kenmerken:
 
 | Kenmerk | Gegevenstype | Beschrijving |
 | --- | --- | --- |
-| `currency_code` | Tekenreeks! | De [&#x200B; driepunts ISO-4217 muntcode &#x200B;](https://developer.paypal.com/api/rest/reference/currency-codes/) die de munt identificeert. |
+| `currency_code` | Tekenreeks! | De [ driepunts ISO-4217 muntcode ](https://developer.paypal.com/api/rest/reference/currency-codes/) die de munt identificeert. |
 | `value` | Tekenreeks! | Geeft de waarde van het item aan. `currency_code` bepaalt het vereiste aantal decimalen, als om het even welk. |
 
 ### `tax` kenmerken
@@ -64,7 +86,7 @@ Het `tax` -object bevat de volgende kenmerken:
 
 | Kenmerk | Gegevenstype | Beschrijving |
 | --- | --- | --- |
-| `currency_code` | Tekenreeks! | De [&#x200B; driepunts ISO-4217 muntcode &#x200B;](https://developer.paypal.com/api/rest/reference/currency-codes/) die de munt identificeert. |
+| `currency_code` | Tekenreeks! | De [ driepunts ISO-4217 muntcode ](https://developer.paypal.com/api/rest/reference/currency-codes/) die de munt identificeert. |
 | `value` | Tekenreeks! | Geeft de waarde van het item aan. Afhankelijk van elke `currency_code` voor het vereiste aantal decimalen. |
 
 ### `upc` kenmerken
@@ -76,7 +98,7 @@ Het `upc` -object bevat de volgende kenmerken:
 | `type` | tekenreeks! | Het type UPC. |
 | `code` | tekenreeks! | De UPC-productcode van het item. |
 
-+++Voorbeeld van lijstitems
++++Voorbeeld van regelitems
 
 ```json
 {
@@ -123,17 +145,17 @@ Het `upc` -object bevat de volgende kenmerken:
 
 +++
 
-Zie [&#x200B; PayPal ontwikkelaarsdocumentatie over lijnpunten &#x200B;](https://developer.paypal.com/docs/api/orders/v2/#definition-line_item){target=_blank} voor meer informatie over deze gebieden en hun beperkingen.
+Zie [ PayPal ontwikkelaarsdocumentatie over lijnpunten ](https://developer.paypal.com/docs/api/orders/v2/#definition-line_item){target=_blank} voor meer informatie over deze gebieden en hun beperkingen.
 
 ## Regelitems beheren
 
-Adobe Commerce [&#x200B; berekent belasting die op het totale bedrag voor elke rij &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd, die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
+Adobe Commerce [ berekent belasting die op het totale bedrag voor elke rij ](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/taxes/taxes#warning-messages){target=_blank} wordt gebaseerd, die het afronden kwesties kan veroorzaken als de veelvoudige hoeveelheden van het zelfde punt worden bevolen of als de belasting-inclusieve prijzen in de catalogus worden getoond. In dergelijke gevallen mag de totale hoeveelheid in twee regels worden opgesplitst, maar de hoeveelheid is gelijk aan het totale aantal bestelde artikelen.
 
 > Voorbeeld van regelitems met afrondingsproblemen in de dashboardweergave voor handelsdoeleinden
 
-![&#x200B; de punten van de Lijn mening &#x200B;](assets/line-items-example.png){width="600" zoomable="yes"}
+![ de punten van de Lijn mening ](assets/line-items-example.png){width="600" zoomable="yes"}
 
-+++Hoe Adobe Commerce een afrondingsprobleem berekent in regelitems
++++Hoe Adobe Commerce een afrondingsprobleem berekent in line-items
 
 Regelitems voor [!DNL Payment Services] plaatsen dit afrondingsprobleem op een zodanige manier dat de waarde `unit_amount` of `unit_tax` overeenkomt met het totale bedrag voor de volgorde. Een item kan in twee regels worden gesplitst om dit afrondingsprobleem op te lossen:
 

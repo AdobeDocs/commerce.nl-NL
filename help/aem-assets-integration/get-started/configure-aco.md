@@ -39,7 +39,7 @@ Voordat u de integratie configureert, moet u ervoor zorgen dat:
 
 ## Onboarding
 
-Aan boord de Integratie van AEM Assets met [!DNL Commerce Optimizer], moet u [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) creëren.
+Aan boord de Integratie van AEM Assets met [!DNL Commerce Optimizer], moet u [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) creëren.
 
 De Steun van Adobe gebruikt de informatie in uw kaartje om uw huurder bij de Dienst van de Integratie van Assets te registreren, en de integratie te vormen.
 
@@ -115,7 +115,7 @@ De activa moeten in een **goedgekeurde** status voor de gegevenssynchronisatie z
 
 >[!CAUTION]
 >
-> Wijs de `AEM-Assets` laag aan uw [&#x200B; catalogusmening &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view) toe. Als de laag niet wordt toegewezen, kunnen de gegevens van het productbeeld onverwacht worden beschreven.
+> Wijs de `AEM-Assets` laag aan uw [&#x200B; catalogusmening &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/catalog-view) toe. Als de laag niet wordt toegewezen, kunnen de gegevens van het productbeeld onverwacht worden beschreven.
 
 ## Synchronisatie
 

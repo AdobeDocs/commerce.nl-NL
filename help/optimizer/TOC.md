@@ -4,10 +4,10 @@ user-guide-description: Documentatie en middelen voor  [!DNL Adobe Commerce Opti
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: 8ec4054a81981866b7837dfc2e89223328ccea89
+source-git-commit: bf1d88ef7daec25872678bb27bce0bb7c97fd296
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '106'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 - [Gebruiker- en identiteitsbeheer](user-management.md)
 - [Gedeelde verantwoordelijkheid](shared-responsibility.md)
 - [Grenswaarden en grenzen](boundaries-limits.md)
-- [Opmerkingen bij de release](release-notes.md)
+- [Aanvullende informatie](release-notes.md)
 - Resultaten beheren {#manage-results}
    - [Kansen](./manage-results/opportunities.md)
    - [Succeswaarden](./manage-results/success-metrics.md)
@@ -53,6 +53,7 @@ ht-degree: 0%
    - [Cataloguslagen](./setup/catalog-layer.md)
    - [Beleid](./setup/policies.md)
    - [Prijsboeken](./setup/pricebooks.md)
+   - [Productvisa](./setup/product-visuals.md)
    - [Gegevenssynchronisatie](./setup/data-sync.md)
    - Gebeurtenissen {#events}
       - [Overzicht](./setup/events/overview.md)
@@ -61,6 +62,6 @@ ht-degree: 0%
 - Hoofdletters gebruiken {#use-case}
    - [Gebruiksscenario van begin tot eind voor Storefront en Catalog Admin](./use-case/admin-use-case.md)
 - Bronnen voor ontwikkelaars {#developer}
-   - [&#x200B; Gids van de Ontwikkelaar en API Verwijzingen &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
+   - [ Gids van de Ontwikkelaar en API Verwijzingen ](https://developer.adobe.com/commerce/services/optimizer/)
    - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
 

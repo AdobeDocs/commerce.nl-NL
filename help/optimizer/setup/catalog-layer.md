@@ -3,10 +3,10 @@ title: Cataloguslaag
 description: Leer hoe u met cataloguslagen productgegevens kunt wijzigen zonder de oorspronkelijke brongegevens te wijzigen, zodat u wijzigingen op elk gewenst moment veilig kunt aanpassen en herstellen.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 4a904527af172a5e35b87410135d55484d07ad84
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: bf1d88ef7daec25872678bb27bce0bb7c97fd296
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met cataloguslagen kunt u productgegevens wijzigen zonder de oorspronkelijke brongegevens te wijzigen. Lagen passen wijzigingen toe op specifieke productkenmerken, zoals naam, beschrijving, afbeeldingen, koppelingen en metagegevens, door een laag boven op de basiscatalogus te maken. Uw oorspronkelijke productgegevens blijven intact, zodat u producten veilig kunt aanpassen en wijzigingen op elk gewenst moment kunt herstellen.
 
-![&#x200B; Lagen van de Catalogus &#x200B;](../assets/catalog-layers.png)
+![ Lagen van de Catalogus ](../assets/catalog-layers.png)
 
 ## De werking van cataloguslagen
 
@@ -27,8 +27,8 @@ Wanneer een klant de winkelvoorgrond weergeeft, combineert het systeem de basisc
 
 1. **gebied behandeling** - de Verschillende gebiedstypes worden verwerkt verschillend:
 
-   - **treedt gebieden** met voeten - de gebieden van de Tekst zoals naam, beschrijving, en metatitels worden vervangen met de waarden die in de laag worden bepaald, met de hoog-prioritaire laag die belangrijkheid neemt.
-   - **de gebieden van de Fusie** - de gebieden van de Serie zoals beelden, verbindingen, en attributen worden gecombineerd van veelvoudige lagen, die een verenigde reactie verstrekken.
+   * **treedt gebieden** met voeten - de gebieden van de Tekst zoals naam, beschrijving, en metatitels worden vervangen met de waarden die in de laag worden bepaald, met de hoog-prioritaire laag die belangrijkheid neemt.
+   * **de gebieden van de Fusie** - de gebieden van de Serie zoals beelden, verbindingen, en attributen worden gecombineerd van veelvoudige lagen, die een verenigde reactie verstrekken.
 
 1. **Prioritaire resolutie** - het ordegebied bepaalt welke laag belangrijkheid neemt. Wanneer meerdere lagen hetzelfde veld wijzigen, heeft de laag met het lagere volgordenummer een hogere prioriteit (bijvoorbeeld, is volgorde 1 het hoogst).
 
@@ -36,11 +36,50 @@ Wanneer een klant de winkelvoorgrond weergeeft, combineert het systeem de basisc
 
 Cataloguslagen worden doorgaans gebruikt voor:
 
-- **optimalisering SEO** - de titels en beschrijvingen van productmeta van de met voeten treden die op AI aanbevelingen van [&#x200B; Sites Optimizer &#x200B;](../manage-results/opportunities.md) worden gebaseerd.
-- **seizoenscampagnes** - werk tijdelijk productnamen, beschrijvingen, of beelden voor bevorderingen bij zonder brongegevens te veranderen.
-- **Regionale aanpassing** - de verschillende productinformatie van de vertoning die op geografische plaats of taal wordt gebaseerd.
-- **A/B het testen** - test verschillende productpresentaties om omzettingspercentages te optimaliseren.
-- **beheer van meerdere merken** - pas productattributen voor verschillende meningen van de merkcatalogus aan.
+* **optimalisering SEO** - de titels en beschrijvingen van productmeta van de met voeten treden die op AI aanbevelingen van [ Sites Optimizer ](../manage-results/opportunities.md) worden gebaseerd.
+* **seizoenscampagnes** - werk tijdelijk productnamen, beschrijvingen, of beelden voor bevorderingen bij zonder brongegevens te veranderen.
+* **Regionale aanpassing** - de verschillende productinformatie van de vertoning die op geografische plaats of taal wordt gebaseerd.
+* **A/B het testen** - test verschillende productpresentaties om omzettingspercentages te optimaliseren.
+* **beheer van meerdere merken** - pas productattributen voor verschillende meningen van de merkcatalogus aan.
+* **Visuals van het Product** - pas productbeelden van AEM Assets als laag bovenop uw basiscatalogus toe.
+
+## AEM-Assets-laag
+
+Wanneer u [ Visuals van het Product ](product-visuals.md) toelaat, leidt de Integratie van AEM Assets automatisch tot en beheert een cataloguslaag specifiek uitsluitend aan de inhoud van AEM Assets. De standaardlaagnaam is `AEM-Assets`, nochtans kunt u een douanenaam tijdens [ op instapniveau in de integratie van AEM Assets specificeren ](../../aem-assets-integration/get-started/configure-aco.md).
+
+Deze laag bevat productafbeeldingen die zijn gesynchroniseerd vanuit AEM Assets. Als andere cataloguslagen, wordt het bevolkt via [ Lagen API van het Product ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}. De Assets Integration Service transformeert metagegevens van AEM-elementen en URL&#39;s van levering naar de API-indeling en verzendt de gegevens automatisch wanneer de middelen in AEM Assets zijn goedgekeurd.
+
+De integratie ondersteunt één bron per huurder (één landinstelling + één laag).
+
+>[!CAUTION]
+>
+> Wijs de AEM-Assets-laag toe aan de catalogusweergave. Als de laag niet wordt toegewezen, kunnen de gegevens van het productbeeld onverwacht worden beschreven.
+
+### De werking van de laag AEM-Assets
+
+1. **Automatische verwezenlijking**: De laag wordt gecreeerd wanneer de Integratie van AEM Assets voor uw [!DNL Commerce Optimizer] instantie wordt gevormd.
+
+1. **de synchronisatie van het Beeld**: Wanneer de activa in AEM Assets worden goedgekeurd, transformeert de Dienst van de Integratie van Assets de activagegevens en werkt de `AEM-Assets` laag via de Lagen API van het Product bij.
+
+1. **Laagtaak**: Wijs de `AEM-Assets` laag aan catalogusmeningen toe waar u de beelden van AEM Assets wilt verschijnen.
+
+### De AEM-Assets-laag toewijzen aan een catalogusweergave
+
+AEM Assets-afbeeldingen op uw winkel weergeven:
+
+1. Navigeer aan _opstelling van de Opslag_, en klik **[!UICONTROL Catalog views]**.
+
+1. Selecteer de catalogusweergave waarop u de laag wilt toepassen.
+
+1. In de sectie van cataloguslagen, bepaal de plaats van de **AEM-Assets** laag.
+
+1. Activeer de laag om deze in te schakelen voor deze catalogusweergave.
+
+1. Klik op **[!UICONTROL Save]** om de wijzigingen toe te passen.
+
+Nadat de API&#39;s voor de winkel (Catalog Service, Live Search, Productaanbevelingen en Storefront GraphQL API) zijn toegewezen, worden zowel basiscatalogusafbeeldingen als AEM Assets-afbeeldingen voor producten geretourneerd.
+
+Voor meer informatie over het vormen van de Visuals van het Product, zie [ Visuals van het Product met AEM Assets ](product-visuals.md).
 
 ## Een cataloguslaag toevoegen via gegevensinvoer
 
@@ -48,12 +87,12 @@ U kunt cataloguslagen toevoegen aan uw producten tijdens het invoeren van gegeve
 
 >[!NOTE]
 >
->U voert cataloguslagen in gebruikend de opname API, maar [&#x200B; plaatsend de orde &#x200B;](#manage-layer-priorities) van de lagen wordt gedaan gebruikend UI.
+>U voert cataloguslagen in gebruikend de opname API, maar [ plaatsend de orde ](#manage-layer-priorities) van de lagen wordt gedaan gebruikend UI.
 
 **Eerste vereisten:**
 
-- API-referenties met toestemming om toegang te krijgen tot de service voor gegevensinvoer
-- Product-SKU&#39;s die al in uw basiscatalogus staan
+* API-referenties met toestemming om toegang te krijgen tot de service voor gegevensinvoer
+* Product-SKU&#39;s die al in uw basiscatalogus staan
 
 **Stappen:**
 
@@ -63,7 +102,7 @@ U kunt cataloguslagen toevoegen aan uw producten tijdens het invoeren van gegeve
 
 1. Controleer of de laag is opgenomen door de configuratie van de catalogusweergave te controleren.
 
-Voor gedetailleerde API specificaties en ladingsvoorbeelden, zie {de Lagen van het 0} Product [&#x200B; in de ontwikkelaarsdocumentatie.](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers)
+Voor gedetailleerde API specificaties en ladingsvoorbeelden, zie {de Lagen van het 0} Product [ in de ontwikkelaarsdocumentatie.](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}
 
 ## Handmatig een cataloguslaag toevoegen in de gebruikersinterface
 
@@ -79,7 +118,7 @@ In de interface van de catalogusweergave kunt u handmatig lagen maken en beheren
 
 >[!TIP]
 >
->Voor bulklaagverrichtingen, gebruik de gegeven die API methode [&#x200B; hierboven wordt beschreven &#x200B;](#add-a-catalog-layer-via-data-ingestion).
+>Voor bulklaagverrichtingen, gebruik de gegeven die API methode [ hierboven wordt beschreven ](#add-a-catalog-layer-via-data-ingestion).
 
 **om een handlaag te creëren:**
 
@@ -91,10 +130,10 @@ In de interface van de catalogusweergave kunt u handmatig lagen maken en beheren
 
 1. Configureer de laageigenschappen:
 
-   - **naam van de Laag** - ga een beschrijvende naam in om het laagdoel te identificeren.
-   - **Producten** - selecteer de producten waarop deze laag van toepassing is.
-   - **Attributen** - kies welke productkenmerken (naam, beschrijving, beelden, metatags, etc.) te wijzigen.
-   - **Waarden** - ga de nieuwe waarden voor elk geselecteerd attribuut in.
+   * **naam van de Laag** - ga een beschrijvende naam in om het laagdoel te identificeren.
+   * **Producten** - selecteer de producten waarop deze laag van toepassing is.
+   * **Attributen** - kies welke productkenmerken (naam, beschrijving, beelden, metatags, etc.) te wijzigen.
+   * **Waarden** - ga de nieuwe waarden voor elk geselecteerd attribuut in.
 
 1. Klik **sparen** om de laag tot stand te brengen.
 
@@ -134,14 +173,14 @@ U kunt cataloguslagen in- of uitschakelen zonder deze te verwijderen, zodat u ku
 
 1. Klik op de activeringsschakeloptie om de laag in of uit te schakelen.
 
-   - **Actief** - de laag wordt toegepast op productgegevens.
-   - **Inactief** - de laag wordt bewaard maar niet toegepast op productgegevens.
+   * **Actief** - de laag wordt toegepast op productgegevens.
+   * **Inactief** - de laag wordt bewaard maar niet toegepast op productgegevens.
 
 1. De wijziging wordt onmiddellijk van kracht op uw winkelcentrum.
 
 **om een laag te schrappen:**
 
-Gebruik de gegeven opname API om [&#x200B; een cataloguslaag &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#operation/deleteProductLayers) te schrappen.
+Gebruik de gegeven opname API om [ een cataloguslaag ](https://developer.adobe.com/commerce/services/reference/rest/#operation/deleteProductLayers){target=_blank} te schrappen.
 
 ## Laagprioriteiten beheren
 
@@ -149,11 +188,11 @@ De volgorde waarin lagen worden toegepast, bepaalt welke waarden in de winkel wo
 
 **Begrijpend prioritaire orde:**
 
-- Aan elke laag wordt een volgnummer toegewezen (1, 2, 3, enzovoort)
-- Order 1 heeft de hoogste prioriteit en negeert alle andere lagen
-- Wanneer meerdere lagen hetzelfde veld wijzigen, heeft de laag met het lagere volgordenummer voorrang
-- Prioriteit is alleen van toepassing op overschrijvende velden (naam, beschrijving, metatags)
-- In velden samenvoegen (afbeeldingen, koppelingen, kenmerken) worden gegevens uit alle lagen gecombineerd
+* Aan elke laag wordt een volgnummer toegewezen (1, 2, 3, enzovoort)
+* Order 1 heeft de hoogste prioriteit en negeert alle andere lagen
+* Wanneer meerdere lagen hetzelfde veld wijzigen, heeft de laag met het lagere volgordenummer voorrang
+* Prioriteit is alleen van toepassing op overschrijvende velden (naam, beschrijving, metatags)
+* In velden samenvoegen (afbeeldingen, koppelingen, kenmerken) worden gegevens uit alle lagen gecombineerd
 
 **om laagprioriteiten opnieuw te rangschikken:**
 
@@ -177,19 +216,20 @@ De volgorde waarin lagen worden toegepast, bepaalt welke waarden in de winkel wo
 
 Volg de onderstaande aanbevelingen wanneer u werkt met cataloguslagen:
 
-- **beschrijvende namen van het Gebruik** - de lagen van de Naam duidelijk om op hun doel (bijvoorbeeld, &quot;Campagne van de Vakantie 2025&quot;of &quot;Optimalisering SEO - de Pagina&#39;s van het Product&quot;te wijzen.
+* **beschrijvende namen van het Gebruik** - de lagen van de Naam duidelijk om op hun doel (bijvoorbeeld, &quot;Campagne van de Vakantie 2025&quot;of &quot;Optimalisering SEO - de Pagina&#39;s van het Product&quot;te wijzen.
 
-- **Beperk lagen** - terwijl het systeem veelvoudige lagen steunt, die teveel gebruiken kan prestaties beïnvloeden. Voeg lagen waar mogelijk samen.
+* **Beperk lagen** - terwijl het systeem veelvoudige lagen steunt, die teveel gebruiken kan prestaties beïnvloeden. Voeg lagen waar mogelijk samen.
 
 <!--- **Test before activating**—Always preview layer effects before activating them on your live storefront. !!!REMOVE IF PREVIEW NOT AVAILABLE FOR GA!!!-->
 
-- **prioritaire logica van het Document** - houd spoor waarvan de lagen belangrijkheid zouden moeten nemen om onbedoelde met voeten treden te vermijden.
+* **prioritaire logica van het Document** - houd spoor waarvan de lagen belangrijkheid zouden moeten nemen om onbedoelde met voeten treden te vermijden.
 
-- **de lagen van Sites Optimizer van het Overzicht** - wanneer het gebruiken van auto-moeilijke situatie van Sites Optimizer, leidt het systeem tot lagen bij de hoogste prioriteit. Let goed op wanneer u handmatige lagen toevoegt die de AI-aanbevelingen kunnen overschrijven. Leer meer over het gebruiken van [&#x200B; Sites Optimizer &#x200B;](../manage-results/opportunities.md).
+* **de lagen van Sites Optimizer van het Overzicht** - wanneer het gebruiken van auto-moeilijke situatie van Sites Optimizer, leidt het systeem tot lagen bij de hoogste prioriteit. Let goed op wanneer u handmatige lagen toevoegt die de AI-aanbevelingen kunnen overschrijven. Leer meer over het gebruiken van [ Sites Optimizer ](../manage-results/opportunities.md).
 
-- **prestaties van de Monitor** - als u langzaam productpagina laadt opmerkt, herzie uw laagconfiguratie en denk na consoliderend lagen.
+* **prestaties van de Monitor** - als u langzaam productpagina laadt opmerkt, herzie uw laagconfiguratie en denk na consoliderend lagen.
 
 ## Meer als dit
 
-- [&#x200B; de meningen van de Catalogus &#x200B;](catalog-view.md) - vorm catalogusmeningen voor verschillende storefronts
-- [&#x200B; Kansen &#x200B;](../manage-results/opportunities.md) - Leer over AI-aangedreven optimalisering gebruikend cataloguslagen
+* [ de meningen van de Catalogus ](catalog-view.md) - vorm catalogusmeningen voor verschillende storefronts
+* [ Visuals van het Product ](product-visuals.md) - Gebruik AEM Assets voor productbeelden
+* [ Kansen ](../manage-results/opportunities.md) - Leer over AI-aangedreven optimalisering gebruikend cataloguslagen

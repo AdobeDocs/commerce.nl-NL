@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met cataloguslagen kunt u productgegevens wijzigen zonder de oorspronkelijke brongegevens te wijzigen. Lagen passen wijzigingen toe op specifieke productkenmerken, zoals naam, beschrijving, afbeeldingen, koppelingen en metagegevens, door een laag boven op de basiscatalogus te maken. Uw oorspronkelijke productgegevens blijven intact, zodat u producten veilig kunt aanpassen en wijzigingen op elk gewenst moment kunt herstellen.
 
-![ Lagen van de Catalogus ](../assets/catalog-layers.png)
+![&#x200B; Lagen van de Catalogus &#x200B;](../assets/catalog-layers.png)
 
 ## De werking van cataloguslagen
 
@@ -36,7 +36,7 @@ Wanneer een klant de winkelvoorgrond weergeeft, combineert het systeem de basisc
 
 Cataloguslagen worden doorgaans gebruikt voor:
 
-* **optimalisering SEO** - de titels en beschrijvingen van productmeta van de met voeten treden die op AI aanbevelingen van [ Sites Optimizer ](../manage-results/opportunities.md) worden gebaseerd.
+* **optimalisering SEO** - de titels en beschrijvingen van productmeta van de met voeten treden die op AI aanbevelingen van [&#x200B; Sites Optimizer &#x200B;](../manage-results/opportunities.md) worden gebaseerd.
 * **seizoenscampagnes** - werk tijdelijk productnamen, beschrijvingen, of beelden voor bevorderingen bij zonder brongegevens te veranderen.
 * **Regionale aanpassing** - de verschillende productinformatie van de vertoning die op geografische plaats of taal wordt gebaseerd.
 * **A/B het testen** - test verschillende productpresentaties om omzettingspercentages te optimaliseren.
@@ -45,9 +45,9 @@ Cataloguslagen worden doorgaans gebruikt voor:
 
 ## AEM-Assets-laag
 
-Wanneer u [ Visuals van het Product ](product-visuals.md) toelaat, leidt de Integratie van AEM Assets automatisch tot en beheert een cataloguslaag specifiek uitsluitend aan de inhoud van AEM Assets. De standaardlaagnaam is `AEM-Assets`, nochtans kunt u een douanenaam tijdens [ op instapniveau in de integratie van AEM Assets specificeren ](../../aem-assets-integration/get-started/configure-aco.md).
+Wanneer u [&#x200B; Visuals van het Product &#x200B;](product-visuals.md) toelaat, leidt de Integratie van AEM Assets automatisch tot en beheert een cataloguslaag specifiek uitsluitend aan de inhoud van AEM Assets. De standaardlaagnaam is `AEM-Assets`, nochtans kunt u een douanenaam tijdens [&#x200B; op instapniveau in de integratie van AEM Assets specificeren &#x200B;](../../aem-assets-integration/get-started/configure-aco.md).
 
-Deze laag bevat productafbeeldingen die zijn gesynchroniseerd vanuit AEM Assets. Als andere cataloguslagen, wordt het bevolkt via [ Lagen API van het Product ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}. De Assets Integration Service transformeert metagegevens van AEM-elementen en URL&#39;s van levering naar de API-indeling en verzendt de gegevens automatisch wanneer de middelen in AEM Assets zijn goedgekeurd.
+Deze laag bevat productafbeeldingen die zijn gesynchroniseerd vanuit AEM Assets. Als andere cataloguslagen, wordt het bevolkt via [&#x200B; Lagen API van het Product &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}. De Assets Integration Service transformeert metagegevens van AEM-elementen en URL&#39;s van levering naar de API-indeling en verzendt de gegevens automatisch wanneer de middelen in AEM Assets zijn goedgekeurd.
 
 De integratie ondersteunt één bron per huurder (één landinstelling + één laag).
 
@@ -79,7 +79,7 @@ AEM Assets-afbeeldingen op uw winkel weergeven:
 
 Nadat de API&#39;s voor de winkel (Catalog Service, Live Search, Productaanbevelingen en Storefront GraphQL API) zijn toegewezen, worden zowel basiscatalogusafbeeldingen als AEM Assets-afbeeldingen voor producten geretourneerd.
 
-Voor meer informatie over het vormen van de Visuals van het Product, zie [ Visuals van het Product met AEM Assets ](product-visuals.md).
+Voor meer informatie over het vormen van de Visuals van het Product, zie [&#x200B; Visuals van het Product met AEM Assets &#x200B;](product-visuals.md).
 
 ## Een cataloguslaag toevoegen via gegevensinvoer
 
@@ -87,7 +87,7 @@ U kunt cataloguslagen toevoegen aan uw producten tijdens het invoeren van gegeve
 
 >[!NOTE]
 >
->U voert cataloguslagen in gebruikend de opname API, maar [ plaatsend de orde ](#manage-layer-priorities) van de lagen wordt gedaan gebruikend UI.
+>U voert cataloguslagen in gebruikend de opname API, maar [&#x200B; plaatsend de orde &#x200B;](#manage-layer-priorities) van de lagen wordt gedaan gebruikend UI.
 
 **Eerste vereisten:**
 
@@ -102,7 +102,7 @@ U kunt cataloguslagen toevoegen aan uw producten tijdens het invoeren van gegeve
 
 1. Controleer of de laag is opgenomen door de configuratie van de catalogusweergave te controleren.
 
-Voor gedetailleerde API specificaties en ladingsvoorbeelden, zie {de Lagen van het 0} Product [ in de ontwikkelaarsdocumentatie.](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}
+Voor gedetailleerde API specificaties en ladingsvoorbeelden, zie {de Lagen van het 0} Product [&#x200B; in de ontwikkelaarsdocumentatie.](https://developer.adobe.com/commerce/services/reference/rest/#tag/Product-Layers){target=_blank}
 
 ## Handmatig een cataloguslaag toevoegen in de gebruikersinterface
 
@@ -118,7 +118,7 @@ In de interface van de catalogusweergave kunt u handmatig lagen maken en beheren
 
 >[!TIP]
 >
->Voor bulklaagverrichtingen, gebruik de gegeven die API methode [ hierboven wordt beschreven ](#add-a-catalog-layer-via-data-ingestion).
+>Voor bulklaagverrichtingen, gebruik de gegeven die API methode [&#x200B; hierboven wordt beschreven &#x200B;](#add-a-catalog-layer-via-data-ingestion).
 
 **om een handlaag te creëren:**
 
@@ -180,7 +180,7 @@ U kunt cataloguslagen in- of uitschakelen zonder deze te verwijderen, zodat u ku
 
 **om een laag te schrappen:**
 
-Gebruik de gegeven opname API om [ een cataloguslaag ](https://developer.adobe.com/commerce/services/reference/rest/#operation/deleteProductLayers){target=_blank} te schrappen.
+Gebruik de gegeven opname API om [&#x200B; een cataloguslaag &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#operation/deleteProductLayers){target=_blank} te schrappen.
 
 ## Laagprioriteiten beheren
 
@@ -224,12 +224,12 @@ Volg de onderstaande aanbevelingen wanneer u werkt met cataloguslagen:
 
 * **prioritaire logica van het Document** - houd spoor waarvan de lagen belangrijkheid zouden moeten nemen om onbedoelde met voeten treden te vermijden.
 
-* **de lagen van Sites Optimizer van het Overzicht** - wanneer het gebruiken van auto-moeilijke situatie van Sites Optimizer, leidt het systeem tot lagen bij de hoogste prioriteit. Let goed op wanneer u handmatige lagen toevoegt die de AI-aanbevelingen kunnen overschrijven. Leer meer over het gebruiken van [ Sites Optimizer ](../manage-results/opportunities.md).
+* **de lagen van Sites Optimizer van het Overzicht** - wanneer het gebruiken van auto-moeilijke situatie van Sites Optimizer, leidt het systeem tot lagen bij de hoogste prioriteit. Let goed op wanneer u handmatige lagen toevoegt die de AI-aanbevelingen kunnen overschrijven. Leer meer over het gebruiken van [&#x200B; Sites Optimizer &#x200B;](../manage-results/opportunities.md).
 
 * **prestaties van de Monitor** - als u langzaam productpagina laadt opmerkt, herzie uw laagconfiguratie en denk na consoliderend lagen.
 
 ## Meer als dit
 
-* [ de meningen van de Catalogus ](catalog-view.md) - vorm catalogusmeningen voor verschillende storefronts
-* [ Visuals van het Product ](product-visuals.md) - Gebruik AEM Assets voor productbeelden
-* [ Kansen ](../manage-results/opportunities.md) - Leer over AI-aangedreven optimalisering gebruikend cataloguslagen
+* [&#x200B; de meningen van de Catalogus &#x200B;](catalog-view.md) - vorm catalogusmeningen voor verschillende storefronts
+* [&#x200B; Visuals van het Product &#x200B;](product-visuals.md) - Gebruik AEM Assets voor productbeelden
+* [&#x200B; Kansen &#x200B;](../manage-results/opportunities.md) - Leer over AI-aangedreven optimalisering gebruikend cataloguslagen

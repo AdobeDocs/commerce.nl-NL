@@ -209,7 +209,7 @@ Als de onderzoeksresultaten willekeurig of irrelevant voelen, gebruik deze contr
 Meer informatie over productkenmerken voor zoekopdrachten:
 
 - [Kenmerken instellen als doorzoekbaar](workspace.md#set-attributes-as-searchable)
-- [&#x200B; Wijs gewicht aan attributen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search) toe
+- [&#x200B; Wijs gewicht aan attributen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search-results#weighted-search) toe
 
 ## Zoekresultaten controleren
 

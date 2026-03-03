@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Deze releaseopmerkingen beschrijven alle releases voor de [!DNL Adobe Commerce Optimizer Connector] en bevatten:
 
-![ Nieuwe ](../assets/new.svg) Nieuwe eigenschappen
-![ Vaste kwestie ](../assets/fix.svg) Oplossingen en verbeteringen
-![ Bekende kwestie ](../assets/bug.svg) Bekende kwesties
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Nieuwe eigenschappen
+![&#x200B; Vaste kwestie &#x200B;](../assets/fix.svg) Oplossingen en verbeteringen
+![&#x200B; Bekende kwestie &#x200B;](../assets/bug.svg) Bekende kwesties
 
 ## v1.0.9
 

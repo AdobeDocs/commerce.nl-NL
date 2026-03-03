@@ -19,7 +19,7 @@ De Adobe Commerce Optimizer-connector is de integratiebrug die catalogus- en pri
 
 De Adobe Commerce Optimizer Connector werkt door Commerce-websites in kaart te brengen en weergaven op te slaan naar een Commerce Optimizer-project, zoals in de volgende afbeelding wordt getoond:
 
-![ het in kaart brengen van de gegevens van Commerce aan Adobe Commerce Optimizer ](./assets/storeview-to-catalogview-mapping.svg){width="600" zoomable="yes"}
+![&#x200B; het in kaart brengen van de gegevens van Commerce aan Adobe Commerce Optimizer &#x200B;](./assets/storeview-to-catalogview-mapping.svg){width="600" zoomable="yes"}
 
 Wanneer gegevens van Commerce naar Commerce Optimizer worden geëxporteerd:
 
@@ -28,7 +28,7 @@ Wanneer gegevens van Commerce naar Commerce Optimizer worden geëxporteerd:
 
 De bijbehorende catalogus- en prijsgegevens worden geëxporteerd en later gebruikt om catalogusweergaven te maken en eventueel een beleid te definiëren om de catalogus- en prijsgegevens te filteren voor specifieke gevallen van zakelijk gebruik.
 
-In plaats van het vormen van en het beheren van de Diensten van Commerce (Levend Onderzoek en de Aanbevelingen van het Product) van Commerce Admin, gebruikt u [[!DNL Adobe Commerce Optimizer]  het Merchandising hulpmiddelen ](../optimizer/merchandising/overview.md) om productontdekking (Levend Onderzoek) en aanbevelingen (de Configuratie van de Regel van de Aanbevelingen van het Product) te beheren. Het Adobe Commerce-exemplaar wordt de gegevensbron voor catalogus- en prijsgegevens. Wanneer de gegevens in Commerce worden bijgewerkt, worden de updates gesynchroniseerd met de [!DNL Adobe Commerce Optimizer] -instantie.
+In plaats van het vormen van en het beheren van de Diensten van Commerce (Levend Onderzoek en de Aanbevelingen van het Product) van Commerce Admin, gebruikt u [[!DNL Adobe Commerce Optimizer]  het Merchandising hulpmiddelen &#x200B;](../optimizer/merchandising/overview.md) om productontdekking (Levend Onderzoek) en aanbevelingen (de Configuratie van de Regel van de Aanbevelingen van het Product) te beheren. Het Adobe Commerce-exemplaar wordt de gegevensbron voor catalogus- en prijsgegevens. Wanneer de gegevens in Commerce worden bijgewerkt, worden de updates gesynchroniseerd met de [!DNL Adobe Commerce Optimizer] -instantie.
 
 ## Workflows
 
@@ -36,7 +36,7 @@ De connector schakelt verschillende belangrijke workflows in:
 
 * **de catalogusgegevens van Commerce van de uitvoer naar[!DNL Adobe Commerce Optimizer]** - prijs en prijsboekgegevens worden uitgevoerd op het website en klantengroepsniveau. Gegevens van product- en productkenmerken worden geëxporteerd op `store view` niveau. Standaard is het synchroniseren van catalogusgegevens ingeschakeld voor alle Commerce-bereiken (websites en winkelweergaven).
 
-  Als u deze workflow wilt inschakelen, installeert u de extensie `adobe-commerce/commerce-data-export-aco-adapter` PHP, controleert u de configuratie van de exportfunctie en schakelt u vervolgens de integratie tussen Commerce en Commerce Optimizer in via Commerce Admin. Voor gedetailleerde instructies, zie [ Begonnen ](#get-started) worden.
+  Als u deze workflow wilt inschakelen, installeert u de extensie `adobe-commerce/commerce-data-export-aco-adapter` PHP, controleert u de configuratie van de exportfunctie en schakelt u vervolgens de integratie tussen Commerce en Commerce Optimizer in via Commerce Admin. Voor gedetailleerde instructies, zie [&#x200B; Begonnen &#x200B;](#get-started) worden.
 
 * **Wijs de Commerce-website toe en sla weergavegegevens op waarnaar u wilt exporteren[!DNL Adobe Commerce Optimizer]**
 
@@ -50,4 +50,4 @@ De connector schakelt verschillende belangrijke workflows in:
 
   Nadat u de integratie met [!DNL Adobe Commerce Optimizer] hebt ingesteld, kunt u een Commerce Storefront op Edge Delivery Services instellen en implementeren voor ultrasnelle prestaties, schaalbaarheid, naadloze creatie van inhoud, geïntegreerde personalisatie en lagere operationele kosten met behulp van de composable, API-gestuurde architectuur en modulaire componenten die beschikbaar zijn bij [!DNL Adobe Commerce Optimizer] .
 
-Voor details op hoe te opstelling de integratie en deze werkschema&#39;s toelaten, zie [ Begonnen krijgen ](get-started.md).
+Voor details op hoe te opstelling de integratie en deze werkschema&#39;s toelaten, zie [&#x200B; Begonnen krijgen &#x200B;](get-started.md).

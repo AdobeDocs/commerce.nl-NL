@@ -2,10 +2,11 @@
 title: Gedeelde verantwoordelijkheid
 description: Leer over de veiligheidstaken van elke partij betrokken bij uw  [!DNL Adobe Commerce Optimizer]  project.
 role: Admin, Architect, Leader
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 7c407bfc2becfb0ba6babe5958bcb790c178f406
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+exl-id: 9e09790f-832d-43ab-b2df-6389ad52b43d
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -43,12 +44,12 @@ In de volgende overzichtstabellen wordt het RACI-model gebruikt om de beveiligin
 | Ondersteuning voor back-end CDN | RA |  |
 | Een omgekeerde DNS-provider verkrijgen | RA | |
 | Productie- en sandboxomgevingen | A | R |
-| Dynamiek openen voor Adobe Commerce Optimizer | R | C |
+| Dynamiek openen voor [!DNL Adobe Commerce Optimizer] | R | C |
 | Problemen met de beveiliging van back-end klanten oplossen | RA | I |
 | Oplossen van CDN-beveiligingsproblemen met back-end | RA | |
 | Adobe helpen met veiligheidsonderzoek (scans/audits) | RA | |
 | PCI ASV-scans uitvoeren | RA | I |
-| Adobe Commerce Optimizer-infrastructuurafbeeldingen in PCI herstellen | R | |
+| [!DNL Adobe Commerce Optimizer] infrastructuur-PCI-scans herstellen | R | |
 | Besturings- en platformgeheimen beheren | RA | |
 | Bewaking van beveiligingslogboeken voor back-endbestanden | RA | |
 | Klantenondersteuning en toegang beheren | A | R |
@@ -56,5 +57,5 @@ In de volgende overzichtstabellen wordt het RACI-model gebruikt om de beveiligin
 | Jaarlijkse tests en documentatie van het noodherstelplan | RA | |
 | Foutopsporing en probleemoplossing | R | R |
 | Tijdige ondersteuning voor foutopsporing en probleemoplossingsproces | R | R |
-| Updates en patches installeren op Adobe Commerce Optimizer | RA | I |
-| Kwaliteit Adobe Commerce Optimizer-toepassing | RA | |
+| Updates en patches installeren op [!DNL Adobe Commerce Optimizer] | RA | I |
+| Kwaliteit van de kerntoepassing [!DNL Adobe Commerce Optimizer] | RA | |

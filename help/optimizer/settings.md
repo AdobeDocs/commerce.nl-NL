@@ -1,11 +1,11 @@
 ---
 title: Instellingen
 description: Configureer instellingen voor  [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: 6ac223de-8e03-4842-8b67-92ce321d323d
-source-git-commit: 652681cc9aef416040ccd470d04bf2540fe97262
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---

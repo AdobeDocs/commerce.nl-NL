@@ -1,11 +1,11 @@
 ---
 title: Prestaties van aanbevelingen
 description: De pagina met aanbevelingen geeft insight inzicht in hoe goed je productaanbevelingen presteren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: 1b77e2ea-412b-4c78-9d38-390bd8fda87e
-source-git-commit: c6725fc524e9d239ccc0f16701e92ad5d2fc7729
+source-git-commit: 9cb231055df45bbfcff3303c6e1c257c883cb852
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,23 @@ De pagina van Prestaties van Aanbevelingen toont een lijst van gevormde aanbevel
 >
 >Een aanbevelingseenheid is een widget die de geadviseerde product _punten_ bevat.
 
-![&#x200B; Prestaties van Aanbevelingen &#x200B;](../assets/rec-performance.png){zoomable="yes"}
+![ Prestaties van Aanbevelingen ](../assets/rec-performance.png){zoomable="yes"}
 
 ## Een rapport weergeven
 
-1. Kies de **bron van de Catalogus**, zoals `en-US` waar uw aanbevelingen van toepassing zijn.
+1. Kies de **mening van de Catalogus**, zoals *Alle meningen* waar uw aanbevelingen van toepassing zijn.
+
+   Leer meer over [ catalogusmeningen ](#select-catalog-view) in aanbevelingen.
 
 1. Klik op **[!UICONTROL Date Range]** en selecteer een van de volgende bereiken:
 
-   ![&#x200B; de Waaier van de Datum van Aanbevelingen &#x200B;](../assets/rec-perf-date-range.png)
+   ![ de Waaier van de Datum van Aanbevelingen ](../assets/rec-perf-date-range.png)
 
-   De lijst van de aanbeveling werkt aan vertoningsmetriek voor dat datumwaaier bij.
+   De lijst van de aanbeveling werkt aan vertoningsmetriek voor dat datumwaaier en catalogusmening bij.
 
 ## Tabel aanpassen
 
-1. In de upper-left hoek, klik het ![&#x200B; selecteur van de Kolom &#x200B;](../assets/icon-show-hide-columns.png) pictogram om de lijst aan te passen.
+1. In de upper-left hoek, klik het ![ selecteur van de Kolom ](../assets/icon-show-hide-columns.png) pictogram om de lijst aan te passen.
 
    De zichtbare kolommen hebben een vinkje.
 
@@ -45,21 +47,22 @@ De pagina van Prestaties van Aanbevelingen toont een lijst van gevormde aanbevel
 
 ## Details weergeven
 
-1. In de lijst, klik het (![&#x200B; Meer selecteur &#x200B;](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
+1. In de lijst, klik het (![ Meer selecteur ](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
 
-1. Om het statuut van de aanbeveling te veranderen, activeer **&#x200B;**&#x200B;of **&#x200B;**&#x200B;deactivate.
+1. Om het statuut van de aanbeveling te veranderen, activeer **** of **** deactivate.
 
 ## Aanbevelingen maken of beheren
 
-Leer hoe u [&#x200B; een nieuwe kunt tot stand brengen of een bestaande &#x200B;](../merchandising/recommendations/create.md) aanbeveling beheren.
+Leer hoe u [ een nieuwe kunt tot stand brengen of een bestaande ](../merchandising/recommendations/create.md) aanbeveling beheren.
 
 ## Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |---|---|
-| ![&#x200B; de Waaier van de Datum &#x200B;](../assets/rec-perf-date-range.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. |
-| ![&#x200B; de selecteur van de Kolom &#x200B;](../assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de lijst van Aanbevelingen verschijnen. |
-| Aanbeveling maken | Opent [&#x200B; creëren Nieuwe pagina van de Aanbeveling &#x200B;](../merchandising/recommendations/create.md). |
+| ![ de Waaier van de Datum ](../assets/rec-perf-date-range.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. |
+| ![ de selecteur van de Kolom ](../assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de lijst van Aanbevelingen verschijnen. |
+| Aanbeveling maken | Opent [ creëren Nieuwe pagina van de Aanbeveling ](../merchandising/recommendations/create.md). |
+| [ mening van de Catalogus ](#select-catalog-view) | Selecteer de catalogusweergave om de tabel te filteren en alleen die aanbevelingen weer te geven die van toepassing zijn op de geselecteerde catalogusweergave. Deze selectie wordt ook gebruikt als catalogusmening wanneer u [ ](../merchandising/recommendations/create.md) tot een nieuwe aanbeveling leidt. De opties zijn *Alle meningen* of een specifieke [ catalogusmening ](../setup/catalog-view.md). |
 
 ## Kolombeschrijvingen
 
@@ -80,3 +83,34 @@ Leer hoe u [&#x200B; een nieuwe kunt tot stand brengen of een bestaande &#x200B;
 | Zichtbaarheid | Het percentage aanbevolen eenheden dat zich registreert voor de weergave. |
 | CTR | (Doorkliksnelheid) Het percentage eenheidsindrukkingen voor de aanbeveling die een klik registreert. CTR telt alle indrukken zelfs als de eenheid niet de mening van de verkoopster ingaat. Als de eenheid van de aanbeveling niet wordt bekeken, is het onwaarschijnlijk om te worden geklikt. Deze onzichtbare indrukken tellen echter mee voor de CTR-score en verlagen het totale CTR-percentage. |
 | vCTR | (Zichtbare Doorkliksnelheid) maateenheden die alleen op zichtbare indrukken (aanbevelingen die daadwerkelijk in het zichtbare gedeelte van het scherm van de klant zijn weergegeven) zijn gebaseerd, zodat u een nauwkeurigere schatting van de betrokkenheid van de klant krijgt. |
+
+## Catalogusweergave selecteren
+
+>[!IMPORTANT]
+>
+>Deze functie is momenteel in bèta.
+
+De **[!UICONTROL Catalog view]** selecteur op de **2} pagina van Aanbevelingen {doet twee dingen:**
+
+1. **Filters de lijst** - toont slechts aanbevelingen (en hun metriek) die op de geselecteerde catalogusmening van toepassing zijn.
+1. **plaatst het werkingsgebied voor nieuwe aanbevelingen** - wanneer u [ ](../merchandising/recommendations/create.md) een aanbeveling creeert, wordt de geselecteerde catalogusmening gebruikt als werkingsgebied van de eenheid. De opties zijn *Alle meningen* of een specifieke [ catalogusmening ](../setup/catalog-view.md).
+
+   - **Alle meningen** - de aanbeveling is op alle catalogusmeningen van toepassing (productbeschikbaarheid wordt nog gefiltreerd per mening).
+   - **de mening van de Catalogus** - de aanbeveling is slechts op de geselecteerde catalogusmening (bijvoorbeeld, één opslag, taal, of merk) van toepassing.
+
+Door een catalogusweergave voor elke aanbeveling op te geven, kunt u:
+
+- Configureer aanbevelingen voor alle (algemene) catalogusweergaven of voor één catalogusweergave.
+- De voorproef en filterproducten door catalogusmening op [ creëren ](../merchandising/recommendations/create.md) aanbevelingen pagina.
+- Alleen producten weergeven die beschikbaar zijn voor elke winkel.
+- Metrische gegevens en storefront gedrag per catalogusweergave weergeven.
+
+### Hoe de catalogusweergave producten filtert
+
+De beschikbaarheid van het product wordt afgedwongen per catalogusmening zelfs voor aanbeveling eenheden onder **Alle meningen** selectie. Dit werkt naast om het even welke [ opneming of uitsluitingsfilters ](../merchandising/recommendations/filters.md) u op de aanbevelingseenheid plaatst.
+
+**Voorbeeld: Aanbeveling met inclusiefilters onder Alle meningsselectie**
+
+- **Alle meningen** aanbeveling omvat SKUs: SKU_ABC, SKU_CDE, SKU_XYZ.
+- **Catalogusmening: Kingsbluff** kan SKU_ABC of SKU_CDE niet verkopen. **getoond:** SKU_XYZ plus andere SKUs geldig voor Kingsbluff.
+- **de mening van de Catalogus: Arkbridge** kan geen van inbegrepen SKUs verkopen. **getoond:** slechts SKUs die door Arkbridge wordt toegelaten. Als er geen gegevens beschikbaar zijn, wordt de aanbevolen eenheid niet weergegeven op die winkel.

@@ -1,10 +1,11 @@
 ---
 title: Aanbevelingen
 description: Leer waar u aanbevelingen op verschillende pagina's op uw plaats en suggesties voor vaak gebruikte etiketten voor elk aanbevelingstype kunt plaatsen.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 3020386cd051b4453ed6b90d2c694a5bb31dfb24
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+exl-id: 08d7aeff-8b86-4fa3-93e6-4b72dc1ab117
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Met zoveel soorten aanbevelingen waaruit u kunt kiezen, wat moet u op elke pagin
 | Productpagina | `Viewed this, viewed that` |
 | Kar | `Bought this, bought that` |
 
-U kunt de [&#x200B; metriek &#x200B;](../../manage-results/recommendation-performance.md) volgen en aanpassen indien nodig. Denk eraan dat experimenteren de sleutel is.
+U kunt de [ metriek ](../../manage-results/recommendation-performance.md) volgen en aanpassen indien nodig. Denk eraan dat experimenteren de sleutel is.
 
 ## Aanbevelingslabels
 

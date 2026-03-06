@@ -2,11 +2,11 @@
 title: Overzicht van Merchandising
 description: Leer over het verhandelen eigenschappen in  [!DNL Adobe Commerce Optimizer].
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: cc0f280c-3934-47ca-b5dc-d83023d8e2be
-source-git-commit: 5f6c7e68d330a063fbdb2fce1aeb86a08cf25a80
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Productdetectie zorgt ervoor dat verkopers krachtige tools hebben om de winkeler
 
 Met productontdekking kunt u:
 
-* **vorm [&#x200B; facetten &#x200B;](./facets/overview.md), [&#x200B; het merchandising regels &#x200B;](./rules/overview.md), en [&#x200B; synoniemen](./synonyms/overview.md)** om shoppers naar de meest relevante producten met minimale wrijving te begeleiden.
+* **vorm [ facetten ](./facets/overview.md), [ het merchandising regels ](./rules/overview.md), en [ synoniemen](./synonyms/overview.md)** om shoppers naar de meest relevante producten met minimale wrijving te begeleiden.
 * **creeer intuïtieve, doel-georiënteerde onderzoekservaringen** die op uw handelswaar strategie en seizoensgebonden prioriteiten wijzen.
 * **gebruik AI-gedreven dynamische het facetteren en resultaat opnieuw rangschikken** om onderzoeksresultaten in echt aan te passen - tijd die op winkelgedrag-opvoedende overeenkomst en verkoop wordt gebaseerd.
 * **verzeker bevorderings en high-priority puntenoppervlakte** effectief om onderzoeksresultaten met bedrijfsdoelstellingen te richten.

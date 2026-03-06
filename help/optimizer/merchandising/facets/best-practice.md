@@ -2,14 +2,14 @@
 title: Aanbevolen werkwijzen
 description: Leer de beste werkwijzen voor het implementeren van facetten in uw winkel.
 role: Admin, Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 3131cc27a25d1bf958071b973f1d4bf1a68be152
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+exl-id: b9da6853-c846-4267-8dee-17abc034ead0
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
-
 
 # Aanbevolen werkwijzen
 
@@ -17,10 +17,10 @@ Filter- en facetfunctionaliteit is een essentieel onderdeel van uw [!DNL Adobe C
 
 ## Tips om facetten te optimaliseren
 
-- Bepaal de meest relevante en nuttige attributen voor uw producten, zoals titel, categorie, merk, prijswaaier, kleur, en grootte en plaats hen als [&#x200B; dynamische facetten &#x200B;](type.md). 
+- Bepaal de meest relevante en nuttige attributen voor uw producten, zoals titel, categorie, merk, prijswaaier, kleur, en grootte en plaats hen als [ dynamische facetten ](type.md). 
 - Stel productkenmerken in en sorteer deze op dezelfde manier in uw catalogus en zijn van groot belang voor uw producten om de relevantie en filtermogelijkheden voor uw klanten te verbeteren.
 - Zorg ervoor dat facetlabels gemakkelijk te begrijpen zijn en consistent op de hele site worden genoemd. Gebruik bijvoorbeeld Prijsbereik in plaats van Kosten.
-- Vermijd overweldigende kopers door het aantal facetten te beperken tot de belangrijkste. Te veel opties kunnen moeheid bij de beslissing veroorzaken. Standaard is [!DNL Adobe Commerce Optimizer] beperkt tot maximaal 100 kenmerken die zijn geconfigureerd als facetten en 30 emmers die binnen elk facet worden geretourneerd. Leer meer over [&#x200B; facetbeperkingen &#x200B;](../../boundaries-limits.md#catalog-views-and-policies). 
+- Vermijd overweldigende kopers door het aantal facetten te beperken tot de belangrijkste. Te veel opties kunnen moeheid bij de beslissing veroorzaken. Standaard is [!DNL Adobe Commerce Optimizer] beperkt tot maximaal 100 kenmerken die zijn geconfigureerd als facetten en 30 emmers die binnen elk facet worden geretourneerd. Leer meer over [ facetbeperkingen ](../../boundaries-limits.md#catalog-views-and-policies). 
 - Kopers toestaan om meerdere filtercriteria tegelijk te selecteren om de resultaten te verfijnen. Zo kunt u kopers zowel de kleuren &quot;Rood&quot; als &quot;Blauw&quot; laten selecteren.
 - Geef het aantal beschikbare producten naast elke facetoptie weer om kopers een idee te geven van de zoekresultaten die ze kunnen verwachten.
 - Inklapbare facetsecties implementeren om de interface schoon en beheerbaar te houden, met name op mobiele apparaten.

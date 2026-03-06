@@ -1,11 +1,11 @@
 ---
 title: Overzicht van facetten
 description: Leer over facetten in  [!DNL Adobe Commerce Optimizer]  en hoe zij onderzoeksresultaten verbeteren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: cf16626e-8f85-47ca-b973-891b16c31fe3
-source-git-commit: b786a8675625dc969b9542b4b4f716de5342c1af
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Facets is een methode voor het filteren van hoge prestaties waarbij meerdere dimensies van kenmerkwaarden worden gebruikt als zoekcriteria.
 
-![&#x200B; Gefilterde onderzoeksresultaten &#x200B;](../../assets/storefront-search-results-run.png)
+![ Gefilterde onderzoeksresultaten ](../../assets/storefront-search-results-run.png)
 
 Binnen een facet kunnen kopers meerdere opties selecteren, zoals &quot;Standaard&quot; en &quot;Snug&quot; onder &quot;Stijl&quot; en in de zoekresultaten worden alleen die stijlen weergegeven. Op dezelfde manier geldt dat als een winkelier opties selecteert in verschillende facetten, zoals &quot;Standaard&quot; onder &quot;Stijl&quot; en &quot;Binnenshuis&quot; onder &quot;Klimaat&quot;, de zoekresultaten worden bijgewerkt om die geselecteerde stijl en dat geselecteerde klimaat weer te geven.
 
@@ -37,7 +37,7 @@ De volgende productkenmerken worden standaard gebruikt door [!DNL Adobe Commerce
 | Sorteerbaar | Wordt gebruikt voor sorteren in de productlijst | `price` |
 | Doorzoekbaar | Gebruiken in Zoeken | `price` <br />`sku`<br />`name` |
 
-Zie de [&#x200B; Meta-gegevens API van de Ingestie van Gegevens &#x200B;](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata) om meer over productattributen en hun eigenschappen te leren.
+Zie de [ Meta-gegevens API van de Ingestie van Gegevens ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#metadata) om meer over productattributen en hun eigenschappen te leren.
 
 ## Gelaagde zoekopdracht en uitbreiding van zoektypen
 
@@ -48,7 +48,7 @@ Met gelaagde zoekopdracht kunt u:
 - Kopers kunnen in de zoekresultaten zoeken.
 - Gebruik `startsWith` en `contains` zoekindexatie in de tweede laag van de gelaagde zoekopdracht om de resultaten verder te verfijnen.
 
-De geavanceerde onderzoeksmogelijkheden worden uitgevoerd door de `filter` parameter in [`productSearch` vraag &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) gebruikend specifieke exploitanten:
+De geavanceerde onderzoeksmogelijkheden worden uitgevoerd door de `filter` parameter in [`productSearch` vraag ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/) gebruikend specifieke exploitanten:
 
 - **Gelaagd onderzoek** - Onderzoek binnen een andere onderzoekscontext - met dit vermogen, kunt u tot twee lagen van onderzoek naar uw onderzoeksvragen ondernemen. Bijvoorbeeld:
 
@@ -67,17 +67,17 @@ De geavanceerde onderzoeksmogelijkheden worden uitgevoerd door de `filter` param
 
    - Zoeken naar een query binnen een grotere tekenreeks. Als een winkel bijvoorbeeld het productnummer &quot;PE-123&quot; zoekt in de tekenreeks &quot;HAPE-123&quot;.
 
-      - Nota: Dit onderzoekstype is verschillend van het bestaande [&#x200B; uitdrukkingsonderzoek &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#phrase), dat een autocomplete onderzoek uitvoert. Als de waarde van het kenmerk van het product bijvoorbeeld &quot;outdoorbroek&quot; is, retourneert een zoekopdracht met woordgroepen een reactie voor &quot;out pan&quot;, maar wordt geen reactie voor &quot;of ants&quot; geretourneerd. A contains search, echter, retourneert wel een reactie op ‘or ants’.
+      - Nota: Dit onderzoekstype is verschillend van het bestaande [ uitdrukkingsonderzoek ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#phrase), dat een autocomplete onderzoek uitvoert. Als de waarde van het kenmerk van het product bijvoorbeeld &quot;outdoorbroek&quot; is, retourneert een zoekopdracht met woordgroepen een reactie voor &quot;out pan&quot;, maar wordt geen reactie voor &quot;of ants&quot; geretourneerd. A contains search, echter, retourneert wel een reactie op ‘or ants’.
 
 Deze nieuwe voorwaarden verbeteren het het filtreren van de onderzoeksvraag mechanisme om onderzoeksresultaten te raffineren. Deze nieuwe voorwaarden hebben geen invloed op de hoofdzoekquery.
 
 ### Implementatie
 
-1. [&#x200B; plaats attributen als doorzoekbaar &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata).
+1. [ plaats attributen als doorzoekbaar ](https://developer.adobe.com/commerce/services/reference/rest/#tag/Metadata).
 
 1. Specificeer het onderzoeksvermogen voor dat attribuut, zoals **bevat** (gebrek) of **begint met**. U kunt een maximum van zes attributen specificeren om voor **toe te laten bevat** en zes attributen om voor **toe te laten begint met**. Bovendien, voor **bevat** indexatie, is de koordlengte beperkt tot 50 karakters of minder.
 
-1. Zie de [&#x200B; ontwikkelaardocumentatie &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) voor voorbeelden van hoe te om uw [!DNL Commerce Optimizer] API vraag bij te werken gebruikend de nieuwe `contains` en `startsWith` onderzoeksmogelijkheden.
+1. Zie de [ ontwikkelaardocumentatie ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/#filtering-using-search-capability) voor voorbeelden van hoe te om uw [!DNL Commerce Optimizer] API vraag bij te werken gebruikend de nieuwe `contains` en `startsWith` onderzoeksmogelijkheden.
 
    U kunt deze nieuwe voorwaarden implementeren op de pagina met zoekresultaten. U kunt bijvoorbeeld een nieuwe sectie toevoegen op de pagina waar de gebruiker de zoekresultaten verder kan verfijnen. Je kunt kopers toestaan specifieke productkenmerken te selecteren, zoals &#39;Fabrikant&#39;, &#39;Onderdeelnummer&#39; en &#39;Beschrijving&#39;. Daarna zoeken ze binnen die kenmerken met behulp van de `contains` - of `startsWith` -voorwaarden.
 

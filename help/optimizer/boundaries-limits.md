@@ -2,11 +2,11 @@
 title: Grenswaarden en grenzen
 description: Begrijp  [!DNL Adobe Commerce Optimizer]  grenzen en grenzen om capaciteit te plannen en prestatieskwesties te verhinderen.
 role: Admin, Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: 58d94da9-8d48-4513-8b6a-8e8c7c27a2a5
-source-git-commit: 4f238b002d1481126d4fec0a249b7f9ff437248e
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Uw gebruik moet binnen deze grenzen blijven. Als u deze overschrijdt, kan de lat
 
 ## Aanvullende capaciteit aanvragen
 
-De grenzen van de vergunning kunnen worden verhoogd door de vergunningspakketten te kopen die in de [&#x200B; grenzen van de Vergunning en systeemgrenzen &#x200B;](#license-limits-and-system-boundaries) sectie worden beschreven, of door douanevergunning voor unieke gebruiksgevallen te bespreken. Neem contact op met uw Adobe-accountvertegenwoordiger om uw vereisten te bespreken.
+De grenzen van de vergunning kunnen worden verhoogd door de vergunningspakketten te kopen die in de [ grenzen van de Vergunning en systeemgrenzen ](#license-limits-and-system-boundaries) sectie worden beschreven, of door douanevergunning voor unieke gebruiksgevallen te bespreken. Neem contact op met uw Adobe-accountvertegenwoordiger om uw vereisten te bespreken.
 
-Voor vragen over systeemgrenzen, contacteer [&#x200B; de Steun van Adobe &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL#support).
+Voor vragen over systeemgrenzen, contacteer [ de Steun van Adobe ](https://experienceleague.adobe.com/home?lang=en#support).
 
 ## Prestatieproblemen voorkomen
 
 Volg deze beste praktijken om binnen grenzen te blijven en operationele kwesties te vermijden:
 
-- **herzie uw grenzen** - begrijp uw [&#x200B; capaciteitsgrenzen &#x200B;](#license-limits-and-system-boundaries) alvorens nieuwe storefronts of campagnes te lanceren.
+- **herzie uw grenzen** - begrijp uw [ capaciteitsgrenzen ](#license-limits-and-system-boundaries) alvorens nieuwe storefronts of campagnes te lanceren.
 - **spoor uw gebruik** - Gebruik ingebouwde metrieke dashboards of CDN logboeken.
 
 ## Licentielimieten en systeemgrenzen
@@ -63,7 +63,7 @@ De volgende tabellen geven een overzicht van de licentiegrenzen en systeemgrenze
 
 | **Capability** | **Beschrijving** | **Basis toewijzing** | **uitbreidbaar?** |
 | --- | --- | --- | --- |
-| Prijsboeken | Het aantal toegestane prijzenboeken per geval | Gebaseerd op het aantal [&#x200B; variaties van de Catalogus &#x200B;](#catalog) | Ja <br> de catalogusvariaties van de verhoging |
+| Prijsboeken | Het aantal toegestane prijzenboeken per geval | Gebaseerd op het aantal [ variaties van de Catalogus ](#catalog) | Ja <br> de catalogusvariaties van de verhoging |
 | Kortingen per prijsnotering | Het aantal kortingen dat op een productprijs binnen één enkel prijzenboek kan worden toegepast | 10 | Nee |
 
 {style="table-layout:auto"}
@@ -73,7 +73,7 @@ De volgende tabellen geven een overzicht van de licentiegrenzen en systeemgrenze
 | **Capability** | **Beschrijving** | **Basis toewijzing** | **uitbreidbaar?** |
 | --- | --- | --- | --- |
 | Productvisuele producten Energiegebruikers | Gebruikersnaam met licentie met volledige mogelijkheden voor beheer van digitale middelen, waaronder AI-tools, Adobe Express/Firefly-integratie en delen van Content Hub, het verwerken van belangrijke DAM-taken en geavanceerde cloud-native functies voor optimale efficiëntie. | 2 | Ja<p>Upgrade uitvoeren naar AEM Assets-licentie</p> |
-| Gebruikers van Collaborant voor productvisa | Toegang tot en werk met middelen via de AEM Commerce-integratie, maak en bewerk inhoud met Adobe Express en Firefly en gebruik (indien ingeschakeld) goedgekeurde middelen via de Content Hub-portal. | 2 | Ja<p>Upgrade uitvoeren naar AEM Assets-licentie</p> |
+| Gebruikers van Collaborant voor productvisa | Toegang tot en werk met middelen via de AEM Commerce-integratie, maak en bewerk inhoud met Adobe Express en Firefly en - als dit is ingeschakeld - gebruik goedgekeurde middelen via de Content Hub-portal. | 2 | Ja<p>Upgrade uitvoeren naar AEM Assets-licentie</p> |
 | Opslag van productvisa | Toegewezen opslagruimte voor elementen | 1 TB opslag | Nee |
 | Dynamisch mediagebruik | Toegestaan voor dynamische mediaverwerkingsbewerkingen, waaronder:<ul><li>Afbeeldingen leveren</li><li>Slimme afbeeldingen</li><li>Videolevering</li></ul><p>Voor details, zie *Dynamisch gebruik van Media berekenen* hieronder. | Gebaseerd op GMV<p>Minimumtoewijzing: 5 miljoen transacties/maand</p> | Ja<ul><li>Licentie aanschaffen voor extra bewerkingen</li><li>Upgrade uitvoeren naar AEM Assets-licentie</li></ul> |
 | Video-levering | Toegestaan voor het afleveren of downloaden van video | 300 video&#39;s, 1 minuut per video | Ja<p>Upgrade uitvoeren naar AEM Assets-licentie</p> |
@@ -84,12 +84,12 @@ De volgende tabellen geven een overzicht van de licentiegrenzen en systeemgrenze
 
 >[!NOTE]
 >
->**Gebruikers van de Macht** kunnen tot Adobe Express direct of binnen Adobe Commerce Optimizer toegang hebben. **de Gebruikers van de Medewerker** kunnen tot de toepassing van Adobe Express direct toegang hebben. Het gebruik wordt geregeerd door [&#x200B; Adobe Express met de Specifieke het Vergunningsvoorwaarden van het Product van Firefly &#x200B;](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeExpressWFirefly-WW-2025v1.pdf).
+>**Gebruikers van de Macht** kunnen tot Adobe Express direct of binnen toegang hebben [!DNL Adobe Commerce Optimizer]. **de Gebruikers van de Medewerker** kunnen tot de toepassing van Adobe Express direct toegang hebben. Het gebruik wordt geregeerd door [ Adobe Express met de Specifieke het Vergunningsvoorwaarden van het Product van Firefly ](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeExpressWFirefly-WW-2025v1.pdf).
 
 
 >[!BEGINSHADEBOX  &quot;Bereken Dynamisch gebruik van Media&quot;]
 
-Met Dynamic Media-gebruik worden API-aanvragen bijgehouden die in de componenten Product Visuals in Adobe Commerce Optimizer worden binnengebracht om een van de volgende handelingen mogelijk te maken:
+Met Dynamic Media-gebruik worden API-aanvragen bijgehouden die in de componenten Product Visuals binnen [!DNL Adobe Commerce Optimizer] worden binnengekomen om een van de volgende handelingen mogelijk te maken:
 
 - **de levering van het Beeld verbruikt één dynamische media verrichting** voor elk voorkomen van het volgende:
    - **basisbeeldtransformatie** van een digitaal middel, bijvoorbeeld resize, schaal, formaatomzetting, compressie, of gewassenverrichtingen.
@@ -104,7 +104,7 @@ Met Dynamic Media-gebruik worden API-aanvragen bijgehouden die in de componenten
 
 | **Capability** | **Beschrijving** | **Basis toewijzing** | **uitbreidbaar?** |
 | --- | --- | --- | --- |
-| Catalogusweergaven | Aantal configureerbare subsets van uw hoofdcatalogus | Gebaseerd op het aantal [&#x200B; variaties van de Catalogus &#x200B;](#catalog) | Ja <br> de catalogusvariaties van de verhoging |
+| Catalogusweergaven | Aantal configureerbare subsets van uw hoofdcatalogus | Gebaseerd op het aantal [ variaties van de Catalogus ](#catalog) | Ja <br> de catalogusvariaties van de verhoging |
 | Beleid per catalogusweergave | Aantal toegestane gegevensfilters | 10 | Nee |
 | Kenmerkwaarden in een beleid | Aantal productkenmerken die voor het filtreren kunnen worden gevormd | 100 | Nee |
 
@@ -124,7 +124,7 @@ De basistoewijzing voor opslagmogelijkheden voor catalogi wordt bepaald op basis
 
 >[!NOTE]
 >
->Voor het genereren van afbeeldingen is een Adobe Firefly-licentie vereist die is ingericht op dezelfde IMS org als Adobe Commerce Optimizer.
+>Voor het genereren van afbeeldingen is een Adobe Firefly-licentie vereist die is ingericht op dezelfde IMS org als [!DNL Adobe Commerce Optimizer] .
 
 
 ### Productdetectie
@@ -137,7 +137,7 @@ De basistoewijzing voor opslagmogelijkheden voor catalogi wordt bepaald op basis
 | Sorteerbare kenmerken | Het aantal productkenmerken dat kan worden geconfigureerd voor het bepalen van de volgorde van waarden voor zoekresultaten | 50 | Nee |
 | Zoekpagindiepte | Het maximumaantal producten dat toegankelijk is via paginering (bijvoorbeeld pagina 100 × 100 producten/pagina) | 10 K | Nee |
 | Facetten | Het aantal filterbare productkenmerken (zoals merk, kleur, grootte, prijs) die kunnen worden geconfigureerd om kopers te helpen zoekresultaten te verfijnen en door categorieën te bladeren | 100<p>Moet filterbare kenmerken hebben</p> | Nee |
-| Opties per facet | Het aantal filterbare productkenmerkwaarden (zoals &quot;Rood&quot;, &quot;Blauw&quot; voor Kleur, &quot;Klein&quot;, &quot;Medium&quot; voor Grootte) die gebruikers in een lijst kunnen selecteren | 100 | Ja<p>Kan worden vergroot via supportverzoek</p> |
+| Opties per facet | Het aantal filterbare productkenmerkwaarden (zoals &quot;Rood&quot;, &quot;Blauw&quot; voor Kleur, &quot;Klein&quot;, &quot;Medium&quot; voor Grootte) die gebruikers in een lijst kunnen selecteren | 1000 | Nee |
 
 {style="table-layout:auto"}
 
@@ -156,7 +156,7 @@ De volgende mogelijkheden zijn beschikbaar voor productaanbevelingen. Sommige fu
 
 | **Capability** | **Beschrijving** | **Basis toewijzing** | **uitbreidbaar?** | **Nota&#39;s** |
 | --- | --- | --- | --- | --- |
-| Adobe Developer App Builder | Capaciteit voor het bouwen van cloud-native extensies en integratie | Gebaseerd op GMV-laag<p>Minimumtoewijzing: 1 verpakking/jaar</p> | Ja<p>Extra pakketten toevoegen</p> | Voor de per verpakking vastgestelde limieten, zie:<ul><li>[&#x200B; App Builder productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-developer-app-builder.html) voor grenzen die per pak worden bepaald.</li><li>[&#x200B; de Montages en de beperkingen van het Systeem &#x200B;](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings) in de *Runtime van App Builder Gidsen*.</li><li>[&#x200B; de vereisten van de Opslag van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
+| Adobe Developer App Builder | Capaciteit voor het bouwen van cloud-native extensies en integratie | Gebaseerd op GMV-laag<p>Minimumtoewijzing: 1 verpakking/jaar</p> | Ja<p>Extra pakketten toevoegen</p> | Voor de per verpakking vastgestelde limieten, zie:<ul><li>[ App Builder productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-developer-app-builder.html) voor grenzen die per pak worden bepaald.</li><li>[ de Montages en de beperkingen van het Systeem ](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings) in de *Runtime van App Builder Gidsen*.</li><li>[ de vereisten van de Opslag van App Builder ](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/storage/)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -164,7 +164,7 @@ De volgende mogelijkheden zijn beschikbaar voor productaanbevelingen. Sommige fu
 
 Ask your Adobe representative for a list of available packages to determine which most closely matches your project
 
-To accurately size your Adobe Commerce Optimizer solution, follow these steps:
+To accurately size your [!DNL Adobe Commerce Optimizer] solution, follow these steps:
 
 1. Review the available packages, and start with a package that most closely matches your requirements.
 1. Review the capabilities and metrics to ensure they align with your business requirements.

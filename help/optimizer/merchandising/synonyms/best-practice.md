@@ -2,10 +2,11 @@
 title: Aanbevolen werkwijzen synchroniseren
 description: Leer de beste praktijken voor het uitvoeren van synoniemen in uw opslag.
 role: Admin, Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 54b300ed89f830c2fe5258ec889302a59decd59f
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+exl-id: 026bb17b-14e3-4493-ae10-376837b69de6
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Hieronder vindt u een lijst met aanbevolen procedures voor het maken van synoniemen.
 
-- In [!DNL Adobe Commerce Optimizer] worden spelfouten standaard beheerd. U kunt synoniemen instellen om woorden op te nemen die mogelijk door kopers worden gebruikt die afwijken van de woorden die in uw catalogus zijn opgegeven. Je wilt geen uitverkoop verliezen omdat iemand op zoek is naar een &quot;sofa&quot;, terwijl je product wordt aangeboden als een &quot;bank&quot;. U kunt een brede waaier van onderzoekstermijnen vangen door alle mogelijke woorden in te gaan die de klanten zouden kunnen gebruiken om uw producten te vinden. U kunt synoniemen [&#x200B; plaatsen als één manier of twee manier &#x200B;](add.md#step-2-define-the-synonym-by-type) om resultaten te verbeteren.
+- In [!DNL Adobe Commerce Optimizer] worden spelfouten standaard beheerd. U kunt synoniemen instellen om woorden op te nemen die mogelijk door kopers worden gebruikt die afwijken van de woorden die in uw catalogus zijn opgegeven. Je wilt geen uitverkoop verliezen omdat iemand op zoek is naar een &quot;sofa&quot;, terwijl je product wordt aangeboden als een &quot;bank&quot;. U kunt een brede waaier van onderzoekstermijnen vangen door alle mogelijke woorden in te gaan die de klanten zouden kunnen gebruiken om uw producten te vinden. U kunt synoniemen [ plaatsen als één manier of twee manier ](add.md#step-2-define-the-synonym-by-type) om resultaten te verbeteren.
 
 - Wijs merknamen en afkortingen toe aan hun volledige namen, bijvoorbeeld &quot;HP&quot;aan &quot;Hewlett-Packard&quot;en gemeenschappelijke productbijnamen, bijvoorbeeld &quot;iPhone&quot;aan &quot;Apple iPhone&quot;.
 

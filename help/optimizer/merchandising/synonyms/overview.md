@@ -1,10 +1,11 @@
 ---
 title: Overzicht van synoniemen
 description: Leer over synoniemen in  [!DNL Adobe Commerce Optimizer]  en hoe zij onderzoeksresultaten verbeteren.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 3131cc27a25d1bf958071b973f1d4bf1a68be152
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+exl-id: 9efa7b7b-4559-4e23-8858-d2f5da90455b
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---

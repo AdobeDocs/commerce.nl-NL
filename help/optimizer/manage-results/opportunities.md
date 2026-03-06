@@ -1,23 +1,23 @@
 ---
 title: Kansen
 description: Identificeer mogelijkheden om verkeer, betrokkenheid, en omzettingen door integratie met Adobe Sites Optimizer voor slimme, gegevensgedreven plaatsverbeteringen te bevorderen.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 7f7b4a3c866c453d9722b708a0ed4e1b601c8e8e
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op  [!DNL Adobe Commerce Optimizer]  slechts projecten van toepassing (Adobe-Beheerde infrastructuur SaaS)."
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1342'
 ht-degree: 0%
 
 ---
 
 # Kansen
 
-De **pagina van Kansen 0&rbrace; &lbrace;helpt u optimalisaties identificeren en uitvoeren om plaatsverkeer, gebruikersbetrokkenheid, en omzettingspercentages door integratie met Adobe Sites Optimizer te verbeteren.**
+De **pagina van Kansen 0} {helpt u optimalisaties identificeren en uitvoeren om plaatsverkeer, gebruikersbetrokkenheid, en omzettingspercentages door integratie met Adobe Sites Optimizer te verbeteren.**
 
-![&#x200B; Kansen &#x200B;](../assets/opportunities.png)
+![ Kansen ](../assets/opportunities.png)
 
 ## Wat zijn kansen?
 
-[&#x200B; Kansen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview) zijn op AI-Gebaseerde aanbevelingen die handelaren helpen kwesties identificeren en richten die hun handelsplaatsprestaties beïnvloeden. Deze aanbevelingen worden aangedreven door [&#x200B; Adobe Experience Manager Sites Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/home), de op wolk-gebaseerde dienst die websiteprestaties analyseert en verbetert.
+[ Kansen ](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/documentation/opportunities/overview) zijn op AI-Gebaseerde aanbevelingen die handelaren helpen kwesties identificeren en richten die hun handelsplaatsprestaties beïnvloeden. Deze aanbevelingen worden aangedreven door [ Adobe Experience Manager Sites Optimizer ](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home), de op wolk-gebaseerde dienst die websiteprestaties analyseert en verbetert.
 
 ## Belangrijkste mogelijkheden
 
@@ -28,7 +28,7 @@ De **pagina van Kansen 0&rbrace; &lbrace;helpt u optimalisaties identificeren en
 
 ## Aan de slag
 
-Neem contact op met uw CSM (Customer Succesmanager) om Opportunity in Commerce Optimizer in te schakelen. De kansen zijn beschikbaar met de **Ultima** Adobe Sites Optimizer vergunning.
+Als u Opportunity wilt inschakelen in [!DNL Adobe Commerce Optimizer] , neemt u contact op met de succesmanager (CSM) van uw klant. De kansen zijn beschikbaar met de **Ultima** Adobe Sites Optimizer vergunning.
 
 ## Snelle rondleiding
 
@@ -38,7 +38,7 @@ De pagina Opportunity is ingedeeld in drie tabbladen waarmee u aanbevelingen voo
 - **Overgeslagen** - bevat kansen die u hebt gekozen om te sluiten of uit te stellen. U kunt kansen hier bewegen als zij niet relevant voor uw huidige bedrijfsdoelstellingen zijn.
 - **Geoptimaliseerd (Gedaan)** - toont kansen die met succes door auto-moeilijke plaatsing zijn gericht. Eventuele handmatig toegewezen mogelijkheden worden niet weergegeven op dit tabblad. Op dit tabblad kunt u uw automatisch vastgelegde mogelijkheden in de loop van de tijd bijhouden.
 
-![&#x200B; Huidige Kansen &#x200B;](../assets/current-opportunities.png)
+![ Huidige Kansen ](../assets/current-opportunities.png)
 
 ## Workflow voor automatisch detecteren
 
@@ -62,13 +62,13 @@ Voordat automatisch detecteren aanbevelingen kan genereren, moeten de catalogusg
 Als automatisch detectie optimalisatiemogelijkheden heeft, kunt u:
 
 - Het overzicht stelde optimalisaties in het **Huidige (Actieve)** lusje voor.
-- Stel automatisch moeilijke situaties op gebruikend het [&#x200B; auto-moeilijke werkschema &#x200B;](#auto-fix-workflow) (voor gesteunde [&#x200B; opportuniteitstypes &#x200B;](#supported-opportunity-types)).
+- Stel automatisch moeilijke situaties op gebruikend het [ auto-moeilijke werkschema ](#auto-fix-workflow) (voor gesteunde [ opportuniteitstypes ](#supported-opportunity-types)).
 - Wijzigingen handmatig implementeren in uw Commerce-beheerder.
 - Negeer kansen die niet met uw bedrijfsdoelstellingen richten.
 
 ## Workflow voor automatisch repareren
 
-Met de workflow voor automatisch repareren kunt u met één klik snel door AI gegenereerde optimalisaties implementeren. Als u een automatische correctie toepast, maakt het systeem een optimalisatielaag voor catalogi die specifieke productkenmerken overschrijft zonder de oorspronkelijke productgegevens te wijzigen. Uw oorspronkelijke productgegevens blijven intact, zodat u op elk moment veilig optimalisaties kunt toepassen en wijzigingen kunt herstellen. Zie [&#x200B; hoe de cataloguslagen met auto-moeilijke situatie &#x200B;](#how-catalog-layers-work-with-auto-fix) werken om meer te leren.
+Met de workflow voor automatisch repareren kunt u met één klik snel door AI gegenereerde optimalisaties implementeren. Als u een automatische correctie toepast, maakt het systeem een optimalisatielaag voor catalogi die specifieke productkenmerken overschrijft zonder de oorspronkelijke productgegevens te wijzigen. Uw oorspronkelijke productgegevens blijven intact, zodat u op elk moment veilig optimalisaties kunt toepassen en wijzigingen kunt herstellen. Zie [ hoe de cataloguslagen met auto-moeilijke situatie ](#how-catalog-layers-work-with-auto-fix) werken om meer te leren.
 
 ### Ondersteunde opportuniteitstypen
 
@@ -96,7 +96,7 @@ De volgende lijsten de gesteunde opportuniteitstypes:
 
 Controleer voordat u de automatische correctie gebruikt of:
 
-- Je productcatalogus wordt volledig in Commerce Optimizer opgenomen.
+- Uw productcatalogus wordt volledig opgenomen in [!DNL Adobe Commerce Optimizer] .
 - Het opportuniteitstype ondersteunt automatisch repareren (voor sommige optimalisatietypen is handmatige implementatie vereist).
 - U hebt de juiste machtigingen om cataloguslagen te maken en te beheren.
 
@@ -114,15 +114,15 @@ Voer de volgende stappen uit om een door AI voorgestelde optimalisatie te implem
 
 1. Selecteer een mogelijkheid.
 
-   ![&#x200B; Uitgezochte Kans &#x200B;](../assets/autofix-opportunity.png)
+   ![ Uitgezochte Kans ](../assets/autofix-opportunity.png)
 
    >[!NOTE]
    >
-   >**stelt optimalisering** knoop op is beschikbaar slechts voor [&#x200B; gesteunde voorsteltypes &#x200B;](#supported-opportunity-types). Voor niet-ondersteunde typen is het selectievakje uitgeschakeld en moet u correcties handmatig toepassen in de catalogus.
+   >**stelt optimalisering** knoop op is beschikbaar slechts voor [ gesteunde voorsteltypes ](#supported-opportunity-types). Voor niet-ondersteunde typen is het selectievakje uitgeschakeld en moet u correcties handmatig toepassen in de catalogus.
 
-1. Klik **opstellen optimalisering** dan klik **&#x200B;**&#x200B;opstelt om het auto-moeilijke proces teweeg te brengen.
+1. Klik **opstellen optimalisering** dan klik **** opstelt om het auto-moeilijke proces teweeg te brengen.
 
-   ![&#x200B; stel Optimalisering &#x200B;](../assets/deploy-autofix.png) op
+   ![ stel Optimalisering ](../assets/deploy-autofix.png) op
 
    Het systeem voert de volgende acties op de achtergrond uit:
 
@@ -138,7 +138,7 @@ Voer de volgende stappen uit om een door AI voorgestelde optimalisatie te implem
    - **Groen controleteken** - de optimalisatielaag wordt geplaatst als eerste prioriteit en actief toegepast op uw storefront.
    - **het waarschuwingspictogram** - de laag bestaat maar is niet de hoogste prioriteit, betekenend kan het door een andere laag worden met voeten getreden.
 
-   ![&#x200B; Voltooide Kansen &#x200B;](../assets/done-opportunities.png)
+   ![ Voltooide Kansen ](../assets/done-opportunities.png)
 
 >[!NOTE]
 >
@@ -146,11 +146,11 @@ Voer de volgende stappen uit om een door AI voorgestelde optimalisatie te implem
 
 ### Hoe cataloguslagen werken met automatisch corrigeren
 
-Als een Adobe Sites Optimizer-laag niet bestaat in de catalogusweergave, wordt er automatisch een gemaakt door automatisch repareren en wordt hieraan de volgorde 1 toegewezen (hoogste prioriteit). Als u deze laag verwijdert, wordt deze de volgende keer dat de automatische correctie wordt uitgevoerd, opnieuw gemaakt en worden bestaande lagen omgezet in lagere volgordenummers. Als de Adobe Sites Optimizer-laag al in een ander volgordenummer bestaat, verandert de prioriteit van de automatische correctie niet. Als u een automatisch herstelbare laag wilt behouden, maar deze niet onmiddellijk wilt gebruiken, kunt u de laag uitschakelen. Leer meer over hoe te om [&#x200B; cataloguslagen &#x200B;](../setup/catalog-layer.md#activate-or-deactivate-layers) te beheren.
+Als een Adobe Sites Optimizer-laag niet bestaat in de catalogusweergave, wordt er automatisch een gemaakt door automatisch repareren en wordt hieraan de volgorde 1 toegewezen (hoogste prioriteit). Als u deze laag verwijdert, wordt deze de volgende keer dat de automatische correctie wordt uitgevoerd, opnieuw gemaakt en worden bestaande lagen omgezet in lagere volgordenummers. Als de Adobe Sites Optimizer-laag al in een ander volgordenummer bestaat, verandert de prioriteit van de automatische correctie niet. Als u een automatisch herstelbare laag wilt behouden, maar deze niet onmiddellijk wilt gebruiken, kunt u de laag uitschakelen. Leer meer over hoe te om [ cataloguslagen ](../setup/catalog-layer.md#activate-or-deactivate-layers) te beheren.
 
-![&#x200B; Lagen van de Catalogus &#x200B;](../assets/catalog-layers.png)
+![ Lagen van de Catalogus ](../assets/catalog-layers.png)
 
-Het diagram toont één enkele rij genoemd **optimalisering van ASO**. Deze ingang vertegenwoordigt alle kansen u verkiest om auto-moeilijke situatie te herstellen. Of u auto-moeilijke één enkele kans of veelvoudige kansen, zij allen in deze enige **optimalisering van ASO** rij verschijnen. De lagen zijn specifiek voor elke catalogusmening, zodat past de **hier getoonde catalogusmening van 0&rbrace; Los Angeles &lbrace;zijn** **laag van de Optimalisering van ASO slechts toe wanneer die mening actief is.**
+Het diagram toont één enkele rij genoemd **optimalisering van ASO**. Deze ingang vertegenwoordigt alle kansen u verkiest om auto-moeilijke situatie te herstellen. Of u auto-moeilijke één enkele kans of veelvoudige kansen, zij allen in deze enige **optimalisering van ASO** rij verschijnen. De lagen zijn specifiek voor elke catalogusmening, zodat past de **hier getoonde catalogusmening van 0} Los Angeles {zijn** **laag van de Optimalisering van ASO slechts toe wanneer die mening actief is.**
 
 ### Belangrijke overwegingen
 
@@ -172,19 +172,19 @@ Als er geen optimalisatie lijkt te zijn toegepast op de winkel:
 
 ## Hoe Sites Optimizer en succesmetriek samenwerken
 
-Succeswaarden meten de belangrijkste prestatie-indicatoren, zoals productdetectie en efficiëntie van catalogusbedrijven, terwijl de mogelijkheden in Sites Optimizer u laten weten hoe u SEO, laadsnelheid, toegankelijkheid en betrokkenheid kunt verhogen. Samen kunnen handelaren en marketers de operationele efficiëntie verbeteren, waardoor de end-to-end prestaties en omzettingswinsten sneller worden dankzij minimale IT-ondersteuning. Leren hoe u uit deze twee technologieën kunt voordeel halen om uw storefront prestaties en ervaring te verbeteren, zie [&#x200B; Gebruikend de Metriek van het Succes en Sites Optimizer samen &#x200B;](./success-metrics.md#using-success-metrics-and-sites-optimizer-together).
+Succeswaarden meten de belangrijkste prestatie-indicatoren, zoals productdetectie en efficiëntie van catalogusbedrijven, terwijl de mogelijkheden in Sites Optimizer u laten weten hoe u SEO, laadsnelheid, toegankelijkheid en betrokkenheid kunt verhogen. Samen kunnen handelaren en marketers de operationele efficiëntie verbeteren, waardoor de end-to-end prestaties en omzettingswinsten sneller worden dankzij minimale IT-ondersteuning. Leren hoe u uit deze twee technologieën kunt voordeel halen om uw storefront prestaties en ervaring te verbeteren, zie [ Gebruikend de Metriek van het Succes en Sites Optimizer samen ](./success-metrics.md#using-success-metrics-and-sites-optimizer-together).
 
 ## Meer informatie over Sites Optimizer
 
-Voor gedetailleerde informatie over de mogelijkheden en de eigenschappen van Sites Optimizer, zie de [&#x200B; documentatie van Adobe Experience Manager Sites Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-sites-optimizer/content/home).
+Voor gedetailleerde informatie over de mogelijkheden en de eigenschappen van Sites Optimizer, zie de [ documentatie van Adobe Experience Manager Sites Optimizer ](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home).
 
 Aanvullende bronnen:
 
-- [&#x200B; types van Kans &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunities) - Leer over beschikbare optimaliseringskansen.
-- [&#x200B; mogelijkheden van Sites Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/capabilities) - Onderzoek wat Sites Optimizer kan doen.
+- [ types van Kans ](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunities) - Leer over beschikbare optimaliseringskansen.
+- [ mogelijkheden van Sites Optimizer ](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/capabilities) - Onderzoek wat Sites Optimizer kan doen.
 
 ## Meer als dit
 
-- [&#x200B; Metriek van het Succes &#x200B;](success-metrics.md) - controleer zeer belangrijke prestatiesindicatoren.
-- [&#x200B; Prestaties van het Onderzoek &#x200B;](search-performance.md) - analyseer onderzoekstermijnen en optimaliseer relevantie.
-- [&#x200B; Prestaties van de Aanbeveling &#x200B;](recommendation-performance.md) - de aanbeveling van de monitor doeltreffendheid.
+- [ Metriek van het Succes ](success-metrics.md) - controleer zeer belangrijke prestatiesindicatoren.
+- [ Prestaties van het Onderzoek ](search-performance.md) - analyseer onderzoekstermijnen en optimaliseer relevantie.
+- [ Prestaties van de Aanbeveling ](recommendation-performance.md) - de aanbeveling van de monitor doeltreffendheid.

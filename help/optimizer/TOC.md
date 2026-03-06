@@ -4,16 +4,16 @@ user-guide-description: Documentatie en middelen voor  [!DNL Adobe Commerce Opti
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: bf1d88ef7daec25872678bb27bce0bb7c97fd296
+source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 4%
 
 ---
 
 # [!DNL Adobe Commerce Optimizer] {#optimizer}
 
-- [Wat is Adobe Commerce Optimizer?](overview.md)
+- [Wat is  [!DNL Adobe Commerce Optimizer]?](overview.md)
 - [Aan de slag](get-started.md)
 - [Gebruiker- en identiteitsbeheer](user-management.md)
 - [Gedeelde verantwoordelijkheid](shared-responsibility.md)
@@ -62,6 +62,6 @@ ht-degree: 4%
 - Hoofdletters gebruiken {#use-case}
    - [Gebruiksscenario van begin tot eind voor Storefront en Catalog Admin](./use-case/admin-use-case.md)
 - Bronnen voor ontwikkelaars {#developer}
-   - [&#x200B; Gids van de Ontwikkelaar en API Verwijzingen &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
+   - [ Gids van de Ontwikkelaar en API Verwijzingen ](https://developer.adobe.com/commerce/services/optimizer/)
    - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
 

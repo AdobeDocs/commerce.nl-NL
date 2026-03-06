@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Voorwaarden voor zelfstudie
 
-Deze pagina maakt een lijst van de eerste vereisten en opstellingsstappen voor [!DNL Adobe Commerce as a Cloud Service] leerprogramma&#39;s, zoals het [ leerprogramma van de classificatieuitbreiding ](./ratings-extension.md) en het [ verschepen zelfstudie van de methodeuitbreiding ](./shipping-method-extension.md).
+Deze pagina maakt een lijst van de eerste vereisten en opstellingsstappen voor [!DNL Adobe Commerce as a Cloud Service] leerprogramma&#39;s, zoals het [&#x200B; leerprogramma van de classificatieuitbreiding &#x200B;](./ratings-extension.md) en het [&#x200B; verschepen zelfstudie van de methodeuitbreiding &#x200B;](./shipping-method-extension.md).
 
 ## Algemene voorwaarden
 
@@ -29,7 +29,7 @@ De volgende gereedschappen zijn vereist voor de ontwikkeling van extensies en wi
   npm --version
   ```
 
-* Installeer [ Git ](https://git-scm.com) - verifieer uw installatie:
+* Installeer [&#x200B; Git &#x200B;](https://git-scm.com) - verifieer uw installatie:
 
   ```bash
   git --version
@@ -37,9 +37,9 @@ De volgende gereedschappen zijn vereist voor de ontwikkeling van extensies en wi
 
 * Schelp
    * macOS/Linux: geen installatie vereist
-   * Vensters: Het gebruik [ Bash van de Git ](https://git-scm.com/install) of [ Subsysteem van Vensters voor Linux (WSL) ](https://learn.microsoft.com/en-us/windows/wsl/install)
+   * Vensters: Het gebruik [&#x200B; Bash van de Git &#x200B;](https://git-scm.com/install) of [&#x200B; Subsysteem van Vensters voor Linux (WSL) &#x200B;](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-* Download AI-bijgewoonde winde, zoals [ Cursor ](https://cursor.com/download) (geadviseerd). Andere IDEs, zoals de Code van Claude, Gemini CLI, of Copilot worden ook gesteund, maar kon wijzigingen in de herinneringen en andere stappen in het leerprogramma vereisen.
+* Download AI-bijgewoonde winde, zoals [&#x200B; Cursor &#x200B;](https://cursor.com/download) (geadviseerd). Andere IDEs, zoals de Code van Claude, Gemini CLI, of Copilot worden ook gesteund, maar kon wijzigingen in de herinneringen en andere stappen in het leerprogramma vereisen.
 
 ## [!DNL Adobe Commerce as a Cloud Service] voorwaarden
 
@@ -49,7 +49,7 @@ De volgende gereedschappen zijn vereist voor de ontwikkeling van extensies en wi
   npm install -g @adobe/aio-cli
   ```
 
-* Installeer [ Adobe I/O CLI Commerce ](https://github.com/adobe-commerce/aio-cli-plugin-commerce), [ Adobe I/O CLI Runtime ](https://github.com/adobe/aio-cli-plugin-runtime), en [ App Builder CLI ](https://github.com/adobe/aio-cli-plugin-app-dev) stoppen:
+* Installeer [&#x200B; Adobe I/O CLI Commerce &#x200B;](https://github.com/adobe-commerce/aio-cli-plugin-commerce), [&#x200B; Adobe I/O CLI Runtime &#x200B;](https://github.com/adobe/aio-cli-plugin-runtime), en [&#x200B; App Builder CLI &#x200B;](https://github.com/adobe/aio-cli-plugin-app-dev) stoppen:
 
   ```bash
   aio plugins:install https://github.com/adobe-commerce/aio-cli-plugin-commerce @adobe/aio-cli-plugin-app-dev @adobe/aio-cli-plugin-runtime
@@ -59,20 +59,20 @@ De volgende gereedschappen zijn vereist voor de ontwikkeling van extensies en wi
 
 Stel een project in de Adobe Developer Console in met de vereiste API&#39;s en referenties.
 
-1. Navigeer aan [ Adobe Developer Console ](https://developer.adobe.com/console){target="_blank"}.
+1. Navigeer aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console){target="_blank"}.
 1. Meld u aan met uw e-mail en wachtwoord.
 
 #### Een nieuw project maken
 
 Maak een App Builder-project in de Adobe Developer Console als host voor uw extensie.
 
-1. Navigeer aan [ Adobe Developer Console ](https://developer.adobe.com/).
+1. Navigeer aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
 1. Klik op **[!UICONTROL Create project from a template]**.
 1. Selecteer de sjabloon **[!UICONTROL App Builder]** .
 1. Voer een **[!UICONTROL Project Title]** en **[!UICONTROL App Name]** in.
 1. Controleer of het selectievakje **[!UICONTROL Include Runtime]** is gemarkeerd.
 
-   ![ Adobe Developer Console project verwezenlijking met het geselecteerde malplaatje van App Builder ](../assets/app-builder-template.png){width="600" zoomable="yes"}
+   ![&#x200B; Adobe Developer Console project verwezenlijking met het geselecteerde malplaatje van App Builder &#x200B;](../assets/app-builder-template.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -82,7 +82,7 @@ Voeg de vereiste API&#39;s toe aan uw werkruimte van het werkgebied voor gebeurt
 
 1. Klik op de werkruimte **[!UICONTROL Stage]** en herhaal vervolgens de volgende stappen voor elke API.
 
-   ![ werkruimte van het Stadium met Add de optie van de Dienst voor APIs ](../assets/add-apis-workspace.png){width="600" zoomable="yes"}
+   ![&#x200B; werkruimte van het Stadium met Add de optie van de Dienst voor APIs &#x200B;](../assets/add-apis-workspace.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add Service]** en selecteer **[!UICONTROL API]** .
 
@@ -100,7 +100,7 @@ Voeg de vereiste API&#39;s toe aan uw werkruimte van het werkgebied voor gebeurt
 
 1. Herhaal de vorige stappen totdat u alle API&#39;s aan de werkruimte toevoegt.
 
-   ![ Workspace die alle vereiste met succes toegevoegde APIs tonen ](../assets/apis-added.png){width="600" zoomable="yes"}
+   ![&#x200B; Workspace die alle vereiste met succes toegevoegde APIs tonen &#x200B;](../assets/apis-added.png){width="600" zoomable="yes"}
 
 ### De Adobe I/O CLI configureren
 
@@ -132,7 +132,7 @@ Verbind [!DNL Adobe I/O CLI] met uw organisatie, project, en werkruimte.
    aio console workspace select
    ```
 
-   ![ Eind die Adobe I/O CLI organisatieproject en werkruimteselectie tonen ](../assets/cli-configuration.png){width="600" zoomable="yes"}
+   ![&#x200B; Eind die Adobe I/O CLI organisatieproject en werkruimteselectie tonen &#x200B;](../assets/cli-configuration.png){width="600" zoomable="yes"}
 
 ### De startkits klonen
 
@@ -174,9 +174,9 @@ OAUTH_TECHNICAL_ACCOUNT_EMAIL=
 OAUTH_ORG_ID=
 ```
 
-Kopieer deze waarden van de **[!UICONTROL Credential details]** pagina in [ Developer Console ](https://developer.adobe.com/) door het **[!UICONTROL OAuth Server-to-Server]** lusje op uw werkruimte te klikken.
+Kopieer deze waarden van de **[!UICONTROL Credential details]** pagina in [&#x200B; Developer Console &#x200B;](https://developer.adobe.com/) door het **[!UICONTROL OAuth Server-to-Server]** lusje op uw werkruimte te klikken.
 
-![ OAuth Server-aan-Server geloofsbrieven pagina in Adobe Developer Console ](../assets/oauth-credentials.png){width="600" zoomable="yes"}
+![&#x200B; OAuth Server-aan-Server geloofsbrieven pagina in Adobe Developer Console &#x200B;](../assets/oauth-credentials.png){width="600" zoomable="yes"}
 
 #### De Commerce-configuratie toevoegen
 
@@ -189,7 +189,7 @@ COMMERCE_GRAPHQL_ENDPOINT=
 
 U kunt als volgt de volgende waarden vinden:
 
-1. Navigeer aan [ instanties van de Dienst van Commerce Cloud ](https://experience.adobe.com/#/@commerce/commerce/cloud-service/instances).
+1. Navigeer aan [&#x200B; instanties van de Dienst van Commerce Cloud &#x200B;](https://experience.adobe.com/#/@commerce/commerce/cloud-service/instances).
 1. Klik op het informatiepictogram naast de instantie.
 1. Kopieer het REST-eindpunt als `COMMERCE_BASE_URL` .
 1. Kopieer het GraphQL-eindpunt als `COMMERCE_GRAPHQL_ENDPOINT` .
@@ -224,7 +224,7 @@ Koppel uw lokale project aan de externe werkruimte:
 aio app use workspace.json -m
 ```
 
-![ Eind die succesvolle werkruimteverbinding tonen met het bevel van het de toepassingsgebruik van de lucht ](../assets/connect-workspace.png){width="600" zoomable="yes"}
+![&#x200B; Eind die succesvolle werkruimteverbinding tonen met het bevel van het de toepassingsgebruik van de lucht &#x200B;](../assets/connect-workspace.png){width="600" zoomable="yes"}
 
 >[!TAB  Uitchecken starter kit ]
 
@@ -238,7 +238,7 @@ aio app use --merge
 
 Wanneer ertoe aangezet, kies de optie die de organisatie, het project, en de werkruimte gebruikt u selecteerde toen het vormen van Adobe I/O CLI. Hiermee schrijft u de werkruimteconfiguratie naar uw app, zodat deze werkruimte wordt gebruikt bij de implementatie en lokale ontwikkeling.
 
-![ Eind die succesvolle werkruimteverbinding tonen met het bevel van het de toepassingsgebruik van de lucht ](../assets/connect-workspace.png){width="600" zoomable="yes"}
+![&#x200B; Eind die succesvolle werkruimteverbinding tonen met het bevel van het de toepassingsgebruik van de lucht &#x200B;](../assets/connect-workspace.png){width="600" zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -257,7 +257,7 @@ Dit proces leidt tot de configuratie MCP (`.<agent>/mcp.json`), de vaardigheidsf
    aio commerce extensibility tools-setup
    ```
 
-   ![ Eind die AI de output van het bevel van de de opstellingsbevelopstelling van uitbreidingshulpmiddelen tonen ](../assets/install-ai-tools.png){width="600" zoomable="yes"}
+   ![&#x200B; Eind die AI de output van het bevel van de de opstellingsbevelopstelling van uitbreidingshulpmiddelen tonen &#x200B;](../assets/install-ai-tools.png){width="600" zoomable="yes"}
 
 1. Nadat de opstelling voltooit, nieuw begin uw coderingsagent om het toe te staan om de nieuwe hulpmiddelen MCP en vaardigheden te laden. De Commerce App Builder-tools zijn nu beschikbaar in uw omgeving.
 
@@ -265,15 +265,15 @@ Dit proces leidt tot de configuratie MCP (`.<agent>/mcp.json`), de vaardigheidsf
    >
    >Als u een waarschuwing ziet dat er geen vaardigheden zijn gevonden voor de startkit, is er iets fout gegaan, vaak omdat de installatie in een andere map dan waar de startkit is gekloond, is uitgevoerd. Voer `aio commerce extensibility tools-setup` uit vanuit de map `extension` (de hoofdmap van het startkit-project) en selecteer de juiste startkit wanneer hierom wordt gevraagd.
 
-   ![ Eind die AI de opstelling van rekbaarheidshulpmiddelen met geselecteerde kweekstarterkit tonen ](../assets/tools-setup-checkout.png){width="600" zoomable="yes"}
+   ![&#x200B; Eind die AI de opstelling van rekbaarheidshulpmiddelen met geselecteerde kweekstarterkit tonen &#x200B;](../assets/tools-setup-checkout.png){width="600" zoomable="yes"}
 
 ## Voorwaarden voor Storefront
 
-De volgende punten worden vereist om de [ opslag ](./ratings-extension.md#connect-to-the-storefront) sectie van de [ de uitbreidingsleerprogramma van classificaties ](./ratings-extension.md) te voltooien en productratings in uw opslag te tonen.
+De volgende punten worden vereist om de [&#x200B; opslag &#x200B;](./ratings-extension.md#connect-to-the-storefront) sectie van de [&#x200B; de uitbreidingsleerprogramma van classificaties &#x200B;](./ratings-extension.md) te voltooien en productratings in uw opslag te tonen.
 
-* [ Google Chrome ](https://www.google.com/chrome/) - Vereist voor het testen van de storefront
+* [&#x200B; Google Chrome &#x200B;](https://www.google.com/chrome/) - Vereist voor het testen van de storefront
 
-* Een storefront-project dat is verbonden met uw [!DNL Commerce] -instantie. Als u geen storefront project hebt, volg de stappen in [ creeer een storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}, met inbegrip van de [ reactie van de Verbinding aan handelsgegevens ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#link-repo-to-commerce-data){target="_blank"} sectie.
+* Een storefront-project dat is verbonden met uw [!DNL Commerce] -instantie. Als u geen storefront project hebt, volg de stappen in [&#x200B; creeer een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}, met inbegrip van de [&#x200B; reactie van de Verbinding aan handelsgegevens &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#link-repo-to-commerce-data){target="_blank"} sectie.
 
 ### De opslagplaats klonen
 

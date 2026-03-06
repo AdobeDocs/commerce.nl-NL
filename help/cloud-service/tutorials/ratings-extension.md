@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Deze zelfstudie begeleidt u bij het maken van een productrating-extensie voor [!DNL Adobe Commerce as a Cloud Service] gebruik van [!DNL Adobe App Builder] - en AI-ontwikkelingsprogramma&#39;s.
 
-Alvorens u begint, voltooi de [ eerste vereisten ](./tutorial-prerequisites.md).
+Alvorens u begint, voltooi de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md).
 
 ## Voorwaarden verifiëren
 
@@ -38,7 +38,7 @@ git --version
 bash --version
 ```
 
-Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [ eerste vereisten ](./tutorial-prerequisites.md) voor begeleiding.
+Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md) voor begeleiding.
 
 ## Uitbreiding
 
@@ -46,7 +46,7 @@ In deze sectie vindt u instructies voor het ontwikkelen van een extensie voor be
 
 1. Navigeer naar **[!UICONTROL Cursor]** > **[!UICONTROL Settings]** > **[!UICONTROL Cursor Settings]** > **[!UICONTROL Tools & MCP]** en controleer of de gereedschapset `commerce-extensibility` zonder fouten is ingeschakeld. Als er fouten optreden, schakelt u de gereedschapset in en uit.
 
-   ![ de montages van winde van de Curseur die MCP handel-rekbaarheid toegelaten toolset tonen ](../assets/cursor-settings.png){width="600" zoomable="yes"}
+   ![&#x200B; de montages van winde van de Curseur die MCP handel-rekbaarheid toegelaten toolset tonen &#x200B;](../assets/cursor-settings.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ In deze sectie vindt u instructies voor het ontwikkelen van een extensie voor be
 
    * Navigeer naar **[!UICONTROL Cursor]** > **[!UICONTROL Settings]** > **[!UICONTROL Cursor Settings]** > **[!UICONTROL Indexing & Docs]** en verwijder de vermelde documentatie.
 
-   ![ Curseur het indexeren en docs montages met lege documentatielijst ](../assets/disable-documentation.png){width="600" zoomable="yes"}
+   ![&#x200B; Curseur het indexeren en docs montages met lege documentatielijst &#x200B;](../assets/disable-documentation.png){width="600" zoomable="yes"}
 
 1. Code genereren voor een extensie voor productbeoordelingen:
    * Selecteer de modus **[!UICONTROL Agent]** in het chatvenster Cursor.
@@ -79,9 +79,9 @@ In deze sectie vindt u instructies voor het ontwikkelen van een extensie voor be
 
 1. Beantwoord de vragen van de agent precies om het te helpen de beste code produceren.
 
-   ![ het praatjevenster van de Curseur op de wijze van de Agent met ingevoerde uitbreidingsherinnering ](../assets/enter-prompt.png){width="600" zoomable="yes"}
+   ![&#x200B; het praatjevenster van de Curseur op de wijze van de Agent met ingevoerde uitbreidingsherinnering &#x200B;](../assets/enter-prompt.png){width="600" zoomable="yes"}
 
-   ![ AI agent die vragen die over uitbreidingsvereisten verduidelijken ](../assets/agent-questions.png){width="600" zoomable="yes"}
+   ![&#x200B; AI agent die vragen die over uitbreidingsvereisten verduidelijken &#x200B;](../assets/agent-questions.png){width="600" zoomable="yes"}
 
 1. Gebruik de volgende voorbeeldtekst om de vragen van de agent aan opstellings willekeurig gevormde classificatiegegevens te beantwoorden:
 
@@ -101,7 +101,7 @@ In deze sectie vindt u instructies voor het ontwikkelen van een extensie voor be
 
    De agent maakt een `requirements.md` -bestand dat als bron van waarheid voor de implementatie fungeert.
 
-   ![ Requirements.md- dossier dat door AI agent met implementatiedetails ](../assets/requirements-file.png){width="600" zoomable="yes"} wordt gecreeerd
+   ![&#x200B; Requirements.md- dossier dat door AI agent met implementatiedetails &#x200B;](../assets/requirements-file.png){width="600" zoomable="yes"} wordt gecreeerd
 
 1. Controleer het `requirements.md` -bestand en verifieer het plan.
 
@@ -113,11 +113,11 @@ In deze sectie vindt u instructies voor het ontwikkelen van een extensie voor be
 
    De agent produceert de noodzakelijke code en verstrekt een gedetailleerde samenvatting met uw volgende stappen.
 
-   ![ AI de architectuurplan van de agentenfase 2 voor classificaties API ](../assets/architecture-planning.png){width="600" zoomable="yes"}
+   ![&#x200B; AI de architectuurplan van de agentenfase 2 voor classificaties API &#x200B;](../assets/architecture-planning.png){width="600" zoomable="yes"}
 
-   ![ Samenvatting van geproduceerde codedossiers en structuur ](../assets/code-generation-summary.png){width="600" zoomable="yes"}
+   ![&#x200B; Samenvatting van geproduceerde codedossiers en structuur &#x200B;](../assets/code-generation-summary.png){width="600" zoomable="yes"}
 
-   ![ AI agent die volgende stappen voor het testen en plaatsing verstrekt ](../assets/next-steps.png){width="600" zoomable="yes"}
+   ![&#x200B; AI agent die volgende stappen voor het testen en plaatsing verstrekt &#x200B;](../assets/next-steps.png){width="600" zoomable="yes"}
 
 ### De extensie lokaal testen
 
@@ -131,9 +131,9 @@ De volgende stappen betreffen hoe u de extensie kunt controleren voordat u deze 
 
 1. Volg de instructies van de agent en bevestig dat de API lokaal werkt.
 
-   ![ AI agenteninstructies voor lokale API het testen ](../assets/local-testing.png){width="600" zoomable="yes"}
+   ![&#x200B; AI agenteninstructies voor lokale API het testen &#x200B;](../assets/local-testing.png){width="600" zoomable="yes"}
 
-   ![ Eind die succesvolle lokale API testresultaten met cURL tonen ](../assets/local-testing-1.png){width="600" zoomable="yes"}
+   ![&#x200B; Eind die succesvolle lokale API testresultaten met cURL tonen &#x200B;](../assets/local-testing-1.png){width="600" zoomable="yes"}
 
 ### De extensie implementeren
 
@@ -147,19 +147,19 @@ Implementeer de extensie in [!DNL Adobe I/O Runtime] met de agent.
 
    De agent voert een pre-plaatsingsklaar beoordeling uit alvorens op te stellen.
 
-   ![ AI agent pre-plaatsing controlelist van de de hulpmiddelenbeoordeling ](../assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
+   ![&#x200B; AI agent pre-plaatsing controlelist van de de hulpmiddelenbeoordeling &#x200B;](../assets/pre-deployment-assessment.png){width="600" zoomable="yes"}
 
 1. Wanneer u met de beoordelingsresultaten vertrouwd bent, instrueer de agent om met plaatsing te werk te gaan.
 
    De agent gebruikt toolkit MCP om, automatisch te verifiëren en op te stellen.
 
-   ![ MCP toolkit ijkverificatie bouwt en plaatsingsproces ](../assets/deployment-process.png){width="600" zoomable="yes"}
+   ![&#x200B; MCP toolkit ijkverificatie bouwt en plaatsingsproces &#x200B;](../assets/deployment-process.png){width="600" zoomable="yes"}
 
 ### Implementatie controleren
 
 Test de API voordat u deze integreert in de winkel. De agent moet de locatie van de nieuwe actie en een teststrategie opgeven.
 
-![ AI agent testende strategie met opgestelde actie URL en testbevelen ](../assets/testing-strategy.png){width="600" zoomable="yes"}
+![&#x200B; AI agent testende strategie met opgestelde actie URL en testbevelen &#x200B;](../assets/testing-strategy.png){width="600" zoomable="yes"}
 
 U kunt de API ook handmatig testen met cURL in een terminal:
 
@@ -167,7 +167,7 @@ U kunt de API ook handmatig testen met cURL in een terminal:
 curl -s "https://<your-site>.adobeioruntime.net/api/v1/web/ratings/ratings?sku=TEST-SKU-123"
 ```
 
-![ Eind die succesvolle cURL test van opgestelde classificaties API tonen ](../assets/curl-test.png){width="600" zoomable="yes"}
+![&#x200B; Eind die succesvolle cURL test van opgestelde classificaties API tonen &#x200B;](../assets/curl-test.png){width="600" zoomable="yes"}
 
 ### Integreren met Edge Delivery Services
 
@@ -177,9 +177,9 @@ Als u de API voor classificaties wilt integreren met een [!DNL Adobe Commerce] s
 Create a service contract for the ratings api that I can pass on to the storefront agent. Name it RATINGS_API_CONTRACT.md
 ```
 
-![ AI agent die het dossier van het de dienstcontract voor storefront integratie creeert ](../assets/create-contract.png){width="600" zoomable="yes"}
+![&#x200B; AI agent die het dossier van het de dienstcontract voor storefront integratie creeert &#x200B;](../assets/create-contract.png){width="600" zoomable="yes"}
 
-![ het contractonderdrukkingsdossier van de Verlagingen API met eindpunt en reactiedetails ](../assets/contract.png){width="600" zoomable="yes"}
+![&#x200B; het contractonderdrukkingsdossier van de Verlagingen API met eindpunt en reactiedetails &#x200B;](../assets/contract.png){width="600" zoomable="yes"}
 
 Ga terug naar de terminal en voer de volgende opdracht in de map `extension` uit om het contractbestand naar de map `storefront` te kopiëren:
 
@@ -204,7 +204,7 @@ Deze sectie begeleidt u door het storefront gedeelte van de classificatieuitbrei
 Voordat u de storefront-integratie start, moet u controleren of u over het volgende beschikt:
 
 * Een storefront-project dat is verbonden met uw [!DNL Commerce] -instantie
-* Commerce storefront AI hulpmiddelen [ geïnstalleerd gebruikend CLI ](./tutorial-prerequisites.md#install-the-storefront-ai-tools)
+* Commerce storefront AI hulpmiddelen [&#x200B; geïnstalleerd gebruikend CLI &#x200B;](./tutorial-prerequisites.md#install-the-storefront-ai-tools)
 
 ### De werkruimte van de winkel instellen
 
@@ -218,7 +218,7 @@ Bereid uw lokale opslagmilieu voor ontwikkeling voor.
 
 1. Open de opslagmap in een nieuw cursorvenster.
 
-   Alternatief, als u de [ geïnstalleerde Curseur CLI ](https://cursor.com/docs/configuration/shell#installing-cli-commands) hebt, open het venster door het volgende bevel in uw terminal te gebruiken:
+   Alternatief, als u de [&#x200B; geïnstalleerde Curseur CLI &#x200B;](https://cursor.com/docs/configuration/shell#installing-cli-commands) hebt, open het venster door het volgende bevel in uw terminal te gebruiken:
 
    ```bash
    cursor .
@@ -303,10 +303,10 @@ Gebruik de agent om de classificaties-API te integreren in de detailpagina van h
    U zou de volgende veranderingen in uw ontwikkelomgeving en browser moeten zien:
 
    * Er wordt automatisch een productrating-component gemaakt.
-   * De component is geïntegreerd in PDP gebruikend [ drop-in groeven ](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots) of als standalone blok, afhankelijk van de gekozen architectuur.
+   * De component is geïntegreerd in PDP gebruikend [&#x200B; drop-in groeven &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots) of als standalone blok, afhankelijk van de gekozen architectuur.
    * De sterren worden weergegeven met de juiste vulverhoudingen op basis van de classificatiewaarden van de API.
 
-   ![ de detailpagina die van het Product sterclassificaties tonen onder de producttitel worden geïntegreerd ](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}
+   ![&#x200B; de detailpagina die van het Product sterclassificaties tonen onder de producttitel worden geïntegreerd &#x200B;](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}
 
 ## Zelfstudie
 
@@ -335,7 +335,7 @@ Change the star fill color to red.
 
 De sterren veranderen in rood.
 
-![ ratings van het Product die met rode ster vulkleur ](../assets/red-star-colors.png){width="600" zoomable="yes"} worden getoond
+![&#x200B; ratings van het Product die met rode ster vulkleur &#x200B;](../assets/red-star-colors.png){width="600" zoomable="yes"} worden getoond
 
 ### Een modaal classificatiedistributie toevoegen
 
@@ -343,7 +343,7 @@ De volgende stappen tonen hoe de agent complexe eigenschappen UI met visuele ver
 
 1. **alvorens te beginnen:** sparen het volgende modelbeeld en kleef het in het praatje met uw storefront agent.
 
-   ![ Mockup die de onderbreking van de classificatiedistributie door sterniveau tonen ](../assets/rating-distribution-mockup.png){width="600" zoomable="yes"}
+   ![&#x200B; Mockup die de onderbreking van de classificatiedistributie door sterniveau tonen &#x200B;](../assets/rating-distribution-mockup.png){width="600" zoomable="yes"}
 
 1. Ga als volgt te werk om de distributie van classificaties te maken met de referentieafbeelding als richtlijn:
 
@@ -369,4 +369,4 @@ Probeer het volgende als het modaal zich niet zoals verwacht gedraagt:
   adjust the modal position to be...
   ```
 
-![ Modal die gedetailleerde classificatiedistributie met ster-vlakke verdelingsbars tonen ](../assets/rating-distribution-modal.png){width="600" zoomable="yes"}
+![&#x200B; Modal die gedetailleerde classificatiedistributie met ster-vlakke verdelingsbars tonen &#x200B;](../assets/rating-distribution-modal.png){width="600" zoomable="yes"}

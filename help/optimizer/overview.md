@@ -33,13 +33,13 @@ Bekijk de volgende video voor een overzicht op hoog niveau van [!DNL Adobe Comme
 
 - Handelaars die hun bestaand achterste handelssysteem willen handhaven en slechts storefront ervaringen willen transformeren.
 - Bedrijven waar een systeem van derden de levenscyclus van het winkelwagentje en de kassa beheert.
-- [ de klanten van AEM ](setup/product-visuals.md) die een eenvoudige manier zoeken om hun productcatalogus van een derdehandelmotor te beheren.
+- [&#x200B; de klanten van AEM &#x200B;](setup/product-visuals.md) die een eenvoudige manier zoeken om hun productcatalogus van een derdehandelmotor te beheren.
 
 ## Snelle rondleiding
 
 Wanneer u [!DNL Adobe Commerce Optimizer] de eerste keer start, ziet u het volgende:
 
-![[!DNL Adobe Commerce Optimizer] UI ](./assets/user-interface.png){zoomable="yes"}
+![[!DNL Adobe Commerce Optimizer] UI &#x200B;](./assets/user-interface.png){zoomable="yes"}
 
 >[!BEGINTABS]
 
@@ -69,7 +69,7 @@ Maak persoonlijke ervaringen voor kopers door productdetectie en productaanbevel
 Definieer de catalogusweergaven en het beleid. De catalogus bevat niet alleen uw productgegevens, maar helpt u ook uw bedrijfsstructuur te definiëren. Bovendien kunt u waardevolle inzichten bekijken in de beschikbaarheid van productgegevens voor uw winkel, zodat deze direct aan uw klanten kunnen worden getoond.
 
 - **de meningen van de Catalogus** - Hulp u uw kleinhandelsstructuur in zinvolle bedrijfsgroepen bepaalt. Bijvoorbeeld dealers voor de automobielindustrie, dochterondernemingen voor multibrand conglomeraten of productielocaties voor leveranciers.
-- **de lagen van de Catalogus** - wijzig productgegevens zonder brongegevens te veranderen. Wanneer het gebruiken van AEM Assets voor productbeelden, wordt de AEM-Assets laag toegepast door [ Visuals van het Product ](setup/product-visuals.md). Zie [ lagen van de Catalogus ](setup/catalog-layer.md) voor details.
+- **de lagen van de Catalogus** - wijzig productgegevens zonder brongegevens te veranderen. Wanneer het gebruiken van AEM Assets voor productbeelden, wordt de AEM-Assets laag toegepast door [&#x200B; Visuals van het Product &#x200B;](setup/product-visuals.md). Zie [&#x200B; lagen van de Catalogus &#x200B;](setup/catalog-layer.md) voor details.
 - **Beleid** - de toegangsfilters van Gegevens die binnen catalogusmeningen worden gehuisvest. Het beleid helpt om ervoor te zorgen dat de juiste inhoud wordt verzonden naar de juiste bestemming. Bijvoorbeeld fysieke winkels, marketingplaatsen, advertentiepijpleidingen (Google, Facebook, Instagram).
 - **Synchronisatie van Gegevens** - Toont een overzicht van de synchronisatiestatus voor productgegevens die van hun gegevensbron (PIM, ERP, etc.) worden overgebracht in [!DNL Adobe Commerce Optimizer]. De productgegevens worden weergegeven op de tabbladen **[!UICONTROL Catalog Service]** , **[!UICONTROL Search]** en **[!UICONTROL Recommendations]** .
 - **Gebeurtenissen** - toont storefront gebeurtenisgegevens die de Ontdekking en de Aanbevelingen van het Product van kracht maken. De **Gebeurtenissen** pagina laat de handelaar verifiëren dat zij storefront correct hebben uitgevoerd en dat de gebeurtenissen met succes worden gevangen. Op deze pagina kunnen verkopers mogelijke problemen identificeren en stappen ondernemen om eventuele problemen op te lossen.
@@ -88,10 +88,10 @@ De belangrijkste mogelijkheden omvatten:
 
 >[!NOTE]
 >
->Om systeemgrenzen en verlenen van vergunningen voor [!DNL Adobe Commerce Optimizer] mogelijkheden te begrijpen, zie de [ Limieten en het grenzen ](boundaries-limits.md) onderwerp.
+>Om systeemgrenzen en verlenen van vergunningen voor [!DNL Adobe Commerce Optimizer] mogelijkheden te begrijpen, zie de [&#x200B; Limieten en het grenzen &#x200B;](boundaries-limits.md) onderwerp.
 
 ## Architectuur
 
 In het volgende diagram wordt de basisarchitectuur van [!DNL Adobe Commerce Optimizer] beschreven, van het opnemen van catalogusgegevens tot de relatie tussen merchandising-services, uw winkeliefront en de integratie met een karretje- en uitcheckproces van derden.
 
-![[!DNL Adobe Commerce Optimizer] Architectuur ](./assets/architecture.png)
+![[!DNL Adobe Commerce Optimizer] Architectuur &#x200B;](./assets/architecture.png)

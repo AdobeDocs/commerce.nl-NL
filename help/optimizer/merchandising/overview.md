@@ -21,7 +21,7 @@ Productdetectie zorgt ervoor dat verkopers krachtige tools hebben om de winkeler
 
 Met productontdekking kunt u:
 
-* **vorm [ facetten ](./facets/overview.md), [ het merchandising regels ](./rules/overview.md), en [ synoniemen](./synonyms/overview.md)** om shoppers naar de meest relevante producten met minimale wrijving te begeleiden.
+* **vorm [&#x200B; facetten &#x200B;](./facets/overview.md), [&#x200B; het merchandising regels &#x200B;](./rules/overview.md), en [&#x200B; synoniemen](./synonyms/overview.md)** om shoppers naar de meest relevante producten met minimale wrijving te begeleiden.
 * **creeer intuïtieve, doel-georiënteerde onderzoekservaringen** die op uw handelswaar strategie en seizoensgebonden prioriteiten wijzen.
 * **gebruik AI-gedreven dynamische het facetteren en resultaat opnieuw rangschikken** om onderzoeksresultaten in echt aan te passen - tijd die op winkelgedrag-opvoedende overeenkomst en verkoop wordt gebaseerd.
 * **verzeker bevorderings en high-priority puntenoppervlakte** effectief om onderzoeksresultaten met bedrijfsdoelstellingen te richten.

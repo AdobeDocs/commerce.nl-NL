@@ -18,23 +18,23 @@ De pagina van Prestaties van Aanbevelingen toont een lijst van gevormde aanbevel
 >
 >Een aanbevelingseenheid is een widget die de geadviseerde product _punten_ bevat.
 
-![ Prestaties van Aanbevelingen ](../assets/rec-performance.png){zoomable="yes"}
+![&#x200B; Prestaties van Aanbevelingen &#x200B;](../assets/rec-performance.png){zoomable="yes"}
 
 ## Een rapport weergeven
 
 1. Kies de **mening van de Catalogus**, zoals *Alle meningen* waar uw aanbevelingen van toepassing zijn.
 
-   Leer meer over [ catalogusmeningen ](#select-catalog-view) in aanbevelingen.
+   Leer meer over [&#x200B; catalogusmeningen &#x200B;](#select-catalog-view) in aanbevelingen.
 
 1. Klik op **[!UICONTROL Date Range]** en selecteer een van de volgende bereiken:
 
-   ![ de Waaier van de Datum van Aanbevelingen ](../assets/rec-perf-date-range.png)
+   ![&#x200B; de Waaier van de Datum van Aanbevelingen &#x200B;](../assets/rec-perf-date-range.png)
 
    De lijst van de aanbeveling werkt aan vertoningsmetriek voor dat datumwaaier en catalogusmening bij.
 
 ## Tabel aanpassen
 
-1. In de upper-left hoek, klik het ![ selecteur van de Kolom ](../assets/icon-show-hide-columns.png) pictogram om de lijst aan te passen.
+1. In de upper-left hoek, klik het ![&#x200B; selecteur van de Kolom &#x200B;](../assets/icon-show-hide-columns.png) pictogram om de lijst aan te passen.
 
    De zichtbare kolommen hebben een vinkje.
 
@@ -47,22 +47,22 @@ De pagina van Prestaties van Aanbevelingen toont een lijst van gevormde aanbevel
 
 ## Details weergeven
 
-1. In de lijst, klik het (![ Meer selecteur ](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
+1. In de lijst, klik het (![&#x200B; Meer selecteur &#x200B;](../assets/btn-more.png)) pictogram naast de aanbeveling die u wilt onderzoeken.
 
-1. Om het statuut van de aanbeveling te veranderen, activeer **** of **** deactivate.
+1. Om het statuut van de aanbeveling te veranderen, activeer **&#x200B;**&#x200B;of **&#x200B;**&#x200B;deactivate.
 
 ## Aanbevelingen maken of beheren
 
-Leer hoe u [ een nieuwe kunt tot stand brengen of een bestaande ](../merchandising/recommendations/create.md) aanbeveling beheren.
+Leer hoe u [&#x200B; een nieuwe kunt tot stand brengen of een bestaande &#x200B;](../merchandising/recommendations/create.md) aanbeveling beheren.
 
 ## Workspace-besturingselementen
 
 | Besturing | Beschrijving |
 |---|---|
-| ![ de Waaier van de Datum ](../assets/rec-perf-date-range.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. |
-| ![ de selecteur van de Kolom ](../assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de lijst van Aanbevelingen verschijnen. |
-| Aanbeveling maken | Opent [ creëren Nieuwe pagina van de Aanbeveling ](../merchandising/recommendations/create.md). |
-| [ mening van de Catalogus ](#select-catalog-view) | Selecteer de catalogusweergave om de tabel te filteren en alleen die aanbevelingen weer te geven die van toepassing zijn op de geselecteerde catalogusweergave. Deze selectie wordt ook gebruikt als catalogusmening wanneer u [ ](../merchandising/recommendations/create.md) tot een nieuwe aanbeveling leidt. De opties zijn *Alle meningen* of een specifieke [ catalogusmening ](../setup/catalog-view.md). |
+| ![&#x200B; de Waaier van de Datum &#x200B;](../assets/rec-perf-date-range.png) | Hiermee bepaalt u het tijdsbereik dat wordt gebruikt voor metrische berekeningen. |
+| ![&#x200B; de selecteur van de Kolom &#x200B;](../assets/icon-show-hide-columns.png) | Bepaalt de kolommen die in de lijst van Aanbevelingen verschijnen. |
+| Aanbeveling maken | Opent [&#x200B; creëren Nieuwe pagina van de Aanbeveling &#x200B;](../merchandising/recommendations/create.md). |
+| [&#x200B; mening van de Catalogus &#x200B;](#select-catalog-view) | Selecteer de catalogusweergave om de tabel te filteren en alleen die aanbevelingen weer te geven die van toepassing zijn op de geselecteerde catalogusweergave. Deze selectie wordt ook gebruikt als catalogusmening wanneer u [&#x200B; &#x200B;](../merchandising/recommendations/create.md) tot een nieuwe aanbeveling leidt. De opties zijn *Alle meningen* of een specifieke [&#x200B; catalogusmening &#x200B;](../setup/catalog-view.md). |
 
 ## Kolombeschrijvingen
 
@@ -90,10 +90,10 @@ Leer hoe u [ een nieuwe kunt tot stand brengen of een bestaande ](../merchandisi
 >
 >Deze functie is momenteel in bèta.
 
-De **[!UICONTROL Catalog view]** selecteur op de **2} pagina van Aanbevelingen {doet twee dingen:**
+De **[!UICONTROL Catalog view]** selecteur op de **2&rbrace; pagina van Aanbevelingen &lbrace;doet twee dingen:**
 
 1. **Filters de lijst** - toont slechts aanbevelingen (en hun metriek) die op de geselecteerde catalogusmening van toepassing zijn.
-1. **plaatst het werkingsgebied voor nieuwe aanbevelingen** - wanneer u [ ](../merchandising/recommendations/create.md) een aanbeveling creeert, wordt de geselecteerde catalogusmening gebruikt als werkingsgebied van de eenheid. De opties zijn *Alle meningen* of een specifieke [ catalogusmening ](../setup/catalog-view.md).
+1. **plaatst het werkingsgebied voor nieuwe aanbevelingen** - wanneer u [&#x200B; &#x200B;](../merchandising/recommendations/create.md) een aanbeveling creeert, wordt de geselecteerde catalogusmening gebruikt als werkingsgebied van de eenheid. De opties zijn *Alle meningen* of een specifieke [&#x200B; catalogusmening &#x200B;](../setup/catalog-view.md).
 
    - **Alle meningen** - de aanbeveling is op alle catalogusmeningen van toepassing (productbeschikbaarheid wordt nog gefiltreerd per mening).
    - **de mening van de Catalogus** - de aanbeveling is slechts op de geselecteerde catalogusmening (bijvoorbeeld, één opslag, taal, of merk) van toepassing.
@@ -101,13 +101,13 @@ De **[!UICONTROL Catalog view]** selecteur op de **2} pagina van Aanbevelingen {
 Door een catalogusweergave voor elke aanbeveling op te geven, kunt u:
 
 - Configureer aanbevelingen voor alle (algemene) catalogusweergaven of voor één catalogusweergave.
-- De voorproef en filterproducten door catalogusmening op [ creëren ](../merchandising/recommendations/create.md) aanbevelingen pagina.
+- De voorproef en filterproducten door catalogusmening op [&#x200B; creëren &#x200B;](../merchandising/recommendations/create.md) aanbevelingen pagina.
 - Alleen producten weergeven die beschikbaar zijn voor elke winkel.
 - Metrische gegevens en storefront gedrag per catalogusweergave weergeven.
 
 ### Hoe de catalogusweergave producten filtert
 
-De beschikbaarheid van het product wordt afgedwongen per catalogusmening zelfs voor aanbeveling eenheden onder **Alle meningen** selectie. Dit werkt naast om het even welke [ opneming of uitsluitingsfilters ](../merchandising/recommendations/filters.md) u op de aanbevelingseenheid plaatst.
+De beschikbaarheid van het product wordt afgedwongen per catalogusmening zelfs voor aanbeveling eenheden onder **Alle meningen** selectie. Dit werkt naast om het even welke [&#x200B; opneming of uitsluitingsfilters &#x200B;](../merchandising/recommendations/filters.md) u op de aanbevelingseenheid plaatst.
 
 **Voorbeeld: Aanbeveling met inclusiefilters onder Alle meningsselectie**
 

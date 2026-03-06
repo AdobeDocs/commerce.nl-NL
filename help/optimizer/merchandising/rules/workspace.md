@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Merchandising Rules Workspace
 
-De *Merchandising Regels* werkruimte maakt een lijst van de huidige selectie van regels en hun status, en verleent toegang tot hulpmiddelen u regels moet creëren en beheren. U kunt werkingsgebiedregels aan alle [ catalogusmeningen ](../../setup/catalog-view.md) (globaal) of aan één enkele catalogusmening. Zie [ Uitgezochte catalogusmening ](#select-catalog-view) voor hoe te door catalogusmening filtreren en regels per catalogusmening creëren. Vanuit de werkruimte kunt u:
+De *Merchandising Regels* werkruimte maakt een lijst van de huidige selectie van regels en hun status, en verleent toegang tot hulpmiddelen u regels moet creëren en beheren. U kunt werkingsgebiedregels aan alle [&#x200B; catalogusmeningen &#x200B;](../../setup/catalog-view.md) (globaal) of aan één enkele catalogusmening. Zie [&#x200B; Uitgezochte catalogusmening &#x200B;](#select-catalog-view) voor hoe te door catalogusmening filtreren en regels per catalogusmening creëren. Vanuit de werkruimte kunt u:
 
 - Zoeken naar regels
 - Regeldetails weergeven
@@ -20,11 +20,11 @@ De *Merchandising Regels* werkruimte maakt een lijst van de huidige selectie van
 - Regels verwijderen
 - Toegang tot de regeleditor
 
-![ Merchandising Rules Workspace ](../../assets/rules-workspace.png)
+![&#x200B; Merchandising Rules Workspace &#x200B;](../../assets/rules-workspace.png)
 
 ## Kolommen tonen/verbergen
 
-1. In de hoger-juiste hoek, klik **tonen/verbergen** ![ selecteur van de Kolom ](../../assets/btn-show-hide-columns.png) kolommen.
+1. In de hoger-juiste hoek, klik **tonen/verbergen** ![&#x200B; selecteur van de Kolom &#x200B;](../../assets/btn-show-hide-columns.png) kolommen.
 
 1. Voer in het menu een van de volgende handelingen uit:
 
@@ -49,7 +49,7 @@ De *Merchandising Regels* werkruimte maakt een lijst van de huidige selectie van
 
 In het deelvenster Details worden de naam, de status, de voorwaarden en gebeurtenissen van de regel, de begin- en einddatum, de beschrijving en de datum die het laatst is bewerkt weergegeven. Regels kunnen worden ingeschakeld, bewerkt en verwijderd in het deelvenster Details.
 
-1. Op de *Merchandising regels* werkruimte, vind de regel in het net dat u wilt bekijken en klikken (![ Meer selecteur ](../../assets/btn-more.png)) pictogram.
+1. Op de *Merchandising regels* werkruimte, vind de regel in het net dat u wilt bekijken en klikken (![&#x200B; Meer selecteur &#x200B;](../../assets/btn-more.png)) pictogram.
 
    U kunt een van de volgende handelingen uitvoeren in het menu:
 
@@ -71,12 +71,12 @@ In het deelvenster Details worden de naam, de status, de voorwaarden en gebeurte
 
 | Besturing | Beschrijving |
 |--- |--- |
-| Regel toevoegen | Opent de [ regelredacteur ](add.md). |
-| Catalogusweergave | Hiermee filtert u de tabel op regels die van toepassing zijn op de geselecteerde catalogusweergave. Stelt ook het werkingsgebied in wanneer u [ een regel ](add.md) creeert. Opties: *Alle meningen* of een specifieke [ catalogusmening ](../../setup/catalog-view.md). Zie [ Uitgezochte catalogusmening ](#select-catalog-view). |
+| Regel toevoegen | Opent de [&#x200B; regelredacteur &#x200B;](add.md). |
+| Catalogusweergave | Hiermee filtert u de tabel op regels die van toepassing zijn op de geselecteerde catalogusweergave. Stelt ook het werkingsgebied in wanneer u [&#x200B; een regel &#x200B;](add.md) creeert. Opties: *Alle meningen* of een specifieke [&#x200B; catalogusmening &#x200B;](../../setup/catalog-view.md). Zie [&#x200B; Uitgezochte catalogusmening &#x200B;](#select-catalog-view). |
 | Status | Hiermee filtert u de lijst met regels op status. Opties: Alle, Actief, Inactief, Gepland |
-| ![ de selecteur van de Kolom ](../../assets/btn-show-hide-columns.png) | Hiermee geeft u de kolommen op die zichtbaar zijn in het raster. Opties: Laatst bijgewerkt, Begindatum, Einddatum, Status |
+| ![&#x200B; de selecteur van de Kolom &#x200B;](../../assets/btn-show-hide-columns.png) | Hiermee geeft u de kolommen op die zichtbaar zijn in het raster. Opties: Laatst bijgewerkt, Begindatum, Einddatum, Status |
 | Zoeken | Zoekt naar een regel op volledige naam of gedeeltelijke gelijke. |
-| ![ Meer selecteur ](../../assets/btn-more.png) | Toont een menu van meer acties die op de geselecteerde regel kunnen worden toegepast. Opties: bewerken, details weergeven, verwijderen |
+| ![&#x200B; Meer selecteur &#x200B;](../../assets/btn-more.png) | Toont een menu van meer acties die op de geselecteerde regel kunnen worden toegepast. Opties: bewerken, details weergeven, verwijderen |
 
 ## Regeldetails
 
@@ -99,12 +99,12 @@ In het deelvenster Details worden de naam, de status, de voorwaarden en gebeurte
 De kiezer **[!UICONTROL Catalog view]** op de pagina Regels voor handelswijziging doet twee dingen:
 
 1. **Filters de lijst** - toont slechts regels (en hun details) die op de geselecteerde catalogusmening van toepassing zijn.
-1. **plaatst het werkingsgebied voor nieuwe regels** - wanneer u [ een regel ](add.md) creeert, wordt de geselecteerde catalogusmening gebruikt als werkingsgebied van de regel. De opties zijn *Alle meningen* of een specifieke [ catalogusmening ](../../setup/catalog-view.md).
+1. **plaatst het werkingsgebied voor nieuwe regels** - wanneer u [&#x200B; een regel &#x200B;](add.md) creeert, wordt de geselecteerde catalogusmening gebruikt als werkingsgebied van de regel. De opties zijn *Alle meningen* of een specifieke [&#x200B; catalogusmening &#x200B;](../../setup/catalog-view.md).
 
    - **Alle meningen** - de regel is op alle catalogusmeningen van toepassing. Het gedrag van Zoeken en rangschikken is hetzelfde voor elke winkel die de catalogus gebruikt.
    - **de mening van de Catalogus** - de regel is slechts op de geselecteerde catalogusmening (bijvoorbeeld, één opslag, gebied, handelaar, of merk) van toepassing. Gebruik deze optie wanneer verschillende catalogusweergaven andere logica voor het verhandelen vereisen.
 
-Voor details bij het creëren van een regel en het plaatsen van zijn werkingsgebied, zie [ regels ](add.md) creëren en beheren.
+Voor details bij het creëren van een regel en het plaatsen van zijn werkingsgebied, zie [&#x200B; regels &#x200B;](add.md) creëren en beheren.
 
 ### Waarom een regel per catalogusweergave maken?
 
@@ -114,7 +114,7 @@ Maak regels per catalogusweergave wanneer verschillende winkels, regio&#39;s of 
 - **Multi-region** - de afzonderlijke catalogusmeningen voor EU, de V.S., of andere gebieden met gebied-specifieke handelsregels.
 - **Multi-brand** - Elk merk heeft zijn eigen catalogusmening en u wilt merkspecifieke regels (bijvoorbeeld, verschillende standaardrangschikking of bevorderde producten per merk).
 
-De gegevens van het gedrag die [ intelligente rangschikking ](add.md#intelligent-ranking) (zoals het meest bekeken, het meeste gekochte, trending) bevoegdheden {worden berekend per catalogusmening door gebrek. Regels die gebruikmaken van intelligente rangschikking weerspiegelen daarom het gedrag van de winkelier van die catalogusweergave. Als uw account een groot aantal catalogusweergaven bevat, kan het systeem gedragsgegevens globaal samenvoegen om de prestaties te behouden. In dat geval kan de rangschikking meer worden beïnvloed door catalogusweergaven met veel verkeer en kan de relevantie voor weergaven met minder verkeer worden verminderd. Zie [ Beperkingen en grenzen ](../../boundaries-limits.md) voor huidige grenzen.
+De gegevens van het gedrag die [&#x200B; intelligente rangschikking &#x200B;](add.md#intelligent-ranking) (zoals het meest bekeken, het meeste gekochte, trending) bevoegdheden &lbrace;worden berekend per catalogusmening door gebrek. Regels die gebruikmaken van intelligente rangschikking weerspiegelen daarom het gedrag van de winkelier van die catalogusweergave. Als uw account een groot aantal catalogusweergaven bevat, kan het systeem gedragsgegevens globaal samenvoegen om de prestaties te behouden. In dat geval kan de rangschikking meer worden beïnvloed door catalogusweergaven met veel verkeer en kan de relevantie voor weergaven met minder verkeer worden verminderd. Zie [&#x200B; Beperkingen en grenzen &#x200B;](../../boundaries-limits.md) voor huidige grenzen.
 
 ### Een regel instellen per catalogusweergave
 
@@ -122,7 +122,7 @@ De gegevens van het gedrag die [ intelligente rangschikking ](add.md#intelligent
 1. Klik op **[!UICONTROL Create rule]**.
 
    De regel die u maakt, valt binnen het bereik van de geselecteerde catalogusweergave.
-1. Bouw uw regel in de [ regelredacteur ](add.md).
+1. Bouw uw regel in de [&#x200B; regelredacteur &#x200B;](add.md).
 
    Definieer in de editor voorwaarden, gebeurtenissen en details. De regel geldt alleen voor zoekresultaten in die catalogusweergave.
 

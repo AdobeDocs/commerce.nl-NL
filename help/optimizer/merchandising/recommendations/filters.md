@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer] past automatisch niet-configureerbare standaardfilters op aanbeveling-eenheden toe. Als u meerdere aanbevelingen-eenheden op een pagina hebt geïmplementeerd, filtert [!DNL Adobe Commerce Optimizer] alle producten uit die in de eenheden worden herhaald. Alleen de eerste verwijzing naar een herhaald product wordt gebruikt om ruimte te maken voor andere producten die kunnen worden aanbevolen. [!DNL Adobe Commerce Optimizer] filtert ook eerder aangeschafte producten en producten in de kar uit.
 
-Wanneer u [ ](create.md) creeert een aanbeveling eenheid, kunt u filters bepalen die controleren welke producten in aanbevelingen kunnen worden getoond. Deze filters zijn gebaseerd op een reeks opname- of uitsluitingsvoorwaarden die u definieert. In aanbevelingen worden alleen producten weergegeven die aan alle inclusiemogelijkheden voldoen. Producten die aan een van de uitsluitingsvoorwaarden voldoen, worden niet aanbevolen.
+Wanneer u [&#x200B; &#x200B;](create.md) creeert een aanbeveling eenheid, kunt u filters bepalen die controleren welke producten in aanbevelingen kunnen worden getoond. Deze filters zijn gebaseerd op een reeks opname- of uitsluitingsvoorwaarden die u definieert. In aanbevelingen worden alleen producten weergegeven die aan alle inclusiemogelijkheden voldoen. Producten die aan een van de uitsluitingsvoorwaarden voldoen, worden niet aanbevolen.
 
 U kunt veelvoudige filters vormen en slechts die toelaten u wilt door de knevel op elke filterpagina te selecteren. Op deze manier kunt u concepten van filters maken voor toekomstig gebruik. Het aantal ingeschakelde filters wordt weergegeven op elk tabblad.
 
@@ -35,7 +35,7 @@ De logische operatoren `AND` en `OR` worden gebruikt om meerdere voorwaarden sam
 
 ## Filtertypen
 
-![ Filters ](../../assets/rec-conditions.png)
+![&#x200B; Filters &#x200B;](../../assets/rec-conditions.png)
 
 ### Product
 

@@ -29,7 +29,7 @@ Een filter bestaat uit de volgende onderdelen:
 |---|---|---|
 | **Attribuut** | The product attribute used for filtering. | `part_category` |
 | **Exploitant** | De voorwaarde die op het attribuut wordt toegepast. | `IN`, `EQUALS`, `CONTAINS` |
-| **bron van de Waarde** | Geeft aan of de waarden `STATIC` of `TRIGGER` zijn. | `STATIC` [ Leer meer ](#value-source-types) |
+| **bron van de Waarde** | Geeft aan of de waarden `STATIC` of `TRIGGER` zijn. | `STATIC` [&#x200B; Leer meer &#x200B;](#value-source-types) |
 | **Waarde** | De specifieke waarden die aan de voorwaarde voldoen. | `brakes, suspension` |
 
 ### Voorbeeld
@@ -44,7 +44,7 @@ Het beleid met a **bron van de Waarde** van **STATIC** wordt beschouwd als unive
 
 Het beleid met a **bron van de Waarde** van **TRIGGER** wordt bedoeld als exclusief beleid. Dit betekent dat de catalogusweergave dat beleid alleen zal uitvoeren wanneer de trigger is opgegeven in de header van de API-aanroep. Op de winkel betekent dit dat de informatie wordt weergegeven op basis van wat de verkoper selecteert. Bijvoorbeeld, in het volgende beeld, zijn er twee drop-down menu&#39;s: **Merk** en **Model**.
 
-![ Trigger waardebron op storefront ](../assets/policy-trigger.png)
+![&#x200B; Trigger waardebron op storefront &#x200B;](../assets/policy-trigger.png)
 
 **Merk** en **Model** worden bepaalde trekkers:
 
@@ -83,7 +83,7 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 
@@ -124,7 +124,7 @@ In deze sectie maakt u een nieuw beleid. Het beleid kan of **STATISCHE** of **TR
 
 1. Klik op de knop **[!UICONTROL Save]** in het dialoogvenster met filterdetails. &#x200B;
 
-1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **** onbruikbaar maken, of **schrappen** de filter.
+1. Klik de actiepunten (...) naast de filter u creeerde en **selecteert laat** toe. Van hier, kunt u **ook uitgeven**, **&#x200B;**&#x200B;onbruikbaar maken, of **schrappen** de filter.
 
    De **kolom van de Status** toont een groen pictogram en het woord &quot;Toegelaten&quot;.
 

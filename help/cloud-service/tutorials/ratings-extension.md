@@ -303,7 +303,7 @@ Gebruik de agent om de classificaties-API te integreren in de detailpagina van h
    U zou de volgende veranderingen in uw ontwikkelomgeving en browser moeten zien:
 
    * Er wordt automatisch een productrating-component gemaakt.
-   * De component is geïntegreerd in PDP gebruikend [&#x200B; drop-in groeven &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots) of als standalone blok, afhankelijk van de gekozen architectuur.
+   * De component is geïntegreerd in PDP gebruikend [&#x200B; drop-in groeven &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/customize/slots?lang=nl-NL) of als standalone blok, afhankelijk van de gekozen architectuur.
    * De sterren worden weergegeven met de juiste vulverhoudingen op basis van de classificatiewaarden van de API.
 
    ![&#x200B; de detailpagina die van het Product sterclassificaties tonen onder de producttitel worden geïntegreerd &#x200B;](../assets/product-ratings-implementation.png){width="600" zoomable="yes"}

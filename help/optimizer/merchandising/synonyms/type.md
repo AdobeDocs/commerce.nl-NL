@@ -1,7 +1,7 @@
 ---
 title: Typen synoniemen
 description: Leer over de verschillende types van synoniemen in  [!DNL Adobe Commerce Optimizer].
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: a74e48ea-e069-4ccc-a67f-2f85be251fb5
 source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
@@ -36,4 +36,4 @@ Als geen synoniem wordt gecreeerd en een verkoopster zoekt naar **keukenlijst**,
 
 Na het creëren van een synoniem, verandert het onderzoeksgedrag om de nauwkeurige uitdrukking **keukenlijst** te zoeken. Hierdoor kan het aantal resultaten afnemen, omdat alleen producten met de exacte zin worden weergegeven.
 
-Als u de termijnen afzonderlijk wilt worden gezocht zoals voordien, kunt u [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) creëren. Als er voldoende vraag is, overweegt [!DNL Adobe Commerce Optimizer] deze functionaliteit in een toekomstige release aan het product toe te voegen.
+Als u de termijnen afzonderlijk wilt worden gezocht zoals voordien, kunt u [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) creëren. Als er voldoende vraag is, overweegt [!DNL Adobe Commerce Optimizer] deze functionaliteit in een toekomstige release aan het product toe te voegen.

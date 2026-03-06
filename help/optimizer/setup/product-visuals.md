@@ -3,7 +3,7 @@ title: Productvisa voor AEM Assets
 description: Leer hoe te om AEM Assets voor productbeelden in  [!DNL Adobe Commerce Optimizer] te gebruiken.
 feature: CMS, Media, Configuration, Integration
 role: Admin, Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
 workflow-type: tm+mt
 source-wordcount: '451'
@@ -56,7 +56,7 @@ Alvorens de Visuals van het Product toe te laten, zorg u aan de [&#x200B; eerste
 
 ## Instellen
 
-Om de integratie toe te laten, [&#x200B; creeer een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) met uw [!DNL Commerce Optimizer] en details van AEM Assets. Adobe Support configureert de integratie en registreert uw huurder bij de Assets Integration Service.
+Om de integratie toe te laten, [&#x200B; creeer een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) met uw [!DNL Commerce Optimizer] en details van AEM Assets. Adobe Support configureert de integratie en registreert uw huurder bij de Assets Integration Service.
 
 Zie [&#x200B; AEM Assets voor Commerce Optimizer &#x200B;](../../aem-assets-integration/get-started/configure-aco.md) voor aan boord komende informatie vormen.
 

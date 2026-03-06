@@ -15,7 +15,7 @@ De [!DNL Commerce Optimizer Salesforce Commerce Connector] is gebaseerd op Adobe
 
 De aansluiting beschikt over betrouwbare mogelijkheden voor gegevenssynchronisatie en de flexibiliteit om workflows aan te passen aan uw bedrijfsbehoeften.
 
-Voor een videoles van begin tot eind, zie [&#x200B; Leren over de de wolkenstarterkit van Salesforce Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview).
+Voor een videoles van begin tot eind, zie [&#x200B; Leren over de de wolkenstarterkit van Salesforce Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-commerce-optimizer/sfcc-starter-kit/overview).
 
 ## Belangrijkste mogelijkheden
 

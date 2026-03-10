@@ -2,9 +2,9 @@
 title: AEM Assets voor Commerce Optimizer configureren
 description: Leer hoe te om de Integratie van AEM Assets voor  [!DNL Adobe Commerce Optimizer] te vormen.
 feature: CMS, Media, Configuration, Integration
-source-git-commit: bf1d88ef7daec25872678bb27bce0bb7c97fd296
+source-git-commit: 7f0970648663331fea2af19b981c4fd3b3aedcaa
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # AEM Assets configureren voor [!DNL Adobe Commerce Optimizer]
 
-[!BADGE &#x200B; slechts SaaS &#x200B;]{type=Positive tooltip="Alleen van toepassing op Adobe Commerce Optimizer-projecten."}
+[!BADGE  slechts SaaS ]{type=Positive tooltip="Alleen van toepassing op Adobe Commerce Optimizer-projecten."}
 
 Met de AEM Assets Integration for [!DNL Adobe Commerce Optimizer] kunnen handelaren AEM Assets gebruiken als de gecentraliseerde oplossing voor het beheer van digitale middelen voor productafbeeldingen. Deze handleiding behandelt de specifieke configuratie van [!DNL Commerce Optimizer] .
 
@@ -20,11 +20,11 @@ In tegenstelling tot Adobe Commerce (PaaS) of Adobe Commerce as a Cloud Service 
 
 In het volgende diagram ziet u een overzicht van de productsynchronisatie tussen [!DNL Adobe Commerce Optimizer] en de AEM Assets-integratie.
 
-![&#x200B; AEM Assets aan [!DNL Commerce Optimizer] stroom &#x200B;](../assets/aco-asset-sync-architecture.png){width="700"}
+![ AEM Assets aan [!DNL Commerce Optimizer] stroom ](../assets/aco-asset-sync-architecture.png){width="700"}
 
 Deze integratie heeft twee hoofdstromen:
 
-* **van AEM Assets**: Wanneer een activa wordt goedgekeurd, verworpen of verwijderd, stroomt de gebeurtenis door de Pijpleiding van Adobe aan de Dienst van de Integratie van Assets. De dienst past activa aan producten aan gebruikend `match-by-SKU` (meta-gegevens-gedreven) of a [&#x200B; douanematcher (App Builder) &#x200B;](../synchronize/custom-match.md){target=_blank}, dan verzendt de `product-asset` afbeeldingen naar Commerce Optimizer, waar zij als productlagen worden opgeslagen.
+* **van AEM Assets**: Wanneer een activa wordt goedgekeurd, verworpen of verwijderd, stroomt de gebeurtenis door de Pijpleiding van Adobe aan de Dienst van de Integratie van Assets. De dienst past activa aan producten aan gebruikend `match-by-SKU` (meta-gegevens-gedreven) of a [ douanematcher (App Builder) ](../synchronize/custom-match.md){target=_blank}, dan verzendt de `product-asset` afbeeldingen naar Commerce Optimizer, waar zij als productlagen worden opgeslagen.
 
 * **Van[!DNL Adobe Commerce Optimizer]**: Wanneer een product in [!DNL Commerce Optimizer] wordt bijgewerkt, stroomt de gebeurtenis door de Pijpleiding van Adobe aan de Dienst van de Integratie van Assets. De service synchroniseert alle overeenkomende elementen die worden toegewezen naar de [!DNL Adobe Commerce Optimizer] .
 
@@ -39,7 +39,7 @@ Voordat u de integratie configureert, moet u ervoor zorgen dat:
 
 ## Onboarding
 
-Aan boord de Integratie van AEM Assets met [!DNL Commerce Optimizer], moet u [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) creëren.
+Aan boord de Integratie van AEM Assets met [!DNL Commerce Optimizer], moet u [ een steunkaartje ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) creëren.
 
 De Steun van Adobe gebruikt de informatie in uw kaartje om uw huurder bij de Dienst van de Integratie van Assets te registreren, en de integratie te vormen.
 
@@ -48,7 +48,7 @@ Neem de volgende informatie op in uw ondersteuningsticket:
 * **[!DNL Adobe Commerce Optimizer]Tenant ID** (Instance ID) gevonden in uw [!DNL Commerce Optimizer] URL of gebruikersinterface van Commerce Cloud Manager.
 * **identiteitskaart van het Programma van AEM**.
 * **identiteitskaart van het Milieu van AEM**.
-* **Matching regel**: Gelijke door SKU of [&#x200B; externe matcher (App Builder) &#x200B;](../synchronize/custom-match.md){target=_blank}.
+* **Matching regel**: Gelijke door SKU of [ externe matcher (App Builder) ](../synchronize/custom-match.md){target=_blank}.
 * **Laag**: De naam van de cataloguslaag om de huurder met te registreren. Geef indien nodig een aangepaste naam op. Anders wordt de standaardwaarde `AEM-Assets` gebruikt.
 * **Landinstelling**: De scène van de catalogusbron om de huurder met (bijvoorbeeld, `en-US`) te registreren.
 
@@ -61,8 +61,6 @@ Nadat de Steun van Adobe uw kaartje verwerkt, wordt de integratie gevormd en uw 
 Zodra het instappen is voltooid:
 
 1. **Registratie met de Dienst van de Integratie van Assets**: Uw [!DNL Commerce Optimizer] huurder wordt geregistreerd met de Dienst van de Integratie van Assets gebruikend [!DNL Adobe Commerce Optimizer] identiteitskaart van de Aannemer, identiteitskaart van het Programma van AEM, identiteitskaart van het Milieu van AEM, en huurder.
-
-1. **de opstelling van de Authentificatie**: De IMS de dienst symbolische authentificatie wordt gevormd tussen [!DNL Commerce Optimizer] en de Dienst van de Integratie van Assets voor een veilige mededeling.
 
 1. **abonnement van de Gebeurtenis**: De Dienst van de Integratie van Assets tekent aan:
 
@@ -83,11 +81,11 @@ De integratie met [!DNL Commerce Optimizer] heeft de volgende beperkingen:
 
 ### Uw AEM Assets configureren
 
-Het AEM Assets-installatie- en configuratieproces voor [!DNL Commerce Optimizer] is hetzelfde als voor Adobe Commerce as a Cloud Service. Zie [&#x200B; het project van AEM Assets vormen om de meta-gegevens van Commerce &#x200B;](configure-aem.md) voor de volledige stappen te steunen.
+Het AEM Assets-installatie- en configuratieproces voor [!DNL Commerce Optimizer] is hetzelfde als voor Adobe Commerce as a Cloud Service. Zie [ het project van AEM Assets vormen om de meta-gegevens van Commerce ](configure-aem.md) voor de volledige stappen te steunen.
 
 Zorg ervoor dat uw AEM Assets-omgeving gereed is:
 
-1. **configuratie van AEM Assets**: Vorm het de meta-gegevensprofiel van Commerce. Zie [&#x200B; een meta-gegevensprofiel &#x200B;](configure-aem.md#configure-a-metadata-profile) vormen.
+1. **configuratie van AEM Assets**: Vorm het de meta-gegevensprofiel van Commerce. Zie [ een meta-gegevensprofiel ](configure-aem.md#configure-a-metadata-profile) vormen.
 
 1. **Dynamische Media enablement**: Verifieer Dynamische Media met mogelijkheden OpenAPI op uw milieu van AEM Assets wordt toegelaten.
 
@@ -97,31 +95,31 @@ Configureer uw AEM Assets-omgeving om productsynchronisatie mogelijk te maken.
 
 ### Stap 1: Dynamische media inschakelen met OpenAPI
 
-Dynamische media met OpenAPI moeten zijn ingeschakeld in uw AEM Assets-omgeving. Met productvisa en nieuwe AEM Assets-licenties kunt u het product op een zelfbedieningsmanier via Cloud Manager inschakelen. Voor oudere AEM Assets-licenties is ondersteuning van Adobe vereist. Zie [&#x200B; het project van AEM Assets &#x200B;](configure-aem.md#prerequisites) voor enablement stappen vormen.
+Dynamische media met OpenAPI moeten zijn ingeschakeld in uw AEM Assets-omgeving. Met productvisa en nieuwe AEM Assets-licenties kunt u het product op een zelfbedieningsmanier via Cloud Manager inschakelen. Voor oudere AEM Assets-licenties is ondersteuning van Adobe vereist. Zie [ het project van AEM Assets ](configure-aem.md#prerequisites) voor enablement stappen vormen.
 
 ### Stap 2: Optioneel. Commerce-metagegevensprofiel configureren
 
 Stel het metagegevensprofiel in AEM Assets in om Commerce-specifieke metagegevens op te slaan.
 
-Zie [&#x200B; een meta-gegevensprofiel &#x200B;](configure-aem.md#step-2-optional-configure-a-metadata-profile) voor gedetailleerde instructies vormen.
+Zie [ een meta-gegevensprofiel ](configure-aem.md#step-2-optional-configure-a-metadata-profile) voor gedetailleerde instructies vormen.
 
 ### Stap 3: Metagegevens toepassen op elementen
 
 Voeg Commerce-metagegevens toe aan uw productafbeeldingen in AEM Assets.
 
-Zie de [&#x200B; het pakketinhoud van AEM Commerce &#x200B;](configure-aem.md#aem-commerce-assets-commerce-package-contents) voor gebiedsdefinities en [&#x200B; vorm een meta-gegevensprofiel &#x200B;](configure-aem.md#step-2-optional-configure-a-metadata-profile) voor de opstellingsstappen.
+Zie de [ het pakketinhoud van AEM Commerce ](configure-aem.md#aem-commerce-assets-commerce-package-contents) voor gebiedsdefinities en [ vorm een meta-gegevensprofiel ](configure-aem.md#step-2-optional-configure-a-metadata-profile) voor de opstellingsstappen.
 
 De activa moeten in een **goedgekeurde** status voor de gegevenssynchronisatie zijn om te teweegbrengen. De gebeurtenis wordt niet geactiveerd wanneer alleen metagegevens worden opgeslagen.
 
 >[!CAUTION]
 >
-> Wijs de `AEM-Assets` laag aan uw [&#x200B; catalogusmening &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/catalog-view) toe. Als de laag niet wordt toegewezen, kunnen de gegevens van het productbeeld onverwacht worden beschreven.
+> Wijs de `AEM-Assets` laag aan uw [ catalogusmening ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/catalog-view) toe. Als de laag niet wordt toegewezen, kunnen de gegevens van het productbeeld onverwacht worden beschreven.
 
 ## Synchronisatie
 
 Zodra gevormd, synchroniseert de integratie `product-asset` afbeeldingen automatisch.
 
-Zie [&#x200B; Aangepaste automatische aanpassing &#x200B;](../synchronize/custom-match.md) voor meer informatie.
+Zie [ Aangepaste automatische aanpassing ](../synchronize/custom-match.md) voor meer informatie.
 
 ### Afstemmen op voorbeeld van SKU-workflow
 

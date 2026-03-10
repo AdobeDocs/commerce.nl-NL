@@ -66,6 +66,6 @@ De weergave [!DNL App Management] wordt weergegeven. Hier kunt u App Builder-toe
 
 ## App Builder-toepassingen installeren
 
-Als u een App Builder app van Adobe Exchange (bijvoorbeeld, een pre-gebouwde integratie of markt app) moet installeren, zie [&#x200B; App Builder apps van Adobe Exchange installeren &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/install-app-builder-app){target="_blank"} voor geleidelijke instructies.
+Als u een App Builder app van Adobe Exchange (bijvoorbeeld, een pre-gebouwde integratie of markt app) moet installeren, zie [&#x200B; App Builder apps van Adobe Exchange installeren &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-developer-app-builder/install-app-builder-app){target="_blank"} voor geleidelijke instructies.
 
 Nadat een app wordt geïnstalleerd en opgesteld, gebruik [!DNL App Management] om het [&#x200B; met uw instantie van Commerce &#x200B;](manage-app.md#associate-an-app) te associëren en zijn montages te vormen.

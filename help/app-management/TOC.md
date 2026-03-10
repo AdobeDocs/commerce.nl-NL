@@ -17,4 +17,4 @@ ht-degree: 0%
 - Uw app beheren {#manage-app}
    - [Uw app beheren](manage-app.md)
    - [Problemen oplossen](troubleshooting.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

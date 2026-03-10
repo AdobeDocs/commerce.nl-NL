@@ -31,7 +31,7 @@ Controleer voordat u een app gaat koppelen het volgende:
 
 >[!TAB  Adobe Commerce as a Cloud Service ]
 
-[!DNL App Management] is automatisch beschikbaar op [!DNL Adobe Commerce as a Cloud Service] . Er is geen installatie vereist. [ laat het in Admin ](#access-app-management) toe en begin associërende apps.
+[!DNL App Management] is automatisch beschikbaar op [!DNL Adobe Commerce as a Cloud Service] . Er is geen installatie vereist. [&#x200B; laat het in Admin &#x200B;](#access-app-management) toe en begin associërende apps.
 
 >[!TAB  Adobe Commerce op Wolk (PaaS) en op-gebouw ]
 
@@ -52,7 +52,7 @@ Controleer voordat u een app gaat koppelen het volgende:
   bin/magento cache:clean
   ```
 
-Zie [ installeren of bijwerken Adobe Commerce Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/installation/){target="_blank"} voor meer informatie.
+Zie [&#x200B; installeren of bijwerken Adobe Commerce Admin UI SDK &#x200B;](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/installation/){target="_blank"} voor meer informatie.
 
 >[!ENDTABS]
 
@@ -66,6 +66,6 @@ De weergave [!DNL App Management] wordt weergegeven. Hier kunt u App Builder-toe
 
 ## App Builder-toepassingen installeren
 
-Als u een App Builder app van Adobe Exchange (bijvoorbeeld, een pre-gebouwde integratie of markt app) moet installeren, zie [ App Builder apps van Adobe Exchange installeren ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/install-app-builder-app){target="_blank"} voor geleidelijke instructies.
+Als u een App Builder app van Adobe Exchange (bijvoorbeeld, een pre-gebouwde integratie of markt app) moet installeren, zie [&#x200B; App Builder apps van Adobe Exchange installeren &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/install-app-builder-app){target="_blank"} voor geleidelijke instructies.
 
-Nadat een app wordt geïnstalleerd en opgesteld, gebruik [!DNL App Management] om het [ met uw instantie van Commerce ](manage-app.md#associate-an-app) te associëren en zijn montages te vormen.
+Nadat een app wordt geïnstalleerd en opgesteld, gebruik [!DNL App Management] om het [&#x200B; met uw instantie van Commerce &#x200B;](manage-app.md#associate-an-app) te associëren en zijn montages te vormen.

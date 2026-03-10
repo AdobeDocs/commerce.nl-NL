@@ -23,7 +23,7 @@ Als de app na de implementatie niet in de lijst wordt weergegeven, controleert u
 
 1. Zorg ervoor dat de app klaar is om verbinding te maken (uw ontwikkelaar of partner van de app kan bevestigen).
 
-Als app nog niet verschijnt, contacteer uw app ontwikkelaar of controleer de [ documentatie van de Uitbreidbaarheid van Commerce  [!DNL App Management] ](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"} voor technische informatie.
+Als app nog niet verschijnt, contacteer uw app ontwikkelaar of controleer de [&#x200B; documentatie van de Uitbreidbaarheid van Commerce  [!DNL App Management] &#x200B;](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"} voor technische informatie.
 
 ## Synchronisatie van bereik mislukt
 
@@ -47,4 +47,4 @@ Als de configuratieveranderingen niet sparen, probeer het volgende:
 
 Controleer uw browserconsole op fouten of neem contact op met de ontwikkelaar van de app als het probleem zich blijft voordoen.
 
-Voor technische het oplossen van problemen, zie [ Uitbreidbaarheid van Commerce  [!DNL App Management] ](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"} voor meer informatie.
+Voor technische het oplossen van problemen, zie [&#x200B; Uitbreidbaarheid van Commerce  [!DNL App Management] &#x200B;](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"} voor meer informatie.

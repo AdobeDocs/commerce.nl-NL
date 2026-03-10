@@ -29,6 +29,6 @@ ht-degree: 26%
    - [[!DNL App Management]](https://experienceleague.adobe.com/en/docs/commerce/app-management/overview)
    - [Services Connector](/help/landing/saas.md)
 - Gegevensgereedschappen {#data-services}
-   - [ de Uitvoer van Gegevens SaaS ](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html)
-   - [ Prijs die SaaS ](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html) indexeert
+   - [&#x200B; de Uitvoer van Gegevens SaaS &#x200B;](https://experienceleague.adobe.com/docs/commerce/saas-data-export/overview.html)
+   - [&#x200B; Prijs die SaaS  indexeert](https://experienceleague.adobe.com/docs/commerce/price-indexer/price-indexing.html)
    - [Catalogus synchroniseren](/help/landing/catalog-sync.md)

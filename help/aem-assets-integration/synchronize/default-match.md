@@ -3,9 +3,9 @@ title: Standaard automatische vergelijking
 description: Leer hoe de standaard automatische aanpassingsregel naadloze synchronisatie tussen Adobe Commerce en de integratie van AEM Assets toelaat, die ervoor zorgt dat de activa automatisch aan de correcte koopvaardijentiteiten worden verbonden.
 feature: CMS, Media, Integration
 exl-id: 8a18639b-f508-456e-8d22-18e3e0fdd515
-source-git-commit: d426c7878f7a66fe1047673be7c5bf65ae1949a7
+source-git-commit: a0eaaf0de53962b37c7b52f3e7e13aac4c62e372
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De integratie van AEM Assets voor Commerce verstrekt een standaard automatisch p
 
 1. Geef **[!UICONTROL Match by SKU]** op als overeenkomende regel.
 
-   ![&#x200B; standaard geautomatiseerde aanpassingsregel &#x200B;](../assets/ootb-matching-rule.png){width="600" zoomable="yes"}
+   ![ standaard geautomatiseerde aanpassingsregel ](../assets/ootb-matching-rule.png){width="600" zoomable="yes"}
 
 1. Voer in de AEM Assets de veldnaam voor metagegevens in die wordt gebruikt voor de identificatie van elementen.
 
@@ -32,9 +32,13 @@ De integratie van AEM Assets voor Commerce verstrekt een standaard automatisch p
 
 Als de **[!UICONTROL Match by product SKU]** -regel voor overeenkomende bestanden is geconfigureerd in Commerce Admin, worden Commerce-elementbestanden automatisch gesynchroniseerd van AEM Assets naar uw Commerce-project op basis van de metagegevens van de elementen die voor elk bestand zijn geconfigureerd. U vormt de meta-gegevens van het AEM **Commerce** lusje in het **de auteur van AEM Assets** milieu:
 
+1. Open uw AEM Assets-auteur (de URL is ingericht voor uw project in dezelfde IMS-organisatie als Adobe Commerce).
+
+1. Van het belangrijkste navigatiescherm, klik **Assets** om tot de interface van het Beheer van Digitale Activa (DAM) toegang te hebben.
+
 1. Werk in AEM Assets de metagegevens van de afbeelding bij om de Adobe Commerce-koppeling toe te voegen door het veld `Eligible for Commerce` in te stellen op `Yes` .
 
-   ![&#x200B; meta-gegevens van het Voorbeeld &#x200B;](../assets/metadata-commerce-yes.png){width="600" zoomable="yes"}
+   ![ meta-gegevens van het Voorbeeld ](../assets/metadata-commerce-yes.png){width="600" zoomable="yes"}
 
 1. Configureer de metagegevens ([!UICONTROL SKU], [!UICONTROL position] en [!UICONTROL role] ) die het element koppelen aan de gekoppelde product-SKU.
 
@@ -42,8 +46,8 @@ Als de **[!UICONTROL Match by product SKU]** -regel voor overeenkomende bestande
    >
    > Als een element voor veelvoudige producten wordt gebruikt, vorm de meta-gegevens voor elke bijbehorende SKU.
 
-1. Stel op het tabblad `Basic` de standaardwaarde voor het _[!UICONTROL Review Status]_&#x200B;veld in op `approved` .
+1. Stel op het tabblad `Basic` de standaardwaarde voor het _[!UICONTROL Review Status]_veld in op `approved` .
 
-   ![&#x200B; meta-gegevens van het Voorbeeld &#x200B;](../assets/metadata-review-status.png){width="600" zoomable="yes"}
+   ![ meta-gegevens van het Voorbeeld ](../assets/metadata-review-status.png){width="600" zoomable="yes"}
 
 Deze aanpak zorgt ervoor dat digitale elementen op de juiste wijze worden gekoppeld en weergegeven in Adobe Commerce. Het biedt handelaren en marketers ook de mogelijkheid om rollen en positionering van bedrijfsmiddelen rechtstreeks binnen AEM Assets te beheren, en biedt een consistent en gecentraliseerd mechanisme voor het selecteren van images en het bestellen van images over alle betrokkenheidskanalen.

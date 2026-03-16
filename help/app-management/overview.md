@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL App Management] in Adobe Commerce vereenvoudigt de manier waarop toepassingen worden gedetecteerd, geïnstalleerd, geconfigureerd en in de hele handelsomgeving worden gebruikt. Het biedt een verenigd kader dat organisaties in staat stelt uitbreidbaarheid veilig en efficiënt aan te nemen en tegelijk de operationele wrijving te verminderen.
 
-![ App Management ](assets/app-management-view.png){width="500" zoomable="yes"}
+![&#x200B; App Management &#x200B;](assets/app-management-view.png){width="500" zoomable="yes"}
 
 Voor **Managers van de Toepassing**, [!DNL App Management] levert een gecentraliseerde mening van alle geïnstalleerde toepassingen, toelatend gemakkelijker bestuur, levenscyclusbeheer, en operationeel toezicht. Door vereenvoudigde installatiestromen, geautomatiseerde configuratiestappen, en duidelijke zichtbaarheid in toepassingsstatus en toestemmingen, kunnen de ondernemingen en de technische exploitanten integratie met vertrouwen-zonder vereisen diep ingenieursbetrokkenheid beheren.
 
@@ -45,9 +45,9 @@ Samen, leiden deze mogelijkheden tot een scalable rekbaarheidsmodel dat verkoper
 
 ## Volgende stappen
 
-* [ installeer ](install.md). Zorg ervoor dat aan de voorwaarden is voldaan en open [!DNL App Management] .
-* [ beheer uw app ](manage-app.md). Toepassingen koppelen, configureren en ontkoppelen.
+* [&#x200B; installeer &#x200B;](install.md). Zorg ervoor dat aan de voorwaarden is voldaan en open [!DNL App Management] .
+* [&#x200B; beheer uw app &#x200B;](manage-app.md). Toepassingen koppelen, configureren en ontkoppelen.
 
 ## Voor ontwikkelaars
 
-Als u de toepassingen van App Builder voor Adobe Commerce bouwt, zie de [  [!DNL App Management] documentatie 1} van de Uitbreidbaarheid van Commerce voor configuratieschema, runtime acties, en ontwikkelaarsopstelling.](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"}
+Als u de toepassingen van App Builder voor Adobe Commerce bouwt, zie de [&#x200B;  [!DNL App Management] documentatie 1&rbrace; van de Uitbreidbaarheid van Commerce voor configuratieschema, runtime acties, en ontwikkelaarsopstelling.](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"}

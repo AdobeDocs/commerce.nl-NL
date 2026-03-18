@@ -34,8 +34,8 @@ ht-degree: 7%
    - [Zelfstudie voor Beoordelingsextensie](tutorials/ratings-extension.md)
    - [Handleiding voor extensie van verzendmethode](tutorials/shipping-method-extension.md)
 - Schema&#39;s {#schemas}
-   - [ schema van GraphQL ](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
-   - [ REST API schema ](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
-- [ Videozelfstudies ](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
+   - [&#x200B; schema van GraphQL](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
+   - [&#x200B; REST API schema](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
+- [&#x200B; Videozelfstudies](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
 - [Aanvullende informatie](release-notes.md)
-- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

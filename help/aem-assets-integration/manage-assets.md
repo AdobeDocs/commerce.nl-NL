@@ -3,9 +3,9 @@ title: Elementen beheren
 description: Gebruik AEM Assets Integration voor Commerce om media-elementen voor uw winkel te beheren.
 feature: CMS, Media
 exl-id: 40ca36e0-d617-4814-852d-bc60ff53b2b3
-source-git-commit: a0eaaf0de53962b37c7b52f3e7e13aac4c62e372
+source-git-commit: 0fd98bf86555c914f7a5b1e177c31c37764dbf84
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ U kunt de volgende mediatypen beheren nadat de AEM Assets-integratie voor Commer
 
 Afbeeldingen van producten worden gekoppeld via overeenkomende regels:
 
-* Leren om productactiva in AEM Assets (meta-gegevens, SKU het verbinden, goedkeuring) toe te voegen of bij te werken, zie [&#x200B; Standaard automatische aanpassing &#x200B;](synchronize/default-match.md).
-* Voor categoriebeelden of de inhoud van de Bouwer van de Pagina, zie [&#x200B; Handmatige activaselectie &#x200B;](synchronize/asset-selector-integration.md).
+* Leren om productactiva in AEM Assets (meta-gegevens, SKU het verbinden, goedkeuring) toe te voegen of bij te werken, zie [ Standaard automatische aanpassing ](synchronize/default-match.md).
+* Voor categoriebeelden of de inhoud van de Bouwer van de Pagina, zie [ Handmatige activaselectie ](synchronize/asset-selector-integration.md).
 
 ## Productafbeeldingen
 
@@ -42,13 +42,13 @@ Productafbeeldingen worden automatisch uit AEM Assets opgehaald op basis van voo
 
 1. Open de **Beelden en de sectie van Video&#39;s**.
 
-   ![&#x200B; beeld van het Product &#x200B;](assets/product-image.png){width="600" zoomable="yes"}
+   ![ beeld van het Product ](assets/product-image.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    > Een bericht wijst erop dat de integratie wordt toegelaten, makend dit a **read-only** sectie aangezien het beeldbeheer in DAM wordt gecentraliseerd.
 
-   Om productactiva (verbindingsbeelden aan SKUs) te vormen, open uw de auteursinstantie van AEM Assets en klik **Assets** van de belangrijkste mening. Zie [&#x200B; Standaard automatische aanpassing &#x200B;](synchronize/default-match.md) voor de stappen van de meta-gegevensconfiguratie.
+   Om productactiva (verbindingsbeelden aan SKUs) te vormen, open uw de auteursinstantie van AEM Assets en klik **Assets** van de belangrijkste mening. Zie [ Standaard automatische aanpassing ](synchronize/default-match.md) voor de stappen van de meta-gegevensconfiguratie.
 
 ### Productafbeeldingen beheren in AEM Assets
 
@@ -57,23 +57,23 @@ Om product-verwante beelden te beheren, moeten alle veranderingen direct in **AE
 Raadpleeg de volgende onderwerpen voor meer informatie over het koppelen van elementen aan producten in AEM Assets (inclusief configuratie en goedkeuring van metagegevens):
 
 * [Standaard automatische vergelijking](synchronize/default-match.md)
-* [&#x200B; de automatische aanpassing van de Douane &#x200B;](synchronize/custom-match.md).
+* [ de automatische aanpassing van de Douane ](synchronize/custom-match.md).
 
 ### Synchronisatie-SLA&#39;s
 
-Voor informatie over synchronisatietiming, zie het [&#x200B; onderwerp van de Synchronisatie SLA &#x200B;](get-started/setup-synchronization.md#synchronization-sla).
+Voor informatie over synchronisatietiming, zie het [ onderwerp van de Synchronisatie SLA ](get-started/setup-synchronization.md#synchronization-sla).
 
 ## Afbeeldingen van inhoud
 
-Adobe Commerce verstrekt de Bouwer van de Pagina als systeem van het a **inhoudsbeheer (CMS)** voor verkopers die niet Adobe Experience Manager (AEM) toolset gebruiken. Om inhoudsverwezenlijking te verbeteren, onze integratiehefboomwerkingen [&#x200B; de Selector van Activa van AEM &#x200B;](synchronize/asset-selector-integration.md), die marketers toestaan om tot beelden van **direct toegang te hebben en in te bedden DAM**. Hierdoor wordt ervoor gezorgd dat alleen goedgekeurde en kwalitatief hoogstaande afbeeldingen worden gebruikt bij het maken van inhoud, waardoor overbodige opslag in Adobe Commerce overbodig wordt.
+Adobe Commerce verstrekt de Bouwer van de Pagina als systeem van het a **inhoudsbeheer (CMS)** voor verkopers die niet Adobe Experience Manager (AEM) toolset gebruiken. Om inhoudsverwezenlijking te verbeteren, onze integratiehefboomwerkingen [ de Selector van Activa van AEM ](synchronize/asset-selector-integration.md), die marketers toestaan om tot beelden van **direct toegang te hebben en in te bedden DAM**. Hierdoor wordt ervoor gezorgd dat alleen goedgekeurde en kwalitatief hoogstaande afbeeldingen worden gebruikt bij het maken van inhoud, waardoor overbodige opslag in Adobe Commerce overbodig wordt.
 
 ### AEM Asset Selector gebruiken in Page Builder
 
-[!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} om de **Selector van Activa van AEM** voor het inbedden van beelden te gebruiken:
+[!BADGE  PaaS slechts ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} om de **Selector van Activa van AEM** voor het inbedden van beelden te gebruiken, ervoor zorgen de gebruikers de vereiste [ toestemmingen en authentificatie IMS ](get-started/permissions.md) hebben.
 
 1. Navigeer aan om het even welke sectie in **Adobe Commerce Admin** die `content enrichment` gebruikend **Bouwer van de Pagina** steunt.
 
-1. Open [&#x200B; Bouwer van de Pagina &#x200B;](https://developer.adobe.com/commerce/frontend-core/page-builder/){target=_blank}.
+1. Open [ Bouwer van de Pagina ](https://developer.adobe.com/commerce/frontend-core/page-builder/){target=_blank}.
 
    Een nieuw Type van Media genoemd **de Activa van AEM** zal beschikbaar zijn.
 
@@ -93,7 +93,7 @@ De vereniging aan het geselecteerde beeld zal in Adobe Commerce als direct URL w
 
 >[!TIP]
 >
-> [&#x200B; DA.live (Document Authoring) &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/?lang=nl-NL#dalive-document-authoring){target=_blank} verstrekt ook een selecteur van Activa om gegevens te verrijken.
+> [ DA.live (Document Authoring) ](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/storefront-builder/#dalive-document-authoring){target=_blank} verstrekt ook een selecteur van Activa om gegevens te verrijken.
 
 ## Productvideo&#39;s
 
@@ -107,7 +107,7 @@ Adobe Commerce fungeert als een belangrijk betrokkenheidskanaal voor digitale mi
 
 1. Open de **Beelden en de sectie van Video&#39;s**.
 
-   ![&#x200B; beeld van het Product &#x200B;](assets/product-image.png){width="600" zoomable="yes"}
+   ![ beeld van het Product ](assets/product-image.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -133,7 +133,7 @@ Dankzij deze integratie kunnen handelaren eenvoudig productvideo&#39;s op schaal
 
 ### Synchronisatie-SLA&#39;s
 
-Voor informatie over synchronisatietiming, zie het [&#x200B; onderwerp van de Synchronisatie SLA &#x200B;](get-started/setup-synchronization.md#synchronization-sla).
+Voor informatie over synchronisatietiming, zie het [ onderwerp van de Synchronisatie SLA ](get-started/setup-synchronization.md#synchronization-sla).
 
 ## Categorieafbeeldingen
 
@@ -141,38 +141,38 @@ Adobe Commerce stelt handelaren in staat afbeeldingen te koppelen aan productcat
 
 ### AEM Asset Selector gebruiken voor categorieafbeeldingen
 
-Nadat u de [&#x200B; selecteur van Activa van AEM &#x200B;](synchronize/asset-selector-integration.md) vormt, kunt u het gebruiken om activa in uw inhoud van cataloguscategorieën toe te voegen.
+Nadat u de [ selecteur van Activa van AEM ](synchronize/asset-selector-integration.md) vormt en ervoor zorgt de gebruikers de vereiste [ toestemmingen en authentificatie IMS ](get-started/permissions.md) hebben, kunt u het gebruiken om activa in uw inhoud van cataloguscategorieën toe te voegen.
 
 1. Voor _Admin_ sidebar, navigeer aan **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Selecteer een categorie die u wilt bijwerken.
 
-1. Breid de ![&#x200B; selecteur van de Uitbreiding &#x200B;](../assets/icon-display-expand.png) in de **[!UICONTROL Content]** sectie uit.
+1. Breid de ![ selecteur van de Uitbreiding ](../assets/icon-display-expand.png) in de **[!UICONTROL Content]** sectie uit.
 
 1. In de **[!UICONTROL Content]** sectie, bepaal de plaats van het *gebied van het Beeld* verbonden aan de categorie.
 
-   ![&#x200B; inhoud van de Categorie &#x200B;](assets/category-asset.png){width="600" zoomable="yes"}
+   ![ inhoud van de Categorie ](assets/category-asset.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select from Assets]** om de categorieafbeelding te wijzigen.
 
-   ![&#x200B; inhoud van de Categorie &#x200B;](assets/asset-view.png){width="600" zoomable="yes"}
+   ![ inhoud van de Categorie ](assets/asset-view.png){width="600" zoomable="yes"}
 
 1. Kies een afbeelding in de AEM Asset Selector.
 
-   ![&#x200B; inhoud van de Categorie &#x200B;](assets/select-image.png){width="600" zoomable="yes"}
+   ![ inhoud van de Categorie ](assets/select-image.png){width="600" zoomable="yes"}
 
 1. Klik op **[!UICONTROL Save]** en ga verder.
 
-   Voor meer informatie over het creëren van een categorie, zie [&#x200B; de categorieinhoud &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content) in de **Gids van het Beheer van de Catalogus van Commerce** voltooien.
+   Voor meer informatie over het creëren van een categorie, zie [ de categorieinhoud ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/create/category-create#step-3-complete-the-category-content) in de **Gids van het Beheer van de Catalogus van Commerce** voltooien.
 
 ## Middelen bijwerken
 
 Nadat u middelen in AEM Assets hebt bijgewerkt en goedgekeurd, worden de updates automatisch naar Adobe Commerce verzonden met behulp van de automatische matching-functie. Dit proces wordt geactiveerd na goedkeuring van activa. Zorg ervoor dat u het element opnieuw verwerkt voordat u het goedkeurt om ervoor te zorgen dat alle laatste wijzigingen en updates van metagegevens worden opgenomen.
 
-Voor het Commerce-zijwerkschema om activa aan producten via meta-gegevens te verbinden, zie het [&#x200B; Standaard automatische aanpassing &#x200B;](synchronize/default-match.md) onderwerp.
+Voor het Commerce-zijwerkschema om activa aan producten via meta-gegevens te verbinden, zie het [ Standaard automatische aanpassing ](synchronize/default-match.md) onderwerp.
 
 Raadpleeg de volgende documentatie voor AEM Assets-procedures:
 
-* [&#x200B; het Opverwerken van digitale activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+* [ het Opverwerken van digitale activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-* [&#x200B; keur activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed
+* [ keur activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) goed

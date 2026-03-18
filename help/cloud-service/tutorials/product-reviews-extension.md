@@ -53,8 +53,8 @@ Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugker
 
 Controleer ook het volgende:
 
-- U hebt een [!DNL Adobe Commerce as a Cloud Service] -instantie met productgegevens. Zie {de instanties van de Dienst van 0} Commerce Cloud [.](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}
-- Er is een storefront-project verbonden met uw [!DNL Commerce] -instantie. Als u geen hebt, volg de stappen in [&#x200B; creeer een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}.
+- U hebt een [!DNL Adobe Commerce as a Cloud Service] -instantie met productgegevens. Zie {de instanties van de Dienst van 0} Commerce Cloud [.](https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/overview){target="_blank"}
+- Er is een storefront-project verbonden met uw [!DNL Commerce] -instantie. Als u geen hebt, volg de stappen in [&#x200B; creeer een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL){target="_blank"}.
 - De `aem` CLI is geïnstalleerd:
 
   ```bash

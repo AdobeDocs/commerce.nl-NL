@@ -29,4 +29,4 @@ ht-degree: 4%
    - [Aangepaste automatische matching](synchronize/custom-match.md)
    - [Handmatige selectie van middelen](synchronize/asset-selector-integration.md)
 - [Commerce-media-elementen beheren](manage-assets.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)

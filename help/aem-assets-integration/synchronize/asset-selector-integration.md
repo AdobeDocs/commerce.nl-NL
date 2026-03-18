@@ -14,23 +14,23 @@ ht-degree: 0%
 
 **de Kiezer van de Activa van AEM** laat marketers en handelaren toe om beelden van AEM Assets aan Adobe Commerce gemakkelijk toe te voegen, die het proces van het activabeheer stroomlijnen. Deze methode zorgt voor de consistentie van uw merk en de naleving ervan door de selectie van elementen te beperken tot elementen die in het [!DNL DAM (Digital Asset Management system)] -bestand zijn beoordeeld en goedgekeurd.
 
-De **Selector van Activa van AEM** is beschikbaar wanneer IMS cliëntidentiteitskaart voor het project van AEM Assets in Commerce Admin is gevormd en de gebruikers de vereiste [ toestemmingen en authentificatie IMS ](../get-started/permissions.md) hebben. Zie [ de Selector van Activa van AEM ](#configure-the-aem-asset-selector-in-adobe-commerce) vormen.
+De **Selector van Activa van AEM** is beschikbaar wanneer IMS cliëntidentiteitskaart voor het project van AEM Assets in Commerce Admin is gevormd en de gebruikers de vereiste [&#x200B; toestemmingen en authentificatie IMS &#x200B;](../get-started/permissions.md) hebben. Zie [&#x200B; de Selector van Activa van AEM &#x200B;](#configure-the-aem-asset-selector-in-adobe-commerce) vormen.
 
-Wanneer de **integratie van de Selecteur van Activa 0} AEM wordt gevormd, kunnen de marketers en de handelaren:**
+Wanneer de **integratie van de Selecteur van Activa 0&rbrace; AEM wordt gevormd, kunnen de marketers en de handelaren:**
 
 * U kunt categorieafbeeldingen zonder moeite beheren en ervoor zorgen dat deze overeenkomen met de richtlijnen voor merk en campagne.
-* [!BADGE  PaaS slechts ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} wijst activa direct in de Bouwer van de Pagina voor visueel rijke inhoud toe.
-* [!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} wijs Assets direct in Commerce Storefront toe die door Edge Delivery Services voor visueel verrijkte inhoud wordt aangedreven.
+* [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} wijst activa direct in de Bouwer van de Pagina voor visueel rijke inhoud toe.
+* [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."} wijs Assets direct in Commerce Storefront toe die door Edge Delivery Services voor visueel verrijkte inhoud wordt aangedreven.
 
 >[!NOTE]
 >
-> De AEM Asset Selector is een frontend AEM-element voor de integratie van AEM Assets met ontwerptoepassingen. Voor meer informatie over deze component, zie de [ Micro-Frontend de Selector van Activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank} in de *Gids van de Gebruiker van AEM as a Cloud Service*.
+> De AEM Asset Selector is een frontend AEM-element voor de integratie van AEM Assets met ontwerptoepassingen. Voor meer informatie over deze component, zie de [&#x200B; Micro-Frontend de Selector van Activa &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/overview-asset-selector){target=_blank} in de *Gids van de Gebruiker van AEM as a Cloud Service*.
 
 ## Belangrijkste voordelen
 
 Het insluiten van AEM Asset Selector in het deelvenster Adobe Commerce Admin biedt verschillende belangrijke voordelen:
 
-* **- Vertoningen slechts goedgekeurde activa van de Consistentie van het merk 0} {, die het risico minimaliseren van verouderde of niet volgzame beelden op de storefront.**
+* **- Vertoningen slechts goedgekeurde activa van de Consistentie van het merk 0&rbrace; &lbrace;, die het risico minimaliseren van verouderde of niet volgzame beelden op de storefront.**
 
 * **Efficiëntie** - laat marketers en handelaren toe om activa snel toe te wijzen zonder tussen verschillende platforms te schakelen.
 
@@ -38,7 +38,7 @@ Het insluiten van AEM Asset Selector in het deelvenster Adobe Commerce Admin bie
 
 * **Verbeterde Kwaliteit van de Inhoud** - verzekert het gebruik van high-resolution, geoptimaliseerde beelden over productpagina&#39;s, categorieën, en de Bouwer van de Pagina.
 
-![ de Kiezer van Activa ](../assets/asset-selector.png){width="600" zoomable="yes"}
+![&#x200B; de Kiezer van Activa &#x200B;](../assets/asset-selector.png){width="600" zoomable="yes"}
 
 ## AEM Asset Selector configureren in Adobe Commerce
 

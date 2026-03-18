@@ -29,7 +29,7 @@ U bouwt twee delen:
 >
 >AI-agentia zijn niet deterministisch. De vragen, vragen en resultaten in deze zelfstudie zijn voorbeelden. Uw agent kan verschillende vragen, vereisten, of architectuurvoorstellen veroorzaken. Gebruik de voorbeelden in deze zelfstudie om de agent naar een vergelijkbaar resultaat te sturen.
 
-Alvorens u begint, voltooi de [ eerste vereisten ](./tutorial-prerequisites.md). Dit leerprogramma gebruikt de **uitrusting van de integratieaanzet**. Controleer of u de toepassing al hebt gekloond en voltooi de stappen die op de pagina met voorwaarden worden beschreven.
+Alvorens u begint, voltooi de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md). Dit leerprogramma gebruikt de **uitrusting van de integratieaanzet**. Controleer of u de toepassing al hebt gekloond en voltooi de stappen die op de pagina met voorwaarden worden beschreven.
 
 ## Voorwaarden verifiëren
 
@@ -49,12 +49,12 @@ git --version
 bash --version
 ```
 
-Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, zie de [ eerste vereisten ](./tutorial-prerequisites.md) voor begeleiding.
+Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, zie de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md) voor begeleiding.
 
 Controleer ook het volgende:
 
 - U hebt een [!DNL Adobe Commerce as a Cloud Service] -instantie met productgegevens. Zie {de instanties van de Dienst van 0} Commerce Cloud [.](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}
-- Er is een storefront-project verbonden met uw [!DNL Commerce] -instantie. Als u geen hebt, volg de stappen in [ creeer een storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}.
+- Er is een storefront-project verbonden met uw [!DNL Commerce] -instantie. Als u geen hebt, volg de stappen in [&#x200B; creeer een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}.
 - De `aem` CLI is geïnstalleerd:
 
   ```bash
@@ -309,7 +309,7 @@ Deze sectie begeleidt u door het storefront gedeelte van de productrevisies en d
 Voordat u de storefront-integratie start, moet u controleren of u over het volgende beschikt:
 
 - Een storefront-project dat is verbonden met uw [!DNL Commerce] -instantie
-- Commerce storefront AI hulpmiddelen [ geïnstalleerd gebruikend CLI ](./tutorial-prerequisites.md#install-the-storefront-ai-tools)
+- Commerce storefront AI hulpmiddelen [&#x200B; geïnstalleerd gebruikend CLI &#x200B;](./tutorial-prerequisites.md#install-the-storefront-ai-tools)
 - Het bestand `PRODUCT_REVIEW_QA_CONTRACT.md` dat naar het winkelproject is gekopieerd
 
 ### Stap 1: De omgeving valideren
@@ -323,7 +323,7 @@ Open het `config.json` -bestand en controleer of de waarden voor `commerce-core-
 
 ### Stap 2: Geef de eerste prompt op
 
-Met het de dienstcontract reeds in uw project, vraag de agent om het blok van de productcontrole uit te voeren. Het gebruik **wijze van het Plan van 0} als beschikbaar in uw agent, om de agent te verhinderen zonder een plan te werk te gaan.**
+Met het de dienstcontract reeds in uw project, vraag de agent om het blok van de productcontrole uit te voeren. Het gebruik **wijze van het Plan van 0&rbrace; als beschikbaar in uw agent, om de agent te verhinderen zonder een plan te werk te gaan.**
 
 ```shell-session
 Analyze @PRODUCT_REVIEW_QA_CONTRACT.md and build a product review block using the API specified in the contract. The block displays both reviews and Q&A content on the product detail page, with forms for shoppers to submit reviews, questions, and answers. Use the project manager skill to plan this implementation.
@@ -388,7 +388,7 @@ Tijdens implementatie, leidt de agent tot en wijzigt blokdossiers. Bekijk de cod
 
 Voeg het blok van het productoverzicht aan het malplaatje van de productpagina toe zodat verschijnt het op alle PDPs. Gebruik de Document Authoring service (da.live) om het blok toe te voegen en te configureren.
 
-1. Open uw document auteursdienst, bijvoorbeeld [ da.live ](https://da.live/)
+1. Open uw document auteursdienst, bijvoorbeeld [&#x200B; da.live &#x200B;](https://da.live/)
 
 1. Klik op uw projectruimte, open de **producten** omslag en selecteer **gebrek** (`products/default`).
 

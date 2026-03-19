@@ -2,7 +2,7 @@
 title: Aan de slag met de Adobe Commerce Optimizer-connector
 description: Leer hoe u de connector installeert en configureert, de exportconfiguratie aanpast, verbinding maakt met Adobe Commerce Optimizer en de status van de gegevenssynchronisatie controleert.
 feature: Personalization, Integration, Configuration
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 source-git-commit: f302efcb6c08d5a3c695a47ae16fdac790a8bc24
 workflow-type: tm+mt
 source-wordcount: '1108'
@@ -26,15 +26,15 @@ Installeer en configureer de Commerce Optimizer-connector om uw Adobe Commerce-c
 
 * Toegang tot [&#x200B; repo.magento.com &#x200B;](https://repo.magento.com) om het metapakket van de Verbinding van Commerce te downloaden gebruikend Composer.
 
-* Admin toegang tot een [&#x200B; zandbakinstantie van Adobe Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/create-first-instance).
+* Admin toegang tot een [&#x200B; zandbakinstantie van Adobe Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-commerce-optimizer/create-first-instance).
 
 De Adobe Commerce-gebruiker die de integratie configureert, moet beschikken over:
 
 * Beheerderstoegang tot de Adobe Commerce Admin.
 
-* [&#x200B; de lijntoegang van het Bevel tot de de toepassingsserver van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access).
+* [&#x200B; de lijntoegang van het Bevel tot de de toepassingsserver van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/project/user-access).
 
-* De toegang van de ontwikkelaar tot de [&#x200B; IMS Organisatie &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations?) waar het [!DNL Adobe Commerce Optimizer] project provisioned is.
+* De toegang van de ontwikkelaar tot de [&#x200B; IMS Organisatie &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/administration/organizations?) waar het [!DNL Adobe Commerce Optimizer] project provisioned is.
 
 >[!BEGINSHADEBOX]
 
@@ -47,7 +47,7 @@ Als u een van de volgende extensies hebt geïnstalleerd, verwijdert u deze voord
 * Adobe Commerce Catalog Service (`magento/catalog-service`, `magento/catalog-service-installer`)
 * Data Management Dashboard (`magento-catalog-sync-admin`)
 
-Gegevens die aan deze extensies zijn gekoppeld, zijn nog steeds beschikbaar in de Commerce-database. Het wordt echter niet naar [!DNL Adobe Commerce Optimizer] geëxporteerd wanneer de connector is ingeschakeld. Om het onderzoek en het merchandising mogelijkheden uit te voeren die door deze uitbreidingen na het toelaten van de Schakelaar worden verstrekt, vorm hen van [[!DNL Adobe Commerce Optimizer]  Admin UI &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview#quick-tour).
+Gegevens die aan deze extensies zijn gekoppeld, zijn nog steeds beschikbaar in de Commerce-database. Het wordt echter niet naar [!DNL Adobe Commerce Optimizer] geëxporteerd wanneer de connector is ingeschakeld. Om het onderzoek en het merchandising mogelijkheden uit te voeren die door deze uitbreidingen na het toelaten van de Schakelaar worden verstrekt, vorm hen van [[!DNL Adobe Commerce Optimizer]  Admin UI &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/optimizer/overview#quick-tour).
 
 >[!ENDSHADEBOX]
 
@@ -86,9 +86,9 @@ Nadat de implementatie is voltooid, is de optie Commerce Optimizer beschikbaar i
 >
 >Raadpleeg de volgende handleidingen voor gedetailleerde installatie-instructies voor extensies:
 >
->[&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+>[&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 >
->[&#x200B; installeer uitbreiding op Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+>[&#x200B; installeer uitbreiding op Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ### Vereiste verbindingsgegevens ophalen
 
@@ -162,7 +162,7 @@ Met behulp van de API-referenties en de instantiedetails die u in de vorige stap
 
    ![[!DNL Adobe Commerce Optimizer] configuratiepagina &#x200B;](/help/aco-connector/assets/aco-connector-admin-installation.png){width="500" zoomable="yes"}
 
-1. Van de bevellijn, [&#x200B; gebruik SSH &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections) om met het opvoeren van Commerce milieu te verbinden.
+1. Van de bevellijn, [&#x200B; gebruik SSH &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/develop/secure-connections) om met het opvoeren van Commerce milieu te verbinden.
 
 1. Voer het volgende Commerce CLI bevel in werking om de integratie te vormen, die de placeholder waarden met de waarden voor uw project van Commerce Optimizer vervangt:
 
@@ -206,6 +206,6 @@ Nadat u de integratie hebt ingeschakeld, wordt de gegevenssynchronisatie automat
 
 1. **[opstelling een Opslag van Commerce op Edge Delivery Services](#set-up-a-commerce-storefront-on-edge-delivery-services)**
 
-   Volg de [&#x200B; documentatie van de Opstelling van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/) om uw storefront aan de [!DNL Adobe Commerce Optimizer] instantie te verbinden en beginnen gepersonaliseerde handelservaringen te leveren.
+   Volg de [&#x200B; documentatie van de Opstelling van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=nl-NL) om uw storefront aan de [!DNL Adobe Commerce Optimizer] instantie te verbinden en beginnen gepersonaliseerde handelservaringen te leveren.
 
 

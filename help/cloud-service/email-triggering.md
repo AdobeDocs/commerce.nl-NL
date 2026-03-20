@@ -36,10 +36,10 @@ In de volgende sectie wordt uitgelegd hoe u transactie-e-mails op aanvraag kunt 
 ### Endpoint
 
 - **URL** - `POST /rest/V1/custom-email/send`
-- **Vergunning** - slechts **de dienst-aan-dienst vergunning IMS** wordt gesteund. De bezoeker moet toegang tot **hebben verzendt Eigen E-mail van de Douane via API** (`Magento_CustomEmailSend::send_custom_email`) middel. Verwijs naar [ authentificatie van het REST ](https://developer.adobe.com/commerce/webapi/rest/authentication/) voor meer informatie.
+- **Vergunning** - slechts **de dienst-aan-dienst vergunning IMS** wordt gesteund. De bezoeker moet toegang tot **hebben verzendt Eigen E-mail van de Douane via API** (`Magento_CustomEmailSend::send_custom_email`) middel. Verwijs naar [&#x200B; authentificatie van het REST &#x200B;](https://developer.adobe.com/commerce/webapi/rest/authentication/) voor meer informatie.
 - **gebruik Async** (geadviseerd) - hoewel dit eindpunt synchroon wordt uitgevoerd, adviseren wij roepend het gebruikend **asynchrone REST API** zodat het verzoek een rij wordt gevormd en door een consument wordt verwerkt, vermijdend de verbindingen van lang-levend HTTP. In [!DNL Adobe Commerce as a Cloud Service] kunt u de route gebruiken met `/async` after `V1` , bijvoorbeeld: `POST https://<server>.api.commerce.adobe.com/<tenant-id>/V1/async/custom-email/send` .
 
-  Verwijs naar [ Asynchrone Webeindpunten (SaaS) ](https://developer.adobe.com/commerce/webapi/rest/use-rest/asynchronous-web-endpoints/) voor meer informatie.
+  Verwijs naar [&#x200B; Asynchrone Webeindpunten (SaaS) &#x200B;](https://developer.adobe.com/commerce/webapi/rest/use-rest/asynchronous-web-endpoints/) voor meer informatie.
 
 ### Aanvragingsinstantie
 
@@ -48,7 +48,7 @@ In de volgende sectie wordt uitgelegd hoe u transactie-e-mails op aanvraag kunt 
 - **receivingEmail** (koord, vereist) - het doel e-mailadres. Dit moet een geldige e-mailindeling zijn. Bij ontbrekende of lege waarden treedt een validatiefout op.
 - **variabelen** (voorwerp, facultatief) - sleutel-waarde kaart die in het malplaatje als `UnstructuredArray` wordt ingespoten.
 
-  Wanneer u geen variabelen gebruikt, geeft u een leeg object door of laat u dit weg. Gebruik in de hoofdtekst en het onderwerp van de e-mailsjabloon de syntaxis van de variabele om naar een variabele te verwijzen, bijvoorbeeld `var order_id` . Het onderwerp steunt ook de zelfde douanevariabelen en syntaxis die in [ worden beschreven Gesteunde malplaatjescenario&#39;s ](#supported-template-scenarios).
+  Wanneer u geen variabelen gebruikt, geeft u een leeg object door of laat u dit weg. Gebruik in de hoofdtekst en het onderwerp van de e-mailsjabloon de syntaxis van de variabele om naar een variabele te verwijzen, bijvoorbeeld `var order_id` . Het onderwerp steunt ook de zelfde douanevariabelen en syntaxis die in [&#x200B; worden beschreven Gesteunde malplaatjescenario&#39;s &#x200B;](#supported-template-scenarios).
 
 ### Succesreactie (HTTP 200)
 

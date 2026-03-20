@@ -39,6 +39,6 @@ ht-degree: 4%
 - Schema&#39;s {#schemas}
    - [&#x200B; het Schema van GraphQL](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
    - [&#x200B; REST API Schema](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
-- [&#x200B; VideoLeerprogramma&#39;s](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
+- [&#x200B; VideoLeerprogramma&#39;s](https://experienceleague.adobe.com/nl/playlists/accs-getting-started-product-overview){target="_blank"}
 - [Aanvullende informatie](release-notes.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)

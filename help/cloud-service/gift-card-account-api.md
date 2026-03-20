@@ -3,7 +3,7 @@ title: REST-eindpunten van Cadeaukaartaccount
 description: Leer hoe te om het BEDRIJF APIs van de Rekening van de Kaart van de Cadeaukaart te gebruiken om, kwitantiekaarten programmatically in  [!DNL Adobe Commerce as a Cloud Service] tot stand te brengen bij te werken, te schrappen en te vragen.
 role: Admin, Developer
 level: Experienced
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 160180d9d779514f6faee3c7de46531ebf191c7d
 workflow-type: tm+mt
 source-wordcount: '807'

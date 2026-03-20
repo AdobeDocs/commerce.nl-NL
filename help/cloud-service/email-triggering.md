@@ -3,7 +3,7 @@ title: E-mailactivering via REST
 description: Leer hoe te om transactie e-mails op bestelling teweeg te brengen gebruikend REST API door een malplaatjeidentiteitskaart, ontvankelijke e-mail, en malplaatjevariabelen voor  [!DNL Adobe Commerce as a Cloud Service] te specificeren.
 role: Admin
 level: Experienced
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 9661e368f7a0dc85edcd3e52a67ae2a98355d8b5
 workflow-type: tm+mt
 source-wordcount: '523'

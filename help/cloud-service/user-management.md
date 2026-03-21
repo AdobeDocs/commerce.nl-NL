@@ -264,7 +264,7 @@ Als uw account toegang heeft tot [[!DNL Adobe Experience Manager as a Cloud Serv
    >
    >Voor meer informatie over hoe deze toestemmingen uw toegang tot [!DNL AEM Assets] beïnvloeden, verwijs naar [&#x200B; Profielen van het Product van Cloud Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/onboarding/concepts/aem-cs-team-product-profiles#cloud-manager-product-profiles){target="_blank"}.
 
-   Voor de Selector van Activa en auto-bevolkte configuratiegebieden (identiteitskaart van het Programma, Milieu identiteitskaart, de afbeelding van het Domein) in Commerce Admin, hebben de gebruikers ook de **gebruikers OpenAPI van AEM Assets DM - levering** productprofiel nodig. Zie {de toestemmingen van 0} Gebruiker en IMS [&#x200B; voor details.](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/permissions){target="_blank"}
+   Voor de Selector van Activa en auto-bevolkte configuratiegebieden (identiteitskaart van het Programma, Milieu identiteitskaart, de afbeelding van het Domein) in Commerce Admin, hebben de gebruikers ook de **gebruikers OpenAPI van AEM Assets DM - levering** productprofiel nodig. Zie {de toestemmingen van 0} Gebruiker en IMS [&#x200B; voor details.](https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/permissions){target="_blank"}
 
 1. Klik [!UICONTROL **toepassen**].
 

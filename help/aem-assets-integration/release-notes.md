@@ -46,7 +46,7 @@ _Maart 11, 2026_
 
 ![&#x200B; Nieuwe kwestie &#x200B;](../assets/new.svg)<!-- Issue PAY-1041 --> Toegevoegde steun voor Adobe Commerce 2.4.9-bèta1 en PHP 8.5.
 
-![&#x200B; Nieuwe kwestie &#x200B;](../assets/new.svg)<!-- Issue ACCS-169 --> de **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]**, en [**[!UICONTROL Domain mapping]**](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/domain-mappings/add-domain-mapping){target=_blank} gebieden bevolken nu automatisch als dropdowns die op de [&#x200B; zitting IMS van de gebruiker &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/permissions#user-permissions-and-ims){target=_blank} worden gebaseerd.
+![&#x200B; Nieuwe kwestie &#x200B;](../assets/new.svg)<!-- Issue ACCS-169 --> de **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]**, en [**[!UICONTROL Domain mapping]**](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/domain-mappings/add-domain-mapping){target=_blank} gebieden bevolken nu automatisch als dropdowns die op de [&#x200B; zitting IMS van de gebruiker &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/permissions#user-permissions-and-ims){target=_blank} worden gebaseerd.
 
 ## v1.2.14
 

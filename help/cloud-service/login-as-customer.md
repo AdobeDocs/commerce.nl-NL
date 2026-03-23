@@ -39,7 +39,7 @@ U moet aan de volgende vereisten voldoen alvorens het login als klanteneigenscha
 
 * **toestemming van de Klant** - de klant moet de `login_as_customer_assistance_allowed` uitbreidingsattributen hebben die aan **worden geplaatst 2**. Dit kan op **worden gevormd geeft Klant** pagina in Admin of door GraphQL uit wanneer het creëren van of het uitgeven van een klant.
 
-  ![ de attributenconfiguratie van de de toestemmingsuitbreiding van de Klant op de Edit pagina van de Klant ](./assets/customer-consent-attribute.png){width="600" zoomable="yes"}
+  ![&#x200B; de attributenconfiguratie van de de toestemmingsuitbreiding van de Klant op de Edit pagina van de Klant &#x200B;](./assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
 * **Login als toegelaten uitbreiding van de Klant** - login als klantenfunctionaliteit is niet beschikbaar wanneer login als klantenuitbreiding gehandicapt is. Om de uitbreiding te verifiëren wordt toegelaten, navigeer aan [!UICONTROL **Opslag**] > [!UICONTROL **Configuratie**] > [!UICONTROL **Klanten**] > [!UICONTROL **Login als Klant**] > [!UICONTROL **toelaat Uitbreiding**].
 
@@ -49,11 +49,11 @@ U moet aan de volgende vereisten voldoen alvorens het login als klanteneigenscha
 
 1. Voor de Edit pagina van de Klant, klik [!UICONTROL **krijgt de Login OTC van de Klant**].
 
-   ![ krijgt de OTC knoop van de Login van de Klant op de Edit pagina van de Klant ](./assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![&#x200B; krijgt de OTC knoop van de Login van de Klant op de Edit pagina van de Klant &#x200B;](./assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
 
-1. Ga a [!UICONTROL **(vereiste) Reden van 0} in en klik**] Verzoek [!UICONTROL **.**]
+1. Ga a [!UICONTROL **(vereiste) Reden van 0&rbrace; in en klik**] Verzoek [!UICONTROL **.**]
 
-   ![ OTC verzoek modaal met het gebied van de Reden ](./assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![&#x200B; OTC verzoek modaal met het gebied van de Reden &#x200B;](./assets/otc-reason-modal.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -61,11 +61,11 @@ U moet aan de volgende vereisten voldoen alvorens het login als klanteneigenscha
 
 1. De gegenereerde OTC wordt weergegeven in het modaal. Gebruik deze code met de `generateCustomerToken` - of `exchangeOtpForCustomerToken` GraphQL-mutatie voor toestemming van de klant.
 
-   ![ Gegenereerde OTC die in modaal ](./assets/otc-generated-code.png){width="300" zoomable="yes"} wordt getoond
+   ![&#x200B; Gegenereerde OTC die in modaal &#x200B;](./assets/otc-generated-code.png){width="300" zoomable="yes"} wordt getoond
 
 >[!IMPORTANT]
 >
->De gegenereerde One-Time Code OTC is standaard 30 seconden geldig en wordt na één gebruik ongeldig gemaakt. TTL kan worden gevormd door a [ steunkaartje ](https://experienceleague.adobe.com/home?support-tab=home#support) voor te leggen.
+>De gegenereerde One-Time Code OTC is standaard 30 seconden geldig en wordt na één gebruik ongeldig gemaakt. TTL kan worden gevormd door a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/home?support-tab=home#support) voor te leggen.
 
 Nadat de Eenmalige Code wordt geproduceerd, kunt u het gebruiken door aan uw storefront te navigeren en het programma te openen gebruikend de volgende geloofsbrieven:
 

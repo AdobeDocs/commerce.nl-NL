@@ -3,10 +3,10 @@ title: Aanmelden als klant met eenmalige codes
 description: Leer hoe te om Login als eigenschap van de Klant te gebruiken OTC om éénmalige codes voor klantenauthentificatie in  [!DNL Adobe Commerce as a Cloud Service] te produceren.
 role: Admin
 level: Intermediate
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
-source-git-commit: 160180d9d779514f6faee3c7de46531ebf191c7d
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+source-git-commit: 2de1006ad3cee936d114bcf1b9a98b43a54d8c76
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U moet aan de volgende vereisten voldoen alvorens het login als klanteneigenscha
 
 * **toestemming van de Klant** - de klant moet de `login_as_customer_assistance_allowed` uitbreidingsattributen hebben die aan **worden geplaatst 2**. Dit kan op **worden gevormd geeft Klant** pagina in Admin of door GraphQL uit wanneer het creëren van of het uitgeven van een klant.
 
-  ![&#x200B; de attributenconfiguratie van de de toestemmingsuitbreiding van de Klant op de Edit pagina van de Klant &#x200B;](./assets/customer-consent-attribute.png){width="600" zoomable="yes"}
+  ![ de attributenconfiguratie van de de toestemmingsuitbreiding van de Klant op de Edit pagina van de Klant ](./assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
 * **Login als toegelaten uitbreiding van de Klant** - login als klantenfunctionaliteit is niet beschikbaar wanneer login als klantenuitbreiding gehandicapt is. Om de uitbreiding te verifiëren wordt toegelaten, navigeer aan [!UICONTROL **Opslag**] > [!UICONTROL **Configuratie**] > [!UICONTROL **Klanten**] > [!UICONTROL **Login als Klant**] > [!UICONTROL **toelaat Uitbreiding**].
 
@@ -49,11 +49,11 @@ U moet aan de volgende vereisten voldoen alvorens het login als klanteneigenscha
 
 1. Voor de Edit pagina van de Klant, klik [!UICONTROL **krijgt de Login OTC van de Klant**].
 
-   ![&#x200B; krijgt de OTC knoop van de Login van de Klant op de Edit pagina van de Klant &#x200B;](./assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![ krijgt de OTC knoop van de Login van de Klant op de Edit pagina van de Klant ](./assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
 
-1. Ga a [!UICONTROL **(vereiste) Reden van 0&rbrace; in en klik**] Verzoek [!UICONTROL **.**]
+1. Ga a [!UICONTROL **(vereiste) Reden van 0} in en klik**] Verzoek [!UICONTROL **.**]
 
-   ![&#x200B; OTC verzoek modaal met het gebied van de Reden &#x200B;](./assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![ OTC verzoek modaal met het gebied van de Reden ](./assets/otc-reason-modal.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -61,11 +61,11 @@ U moet aan de volgende vereisten voldoen alvorens het login als klanteneigenscha
 
 1. De gegenereerde OTC wordt weergegeven in het modaal. Gebruik deze code met de `generateCustomerToken` - of `exchangeOtpForCustomerToken` GraphQL-mutatie voor toestemming van de klant.
 
-   ![&#x200B; Gegenereerde OTC die in modaal &#x200B;](./assets/otc-generated-code.png){width="300" zoomable="yes"} wordt getoond
+   ![ Gegenereerde OTC die in modaal ](./assets/otc-generated-code.png){width="300" zoomable="yes"} wordt getoond
 
 >[!IMPORTANT]
 >
->De gegenereerde One-Time Code OTC is standaard 30 seconden geldig en wordt na één gebruik ongeldig gemaakt. De TTL kan via CPS worden gevormd gebruikend het `customer/otp/ttl_seconds` plaatsen.
+>De gegenereerde One-Time Code OTC is standaard 30 seconden geldig en wordt na één gebruik ongeldig gemaakt. TTL kan worden gevormd door a [ steunkaartje ](https://experienceleague.adobe.com/home?support-tab=home#support) voor te leggen.
 
 Nadat de Eenmalige Code wordt geproduceerd, kunt u het gebruiken door aan uw storefront te navigeren en het programma te openen gebruikend de volgende geloofsbrieven:
 

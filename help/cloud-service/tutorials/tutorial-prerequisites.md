@@ -398,7 +398,7 @@ De volgende punten worden vereist om de [&#x200B; opslag &#x200B;](./ratings-ext
 
 * [&#x200B; Google Chrome &#x200B;](https://www.google.com/chrome/) - Vereist voor het testen van de storefront
 
-* Een storefront-project dat is verbonden met uw [!DNL Commerce] -instantie. Als u geen storefront project hebt, volg de stappen in [&#x200B; creeer een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}, met inbegrip van de [&#x200B; reactie van de Verbinding aan handelsgegevens &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#link-repo-to-commerce-data){target="_blank"} sectie.
+* Een storefront-project dat is verbonden met uw [!DNL Commerce] -instantie. Als u geen storefront project hebt, volg de stappen in [&#x200B; creeer een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL){target="_blank"}, met inbegrip van de [&#x200B; reactie van de Verbinding aan handelsgegevens &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL#link-repo-to-commerce-data){target="_blank"} sectie.
 
 ### De opslagplaats klonen
 

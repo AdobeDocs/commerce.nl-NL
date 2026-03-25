@@ -3,9 +3,9 @@ user-guide-title: '[!DNL Adobe Commerce as a Cloud Service]'
 user-guide-description: Deze gids verstrekt gedetailleerde instructies voor het gebruiken van  [!DNL Adobe Commerce as a Cloud Service].
 feature: Services, Saas
 recommendations: noDisplay, noCatalog
-source-git-commit: 3cbb166833ea8aacbdb15bdce469eff3930ef741
+source-git-commit: 5c84464a463672d48544031bb365f3484065acf4
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '97'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 4%
       - [Bulkgegevensmigratiehulpprogramma](migration/bulk-data.md)
       - [Coderingsgereedschappen](migration/coding-tools.md)
    - [Documentatie RAG-service](migration/doc-rag.md)
-- [Aanmelden als klant](login-as-customer.md)
-- [Cadeaukaartaccount-API](gift-card-account-api.md)
-- [E-mailactivering](email-triggering.md)
+- [ Login als Klant ](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
+- [ Eindpunten van de Rekening van de Kaart van het Cadeautje ](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/){target="_blank"}
+- [ E-mail die door REST ](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/){target="_blank"} teweegbrengt
 - Tutorials {#tutorials}
    - [Vereisten voor zelfstudie](tutorials/tutorial-prerequisites.md)
    - [Zelfstudie voor Beoordelingsextensie](tutorials/ratings-extension.md)
@@ -37,8 +37,8 @@ ht-degree: 4%
    - [Handleiding voor extensie voor voorraadkennisgeving](tutorials/in-stock-notification-extension.md)
    - [Zelfstudie over productherzieningen](tutorials/product-reviews-extension.md)
 - Schema&#39;s {#schemas}
-   - [&#x200B; het Schema van GraphQL](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
-   - [&#x200B; REST API Schema](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
-- [&#x200B; VideoLeerprogramma&#39;s](https://experienceleague.adobe.com/nl/playlists/accs-getting-started-product-overview){target="_blank"}
+   - [ het Schema van GraphQL ](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
+   - [ REST API Schema ](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
+- [ VideoLeerprogramma&#39;s ](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
 - [Aanvullende informatie](release-notes.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)
+- [ Terugkeer aan het Huis van de Diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)

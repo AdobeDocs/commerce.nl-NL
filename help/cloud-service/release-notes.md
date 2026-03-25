@@ -5,7 +5,7 @@ feature-set: Commerce
 feature: App Builder, GraphQL, Integration, Saas
 role: Admin, Developer, User, Leader
 level: Beginner
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 exl-id: cf06dec6-8d6b-413e-9977-df88373c188e
 source-git-commit: 9d4192bae09fce4f08baf4b3e2826302667cd55f
 workflow-type: tm+mt
@@ -20,7 +20,7 @@ De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce as a C
 
 >[!NOTE]
 >
->Als u Adobe Commerce op-gebouw of Adobe Commerce op wolkeninfrastructuur gebruikt, zie de [&#x200B; versienota&#39;s van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/overview).
+>Als u Adobe Commerce op-gebouw of Adobe Commerce op wolkeninfrastructuur gebruikt, zie de [&#x200B; versienota&#39;s van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/notes/overview).
 
 ## Maart 2026 - release #2 {#latest}
 
@@ -35,7 +35,7 @@ De volgende items zijn op 24 maart 2026 vrijgegeven voor productieomgevingen.
 
 ### Meld u aan als klant met behulp van eenmalige codes
 
-Admins kunnen [&#x200B; eenmalig codes &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) voor klantenimitatie door [!DNL Commerce Admin] en REST API nu produceren. De eenmalige code kan worden uitgewisseld voor een klanttoegangstoken via de `generateCustomerToken` - of `exchangeOtpForCustomerToken` GraphQL-mutaties, zodat &quot;Login as Customer&quot;-stromen zonder wachtwoord kunnen worden gebruikt voor winkelscenario&#39;s voor verkopers. <!-- ACCS-404 -->
+Admins kunnen [&#x200B; eenmalig codes &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) voor klantenimitatie door [!DNL Commerce Admin] en REST API nu produceren. De eenmalige code kan worden uitgewisseld voor een klanttoegangstoken via de `generateCustomerToken` - of `exchangeOtpForCustomerToken` GraphQL-mutaties, zodat &quot;Login as Customer&quot;-stromen zonder wachtwoord kunnen worden gebruikt voor winkelscenario&#39;s voor verkopers. <!-- ACCS-404 -->
 
 Voor begeleiding bij het uitvoeren van deze eigenschap die APIs gebruikt, zie [&#x200B; REST API &#x200B;](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) en [&#x200B; GraphQL &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/) documentatie.
 
@@ -53,7 +53,7 @@ De `plugin.out_of_process_shipping_methods.api.shipping_rate_repository.get_rate
 
 ### PDF&#39;s en andere bestanden uploaden via productkenmerken
 
-Een nieuw &quot;dossier&quot;[&#x200B; Type van Input van Attributen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types) staat u toe om attributenreeksen tot stand te brengen waar u dossiers, zoals PDFs, aan individuele producten kunt uploaden. U kunt toegestane dossieruitbreidingen en maximum dossiergrootte vormen door aan [!UICONTROL **te navigeren Slaat**] > [!UICONTROL **Configuratie**] > [!UICONTROL _Catalogus_] > [!UICONTROL **de Attributen van het Dossier van het Product**]. <!-- ACCS-535, ACCS-565 -->
+Een nieuw &quot;dossier&quot;[&#x200B; Type van Input van Attributen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types) staat u toe om attributenreeksen tot stand te brengen waar u dossiers, zoals PDFs, aan individuele producten kunt uploaden. U kunt toegestane dossieruitbreidingen en maximum dossiergrootte vormen door aan [!UICONTROL **te navigeren Slaat**] > [!UICONTROL **Configuratie**] > [!UICONTROL _Catalogus_] > [!UICONTROL **de Attributen van het Dossier van het Product**]. <!-- ACCS-535, ACCS-565 -->
 
 ### Aangepaste bedrijfskenmerken configureren
 
@@ -64,7 +64,7 @@ Om de attributen van de bedrijfdouane te vormen, navigeer aan [!UICONTROL **Klan
 
 ### Abonneer je op prijs- en voorraadberichten via GraphQL
 
-EDS storefronts werken nu met [&#x200B; prijs en voorraadalarm &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup). <!-- ACCS-334 -->
+EDS storefronts werken nu met [&#x200B; prijs en voorraadalarm &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup). <!-- ACCS-334 -->
 
 Daarnaast zijn er verschillende nieuwe mutaties in GraphQL die moeten worden geabonneerd op prijs- en voorraadwaarschuwingen en die moeten worden afgebroken:
 
@@ -183,7 +183,7 @@ U kunt [&#x200B; het coderen van AI ontwikkelaar nu gebruiken tooling &#x200B;](
 
 ### Wijziging van limiet voor het aanmaken van een entiteit aanvragen
 
-De limiet voor het aantal websites, winkels en winkelweergaven was voorheen beperkt tot 50. U kunt a [&#x200B; steunverzoek &#x200B;](https://experienceleague.adobe.com/home?support-tab=home#support) nu voorleggen om deze grenzen, indien nodig te wijzigen. <!-- ACCS-398 -->
+De limiet voor het aantal websites, winkels en winkelweergaven was voorheen beperkt tot 50. U kunt a [&#x200B; steunverzoek &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL&support-tab=home#support) nu voorleggen om deze grenzen, indien nodig te wijzigen. <!-- ACCS-398 -->
 
 ### Verstorefront authentificatieberichten met gestructureerde foutencodes aanpassen
 
@@ -191,7 +191,7 @@ De [`generateCustomerToken` mutatie van GraphQL &#x200B;](https://developer.adob
 
 ### Automatische e-mailherinneringen verzenden voor inactiviteit van winkelwagentje en wenslijst
 
-De [&#x200B; module van de Herinnering E-mail &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules) (`Magento_Reminder`) is nu actief in [!DNL Adobe Commerce as a Cloud Service], toestaand verkopers om geautomatiseerde herinneringsregels tot stand te brengen die e-mails aan klanten teweegbrengen die op kar en vorklijst inactiviteit worden gebaseerd. <!-- CCSAAS-4597 -->
+De [&#x200B; module van de Herinnering E-mail &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules) (`Magento_Reminder`) is nu actief in [!DNL Adobe Commerce as a Cloud Service], toestaand verkopers om geautomatiseerde herinneringsregels tot stand te brengen die e-mails aan klanten teweegbrengen die op kar en vorklijst inactiviteit worden gebaseerd. <!-- CCSAAS-4597 -->
 
 ### Abonneren op gebeurtenissen voor het verwijderen van categorieën webhaak
 
@@ -199,7 +199,7 @@ De `observer.catalog_category_delete_before` webhaak is nu beschikbaar in [!DNL 
 
 ### Gastersorders volgen die met een geregistreerd e-mailbericht zijn geplaatst
 
-Een nieuwe facultatieve opslag-vlakke configuratie staat klanten toe om [&#x200B; gastorden te volgen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-guest#allow-guest-order-access-for-registered-emails) zij maakten, als de orde gebruikend een e-mailadres werd geplaatst dat een geregistreerde klantenrekening aanpast. <!-- ACCS-289 -->
+Een nieuwe facultatieve opslag-vlakke configuratie staat klanten toe om [&#x200B; gastorden te volgen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-guest#allow-guest-order-access-for-registered-emails) zij maakten, als de orde gebruikend een e-mailadres werd geplaatst dat een geregistreerde klantenrekening aanpast. <!-- ACCS-289 -->
 
 ### Verbeteringen en foutoplossingen
 
@@ -257,15 +257,15 @@ De volgende verbeteringen zijn doorgevoerd in [!DNL Commerce Admin] :
 
 * Verbeterde uit-van-proces [&#x200B; verscheepende webhaakpayloads &#x200B;](https://developer.adobe.com/commerce/extensibility/starter-kit/checkout/shipping-use-cases/#payload) om het verschepen attributen van de adresdouane te omvatten. Dankzij deze wijziging kunnen verkopers aangepaste verzendmethoden implementeren. <!-- ACCS-235 -->
 
-* Toegevoegde toegang tot Admin- rapporten, met inbegrip van rapporten voor [&#x200B; Klanten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/customer-reports), [&#x200B; Marketing &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/marketing-reports), [&#x200B; Producten &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/product-reports), en [&#x200B; Verkoop &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/sales-reports). <!-- CCSAAS-3085 -->
+* Toegevoegde toegang tot Admin- rapporten, met inbegrip van rapporten voor [&#x200B; Klanten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/customer-reports), [&#x200B; Marketing &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/marketing-reports), [&#x200B; Producten &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/product-reports), en [&#x200B; Verkoop &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/reporting/sales-reports). <!-- CCSAAS-3085 -->
 
 >[!NOTE]
 >
->De rapporten niet beschikbaar in [!DNL Adobe Commerce as a Cloud Service] worden geëtiketteerd als slechts PaaS ([!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}).
+>De rapporten niet beschikbaar in [!DNL Adobe Commerce as a Cloud Service] worden geëtiketteerd als slechts PaaS ([!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}).
 
 ### Aangepaste factuurbedragen vastleggen via de REST API
 
-Factuur API steunt nu [&#x200B; douanevangst hoeveelheden &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts) gebruikend uitbreidingsattributen. <!-- ACCS-186, ACCS-197, ACCS-143 -->
+Factuur API steunt nu [&#x200B; douanevangst hoeveelheden &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts) gebruikend uitbreidingsattributen. <!-- ACCS-186, ACCS-197, ACCS-143 -->
 
 >[!NOTE]
 >
@@ -305,28 +305,28 @@ De volgende items zijn op 20 januari 2026 uitgebracht naar de productieomgeving 
 
 De volgende wijzigingen zijn aangebracht in B2B-drop-in onderdelen:
 
-* [!DNL Commerce Storefront on Edge Delivery Services] omvat nu [&#x200B; B2B drop-in componenten &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/). De volgende B2B-dropins zijn nu beschikbaar:
+* [!DNL Commerce Storefront on Edge Delivery Services] omvat nu [&#x200B; B2B drop-in componenten &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=nl-NL). De volgende B2B-dropins zijn nu beschikbaar:
 
-   * **[Beheer van het Bedrijf &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/)** - laat het beheer van het bedrijfprofiel en op rol-gebaseerde toestemmingen voor de storefronts van Adobe Commerce toe.
-   * **[de schakelaar van het Bedrijf &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/)** - verstrekt een component UI voor gebruikers om tussen veelvoudige bedrijven te schakelen zij met worden geassocieerd.
-   * **[de orden van de Aankoop &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/)** - beheert de werkschema&#39;s van de inkooporde, goedkeuringsregels, en de geschiedenis van de inkooporde voor B2B transacties.
-   * **[het beheer van het Citaat &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/)** - laat verhandelbare citaten voor B2B klanten met citaatverzoek, onderhandeling, en goedkeuringswerkschema&#39;s toe.
-   * **[de lijsten van de Verzoek &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/)** - verstrekt hulpmiddelen om en het leiden van vraaglijsten voor herhaalde aankopen en bulkopdracht tot stand te brengen.
+   * **[Beheer van het Bedrijf &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-management/?lang=nl-NL)** - laat het beheer van het bedrijfprofiel en op rol-gebaseerde toestemmingen voor de storefronts van Adobe Commerce toe.
+   * **[de schakelaar van het Bedrijf &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/company-switcher/?lang=nl-NL)** - verstrekt een component UI voor gebruikers om tussen veelvoudige bedrijven te schakelen zij met worden geassocieerd.
+   * **[de orden van de Aankoop &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/purchase-order/?lang=nl-NL)** - beheert de werkschema&#39;s van de inkooporde, goedkeuringsregels, en de geschiedenis van de inkooporde voor B2B transacties.
+   * **[het beheer van het Citaat &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/quote-management/?lang=nl-NL)** - laat verhandelbare citaten voor B2B klanten met citaatverzoek, onderhandeling, en goedkeuringswerkschema&#39;s toe.
+   * **[de lijsten van de Verzoek &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/requisition-list/?lang=nl-NL)** - verstrekt hulpmiddelen om en het leiden van vraaglijsten voor herhaalde aankopen en bulkopdracht tot stand te brengen.
 
 * Release van het B2B Storefront Compatibility Package. Dit pakket verbetert het [!DNL Adobe Commerce] B2B GraphQL-schema om de ontwikkeling op B2B-systemen te helpen verbeteren.
 
 <!-- 
-* [!DNL Commerce Storefront on Edge Delivery Services] now includes [B2B drop-in components](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/). For a complete list of available B2B drop-in blocks, refer to the [storefront documentation](http://experienceleague.adobe.com/developer/commerce/storefront/merchants/b2b-commerce-blocks/).
+* [!DNL Commerce Storefront on Edge Delivery Services] now includes [B2B drop-in components](http://experienceleague.adobe.com/developer/commerce/storefront/dropins-b2b/?lang=nl-NL). For a complete list of available B2B drop-in blocks, refer to the [storefront documentation](http://experienceleague.adobe.com/developer/commerce/storefront/merchants/b2b-commerce-blocks/).
 
-* Released the [B2B Storefront Compatibility Package](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility-b2b/). This package enhances the [!DNL Adobe Commerce] B2B GraphQL schema to help improve development on B2B systems. -->
+* Released the [B2B Storefront Compatibility Package](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility-b2b/?lang=nl-NL). This package enhances the [!DNL Adobe Commerce] B2B GraphQL schema to help improve development on B2B systems. -->
 
 ### Klikbare koppelingen naar externe transporttrackers
 
-Transformeer verzending volgnummers inbegrepen in winkele-mails van gewone tekst in klikbare verbindingen door [&#x200B; toelatend Aangepast die URLs &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls) volgen. Deze functie wordt ondersteund voor USPS, UPS, FedEx en DHL. <!-- See PR #716 in commerce-admin -->
+Transformeer verzending volgnummers inbegrepen in winkele-mails van gewone tekst in klikbare verbindingen door [&#x200B; toelatend Aangepast die URLs &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls) volgen. Deze functie wordt ondersteund voor USPS, UPS, FedEx en DHL. <!-- See PR #716 in commerce-admin -->
 
 ### Google reCAPTCHA Enterprise-ondersteuning
 
-[!DNL Adobe Commerce as a Cloud Service] storefronts steunt nu [&#x200B; reCAPTCHA Onderneming &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise). Deze functie biedt geavanceerde botbescherming door gebruik te maken van adaptieve risicoanalyse en machinaal leren om menselijke gebruikers nauwkeurig te onderscheiden van geautomatiseerde bots. Het versterkt de veiligheid van sites, voorkomt frauduleuze activiteiten en beperkt spam en misbruik om een vertrouwde winkelervaring te behouden. <!-- CCSAAS-4242 -->
+[!DNL Adobe Commerce as a Cloud Service] storefronts steunt nu [&#x200B; reCAPTCHA Onderneming &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise). Deze functie biedt geavanceerde botbescherming door gebruik te maken van adaptieve risicoanalyse en machinaal leren om menselijke gebruikers nauwkeurig te onderscheiden van geautomatiseerde bots. Het versterkt de veiligheid van sites, voorkomt frauduleuze activiteiten en beperkt spam en misbruik om een vertrouwde winkelervaring te behouden. <!-- CCSAAS-4242 -->
 
 ### Instantiespecifieke beheerderstoegang
 
@@ -342,7 +342,7 @@ Door [!DNL App Builder] te gebruiken, kunt u diepere zichtbaarheid in uw [!DNL A
 
 ### Prijsniveau voor catalogusprijzen
 
-U kunt tiered tarifering kortingen met de kortingen van de catalogusregel nu combineren gebruikend [&#x200B; de regels van de catalogusprijs &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules). Dankzij deze verbetering kunt u dynamischere en meer concurrerende prijsstrategieën maken, waarbij bulkaankopen worden beloond terwijl tegelijkertijd promotionele kortingen worden toegepast. Het resultaat is grotere flexibiliteit om klanten aan te trekken, orde te verhogen waarde, en aandrijvingsomzettingen.<!-- See PR #708 in commerce-admin -->
+U kunt tiered tarifering kortingen met de kortingen van de catalogusregel nu combineren gebruikend [&#x200B; de regels van de catalogusprijs &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules). Dankzij deze verbetering kunt u dynamischere en meer concurrerende prijsstrategieën maken, waarbij bulkaankopen worden beloond terwijl tegelijkertijd promotionele kortingen worden toegepast. Het resultaat is grotere flexibiliteit om klanten aan te trekken, orde te verhogen waarde, en aandrijvingsomzettingen.<!-- See PR #708 in commerce-admin -->
 
 ### Verbeteringen en foutoplossingen
 
@@ -382,6 +382,6 @@ De volgende geselecteerde verbeteringen, optimalisaties en foutoplossingen zijn 
 
 #### Aangepaste orderkenmerken
 
-* De gebruikers Admin kunnen [&#x200B; attributen van de douaneorde &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes) van de Mening van de Orde nu bekijken en uitgeven, en schermen in het Admin paneel creëren. Deze verbetering verbetert het beheer van aangepaste ordergegevens die via GraphQL zijn gemaakt. <!-- CEXT-5044 -->
+* De gebruikers Admin kunnen [&#x200B; attributen van de douaneorde &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes) van de Mening van de Orde nu bekijken en uitgeven, en schermen in het Admin paneel creëren. Deze verbetering verbetert het beheer van aangepaste ordergegevens die via GraphQL zijn gemaakt. <!-- CEXT-5044 -->
 
 >[!ENDSHADEBOX]

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 [!DNL Adobe Commerce Optimizer] past automatisch niet-configureerbare standaardfilters op aanbeveling-eenheden toe. Als u meerdere aanbevelingen-eenheden op een pagina hebt geïmplementeerd, filtert [!DNL Adobe Commerce Optimizer] alle producten uit die in de eenheden worden herhaald. Alleen de eerste verwijzing naar een herhaald product wordt gebruikt om ruimte te maken voor andere producten die kunnen worden aanbevolen. [!DNL Adobe Commerce Optimizer] filtert ook eerder aangeschafte producten en producten in de kar uit.
 
-Wanneer u [ ](create.md) creeert een aanbeveling eenheid, kunt u filters bepalen die controleren welke producten in aanbevelingen kunnen worden getoond. Deze filters zijn gebaseerd op een reeks opname- of uitsluitingsvoorwaarden die u definieert. In aanbevelingen worden alleen producten weergegeven die aan alle inclusiemogelijkheden voldoen. Producten die aan een van de uitsluitingsvoorwaarden voldoen, worden niet aanbevolen.
+Wanneer u [&#x200B; &#x200B;](create.md) creeert een aanbeveling eenheid, kunt u filters bepalen die controleren welke producten in aanbevelingen kunnen worden getoond. Deze filters zijn gebaseerd op een reeks opname- of uitsluitingsvoorwaarden die u definieert. In aanbevelingen worden alleen producten weergegeven die aan alle inclusiemogelijkheden voldoen. Producten die aan een van de uitsluitingsvoorwaarden voldoen, worden niet aanbevolen.
 
 U kunt veelvoudige filters vormen en slechts die toelaten u wilt door de knevel op elke filterpagina te selecteren. Op deze manier kunt u concepten van filters maken voor toekomstig gebruik. Het aantal ingeschakelde filters wordt weergegeven op elk tabblad.
 
@@ -47,7 +47,7 @@ Elk filtertype richt een verschillend aspect van de catalogus, zoals product en 
 >
 >De volgende functie is in bèta.
 
-Het filtreren van de prijs gebruikt definitieve gegevens verwerkte prijs van elk product **voor het actieve prijsboek van de opslag** **- die aan de opslag wordt toegewezen waar de aanbevelingseenheid wordt teruggegeven.** Deze waarde weerspiegelt kortingen, promoties en speciale prijzen die in dat prijzenboek zijn gedefinieerd, en niet alleen de catalogusprijs. Bij de evaluatie wordt alleen gebruik gemaakt van het prijzenboek van die winkel; andere winkeliers of prijzenboeken zijn niet van toepassing. Hoe de prijzenboeken aan een storefront in kaart brengen wordt gevormd met uw catalogus en [ prijsboeken ](../../setup/pricebooks.md) opstelling.
+Het filtreren van de prijs gebruikt definitieve gegevens verwerkte prijs van elk product **voor het actieve prijsboek van de opslag** **- die aan de opslag wordt toegewezen waar de aanbevelingseenheid wordt teruggegeven.** Deze waarde weerspiegelt kortingen, promoties en speciale prijzen die in dat prijzenboek zijn gedefinieerd, en niet alleen de catalogusprijs. Bij de evaluatie wordt alleen gebruik gemaakt van het prijzenboek van die winkel; andere winkeliers of prijzenboeken zijn niet van toepassing. Hoe de prijzenboeken aan een storefront in kaart brengen wordt gevormd met uw catalogus en [&#x200B; prijsboeken &#x200B;](../../setup/pricebooks.md) opstelling.
 
 #### Prijs gebruiken om regels in te voeren en uit te sluiten
 
@@ -58,7 +58,7 @@ Het filtreren van de prijs gebruikt definitieve gegevens verwerkte prijs van elk
 
 #### Prijsfilter instellen
 
-1. Terwijl [ creërend of het uitgeven ](create.md) een aanbeveling eenheid, open **[!UICONTROL Filter products]** (of ga naar de _stap van Filters_ van het eenheidswerkschema).
+1. Terwijl [&#x200B; creërend of het uitgeven &#x200B;](create.md) een aanbeveling eenheid, open **[!UICONTROL Filter products]** (of ga naar de _stap van Filters_ van het eenheidswerkschema).
 1. Selecteer de tab **[!UICONTROL Inclusions]** of **[!UICONTROL Exclusions]** , afhankelijk van de vraag of u alleen producten in een prijsbereik of blokproducten in een bereik wilt toestaan. De badge op elk lusje toont hoeveel filters van dat type worden toegelaten.
 1. Selecteer **[!UICONTROL Price]** in de lijst aan de linkerkant.
 1. Schakel **[!UICONTROL Enable filter]** in.
@@ -69,15 +69,15 @@ Het filtreren van de prijs gebruikt definitieve gegevens verwerkte prijs van elk
 1. Stel een optioneel **[!UICONTROL Min price]** en/of **[!UICONTROL Max price]** in met de velden naast het valutasymbool. U kunt hoeveelheden typen of de besturingselementen **-** en **+** gebruiken om waarden aan te passen. Laat een gebonden leeg als u geen minimum of maximum nodig hebt. Het bereik wordt vergeleken met de uiteindelijke berekende prijs van elk product voor het actieve prijsboek van de winkel.
 1. Voltooi de configuratie van de aanbevolen eenheid en sla op of publiceer deze op de normale manier, zodat het filter van kracht wordt.
 
-![ de Filter van de Prijs ](../../assets/filter-price.png)
+![&#x200B; de Filter van de Prijs &#x200B;](../../assets/filter-price.png)
 
 ### Product
 
-De filters van het product richten individuele cataloguspunten door **SKU**. U voegt één of meerdere SKUs toe om of slechts die producten toe te staan (**Opnamen**) of hen te blokkeren (**Uitsluitingen**), gebruikend de zelfde **[!UICONTROL Filter products]** pagina zoals [ prijsfilters ](#price). U kunt uitgeschakelde producten of producten die niet afzonderlijk zichtbaar zijn in een aanbevolen eenheid niet aan de oppervlakte brengen; die producten verschijnen nooit op de opslagruimte ongeacht filters.
+De filters van het product richten individuele cataloguspunten door **SKU**. U voegt één of meerdere SKUs toe om of slechts die producten toe te staan (**Opnamen**) of hen te blokkeren (**Uitsluitingen**), gebruikend de zelfde **[!UICONTROL Filter products]** pagina zoals [&#x200B; prijsfilters &#x200B;](#price). U kunt uitgeschakelde producten of producten die niet afzonderlijk zichtbaar zijn in een aanbevolen eenheid niet aan de oppervlakte brengen; die producten verschijnen nooit op de opslagruimte ongeacht filters.
 
 #### Een productfilter instellen
 
-1. Terwijl [ creërend of het uitgeven ](create.md) een aanbeveling eenheid, open **[!UICONTROL Filter products]** (of ga naar de _stap van Filters_ van het eenheidswerkschema).
+1. Terwijl [&#x200B; creërend of het uitgeven &#x200B;](create.md) een aanbeveling eenheid, open **[!UICONTROL Filter products]** (of ga naar de _stap van Filters_ van het eenheidswerkschema).
 1. Selecteer de tab **[!UICONTROL Inclusions]** of **[!UICONTROL Exclusions]** . De badge op elk lusje toont hoeveel filters van dat type worden toegelaten.
 1. Selecteer **[!UICONTROL Product]** in de lijst aan de linkerkant.
 1. Schakel **[!UICONTROL Enable filter]** in.
@@ -92,7 +92,7 @@ De filters van het product richten individuele cataloguspunten door **SKU**. U v
 
 Voor **toevoegingen**, slechts kunnen de producten waarvan SKUs vermeld zijn (en die uw andere toegelaten inclusiefilters tevredenstellen) worden geadviseerd. Voor **uitsluitingen**, wordt om het even welk product waarvan SKU vermeld is niet geadviseerd, zelfs als het anders zou kwalificeren.
 
-![ de Filter van het Product ](../../assets/filter-product.png)
+![&#x200B; de Filter van het Product &#x200B;](../../assets/filter-product.png)
 
 >[!NOTE]
 >

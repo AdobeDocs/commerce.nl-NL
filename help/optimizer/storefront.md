@@ -2,7 +2,7 @@
 title: Winefront instellen
 description: Leer hoe te opstelling uw  [!DNL Adobe Commerce Optimizer]  storefront.
 role: Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: 2b4c9e98-a30c-4a33-b356-556de5bd721a
 source-git-commit: b6f7286f223c6253ab9edbead63a4bc4a9baddfe
 workflow-type: tm+mt
@@ -57,7 +57,7 @@ Met het gereedschap Sitemaker maakt u een volledig storefront-project met de vol
 * **Plaats**: Storefront het landen pagina met boilerplate inhoud
 * **Code**: Bewaarplaats met boilerplate brondossiers
 * **Inhoud**: Het milieu van de Auteur van het document met de dossiers van de plaatsinhoud
-* **Commerce Config**: [&#x200B; Commerce storefront configuratie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/){target="_blank"} voor instantie-specifieke configuratie
+* **Commerce Config**: [&#x200B; Commerce storefront configuratie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=nl-NL){target="_blank"} voor instantie-specifieke configuratie
 
 ### Stap 1: Genereer uw project
 
@@ -218,25 +218,25 @@ Voordat u verdergaat met de volgende stappen, moet u controleren of de winkel co
 
 Als er problemen blijven optreden:
 
-* Herzie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/){target="_blank"}
+* Herzie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL){target="_blank"}
 * Controle de [&#x200B; de ontwikkelaarsgids van Adobe Commerce Optimizer &#x200B;](https://developer.adobe.com/commerce/services/optimizer/){target="_blank"}
-* Bezoek de [&#x200B; middelen van de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview){target="_blank"}
+* Bezoek de [&#x200B; middelen van de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview){target="_blank"}
 
 ## Volgende stappen
 
-* **[opstelling een lokale ontwikkelomgeving &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/#set-up-local-environment){target="_blank"}** - creeer een lokaal milieu om uw storefront code en inhoud aan te passen.
-* **[laat de Universele Redacteur &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/quick-start/universal-editor/){target="_blank"} toe** - de Universele Redacteur laat u storefront inhoud in de context van de teruggegeven pagina uitgeven. De inhoud wordt vervolgens opgeslagen in uw Document Authoring-project (DA.live), waar u de meeste toepassingen voor inhoudsordestratie kunt gebruiken, zoals lokalisatie, bulkpublicatie, momentopnamen en meer.
+* **[opstelling een lokale ontwikkelomgeving &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL#set-up-local-environment){target="_blank"}** - creeer een lokaal milieu om uw storefront code en inhoud aan te passen.
+* **[laat de Universele Redacteur &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/merchants/quick-start/universal-editor/?lang=nl-NL){target="_blank"} toe** - de Universele Redacteur laat u storefront inhoud in de context van de teruggegeven pagina uitgeven. De inhoud wordt vervolgens opgeslagen in uw Document Authoring-project (DA.live), waar u de meeste toepassingen voor inhoudsordestratie kunt gebruiken, zoals lokalisatie, bulkpublicatie, momentopnamen en meer.
 
 ### Leren en verkennen
 
 * **[voltooi het gebruiksgeval van begin tot eind](./use-case/admin-use-case.md)** - leer meer over storefront opstelling en catalogusbeheer gebruikend [!DNL Adobe Commerce Optimizer].
 
-* **[verken storefront aanpassing &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/){target="_blank"}** - leer geavanceerde opstelling en configuratieopties.
+* **[verken storefront aanpassing &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/?lang=nl-NL){target="_blank"}** - leer geavanceerde opstelling en configuratieopties.
 
-* **[drop-ins van Commerce van het Gebruik om storefront ervaring &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/){target="_blank"} aan te passen** - voeg pre-gebouwde componenten toe om uw storefront ervaring te verbeteren.
+* **[drop-ins van Commerce van het Gebruik om storefront ervaring &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/all/introduction/?lang=nl-NL){target="_blank"} aan te passen** - voeg pre-gebouwde componenten toe om uw storefront ervaring te verbeteren.
 
 * **Migreer aan de Dienst van de Configuratie Storefront** - nadat u uw aanvankelijke storefront hebt gecreeerd, kunt u de configuratie migreren om de Dienst van de Configuratie te gebruiken die geavanceerde gebruiksgevallen zoals repoless configuratie en bekledingen steunt. Voor details, zie de [&#x200B; documentatie van de Dienst van de Configuratie 0&rbrace; &lbrace;in Adobe Experience Manager.](https://www.aem.live/docs/config-service-setup){target="_blank"}
 
 >[!MORELIKETHIS]
 >
-> Zie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/){target="_blank"} om meer over het bijwerken van plaatsinhoud te leren en met Commerce frontend componenten en backend gegevens te integreren.
+> Zie de [&#x200B; documentatie van Adobe Commerce Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL){target="_blank"} om meer over het bijwerken van plaatsinhoud te leren en met Commerce frontend componenten en backend gegevens te integreren.

@@ -267,7 +267,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/dd9b660729f7c8616347d3222fdfb3b83a774e56">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegde nieuwe <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/overview"> documentatiegids van het Beheer van de app </a> {om het Beheer van de Toepassing te introduceren en hoe te om, de toepassingen van App Builder met uw instantie van Commerce te associëren te vormen en te beheren.</p>
+      <td><p>Toegevoegde nieuwe <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/overview"> documentatiegids van het Beheer van de app </a> &lbrace;om het Beheer van de Toepassing te introduceren en hoe te om, de toepassingen van App Builder met uw instantie van Commerce te associëren te vormen en te beheren.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -349,7 +349,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/f55cbabdc50af4e38b57ece217e5133d1f3fada8">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegde instructies voor het schrappen van een API sleutel aan de <a href="https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#delapikey"> 1} documentatie van de Schakelaar van de Diensten van Commerce.</a></p>
+      <td><p>Toegevoegde instructies voor het schrappen van een API sleutel aan de <a href="https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#delapikey"> 1&rbrace; documentatie van de Schakelaar van de Diensten van Commerce.</a></p>
 </td>
       <td>
         Feedback

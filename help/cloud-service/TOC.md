@@ -27,7 +27,7 @@ ht-degree: 4%
       - [Bulkgegevensmigratiehulpprogramma](migration/bulk-data.md)
       - [&#x200B; het Coderen hulpmiddelen](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
    - [Documentatie RAG-service](migration/doc-rag.md)
-- [&#x200B; Login als Klant](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
+- [&#x200B; Login als Klant](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
 - [&#x200B; Eindpunten van de Rekening van de Kaart van het Cadeautje](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/){target="_blank"}
 - [&#x200B; E-mail die door REST teweegbrengt](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/){target="_blank"}
 - Tutorials {#tutorials}
@@ -41,6 +41,6 @@ ht-degree: 4%
    - [&#x200B; het Schema van GraphQL](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
    - [&#x200B; REST API Schema](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
 - [&#x200B; Agent van de Ontwikkelaar](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
-- [&#x200B; VideoLeerprogramma&#39;s](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
+- [&#x200B; VideoLeerprogramma&#39;s](https://experienceleague.adobe.com/nl/playlists/accs-getting-started-product-overview){target="_blank"}
 - [Aanvullende informatie](release-notes.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)

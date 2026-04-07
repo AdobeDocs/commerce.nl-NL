@@ -4,7 +4,7 @@ description: Leer hoe te om dossiers zoals PDFs, handboeken, en gegevensbladen a
 feature: Catalog Management, Products, Integration
 role: Admin, Developer
 level: Intermediate
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 848ba518d170c9a0270b2513fdc8efb6813f6845
 workflow-type: tm+mt
 source-wordcount: '607'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Bestanden toevoegen aan producten
 
-[!DNL Adobe Commerce as a Cloud Service] steunt een &quot;Dossier&quot;[&#x200B; type van de productkenmerkinput &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types){target="_blank"} dat verkopers toestaat om dossiers-zulke zoals PDFs, handboeken, certificaten, en gegevensbladen rechtstreeks aan producten vast te maken. Bestanden worden opgeslagen in Amazon S3 media-opslag en kunnen worden geopend via de opslagomgeving met GraphQL of via integratie met de REST API.
+[!DNL Adobe Commerce as a Cloud Service] steunt een &quot;Dossier&quot;[&#x200B; type van de productkenmerkinput &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/attributes-input-types){target="_blank"} dat verkopers toestaat om dossiers-zulke zoals PDFs, handboeken, certificaten, en gegevensbladen rechtstreeks aan producten vast te maken. Bestanden worden opgeslagen in Amazon S3 media-opslag en kunnen worden geopend via de opslagomgeving met GraphQL of via integratie met de REST API.
 
 Er zijn drie manieren om bestanden te uploaden naar productbestandskenmerken:
 
@@ -26,15 +26,15 @@ Er zijn drie manieren om bestanden te uploaden naar productbestandskenmerken:
 
 Voordat u bestanden kunt uploaden, moet u een bestandskenmerk maken en dit aan een kenmerkset toewijzen.
 
-* [&#x200B; creeer een dossierattribuut &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create){target="_blank"} - reeks **[!UICONTROL Catalog Input Type for Store Owner]** aan **[!UICONTROL File]**.
+* [&#x200B; creeer een dossierattribuut &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create){target="_blank"} - reeks **[!UICONTROL Catalog Input Type for Store Owner]** aan **[!UICONTROL File]**.
 
-* [&#x200B; wijs de attributen aan een attributenreeks &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-sets#create-an-attribute-set){target="_blank"} toe - sleep het nieuwe dossierattribuut in de gewenste groep.
+* [&#x200B; wijs de attributen aan een attributenreeks &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-sets#create-an-attribute-set){target="_blank"} toe - sleep het nieuwe dossierattribuut in de gewenste groep.
 
-* Vorm toegestane dossiertypes en grootte in de [&#x200B; Configuratie van de Attributen van het Dossier van het Product &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes).
+* Vorm toegestane dossiertypes en grootte in de [&#x200B; Configuratie van de Attributen van het Dossier van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/catalog/product-file-attributes).
 
 ## Bestanden uploaden via de beheerder
 
-Nadat u [&#x200B; een dossierattribuut &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create){target="_blank"} creeert en het aan een kenmerkenreeks toewijst, kunt u dossiers van product direct uploaden uitgeeft pagina.
+Nadat u [&#x200B; een dossierattribuut &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create){target="_blank"} creeert en het aan een kenmerkenreeks toewijst, kunt u dossiers van product direct uploaden uitgeeft pagina.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -61,7 +61,7 @@ Het proces bestaat uit vier stappen:
 
 ## Uploaden via productimport
 
-U kunt dossiers aan producten in bulk vastmaken gebruikend [&#x200B; invoer API &#x200B;](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"} of Admin de invoer UI. De de dossierattributen van het product steunen de invoer van externe URLs slechts, die de zelfde benadering zoals [&#x200B; Methode 2 voor de invoer van het productbeeld &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import-product-images#method-2-import-images-from-external-server){target="_blank"} volgt. Commerce downloadt het bestand van de opgegeven URL en slaat het op in S3-mediaopslag.
+U kunt dossiers aan producten in bulk vastmaken gebruikend [&#x200B; invoer API &#x200B;](https://developer.adobe.com/commerce/webapi/rest/modules/import/){target="_blank"} of Admin de invoer UI. De de dossierattributen van het product steunen de invoer van externe URLs slechts, die de zelfde benadering zoals [&#x200B; Methode 2 voor de invoer van het productbeeld &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/import/data-import-product-images#method-2-import-images-from-external-server){target="_blank"} volgt. Commerce downloadt het bestand van de opgegeven URL en slaat het op in S3-mediaopslag.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ sku,name,additional_attributes
 ADB112,"My Product",file_upload=https://example.com/files/manual.pdf
 ```
 
-In beide gevallen, moet URL openbaar toegankelijk zijn, en de dossieruitbreiding en de grootte moeten aan de [&#x200B; gevormde beperkingen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes){target="_blank"} voldoen.
+In beide gevallen, moet URL openbaar toegankelijk zijn, en de dossieruitbreiding en de grootte moeten aan de [&#x200B; gevormde beperkingen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/catalog/product-file-attributes){target="_blank"} voldoen.
 
 ## Bestanden ophalen via GraphQL
 

@@ -1,7 +1,7 @@
 ---
 title: Regels maken en beheren
 description: Leer hoe u handelsregels maakt en beheert.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: fd4df2b2-83de-4c5c-b18c-e97aa07ef8f6
 source-git-commit: 0df932ab95666438baf1210b6fe913e4ae8e28b9
 workflow-type: tm+mt
@@ -21,7 +21,7 @@ Om een regel te bouwen, moet de eerste stap de regelredacteur gebruiken om de vo
 
    >[!IMPORTANT]
    >
-   >Deze eigenschap is momenteel in [&#x200B; bèta &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta#merchandising-rules-globally-and-per-catalog-view-public-beta). Beta-deelnemers moeten bestaande regels voor het wijzigen van winkels opnieuw maken om te kunnen profiteren van het nieuwe weergavebereik voor catalogi.
+   >Deze eigenschap is momenteel in [&#x200B; bèta &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-operations/release/beta#merchandising-rules-globally-and-per-catalog-view-public-beta). Beta-deelnemers moeten bestaande regels voor het wijzigen van winkels opnieuw maken om te kunnen profiteren van het nieuwe weergavebereik voor catalogi.
 
 1. Klik op **[!UICONTROL Create rule]** om de regeleditor te starten.
 

@@ -2,7 +2,7 @@
 title: Aanbevolen werkwijzen voor het verhandelen van regels
 description: Leer de beste werkwijzen voor het implementeren van handelregels voor zoekopdrachten, standaardaanbiedingen en rubriekpagina's.
 role: Admin, Developer
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: cc8d0879-c253-4ad4-8e7d-e066dff9112d
 source-git-commit: 8abc0593c166a2dd861cfb78674918de1d0744de
 workflow-type: tm+mt

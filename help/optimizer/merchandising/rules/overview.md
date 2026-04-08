@@ -1,34 +1,45 @@
 ---
 title: Merchandising Rules
-description: In [!DNL Adobe Commerce Optimizer] worden logica en acties gecombineerd om de winkelervaring vorm te geven.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+description: In [!DNL Adobe Commerce Optimizer] worden logica en handelingen voor het maken van zoekresultaten, standaardproductaanbiedingen en categoriepagina's gecombineerd met handelregels.
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: f2a9b5e8-d23d-4855-b424-ca6b40e057df
-source-git-commit: c7c21df464685783b5fae1c99d60ca91e0c334d2
+source-git-commit: 8abc0593c166a2dd861cfb78674918de1d0744de
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
 
 # Merchandising Rules
 
-Merchandising-regels verwijst naar een set regels die logica combineren met handelingen om de zoekervaring van een winkelier in uw winkel vorm te geven. U kunt het veranderen van regels gebruiken om producten op te voeren, te begraven, te spelden, of te verbergen om onderzoeksresultaten in echt te kalibreren - tijd om uw bedrijfsdoelstellingen te steunen.
+De regels van de handel brengen combineren logica met acties om te vormen hoe de producten in **onderzoeksresultaten** verschijnen, op **standaardproductlijsten** (**Alle productlijsten**), en op **categoriepagina&#39;s** ([ categorieregels ](#category-rules) zijn in bèta). U kunt, producten opvoeren begraven, vastzetten of verbergen en **intelligente rangschikking** toepassen zodat wijzen de lijsten op uw bedrijfsdoelstellingen.
 
-Elke regel heeft drie hoofdcomponenten:
+Elk **onderzoeksregel** heeft drie belangrijkste componenten:
 
-- Voorwaarden - De voorwaarden die een handeling activeren.
-- Gebeurtenissen - De acties die plaatsvinden wanneer aan de voorwaarden wordt voldaan.
-- Details - De naam van de regel, en facultatief tijdkader en beschrijving.
+- **Voorwaarden** - op vraag-gebaseerde vereisten die een actie teweegbrengen wanneer het onderzoek van de verkoopster past.
+- **Gebeurtenissen** - de acties die plaatsvinden wanneer de voorwaarden (handrangschikking en verwante gebeurtenissen) worden voldaan.
+- **Details** - de naam van de regel, en facultatieve tijdkader en beschrijving.
 
-U kunt meerdere voorwaarden en handelingen combineren en een regel voor een periode laten activeren. U kunt ook een standaardregel instellen die wordt toegepast, zelfs als er geen zoekterm is ingesteld.
+**gebruiks** categorieselectie **in plaats van de voorwaarden van de onderzoeksvraag; het intelligente rangschikken en het handboek rangschikken werken de zelfde manier zoals voor onderzoek, met verschillen die in** worden geroepen creëren en leiden Regels [.](add.md)
+
+U kunt veelvoudige voorwaarden en acties voor onderzoeksregels combineren, en om het even welke regel plannen om voor een periode actief te zijn. U kunt a **standaardregel** ook plaatsen (**Alle productlijsten**) die van toepassing is wanneer geen meer specifiek onderzoek of categorieregel van toepassing is.
+
+## Categorievoorschriften {#category-rules}
+
+>[!IMPORTANT]
+>
+>Categorieregels staan in bèta.
+
+**de regels van de Categorie** orde van het controleproduct op **categoriepagina&#39;s**. U selecteert een of meer categorieën en past vervolgens een intelligente rangschikking (bijvoorbeeld de meest bekeken, trending) en handmatige handelingen toe, zoals vastzetten, opvoeren en begraven. Ze gebruiken geen zoekqueryvoorwaarden. Voor opstellingsstappen, regeltypes, en hoe het rangschikken op categorie tegenover onderzoek van toepassing is, zie [ Regels ](add.md) creëren en beheren.
 
 ## Vereisten
 
-Een eenvoudige zoekregel kan één voorwaarde en één gebeurtenis hebben, terwijl een complexe regel tot tien voorwaarden kan hebben die tot 25 gebeurtenissen teweegbrengen.
+Een eenvoudige **onderzoeksregel** kan één enkele voorwaarde en één enkele gebeurtenis hebben, terwijl een complexe regel tot tien voorwaarden kan hebben die tot 25 gebeurtenissen teweegbrengen. **de regels van de Categorie** volgen de zelfde gebeurtenisgrenzen voor handrangschikking; zij gebruiken vraagvoorwaarden niet.
+
 Regels kunnen:
 
-- Tot tien voorwaarden
-- Tot 25 gebeurtenissen
+- Tot tien **voorwaarden** (onderzoeksregels slechts)
+- Tot 25 **gebeurtenissen**
 
 Zoektekst kan het volgende bevatten:
 
@@ -50,9 +61,11 @@ Wanneer het samenstellen van een complexe regel, kan het helpen om het met inspr
 
 ## Standaardregel
 
-U kunt een standaardregel instellen die wordt toegepast wanneer geen zoekterm wordt opgegeven of wanneer geen andere zoekregel kan worden toegepast. Als u de standaardregel op &quot;Meest gekocht&quot;plaatst, dan zullen alle vragen aan dat rangschikkende type in gebreke blijven, tenzij super-ceded door een specifiekere onderzoekstermijn. Er kan geen zoekterm voor de standaardregel worden ingesteld.
+U kunt een standaardregel (**plaatsen Alle productlijsten**) die van toepassing is wanneer geen onderzoekstermijn wordt verstrekt, of geen andere onderzoeksregel kan worden toegepast. Als u de standaardregel aan &quot;het Meest Aangeschafte&quot;plaatst, dan vragen gebrek aan dat rangschikkende type tenzij vervangen door een specifiekere onderzoekstermijn. Er kan geen zoekterm voor de standaardregel worden ingesteld. **de regels van de Categorie** zijn afzonderlijk: zij zijn slechts op de categorieën van toepassing u selecteert en vervangen niet de standaardlijstregel.
 
 ## Volgorde van prioriteit met meerdere regels
+
+Het volgende is op **onderzoeksregels** van toepassing en hoe zij voor een bepaald onderzoek in wisselwerking staan. **de regels van de Categorie** zijn van toepassing per categorie; zie [ tot regels leiden en leiden ](add.md#category-rules) voor hoe zij naast onderzoek en standaardregels passen.
 
 Er wordt slechts één zoekregel tegelijk toegepast op een zoekterm.
 Als meerdere regels van toepassing blijken te zijn op een zoekfrase, worden al deze regels toegepast. Als er een botsing tussen twee regels is— `rule 1` die sku1 opvoert maar `rule 2` het zelfde SKU-toen verbergt de onlangs toegepaste regel (`rule 2`) neemt belangrijkheid.

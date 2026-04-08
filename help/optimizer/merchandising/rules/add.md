@@ -17,15 +17,15 @@ Om een regel te bouwen, open de regelredacteur, kies a **regeltype** (onderzoeks
 ## Een regel maken {#create-a-rule}
 
 1. In het linkerspoor, ga _Merchandising_ > **Regels van het Merchandising**.
-1. (Facultatief) gebruik **drop-down van de mening van de Catalogus** om de catalogusmening te selecteren waar de regel zou moeten van toepassing zijn. De regel u creeert is scoped aan de geselecteerde mening (of aan alle catalogusmeningen als **Alle meningen** wordt geselecteerd). Zie [ Uitgezochte catalogusmening ](workspace.md#select-catalog-view) voor hoe de catalogusmening het scoping werkt.
+1. (Facultatief) gebruik **drop-down van de mening van de Catalogus** om de catalogusmening te selecteren waar de regel zou moeten van toepassing zijn. De regel u creeert is scoped aan de geselecteerde mening (of aan alle catalogusmeningen als **Alle meningen** wordt geselecteerd). Zie [&#x200B; Uitgezochte catalogusmening &#x200B;](workspace.md#select-catalog-view) voor hoe de catalogusmening het scoping werkt.
 
    >[!IMPORTANT]
    >
-   >De meningen van de catalogus zijn momenteel in [ bèta ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta#merchandising-rules-globally-and-per-catalog-view-public-beta). Beta-deelnemers moeten bestaande regels voor het wijzigen van winkels opnieuw maken om te kunnen profiteren van het nieuwe weergavebereik voor catalogi.
+   >De meningen van de catalogus zijn momenteel in [&#x200B; bèta &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/beta#merchandising-rules-globally-and-per-catalog-view-public-beta). Beta-deelnemers moeten bestaande regels voor het wijzigen van winkels opnieuw maken om te kunnen profiteren van het nieuwe weergavebereik voor catalogi.
 
 1. Klik op **[!UICONTROL Create rule]** om de regeleditor te starten.
 
-![ creeer Regel ](../../assets/create-rule.png)
+![&#x200B; creeer Regel &#x200B;](../../assets/create-rule.png)
 
 ### Regeltypen
 
@@ -42,7 +42,7 @@ In **bouwt uw regel** sectie, bepaalt u de regelnaam, programma, of de regel op 
 1. Voer in het veld **[!UICONTROL Name]** een naam voor de regel in. Alle regelnamen moeten uniek zijn.
 1. Voer in het veld **[!UICONTROL Description]** een beschrijving van de regel in.
 1. Geef in het veld **[!UICONTROL Date range]** de datum of het datumbereik op waarop de regel actief moet zijn.
-1. In de **[!UICONTROL Rule applies to]** sectie, selecteer het [ regeltype ](#rule-types) u wilt gebruiken.
+1. In de **[!UICONTROL Rule applies to]** sectie, selecteer het [&#x200B; regeltype &#x200B;](#rule-types) u wilt gebruiken.
 
 >[!BEGINTABS]
 
@@ -52,7 +52,7 @@ Een zoekregel past merchandising- en ranking-logica toe wanneer kopers een zoeko
 
 De voorwaarden zijn de vereisten om een gebeurtenis te activeren. Een regel kan tot tien voorwaarden en 25 gebeurtenissen hebben. Een standaardregel kan geen voorwaarden hebben.
 
-![ Uitgezochte Voorwaarde van de Regel ](../../assets/rule-set-condition.png)
+![&#x200B; Uitgezochte Voorwaarde van de Regel &#x200B;](../../assets/rule-set-condition.png)
 
 **Enige voorwaarde**
 
@@ -68,7 +68,7 @@ De voorwaarden zijn de vereisten om een gebeurtenis te activeren. Een regel kan 
 1. Om andere vragen te testen, verander de vraagtekst in de *Test uw doos van het regel* onderzoek en druk **Terugkeer**.
 Aanvankelijk, geeft de testruit de vraag van het de onderzoeksvakje van de Voorwaarden terug. Maar nu geeft het de vraag van de doos van de testvraag terug. De testruit geeft slechts één vraag tegelijkertijd terug.
 1. Als u van het resultaat houdt, werk de tekst in het *Voorwaarden* onderzoeksvakje bij. Klik vervolgens ergens op de pagina om de resultaten in het testvenster bij te werken.
-1. Plaats [ Intelligente het rangschikken ](#intelligent-ranking) en [ het Handmatig rangschikken ](#manual-ranking) zoals die in de volgende secties wordt beschreven. Dezelfde besturingselementen zijn van toepassing op categoriepagina&#39;s, met alle opgevraagde verschillen.
+1. Plaats [&#x200B; Intelligente het rangschikken &#x200B;](#intelligent-ranking) en [&#x200B; het Handmatig rangschikken &#x200B;](#manual-ranking) zoals die in de volgende secties wordt beschreven. Dezelfde besturingselementen zijn van toepassing op categoriepagina&#39;s, met alle opgevraagde verschillen.
 
 **Veelvoudige voorwaarden**
 
@@ -87,7 +87,7 @@ Een regel kan tot tien voorwaarden hebben. De logische exploitant die zich bij t
    In dit voorbeeld zijn er twee aparte query&#39;s die zoeken naar &#39;yoga&#39; of &#39;broek&#39; in plaats van naar &#39;yoga-broek&#39; te zoeken. Deze regel is minder specifiek en wordt vaker geactiveerd in de winkel dan in de andere.
 
 1. Om een andere voorwaarde toe te voegen, **voegt voorwaarde** toe en herhaalt het proces.
-1. Plaats [ Intelligente het rangschikken ](#intelligent-ranking) en [ het Handmatig rangschikken ](#manual-ranking) zoals die in de volgende secties wordt beschreven. Dezelfde besturingselementen zijn van toepassing op categoriepagina&#39;s, met alle opgevraagde verschillen.
+1. Plaats [&#x200B; Intelligente het rangschikken &#x200B;](#intelligent-ranking) en [&#x200B; het Handmatig rangschikken &#x200B;](#manual-ranking) zoals die in de volgende secties wordt beschreven. Dezelfde besturingselementen zijn van toepassing op categoriepagina&#39;s, met alle opgevraagde verschillen.
 
 >[!TAB  regel van de Categorie ]
 
@@ -104,7 +104,7 @@ De regels van de categorie controleren hoe de producten op **categoriepagina&#39
    - **is op subcategorieën** van toepassing - past de regel op subcategorieën toe die reeds geen actieve handelsnormregel hebben die wordt bepaald.
    - **Voorproef** - toont hoe de categoriepagina op uw storefront zou verschijnen.
 
-1. Plaats [ Intelligente het rangschikken ](#intelligent-ranking) en [ het Handmatig rangschikken ](#manual-ranking) zoals die in de volgende secties wordt beschreven. De zelfde controles zijn op onderzoeksregels van toepassing, met om het even welke geroepen verschillen.
+1. Plaats [&#x200B; Intelligente het rangschikken &#x200B;](#intelligent-ranking) en [&#x200B; het Handmatig rangschikken &#x200B;](#manual-ranking) zoals die in de volgende secties wordt beschreven. De zelfde controles zijn op onderzoeksregels van toepassing, met om het even welke geroepen verschillen.
 
 >[!ENDTABS]
 
@@ -114,7 +114,7 @@ De intelligente rangschikkende ordeproducten die **gedragssignalen** gebruiken e
 
 Winkeleigenaars kunnen strategieën zoals de volgende instellen. De nauwkeurige etiketten en de tijdvensters passen de regelredacteur aan en kunnen lichtjes door regeltype verschillen.
 
-![ Intelligente Rankings ](../../assets/rule-intelligent-ranking.png)
+![&#x200B; Intelligente Rankings &#x200B;](../../assets/rule-intelligent-ranking.png)
 
 - **het meest gekochte** / **het meest gekochte** — Draait door aankoopfrequentie per SKU in een recent venster (bijvoorbeeld, de vorige 7 dagen voor onderzoekscontexten).
 - **het meest toegevoegd aan wagentje** — Ranks door totale toe:voegen-aan-kartactiviteit in een recent venster (bijvoorbeeld, de vorige 7 dagen voor onderzoekscontexten).
@@ -150,14 +150,14 @@ Een handelaar gebruikt de &quot;meest bekeken&quot;intelligente rangschikkingsst
 
 - **YAN-K-E-512** (lagere positie): Ondanks het hebben van het hoogste meningspercentiel in de &quot;Meest bekeken&quot;gedragsgegevens, produceert zijn complexe op SKU-Gebaseerde naam een lagere score van de tekstrelevantie. De vaste gedragsstimulans is niet genoeg om deze leemte in de relevantie van de tekst te overbruggen.
 
-Zie [ onderzoeksregels ](./best-practice.md#tips-to-optimize-search-rules) leren hoe te om productfindability te verbeteren gebruikend regels.
+Zie [&#x200B; onderzoeksregels &#x200B;](./best-practice.md#tips-to-optimize-search-rules) leren hoe te om productfindability te verbeteren gebruikend regels.
 
 #### Caveats
 
 - Apostroffen en aanhalingstekens in query&#39;s kunnen leiden tot enkele kleine problemen met rangschikking en relevantie in sommige talen.
 - Om intelligente het rangschikken te verzekeren werkt correct voor **onderzoek**, zorg ervoor dat het **Gewicht van het Onderzoek** voor om het even welke attributen die voor onderzoek of het filtreren (facetten) worden gebruikt `5` of minder is. (Deze leidraad is van toepassing op zoekindexering, niet op transactiestromen die alleen voor categorieën gelden.)
 
-Voor informatie over het plaatsen van onderzoeksdikten, zie [ Meta-gegevens API ](https://developer.adobe.com/commerce/services/reference/rest/).
+Voor informatie over het plaatsen van onderzoeksdikten, zie [&#x200B; Meta-gegevens API &#x200B;](https://developer.adobe.com/commerce/services/reference/rest/).
 
 ### Handmatige classificatie {#manual-ranking}
 
@@ -194,17 +194,17 @@ Of gebeurtenissen kunnen handmatig worden ingesteld:
 1. Als de regel veelvoudige vragen heeft, test elk die door de regel zou kunnen worden beïnvloed.
 1. Wanneer volledig, klik **sparen en publiceer**.
 
-   De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.*
+   De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.*
 
 1. Hoewel de actieve regels onmiddellijk in werking treden, zou u tot 15 minuten kunnen moeten wachten op de caching vraagresultaten in de storefront om worden verfrist.
 
 >[!NOTE]
 >
->De regels en manueel gerangschikte producten worden toegepast op **onderzoek** resultaten wanneer de standaardsoortorde, &quot;Soort door: Relevant,&quot;wordt geselecteerd. Als een winkelier de sorteervolgorde wijzigt in een sorteervolgorde op naam, zijn de regels en handmatige waarderingen niet meer van kracht. Voor **categorie** lijsten, gebrek-soort gedrag wordt beschreven in [ het Handboek rangschikken ](#manual-ranking).
+>De regels en manueel gerangschikte producten worden toegepast op **onderzoek** resultaten wanneer de standaardsoortorde, &quot;Soort door: Relevant,&quot;wordt geselecteerd. Als een winkelier de sorteervolgorde wijzigt in een sorteervolgorde op naam, zijn de regels en handmatige waarderingen niet meer van kracht. Voor **categorie** lijsten, gebrek-soort gedrag wordt beschreven in [&#x200B; het Handboek rangschikken &#x200B;](#manual-ranking).
 
 ## Regels bewerken, weergeven en verwijderen {#edit-view-and-delete-rules}
 
-Volg deze instructies om de eigenschappen van bestaande regels bij te werken. U kunt de catalogusweergave (bereik) van een regel niet wijzigen nadat deze is gemaakt; het bereik wordt ingesteld wanneer u de regel maakt. Zie [ Uitgezochte catalogusmening ](workspace.md#select-catalog-view).
+Volg deze instructies om de eigenschappen van bestaande regels bij te werken. U kunt de catalogusweergave (bereik) van een regel niet wijzigen nadat deze is gemaakt; het bereik wordt ingesteld wanneer u de regel maakt. Zie [&#x200B; Uitgezochte catalogusmening &#x200B;](workspace.md#select-catalog-view).
 
 ### Regel bewerken
 
@@ -214,7 +214,7 @@ Volg deze instructies om de eigenschappen van bestaande regels bij te werken. U 
 1. Werk de naam, de begin- en einddatum en beschrijvingsvelden naar wens bij. Alle regelnamen moeten uniek zijn.
 1. Test de regel.
 1. Publiceer de wijzigingen.
-De regel wordt toegevoegd aan de lijst in de *1} werkruimte van Regels {.* Hoewel de actieve regels onmiddellijk in werking treden, zou het tot 15 minuten voor caching vraagresultaten in de storefront kunnen verfrissen vergen.
+De regel wordt toegevoegd aan de lijst in de *1&rbrace; werkruimte van Regels &lbrace;.* Hoewel de actieve regels onmiddellijk in werking treden, zou het tot 15 minuten voor caching vraagresultaten in de storefront kunnen verfrissen vergen.
 
 ### Details weergeven
 

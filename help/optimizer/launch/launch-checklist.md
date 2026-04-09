@@ -8,7 +8,7 @@ role: Admin, Developer
 level: Intermediate
 topic: Administration
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 source-git-commit: 37b8b8a334ca11daacfd3da03b0441e77329e2e1
 workflow-type: tm+mt
 source-wordcount: '1940'
@@ -38,11 +38,11 @@ Uw oplossing omvat typisch deze componenten:
 
 Bevestig dat uw Adobe Commerce op Cloud-omgeving gereed is voor productie.
 
-▢ De instantie van de Wolk is [&#x200B; provisioned &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/start/new-project).
+▢ De instantie van de Wolk is [&#x200B; provisioned &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/start/new-project).
 ▢ Testgegevens en dummygegevens worden uit de instantie verwijderd.
 ▢ Productiegegevens worden op de instantie geladen.
 ▢ u kent het [&#x200B; eindpunt van GraphQL &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/).
-▢ de instantie voldoet aan [&#x200B; klaar-voor-lancerings &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/checklist) vereisten.
+▢ de instantie voldoet aan [&#x200B; klaar-voor-lancerings &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-on-cloud/user-guide/launch/checklist) vereisten.
 
 ## Commerce Optimizer-exemplaar verifiëren {#verify-optimizer}
 
@@ -59,7 +59,7 @@ Controleer of de productie-instantie van [!DNL Adobe Commerce Optimizer] correct
 
 Bevestig dat uw Edge Delivery Services-winkelsite bestaat en dat de toegang beperkt is.
 
-▢ De storefront-site bestaat. Zie [&#x200B; een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/) creëren.
+▢ De storefront-site bestaat. Zie [&#x200B; een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL) creëren.
 ▢ U kent de sitenaam.
 ▢ slechts hebben de gemachtigde mensen [&#x200B; toestemming om &#x200B;](https://tools.aem.live/tools/user-admin/index.html) te publiceren.
 ▢ slechts hebben de gemachtigde mensen [&#x200B; toestemming aan auteur &#x200B;](https://docs.da.live/administrators/guides/permissions).
@@ -100,18 +100,18 @@ Bevestig dat de storefront van het correcte eindpunt van Adobe Commerce GraphQL 
 
 ### Op Adobe Commerce
 
-▢ de verenigbaarheidspakketten van de Storefront zijn [&#x200B; geïnstalleerd &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility/install/).
+▢ de verenigbaarheidspakketten van de Storefront zijn [&#x200B; geïnstalleerd &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/storefront-compatibility/install/?lang=nl-NL).
 
 ### In de winkel
 
-▢ storefront `commerce-core-endpoint` het plaatsen richt aan uw [&#x200B; eindpunt van GraphQL van de Wolk &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/).
+▢ storefront `commerce-core-endpoint` het plaatsen richt aan uw [&#x200B; eindpunt van GraphQL van de Wolk &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=nl-NL).
 ▢ Als u API-net gebruikt als een proxy voor Cloud GraphQL, verwijst `commerce-core-endpoint` naar het eindpunt van het API-net in plaats van naar het eindpunt van Cloud GraphQL.
 
 ## Integratie van storefront en Optimizer controleren {#storefront-optimizer-integration}
 
 Bevestig Commerce Optimizer-instellingen in de storefront-configuratie.
 
-▢ Uw storefront gebruikt de correcte [&#x200B; montages van Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/).
+▢ Uw storefront gebruikt de correcte [&#x200B; montages van Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=nl-NL).
 ▢ `adobe-commerce-optimizer` is `true`
 ▢ `commerce-endpoint` verwijst naar het Commerce Optimizer GraphQL-eindpunt van de productie of naar het API-neteindpunt wanneer u API-net gebruikt.
 ▢ `headers.cs.AC-view-ID` bevat de catalogusweergave-id van uw Commerce Optimizer-instantie voor productie.
@@ -139,7 +139,7 @@ Bevestig rekbaarheidsconfiguratie voor productie.
 
 ▢ De werkruimte voor productie bevat alle vereiste configuraties en services.
 ▢ De productie-app voert het testen door in verschillende buildscenario&#39;s.
-▢ de grenzen en de grenzen van het Product zijn herzien en bevestigd gebaseerd op de [&#x200B; het productbeschrijving van Adobe Developer App Builder &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-developer-app-builder.html){target="_blank"} en [&#x200B; het systeemmontages en beperkingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings){target="_blank"}.
+▢ de grenzen en de grenzen van het Product zijn herzien en bevestigd gebaseerd op de [&#x200B; het productbeschrijving van Adobe Developer App Builder &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-developer-app-builder.html){target="_blank"} en [&#x200B; het systeemmontages en beperkingen van App Builder &#x200B;](https://developer.adobe.com/app-builder/docs/guides/runtime_guides/system-settings){target="_blank"}.
 ▢ De productie-app gebruikt eindpunten voor App Builder-productie.
 ▢ het paneeluitbreidingen van Admin van de Douane *worden opgesteld aan de werkruimte van de productie.*
 
@@ -172,8 +172,8 @@ Bevestig de ontwerpworkflow en de opslagcomponenten.
 
 Bevestig meta-gegevens, URLs, en kruipt gedrag.
 
-▢ Metagegevens over documenttitels zijn aanwezig voor belangrijke pagina&#39;s (met name PDP&#39;s en PLP&#39;s). Zie {meta-gegevens van 0} SEO [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/){target="_blank"} documentatie van Adobe Commerce Storefront _._
-▢ PDPs omvat [&#x200B; meta-gegevens en gestructureerde gegevens &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/){target="_blank"} (bijvoorbeeld, JSON-LD).
+▢ Metagegevens over documenttitels zijn aanwezig voor belangrijke pagina&#39;s (met name PDP&#39;s en PLP&#39;s). Zie {meta-gegevens van 0} SEO [&#x200B; in de &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=nl-NL){target="_blank"} documentatie van Adobe Commerce Storefront _._
+▢ PDPs omvat [&#x200B; meta-gegevens en gestructureerde gegevens &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=nl-NL){target="_blank"} (bijvoorbeeld, JSON-LD).
 ▢ De product-URL-indelingen zijn consistent (bijvoorbeeld `domain/product-name` ).
 ▢ Vanity URLs leidt naar canonieke URLs om.
 ▢ Het project bevat `robots.txt` . Hiermee kunt u waar nodig indexeren, verwijzingen naar sitemaps en blokken paden die u niet wilt indexeren (bijvoorbeeld `/drafts` ).
@@ -187,7 +187,7 @@ Bevestig meta-gegevens, URLs, en kruipt gedrag.
 
 Bevestig rendering op de server waar u deze inschakelt.
 
-▢ Voorrendering is ingeschakeld voor sleutelpagina&#39;s. Zie [&#x200B; pre-teruggeven voor AEM &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-prerender/){target="_blank"} in _Adobe Commerce Storefront_ documentatie.
+▢ Voorrendering is ingeschakeld voor sleutelpagina&#39;s. Zie [&#x200B; pre-teruggeven voor AEM &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/aem-prerender/?lang=nl-NL){target="_blank"} in _Adobe Commerce Storefront_ documentatie.
 ▢ URL&#39;s gebruiken kleine letters, zodat koppelingen niet worden verbroken bij het renderen vóór het renderen.
 ▢ HTML-bron bevat metagegevens en inhoud van het lichaam die de werking van pre-rendering bevestigen.
 ▢ Landinstellingen tonen waar van toepassing de juiste vertaalde pagina&#39;s.
@@ -197,10 +197,10 @@ Bevestig rendering op de server waar u deze inschakelt.
 
 Bevestig prestatiesbasislijnen en analytische bedrading.
 
-▢ Uw opslag volgt [&#x200B; prestaties beste praktijken &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/performance/){target="_blank"} in de _documentatie van Adobe Commerce Storefront_.
+▢ Uw opslag volgt [&#x200B; prestaties beste praktijken &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/performance/?lang=nl-NL){target="_blank"} in de _documentatie van Adobe Commerce Storefront_.
 ▢ (Optioneel) Google Analytics en Google-tagbeheer zijn geconfigureerd.
 ▢ [&#x200B; de gebeurtenissen van de Storefront &#x200B;](https://github.com/adobe/commerce-events/tree/main/examples/events/snowplow-debugger) implementatie is geldig en de gegevens verschijnen in uw [!DNL Live Search] en [!DNL Product Recommendations] dashboards in Adobe Commerce *Admin*.
-▢ de `environment` analyseparameter in [&#x200B; configuratie van Commerce &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/){target="_blank"} is `"Testing"` tijdens ontwikkeling en `"Production"` bij go-live. Zie [&#x200B; instrumentatie van Analytics &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/){target="_blank"}.
+▢ de `environment` analyseparameter in [&#x200B; configuratie van Commerce &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/commerce-configuration/?lang=nl-NL){target="_blank"} is `"Testing"` tijdens ontwikkeling en `"Production"` bij go-live. Zie [&#x200B; instrumentatie van Analytics &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/analytics/instrumentation/?lang=nl-NL){target="_blank"}.
 ▢ Lighthouse-scores voldoen aan uw doelen (bijvoorbeeld `100` op sleutelpagina&#39;s) op basis van de richtlijnen in dit onderwerp.
 
 ### Beveiliging en toegang
@@ -209,8 +209,8 @@ Bevestig toestemmingen en geheimen.
 
 ▢ De juiste machtigingen zijn geconfigureerd voor DA-inhoud en EDS-sites. Zie [&#x200B; toestemmingen DA.live en &#x200B;](https://da.live/docs/administration/permissions) de opstelling van de Authentificatie voor creatie [&#128279;](https://www.aem.live/docs/authentication-setup-authoring).
 
-▢ De integratie van de productafbeeldingen is voorzien. Zie [&#x200B; het toegangsoverzicht van de Dienst van de Wolk AEM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/accessing/overview#).
-▢ Koppelingen voor het opnieuw instellen van wachtwoorden in e-mailsjablonen komen overeen met de Edge Delivery Services-instellingen. Zie de veelgestelde vragen over de winkel: [&#x200B; wat moet ik doen als de koppelingen van mijn e-mailsjabloon zijn verbroken na het migreren naar Edge Delivery Services of Helix?](https://experienceleague.adobe.com/developer/commerce/storefront/troubleshooting/faq/#what-should-i-do-if-my-email-template-links-are-broken-after-migrating-to-edge-delivery-services-or-helix){target="_blank"}.
+▢ De integratie van de productafbeeldingen is voorzien. Zie [&#x200B; het toegangsoverzicht van de Dienst van de Wolk AEM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/cloud-service/accessing/overview#).
+▢ Koppelingen voor het opnieuw instellen van wachtwoorden in e-mailsjablonen komen overeen met de Edge Delivery Services-instellingen. Zie de veelgestelde vragen over de winkel: [&#x200B; wat moet ik doen als de koppelingen van mijn e-mailsjabloon zijn verbroken na het migreren naar Edge Delivery Services of Helix?](https://experienceleague.adobe.com/developer/commerce/storefront/troubleshooting/faq/?lang=nl-NL#what-should-i-do-if-my-email-template-links-are-broken-after-migrating-to-edge-delivery-services-or-helix){target="_blank"}.
 ▢ Er zijn productiesleutels voor integratie en betalingsproviders.
 ▢ Domeinen zijn op de lijst met gewenste personen staan en achterste webhaken werken.
 
@@ -220,8 +220,8 @@ Bevestig CDN, DNS, en geheim voorgeheugengedrag.
 
 ▢ De CDN-configuratie gebruikt het GraphQL-eindpunt voor de productie (`yourproject.com/graphql` ) voor Sidekick-extensies en -scripts (bijvoorbeeld sitemap-generatie en de imageimporter).
 ▢ wanneer u snel Adobe Commerce gebruikt, is een CDN ontruimingstoken beschikbaar en [&#x200B; de plaatsconfiguratie &#x200B;](https://tools.aem.live/tools/cdn-setup/index.html) omvat `authToken` en `serviceId`.
-▢ [&#x200B; CDN configuratie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/content-delivery-network/){target="_blank"} bevestigt caching en ongeldigmaking.
-▢ voor [&#x200B; multi-store montages &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/#multi-store-setups){target="_blank"}, omvatten de Dienst van de Catalogus en [!DNL Live Search] verzoeken een store-specific geheim voorgeheugenbuster (bijvoorbeeld, een vraagparameter of CDN regel).
+▢ [&#x200B; CDN configuratie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/content-delivery-network/?lang=nl-NL){target="_blank"} bevestigt caching en ongeldigmaking.
+▢ voor [&#x200B; multi-store montages &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=nl-NL#multi-store-setups){target="_blank"}, omvatten de Dienst van de Catalogus en [!DNL Live Search] verzoeken een store-specific geheim voorgeheugenbuster (bijvoorbeeld, een vraagparameter of CDN regel).
 ▢ De functie voor pushvalidatie werkt van begin tot eind (publiceer een wijziging en controleer deze vervolgens op het productiedomein).
 ▢ DNS TTL is laag genoeg vóór bedekken.
 ▢ DNS A en CNAME verslagen zijn correct voor alle domeinen en hostnames.

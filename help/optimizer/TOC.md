@@ -4,7 +4,7 @@ user-guide-description: Documentatie en middelen voor  [!DNL Adobe Commerce Opti
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: e5cb31d0daec30b78cebf4173b72a556e7a92dd2
+source-git-commit: 67e254242d93c6f05d4c204cbc39e50116605c6b
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 10%
@@ -18,7 +18,6 @@ ht-degree: 10%
 - [Gebruiker- en identiteitsbeheer](user-management.md)
 - [Gedeelde verantwoordelijkheid](shared-responsibility.md)
 - [Grenswaarden en grenzen](boundaries-limits.md)
-- [Aanvullende informatie](release-notes.md)
 - Resultaten beheren {#manage-results}
    - [Kansen](./manage-results/opportunities.md)
    - [Succeswaarden](./manage-results/success-metrics.md)
@@ -64,6 +63,6 @@ ht-degree: 10%
 - Site starten {#launch}
    - [Checklist starten](./launch/launch-checklist.md)
 - Bronnen voor ontwikkelaars {#developer}
-   - [&#x200B; Gids van de Ontwikkelaar en API Verwijzingen &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
+   - [ Gids van de Ontwikkelaar en API Verwijzingen ](https://developer.adobe.com/commerce/services/optimizer/)
    - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
-
+- [Aanvullende informatie](release-notes.md)

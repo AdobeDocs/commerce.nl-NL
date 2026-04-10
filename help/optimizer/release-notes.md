@@ -3,7 +3,7 @@ title: Aanvullende informatie
 description: De recentste versieinformatie voor  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer, User, Leader
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: e420d461-9ea2-4e32-aa37-230b14a297d7
 source-git-commit: d0967674d05018f13dc6c8a562005d65d44e42ab
 workflow-type: tm+mt
@@ -36,7 +36,7 @@ De filters van de aanbeveling steunen nu a [&#x200B; prijsfilter &#x200B;](./mer
 
 | Uitbreidbaarheid | Storefront |
 | --- | --- |
-| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=nl-NL) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=nl-NL) |
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Toegevoegde capaciteit om een catalogusmening te specificeren wanneer u [&#x200B
 
 | Uitbreidbaarheid | Storefront |
 | --- | --- |
-| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=nl-NL) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=nl-NL) |
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Toegevoegde [&#x200B; cataloguslagen &#x200B;](./setup/catalog-layer.md) zodat k
 
 | Uitbreidbaarheid | Storefront |
 | --- | --- |
-| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=nl-NL) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=nl-NL) |
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ Er is nu een nieuwe REST API voor categorieën beschikbaar, waarmee beheerders e
 
 | Uitbreidbaarheid | Storefront |
 | --- | --- |
-| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=nl-NL) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=nl-NL) |
 
 >[!ENDSHADEBOX]
 
@@ -144,6 +144,6 @@ De basis-productie-URL&#39;s voor de regio van de Europese Unie zijn:
 
 | Uitbreidbaarheid | Storefront |
 | --- | --- |
-| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |
+| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=nl-NL) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=nl-NL) |
 
 >[!ENDSHADEBOX]

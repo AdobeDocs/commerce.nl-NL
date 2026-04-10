@@ -63,6 +63,6 @@ ht-degree: 10%
 - Site starten {#launch}
    - [Checklist starten](./launch/launch-checklist.md)
 - Bronnen voor ontwikkelaars {#developer}
-   - [ Gids van de Ontwikkelaar en API Verwijzingen ](https://developer.adobe.com/commerce/services/optimizer/)
+   - [&#x200B; Gids van de Ontwikkelaar en API Verwijzingen &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
    - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
 - [Aanvullende informatie](release-notes.md)

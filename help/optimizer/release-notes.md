@@ -24,11 +24,11 @@ De volgende releaseopmerkingen bevatten updates voor [!DNL Adobe Commerce Optimi
 
 ### Catalogusregels (bèta)
 
-De regels van de handel drijven omvatten nu [ categorieregels ](./merchandising/rules/add.md), zodat kunt u één of meerdere categorieën en de orde van het controleproduct op categoriepagina&#39;s richten gebruikend de zelfde intelligente rangschikking en handacties (speld, verhoging, begraving) zoals voor onderzoek.
+De regels van de handel drijven omvatten nu [&#x200B; categorieregels &#x200B;](./merchandising/rules/add.md), zodat kunt u één of meerdere categorieën en de orde van het controleproduct op categoriepagina&#39;s richten gebruikend de zelfde intelligente rangschikking en handacties (speld, verhoging, begraving) zoals voor onderzoek.
 
 ### Prijsfilter (bèta)
 
-De filters van de aanbeveling steunen nu a [ prijsfilter ](./merchandising/recommendations/filters.md#price) dat u kunt gebruiken om een minimum en maximumprijswaaier voor producten te plaatsen.
+De filters van de aanbeveling steunen nu a [&#x200B; prijsfilter &#x200B;](./merchandising/recommendations/filters.md#price) dat u kunt gebruiken om een minimum en maximumprijswaaier voor producten te plaatsen.
 
 {{aco-release}}
 
@@ -42,7 +42,7 @@ De filters van de aanbeveling steunen nu a [ prijsfilter ](./merchandising/recom
 
 ### Catalogusweergave voor handelsregels en aanbevelingen (bèta)
 
-Toegevoegde capaciteit om een catalogusmening te specificeren wanneer u [ aanbeveling tot eenheden ](./merchandising/recommendations/create.md) of [ het merchandising regels ](./merchandising/rules/add.md) leidt.
+Toegevoegde capaciteit om een catalogusmening te specificeren wanneer u [&#x200B; aanbeveling tot eenheden &#x200B;](./merchandising/recommendations/create.md) of [&#x200B; het merchandising regels &#x200B;](./merchandising/rules/add.md) leidt.
 
 {{aco-release}}
 
@@ -56,11 +56,11 @@ Toegevoegde capaciteit om een catalogusmening te specificeren wanneer u [ aanbev
 
 ### Kansen
 
-De op AI-Gebaseerde aanbevelingen van de plaatsoptimalisering zijn nu beschikbaar door [ integratie van Adobe Sites Optimizer ](./manage-results/opportunities.md). Met deze functie kunnen handelaren problemen die gevolgen hebben voor de prestaties van de handelsplaats, identificeren en aanpakken via geautomatiseerde detectie en intelligente aanbevelingen.
+De op AI-Gebaseerde aanbevelingen van de plaatsoptimalisering zijn nu beschikbaar door [&#x200B; integratie van Adobe Sites Optimizer &#x200B;](./manage-results/opportunities.md). Met deze functie kunnen handelaren problemen die gevolgen hebben voor de prestaties van de handelsplaats, identificeren en aanpakken via geautomatiseerde detectie en intelligente aanbevelingen.
 
 ### Cataloguslagen
 
-Toegevoegde [ cataloguslagen ](./setup/catalog-layer.md) zodat kunt u productgegevens wijzigen zonder brongegevens, met inbegrip van laag prioritair beheer en integratie met Adobe Sites Optimizer auto-moeilijke situatie eigenschappen te veranderen.
+Toegevoegde [&#x200B; cataloguslagen &#x200B;](./setup/catalog-layer.md) zodat kunt u productgegevens wijzigen zonder brongegevens, met inbegrip van laag prioritair beheer en integratie met Adobe Sites Optimizer auto-moeilijke situatie eigenschappen te veranderen.
 
 {{aco-release}}
 
@@ -93,7 +93,7 @@ Toegevoegde [ cataloguslagen ](./setup/catalog-layer.md) zodat kunt u productgeg
 
 ### Categorieën-API&#39;s
 
-Er is nu een nieuwe REST API voor categorieën beschikbaar, waarmee beheerders en ontwikkelaars programmatisch meerdere categorieconomen voor navigatie en productgroepering kunnen maken, bijwerken en beheren. De API ondersteunt zowel algemene configuraties als kanaalspecifieke configuraties en is ontworpen voor hoge schaalbaarheid, met ondersteuning voor maximaal 10.000 categorieconomen en 500 categorieën per boom. Voor details, zie [ Categorieën ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#categories) in de _Gids van de Ontwikkelaar van de Diensten van de Merchandising_.<!--DCAT-2649-->
+Er is nu een nieuwe REST API voor categorieën beschikbaar, waarmee beheerders en ontwikkelaars programmatisch meerdere categorieconomen voor navigatie en productgroepering kunnen maken, bijwerken en beheren. De API ondersteunt zowel algemene configuraties als kanaalspecifieke configuraties en is ontworpen voor hoge schaalbaarheid, met ondersteuning voor maximaal 10.000 categorieconomen en 500 categorieën per boom. Voor details, zie [&#x200B; Categorieën &#x200B;](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/#categories) in de _Gids van de Ontwikkelaar van de Diensten van de Merchandising_.<!--DCAT-2649-->
 
 {{aco-release}}
 
@@ -107,14 +107,14 @@ Er is nu een nieuwe REST API voor categorieën beschikbaar, waarmee beheerders e
 
 ### EU-regio nu beschikbaar
 
-Ondersteuning voor de regio van de Europese Unie (eu1) voor IMS-organisaties van klanten is nu beschikbaar. U kunt **Europese Unie** nu selecteren als a **Gebied** wanneer [ toevoegend een instantie van Commerce Optimizer ](./get-started.md#step-1-create-an-instance) in Cloud Manager. De regio van de Europese Unie is alleen beschikbaar voor productieomgevingen.
+Ondersteuning voor de regio van de Europese Unie (eu1) voor IMS-organisaties van klanten is nu beschikbaar. U kunt **Europese Unie** nu selecteren als a **Gebied** wanneer [&#x200B; toevoegend een instantie van Commerce Optimizer &#x200B;](./get-started.md#step-1-create-an-instance) in Cloud Manager. De regio van de Europese Unie is alleen beschikbaar voor productieomgevingen.
 
 De basis-productie-URL&#39;s voor de regio van de Europese Unie zijn:
 
 * Admin: `https://eu1.admin.commerce.adobe.com`
 * REST en GraphQL: `https://eu1.api.commerce.adobe.com`
 
-![ creeer instantie ](./assets/create-instance.png){width="600" align="center" zoomable="yes"}
+![&#x200B; creeer instantie &#x200B;](./assets/create-instance.png){width="600" align="center" zoomable="yes"}
 
 {{aco-release}}
 

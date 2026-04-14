@@ -23,15 +23,15 @@ ht-degree: 0%
 
 De Adobe Commerce Optimizer Connector is de brug die catalogus en prijsgegevens tussen Adobe Commerce (wolk of op-gebouw) en [!DNL Adobe Commerce Optimizer] synchroniseert. Wanneer u de connector inschakelt, blijft Commerce het registratiesysteem voor productgegevens terwijl [!DNL Adobe Commerce Optimizer] productdetectie, aanbevelingen, handelsregels, analyses en storefront zonder kop inschakelt.
 
-- [ het overzicht van de Verbinding van Adobe Commerce Optimizer ](../../aco-connector/overview.md){target="_blank"}
-- [ krijgen begonnen met de schakelaar ](../../aco-connector/get-started.md){target="_blank"}
+- [&#x200B; het overzicht van de Verbinding van Adobe Commerce Optimizer &#x200B;](../../aco-connector/overview.md){target="_blank"}
+- [&#x200B; krijgen begonnen met de schakelaar &#x200B;](../../aco-connector/get-started.md){target="_blank"}
 
 ## Productvisa voor AEM Assets {#product-visuals}
 
 Met productvisa kunt u productafbeeldingen beheren via Adobe Experience Manager (AEM) Assets. Configureer AEM Assets for Commerce Optimizer om productvisa in te schakelen. Nadat u de configuratie hebt voltooid, gebruikt u AEM Assets als de gecentraliseerde oplossing voor het beheer van digitale middelen voor uw productafbeeldingen, met geautomatiseerde workflows voor het beoordelen en beheren van bedrijfsmiddelen die de images synchroon houden met uw Commerce Optimizer-catalogus. De integratie past activa aan producten door SKU aan. Updates worden doorlopen via Adobe-integratieservices, zodat de nieuwste media worden weergegeven zonder handmatig opnieuw te uploaden.
 
 - [Productvisa voor AEM Assets](../setup/product-visuals.md)
-- [ vorm AEM Assets voor Commerce Optimizer ](../../aem-assets-integration/get-started/configure-aco.md){target="_blank"}
+- [&#x200B; vorm AEM Assets voor Commerce Optimizer &#x200B;](../../aem-assets-integration/get-started/configure-aco.md){target="_blank"}
 
 ## Adobe Experience Manager Sites Optimizer {#aem-sites-optimizer}
 
@@ -51,5 +51,5 @@ Met de Commerce Salesforce Connector (die is gebaseerd op Adobe App Builder) wor
 
 >[!MORELIKETHIS]
 >
->- [ Adobe Commerce Optimizer technische documentatie ](https://developer.adobe.com/commerce/services/optimizer/){target="_blank"}
->- [ worden begonnen met Adobe Commerce Optimizer ](../get-started.md)
+>- [&#x200B; Adobe Commerce Optimizer technische documentatie &#x200B;](https://developer.adobe.com/commerce/services/optimizer/){target="_blank"}
+>- [&#x200B; worden begonnen met Adobe Commerce Optimizer &#x200B;](../get-started.md)

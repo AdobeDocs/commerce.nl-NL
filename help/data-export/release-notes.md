@@ -17,9 +17,9 @@ In deze releaseopmerkingen worden de nieuwste versies van de extensie [!DNL SaaS
 
 Updates zijn:
 
-![ Nieuwe ](../assets/new.svg) Nieuwe eigenschappen
-![ bevestig ](../assets/fix.svg) Bevestigingen en verbeteringen
-![ Bug ](../assets/bug.svg) Bekende kwesties
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Nieuwe eigenschappen
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Bevestigingen en verbeteringen
+![&#x200B; Bug &#x200B;](../assets/bug.svg) Bekende kwesties
 
 >[!NOTE]
 >
@@ -31,52 +31,52 @@ Updates zijn:
 
 _13 april 2026_
 
-![ bevestig ](../assets/fix.svg) **Verbeterde gegevenssynchronisatie**
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) **Verbeterde gegevenssynchronisatie**
 
 - Probleem verholpen waarbij verwijderde producten niet correct werden verwijderd van de verbonden Commerce-services als de exportservice niet beschikbaar was tijdens het verwijderen. Opnieuw proberen en opnieuw synchroniseren zorgt er nu voor dat verwijderde producten correct worden weergegeven in SaaS. <!--MDEE-1319-->
 - Catalogusentiteiten (producten en categorieën) kunnen nu worden geëxporteerd naar verbonden Commerce-services, zelfs als kenmerkwaarden ontbreken in de beheerdersweergave. Hierdoor wordt de compatibiliteit met extensies van derden verbeterd en worden exportfouten beperkt omdat standaardwaarden ontbreken. <!--MDEE-1333-->
 
-![ bevestig ](../assets/fix.svg) een fout op de pagina van de Status van de Synchronisatie van het Gegeven die kon voorkomen wanneer de voederverslagen onverwachte of ontbrekende gegevens bevatten. Het systeem behandelt dergelijke gevallen nu netjes, waardoor de stabiliteit wordt verbeterd en vastlopen wordt voorkomen. Als u de Schakelaar van Adobe Commerce Optimizer aan synchronisatiegegevens van Adobe Commerce aan Adobe Commerce Optimizer gebruikt, werk aan [ ACO schakelaarversie 1.0.11 ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/release-notes) of recenter voor de moeilijke situatie bij.<!--MDEE-1327-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een fout op de pagina van de Status van de Synchronisatie van het Gegeven die kon voorkomen wanneer de voederverslagen onverwachte of ontbrekende gegevens bevatten. Het systeem behandelt dergelijke gevallen nu netjes, waardoor de stabiliteit wordt verbeterd en vastlopen wordt voorkomen. Als u de Schakelaar van Adobe Commerce Optimizer aan synchronisatiegegevens van Adobe Commerce aan Adobe Commerce Optimizer gebruikt, werk aan [&#x200B; ACO schakelaarversie 1.0.11 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/release-notes) of recenter voor de moeilijke situatie bij.<!--MDEE-1327-->
 
 ### 103.4.21 Release
 
 _2 April, 2026_
 
-![ bevestig ](../assets/fix.svg) **Verbeterde betrouwbaarheid van manuele resync van de indexeerder van de categorietoestemming** - Vaste een kwestie waar het runnen van indexen in een bepaalde orde sommige producten kon veroorzaken om tijdelijk onzichtbaar te worden. Het systeem handhaaft nu de juiste volgorde en activeert automatisch een volledige resync wanneer dat nodig is, zodat alle producten zichtbaar blijven na handmatige herindexeringsbewerkingen. <!--MDEE-1332-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) **Verbeterde betrouwbaarheid van manuele resync van de indexeerder van de categorietoestemming** - Vaste een kwestie waar het runnen van indexen in een bepaalde orde sommige producten kon veroorzaken om tijdelijk onzichtbaar te worden. Het systeem handhaaft nu de juiste volgorde en activeert automatisch een volledige resync wanneer dat nodig is, zodat alle producten zichtbaar blijven na handmatige herindexeringsbewerkingen. <!--MDEE-1332-->
 
 ### 103.4.20 Release
 
 _Maart 5, 2026_
 
-![ bevestig ](../assets/fix.svg) Verzekerde verenigbaarheid met toekomstige PHP versies door het de indexproces van de Diervoeders van het Product bij te werken om verouderd gebruik van ongeldig als seriecompensatie te vermijden. Dit verbetert stabiliteit tijdens indexatie.<!--MDEE-1306-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Verzekerde verenigbaarheid met toekomstige PHP versies door het de indexproces van de Diervoeders van het Product bij te werken om verouderd gebruik van ongeldig als seriecompensatie te vermijden. Dit verbetert stabiliteit tijdens indexatie.<!--MDEE-1306-->
 
-![ Verbeterde synchronisatie van de productvoer voor categorie gegevens-nu, wanneer u een categorie URL in Commerce Admin UI bijwerkt, verfrist de productvoer automatisch om op de nieuwe categorieweg te wijzen. ](../assets/fix.svg) Er zijn geen handmatige handelingen vereist en de zoekresultaten van uw product zijn altijd up-to-date nadat de categorie-URL is gewijzigd.<!--MDEE-1294-->
+![&#x200B; Verbeterde synchronisatie van de productvoer voor categorie gegevens-nu, wanneer u een categorie URL in Commerce Admin UI bijwerkt, verfrist de productvoer automatisch om op de nieuwe categorieweg te wijzen. &#x200B;](../assets/fix.svg) Er zijn geen handmatige handelingen vereist en de zoekresultaten van uw product zijn altijd up-to-date nadat de categorie-URL is gewijzigd.<!--MDEE-1294-->
 
 ### 103.4.19 Release
 
 _6 Februari, 2026_
 
-![ bevestig ](../assets/fix.svg) een kwestie opgelost waar het `di:compile` bevel op PHP 8.5 ontbrak. Het compilatieproces is nu voltooid en zorgt voor compatibiliteit met de nieuwste PHP-versie. <!--MDEE-1299-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie opgelost waar het `di:compile` bevel op PHP 8.5 ontbrak. Het compilatieproces is nu voltooid en zorgt voor compatibiliteit met de nieuwste PHP-versie. <!--MDEE-1299-->
 
 ### 103.4.18 Release
 
 _2 Februari, 2026_
 
-![ bevestig ](../assets/fix.svg) een kwestie waar de punteeksen de toegestane grens tijdens updates konden overschrijden, veroorzakend `items_limit_exceeded` fouten wanneer het synchroniseren van gegevens aan [ de diensten van Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home) of [ Adobe Commerce Optimizer ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync). <!--MDEE-1264-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar de punteeksen de toegestane grens tijdens updates konden overschrijden, veroorzakend `items_limit_exceeded` fouten wanneer het synchroniseren van gegevens aan [&#x200B; de diensten van Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home) of [&#x200B; Adobe Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync). <!--MDEE-1264-->
 
-![ bevestig ](../assets/fix.svg) Verbeterde betrouwbaarheid van de uitvoer van productgegevens door logica toe te voegen om ontbroken punten tijdens de inzameling van de opties van het bundelproduct te registreren. <!--CCSAAS-4458-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Verbeterde betrouwbaarheid van de uitvoer van productgegevens door logica toe te voegen om ontbroken punten tijdens de inzameling van de opties van het bundelproduct te registreren. <!--CCSAAS-4458-->
 
 ### 103.4.17 Release
 
 _5 Januari, 2026_
 
-![ bevestig ](../assets/fix.svg) de uitbreiding van de gegevensuitvoer (`magento/module-data-exporter`) bijwerkte om `magento/module-analytics` gebiedsdeel te verwijderen, dat niet meer wordt vereist.<!--MDEE-1260-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) de uitbreiding van de gegevensuitvoer (`magento/module-data-exporter`) bijwerkte om `magento/module-analytics` gebiedsdeel te verwijderen, dat niet meer wordt vereist.<!--MDEE-1260-->
 
-![ beval ](../assets/fix.svg) een kwestie waar het bijwerken van de de laagprijzen van een product geen oude waarden schrapte, resulterend in dubbele of verouderde ingangen van de rijprijs. Nu worden alleen de huidige laagprijzen weergegeven na updates. <!--MDEE-1157-->
+![&#x200B; beval &#x200B;](../assets/fix.svg) een kwestie waar het bijwerken van de de laagprijzen van een product geen oude waarden schrapte, resulterend in dubbele of verouderde ingangen van de rijprijs. Nu worden alleen de huidige laagprijzen weergegeven na updates. <!--MDEE-1157-->
 
-![ bevestig ](../assets/fix.svg) een kwestie waar de producten met een prijs $0 of 100% korting niet als vrij op de winkel werden getoond. Storefront- en winkelprijzen zijn nu consistent. <!--MDEE-1159-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar de producten met een prijs $0 of 100% korting niet als vrij op de winkel werden getoond. Storefront- en winkelprijzen zijn nu consistent. <!--MDEE-1159-->
 
-![ Symfony 7.4 LTS verenigbaarheid van 0} herstellen {toegevoegd aan de uitbreidingen van de gegevensuitvoer om toekomstige verbeteringen en integratie te steunen. ](../assets/fix.svg)<!--MDEE-1272-->
+![&#x200B; Symfony 7.4 LTS verenigbaarheid van 0&rbrace; herstellen &lbrace;toegevoegd aan de uitbreidingen van de gegevensuitvoer om toekomstige verbeteringen en integratie te steunen. &#x200B;](../assets/fix.svg)<!--MDEE-1272-->
 
 ## Oudere releases
 
@@ -84,303 +84,303 @@ _5 Januari, 2026_
 
 _24 November, 2025_
 
-![ beval ](../assets/fix.svg) een kwestie op waar bepaalde indexeerders er niet in slaagden om op `Update On Schedule` wijze tijdens opstelling of verbetering wegens ontbrekende implementaties ActionInterface in veelvoudige indexeerders over te schakelen. Deze moeilijke situatie verzekert succesvolle uitbreidingsinstallatie en verbetering zonder indexeergerelateerde fouten te ontmoeten. <!--MDEE-1235-->
+![&#x200B; beval &#x200B;](../assets/fix.svg) een kwestie op waar bepaalde indexeerders er niet in slaagden om op `Update On Schedule` wijze tijdens opstelling of verbetering wegens ontbrekende implementaties ActionInterface in veelvoudige indexeerders over te schakelen. Deze moeilijke situatie verzekert succesvolle uitbreidingsinstallatie en verbetering zonder indexeergerelateerde fouten te ontmoeten. <!--MDEE-1235-->
 
 ### 103.4.15 Release
 
 _22 oktober, 2025_
 
-![ Nieuwe ](../assets/new.svg) Toegevoegde steun voor de uitbreiding van de Status van de Synchronisatie van het Gegevensvoer om gegevensoverdrachten van Adobe Commerce aan de verbonden diensten (de Dienst van de Catalogus, Levend Onderzoek, en de Aanbevelingen van het Product) te controleren en problemen op te lossen. Voor details bij het installeren van en het gebruiken van deze uitbreiding, zie [ de Controle van de Status van de Synchronisatie van het Gegeven ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html) in de *Gids Admin van Commerce*. <!--MDEE-954-->
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde steun voor de uitbreiding van de Status van de Synchronisatie van het Gegevensvoer om gegevensoverdrachten van Adobe Commerce aan de verbonden diensten (de Dienst van de Catalogus, Levend Onderzoek, en de Aanbevelingen van het Product) te controleren en problemen op te lossen. Voor details bij het installeren van en het gebruiken van deze uitbreiding, zie [&#x200B; de Controle van de Status van de Synchronisatie van het Gegeven &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status.html) in de *Gids Admin van Commerce*. <!--MDEE-954-->
 
 ### 103.4.14 Release
 
 _10 oktober, 2025_
 
-![ bevestig ](../assets/fix.svg) een kwestie opgelost waar de [ 3} baan van de meningsindexeerder kon ontbreken als de ](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) lijst mist. `cde_product_overrides_feed_cl` De moeilijke situatie verzekert stabiel opnieuw indexeren en verhindert baanmislukkingen met betrekking tot deze lijst in multi-huurdermilieu&#39;s. <!--MDEE-1175-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie opgelost waar de [&#x200B; 3&rbrace; baan van de meningsindexeerder kon ontbreken als de &#x200B;](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) lijst mist. `cde_product_overrides_feed_cl` De moeilijke situatie verzekert stabiel opnieuw indexeren en verhindert baanmislukkingen met betrekking tot deze lijst in multi-huurdermilieu&#39;s. <!--MDEE-1175-->
 
 ### 103.4.13 Release
 
 _24 September, 2025_
 
-![ bevestig ](../assets/fix.svg) Vaste kwestie waar het uitgeven van de montages van de Configuratie van het Web de Index van de Diervoeders van het Product om veroorzaakte terug te stellen. <!--MDEE-1154-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Vaste kwestie waar het uitgeven van de montages van de Configuratie van het Web de Index van de Diervoeders van het Product om veroorzaakte terug te stellen. <!--MDEE-1154-->
 
-![ bevestig ](../assets/fix.svg) een kwestie opgelost waar de opties en de varianten van het bundelproduct veelvoudige tijden in de de dienstreactie van de Catalogus, met name voor producten konden verschijnen die aan veelvoudige opslag of websites worden toegewezen. Met deze oplossing wordt elke bundeloptie/variant nu slechts één keer per product geretourneerd, zodat een nauwkeurige en consistente weergave van de winkel voor zowel verkopers als klanten wordt gegarandeerd. <!--MDEE-1167-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie opgelost waar de opties en de varianten van het bundelproduct veelvoudige tijden in de de dienstreactie van de Catalogus, met name voor producten konden verschijnen die aan veelvoudige opslag of websites worden toegewezen. Met deze oplossing wordt elke bundeloptie/variant nu slechts één keer per product geretourneerd, zodat een nauwkeurige en consistente weergave van de winkel voor zowel verkopers als klanten wordt gegarandeerd. <!--MDEE-1167-->
 
 ### 103.4.12 Release
 
 _18 september, 2025_
 
-![ beval ](../assets/fix.svg) een kwestie aan waar de Pagina van het Detail van het Product (PDP) geen kortingen van de de catalogusprijsregel weergaf wanneer de prijsstelling van de klantengroep aanwezig was. PDP toont nu correct de laagste prijs.<!--MDEE-1158-->
+![&#x200B; beval &#x200B;](../assets/fix.svg) een kwestie aan waar de Pagina van het Detail van het Product (PDP) geen kortingen van de de catalogusprijsregel weergaf wanneer de prijsstelling van de klantengroep aanwezig was. PDP toont nu correct de laagste prijs.<!--MDEE-1158-->
 
 ### 103.4.11 Release
 
 _Augustus 29, 2025_
 
-![ Nieuwe ](../assets/new.svg) [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
-Extra ondersteuning voor extra productkenmerken om belastingklasse, kenmerkset en inventarisgegevens van Commerce-productconfiguraties in de productfeed op te nemen. Klanten die deze kenmerken in productexportfeeds willen opnemen, moeten de module Extra productkenmerken aan hun Adobe Commerce-project toevoegen. Zie [ belastingklasse toevoegen, plaatste attributen, en inventarisattributen ](add-tax-attribute-set-inventory-attributes.md).<!--MDEE-1135-->
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."}
+Extra ondersteuning voor extra productkenmerken om belastingklasse, kenmerkset en inventarisgegevens van Commerce-productconfiguraties in de productfeed op te nemen. Klanten die deze kenmerken in productexportfeeds willen opnemen, moeten de module Extra productkenmerken aan hun Adobe Commerce-project toevoegen. Zie [&#x200B; belastingklasse toevoegen, plaatste attributen, en inventarisattributen &#x200B;](add-tax-attribute-set-inventory-attributes.md).<!--MDEE-1135-->
 
-![ Repareerde ](../assets/fix.svg) een kwestie die onjuiste synchronisatie van geschrapte productupdates veroorzaakte als een fout tijdens een volledige productindex voorkwam. Nu worden alle productverwijderingen correct gesynchroniseerd, zelfs als er een fout optreedt tijdens het indexeringsproces. <!--MDEE-1144-->
+![&#x200B; Repareerde &#x200B;](../assets/fix.svg) een kwestie die onjuiste synchronisatie van geschrapte productupdates veroorzaakte als een fout tijdens een volledige productindex voorkwam. Nu worden alle productverwijderingen correct gesynchroniseerd, zelfs als er een fout optreedt tijdens het indexeringsproces. <!--MDEE-1144-->
 
 ### 103.4.10 Release
 
 _Augustus 18, 2025_
 
-![ bevestig ](../assets/fix.svg) een kwestie waar het verkeerde type (`text` in plaats van `OBJECT`) voor sommige dynamisch gecreeerde attributen werd teruggekeerd. Nu, is de correcte typeinformatie constant teruggekeerd, eliminerend de behoefte aan manuele resyncs of alternerende actie.<!--MDEE-1131-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar het verkeerde type (`text` in plaats van `OBJECT`) voor sommige dynamisch gecreeerde attributen werd teruggekeerd. Nu, is de correcte typeinformatie constant teruggekeerd, eliminerend de behoefte aan manuele resyncs of alternerende actie.<!--MDEE-1131-->
 
-![ bevestig ](../assets/fix.svg) een kwestie waar de inzameling van productgegevens tijdens gedeeltelijke syncs wegens fouten in de leverancier van de Lage-inventaris kon ontbreken. Deze moeilijke situatie zorgt ervoor dat de productgegevens betrouwbaar worden uitgevoerd, en geen product IDs wordt overgeslagen wegens LowStock-related fouten.<!--MDEE-1132-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar de inzameling van productgegevens tijdens gedeeltelijke syncs wegens fouten in de leverancier van de Lage-inventaris kon ontbreken. Deze moeilijke situatie zorgt ervoor dat de productgegevens betrouwbaar worden uitgevoerd, en geen product IDs wordt overgeslagen wegens LowStock-related fouten.<!--MDEE-1132-->
 
 ### 103.4.9 Release
 
 _Augustus 13, 2025_
 
-![ bevestig ](../assets/fix.svg) een kwestie waar de de feeds van de productprijs niet werden geregenereerd toen een product werd geschrapt, of toen product SKU werd veranderd.<!--MDEE-1125-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar de de feeds van de productprijs niet werden geregenereerd toen een product werd geschrapt, of toen product SKU werd veranderd.<!--MDEE-1125-->
 
-![ verbeter ](../assets/fix.svg) Verbeterde verwerking van de productupdate om ervoor te zorgen dat de veranderingen nauwkeurig worden weerspiegeld wanneer het bijwerken van een nieuw gecreeerd product met zelfde SKU zoals een eerder geschrapt product. De synchronisatie van het product gebruikt nu correct bijgewerkte product IDs, die nauwkeurige en betrouwbare gegevensuitvoer verzekeren.<!--MDEE-1126-->
+![&#x200B; verbeter &#x200B;](../assets/fix.svg) Verbeterde verwerking van de productupdate om ervoor te zorgen dat de veranderingen nauwkeurig worden weerspiegeld wanneer het bijwerken van een nieuw gecreeerd product met zelfde SKU zoals een eerder geschrapt product. De synchronisatie van het product gebruikt nu correct bijgewerkte product IDs, die nauwkeurige en betrouwbare gegevensuitvoer verzekeren.<!--MDEE-1126-->
 
-![ bevestig ](../assets/fix.svg) een kwestie waar de Dienst van de Catalogus verouderde variantgegevens voor configureerbare producten kon terugkeren door de gebeurtenissen van de productupdate te verzekeren na attributenschrappingen worden gepubliceerd.<!--MDEE-1127-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar de Dienst van de Catalogus verouderde variantgegevens voor configureerbare producten kon terugkeren door de gebeurtenissen van de productupdate te verzekeren na attributenschrappingen worden gepubliceerd.<!--MDEE-1127-->
 
 ### 103.4.8 Release
 
 _6 Augustus, 2025_
 
-![ Nieuwe ](../assets/new.svg) Toegevoegde informatie van de rijprijs aan het prijsvoer. <!--MDEE-1070-->
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde informatie van de rijprijs aan het prijsvoer. <!--MDEE-1070-->
 
-![ bevestig ](../assets/fix.svg) de uitbreiding van de Exporteur van Gegevens voert nu correct website-scoped bundelselectieprijzen uit, die opslag het tarief verzekeren wijst op nauwkeurige die waarden op de &quot;configuratie van het Toepassingsgebied van de Prijs van de Catalogus&quot;worden gebaseerd.<!--MDEE-1115-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) de uitbreiding van de Exporteur van Gegevens voert nu correct website-scoped bundelselectieprijzen uit, die opslag het tarief verzekeren wijst op nauwkeurige die waarden op de &quot;configuratie van het Toepassingsgebied van de Prijs van de Catalogus&quot;worden gebaseerd.<!--MDEE-1115-->
 
-![ Repareren ](../assets/fix.svg) eerder, werden de producten gesynchroniseerd met een onjuiste `lowStock=true` status wanneer het gebruiken van Inventory management (Multi-source Inventory management) met drempelconfiguratie. Deze kwestie is opgelost om nauwkeurige lage voorraadrapportering te verzekeren.<!--MDEE-1113-->
+![&#x200B; Repareren &#x200B;](../assets/fix.svg) eerder, werden de producten gesynchroniseerd met een onjuiste `lowStock=true` status wanneer het gebruiken van Inventory management (Multi-source Inventory management) met drempelconfiguratie. Deze kwestie is opgelost om nauwkeurige lage voorraadrapportering te verzekeren.<!--MDEE-1113-->
 
 ### 103.4.7 Release
 
 _22 Juli, 2025_
 
-![ bevestig ](../assets/fix.svg) Verwijderde verouderde lijsten die categorietoestemmingen voor producten opsloeg. <!--MDEE-1065-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Verwijderde verouderde lijsten die categorietoestemmingen voor producten opsloeg. <!--MDEE-1065-->
 
 ### 103.4.6 Release
 
 _Juni 20, 2025_
 
-![ verbeter ](../assets/fix.svg) downloadbare het productgegevens van de Uitvoer Adobe Commerce gebruikend het `ac_downloadable` attribuut voor gebruik met Adobe Commerce Optimizer. <!--MDEE-1043-->
+![&#x200B; verbeter &#x200B;](../assets/fix.svg) downloadbare het productgegevens van de Uitvoer Adobe Commerce gebruikend het `ac_downloadable` attribuut voor gebruik met Adobe Commerce Optimizer. <!--MDEE-1043-->
 
-![ bevestig ](../assets/fix.svg) Kritieke oplossing van de installatiefout voor versie 2.4.4 van Adobe Commerce. <!--MDEE-1074-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Kritieke oplossing van de installatiefout voor versie 2.4.4 van Adobe Commerce. <!--MDEE-1074-->
 
 ### 103.4.5 Release
 
 _Mei 27, 2025_
 
-![ de Nieuwe ](../assets/new.svg) Gegevens SaaS de uitvoer steunt nu het het producttype van Adobe Commerce `giftcard`. In de gegevensfeed worden Cadeauproducten geëxporteerd als eenvoudige producten met het type productkenmerk `ac_giftcard` . <!--MDEE-1042-->
+![&#x200B; de Nieuwe &#x200B;](../assets/new.svg) Gegevens SaaS de uitvoer steunt nu het het producttype van Adobe Commerce `giftcard`. In de gegevensfeed worden Cadeauproducten geëxporteerd als eenvoudige producten met het type productkenmerk `ac_giftcard` . <!--MDEE-1042-->
 
-![ verbeter ](../assets/fix.svg) Verbeterde fout die van de gegevensuitvoer rapporteert. Logs omvat nu gedetailleerdere foutenmeldingen, met inbegrip van originele technische details om het gemakkelijker te maken om fouten te zuiveren en te vinden. <!--MDEE-1064-->
+![&#x200B; verbeter &#x200B;](../assets/fix.svg) Verbeterde fout die van de gegevensuitvoer rapporteert. Logs omvat nu gedetailleerdere foutenmeldingen, met inbegrip van originele technische details om het gemakkelijker te maken om fouten te zuiveren en te vinden. <!--MDEE-1064-->
 
 ### 103.4.4 Release
 
 _Mei 15, 2025_
 
-![ Nieuw ](../assets/new.svg) voegde een waarschuwingsbericht toe dat toont wanneer het `cleanup-feed` argument aan het `saas:resync` CLI bevel wordt toegevoegd. De optie `--cleanup-feed` moet voorzichtig worden gebruikt en alleen in specifieke scenario&#39;s, zoals na het opschonen van de omgeving of met de optie `--dry-run` . In andere gevallen kan dit leiden tot gegevensverlies en synchronisatieproblemen. <!--MDEE-1047-->
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) voegde een waarschuwingsbericht toe dat toont wanneer het `cleanup-feed` argument aan het `saas:resync` CLI bevel wordt toegevoegd. De optie `--cleanup-feed` moet voorzichtig worden gebruikt en alleen in specifieke scenario&#39;s, zoals na het opschonen van de omgeving of met de optie `--dry-run` . In andere gevallen kan dit leiden tot gegevensverlies en synchronisatieproblemen. <!--MDEE-1047-->
 
-![ Repareer ](../assets/fix.svg) voegde `x-request-id` van de serverreactie voor betere traceerbaarheid toe. <!--MDEE-1041-->
+![&#x200B; Repareer &#x200B;](../assets/fix.svg) voegde `x-request-id` van de serverreactie voor betere traceerbaarheid toe. <!--MDEE-1041-->
 
-![ bevestig ](../assets/fix.svg) een kwestie waar de synchronisatiestatus niet voor de volledige voederpartij werd bewaard, die tot onnodige resynchronisatie leidde. <!--MDEE-1049-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar de synchronisatiestatus niet voor de volledige voederpartij werd bewaard, die tot onnodige resynchronisatie leidde. <!--MDEE-1049-->
 
-![ beval ](../assets/fix.svg) een kwestie vast waar alle voer in de voederpartij tijdens synchronisatie werd overgeslagen als één voer een fout bevatte. <!--MDEE-976-->
+![&#x200B; beval &#x200B;](../assets/fix.svg) een kwestie vast waar alle voer in de voederpartij tijdens synchronisatie werd overgeslagen als één voer een fout bevatte. <!--MDEE-976-->
 
-![ bevestig ](../assets/fix.svg) Toegevoegde steun voor afmetingen in de indexer van categorietoestemmingen. <!--MDEE-654-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Toegevoegde steun voor afmetingen in de indexer van categorietoestemmingen. <!--MDEE-654-->
 
 ### 103.4.3 Release
 
 _22 April, 2025_
 
-![ bevestig ](../assets/fix.svg) een kwestie opgelost waar de producten tijdens het proces van de gegevensuitvoer wegens ontbrekende attributen EAV werden overgeslagen. <!--MDEE-970-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie opgelost waar de producten tijdens het proces van de gegevensuitvoer wegens ontbrekende attributen EAV werden overgeslagen. <!--MDEE-970-->
 
 ### 103.4.2 Release
 
 _16 april 2025_
 
-![ bevestig ](../assets/fix.svg) toevoegde de capaciteit om entiteitlading in `saas-export.log` te verzamelen wanneer het runnen van de testresynchronisatie gebruikend het `saas:resync --dry-run` bevel met de `EXPORTER_EXTENDED_LOG=1` omgevingsvariabele. <!--MDEE-1023-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) toevoegde de capaciteit om entiteitlading in `saas-export.log` te verzamelen wanneer het runnen van de testresynchronisatie gebruikend het `saas:resync --dry-run` bevel met de `EXPORTER_EXTENDED_LOG=1` omgevingsvariabele. <!--MDEE-1023-->
 
 ### 103.4.1 Release
 
 _10 april 2025_
 
-![ bevestig ](../assets/fix.svg) een prefix aan QueryXml geheim voorgeheugensleutels toevoegde om noemende conflicten met andere modules te verhinderen. <!--MDEE-1019-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een prefix aan QueryXml geheim voorgeheugensleutels toevoegde om noemende conflicten met andere modules te verhinderen. <!--MDEE-1019-->
 
 ### 103.4.0 Release
 
 _Maart 31, 2025_
 
-![ Repareren ](../assets/fix.svg) het product treedt voer met voeten verzendt niet meer toestemmingen als het product niet aan een categorie wordt toegewezen.<!--MDEE-449-->
+![&#x200B; Repareren &#x200B;](../assets/fix.svg) het product treedt voer met voeten verzendt niet meer toestemmingen als het product niet aan een categorie wordt toegewezen.<!--MDEE-449-->
 
 ### 103.3.21 Release
 
 _Maart 11, 2025_
 
-![ Nieuwe ](../assets/new.svg) Toegevoegde functionaliteit om `products`, `productOverrides`, en `productAttributes` voer gedeeltelijk te synchroniseren die op een gespecificeerde lijst van productSKUs wordt gebaseerd. Gebruik de nieuwe functionaliteit door de optie `--by-ids` aan de opdracht resync CLI toe te voegen: <!--MDEE-606-->
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Toegevoegde functionaliteit om `products`, `productOverrides`, en `productAttributes` voer gedeeltelijk te synchroniseren die op een gespecificeerde lijst van productSKUs wordt gebaseerd. Gebruik de nieuwe functionaliteit door de optie `--by-ids` aan de opdracht resync CLI toe te voegen: <!--MDEE-606-->
 
 ```shell
 bin/magento saas:resync --feed=<FEED_NAME> --by-ids='<SKU1>,<SKU2>,<SKU3>
 ```
 
-![ bevestig ](../assets/fix.svg) Verminderde potentiële verenigbaarheidskwesties met PHP 8.4 door verouderde functionaliteit te richten. <!--MDEE-1002-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Verminderde potentiële verenigbaarheidskwesties met PHP 8.4 door verouderde functionaliteit te richten. <!--MDEE-1002-->
 
 ### 103.3.20 Release
 
 _28 februari, 2025_
 
-![ bevestig ](../assets/fix.svg) Vaste ontraceerbare `BulkException` fouten in `cron.log` door overseinen voor fouten te verbeteren met betrekking tot de mislukkingen van de uitvoerkring van de Gegevens van de Catalogus.<!--MDEE-966-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Vaste ontraceerbare `BulkException` fouten in `cron.log` door overseinen voor fouten te verbeteren met betrekking tot de mislukkingen van de uitvoerkring van de Gegevens van de Catalogus.<!--MDEE-966-->
 
-![ bevestig ](../assets/fix.svg) Verbeterde prestaties van het product re-synchronisatieproces op instanties met een hoog aantal opslagmeningen. <!--MDEE-974-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Verbeterde prestaties van het product re-synchronisatieproces op instanties met een hoog aantal opslagmeningen. <!--MDEE-974-->
 
 ### 103.3.19 Release
 
 _13 Februari, 2025_
 
-![ bevestig ](../assets/fix.svg) de uitbreiding van de gegevensuitvoer werkte bij om voer rekbaarheid te verbeteren. <!--MDEE-936-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) de uitbreiding van de gegevensuitvoer werkte bij om voer rekbaarheid te verbeteren. <!--MDEE-936-->
 
-![ bevestig ](../assets/fix.svg) de bewerker van de gegevensuitvoer verifieert nu de indexeerstatus vóór een volledige resync om onbedoeld gegevensverlies in de voederingslijst te vermijden.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) de bewerker van de gegevensuitvoer verifieert nu de indexeerstatus vóór een volledige resync om onbedoeld gegevensverlies in de voederingslijst te vermijden.
 
 ### 103.3.18 Release
 
 _Januari 28, 2025_
 
-![ het Staging updates van 0} herstellen {voor product en categorieentiteiten wordt nu correct teweeggebracht op de gegevensupdates van de Uitvoer van Gegevens.](../assets/fix.svg)<!--MDEE-963-->
+![&#x200B; het Staging updates van 0&rbrace; herstellen &lbrace;voor product en categorieentiteiten wordt nu correct teweeggebracht op de gegevensupdates van de Uitvoer van Gegevens.](../assets/fix.svg)<!--MDEE-963-->
 
 ### 103.3.17 Release
 
 _Januari 20, 2025_
 
-![ Toegevoegde verenigbaarheid voor PHP 8.4 herstellen ](../assets/fix.svg). <!--MDEE-941-->
+![&#x200B; Toegevoegde verenigbaarheid voor PHP 8.4 herstellen &#x200B;](../assets/fix.svg). <!--MDEE-941-->
 
 ### 103.3.16 Release
 
 _6 Januari, 2025_
 
-![ de waarden van de Optie van 0} herstellen {kunnen leeg voor configureerbare producten voor veelvoudige opslagmeningen zijn. ](../assets/fix.svg)<!--MDEE-926-->
+![&#x200B; de waarden van de Optie van 0&rbrace; herstellen &lbrace;kunnen leeg voor configureerbare producten voor veelvoudige opslagmeningen zijn. &#x200B;](../assets/fix.svg)<!--MDEE-926-->
 
 ### 103.3.15 Release
 
 _December 12, 2024_
 
-![ bevestig ](../assets/fix.svg) verzekerde stabiele verrichting van integratietests op oudere configuraties. <!--MDEE-869-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) verzekerde stabiele verrichting van integratietests op oudere configuraties. <!--MDEE-869-->
 
-![ verhelpen ](../assets/fix.svg) Einde verspreidend onnodige attributenopties. <!--MDEE-882-->
+![&#x200B; verhelpen &#x200B;](../assets/fix.svg) Einde verspreidend onnodige attributenopties. <!--MDEE-882-->
 
-![ bevestig ](../assets/fix.svg) het foutenbericht dat naar het logboek van de gegevensuitvoer wordt verzonden wanneer de gegevensrangschikking ontbreekt. <!--MDEE-913-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) het foutenbericht dat naar het logboek van de gegevensuitvoer wordt verzonden wanneer de gegevensrangschikking ontbreekt. <!--MDEE-913-->
 
-![ bevestig ](../assets/fix.svg) verbeterde de betrouwbaarheid van eenvoudige productupdates met extra testdekking. <!--MDEE-886-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) verbeterde de betrouwbaarheid van eenvoudige productupdates met extra testdekking. <!--MDEE-886-->
 
 ### 103.3.14 Release
 
 _8 Oktober, 2024_
 
-![ bevestig ](../assets/fix.svg) de exporter indexer handhaaft nu de correcte status voor afhankelijke indexen. Eerder, waren deze indexen verkeerd ongeldig en vereiste extra controles en bevestiging die het indexeren prestaties vertraagden. <!--MDEE-866-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) de exporter indexer handhaaft nu de correcte status voor afhankelijke indexen. Eerder, waren deze indexen verkeerd ongeldig en vereiste extra controles en bevestiging die het indexeren prestaties vertraagden. <!--MDEE-866-->
 
 ### 103.3.13 Release
 
 _1 Oktober, 2024_
 
-![ bevestig ](../assets/fix.svg) Verbeterde prestaties van het proces van de gegevenssynchronisatie door een lokaal geheime voorgeheugen voor de gegevens van attributenopties toe te voegen.<!--MDEE-864-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Verbeterde prestaties van het proces van de gegevenssynchronisatie door een lokaal geheime voorgeheugen voor de gegevens van attributenopties toe te voegen.<!--MDEE-864-->
 
 ### 103.3.12 Release
 
 _25 September, 2024_
 
-![ bevestig ](../assets/fix.svg) een kwestie die synchronisatietijd voor eenvoudige en virtuele producten verhoogde. <!--MDEE-861-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie die synchronisatietijd voor eenvoudige en virtuele producten verhoogde. <!--MDEE-861-->
 
 ### 103.3.11 Release
 
 _9 September, 2024_
 
-![ Bevestig ](../assets/fix.svg) de dienst van de gegevensuitvoer verzendt nu speciale prijsgegevens voor bundelproducten als percentage, correcterend een vorige kwestie waar het als definitieve prijs werd verzonden. <!--MDEE-854-->
+![&#x200B; Bevestig &#x200B;](../assets/fix.svg) de dienst van de gegevensuitvoer verzendt nu speciale prijsgegevens voor bundelproducten als percentage, correcterend een vorige kwestie waar het als definitieve prijs werd verzonden. <!--MDEE-854-->
 
-![ bevestig ](../assets/fix.svg) de monologe implementatie voor verenigbaarheid met Monolog 3. <!--MDEE-858-->
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) de monologe implementatie voor verenigbaarheid met Monolog 3. <!--MDEE-858-->
 
 ### 103.3.10 Release
 
 _Augustus 26, 2024_
 
-![ Vaste veelvoudige storeview filtratie van 0} herstellen {voor het voer van de productdouaneopties. ](../assets/fix.svg)<!--MDEE-842-->
+![&#x200B; Vaste veelvoudige storeview filtratie van 0&rbrace; herstellen &lbrace;voor het voer van de productdouaneopties. &#x200B;](../assets/fix.svg)<!--MDEE-842-->
 
-![ De ongeldige voer van het 1} Repareren wordt niet opnieuw voorgelegd tot de het hashwaarde van het voer is veranderd.](../assets/fix.svg)<!--MDEE-848-->
+![&#x200B; De ongeldige voer van het 1&rbrace; Repareren wordt niet opnieuw voorgelegd tot de het hashwaarde van het voer is veranderd.](../assets/fix.svg)<!--MDEE-848-->
 
 ### 103.3.9 Release
 
 _22 Juli, 2024_
 
-![ Repareren ](../assets/fix.svg) wanneer een entiteit wordt geschrapt, wordt de `deleted` vlag nu verspreid voor het scoping de dienstvoer voor website (`scopesWebsite`) en klantengroep (`scopesCustomerGroup`).<!--MDEE-839-->
+![&#x200B; Repareren &#x200B;](../assets/fix.svg) wanneer een entiteit wordt geschrapt, wordt de `deleted` vlag nu verspreid voor het scoping de dienstvoer voor website (`scopesWebsite`) en klantengroep (`scopesCustomerGroup`).<!--MDEE-839-->
 
 ### 103.3.8 Release
 
 _17 juli 2024_
 
-![ Uitgeschakelde configuratieopties herstellen ](../assets/fix.svg) wordt niet meer uitgevoerd als actieve opties.<!--MDEE-812-->
+![&#x200B; Uitgeschakelde configuratieopties herstellen &#x200B;](../assets/fix.svg) wordt niet meer uitgevoerd als actieve opties.<!--MDEE-812-->
 
-![ de Opties en de waarden van de Reparatie ](../assets/fix.svg) worden nu bijgewerkt op een configureerbaar product wanneer de veranderingen in een kindproduct worden aangebracht. <!--MDEE-835-->
+![&#x200B; de Opties en de waarden van de Reparatie &#x200B;](../assets/fix.svg) worden nu bijgewerkt op een configureerbaar product wanneer de veranderingen in een kindproduct worden aangebracht. <!--MDEE-835-->
 
-![ Nieuw ](../assets/new.svg) voegde de capaciteit toe om de extra gegevens van het systeemattribuut in de voer van productattributen te omvatten.
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) voegde de capaciteit toe om de extra gegevens van het systeemattribuut in de voer van productattributen te omvatten.
 
 ### 103.3.7 Release
 
 _Juni 25, 2024_
 
-![ bevestig ](../assets/fix.svg) Verwijderde onnodige gebiedsdelen uit de module InventoryDataExporter.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Verwijderde onnodige gebiedsdelen uit de module InventoryDataExporter.
 
-![ Gewijzigde vereiste versies voor inventarismodules inbegrepen in de module CatalogInventoryDataExporter van de Reparatie ](../assets/fix.svg) {om Adobe Commerce versie 2.4.4 te steunen.
+![&#x200B; Gewijzigde vereiste versies voor inventarismodules inbegrepen in de module CatalogInventoryDataExporter van de Reparatie &#x200B;](../assets/fix.svg) &lbrace;om Adobe Commerce versie 2.4.4 te steunen.
 
 ### 103.3.6 Release
 
 _Juni 20, 2024_
 
-![ bevestig ](../assets/fix.svg) Vaste implocks die tijdens voer opnieuw indexerend op multi-draadwijze voorkwamen. De vragen zijn nu gescheiden in de verrichtingen van het Tussenvoegsel en van de Update.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Vaste implocks die tijdens voer opnieuw indexerend op multi-draadwijze voorkwamen. De vragen zijn nu gescheiden in de verrichtingen van het Tussenvoegsel en van de Update.
 
-![ bevestig ](../assets/fix.svg) optimaliseerde de vraag van Prijzen voor grote catalogi met vele websites.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) optimaliseerde de vraag van Prijzen voor grote catalogi met vele websites.
 
-![ Nieuwe ](../assets/new.svg) toegevoegde retry logica om ontbroken transacties opnieuw in werking te stellen wanneer de imlocklocks voorkomt.
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) toegevoegde retry logica om ontbroken transacties opnieuw in werking te stellen wanneer de imlocklocks voorkomt.
 
 ### 103.3.5 Release
 
 _5 Juni, 2024_
 
-![ bevestig ](../assets/fix.svg) Vastgestelde gebiedsdeel voor recentste compatibele versie van de gegevensuitvoer voor de gemeenschappelijke module SaaS.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Vastgestelde gebiedsdeel voor recentste compatibele versie van de gegevensuitvoer voor de gemeenschappelijke module SaaS.
 
-![ verbeter ](../assets/fix.svg) Vervangen `ScopeConfig` instantie met `ServiceConfigInterface` om verschillende de dienstconfiguraties te steunen.
+![&#x200B; verbeter &#x200B;](../assets/fix.svg) Vervangen `ScopeConfig` instantie met `ServiceConfigInterface` om verschillende de dienstconfiguraties te steunen.
 
 ### 103.3.4 Release
 
 _31 Mei, 2024_
 
-![ Toegevoegde steun van 0} Repareren voor het controleregistreren van de gegevensoverdracht door een mechanisme toe te voegen om een ](../assets/fix.svg) gebeurtenis te verzenden telkens als het gegeven van de instantie van Commerce aan de dienst van Commerce wordt overgebracht. `data_sent_outside`<!--MDEE-785-->
+![&#x200B; Toegevoegde steun van 0&rbrace; Repareren voor het controleregistreren van de gegevensoverdracht door een mechanisme toe te voegen om een &#x200B;](../assets/fix.svg) gebeurtenis te verzenden telkens als het gegeven van de instantie van Commerce aan de dienst van Commerce wordt overgebracht. `data_sent_outside`<!--MDEE-785-->
 
 ### 103.3.3 Release
 
 _Mei 21, 2024_
 
-![ Nieuwe ](../assets/new.svg) de gegevensuitvoer SaaS nu caches Entiteit-Attributen-Waarde (EAV) attributen voor de vraag van attributenmeta-gegevens.
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) de gegevensuitvoer SaaS nu caches Entiteit-Attributen-Waarde (EAV) attributen voor de vraag van attributenmeta-gegevens.
 
-![ bevestig ](../assets/fix.svg) een kwestie waar het `InventoryStockStatus` voer niet werd bewaard bij opnieuw proberen als het product werd geschrapt.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar het `InventoryStockStatus` voer niet werd bewaard bij opnieuw proberen als het product werd geschrapt.
 
 ### 103.3.2 Release
 
 _Mei 14, 2024_
 
-![ bevestig ](../assets/fix.svg) een kwestie waar het `modifiedAt` gebied van verwijderde entiteitsvoer mist.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie waar het `modifiedAt` gebied van verwijderde entiteitsvoer mist.
 
 ### 103.3.1 Release
 
 _Mei 8, 2024_
 
-![ bevestig ](../assets/fix.svg) een kwestie die een `Invalid Template File` bericht veroorzaakte om tijdens productvoer te verschijnen die opnieuw indexeert wanneer de Bouwer van de Pagina wordt geïnstalleerd.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie die een `Invalid Template File` bericht veroorzaakte om tijdens productvoer te verschijnen die opnieuw indexeert wanneer de Bouwer van de Pagina wordt geïnstalleerd.
 
 ### 103.3.0 Release
 
 _30 April, 2024_
 
-![ Nieuwe ](../assets/new.svg) Gemigreerde directe de voederlijsten van de uitvoer aan de verenigde structuur:
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Gemigreerde directe de voederlijsten van de uitvoer aan de verenigde structuur:
 `id` , `source_entity_id` , `feed_id` , `modified_at` , `is_deleted` , `status` , `feed_data` , `feed_hash` , `errors`
 
-![ Nieuwe ](../assets/new.svg) Gemigreerde catalogus en inventarisvoer aan de directe uitvoeroplossing.
+![&#x200B; Nieuwe &#x200B;](../assets/new.svg) Gemigreerde catalogus en inventarisvoer aan de directe uitvoeroplossing.
 
-![ Nieuw ](../assets/new.svg) anders genoemd directe voer voer voer schaafbanen aan `*_feed_resend_failed_items`.
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) anders genoemd directe voer voer voer schaafbanen aan `*_feed_resend_failed_items`.
 
-![ Nieuw ](../assets/new.svg) hernoemde directe de uitvoervoer, indexeermening IDs, en veranderingslogboeklijsten.
+![&#x200B; Nieuw &#x200B;](../assets/new.svg) hernoemde directe de uitvoervoer, indexeermening IDs, en veranderingslogboeklijsten.
 
 - voederlijsten (en indexeermening IDs):
 
@@ -395,45 +395,45 @@ _30 April, 2024_
 
 Als u aangepaste code hebt die naar een van deze entiteiten verwijst, werkt u de verwijzingen bij met de nieuwe namen om ervoor te zorgen dat de code correct blijft functioneren.
 
-![ Repareer ](../assets/fix.svg) gebied van de Reeks `modified_at` {in voedergegevens slechts voor voer dat het vereist.
+![&#x200B; Repareer &#x200B;](../assets/fix.svg) gebied van de Reeks `modified_at` &lbrace;in voedergegevens slechts voor voer dat het vereist.
 
-![ verbeter ](../assets/fix.svg) wijzig de `productAttributes` vraag om slechts productattributen terug te winnen.
+![&#x200B; verbeter &#x200B;](../assets/fix.svg) wijzig de `productAttributes` vraag om slechts productattributen terug te winnen.
 
 ### 103.2.6 Release
 
 _23 April, 2024_
 
-![ bevestig ](../assets/fix.svg) een kwestie die voer verhinderde opnieuw te worden gefixeerd wanneer de lijsten een prefix hebben.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) een kwestie die voer verhinderde opnieuw te worden gefixeerd wanneer de lijsten een prefix hebben.
 
 ### 103.2.5 Release
 
 _19 april 2024_
 
-![ bevestig ](../assets/fix.svg) optimaliseerde de vraag van de Prijs.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) optimaliseerde de vraag van de Prijs.
 
 ### 103.2.4 Release
 
 _12 april 2024_
 
-![ bevestig ](../assets/fix.svg) onjuiste status van de Voorraad die voor een product werd getoond wanneer Commerce Inventory management wordt toegelaten.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) onjuiste status van de Voorraad die voor een product werd getoond wanneer Commerce Inventory management wordt toegelaten.
 
 ### 103.2.3 Release
 
 _3 April, 2024_
 
-![ bevestig ](../assets/fix.svg) Vaste prijs van websiteniveau.
+![&#x200B; bevestig &#x200B;](../assets/fix.svg) Vaste prijs van websiteniveau.
 
-![ Toegevoegde mutex van 0} herstellen {voor alle voer dat wordt verwerkt.](../assets/fix.svg)
+![&#x200B; Toegevoegde mutex van 0&rbrace; herstellen &lbrace;voor alle voer dat wordt verwerkt.](../assets/fix.svg)
 
 ### 103.2.2 Release
 
 _Maart 14, 2024_
 
-![ verbeter ](../assets/fix.svg) Verbeterde feeds batchstrategie voor grote catalogi. De batchtabel is nu gevuld met een beperkt aantal id&#39;s om het geheugengebruik te verminderen.
+![&#x200B; verbeter &#x200B;](../assets/fix.svg) Verbeterde feeds batchstrategie voor grote catalogi. De batchtabel is nu gevuld met een beperkt aantal id&#39;s om het geheugengebruik te verminderen.
 
-![ Elimineerde harde gebiedsdeel van CommerceInventoryDataExporter aan modules MSI.](../assets/fix.svg)
+![&#x200B; Elimineerde harde gebiedsdeel van CommerceInventoryDataExporter aan modules MSI.](../assets/fix.svg)
 
-![ Verbeterde ](../assets/fix.svg) logboeken van 0} herstellen {om meer informatie te verzamelen en door verschillende het uitvoeren stadia te organiseren.`commerce-data-exporter`
+![&#x200B; Verbeterde &#x200B;](../assets/fix.svg) logboeken van 0&rbrace; herstellen &lbrace;om meer informatie te verzamelen en door verschillende het uitvoeren stadia te organiseren.`commerce-data-exporter`
 
 ### 103.2.1 Release
 

@@ -4,10 +4,10 @@ user-guide-description: Documentatie en middelen voor  [!DNL Adobe Commerce Opti
 role: Admin, Leader, User
 feature: Personalization, Integration
 recommendations: noDisplay
-source-git-commit: 67e254242d93c6f05d4c204cbc39e50116605c6b
+source-git-commit: fccfd5b75419e2f04537a48098591b53220725a5
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 10%
+source-wordcount: '108'
+ht-degree: 12%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 10%
 
 - [Wat is  [!DNL Adobe Commerce Optimizer]?](overview.md)
 - [Aan de slag](get-started.md)
+- [Integraties](./integrations/integrations-overview.md)
 - [Gebruiker- en identiteitsbeheer](user-management.md)
 - [Gedeelde verantwoordelijkheid](shared-responsibility.md)
 - [Grenswaarden en grenzen](boundaries-limits.md)
@@ -31,7 +32,7 @@ ht-degree: 10%
       - [Filters](./merchandising/recommendations/filters.md)
       - [Typen](./merchandising/recommendations/types.md)
       - [Aanbevolen procedures](./merchandising/recommendations/best-practice.md)
-   - Merchandising Rules {#rules}
+   - Handelsregels {#rules}
       - [Overzicht](./merchandising/rules/overview.md)
       - [Workspace](./merchandising/rules/workspace.md)
       - [Maken en beheren](./merchandising/rules/add.md)
@@ -47,12 +48,12 @@ ht-degree: 10%
       - [Maken en beheren](./merchandising/synonyms/add.md)
       - [Typen](./merchandising/synonyms/type.md)
       - [Aanbevolen procedures](./merchandising/synonyms/best-practice.md)
-- Winkelinstelling {#setup}
+- Opslaginstellingen {#setup}
    - [Catalogusweergaven](./setup/catalog-view.md)
    - [Cataloguslagen](./setup/catalog-layer.md)
    - [Beleid](./setup/policies.md)
    - [Prijsboeken](./setup/pricebooks.md)
-   - [Productvisa](./setup/product-visuals.md)
+   - [Productbeelden](./setup/product-visuals.md)
    - [Gegevenssynchronisatie](./setup/data-sync.md)
    - Gebeurtenissen {#events}
       - [Overzicht](./setup/events/overview.md)
@@ -63,6 +64,6 @@ ht-degree: 10%
 - Site starten {#launch}
    - [Checklist starten](./launch/launch-checklist.md)
 - Bronnen voor ontwikkelaars {#developer}
-   - [&#x200B; Gids van de Ontwikkelaar en API Verwijzingen &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
+   - [ de gids van de Ontwikkelaar en API verwijzingen ](https://developer.adobe.com/commerce/services/optimizer/)
    - [Salesforce Commerce Connector](./developer/salesforce-connector.md)
 - [Aanvullende informatie](release-notes.md)

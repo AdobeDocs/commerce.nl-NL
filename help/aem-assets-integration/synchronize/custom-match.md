@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Aangepaste automatische matching
 
-Als de standaard automatische passende strategie (**automatische aanpassing OTB**) niet met uw specifieke bedrijfsvereisten wordt gericht, selecteer de optie van de douanegelijke. Deze optie steunt het gebruik van [ Adobe Developer App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) om een toepassing van de douanematcher te ontwikkelen die complexe passende logica, of activa behandelt die uit een derdesysteem komen dat meta-gegevens in AEM Assets niet kan bevolken.
+Als de standaard automatische passende strategie (**automatische aanpassing OTB**) niet met uw specifieke bedrijfsvereisten wordt gericht, selecteer de optie van de douanegelijke. Deze optie steunt het gebruik van [&#x200B; Adobe Developer App Builder &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder) om een toepassing van de douanematcher te ontwikkelen die complexe passende logica, of activa behandelt die uit een derdesysteem komen dat meta-gegevens in AEM Assets niet kan bevolken.
 
 ## Aangepaste automatische overeenkomsten configureren
 
@@ -26,7 +26,7 @@ Als de standaard automatische passende strategie (**automatische aanpassing OTB*
 
 Het veld **[!UICONTROL Adobe I/O Workspace Configuration]** biedt een gestroomlijnde manier om uw aangepaste matcher te configureren door het App Builder `workspace.json` -configuratiebestand te importeren.
 
-U kunt het `workspace.json` dossier van [ Adobe Developer Console ](https://developer.adobe.com/console) downloaden. Het bestand bevat alle gegevens en configuratiegegevens voor uw App Builder-werkruimte.
+U kunt het `workspace.json` dossier van [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console) downloaden. Het bestand bevat alle gegevens en configuratiegegevens voor uw App Builder-werkruimte.
 
 +++Voorbeeld `workspace.json`
 
@@ -99,7 +99,7 @@ U kunt het `workspace.json` dossier van [ Adobe Developer Console ](https://deve
 
 1. Sleep het `workspace.json` -bestand van uw App Builder-project naar het veld **[!UICONTROL Adobe I/O Workspace Configuration]** . U kunt ook klikken om te bladeren en het bestand te selecteren.
 
-![ Configuratie van Workspace ](../assets/workspace-configuration.png){width="600" zoomable="yes"}
+![&#x200B; Configuratie van Workspace &#x200B;](../assets/workspace-configuration.png){width="600" zoomable="yes"}
 
 1. Het systeem automatisch:
 
@@ -114,7 +114,7 @@ U kunt het `workspace.json` dossier van [ Adobe Developer Console ](https://deve
 
 ## Eindpunten voor aangepaste matcher-API
 
-Wanneer u een toepassing van de douanematcher gebruikend [ App Builder ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank} bouwt, moet de toepassing de volgende eindpunten blootstellen:
+Wanneer u een toepassing van de douanematcher gebruikend [&#x200B; App Builder &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-developer-app-builder/introduction-to-app-builder){target=_blank} bouwt, moet de toepassing de volgende eindpunten blootstellen:
 
 * **activa van App Builder aan productURL** eindpunt
 * **het product van App Builder aan activaURL** eindpunt
@@ -196,7 +196,7 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/asset-to-
 | --- | --- | --- |
 | `asset_id` | String | De element-id die overeenkomt. |
 | `product_matches` | Array | Lijst met producten die aan het element zijn gekoppeld. |
-| `skip` | Boolean | (Optioneel) In `true` slaat de regelengine de synchronisatie voor dit element over (geen update voor producttoewijzing). Wanneer `false` wordt uitgevoerd of weggelaten, wordt de normale verwerking uitgevoerd. Zie [ synchronisatieverwerking ](#skip-sync-processing) overslaan. |
+| `skip` | Boolean | (Optioneel) In `true` slaat de regelengine de synchronisatie voor dit element over (geen update voor producttoewijzing). Wanneer `false` wordt uitgevoerd of weggelaten, wordt de normale verwerking uitgevoerd. Zie [&#x200B; synchronisatieverwerking &#x200B;](#skip-sync-processing) overslaan. |
 
 ### App Builder-product naar URL-eindpunt van element
 
@@ -276,14 +276,14 @@ POST https://your-app-builder-url/api/v1/web/app-builder-external-rule/product-t
 | --- | --- | --- |
 | `product_sku` | String | Het product-SKU dat wordt aangepast. |
 | `asset_matches` | Array | Lijst met elementen die aan het product zijn gekoppeld. |
-| `skip` | Boolean | (Optioneel) Wanneer `true` , slaat de regelengine de synchronisatie voor dit product over (geen update voor middelentoewijzing). Wanneer `false` wordt uitgevoerd of weggelaten, wordt de normale verwerking uitgevoerd. Zie [ synchronisatieverwerking ](#skip-sync-processing) overslaan. |
+| `skip` | Boolean | (Optioneel) Wanneer `true` , slaat de regelengine de synchronisatie voor dit product over (geen update voor middelentoewijzing). Wanneer `false` wordt uitgevoerd of weggelaten, wordt de normale verwerking uitgevoerd. Zie [&#x200B; synchronisatieverwerking &#x200B;](#skip-sync-processing) overslaan. |
 
 De parameter `asset_matches` bevat de volgende kenmerken:
 
 | Kenmerk | Gegevenstype | Beschrijving |
 | --- | --- | --- |
 | `asset_id` | String | De element-id. |
-| `asset_roles` | Array | Elementrollen. Gebruikt gesteunde [ Commerce activa rollen ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles) als `thumbnail`, `image`, `small_image`, en `swatch_image`. |
+| `asset_roles` | Array | Elementrollen. Gebruikt gesteunde [&#x200B; Commerce activa rollen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image#image-roles) als `thumbnail`, `image`, `small_image`, en `swatch_image`. |
 | `asset_format` | String | De indeling van het element. Mogelijke waarden zijn `image` en `video` . |
 | `asset_position` | Getal | De positie van het element in de productgalerie. |
 

@@ -35,7 +35,7 @@ De kant van Adobe Commerce van de architectuur omvat het ontvangen van het onder
 
 Met de focus op snelheid, relevantie en gebruiksgemak is [!DNL Live Search] een gamewisselaar voor zowel kopers als handelaren. Bekijk de volgende video en bekijk een snelle rondleiding van [!DNL Live Search] vanuit de winkel.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452575?captions=dut&learn=on)
 
 Voor een meer diepgaande video over het gebruiken van en het vormen van Levend Onderzoek, zie [&#x200B; Volledige Demonstratie op  [!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) onderwerp.
 

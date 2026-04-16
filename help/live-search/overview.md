@@ -37,11 +37,11 @@ Met de focus op snelheid, relevantie en gebruiksgemak is [!DNL Live Search] een 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418797?learn=on)
 
-Voor een meer diepgaande video over het gebruiken van en het vormen van Levend Onderzoek, zie [&#x200B; Volledige Demonstratie op  [!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) onderwerp.
+Voor een meer diepgaande video over het gebruiken van en het vormen van Levend Onderzoek, zie [&#x200B; Volledige Demonstratie op  [!DNL Live Search] &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/getting-started/capabilities/live-search-full-demonstration) onderwerp.
 
 ### Zoeken terwijl u typt
 
-[!DNL Live Search] antwoordt met gesuggereerde producten en een duimnagelbeeld van hoogste onderzoeksresultaten in a [&#x200B; popover &#x200B;](storefront-popover.md) als het type van kopers vragen in het [&#x200B; Onderzoek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) vakje. De [&#x200B; paginasvertoningen van het 0&rbrace; productdetail &lbrace;wanneer de kopers een gesuggereerd of gekenmerkt product klikken. &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/storefront/storefront) A _Mening alle_ verbinding in footer van popover toont de pagina van onderzoeksresultaten.
+[!DNL Live Search] antwoordt met gesuggereerde producten en een duimnagelbeeld van hoogste onderzoeksresultaten in a [&#x200B; popover &#x200B;](storefront-popover.md) als het type van kopers vragen in het [&#x200B; Onderzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/catalog/catalog/search/search) vakje. De [&#x200B; paginasvertoningen van het 0&rbrace; productdetail &lbrace;wanneer de kopers een gesuggereerd of gekenmerkt product klikken. &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/storefront/storefront) A _Mening alle_ verbinding in footer van popover toont de pagina van onderzoeksresultaten.
 
 [!DNL Live Search] retourneert de resultaten &quot;search as you type&quot; voor een query van twee of meer tekens. Voor een gedeeltelijke overeenkomst, is het maximumaantal karakters per woord 20. Het aantal karakters in de vraag is niet configureerbaar. De popover bevat de velden `name` , `sku` en `category_ids` .
 
@@ -99,10 +99,10 @@ Als u gedurende 90 opeenvolgende dagen geen zoekquery naar de catalogusgegevens 
 
 ### Inactieve testomgeving
 
-Om de catalogusgegevens in uw het testen milieu opnieuw te activeren, [&#x200B; voorlegt een steunverzoek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Live Search]&quot;en omvat milieu IDs. De catalogusgegevens in de testomgeving moeten binnen een paar uur worden hersteld.
+Om de catalogusgegevens in uw het testen milieu opnieuw te activeren, [&#x200B; voorlegt een steunverzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Live Search]&quot;en omvat milieu IDs. De catalogusgegevens in de testomgeving moeten binnen een paar uur worden hersteld.
 
 ### Lege catalogus
 
 Als uw omgeving 45 dagen na het maken een lege catalogus heeft, worden de catalogusgegevens ingesteld op de slaapstand en worden er geen gegevens geretourneerd voor zoekopdrachten. Hieronder vallen zowel productie- als testomgevingen.
 
-Om de catalogusgegevens in uw milieu opnieuw te activeren, [&#x200B; voorlegt een steunverzoek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Live Search]&quot;en omvat milieu IDs. De catalogusgegevens in uw omgeving moeten binnen een paar uur worden hersteld.
+Om de catalogusgegevens in uw milieu opnieuw te activeren, [&#x200B; voorlegt een steunverzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Live Search]&quot;en omvat milieu IDs. De catalogusgegevens in uw omgeving moeten binnen een paar uur worden hersteld.

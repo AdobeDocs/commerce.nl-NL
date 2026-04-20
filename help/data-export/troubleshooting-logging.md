@@ -16,7 +16,7 @@ De extensie [!DNL data export] biedt logbestanden voor het bijhouden van gegeven
 
 >[!NOTE]
 >
->U kunt de gezondheid en de prestaties van gegevens ook volgen de uitvoervoer voor product en categoriegegevens van het [&#x200B; dashboard van de Status van de Synchronisatie van de Verbinding van de Diervoeders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) in Admin.
+>U kunt de gezondheid en de prestaties van gegevens ook volgen de uitvoervoer voor product en categoriegegevens van het [&#x200B; dashboard van de Status van de Synchronisatie van de Verbinding van de Diervoeders &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) in Admin.
 
 ## Logboeken
 
@@ -133,7 +133,7 @@ Als er gegevens ontbreken of onjuist zijn in Commerce Services, controleert u in
 - Het foutenlogboek van de Uitvoer van Gegevens (`commerce-data-export-errors.log`) vangt fouten die tijdens de inzamelingsfase voorkomen.
 - Het saaS foutenlogboek van de Uitvoer (`saas-export-errors.log`) vangt fouten die tijdens de transmissiefase voorkomen.
 
-Als u fouten niet verwant met configuratie of derdeuitbreidingen ziet, leg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) met zoveel mogelijk informatie voor.
+Als u fouten niet verwant met configuratie of derdeuitbreidingen ziet, leg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) met zoveel mogelijk informatie voor.
 
 ### Synchronisatieproblemen met catalogi oplossen {#resolvesync}
 
@@ -148,11 +148,11 @@ Wanneer u een gegevensresync teweegbrengt, kan het tot een uur voor de gegevens 
 
 #### Synchronisatie wordt niet uitgevoerd
 
-Als de synchronisatie niet op een programma loopt of niets wordt gesynchroniseerd, zie dit [&#x200B; artikel 0&rbrace; KnowledgeBase &lbrace;.](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce)
+Als de synchronisatie niet op een programma loopt of niets wordt gesynchroniseerd, zie dit [&#x200B; artikel 0&rbrace; KnowledgeBase &lbrace;.](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce)
 
 #### Synchronisatie is mislukt
 
-Als de catalogussynchronisatie een status van **Ontbroken** heeft, leg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) voor.
+Als de catalogussynchronisatie een status van **Ontbroken** heeft, leg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) voor.
 
 ## Uitgebreide logboekregistratie
 

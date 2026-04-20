@@ -3,7 +3,7 @@ title: Gegevenssynchronisatie
 description: Herzie de catalogusgegevens die van uw Commerce gegevensbron in  [!DNL Adobe Commerce Optimizer] worden gesynchroniseerd.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: c0f4664c-6afc-4762-856b-5e26a865d3a2
 source-git-commit: 2cb17424a0f063a585ddd861b7057d9851467fbc
 workflow-type: tm+mt
@@ -54,7 +54,7 @@ Als u geen specifieke producten op de **pagina ziet van de Synchronisatie van Ge
 
 ## Synchronisatiestatus van gegevens controleren
 
-Voor projecten die Adobe Commerce als stroomopwaartse gegevensbron door de Schakelaar van Commerce Optimizer gebruiken, kunt u het proces van de gegevensuitvoer controleren en resync verrichtingen van de [&#x200B; pagina van de Status van de Synchronisatie van het Gegeven van Gegevens in werking stellen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) in Commerce Admin.
+Voor projecten die Adobe Commerce als stroomopwaartse gegevensbron door de Schakelaar van Commerce Optimizer gebruiken, kunt u het proces van de gegevensuitvoer controleren en resync verrichtingen van de [&#x200B; pagina van de Status van de Synchronisatie van het Gegeven van Gegevens in werking stellen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) in Commerce Admin.
 
 ## Verwante onderwerpen
 

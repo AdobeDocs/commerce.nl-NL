@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Aanbevolen werkwijzen voor het verhandelen van regels
 
-Om omzetting en opbrengst te optimaliseren, voer efficiënte **onderzoeksregels** uit, een sterke **standaard lijst** regel, en **[categorieregels](add.md#rule-types)** (bèta). Pas classificaties aan gebruikend verkoopgegevens, voorraad, bevorderingen, en [ intelligente rangschikking ](add.md#intelligent-ranking).
+Om omzetting en opbrengst te optimaliseren, voer efficiënte **onderzoeksregels** uit, een sterke **standaard lijst** regel, en **[categorieregels](add.md#rule-types)** (bèta). Pas classificaties aan gebruikend verkoopgegevens, voorraad, bevorderingen, en [&#x200B; intelligente rangschikking &#x200B;](add.md#intelligent-ranking).
 
-Het is cruciaal om een goed gedachte uit **standaardregel** te vestigen. Uw [ standaardregel ](overview.md#default-rule) bepaalt hoe de onderzoeksresultaten aanvankelijk worden gesorteerd wanneer geen meer specifieke onderzoeksregel van toepassing is, die ontdekking en aankoopwaarschijnlijkheid verbetert. Controleer het regelmatig zodat het gelijke met winkelbehoeften en campagnes houdt.
+Het is cruciaal om een goed gedachte uit **standaardregel** te vestigen. Uw [&#x200B; standaardregel &#x200B;](overview.md#default-rule) bepaalt hoe de onderzoeksresultaten aanvankelijk worden gesorteerd wanneer geen meer specifieke onderzoeksregel van toepassing is, die ontdekking en aankoopwaarschijnlijkheid verbetert. Controleer het regelmatig zodat het gelijke met winkelbehoeften en campagnes houdt.
 
 ## Tips voor het optimaliseren van zoekregels
 
@@ -25,7 +25,7 @@ Het is cruciaal om een goed gedachte uit **standaardregel** te vestigen. Uw [ st
 - Geef een lichte prioriteit aan producten met hogere winstmarges zonder de relevantie in gevaar te brengen.
 - Markeer producten die te koop zijn of deel uitmaken van speciale promoties.
 - Stel zoekregels tijdens promotie- of verkoopperiodes automatisch in door het datumbereik tijdens de promotieperiode te gebruiken.
-- De onderzoeksresultaten van het dagonderzoek die op individueel verkoopgedrag worden gebaseerd dat [ intelligente rangschikking ](add.md#intelligent-ranking), zoals &quot;voor u&quot;wordt geadviseerd, &quot;het meest bekeken&quot;etc. gebruikt.
+- De onderzoeksresultaten van het dagonderzoek die op individueel verkoopgedrag worden gebaseerd dat [&#x200B; intelligente rangschikking &#x200B;](add.md#intelligent-ranking), zoals &quot;voor u&quot;wordt geadviseerd, &quot;het meest bekeken&quot;etc. gebruikt.
 - Gebruik altijd het deelvenster &#39;Uw regel testen&#39; om te zien hoe uw intelligente waarderingsstrategie de werkelijke zoekresultaten voor verschillende query&#39;s beïnvloedt.
 
 ## Tips voor rubriekregels
@@ -34,7 +34,7 @@ Het is cruciaal om een goed gedachte uit **standaardregel** te vestigen. Uw [ st
 >
 >Categorieregels staan in bèta.
 
-- De categorieregels van het gebruik [ op hoog-verkeer of high-margin ](add.md#rule-types) categoriepagina&#39;s **waar de gebogen orde evenals onderzoek-voor voorbeeld, seizoensverzamelingen of gekenmerkte afdelingen van belang is.**
-- Lijn **intelligente rangschikking** (bijvoorbeeld, trending, de meesten bekeken) met uit hoe de kopers die categorie doorbladeren; de categoriepagina&#39;s gebruiken vraagtekst niet de manier de onderzoeksregels doen. Zie [ Intelligente rangschikking ](add.md#intelligent-ranking).
-- Pas **speld**, **verhoging** toe, en **begraving** constant met uw campagneplan; herinner dat de handposities gewoonlijk van toepassing zijn wanneer de verkoopster de **standaardsoort** voor de lijst gebruikt. Zie [ Handmatig rangschikken ](add.md#manual-ranking).
+- De categorieregels van het gebruik [&#x200B; op hoog-verkeer of high-margin &#x200B;](add.md#rule-types) categoriepagina&#39;s **waar de gebogen orde evenals onderzoek-voor voorbeeld, seizoensverzamelingen of gekenmerkte afdelingen van belang is.**
+- Lijn **intelligente rangschikking** (bijvoorbeeld, trending, de meesten bekeken) met uit hoe de kopers die categorie doorbladeren; de categoriepagina&#39;s gebruiken vraagtekst niet de manier de onderzoeksregels doen. Zie [&#x200B; Intelligente rangschikking &#x200B;](add.md#intelligent-ranking).
+- Pas **speld**, **verhoging** toe, en **begraving** constant met uw campagneplan; herinner dat de handposities gewoonlijk van toepassing zijn wanneer de verkoopster de **standaardsoort** voor de lijst gebruikt. Zie [&#x200B; Handmatig rangschikken &#x200B;](add.md#manual-ranking).
 - De voorproef in de **categorie** regelstroom in de redacteur en bevestigt op de storefront na publiceert, de zelfde discipline u voor &quot;Test uw regel&quot;paneel op onderzoek gebruikt.

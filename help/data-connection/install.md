@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Installeren [!DNL Data Connection]
 
-Alvorens u de uitbreiding installeert, [ herzie de eerste vereisten ](overview.md#prerequisites).
+Alvorens u de uitbreiding installeert, [&#x200B; herzie de eerste vereisten &#x200B;](overview.md#prerequisites).
 
 ## De extensie installeren
 
-De [!DNL Data Connection] uitbreiding is beschikbaar bij [ de Marketplace van Adobe ](https://commercemarketplace.adobe.com/magento-experience-platform-connector.html). Wanneer u deze uitbreiding van de bevellijn van de server installeert, verbindt het met uw installatie van Adobe Commerce als a [ dienst ](../landing/saas.md). Wanneer het proces volledig is, **[!DNL Data Connection]** en **de Schakelaar van de Diensten van Commerce** verschijnen op het **4} menu van het Systeem onder** Diensten **in Commerce** Admin _._
+De [!DNL Data Connection] uitbreiding is beschikbaar bij [&#x200B; de Marketplace van Adobe &#x200B;](https://commercemarketplace.adobe.com/magento-experience-platform-connector.html). Wanneer u deze uitbreiding van de bevellijn van de server installeert, verbindt het met uw installatie van Adobe Commerce als a [&#x200B; dienst &#x200B;](../landing/saas.md). Wanneer het proces volledig is, **[!DNL Data Connection]** en **de Schakelaar van de Diensten van Commerce** verschijnen op het **4&rbrace; menu van het Systeem onder** Diensten **in Commerce** Admin _._
 
-![[!DNL Data Connection] de mening van Admin van de uitbreiding ](assets/epc-adminui.png)
+![[!DNL Data Connection] de mening van Admin van de uitbreiding &#x200B;](assets/epc-adminui.png)
 
 >[!IMPORTANT]
 >
@@ -41,11 +41,11 @@ De [!DNL Data Connection] uitbreiding is beschikbaar bij [ de Marketplace van Ad
    - `magento/module-experience-connector-admin-graph-ql`
    - `magento/module-experience-connector-aep-integration`
 
-1. (Facultatief) om [!DNL Live Search] gegevens te omvatten, die [ onderzoeksgebeurtenissen ](events.md#search-events) omvatten, installeer de [[!DNL Live Search]](../live-search/install.md) uitbreiding.
+1. (Facultatief) om [!DNL Live Search] gegevens te omvatten, die [&#x200B; onderzoeksgebeurtenissen &#x200B;](events.md#search-events) omvatten, installeer de [[!DNL Live Search]](../live-search/install.md) uitbreiding.
 
-1. (Facultatief) om B2B- gegevens te omvatten, die [ aanvraaggebeurtenissen ](events.md#b2b-events) omvatten, installeer de [ B2B uitbreiding ](#install-the-b2b-extension).
+1. (Facultatief) om B2B- gegevens te omvatten, die [&#x200B; aanvraaggebeurtenissen &#x200B;](events.md#b2b-events) omvatten, installeer de [&#x200B; B2B uitbreiding &#x200B;](#install-the-b2b-extension).
 
-1. (Facultatief) als u een gezondheidszorghandelaar bent, installeer de [ uitbreiding van HIPAA van de Diensten van Gegevens ](#install-the-data-services-hipaa-extension) zodat uw [!DNL Commerce] achterkantoorgegevens HIPAA-klaar zijn.
+1. (Facultatief) als u een gezondheidszorghandelaar bent, installeer de [&#x200B; uitbreiding van HIPAA van de Diensten van Gegevens &#x200B;](#install-the-data-services-hipaa-extension) zodat uw [!DNL Commerce] achterkantoorgegevens HIPAA-klaar zijn.
 
 ### Installeer Adobe I/O Events en configureer de plug-in voor klanten
 
@@ -105,7 +105,7 @@ bin/magento config:set adobe_io_events/eventing/enabled 1
 
 ### De B2B-extensie installeren
 
-Voor kooplieden B2B, installeer de volgende uitbreiding om [ gebeurtenisgegevens van de 0} verzoeklijst {te omvatten.](events.md#b2b-events)
+Voor kooplieden B2B, installeer de volgende uitbreiding om [&#x200B; gebeurtenisgegevens van de 0&rbrace; verzoeklijst &lbrace;te omvatten.](events.md#b2b-events)
 
 Download de extensie `magento/experience-platform-connector-b2b` door het volgende uit te voeren vanaf de opdrachtregel:
 
@@ -165,4 +165,4 @@ Als u een update wilt uitvoeren naar een belangrijke versie, bijvoorbeeld van 2.
 
 ## De extensie [!DNL Data Connection] verwijderen {#uninstall}
 
-Om de [!DNL Data Connection] uitbreiding te desinstalleren, verwijs naar [ uninstall modules ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html).
+Om de [!DNL Data Connection] uitbreiding te desinstalleren, verwijs naar [&#x200B; uninstall modules &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html).

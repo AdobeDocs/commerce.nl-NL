@@ -2,8 +2,8 @@
 title: Adobe Commerce Optimizer Connector
 description: Leer hoe u uw gegevens van uw Commerce-cloud of -project op locatie kunt verbinden met Adobe Commerce Optimizer
 feature: Personalization, Integration, Configuration
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
-source-git-commit: 11bb5df2488a017065db44504f35612fe54e284c
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -19,7 +19,7 @@ De Adobe Commerce Optimizer-connector is de integratiebrug die catalogus- en pri
 
 De Adobe Commerce Optimizer Connector werkt door Commerce-websites in kaart te brengen en weergaven op te slaan naar een Commerce Optimizer-project, zoals in de volgende afbeelding wordt getoond:
 
-![&#x200B; het in kaart brengen van de gegevens van Commerce aan Adobe Commerce Optimizer &#x200B;](./assets/storeview-to-catalogview-mapping.png){width="700" zoomable="yes"}
+![ het in kaart brengen van de gegevens van Commerce aan Adobe Commerce Optimizer ](./assets/storeview-to-catalogview-mapping.png){width="700" zoomable="yes"}
 
 Wanneer gegevens van Commerce naar Commerce Optimizer worden geëxporteerd:
 
@@ -28,7 +28,7 @@ Wanneer gegevens van Commerce naar Commerce Optimizer worden geëxporteerd:
 
 De bijbehorende catalogus- en prijsgegevens worden geëxporteerd en later gebruikt om catalogusweergaven te maken en eventueel beleidsregels te definiëren om de catalogus- en prijsgegevens te filteren voor specifieke gevallen van zakelijk gebruik.
 
-Wanneer de schakelaar wordt toegelaten, kunt u ook handelsregels voor productontdekking en regels voor aanbevelingen vormen en beheren gebruikend [[!DNL Adobe Commerce Optimizer]  Merchandising hulpmiddelen &#x200B;](../optimizer/overview.md#quick-tour) De instantie van Adobe Commerce wordt de gegevensbron voor catalogus en prijsgegevens. Wanneer de gegevens in Commerce worden bijgewerkt, worden de updates gesynchroniseerd met de [!DNL Adobe Commerce Optimizer] -instantie.
+Wanneer de schakelaar wordt toegelaten, kunt u ook handelsregels voor productontdekking en regels voor aanbevelingen vormen en beheren gebruikend [[!DNL Adobe Commerce Optimizer]  Merchandising hulpmiddelen ](../optimizer/overview.md#quick-tour) De instantie van Adobe Commerce wordt de gegevensbron voor catalogus en prijsgegevens. Wanneer de gegevens in Commerce worden bijgewerkt, worden de updates gesynchroniseerd met de [!DNL Adobe Commerce Optimizer] -instantie.
 
 ## Workflows
 
@@ -36,7 +36,7 @@ De connector schakelt verschillende belangrijke workflows in:
 
 * **de catalogusgegevens van Commerce van de uitvoer naar[!DNL Adobe Commerce Optimizer]** - prijs en prijsboekgegevens worden uitgevoerd op het website en klantengroepsniveau. Gegevens van product- en productkenmerken worden geëxporteerd op `store view` niveau. Standaard is het synchroniseren van catalogusgegevens ingeschakeld voor alle Commerce-bereiken (websites en winkelweergaven).
 
-  Als u deze workflow wilt inschakelen, installeert u de extensie `adobe-commerce/commerce-data-export-aco-adapter` PHP, controleert u de configuratie van de exportfunctie en schakelt u vervolgens de integratie tussen Commerce en Commerce Optimizer in via Commerce Admin. Voor gedetailleerde instructies, zie [&#x200B; Begonnen &#x200B;](#get-started) worden.
+  Als u deze workflow wilt inschakelen, installeert u de extensie `adobe-commerce/commerce-data-export-aco-adapter` PHP, controleert u de configuratie van de exportfunctie en schakelt u vervolgens de integratie tussen Commerce en Commerce Optimizer in via Commerce Admin. Voor gedetailleerde instructies, zie [ Begonnen ](get-started.md) worden.
 
 * **Wijs de Commerce-website toe en sla weergavegegevens op waarnaar u wilt exporteren[!DNL Adobe Commerce Optimizer]**
 
@@ -50,4 +50,4 @@ De connector schakelt verschillende belangrijke workflows in:
 
   Nadat u de integratie met [!DNL Adobe Commerce Optimizer] hebt ingesteld, kunt u een Commerce Storefront op Edge Delivery Services implementeren. Dit biedt ultrasnelle prestaties, schaalbaarheid, naadloze creatie van inhoud en geïntegreerde personalisatie met behulp van een composable, API-gestuurde architectuur.
 
-Voor details op hoe te opstelling de integratie en deze werkschema&#39;s toelaten, zie [&#x200B; Begonnen krijgen &#x200B;](get-started.md).
+Voor details op hoe te opstelling de integratie en deze werkschema&#39;s toelaten, zie [ Begonnen krijgen ](get-started.md).

@@ -4,13 +4,13 @@ description: Leer hoe te installeren en te gebruiken  [!DNL Payment Services]  a
 role: User
 level: Intermediate
 feature: Payments, Checkout, Paas, Saas
-source-git-commit: 5271668c99e7a66fbe857cd3ae26edfa54211621
+exl-id: 191467ab-4c5e-4df1-b423-7a470a4910ea
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
 
 ---
-
 
 # Inleiding tot [!DNL Payment Services]
 
@@ -22,15 +22,15 @@ Of u nu een kleine onderneming, een medio-markt contant of een grote onderneming
 
 Betalingsservices is:
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Gemakkelijk aan opstelling en onderhoud
+![ controle ](assets/icon-check.png) Gemakkelijk aan opstelling en onderhoud
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Ontworpen om uw winst te maximaliseren
+![ controle ](assets/icon-check.png) Ontworpen om uw winst te maximaliseren
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Veilig en veilig
+![ controle ](assets/icon-check.png) Veilig en veilig
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Ontworpen om aan al uw betalingsbehoeften te voldoen
+![ controle ](assets/icon-check.png) Ontworpen om aan al uw betalingsbehoeften te voldoen
 
-![&#x200B; controle &#x200B;](assets/icon-check.png) Zelfstandig binnen Admin
+![ controle ](assets/icon-check.png) Zelfstandig binnen Admin
 
 >[!ENDSHADEBOX]
 
@@ -42,14 +42,14 @@ De vraag naar een Commerce-ervaring van hoge kwaliteit is hoog en een geïntegre
 
 1. **[de opties van de Betaling](payments-options.md)** - Veelvoudige betalingsopties, zoals debetkaart en creditcardgebieden, digitale portefeuilles en de producten en de diensten van PayPal om de methodes beschikbaar voor uw opslag (of multistore) klanten aan te passen.
 
-1. **Efficiënte controleervaring** - verwijder om het even welke barrières aan een snelle en eenvoudige controle, en creeer loyale klanten met [&#x200B; kaart het in kluizen &#x200B;](vaulting.md).
+1. **Efficiënte controleervaring** - verwijder om het even welke barrières aan een snelle en eenvoudige controle, en creeer loyale klanten met [ kaart het in kluizen ](vaulting.md).
 
 1. **Aangepaste controlestromen** - de controleopties van de aanbieding bij diverse stadia van de handelstraject om wrijving tijdens het aankoopproces te verminderen en omrekeningskoersen te verhogen.
 
-1. **[Hoofdloze verenigbaarheid met GraphQL &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/payment-services/)** - de handelaren hebben alternatieven aan REST en het Web APIs van SOAP voor frontend ontwikkeling.
+1. **[Hoofdloze verenigbaarheid met GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/payment-services/)** - de handelaren hebben alternatieven aan REST en het Web APIs van SOAP voor frontend ontwikkeling.
 
-1. **Financiële rapportering** - synchroniseer [&#x200B; betalingsdetails &#x200B;](order-payment-status.md) met orden om volledige transparantie aan het verwerkte volume, het betalingssaldo, [&#x200B; uitbetalingen &#x200B;](payouts.md), en gedetailleerde [&#x200B; transactie-niveau rapporterend &#x200B;](reporting.md) voor financiële verenigbaarheid en het grootste in transactiedetzicht te krijgen.
+1. **Financiële rapportering** - synchroniseer [ betalingsdetails ](order-payment-status.md) met orden om volledige transparantie aan het verwerkte volume, het betalingssaldo, [ uitbetalingen ](payouts.md), en gedetailleerde [ transactie-niveau rapporterend ](reporting.md) voor financiële verenigbaarheid en het grootste in transactiedetzicht te krijgen.
 
 >[!NOTE]
 >
-> Sommige van de hier vermelde functies zijn mogelijk nog niet beschikbaar op uw markt. Zie [&#x200B; Verenigbaarheid &#x200B;](compatibility.md) voor meer informatie.
+> Sommige van de hier vermelde functies zijn mogelijk nog niet beschikbaar op uw markt. Zie [ Verenigbaarheid ](compatibility.md#standard-vs-advanced-payment-services-experience) voor meer informatie.

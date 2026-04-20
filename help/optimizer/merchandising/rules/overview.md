@@ -1,9 +1,9 @@
 ---
 title: Merchandising Rules
 description: In [!DNL Adobe Commerce Optimizer] worden logica en handelingen voor het maken van zoekresultaten, standaardproductaanbiedingen en categoriepagina's gecombineerd met handelregels.
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: f2a9b5e8-d23d-4855-b424-ca6b40e057df
-source-git-commit: 8abc0593c166a2dd861cfb78674918de1d0744de
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Merchandising Rules
 
-De regels van de handel brengen combineren logica met acties om te vormen hoe de producten in **onderzoeksresultaten** verschijnen, op **standaardproductlijsten** (**Alle productlijsten**), en op **categoriepagina&#39;s** ([&#x200B; categorieregels &#x200B;](#category-rules) zijn in bèta). U kunt, producten opvoeren begraven, vastzetten of verbergen en **intelligente rangschikking** toepassen zodat wijzen de lijsten op uw bedrijfsdoelstellingen.
+De regels van de handel brengen combineren logica met acties om te vormen hoe de producten in **onderzoeksresultaten** verschijnen, op **standaardproductlijsten** (**Alle productlijsten**), en op **categoriepagina&#39;s** ([ categorieregels ](#category-rules) zijn in bèta). U kunt, producten opvoeren begraven, vastzetten of verbergen en **intelligente rangschikking** toepassen zodat wijzen de lijsten op uw bedrijfsdoelstellingen.
 
 Elk **onderzoeksregel** heeft drie belangrijkste componenten:
 
@@ -30,7 +30,7 @@ U kunt veelvoudige voorwaarden en acties voor onderzoeksregels combineren, en om
 >
 >Categorieregels staan in bèta.
 
-**de regels van de Categorie** orde van het controleproduct op **categoriepagina&#39;s**. U selecteert een of meer categorieën en past vervolgens een intelligente rangschikking (bijvoorbeeld de meest bekeken, trending) en handmatige handelingen toe, zoals vastzetten, opvoeren en begraven. Ze gebruiken geen zoekqueryvoorwaarden. Voor opstellingsstappen, regeltypes, en hoe het rangschikken op categorie tegenover onderzoek van toepassing is, zie [&#x200B; Regels &#x200B;](add.md) creëren en beheren.
+**de regels van de Categorie** orde van het controleproduct op **categoriepagina&#39;s**. U selecteert een of meer categorieën en past vervolgens een intelligente rangschikking (bijvoorbeeld de meest bekeken, trending) en handmatige handelingen toe, zoals vastzetten, opvoeren en begraven. Ze gebruiken geen zoekqueryvoorwaarden. Voor opstellingsstappen, regeltypes, en hoe het rangschikken op categorie tegenover onderzoek van toepassing is, zie [ Regels ](add.md) creëren en beheren.
 
 ## Vereisten
 
@@ -65,7 +65,7 @@ U kunt een standaardregel (**plaatsen Alle productlijsten**) die van toepassing 
 
 ## Volgorde van prioriteit met meerdere regels
 
-Het volgende is op **onderzoeksregels** van toepassing en hoe zij voor een bepaald onderzoek in wisselwerking staan. **de regels van de Categorie** zijn van toepassing per categorie; zie [&#x200B; tot regels leiden en leiden &#x200B;](add.md#category-rules) voor hoe zij naast onderzoek en standaardregels passen.
+Het volgende is op **onderzoeksregels** van toepassing en hoe zij voor een bepaald onderzoek in wisselwerking staan. **de regels van de Categorie** zijn van toepassing per categorie; zie [ tot regels leiden en leiden ](add.md) voor hoe zij naast onderzoek en standaardregels passen.
 
 Er wordt slechts één zoekregel tegelijk toegepast op een zoekterm.
 Als meerdere regels van toepassing blijken te zijn op een zoekfrase, worden al deze regels toegepast. Als er een botsing tussen twee regels is— `rule 1` die sku1 opvoert maar `rule 2` het zelfde SKU-toen verbergt de onlangs toegepaste regel (`rule 2`) neemt belangrijkheid.

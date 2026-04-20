@@ -3,9 +3,9 @@ title: Aan de slag
 description: Leer hoe te beginnen met  [!DNL Adobe Commerce Optimizer].
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: de57d93d-e156-45c1-86aa-de29a8c34bd2
-source-git-commit: aac6efa53d7a8b2907fcbe8d3b97cc38e7178aa5
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aan de slag
 
-Deze handleiding begeleidt u bij het instellen van [!DNL Adobe Commerce Optimizer] van het begin tot het einde. Terwijl deze gids alle rollen behandelt, zie de [&#x200B; documentatie van de ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/optimizer/) voor gedetailleerde ontwikkelaar-specifieke inhoud.
+Deze handleiding begeleidt u bij het instellen van [!DNL Adobe Commerce Optimizer] van het begin tot het einde. Terwijl deze gids alle rollen behandelt, zie de [ documentatie van de ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/) voor gedetailleerde ontwikkelaar-specifieke inhoud.
 
 ## Vereisten
 
@@ -31,11 +31,11 @@ Voer de volgende essentiële stappen uit om uw [!DNL Adobe Commerce Optimizer] -
 
 ### Stap 1. Een instantie maken
 
-1. Login aan [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com/).
+1. Login aan [ Adobe Experience Cloud ](https://experience.adobe.com/).
 1. Navigeer aan **Commerce** > **Manager van Commerce Cloud**.
 1. Klik **toevoegen Instantie** > **Commerce Optimizer**.
 
-   ![&#x200B; de Manager van de Wolk van de Handel van Adobe voegt het scherm van de Instantie voor het creëren van een milieu van Commerce Optimizer toe &#x200B;](./assets/create-aco-instance.png){width="60%" zoomable="yes"}
+   ![ de Manager van de Wolk van de Handel van Adobe voegt het scherm van de Instantie voor het creëren van een milieu van Commerce Optimizer toe ](./assets/create-aco-instance.png){width="60%" zoomable="yes"}
 
 1. Instantie-instellingen configureren:
    - **Naam van de Instantie**: Beschrijvende naam (bijvoorbeeld, &quot;Mijn Sandbox van het Bedrijf&quot;)
@@ -45,7 +45,7 @@ Voer de volgende essentiële stappen uit om uw [!DNL Adobe Commerce Optimizer] -
 
 1. Klik **toevoegen Instantie**.
 
-   De Cloud Manager wordt bijgewerkt en bevat nu uw nieuwe exemplaar. Voor details bij de toegang tot van en het beheren van het, zie [&#x200B; een instantie &#x200B;](#manage-instances) leiden.
+   De Cloud Manager wordt bijgewerkt en bevat nu uw nieuwe exemplaar. Voor details bij de toegang tot van en het beheren van het, zie [ een instantie ](#manage-instances) leiden.
 
 >[!NOTE]
 >
@@ -55,18 +55,18 @@ Voer de volgende essentiële stappen uit om uw [!DNL Adobe Commerce Optimizer] -
 
 Nadat u de instantie hebt gemaakt:
 
-1. [&#x200B; beheer uw instantie &#x200B;](#manage-instances) van de Manager van Commerce Cloud.
-1. Vorm gebruikerstoegang gebruikend de [&#x200B; Gids van het Beheer van de Gebruiker &#x200B;](./user-management.md).
+1. [ beheer uw instantie ](#manage-instances) van de Manager van Commerce Cloud.
+1. Vorm gebruikerstoegang gebruikend de [ Gids van het Beheer van de Gebruiker ](./user-management.md).
 
 ### Stap 3. Voorbeeldgegevens toevoegen (optioneel)
 
-Voor het testen en het leren, volg de [&#x200B; instructies van de Gegevens van de Steekproef van de Lading &#x200B;](#add-sample-data).
+Voor het testen en het leren, volg de [ instructies van de Gegevens van de Steekproef van de Lading ](#add-sample-data).
 
 ## Op rollen gebaseerde workflows
 
 [!DNL Adobe Commerce Optimizer] de opstelling en het beheer baseren zich op drie zeer belangrijke rollen. Elke rol heeft specifieke taken en verantwoordelijkheden:
 
-![&#x200B; Op rol-gebaseerde werkschema voor [!DNL Adobe Commerce Optimizer] opstelling die beheerder, ontwikkelaar, en gebruikerstaken tonen &#x200B;](./assets/high-level-workflow.png){zoomable="yes"}
+![ Op rol-gebaseerde werkschema voor [!DNL Adobe Commerce Optimizer] opstelling die beheerder, ontwikkelaar, en gebruikerstaken tonen ](./assets/high-level-workflow.png){zoomable="yes"}
 
 ### Beheertaken
 
@@ -74,10 +74,10 @@ Beheerders beheren instanties, gebruikers en organisatorische instellingen.
 
 | Taak | Beschrijving | Koppeling |
 |---|---|---|
-| **beheert Gebruikers** | Gebruikers, ontwikkelaars en beheerders toevoegen | [&#x200B; Gebruikersbeheer &#x200B;](./user-management.md) |
-| **creeer Instanties** | Sandbox- en productieomgevingen instellen | [&#x200B; creeer instantie &#x200B;](#create-an-instance) |
-| **beheert Instanties** | De status controleren, instantienaam en beschrijving bijwerken en sleutel-URL&#39;s ophalen voor toepassing en API-toegang | [&#x200B; beheert Instanties &#x200B;](#manage-instances) |
-| **vorm Toegang** | Catalogusweergaven en -beleid instellen | [&#x200B; de Weergaven van de Catalogus &#x200B;](./setup/catalog-view.md) |
+| **beheert Gebruikers** | Gebruikers, ontwikkelaars en beheerders toevoegen | [ Gebruikersbeheer ](./user-management.md) |
+| **creeer Instanties** | Sandbox- en productieomgevingen instellen | [ creeer instantie ](#step-1-create-an-instance) |
+| **beheert Instanties** | De status controleren, instantienaam en beschrijving bijwerken en sleutel-URL&#39;s ophalen voor toepassing en API-toegang | [ beheert Instanties ](#manage-instances) |
+| **vorm Toegang** | Catalogusweergaven en -beleid instellen | [ de Weergaven van de Catalogus ](./setup/catalog-view.md) |
 
 ### Ontwikkelingstaken
 
@@ -85,9 +85,9 @@ De ontwikkelaars behandelen technische implementatie en gegevensintegratie, met 
 
 | Taak | Beschrijving | Koppeling |
 |---|---|---|
-| **Toegang Developer Console** | Projecten maken en referenties genereren | [&#x200B; Developer Console &#x200B;](https://developer.adobe.com/developer-console/docs/guides/getting-started) |
-| **Ingest Gegevens van de Catalogus** | Productgegevens van bestaande systemen importeren | Om gegevens in Adobe Commerce Optimizer direct in te voeren, zie [&#x200B; Ingestie API van Gegevens &#x200B;](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/){target="_blank"}.<br><br> om gegevens van Commerce op wolk of op gebouwmilieu&#39;s of andere derdesystemen in te voeren, zie het [&#x200B; 2&rbrace; onderwerp van Integraties &lbrace;.](./integrations/integrations-overview.md){target="_blank"} |
-| **Opstelling Storefront** | Edge Delivery Services-storefront configureren | [&#x200B; Opstelling Storefront &#x200B;](./storefront.md) |
+| **Toegang Developer Console** | Projecten maken en referenties genereren | [ Developer Console ](https://developer.adobe.com/developer-console/docs/guides/getting-started) |
+| **Ingest Gegevens van de Catalogus** | Productgegevens van bestaande systemen importeren | Om gegevens in Adobe Commerce Optimizer direct in te voeren, zie [ Ingestie API van Gegevens ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/){target="_blank"}.<br><br> om gegevens van Commerce op wolk of op gebouwmilieu&#39;s of andere derdesystemen in te voeren, zie het [ 2} onderwerp van Integraties {.](./integrations/integrations-overview.md){target="_blank"} |
+| **Opstelling Storefront** | Edge Delivery Services-storefront configureren | [ Opstelling Storefront ](./storefront.md) |
 
 ### Merchandisertaken
 
@@ -95,9 +95,9 @@ Handelaars optimaliseren en personaliseren de boodschapervaring door productontd
 
 | Taak | Beschrijving | Koppeling |
 |---|---|---|
-| **Ontdekking van het Product** | Zoeken en filteren configureren | [&#x200B; het Merchandising Overzicht &#x200B;](./merchandising/overview.md) |
-| **Aanbevelingen** | Aanbevelingen voor producten met een AI-processor instellen | [&#x200B; Aanbevelingen van het Product &#x200B;](./merchandising/recommendations/overview.md) |
-| **Prestaties die** volgen | Meting van succes controleren | [&#x200B; Metriek van het Succes &#x200B;](./manage-results/success-metrics.md) |
+| **Ontdekking van het Product** | Zoeken en filteren configureren | [ het Merchandising Overzicht ](./merchandising/overview.md) |
+| **Aanbevelingen** | Aanbevelingen voor producten met een AI-processor instellen | [ Aanbevelingen van het Product ](./merchandising/recommendations/overview.md) |
+| **Prestaties die** volgen | Meting van succes controleren | [ Metriek van het Succes ](./manage-results/success-metrics.md) |
 
 ## Instanties beheren
 
@@ -107,7 +107,7 @@ Exemplaren beheren vanuit Commerce Cloud Manager.
 >
 >Niet alle [!DNL Adobe Commerce Optimizer] -gebruikers hebben toegang tot Cloud Manager. De toegang hangt van de rol en de toestemmingen af die aan de gebruikersrekening worden toegewezen.
 
-1. Login aan [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com/).
+1. Login aan [ Adobe Experience Cloud ](https://experience.adobe.com/).
 
 1. Commerce Cloud Manager openen:
 
@@ -119,7 +119,7 @@ Exemplaren beheren vanuit Commerce Cloud Manager.
 Nadat u zich hebt aangemeld, worden op het dashboard alle Commerce-productinstanties weergegeven die in de organisatie beschikbaar zijn.
 De kolom Product geeft aan voor welke Commerce-toepassing de instantie is ingericht.
 
-![&#x200B; Dashboard die onderzoek en filteropties voor het productinstanties van de Wolk van de Handel van Adobe tonen &#x200B;](./assets/search-filter-instances.png){zoomable="yes"}
+![ Dashboard die onderzoek en filteropties voor het productinstanties van de Wolk van de Handel van Adobe tonen ](./assets/search-filter-instances.png){zoomable="yes"}
 
 Met de gereedschappen Filter en Zoeken kunt u snel specifieke varianten zoeken op basis van datum, regio, maker, producttype, omgeving of status.
 
@@ -133,13 +133,13 @@ Zodra de app is geopend, kunt u eenvoudig schakelen tussen omgevingen als sandbo
 
    De instantie drop-down maakt een lijst van alle Optimizer instanties beschikbaar in de organisatie. Selecteer de instantie die u wilt weergeven.
 
-   ![&#x200B; de schakelaardropdown van de Instantie voor het selecteren van [!DNL Adobe Commerce Optimizer] milieu&#39;s &#x200B;](./assets/context-switcher.png){zoomable="yes"}
+   ![ de schakelaardropdown van de Instantie voor het selecteren van [!DNL Adobe Commerce Optimizer] milieu&#39;s ](./assets/context-switcher.png){zoomable="yes"}
 
 ### Instantiedetails ophalen
 
 Bekijk de instantiedetails door op het informatiepictogram naast uw instantienaam te klikken.
 
-![[!DNL Adobe Commerce Optimizer] Deelvenster met instantiedetails met eindpunten en instantie-id &#x200B;](./assets/aco-instance-details.png){width="60%" zoomable="yes"}
+![[!DNL Adobe Commerce Optimizer] Deelvenster met instantiedetails met eindpunten en instantie-id ](./assets/aco-instance-details.png){width="60%" zoomable="yes"}
 
 Let op de volgende belangrijke informatie:
 
@@ -165,7 +165,7 @@ Werk indien nodig de instantienaam en beschrijving bij.
 ## Voorbeeldgegevens toevoegen
 
 Adobe biedt een GitHub-opslagplaats met voorbeeldgegevens en -gereedschappen waarmee u functies van [!DNL Adobe Commerce Optimizer] kunt leren en testen.
-De steekproefgegevens zijn gebaseerd op het [&#x200B; bedrijfscase van het Carvelo &#x200B;](./use-case/admin-use-case.md) en omvat:
+De steekproefgegevens zijn gebaseerd op het [ bedrijfscase van het Carvelo ](./use-case/admin-use-case.md) en omvat:
 
 - Productcatalogus met auto-onderdelen
 - Meerdere prijzenboeken en prijsscenario&#39;s
@@ -174,34 +174,34 @@ De steekproefgegevens zijn gebaseerd op het [&#x200B; bedrijfscase van het Carve
 
 **Laad de steekproefgegevens:**
 
-1. Heb toegang tot de [&#x200B; Ingestie van de Gegevens van de Catalogus van de Steekproef &#x200B;](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion) bewaarplaats GitHub.
+1. Heb toegang tot de [ Ingestie van de Gegevens van de Catalogus van de Steekproef ](https://github.com/adobe-commerce/aco-sample-catalog-data-ingestion) bewaarplaats GitHub.
 
 1. Volg de installatie-instructies in het README-bestand van de gegevensopslagruimte om de volgende taken uit te voeren:
 
    - Uw omgeving instellen
    - Voltooi het proces voor gegevensinvoer
    - Catalogusweergaven en -beleid maken met behulp van voorbeeldgegevens
-   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [&#x200B; pagina van de Synchronisatie van 0&rbrace; Gegevens te controleren &lbrace;](./setup/data-sync.md)
+   - Verifieer de gegevensopname door de gegevens van de Dienst van de Catalogus over de [ pagina van de Synchronisatie van 0} Gegevens te controleren {](./setup/data-sync.md)
 
 ## Volgende stappen
 
 Na voltooiing van de installatie:
 
 1. Opzetten van uw winkelcentrum:
-   - Vorm [&#x200B; Edge Delivery Services storefront &#x200B;](./storefront.md)
+   - Vorm [ Edge Delivery Services storefront ](./storefront.md)
    - Verbinding maken met uw catalogusgegevens
 
 1. Ontdek de draagtas van Carvelo:
-   - Volg het [&#x200B; werkschema van begin tot eind &#x200B;](./use-case/admin-use-case.md)
+   - Volg het [ werkschema van begin tot eind ](./use-case/admin-use-case.md)
    - Praktijken met echte scenario&#39;s
 
 1. Handelsversie configureren:
-   - Opstelling [&#x200B; productontdekking &#x200B;](./merchandising/overview.md)
-   - Creeer [&#x200B; aanbevelingen &#x200B;](./merchandising/recommendations/overview.md)
+   - Opstelling [ productontdekking ](./merchandising/overview.md)
+   - Creeer [ aanbevelingen ](./merchandising/recommendations/overview.md)
 
 1. Monitorprestaties:
-   - De metriek van het spoor [&#x200B; succes &#x200B;](./manage-results/success-metrics.md)
-   - Analyseer [&#x200B; onderzoeksprestaties &#x200B;](./manage-results/search-performance.md)
+   - De metriek van het spoor [ succes ](./manage-results/success-metrics.md)
+   - Analyseer [ onderzoeksprestaties ](./manage-results/search-performance.md)
 
 ## Problemen oplossen
 
@@ -216,7 +216,7 @@ Na voltooiing van de installatie:
 
 ### Hulp vragen
 
-- **Middelen van de Ontwikkelaar**: [&#x200B; documentatie van de Ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/optimizer/)
-- **Bronnen van de Storefront**: [&#x200B; Commerce storefront documentatie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL)
-- **Leerprogramma&#39;s**: [&#x200B; zelfstudies van Commerce Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
-- **Steun**: [&#x200B; de middelen van de Steun van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/overview)
+- **Middelen van de Ontwikkelaar**: [ documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/optimizer/)
+- **Bronnen van de Storefront**: [ Commerce storefront documentatie ](https://experienceleague.adobe.com/developer/commerce/storefront/)
+- **Leerprogramma&#39;s**: [ zelfstudies van Commerce Optimizer ](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/adobe-commerce-optimizer/overview)
+- **Steun**: [ de middelen van de Steun van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview)

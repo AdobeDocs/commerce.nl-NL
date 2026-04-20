@@ -3,7 +3,7 @@ title: Laat  [!DNL Payment Services]  voor Productie toe
 description: Voltooi het aan boord gaan proces door  [!DNL Payment Services]  voor productie toe te laten.
 exl-id: 3b1269e8-127b-47f8-9738-9722a5737c63
 feature: Payments, Checkout, Configuration, Install, Paas, Saas
-source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
+source-git-commit: 14c4178338859d55a7391139033d51d1aa6f7678
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # [!DNL Payment Services] inschakelen voor productie
 
-U kunt de dienst in productie zetten en het [&#x200B; onboarding proces &#x200B;](onboard.md) voltooien, per de stappen in dit onderwerp, na u:
+U kunt de dienst in productie zetten en het [ onboarding proces ](onboard.md) voltooien, per de stappen in dit onderwerp, na u:
 
-* [!BADGE &#x200B; PaaS slechts &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [&#x200B; installeer &#x200B;](install.md) de uitbreiding van de Diensten van de Betaling
-* [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [&#x200B; vormt en verbindt &#x200B;](connect.md) uw instantie
-* [&#x200B; Opstelling &#x200B;](sandbox.md) en [&#x200B; test &#x200B;](test-validate.md) uw zandbak
+* [!BADGE  PaaS slechts ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ installeer ](install.md) de uitbreiding van de Diensten van de Betaling
+* [!BADGE  slechts PaaS ]{type=Informative tooltip="Alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur)."} [ vormt en verbindt ](connect.md) uw instantie
+* [ Opstelling ](sandbox.md) en [ test ](test-validate.md) uw zandbak
 
 ## [!DNL Payment Services] instellen als betalingsmethode
 
-Nadat u [&#x200B; uw Diensten van Commerce &#x200B;](connect.md#configure-commerce-services) vormt en of [&#x200B; zandbak het testen &#x200B;](sandbox.md#enable-sandbox-testing) of [&#x200B; levende betalingen &#x200B;](#enable-live-payments) toelaat, moet u [!DNL Payment Services] als uw betalingsmethode plaatsen.
+Nadat u [ uw Diensten van Commerce ](connect.md#configure-commerce-services) vormt en of [ zandbak het testen ](sandbox.md#sandbox-onboarding) of [ levende betalingen ](#enable-live-payments) toelaat, moet u [!DNL Payment Services] als uw betalingsmethode plaatsen.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**.
 1. Klik op **[!UICONTROL Enable Payment Services]**.
 
    Deze optie is zichtbaar als u [!DNL Payment Services] nog niet hebt geconfigureerd als betalingsmethode voor een of meer van uw websites.
 
-   U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [&#x200B; betalingsmethode &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"} kunt toelaten.
+   U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [ betalingsmethode ](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"} kunt toelaten.
 
-1. Stel _[!UICONTROL General Configuration]_&#x200B;in op **[!UICONTROL Enable]**&#x200B;in `Yes` .
-1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_&#x200B;als&#x200B;_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
+1. Stel _[!UICONTROL General Configuration]_in op **[!UICONTROL Enable]**in `Yes` .
+1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_als_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
 
    | Instelling | Beschrijving |
    |---|---|
@@ -43,17 +43,17 @@ Nadat u [&#x200B; uw Diensten van Commerce &#x200B;](connect.md#configure-commer
 
 1. Klik op **[!UICONTROL Save]**.
 1. Klik op **[!UICONTROL Go to Payment Services]** om terug te gaan naar [!DNL Payment Services] Home.
-1. [&#x200B; ontruim uw geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html?lang=nl-NL).
+1. [ ontruim uw geheime voorgeheugen ](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html).
 
    Het ontruimen zou na elke configuratieverandering moeten worden gedaan.
 
-Zie [&#x200B; vormen  [!DNL Payment Services]](configure-admin.md) voor meer informatie over het vormen van de Gebieden van de Kaart en PayPal betalingsknopen.
+Zie [ vormen  [!DNL Payment Services]](configure-admin.md) voor meer informatie over het vormen van de Gebieden van de Kaart en PayPal betalingsknopen.
 
 ## Volledige merchant aan boord
 
 De volgende stap om je winkels in staat te stellen om live te gaan met betalingsservices is het voltooien van live onboarding.
 
-De Diensten van de betaling verstrekt [**Geavanceerde** (volledig gesteund) en **Standaard** (Uitdrukkelijke Controle) betalingsopties &#x200B;](../payment-services/payments-options.md#standard-vs-advanced-payments-experience) en onboarding stromen, afhankelijk van het land waarin u en uw aangewezen betalingservaring werkt.
+De Diensten van de betaling verstrekt [**Geavanceerde** (volledig gesteund) en **Standaard** (Uitdrukkelijke Controle) betalingsopties ](../payment-services/payments-options.md#standard-vs-advanced-payments-experience) en onboarding stromen, afhankelijk van het land waarin u en uw aangewezen betalingservaring werkt.
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**.
 1. Klik op **[!UICONTROL Live onboarding]**.
@@ -62,9 +62,9 @@ De Diensten van de betaling verstrekt [**Geavanceerde** (volledig gesteund) en *
 
 1. In _selecteer uw land_ modaal, selecteer het land waarvan u werkt.
 
-   De Diensten van de betaling verleent volledige steun voor alle betalingsopties in [&#x200B; vijf landen &#x200B;](../payment-services/introduction.md#availability) momenteel. Betalingsdiensten bieden Express Checkout-mogelijkheden (een subset van betalingsopties) voor alle andere landen die in de landenlijst zijn opgenomen.
+   De Diensten van de betaling verleent volledige steun voor alle betalingsopties in [ vijf landen ](compatibility.md#compatibility.md#standard-vs-advanced-payment-services-experience) momenteel. Betalingsdiensten bieden Express Checkout-mogelijkheden (een subset van betalingsopties) voor alle andere landen die in de landenlijst zijn opgenomen.
 
-   Het land u van de lijst kiest zal de betalingsopties bepalen, en op het instappen stroom - [&#x200B; Geavanceerd &#x200B;](#advanced-onboarding) (volledig gesteund) of [&#x200B; Standaard &#x200B;](#standard-onboarding) (Uitdrukkelijke Controle)-beschikbaar aan u.
+   Het land u van de lijst kiest zal de betalingsopties bepalen, en op het instappen stroom - [ Geavanceerd ](#advanced-onboarding) (volledig gesteund) of [ Standaard ](#standard-onboarding) (Uitdrukkelijke Controle)-beschikbaar aan u.
 
 >[!TIP]
 >
@@ -72,24 +72,24 @@ De Diensten van de betaling verstrekt [**Geavanceerde** (volledig gesteund) en *
 
 ### Geavanceerd instapniveau
 
-Deze instapkaartstroom is beschikbaar voor handelaren in [&#x200B; volledig gesteunde landen &#x200B;](../payment-services/introduction.md#availability).
+Deze instapkaartstroom is beschikbaar voor handelaren in [ volledig gesteunde landen ](compatibility.md#accepted-credit-cards-and-currencies).
 
 Nadat het land is geselecteerd:
 
 1. In modaal die verschijnt, uitgezocht **Geavanceerd**.
 
-   Voor de **Standaard** optie, ga aan de [&#x200B; Standaard op het instappen stroom &#x200B;](#standard-onboarding) te werk.
+   Voor de **Standaard** optie, ga aan de [ Standaard op het instappen stroom ](#standard-onboarding) te werk.
 
 1. Klik **verdergaan**.
 1. Ga verder met de PayPal-flow voor de volledig ondersteunde Advanced onboarding-methode, waarbij u uw Paypal-accountgegevens gebruikt (niet uw gegevens van de sandboxaccount) _of_ zich aanmeldt voor een nieuwe Paypal-account.
 
 >[!IMPORTANT]
 >
->**Geavanceerd op het instappen** vereist handelaren aan [&#x200B; de betiteling van verzoekbetalingen &#x200B;](#request-payments-entitlement-from-adobe) om levende op het instappen toe te laten.
+>**Geavanceerd op het instappen** vereist handelaren aan [ de betiteling van verzoekbetalingen ](#request-payments-entitlement-from-adobe) om levende op het instappen toe te laten.
 
 ### Standaard aan boord
 
-Deze Standaard op het instappen stroom is beschikbaar voor handelaren in beschikbare landen waarvoor [&#x200B; slechts de Uitdrukkelijke steun van de Controle &#x200B;](../payment-services/introduction.md#availability) wordt verstrekt.
+Deze Standaard op het instappen stroom is beschikbaar voor handelaren in beschikbare landen waarvoor [ slechts de Uitdrukkelijke steun van de Controle ](compatibility.md#accepted-credit-cards-and-currencies) wordt verstrekt.
 
 Nadat het land is geselecteerd:
 
@@ -99,13 +99,13 @@ Nadat het land is geselecteerd:
 
 >[!IMPORTANT]
 >
->[&#x200B; het Betalen van Apple en creditcardgebieden &#x200B;](../payment-services/payments-options.md) zijn niet beschikbaar voor **Standaard op het instappen**.
+>[ het Betalen van Apple en creditcardgebieden ](../payment-services/payments-options.md) zijn niet beschikbaar voor **Standaard op het instappen**.
 
 ## E-mailadres bevestigen
 
 1. Ga op de zijbalk Beheerder naar **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**
 
-   De knop _[!UICONTROL Live onboarding]_&#x200B;is niet meer zichtbaar en u ziet een tekstvak &quot;[!UICONTROL Live payments pending]&quot;.
+   De knop _[!UICONTROL Live onboarding]_is niet meer zichtbaar en u ziet een tekstvak &quot;[!UICONTROL Live payments pending]&quot;.
 
    In dat tekstvak wordt je mogelijk ook gevraagd je e-mailadres bij PayPal te bevestigen om de inboeking te voltooien.
 
@@ -121,17 +121,17 @@ Nadat het land is geselecteerd:
 
 ## Betalingsrechten aanvragen bij Adobe
 
-Om uw opslag toe te laten om levend te gaan, verzoek betalingsrechten van Adobe (voor [&#x200B; Geavanceerd op instapniveau slechts &#x200B;](#advanced-onboarding)):
+Om uw opslag toe te laten om levend te gaan, verzoek betalingsrechten van Adobe (voor [ Geavanceerd op instapniveau slechts ](#advanced-onboarding)):
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**.
 1. Klik op **[!UICONTROL Get Live Payments]** in uw [!DNL Payment Services] startpunt.
 
-   ![&#x200B; Rechten van het Verzoek &#x200B;](assets/request-entitlements.png){width="500" zoomable="yes"}
+   ![ Rechten van het Verzoek ](assets/request-entitlements.png){width="500" zoomable="yes"}
 
 1. Vul het formulier in.
 1. Een lid van het verkoopteam zal contact met u opnemen.
 
-Alternatief, kunt u om betalingsrechten van Adobe bij [&#x200B; zaken.adobe.com verzoeken &#x200B;](https://business.adobe.com/nl/resources/payment-services.html).
+Alternatief, kunt u om betalingsrechten van Adobe bij [ zaken.adobe.com verzoeken ](https://business.adobe.com/resources/payment-services.html).
 
 >[!IMPORTANT]
 >
@@ -142,22 +142,22 @@ Alternatief, kunt u om betalingsrechten van Adobe bij [&#x200B; zaken.adobe.com 
 Krijg uw [!DNL Payment Services] _Merchant identiteitskaart_:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**.
-1. Klik in de weergave Home op **[!UICONTROL Settings]** . Zie [&#x200B; Huis &#x200B;](payments-home.md) voor meer informatie.
+1. Klik in de weergave Home op **[!UICONTROL Settings]** . Zie [ Huis ](payments-home.md) voor meer informatie.
 1. Selecteer vereiste _identiteitskaart van de Merchant_ en leg het voor aan uw vertegenwoordiger van de Verkoop, die de correcte tarifering zal vormen.
 
-Zie [&#x200B; Niveau 2 en niveau 3 verwerking &#x200B;](levels-card-payment-transactions.md) voor meer informatie over betalingstransacties.
+Zie [ Niveau 2 en niveau 3 verwerking ](levels-card-payment-transactions.md) voor meer informatie over betalingstransacties.
 
 ## Live betalingen inschakelen
 
-A _productie commerciële identiteitskaart_ wordt auto-geproduceerd en bevolkt in de [&#x200B; configuratie &#x200B;](configure-admin.md). Wijzig of wijzig deze id niet.
+A _productie commerciële identiteitskaart_ wordt auto-geproduceerd en bevolkt in de [ configuratie ](configure-admin.md). Wijzig of wijzig deze id niet.
 
 Live betalingen inschakelen:
 
 1. Voor _Admin_ sidebar, ga **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]**.
-1. Klik in het Home op **[!UICONTROL Settings]** rechtsboven op de pagina. Zie [&#x200B; Huis &#x200B;](payments-home.md) voor meer informatie.
+1. Klik in het Home op **[!UICONTROL Settings]** rechtsboven op de pagina. Zie [ Huis ](payments-home.md) voor meer informatie.
 1. In de _[!UICONTROL General Configuration]_-sectie ingesteld op **[!UICONTROL Payment mode]**`Production` .
 1. Klik op **[!UICONTROL Save]**.
-1. [&#x200B; ontruim uw geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
+1. [ ontruim uw geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
 
    >[!IMPORTANT]
    >
@@ -165,7 +165,7 @@ Live betalingen inschakelen:
 
 Als u teruggaat naar [!DNL Payment Services] Home, wordt het bericht voor de betalingsmodus Sandbox niet meer weergegeven omdat u nu live betalingen verwerkt.
 
-Zie [&#x200B; vormen in Admin &#x200B;](configure-admin.md) voor de opties van de erfenisconfiguratie.
+Zie [ vormen in Admin ](configure-admin.md) voor de opties van de erfenisconfiguratie.
 
 >[!IMPORTANT]
 >
@@ -175,4 +175,4 @@ Zie [&#x200B; vormen in Admin &#x200B;](configure-admin.md) voor de opties van d
 
 Het wordt ten zeerste aanbevolen Betalingen in productie te testen, met echte creditcards en banken, voordat u deze functionaliteit aan kopers beschikbaar maakt.
 
-Zie [&#x200B; Testen en bevestigen &#x200B;](test-validate.md) voor meer informatie.
+Zie [ Testen en bevestigen ](test-validate.md) voor meer informatie.

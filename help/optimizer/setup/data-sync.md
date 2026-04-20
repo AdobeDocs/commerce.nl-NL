@@ -3,11 +3,11 @@ title: Gegevenssynchronisatie
 description: Herzie de catalogusgegevens die van uw Commerce gegevensbron in  [!DNL Adobe Commerce Optimizer] worden gesynchroniseerd.
 role: Admin, Developer
 recommendations: noCatalog
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is op Adobe Commerce as a Cloud Service en  [!DNL Adobe Commerce Optimizer]  slechts projecten (Adobe-Beheerde infrastructuur SaaS) van toepassing."
 exl-id: c0f4664c-6afc-4762-856b-5e26a865d3a2
-source-git-commit: 604f46a65b2bfa84e1be07f410a4e36051eb1a29
+source-git-commit: 2cb17424a0f063a585ddd861b7057d9851467fbc
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ De **synchronisatie van Gegevens** pagina toont een overzicht van de synchronisa
 
 De **pagina van de Synchronisatie van Gegevens** verstrekt waardevolle inzichten in de beschikbaarheid van productgegevens voor uw opslag, die ervoor zorgen dat het aan uw kopers kan onmiddellijk worden getoond.
 
-De **pagina van de Synchronisatie van 0&rbrace; Gegevens &lbrace;wordt gevestigd bij** Opstelling *>* synchronisatie van Gegevens **.**
+De **pagina van de Synchronisatie van 0} Gegevens {wordt gevestigd bij** Opstelling *>* synchronisatie van Gegevens **.**
 
-![&#x200B; de Synchronisatie van Gegevens &#x200B;](../assets/data-sync.png)
+![ de Synchronisatie van Gegevens ](../assets/data-sync.png)
 
 De **pagina van de Synchronisatie van Gegevens** bevat de volgende gebieden:
 
@@ -36,9 +36,9 @@ De **pagina van de Synchronisatie van Gegevens** bevat de volgende gebieden:
 
 ## Lijst van gesynchroniseerde producten
 
-Om de details van een gesynchroniseerd product in formaat te zien JSON, klik op het codepictogram ![&#x200B; verbinding van de Code &#x200B;](../assets/data-sync-details.png) op de rij van het product van de gesynchroniseerde productlijst.
+Om de details van een gesynchroniseerd product in formaat te zien JSON, klik op het codepictogram ![ verbinding van de Code ](../assets/data-sync-details.png) op de rij van het product van de gesynchroniseerde productlijst.
 
-![&#x200B; Syncd de Details van het Product &#x200B;](../assets/synced-products.png)
+![ Syncd de Details van het Product ](../assets/synced-products.png)
 
 ## Catalogusgegevens opnieuw synchroniseren
 
@@ -54,10 +54,10 @@ Als u geen specifieke producten op de **pagina ziet van de Synchronisatie van Ge
 
 ## Synchronisatiestatus van gegevens controleren
 
-Voor projecten die Adobe Commerce als stroomopwaartse gegevensbron door de Schakelaar van Commerce Optimizer gebruiken, kunt u het proces van de gegevensuitvoer controleren en resync verrichtingen van de [&#x200B; de statuspagina van de Synchronisatie van het Gegeven van Gegevens &#x200B;](../../data-export/data-synchronization.md) in Commerce leiden Admin.
+Voor projecten die Adobe Commerce als stroomopwaartse gegevensbron door de Schakelaar van Commerce Optimizer gebruiken, kunt u het proces van de gegevensuitvoer controleren en resync verrichtingen van de [ pagina van de Status van de Synchronisatie van het Gegeven van Gegevens in werking stellen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) in Commerce Admin.
 
 ## Verwante onderwerpen
 
-- [&#x200B; Verbinding van Adobe Commerce Optimizer &#x200B;](../../aco-connector/overview.md){target="_blank"}
+- [ Verbinding van Adobe Commerce Optimizer ](../../aco-connector/overview.md){target="_blank"}
 
 

@@ -24,17 +24,17 @@ Installeer en configureer de Commerce Optimizer-connector om uw Adobe Commerce-c
 
 * [!DNL Adobe Commerce Optimizer] -licentie met een geleverde sandbox-instantie.
 
-* [ de sleutels van de Authentificatie ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) om het metapakket van de Verbinding van Commerce te downloaden gebruikend Composer.
+* [&#x200B; de sleutels van de Authentificatie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) om het metapakket van de Verbinding van Commerce te downloaden gebruikend Composer.
 
-* Admin toegang tot een [ zandbakinstantie van Adobe Commerce Optimizer ](../optimizer/get-started.md).
+* Admin toegang tot een [&#x200B; zandbakinstantie van Adobe Commerce Optimizer &#x200B;](../optimizer/get-started.md).
 
 De Adobe Commerce-gebruiker die de integratie configureert, moet beschikken over:
 
 * Beheerderstoegang tot de Adobe Commerce Admin.
 
-* [ de lijntoegang van het Bevel tot de de toepassingsserver van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access).
+* [&#x200B; de lijntoegang van het Bevel tot de de toepassingsserver van Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access).
 
-* De toegang van de ontwikkelaar tot de [ IMS Organisatie ](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations?) waar het [!DNL Adobe Commerce Optimizer] project provisioned is.
+* De toegang van de ontwikkelaar tot de [&#x200B; IMS Organisatie &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations?) waar het [!DNL Adobe Commerce Optimizer] project provisioned is.
 
 >[!BEGINSHADEBOX]
 
@@ -47,7 +47,7 @@ Als u een van de volgende extensies hebt geïnstalleerd, verwijdert u deze voord
 * Adobe Commerce Catalog Service (`magento/catalog-service`, `magento/catalog-service-installer`)
 * Data Management Dashboard (`magento-catalog-sync-admin`)
 
-Gegevens die aan deze extensies zijn gekoppeld, zijn nog steeds beschikbaar in de Commerce-database. Het wordt echter niet naar [!DNL Adobe Commerce Optimizer] geëxporteerd wanneer de connector is ingeschakeld. Om het onderzoek en het merchandising mogelijkheden uit te voeren die door deze uitbreidingen na het toelaten van de Schakelaar worden verstrekt, vorm hen van [[!DNL Adobe Commerce Optimizer]  Admin UI ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview#quick-tour).
+Gegevens die aan deze extensies zijn gekoppeld, zijn nog steeds beschikbaar in de Commerce-database. Het wordt echter niet naar [!DNL Adobe Commerce Optimizer] geëxporteerd wanneer de connector is ingeschakeld. Om het onderzoek en het merchandising mogelijkheden uit te voeren die door deze uitbreidingen na het toelaten van de Schakelaar worden verstrekt, vorm hen van [[!DNL Adobe Commerce Optimizer]  Admin UI &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/overview#quick-tour).
 
 >[!IMPORTANT]
 >
@@ -90,13 +90,13 @@ Nadat de implementatie is voltooid, is de optie Commerce Optimizer beschikbaar i
 >
 >Raadpleeg de volgende handleidingen voor gedetailleerde installatie-instructies voor extensies:
 >
->[ installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+>[&#x200B; installeer uitbreiding op Adobe Commerce op de Infrastructuur van de Wolk &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
 >
->[ installeer uitbreiding op Adobe Commerce op-gebouw ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
+>[&#x200B; installeer uitbreiding op Adobe Commerce op-gebouw &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 ### Vereiste verbindingsgegevens ophalen
 
-Van Adobe Developer Console, creeer een ontwikkelaarproject dat voor de [!DNL Adobe Commerce Optimizer] dienst van de Ingestie wordt toegelaten en produceer Server-aan-Server geloofsbrieven OAuth. Voor gedetailleerde instructies, zie [ de Geloofsbrieven IMS ](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/authentication/#obtain-ims-credentials) in de *Handleiding van de Ontwikkelaar Merchandising* verkrijgen.
+Van Adobe Developer Console, creeer een ontwikkelaarproject dat voor de [!DNL Adobe Commerce Optimizer] dienst van de Ingestie wordt toegelaten en produceer Server-aan-Server geloofsbrieven OAuth. Voor gedetailleerde instructies, zie [&#x200B; de Geloofsbrieven IMS &#x200B;](https://developer.adobe.com/commerce/services/optimizer/data-ingestion/authentication/#obtain-ims-credentials) in de *Handleiding van de Ontwikkelaar Merchandising* verkrijgen.
 
 >[!TIP]
 >
@@ -126,7 +126,7 @@ In de volgende tabel wordt beschreven welke gegevens op elk bereikniveau worden 
 
 | Bereik | Gegevens geëxporteerd | Notities |
 | ------- | --------------- | ------- |
-| Website | Prijzen en prijsboeken | Elke reeks prijzen wordt uitgevoerd als a [ prijsboek ](../optimizer/setup/pricebooks.md) gebruikend de noemende overeenkomst `website::customergroupcode`. Alle klantengroepen voor de website worden inbegrepen. |
+| Website | Prijzen en prijsboeken | Elke reeks prijzen wordt uitgevoerd als a [&#x200B; prijsboek &#x200B;](../optimizer/setup/pricebooks.md) gebruikend de noemende overeenkomst `website::customergroupcode`. Alle klantengroepen voor de website worden inbegrepen. |
 | Winkelweergave | Producten en productkenmerken | In elke winkelweergave wordt een aparte catalogusbron gemaakt in [!DNL Adobe Commerce Optimizer] . |
 
 ### Gedrag in- en uitschakelen
@@ -140,7 +140,7 @@ In de volgende tabel wordt beschreven welke gegevens op elk bereikniveau worden 
 
 Nadat u het aansluitingspakket hebt geïnstalleerd, worden in het raster Opslaan in Admin nu de exportconfiguratie-instellingen voor Commerce Optimizer weergegeven.
 
-![ Net van de opslag met de synchronisatiemontages van Commerce Optimizer ](./assets/aco-connector-sync-config.png){width="600" zoomable="yes"}
+![&#x200B; Net van de opslag met de synchronisatiemontages van Commerce Optimizer &#x200B;](./assets/aco-connector-sync-config.png){width="600" zoomable="yes"}
 
 **om de montages voor een website of opslagmening te veranderen:**
 
@@ -150,7 +150,7 @@ Nadat u het aansluitingspakket hebt geïnstalleerd, worden in het raster Opslaan
 
 1. In de **[!DNL Adobe Commerce Optimizer]montages van de Exporteur**, gebruik checkbox om de gegevenssynchronisatie toe te laten of onbruikbaar te maken zoals nodig.
 
-   ![ de configuratie van de de gegevenssynchronisatie van de Update ](./assets/aco-connector-store-website-export-settings.png){width="500" zoomable="yes"}
+   ![&#x200B; de configuratie van de de gegevenssynchronisatie van de Update &#x200B;](./assets/aco-connector-store-website-export-settings.png){width="500" zoomable="yes"}
 
 1. Sla uw wijzigingen op.
 
@@ -160,13 +160,13 @@ Nadat u het aansluitingspakket hebt geïnstalleerd, worden in het raster Opslaan
 >
 >De verwerking van de gegevenssynchronisatie begint zodra u het configuratiebevel in werking stelt. Standaard is het synchroniseren van catalogusgegevens ingeschakeld voor alle Commerce-bereiken (websites en winkelweergaven). Afhankelijk van de grootte van de catalogus kan het synchronisatieproces van de gegevens enkele minuten tot enkele uren duren.
 
-Gebruikend de Server-aan-Server referenties OAuth en instantiedetails u [ in de vorige stappen ](#get-required-connection-details) werd verzameld, kunt u de integratie tussen uw Commerce en [!DNL Adobe Commerce Optimizer] instanties nu vormen.
+Gebruikend de Server-aan-Server referenties OAuth en instantiedetails u [&#x200B; in de vorige stappen &#x200B;](#get-required-connection-details) werd verzameld, kunt u de integratie tussen uw Commerce en [!DNL Adobe Commerce Optimizer] instanties nu vormen.
 
 1. Selecteer in Commerce Admin **[!UICONTROL Adobe Commerce Optimizer]** om de configuratiepagina met instructies weer te geven.
 
-   ![[!DNL Adobe Commerce Optimizer] configuratiepagina ](/help/aco-connector/assets/aco-connector-admin-installation.png){width="500" zoomable="yes"}
+   ![[!DNL Adobe Commerce Optimizer] configuratiepagina &#x200B;](/help/aco-connector/assets/aco-connector-admin-installation.png){width="500" zoomable="yes"}
 
-1. Van de bevellijn, [ gebruik SSH ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections) om met het opvoeren van Commerce milieu te verbinden.
+1. Van de bevellijn, [&#x200B; gebruik SSH &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/secure-connections) om met het opvoeren van Commerce milieu te verbinden.
 
 1. Voer het volgende Commerce CLI bevel in werking om de integratie te vormen, die de placeholder waarden met de waarden voor uw project van Commerce Optimizer vervangt:
 
@@ -181,13 +181,13 @@ bin/magento aco:config:init --org_id=your-org --tenant_id=your-tenant --client_i
 ## Controleren of de gegevenssync werkt
 
 Nadat u de integratie hebt ingeschakeld, wordt de gegevenssynchronisatie automatisch gestart. Afhankelijk van de catalogusgrootte kan de eerste synchronisatie enkele minuten tot enkele uren duren.
-U kunt controleren en verifiëren dat de synchronisatie van de [ pagina van de Status van de Synchronisatie van het Gegeven van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) beschikbaar in Admin werkt.
+U kunt controleren en verifiëren dat de synchronisatie van de [&#x200B; pagina van de Status van de Synchronisatie van het Gegeven van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status) beschikbaar in Admin werkt.
 
 1. **de synchronisatiestatus van de Controle in Commerce Admin:**
 
    Ga naar **[!UICONTROL System]** > [!UICONTROL Data Transfer] > **[!UICONTROL Data Feed Sync Status]** .
 
-   ![ de pagina van de Status van de Synchronisatie van het Gegeven van Gegevens met de status van het voederpunt rapporterend ](./assets/data-feed-sync-status.png){width="500" zoomable="yes"}
+   ![&#x200B; de pagina van de Status van de Synchronisatie van het Gegeven van Gegevens met de status van het voederpunt rapporterend &#x200B;](./assets/data-feed-sync-status.png){width="500" zoomable="yes"}
 
    Wanneer de synchronisatie wordt uitgevoerd, worden records verzonden in de feed-gegevens. Selecteer een feed om details weer te geven of synchronisatieproblemen op te lossen.
 
@@ -195,22 +195,22 @@ U kunt controleren en verifiëren dat de synchronisatie van de [ pagina van de S
 
    Selecteer [!DNL Adobe Commerce Optimizer] in het menu **[!UICONTROL Data Sync]** .
 
-   ![ de Synchronisatie van Gegevens ](./assets/data-sync.png){width="500" zoomable="yes"}
+   ![&#x200B; de Synchronisatie van Gegevens &#x200B;](./assets/data-sync.png){width="500" zoomable="yes"}
 
    Controleer of de verwachte producten, prijzen en kenmerken worden weergegeven.
 
 >[!TIP]
 >
->Als u om het even welke kwesties met de gegevenssynchronisatie hebt, zie de [ sectie van het Oplossen van problemen ](/help/data-export/troubleshooting-logging.md) in de *Export van Gegevens SaaS* documentatie.
+>Als u om het even welke kwesties met de gegevenssynchronisatie hebt, zie de [&#x200B; sectie van het Oplossen van problemen &#x200B;](/help/data-export/troubleshooting-logging.md) in de *Export van Gegevens SaaS* documentatie.
 
 ## Volgende stappen
 
 1. **vorm [!DNL Adobe Commerce Optimizer] catalogusmeningen en beleid**
 
-   Maak catalogusweergaven en -beleid in de gebruikersinterface van [!DNL Adobe Commerce Optimizer] . Prijsboeken worden automatisch aangemaakt door Adobe Commerce-klantengroepen. Voor instructies, zie de [ meningen van de Catalogus ](../optimizer/setup/catalog-view.md) en [ documentatie van het Beleid ](../optimizer/setup/catalog-view.md) in de *Gids van de Gebruiker van Commerce Optimizer*.
+   Maak catalogusweergaven en -beleid in de gebruikersinterface van [!DNL Adobe Commerce Optimizer] . Prijsboeken worden automatisch aangemaakt door Adobe Commerce-klantengroepen. Voor instructies, zie de [&#x200B; meningen van de Catalogus &#x200B;](../optimizer/setup/catalog-view.md) en [&#x200B; documentatie van het Beleid &#x200B;](../optimizer/setup/catalog-view.md) in de *Gids van de Gebruiker van Commerce Optimizer*.
 
 1. **opstelling een Opslag van Commerce op Edge Delivery Services**
 
-   Volg de [ documentatie van de Opstelling van de Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/setup/) om uw storefront aan de [!DNL Adobe Commerce Optimizer] instantie te verbinden en beginnen gepersonaliseerde handelservaringen te leveren.
+   Volg de [&#x200B; documentatie van de Opstelling van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/) om uw storefront aan de [!DNL Adobe Commerce Optimizer] instantie te verbinden en beginnen gepersonaliseerde handelservaringen te leveren.
 
 

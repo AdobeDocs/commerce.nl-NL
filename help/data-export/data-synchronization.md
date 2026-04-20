@@ -14,12 +14,12 @@ ht-degree: 0%
 
 Wanneer u een dienst van Commerce installeert die gegevensuitvoer zoals de Dienst van de Catalogus, Levend Onderzoek, of de Aanbevelingen van het Product vereist, wordt een inzameling van de modules van de de gegevensuitvoer van het Saas geïnstalleerd om het gegevensinzameling en synchronisatieproces te beheren.
 
-Bij het exporteren van SaaS-gegevens worden productgegevens doorlopend van een Adobe Commerce-instantie naar het Commerce Services-platform verplaatst om de gegevens up-to-date te houden. Bijvoorbeeld, vereist de Aanbevelingen van het Product huidige catalogusinformatie om aanbevelingen met correcte namen, prijs, en beschikbaarheid nauwkeurig terug te keren. Voor details bij het controleren van het synchronisatieproces, zie [ Mening en beheer het synchronisatieproces ](#view-and-manage-the-synchronization-process).
+Bij het exporteren van SaaS-gegevens worden productgegevens doorlopend van een Adobe Commerce-instantie naar het Commerce Services-platform verplaatst om de gegevens up-to-date te houden. Bijvoorbeeld, vereist de Aanbevelingen van het Product huidige catalogusinformatie om aanbevelingen met correcte namen, prijs, en beschikbaarheid nauwkeurig terug te keren. Voor details bij het controleren van het synchronisatieproces, zie [&#x200B; Mening en beheer het synchronisatieproces &#x200B;](#view-and-manage-the-synchronization-process).
 
 
 Het volgende diagram toont de de gegevensuitvoerstroom van SaaS.
 
-![ de gegevensuitvoerinzameling en synchronisatiestroom van SaaS voor Adobe Commerce ](assets/data-export-flow.png){width="900" zoomable="yes"}
+![&#x200B; de gegevensuitvoerinzameling en synchronisatiestroom van SaaS voor Adobe Commerce &#x200B;](assets/data-export-flow.png){width="900" zoomable="yes"}
 
 De belangrijkste onderdelen van de SaaS-gegevensexportstroom zijn:
 
@@ -29,7 +29,7 @@ De belangrijkste onderdelen van de SaaS-gegevensexportstroom zijn:
 
 >[!NOTE]
 >
->Adobe raadt aan het gegevensvolume en de synchronisatietijd te schatten voordat u een synchronisatie van de gegevensfeed start, zodat de planning soepel verloopt en verstoringen van de sitebewerkingen worden voorkomen. Deze schatting is belangrijk bij de planning voor initiële syncs of grootschalige catalogusupdates, zoals wijzigingen in de massaprijs. Voor details, zie [ het gegevensvolume en transmissietijd voor gegevenssynchronisatie ](estimate-data-volume-sync-time.md) schatten
+>Adobe raadt aan het gegevensvolume en de synchronisatietijd te schatten voordat u een synchronisatie van de gegevensfeed start, zodat de planning soepel verloopt en verstoringen van de sitebewerkingen worden voorkomen. Deze schatting is belangrijk bij de planning voor initiële syncs of grootschalige catalogusupdates, zoals wijzigingen in de massaprijs. Voor details, zie [&#x200B; het gegevensvolume en transmissietijd voor gegevenssynchronisatie &#x200B;](estimate-data-volume-sync-time.md) schatten
 
 ## Synchronisatiemodi
 
@@ -66,7 +66,7 @@ Deze banen lopen elke minuut.
 
 Voor gedeeltelijke synchronisatie is de volgende configuratie vereist voor de Commerce-toepassing:
 
-- [ Taak het plannen wordt toegelaten via cron banen ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)
+- [&#x200B; Taak het plannen wordt toegelaten via cron banen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html)
 
 - Alle SaaS-indexen voor gegevensexport worden geconfigureerd in de `Update by Schedule` -modus.
 
@@ -83,25 +83,25 @@ Bij Opnieuw proberen mislukte items synchroniseren wordt een afzonderlijk proces
 
 De meeste synchronisatieactiviteiten worden automatisch verwerkt op basis van de toepassingsconfiguratie. De SaaS-gegevensexport biedt echter ook tools om het proces te controleren en te beheren.
 
-- [!BADGE  slechts PaaS ]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **[dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)** - Admin gebruikers kunnen gegevens bekijken en volgen die aan de Diensten van Commerce en beschikbaar aan de opslagdiensten worden gesynchroniseerd. Op dit dashboard ziet u het product dat is gesynchroniseerd met Commerce Services.
+- [!BADGE &#x200B; slechts PaaS &#x200B;]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."} **[dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard)** - Admin gebruikers kunnen gegevens bekijken en volgen die aan de Diensten van Commerce en beschikbaar aan de opslagdiensten worden gesynchroniseerd. Op dit dashboard ziet u het product dat is gesynchroniseerd met Commerce Services.
 
   {{aco-data-sync-verification}}
 
-- [!BADGE  SaaS slechts ]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is van toepassing op Adobe Commerce-projecten die zijn geïntegreerd met Adobe Commerce Optimizer (door Adobe beheerde SaaS-infrastructuur)."} **[de pagina van de Status van de Synchronisatie van het Gegeven van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)** - voor de projecten van Commerce die [!DNL Adobe Commerce Optimizer] gebruiken, de beschikbaarheid van de catalogusgegevens voor uw opslag van de pagina van de Status van de Synchronisatie van het Gegeven in Adobe Commerce Optimizer. Op dit dashboard wordt de synchronisatiestatus van de feeds voor gegevensexport weergegeven.
+- [!BADGE &#x200B; SaaS slechts &#x200B;]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is van toepassing op Adobe Commerce-projecten die zijn geïntegreerd met Adobe Commerce Optimizer (door Adobe beheerde SaaS-infrastructuur)."} **[de pagina van de Status van de Synchronisatie van het Gegeven van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync)** - voor de projecten van Commerce die [!DNL Adobe Commerce Optimizer] gebruiken, de beschikbaarheid van de catalogusgegevens voor uw opslag van de pagina van de Status van de Synchronisatie van het Gegeven in Adobe Commerce Optimizer. Op dit dashboard wordt de synchronisatiestatus van de feeds voor gegevensexport weergegeven.
 
 >[!NOTE]
 >
->Het dashboard voor gegevensbeheer is alleen beschikbaar als Live zoeken, Productaanbevelingen of de Catalogusservice is geïnstalleerd. Het dashboard van de Status van de Synchronisatie van het Gegeven is beschikbaar als u deze diensten hebt, of de [ geïnstalleerde Schakelaar van Adobe Commerce Optimizer ](../aco-connector/overview.md).
+>Het dashboard voor gegevensbeheer is alleen beschikbaar als Live zoeken, Productaanbevelingen of de Catalogusservice is geïnstalleerd. Het dashboard van de Status van de Synchronisatie van het Gegeven is beschikbaar als u deze diensten hebt, of de [&#x200B; geïnstalleerde Schakelaar van Adobe Commerce Optimizer &#x200B;](../aco-connector/overview.md).
 
 ### Configuratie Commerce-toepassing controleren
 
 Gedeeltelijke synchronisatie en Opnieuw mislukte items synchroniseren werken alleen als het Commerce-exemplaar correct is geconfigureerd. De configuratie wordt meestal voltooid wanneer u de Commerce Service instelt. Controleer de volgende configuratie als de gegevensexport niet correct werkt.
 
-- [ Bevestig dat de bouwbanen ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues) lopen.
+- [&#x200B; Bevestig dat de bouwbanen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues) lopen.
 
-- Verifieer dat de indexen van [ Admin ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen of door het bevel van Commerce CLI te gebruiken `bin/magento indexer:info`.
+- Verifieer dat de indexen van [&#x200B; Admin &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen of door het bevel van Commerce CLI te gebruiken `bin/magento indexer:info`.
 
-- Controleer of de indexeerders voor de volgende feeds zijn ingesteld op `Update by Schedule` : Cataloguskenmerken, Product, Productoverschrijvingen en Productvariabele. U kunt de indexen van [ Beheer van de Index ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) in Admin controleren of CLI gebruiken (`bin/magento indexer:show-mode | grep -i feed`).
+- Controleer of de indexeerders voor de volgende feeds zijn ingesteld op `Update by Schedule` : Cataloguskenmerken, Product, Productoverschrijvingen en Productvariabele. U kunt de indexen van [&#x200B; Beheer van de Index &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) in Admin controleren of CLI gebruiken (`bin/magento indexer:show-mode | grep -i feed`).
 
 ### Meldingen van gebeurtenismanager voor het registreren van gegevensoverdracht
 
@@ -120,4 +120,4 @@ $this->eventManager->dispatch(
 
 >[!NOTE]
 >
->Voor informatie over gebeurtenissen en hoe te om aan hen in te tekenen, zie [ Gebeurtenissen en Waarnemers ](https://developer.adobe.com/commerce/php/development/components/events-and-observers) in de documentatie van de Ontwikkelaar van Adobe Commerce.
+>Voor informatie over gebeurtenissen en hoe te om aan hen in te tekenen, zie [&#x200B; Gebeurtenissen en Waarnemers &#x200B;](https://developer.adobe.com/commerce/php/development/components/events-and-observers) in de documentatie van de Ontwikkelaar van Adobe Commerce.

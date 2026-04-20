@@ -27,7 +27,7 @@ Nadat u [&#x200B; uw Diensten van Commerce &#x200B;](connect.md#configure-commer
 
    Deze optie is zichtbaar als u [!DNL Payment Services] nog niet hebt geconfigureerd als betalingsmethode voor een of meer van uw websites.
 
-   U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [&#x200B; betalingsmethode &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"} kunt toelaten.
+   U wordt geleid aan het montagegebied in de mening van het Huis met de relevante uitgevouwen opties (**[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** > _[!UICONTROL Settings]_), waar u de [!DNL Payment Services] opties als uw [&#x200B; betalingsmethode &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/config/sales/payment-methods/payment-methods){target="_blank"} kunt toelaten.
 
 1. Stel _[!UICONTROL General Configuration]_&#x200B;in op **[!UICONTROL Enable]**&#x200B;in `Yes` .
 1. Stel **[!UICONTROL Payment Action]** voor zowel _[!UICONTROL Credit Card Fields]_&#x200B;als&#x200B;_[!UICONTROL PayPal payment buttons]_ in op een van de volgende opties:
@@ -43,7 +43,7 @@ Nadat u [&#x200B; uw Diensten van Commerce &#x200B;](connect.md#configure-commer
 
 1. Klik op **[!UICONTROL Save]**.
 1. Klik op **[!UICONTROL Go to Payment Services]** om terug te gaan naar [!DNL Payment Services] Home.
-1. [&#x200B; ontruim uw geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html).
+1. [&#x200B; ontruim uw geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cache-management.html?lang=nl-NL).
 
    Het ontruimen zou na elke configuratieverandering moeten worden gedaan.
 
@@ -131,7 +131,7 @@ Om uw opslag toe te laten om levend te gaan, verzoek betalingsrechten van Adobe 
 1. Vul het formulier in.
 1. Een lid van het verkoopteam zal contact met u opnemen.
 
-Alternatief, kunt u om betalingsrechten van Adobe bij [&#x200B; zaken.adobe.com verzoeken &#x200B;](https://business.adobe.com/resources/payment-services.html).
+Alternatief, kunt u om betalingsrechten van Adobe bij [&#x200B; zaken.adobe.com verzoeken &#x200B;](https://business.adobe.com/nl/resources/payment-services.html).
 
 >[!IMPORTANT]
 >
@@ -157,7 +157,7 @@ Live betalingen inschakelen:
 1. Klik in het Home op **[!UICONTROL Settings]** rechtsboven op de pagina. Zie [&#x200B; Huis &#x200B;](payments-home.md) voor meer informatie.
 1. In de _[!UICONTROL General Configuration]_-sectie ingesteld op **[!UICONTROL Payment mode]**`Production` .
 1. Klik op **[!UICONTROL Save]**.
-1. [&#x200B; ontruim uw geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
+1. [&#x200B; ontruim uw geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/tools/cache-management){target="_blank"}.
 
    >[!IMPORTANT]
    >

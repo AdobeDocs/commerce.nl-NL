@@ -1,18 +1,24 @@
 ---
-source-git-commit: 966daee60fa8945a68424fca8bda4fe4b9599872
+source-git-commit: 4515d13b53895511dcd33674ad9df24a9ea494dc
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 # Commerce-fragmenten
 
 
+## Merchandising Services for Optimizer {#aco-merchandising-services}
+
+>[!NOTE]
+>
+>Voor de oplossingen van Commerce die Adobe Commerce Optimizer of de schakelaar van Adobe Commerce Optimizer gebruiken, gebruik de [ Merchandising Services GraphQL API ](https://developer.adobe.com/commerce/services/optimizer/merchandising-services/using-the-api/) in plaats van de dienst GraphQL API van de Catalogus.
+
 ## Controle van de Synchronisatie van gegevens voor Optimizer {#aco-data-sync-verification}
 
 >[!NOTE]
 >
->Als u de [&#x200B; Schakelaar van Adobe Commerce Optimizer &#x200B;](../aco-connector/overview.md) hebt geïnstalleerd om catalogusgegevens naar Adobe Commerce Optimizer uit te voeren, gebruik de [&#x200B; pagina van de Status van de Synchronisatie van het Gegeven van Gegevens &#x200B;](../optimizer/setup/data-sync.md) in Commerce Optimizer UI om gegevens te controleren die met succes aan Adobe Commerce Optimizer in plaats van het Dashboard van het Beheer van Gegevens worden gesynchroniseerd.
+>Als u de [ Schakelaar van Adobe Commerce Optimizer ](../aco-connector/overview.md) hebt geïnstalleerd om catalogusgegevens naar Adobe Commerce Optimizer uit te voeren, gebruik de [ pagina van de Status van de Synchronisatie van het Gegeven van Gegevens ](../optimizer/setup/data-sync.md) in Commerce Optimizer UI om gegevens te controleren die met succes aan Adobe Commerce Optimizer in plaats van het Dashboard van het Beheer van Gegevens worden gesynchroniseerd.
 
 ## ACCS vroege toegang {#accs-early-access}
 
@@ -28,10 +34,10 @@ ht-degree: 0%
 <table style="table-layout:fixed">
   <tr>
     <td style="vertical-align: middle;"><a href="https://developer.adobe.com/commerce/webapi/"><img alt="Developers" src="../assets/icons/developers.svg" /> <strong>Developers</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/?lang=nl-NL"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/"><img alt="Storefront" src="../assets/icons/storefront.svg" /> <strong>Storefront</strong></a></td>
     <td style="vertical-align: middle;"><a href="../cloud-service/overview.md"><img alt="Merchants" src="../assets/icons/merchants.svg" /> <strong>Merchants</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
-    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/?lang=nl-NL"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/getting-started/commerce-as-a-cloud-service/overview"><img alt="Videos" src="../assets/icons/videos.svg" /> <strong>Videos</strong></a></td>
+    <td style="vertical-align: middle;"><a href="https://experienceleague.adobe.com/developer/commerce/storefront/playgrounds/commerce-services/"><img alt="Playgrounds" src="../assets/icons/playgrounds.svg" /> <strong>Playgrounds</strong></a></td>
   </tr>
 </table>
 
@@ -46,7 +52,7 @@ ht-degree: 0%
 >
 >Deze functie kan zonder voorafgaande kennisgeving worden gewijzigd.
 
-[!BADGE &#x200B; Sandbox &#x200B;]{type=Caution tooltip="De vermelde items zijn momenteel alleen beschikbaar in Sandbox-omgevingen. Adobe stelt nieuwe releases eerst beschikbaar in Sandbox-omgevingen om tijd te bieden voor het testen van aanstaande wijzigingen voordat de release beschikbaar is in Productomgevingen."}
+[!BADGE  Sandbox ]{type=Caution tooltip="De vermelde items zijn momenteel alleen beschikbaar in Sandbox-omgevingen. Adobe stelt nieuwe releases eerst beschikbaar in Sandbox-omgevingen om tijd te bieden voor het testen van aanstaande wijzigingen voordat de release beschikbaar is in Productomgevingen."}
 
 ## AEM Assets-instantietoewijzing {#aem-assets-instance-mapping}
 
@@ -58,7 +64,7 @@ ht-degree: 0%
 
 Adobe Commerce-identiteitsbeheer en -verificatie worden beheerd door het Adobe Identity Management System (IMS) via de Adobe Admin Console.
 
-Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van Adobe ID, Enterprise ID, en Federated ID, en instructies voor het vormen Enige Sign-On (SSO) voor veilige toegang tot Adobe apps, zie [&#x200B; de identiteit van de Opstelling en Enige Sign-On &#x200B;](https://helpx.adobe.com/nl/enterprise/using/set-up-identity.html) in de *Admin Console van de Onderneming* documentatie.
+Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van Adobe ID, Enterprise ID, en Federated ID, en instructies voor het vormen Enige Sign-On (SSO) voor veilige toegang tot Adobe apps, zie [ de identiteit van de Opstelling en Enige Sign-On ](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in de *Admin Console van de Onderneming* documentatie.
 
 ## ACCS-services en opmerkingen bij de uitbreidingsrelease {#accs-release}
 
@@ -68,7 +74,7 @@ Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van A
 
 | Services | Uitbreidbaarheid | Storefront |
 | --- | --- | --- |
-| <ul><li>[&#x200B; de Dienst van de Catalogus &#x200B;](../catalog-service/release-notes.md)</li><li>[&#x200B; Levend Onderzoek &#x200B;](../live-search/release-notes.md)</li><li>[&#x200B; de Diensten van de Betaling &#x200B;](../payment-services/release-notes.md)</li><li>[&#x200B; Aanbevelingen van het Product &#x200B;](../product-recommendations/release-notes.md)</li><li>[&#x200B; de Uitvoer van Gegevens SaaS &#x200B;](../data-export/release-notes.md)</li></ul> | <ul><li>[&#x200B; Admin UI SDK &#x200B;](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[&#x200B; API Net &#x200B;](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[&#x200B; Gebeurtenissen &#x200B;](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[&#x200B; Webhooks &#x200B;](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[&#x200B; de informatie van de Versie &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=nl-NL)</li><li>[&#x200B; Changelog &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=nl-NL)</li></ul> |
+| <ul><li>[ de Dienst van de Catalogus ](../catalog-service/release-notes.md)</li><li>[ Levend Onderzoek ](../live-search/release-notes.md)</li><li>[ de Diensten van de Betaling ](../payment-services/release-notes.md)</li><li>[ Aanbevelingen van het Product ](../product-recommendations/release-notes.md)</li><li>[ de Uitvoer van Gegevens SaaS ](../data-export/release-notes.md)</li></ul> | <ul><li>[ Admin UI SDK ](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/release-notes/)</li><li>[ API Net ](https://developer.adobe.com/graphql-mesh-gateway/mesh/release)</li><li>[ Gebeurtenissen ](https://developer.adobe.com/commerce/extensibility/events/release-notes/)</li><li>[ Webhooks ](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/)</li></ul> | <ul><li>[ de informatie van de Versie ](https://experienceleague.adobe.com/developer/commerce/storefront/releases/)</li><li>[ Changelog ](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/)</li></ul> |
 
 ## Opmerkingen bij de release Adobe Commerce Optimizer Services {#aco-release}
 
@@ -78,4 +84,4 @@ Voor informatie over de opties van de identiteitsconfiguratie met inbegrip van A
 
 | Services | Storefront |
 | --- | --- |
-| [&#x200B; de integratie van AEM Assets &#x200B;](../aem-assets-integration/release-notes.md)<br>[&#x200B; schakelaar van Commerce Optimizer &#x200B;](../aco-connector/release-notes.md) | [&#x200B; de versieinformatie van de Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/?lang=nl-NL) <br>[&#x200B; veranderd Storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/?lang=nl-NL) |
+| [ de integratie van AEM Assets ](../aem-assets-integration/release-notes.md)<br>[ schakelaar van Commerce Optimizer ](../aco-connector/release-notes.md) | [ de versieinformatie van de Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/releases/) <br>[ veranderd Storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/releases/changelog/) |

@@ -4,9 +4,9 @@ user-guide-description: Deze handleiding bevat gedetailleerde instructies voor h
 hide: true
 role: Admin
 feature: Services, Price Indexer
-source-git-commit: d5f1589ececaa4f9ba64b0feb76acfb314720cb7
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
@@ -16,5 +16,5 @@ ht-degree: 0%
 - [Overzicht van prijsindexering voor SaaS](price-indexing.md)
 - Catalogusadapter {#catalog-adapter}
    - [Overzicht](catalog-adapter.md)
-   - [Aanvullende informatie](release-notes.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)
+   - [Opmerkingen bij de release](release-notes.md)
+- [Terug naar Commerce Services Home](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)

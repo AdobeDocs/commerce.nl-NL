@@ -9,9 +9,9 @@ level: Intermediate
 type: Tutorial
 hide: true
 hidefromtoc: true
-source-git-commit: ce8882b8af21198a7bc57bc58124e8a2d1491a50
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2693'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U bouwt twee delen:
 >
 >AI-agentia zijn niet deterministisch. De vragen, vragen en resultaten in deze zelfstudie zijn voorbeelden. Uw agent kan verschillende vragen, vereisten, of architectuurvoorstellen veroorzaken. Gebruik de voorbeelden in deze zelfstudie om de agent naar een vergelijkbaar resultaat te sturen.
 
-Alvorens u begint, voltooi de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md). Dit leerprogramma gebruikt de **uitrusting van de integratieaanzet**. Controleer of u de toepassing al hebt gekloond en voltooi de stappen die op de pagina met voorwaarden worden beschreven.
+Alvorens u begint, voltooi de [ eerste vereisten ](./tutorial-prerequisites.md). Dit leerprogramma gebruikt de **uitrusting van de integratieaanzet**. Controleer of u de toepassing al hebt gekloond en voltooi de stappen die op de pagina met voorwaarden worden beschreven.
 
 ## Voorwaarden verifiëren
 
@@ -49,12 +49,12 @@ git --version
 bash --version
 ```
 
-Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md) voor begeleiding.
+Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [ eerste vereisten ](./tutorial-prerequisites.md) voor begeleiding.
 
 Controleer ook het volgende:
 
-- U hebt een [!DNL Adobe Commerce as a Cloud Service] -instantie met productgegevens. Zie {de instanties van de Dienst van 0} Commerce Cloud [.](https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/overview){target="_blank"}
-- Er is een storefront-project verbonden met uw [!DNL Commerce] -instantie. Als u geen hebt, volg de stappen in [&#x200B; creeer een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/?lang=nl-NL){target="_blank"}.
+- U hebt een [!DNL Adobe Commerce as a Cloud Service] -instantie met productgegevens. Zie {de instanties van de Dienst van 0} Commerce Cloud ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}.[
+- Er is een storefront-project verbonden met uw [!DNL Commerce] -instantie. Als u geen hebt, volg de stappen in [ creeer een storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}.
 - De `aem` CLI is geïnstalleerd:
 
   ```bash
@@ -176,9 +176,9 @@ Nadat de agent de implementatie heeft voltooid, bevat deze de volgende stappen o
 
    Er moet een gebeurtenisoverzicht worden weergegeven.
 
-   ![&#x200B; Commerce Admin menu die de sectie van het Abonnement van de Gebeurtenis benadrukken &#x200B;](../assets/in-stock-event-subscriptions.png){width="600" zoomable="yes"}
+   ![ Commerce Admin menu die de sectie van het Abonnement van de Gebeurtenis benadrukken ](../assets/in-stock-event-subscriptions.png){width="600" zoomable="yes"}
 
-   ![&#x200B; de abonnementlijst van de Gebeurtenis met geregistreerde gebeurtenisingangen &#x200B;](../assets/in-stock-event-table.png){width="600" zoomable="yes"}
+   ![ de abonnementlijst van de Gebeurtenis met geregistreerde gebeurtenisingangen ](../assets/in-stock-event-table.png){width="600" zoomable="yes"}
 
 ### Stap 6: Test de extensie
 
@@ -236,17 +236,17 @@ De reactie retourneert een lijst met alle actieve abonnementen:
 1. Stel de status van de productvoorraad in op **[!UICONTROL Out of Stock]** .
 1. Wacht ongeveer één minuut en schakel de voorraadstatus terug naar **[!UICONTROL In Stock]**.
 
-   ![&#x200B; Commerce Admin product geeft pagina uit die de drop-down van de Status van de Voorraad met In Voorraad en uit de opties van de Voorraad &#x200B;](../assets/in-stock-product-stock-status-toggle.png){width="600" zoomable="yes"} toont
+   ![ Commerce Admin product geeft pagina uit die de drop-down van de Status van de Voorraad met In Voorraad en uit de opties van de Voorraad ](../assets/in-stock-product-stock-status-toggle.png){width="600" zoomable="yes"} toont
 
 1. Wacht ongeveer vijf minuten totdat de gebeurtenis wordt geactiveerd en naar de service wordt verzonden.
 
 1. Navigeer in [!DNL Adobe Developer Console] naar de sectie App Builder-logbestanden.
 
-   ![&#x200B; Adobe Developer Console App Builder logboeken sectie &#x200B;](../assets/in-stock-developer-console-logs.png){width="600" zoomable="yes"}
+   ![ Adobe Developer Console App Builder logboeken sectie ](../assets/in-stock-developer-console-logs.png){width="600" zoomable="yes"}
 
 1. Controleer in de logboeken of er items zijn die bevestigen dat de gebeurtenis is verwerkt en dat het juiste e-mail-SKU-abonnementspaar is geïdentificeerd.
 
-   ![&#x200B; het logboekingangen van App Builder die file-in-voorraad gebeurtenisverwerking &#x200B;](../assets/in-stock-log-entries.png){width="600" zoomable="yes"} tonen
+   ![ het logboekingangen van App Builder die file-in-voorraad gebeurtenisverwerking ](../assets/in-stock-log-entries.png){width="600" zoomable="yes"} tonen
 
 >[!TIP]
 >
@@ -281,7 +281,7 @@ Deze sectie begeleidt u door het storefront gedeelte van de uitbreiding van het 
 Voordat u de storefront-integratie start, moet u controleren of u over het volgende beschikt:
 
 - Een storefront-project dat is verbonden met uw [!DNL Commerce] -instantie
-- Commerce storefront AI hulpmiddelen [&#x200B; geïnstalleerd gebruikend CLI &#x200B;](./tutorial-prerequisites.md#install-the-storefront-ai-tools)
+- Commerce storefront AI hulpmiddelen [ geïnstalleerd gebruikend CLI ](./tutorial-prerequisites.md#install-the-storefront-ai-tools)
 - Het bestand `OUT_OF_STOCK_NOTIFICATION_CONTRACT.md` dat naar het winkelproject is gekopieerd
 
 ### Stap 1: De omgeving valideren
@@ -295,7 +295,7 @@ Open het `config.json` -bestand en controleer of de waarden voor `commerce-core-
 
 ### Stap 2: Geef de eerste prompt op
 
-Met het de dienstcontract reeds in uw project, vraag de agent om UI in de pagina van productdetails tot stand te brengen. Het gebruik **wijze van het Plan van 0&rbrace; als beschikbaar in uw agent, om de agent te verhinderen zonder een plan te werk te gaan.**
+Met het de dienstcontract reeds in uw project, vraag de agent om UI in de pagina van productdetails tot stand te brengen. Het gebruik **wijze van het Plan van 0} als beschikbaar in uw agent, om de agent te verhinderen zonder een plan te werk te gaan.**
 
 ```shell-session
 Analyze @OUT_OF_STOCK_NOTIFICATION_CONTRACT.md. Add a form for subscribing to a notification for when a product is back in stock. Place this form on the product details page, underneath the add to cart and wishlist button. The form only displays when a product is out of stock. 
@@ -398,7 +398,7 @@ U kunt het manueel testen doen of de agent vragen om zijn browser mogelijkheden 
 Run complete browser testing. Use the following out of stock product 'http://localhost:3000/products/<out-of-stock-product-slug>/<sku>'
 ```
 
-![&#x200B; de detailpagina die van het Product de rug-in-voorraad meldingsvorm tonen onder toevoegt aan de knoop van het karretje &#x200B;](../assets/in-stock-notification-form.png){width="600" zoomable="yes"}
+![ de detailpagina die van het Product de rug-in-voorraad meldingsvorm tonen onder toevoegt aan de knoop van het karretje ](../assets/in-stock-notification-form.png){width="600" zoomable="yes"}
 
 ### Stap 7: Overbodig verwijderen
 

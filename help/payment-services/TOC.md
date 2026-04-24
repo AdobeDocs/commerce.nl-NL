@@ -1,14 +1,14 @@
 ---
-user-guide-title: '[!DNL Payment Services] Handleiding'
+user-guide-title: '[!DNL Payment Services] Hulplijn'
 user-guide-description: Deze gids verstrekt gedetailleerde informatie over het installeren van en het vormen  [!DNL Payment Services]  voor uw  [!DNL Adobe Commerce]  of  [!DNL Magento Open Source]  opslag.
 index: true
 role: Admin, Leader, User
 feature: Payments, Checkout
 recommendations: noDisplay
-source-git-commit: 870c2497a2d6dcfc4066c07f20169fc9040ae81a
+source-git-commit: ba445bf33ec9334c853245fce125af12cd244367
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '110'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 - [Overzicht van hulplijnen](guide-overview.md)
 - [Inleiding tot  [!DNL Payment Services]](introduction.md)
 - [Compatibiliteit voor  [!DNL Payment Services]](compatibility.md)
-- [Opmerkingen bij de release](release-notes.md)
+- [Aanvullende informatie](release-notes.md)
 - Aan boord [!DNL Payment Services] {#get-started}
    - [Overzicht van onboarding](onboard.md)
    - [Installeer de  [!DNL Payment Services]  uitbreiding](install.md)
@@ -49,4 +49,4 @@ ht-degree: 0%
 - Beveiliging en naleving {#security-compliance}
    - [Beveiliging](security.md)
    - [Ondertekening van de fraudebescherming](fraud-protection.md)
-- [&#x200B; Terugkeer aan het Huis van de Diensten van Commerce &#x200B;](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html?lang=nl-NL)
+- [Terug naar Commerce Services Home](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)

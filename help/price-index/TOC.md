@@ -17,4 +17,4 @@ ht-degree: 0%
 - Catalogusadapter {#catalog-adapter}
    - [Overzicht](catalog-adapter.md)
    - [Opmerkingen bij de release](release-notes.md)
-- [Terug naar Commerce Services Home](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html)
+- [Terug naar Commerce Services Home](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=nl-NL)

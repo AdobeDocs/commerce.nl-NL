@@ -49,4 +49,4 @@ ht-degree: 1%
 - Beveiliging en naleving {#security-compliance}
    - [Beveiliging](security.md)
    - [Ondertekening van de fraudebescherming](fraud-protection.md)
-- [Terug naar Commerce Services Home](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)
+- [Terug naar Commerce Services Home](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html?lang=nl-NL)

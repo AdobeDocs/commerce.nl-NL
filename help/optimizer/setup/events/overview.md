@@ -174,4 +174,4 @@ In deze tabel worden de gebeurtenissen beschreven die door elk type aanbeveling 
 
 ## Ondersteuning
 
-Als u om het even welke gegevensdiscrepanties opmerkt of als de aanbevelingen en de onderzoeksresultaten niet zoals verwacht werken, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).
+Als u om het even welke gegevensdiscrepanties opmerkt of als de aanbevelingen en de onderzoeksresultaten niet zoals verwacht werken, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide).

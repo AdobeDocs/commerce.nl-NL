@@ -23,20 +23,20 @@ Dit artikel is bedoeld voor de ontwikkelaar of systeemintegrator in uw team die 
 
 ## Vereisten
 
-- [ Adobe Commerce ](https://business.adobe.com/products/magento/magento-commerce.html) 2.4.4+
+- [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html) 2.4.4+
 - PHP 8.1, 8.2, 8.3 of 8.4
 - [!DNL Composer]
 - Snijtaken en indexeerders uitvoeren
 
 >[!IMPORTANT]
 >
->Alvorens [!DNL Live Search] uit te voeren, zie de [ Grenzen en 2} sectie van Beperkingen {om ervoor te zorgen dat [!DNL Live Search] uw bedrijfsbehoeften past.](boundaries-limits.md)
+>Alvorens [!DNL Live Search] uit te voeren, zie de [&#x200B; Grenzen en 2&rbrace; sectie van Beperkingen &lbrace;om ervoor te zorgen dat [!DNL Live Search] uw bedrijfsbehoeften past.](boundaries-limits.md)
 
 ## Belangrijke updates
 
 - Vanaf [!DNL Live Search] 3.0.2 wordt de extensie [!DNL Catalog Service] gebundeld met de installatie.
 
-- Vanaf [!DNL Live Search] 4.0.0, is de onderzoeksadapter [ afgekeurd ](release-notes.md#live-search-400) geweest.
+- Vanaf [!DNL Live Search] 4.0.0, is de onderzoeksadapter [&#x200B; afgekeurd &#x200B;](release-notes.md#live-search-400) geweest.
 
 ## Ondersteunde platforms
 
@@ -49,24 +49,24 @@ Dit artikel is bedoeld voor de ontwikkelaar of systeemintegrator in uw team die 
 >
 > Live zoeken is geen service die geschikt is voor HIPAA. Als u Adobe Commerce gebruikt met de HIPAA-Ready extensie en de invoegtoepassing Gezondheidszorg, moet u Live Search niet inschakelen in omgevingen waar mogelijk beschermde gezondheidsinformatie (PHI) wordt verwerkt.
 >
-> Voor details, zie [ gereedheid van HIPAA op Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) en [ Verrichtingen ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/operations) begeleiding, die van Levend Onderzoek onder de niet-HIPAA klaar diensten van Commerce een lijst maakt.
+> Voor details, zie [&#x200B; gereedheid van HIPAA op Adobe Commerce &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) en [&#x200B; Verrichtingen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/operations) begeleiding, die van Levend Onderzoek onder de niet-HIPAA klaar diensten van Commerce een lijst maakt.
 
 ## Workflowoverzicht
 
 Op een hoog niveau is het vereist dat u: [!DNL Live Search]
 
-1. [ installeer ](#install) de [!DNL Live Search] uitbreiding
-1. [ vorm ](#configure) de API sleutels
-1. [ Synchroniseer ](#sync) uw catalogusgegevens
-1. [ verifieer ](#verify) dat de catalogusgegevens werden uitgevoerd
-1. [ vorm ](#configuredata) de gegevens
-1. [ Test ](#test) de verbinding
-1. [ bevestigt ](#capture) dat de gebeurtenissen gegevens vangen
-1. [ pas ](#customize) uw storefront aan
+1. [&#x200B; installeer &#x200B;](#install) de [!DNL Live Search] uitbreiding
+1. [&#x200B; vorm &#x200B;](#configure) de API sleutels
+1. [&#x200B; Synchroniseer &#x200B;](#sync) uw catalogusgegevens
+1. [&#x200B; verifieer &#x200B;](#verify) dat de catalogusgegevens werden uitgevoerd
+1. [&#x200B; vorm &#x200B;](#configuredata) de gegevens
+1. [&#x200B; Test &#x200B;](#test) de verbinding
+1. [&#x200B; bevestigt &#x200B;](#capture) dat de gebeurtenissen gegevens vangen
+1. [&#x200B; pas &#x200B;](#customize) uw storefront aan
 
 ## &#x200B;1. De extensie [!DNL Live Search] installeren {#install}
 
-[!DNL Live Search] is geïnstalleerd als uitbreiding van [ Adobe Marketplace ](https://commercemarketplace.adobe.com/magento-live-search.html) door [ Composer ](https://getcomposer.org/). Nadat u [!DNL Live Search] hebt geïnstalleerd en geconfigureerd, begint Adobe [!DNL Commerce] met het delen van zoek- en catalogusgegevens met SaaS-services. Op dit punt, *Admin* kunnen de gebruikers opstelling, aanpassen, en onderzoeksfacetten, synoniemen, en handelswijzigingsregels beheren.
+[!DNL Live Search] is geïnstalleerd als uitbreiding van [&#x200B; Adobe Marketplace &#x200B;](https://commercemarketplace.adobe.com/magento-live-search.html) door [&#x200B; Composer &#x200B;](https://getcomposer.org/). Nadat u [!DNL Live Search] hebt geïnstalleerd en geconfigureerd, begint Adobe [!DNL Commerce] met het delen van zoek- en catalogusgegevens met SaaS-services. Op dit punt, *Admin* kunnen de gebruikers opstelling, aanpassen, en onderzoeksfacetten, synoniemen, en handelswijzigingsregels beheren.
 
 >[!BEGINTABS]
 
@@ -74,7 +74,7 @@ Op een hoog niveau is het vereist dat u: [!DNL Live Search]
 
 Volg deze instructies als u [!DNL Live Search] op een nieuw Commerce-exemplaar installeert.
 
-1. Bevestig dat [ gewassenbanen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen.
+1. Bevestig dat [&#x200B; gewassenbanen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen.
 
 1. Gebruik Composer om de module Live zoeken toe te voegen aan uw project:
 
@@ -102,7 +102,7 @@ Volg deze instructies als u [!DNL Live Search] op een nieuw Commerce-exemplaar i
    bin/magento setup:upgrade
    ```
 
-1. Verifieer dat de volgende [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
+1. Verifieer dat de volgende [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
 
    - Productfeed
    - Diervoeders voor productvarianten
@@ -113,13 +113,13 @@ Volg deze instructies als u [!DNL Live Search] op een nieuw Commerce-exemplaar i
    - Diervoeders voor categorieën
    - Diervoeders voor categorierechten
 
-Na het verifiëren van de indexen, is de volgende stap de API sleutels [ te vormen ](#2-configure-api-keys).
+Na het verifiëren van de indexen, is de volgende stap de API sleutels [&#x200B; te vormen &#x200B;](#2-configure-api-keys).
 
 >[!TAB  Bestaande instantie van Commerce ]
 
 Volg deze instructies als u [!DNL Live Search] op een bestaande Commerce-instantie installeert.
 
-1. Bevestig dat [ gewassenbanen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen.
+1. Bevestig dat [&#x200B; gewassenbanen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) en [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) lopen.
 
 1. Gebruik Composer om de module Live zoeken toe te voegen aan uw project:
 
@@ -147,7 +147,7 @@ Volg deze instructies als u [!DNL Live Search] op een bestaande Commerce-instant
    bin/magento setup:upgrade
    ```
 
-1. Verifieer dat de volgende [ indexeerders ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
+1. Verifieer dat de volgende [&#x200B; indexeerders &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management) aan &quot;Update door Programma&quot;worden geplaatst:
 
    - Productfeed
    - Diervoeders voor productvarianten
@@ -178,7 +178,7 @@ Volg deze instructies als u [!DNL Live Search] op een bestaande Commerce-instant
    bin/magento setup:upgrade
    ```
 
-Na het verifiëren van de indexen, is de volgende stap de API sleutels [ te vormen ](#2-configure-api-keys).
+Na het verifiëren van de indexen, is de volgende stap de API sleutels [&#x200B; te vormen &#x200B;](#2-configure-api-keys).
 
 >[!ENDTABS]
 
@@ -186,7 +186,7 @@ Na het verifiëren van de indexen, is de volgende stap de API sleutels [ te vorm
 
 De Adobe Commerce API-sleutel en de bijbehorende persoonlijke sleutel zijn vereist om [!DNL Live Search] te verbinden met een installatie van Adobe Commerce. De API-sleutel wordt gegenereerd en onderhouden in de account van de [!DNL Commerce] -licentienemer, die deze kan delen met de ontwikkelaar of de systeemintegrator. De ontwikkelaar kan vervolgens de SaaS-gegevensruimten maken en beheren namens de licentiehouder. Als u al een set API-sleutels hebt, hoeft u deze niet opnieuw te genereren.
 
-Leer hoe te om uw API sleutels in het [ 1} artikel van de Schakelaar van de Diensten van Commerce te vormen.](../landing/saas.md)
+Leer hoe te om uw API sleutels in het [&#x200B; 1&rbrace; artikel van de Schakelaar van de Diensten van Commerce te vormen.](../landing/saas.md)
 
 ## &#x200B;3. De catalogusgegevens synchroniseren {#sync}
 
@@ -214,15 +214,15 @@ Wanneer u deze opdrachten uitvoert, begint de eerste synchronisatie van de catal
 
 ### Synchronisatievoortgang controleren
 
-Gebruik het [ dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) om synchronisatievooruitgang te controleren. Dit dashboard biedt waardevolle inzichten in de beschikbaarheid van productgegevens in uw winkel, zodat deze direct aan klanten kunnen worden weergegeven.
+Gebruik het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard) om synchronisatievooruitgang te controleren. Dit dashboard biedt waardevolle inzichten in de beschikbaarheid van productgegevens in uw winkel, zodat deze direct aan klanten kunnen worden weergegeven.
 
-![ Dashboard van het Beheer van Gegevens ](assets/data-management-dashboard.png)
+![&#x200B; Dashboard van het Beheer van Gegevens &#x200B;](assets/data-management-dashboard.png)
 
-U kunt synchronisatiebevelen ook in werking stellen en het synchronisatieproces problemen oplossen gebruikend [ Commerce CLI ](../data-export/data-export-cli-commands.md#troubleshooting) en de logboeken van de gegevensuitvoer.
+U kunt synchronisatiebevelen ook in werking stellen en het synchronisatieproces problemen oplossen gebruikend [&#x200B; Commerce CLI &#x200B;](../data-export/data-export-cli-commands.md#troubleshooting) en de logboeken van de gegevensuitvoer.
 
 #### Updates voor toekomstige producten
 
-Na de eerste synchronisatie kan het tot 15 minuten duren voordat de incrementele productupdates beschikbaar komen voor het zoeken naar een winkel. Om meer te leren, zie {de Updates van het Product van 0} Streaming ](indexing.md) in de Indexerende documentatie.[
+Na de eerste synchronisatie kan het tot 15 minuten duren voordat de incrementele productupdates beschikbaar komen voor het zoeken naar een winkel. Om meer te leren, zie {de Updates van het Product van 0} Streaming [&#128279;](indexing.md) in de Indexerende documentatie.
 
 ## &#x200B;4. Controleren of de gegevens zijn geëxporteerd {#verify}
 
@@ -237,12 +237,12 @@ Als u wilt controleren of uw catalogusgegevens uit Adobe Commerce zijn geëxport
   >
   >Als u een `table does not exist` -fout krijgt, zoekt u naar items in de tabellen `catalog_data_exporter_products` en `catalog_data_exporter_product_attributes` . Deze tabelnamen worden gebruikt in eerdere [!DNL Live Search] versies dan 4.2.1.
 
-- Gebruik [ playground van GraphQL ](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/graphql) met de standaardvraag (zie [ verwijzing van GraphQL ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) voor meer details) om het volgende te verifiëren:
+- Gebruik [&#x200B; playground van GraphQL &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/graphql) met de standaardvraag (zie [&#x200B; verwijzing van GraphQL &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/) voor meer details) om het volgende te verifiëren:
 
    - Het aantal geretourneerde producten ligt dicht bij wat u voor de winkelweergave verwacht.
    - Facetten worden geretourneerd.
 
-Voor extra hulp, zie [[!DNL Live Search]  niet gesynchroniseerde catalogus ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync) in de Kennisbank van de Steun.
+Voor extra hulp, zie [[!DNL Live Search]  niet gesynchroniseerde catalogus &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-catalog-data-sync) in de Kennisbank van de Steun.
 
 ## &#x200B;5. De gegevens configureren {#configuredata}
 
@@ -250,7 +250,7 @@ Als u uw productgegevens correct configureert, bent u verzekerd van goede zoekre
 
 ### Widgets voor productaanbiedingen inschakelen
 
-Wanneer u [!DNL Live Search] 4.0.0+ installeert, zijn de widgets voor productlijsten standaard ingeschakeld. Wanneer widgets zijn ingeschakeld, wordt een andere UI-component gebruikt voor de zoekresultaten en bladeren in categorieën door pagina&#39;s met productlijsten. Deze component UI doet directe vraag aan de [ Dienst API van de Catalogus ](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/), die in snellere reactietijden resulteert.
+Wanneer u [!DNL Live Search] 4.0.0+ installeert, zijn de widgets voor productlijsten standaard ingeschakeld. Wanneer widgets zijn ingeschakeld, wordt een andere UI-component gebruikt voor de zoekresultaten en bladeren in categorieën door pagina&#39;s met productlijsten. Deze component UI doet directe vraag aan de [&#x200B; Dienst API van de Catalogus &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/live-search/queries/product-search/), die in snellere reactietijden resulteert.
 
 Als u een [!DNL Live Search] -versie hebt die ouder is dan 4.0.0+, moet u de widget Productaanbieding handmatig inschakelen.
 
@@ -258,11 +258,11 @@ Als u een [!DNL Live Search] -versie hebt die ouder is dan 4.0.0+, moet u de wid
 1. Selecteer onder **[!UICONTROL Live Search]** de optie **[!UICONTROL Storefront Features]** .
 1. Stel **[!UICONTROL Enable Product Listing Widgets]** in op `Yes` .
 
-   ![ laat het Lijst van het Product toe Widgets ](assets/ls-admin-enable-widget.png)
+   ![&#x200B; laat het Lijst van het Product toe Widgets &#x200B;](assets/ls-admin-enable-widget.png)
 
 Wanneer u deze configuratie wijzigt, verschijnt het bericht `Page cache is invalidated` . U moet de Magento Cache leegmaken om de wijziging op te slaan.
 
-1. Heb toegang tot de [ pagina van het Beheer van het Geheime voorgeheugen ](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management) door één van het volgende te doen:
+1. Heb toegang tot de [&#x200B; pagina van het Beheer van het Geheime voorgeheugen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management) door één van het volgende te doen:
 
    - Klik op de koppeling **[!UICONTROL Cache Management]** in het bericht boven de werkruimte.
    - Voor _Admin_ sidebar, ga **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
@@ -273,7 +273,7 @@ Wanneer u deze configuratie wijzigt, verschijnt het bericht `Page cache is inval
 
 ### Categorieën toewijzen
 
-De producten die in [!DNL Live Search] zijn teruggekeerd moeten aan a [ worden toegewezen categorie ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories). In Luma worden producten bijvoorbeeld ingedeeld in categorieën zoals &quot;Mannen&quot;, &quot;Vrouwen&quot; en &quot;Luma&quot;. Subcategorieën worden ook ingesteld voor Tops, Bottoms en Watches. Deze categorietoewijzingen verbeteren de granulariteit bij het filteren.
+De producten die in [!DNL Live Search] zijn teruggekeerd moeten aan a [&#x200B; worden toegewezen categorie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/categories). In Luma worden producten bijvoorbeeld ingedeeld in categorieën zoals &quot;Mannen&quot;, &quot;Vrouwen&quot; en &quot;Luma&quot;. Subcategorieën worden ook ingesteld voor Tops, Bottoms en Watches. Deze categorietoewijzingen verbeteren de granulariteit bij het filteren.
 
 ## &#x200B;6. De verbinding testen {#test}
 
@@ -293,15 +293,15 @@ Als u [!DNL Live Search] wilt toestaan via een firewall, voegt u `commerce.adobe
 
 Zorg ervoor dat de storefront-gebeurtenissen die op uw site zijn geïmplementeerd, werken. Deze controle is vooral belangrijk voor implementatie zonder kop.
 
-- Herzie de [ gebeurtenissen ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search) die voor [!DNL Live Search] worden vereist.
-- Zorg ervoor dat het [ Levende dashboard van het Onderzoek ](performance.md) gegevens van uw niet-productiemilieu(s) toont.
-- [ verifieer gebeurtenisinzameling ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/).
+- Herzie de [&#x200B; gebeurtenissen &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/#live-search) die voor [!DNL Live Search] worden vereist.
+- Zorg ervoor dat het [&#x200B; Levende dashboard van het Onderzoek &#x200B;](performance.md) gegevens van uw niet-productiemilieu(s) toont.
+- [&#x200B; verifieer gebeurtenisinzameling &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/collector/verify/).
 
 ## &#x200B;8. Aanpassen voor je winkel {#customize}
 
 U hebt de extensie [!DNL Live Search] geïnstalleerd, gesynchroniseerd, gevalideerd en geconfigureerd. De volgende stap is ervoor te zorgen dat de [!DNL Live Search] widgets in overeenstemming zijn met het uiterlijk van uw winkel.
 
-U kunt de popover- en PLP-widgets opmaken door desgewenst aangepaste CSS-regels te definiëren. Zie [ het Stijlen Popover Elementen ](storefront-popover.md#styling-popover-example) en [ product die pagina widget ](plp-styling.md#styling-example) van de lijst voorzien.
+U kunt de popover- en PLP-widgets opmaken door desgewenst aangepaste CSS-regels te definiëren. Zie [&#x200B; het Stijlen Popover Elementen &#x200B;](storefront-popover.md#styling-popover-example) en [&#x200B; product die pagina widget &#x200B;](plp-styling.md#styling-example) van de lijst voorzien.
 
 Als u de functionaliteit van de widgets wilt uitbreiden, is de broncode voor elke widget beschikbaar in een openbare reactie.
 In dit scenario, kunt u JavaScript voor uw eigen behoeften aanpassen en dan uw douanecode ontvangen op uw CDN. Dit aangepaste script communiceert met de service [!DNL Live Search] en retourneert de resultaten zoals normaal, zodat u de functionaliteit van de widget kunt beheren.
@@ -357,7 +357,7 @@ Als u een update wilt uitvoeren naar een belangrijke versie zoals 3.1.1 en 4.0.0
 
 ## [!DNL Live Search] verwijderen
 
-Om [!DNL Live Search] te desinstalleren, verwijs naar [ modules van de Desinstallatie ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules).
+Om [!DNL Live Search] te desinstalleren, verwijs naar [&#x200B; modules van de Desinstallatie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules).
 
 ## [!DNL Live Search] pakketten
 
@@ -368,7 +368,7 @@ De extensie [!DNL Live Search] bestaat uit de volgende pakketten:
 | `module-live-search` | Staat verkopers toe om hun onderzoeksmontages voor facetting, synoniemen, vraagregels, etc. te vormen, en verleent toegang tot read-only GraphQL playground om vragen van *te testen Admin*. |
 | `module-live-search-storefront-popover` | De pop-up &#39;&#39;Zoeken terwijl u typt&#39;&#39; vervangt de standaard snelle zoekopdracht en retourneert gegevens en miniaturen van de bovenste zoekresultaten. |
 | `module-live-search-product-listing` | Biedt dekking voor zowel zoekresultaten als bladerresultaten (PLP) en bevat de facetten, sortering en productkaartgebieden op de pagina. |
-| `module-live-search-adapter` | **(Vanaf [!DNL Live Search] 4.0.0, is de onderzoeksadapter [ afgekeurd ](release-notes.md#live-search-400).)** Routes onderzoeksverzoeken van de storefront aan de [!DNL Live Search] dienst en geeft de resultaten in de storefront terug. <br /> - de Categorie doorbladert - Routes verzoekt van de storefront [ hoogste navigatie ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) aan de onderzoeksdienst.<br /> - Globale onderzoek - Routes verzoekt van het [ snelle onderzoek ](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) gebied aan de [!DNL Live Search] dienst. Het snelzoekveld bevindt zich in de rechterbovenhoek van de winkelpagina. |
+| `module-live-search-adapter` | **(Vanaf [!DNL Live Search] 4.0.0, is de onderzoeksadapter [&#x200B; afgekeurd &#x200B;](release-notes.md#live-search-400).)** Routes onderzoeksverzoeken van de storefront aan de [!DNL Live Search] dienst en geeft de resultaten in de storefront terug. <br /> - de Categorie doorbladert - Routes verzoekt van de storefront [&#x200B; hoogste navigatie &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) aan de onderzoeksdienst.<br /> - Globale onderzoek - Routes verzoekt van het [&#x200B; snelle onderzoek &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search) gebied aan de [!DNL Live Search] dienst. Het snelzoekveld bevindt zich in de rechterbovenhoek van de winkelpagina. |
 
 ## [!DNL Live Search] afhankelijkheden
 
@@ -406,7 +406,7 @@ Adobe raadt aan de SaaS APIs rechtstreeks aan te roepen — met name het eindpun
 - Verhoog de prestaties en verlaag de processorbelasting door het Commerce-database/Graphql-proces te omzeilen
 - Haal voordeel uit de [!DNL Catalog Service] -federatie om [!DNL Live Search] , [!DNL Catalog Service] en [!DNL Product Recommendations] vanaf één eindpunt aan te roepen.
 
-In sommige gevallen is het beter om [!DNL Catalog Service] op te roepen voor productdetails en vergelijkbare gevallen. Zie [ refineProduct ](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/refine-product/) voor meer informatie.
+In sommige gevallen is het beter om [!DNL Catalog Service] op te roepen voor productdetails en vergelijkbare gevallen. Zie [&#x200B; refineProduct &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/catalog-service/queries/refine-product/) voor meer informatie.
 
 Als u een aangepaste implementatie zonder kop hebt, checkt u de [!DNL Live Search] referentie-implementaties uit:
 
@@ -462,7 +462,7 @@ De meest recente versie van [!DNL Live Search] gebruikt [!DNL Catalog Service] a
 
 Als de widget detecteert dat de taalinstelling voor Commerce Admin overeenkomt met een ondersteunde taal, wordt deze taal standaard gebruikt. Anders is de widget standaard ingesteld op Engels. In de beheerfunctie wordt de taalinstelling geconfigureerd door te navigeren naar _[!UICONTROL Stores]_> [!UICONTROL Settings] >_[!UICONTROL Configuration]_ > _[!UICONTROL General]_> [!UICONTROL Country Options] .
 
-Admins kan de taal van de [ onderzoeksindex ](settings.md#language) ook plaatsen, helpen betere onderzoeksresultaten verzekeren.
+Admins kan de taal van de [&#x200B; onderzoeksindex &#x200B;](settings.md#language) ook plaatsen, helpen betere onderzoeksresultaten verzekeren.
 
 ### Widget-codeopslagplaats
 
@@ -475,17 +475,17 @@ Ontwikkelaars die toegang hebben tot de code, kunnen de werking en het uiterlijk
 
 ### Extensie Gegevens
 
-Nadat [!DNL Live Search] is ingeschakeld, synchroniseert de extensie Gegevens exporteren Commerce-gegevens tussen de Commerce-toepassing en [!DNL Live Search] . Dit proces zorgt ervoor dat de meest recente Commerce-gegevens beschikbaar zijn in de winkel. In Admin, kunt u synchronisatiestatus controleren gebruikend het dashboard van het Beheer van Gegevens. U kunt het gegevensexportproces beheren en problemen oplossen met de Commerce CLI en de logboeken. Voor details, zie de [ Gids van de Uitvoer van Gegevens ](../data-export/overview.md).
+Nadat [!DNL Live Search] is ingeschakeld, synchroniseert de extensie Gegevens exporteren Commerce-gegevens tussen de Commerce-toepassing en [!DNL Live Search] . Dit proces zorgt ervoor dat de meest recente Commerce-gegevens beschikbaar zijn in de winkel. In Admin, kunt u synchronisatiestatus controleren gebruikend het dashboard van het Beheer van Gegevens. U kunt het gegevensexportproces beheren en problemen oplossen met de Commerce CLI en de logboeken. Voor details, zie de [&#x200B; Gids van de Uitvoer van Gegevens &#x200B;](../data-export/overview.md).
 
 ### Inventory management
 
-[!DNL Live Search] steunt [ Inventory management ](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u ](install.md#updating-live-search) de gebiedsdeelmodule `commerce-data-export` aan versie 102.2.0+ bijwerken.[
+[!DNL Live Search] steunt [&#x200B; Inventory management &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/introduction) mogelijkheden in Commerce (weet vroeger als Voorraad Multi-Source, of MSI). Om volledige steun toe te laten, moet u [&#128279;](install.md#updating-live-search) de gebiedsdeelmodule `commerce-data-export` aan versie 102.2.0+ bijwerken.
 
 [!DNL Live Search] retourneert een Booleaanse waarde die aangeeft of een product beschikbaar is in Inventory management, maar die geen informatie bevat over de bron die de voorraad heeft.
 
 ### Prijsindexering
 
-[!DNL Live Search] klanten kunnen [ SaaS prijsindexeerder ](../price-index/price-indexing.md) gebruiken, die snellere de updates van de prijsverandering en synchronisatietijd verstrekt.
+[!DNL Live Search] klanten kunnen [&#x200B; SaaS prijsindexeerder &#x200B;](../price-index/price-indexing.md) gebruiken, die snellere de updates van de prijsverandering en synchronisatietijd verstrekt.
 
 ### Prijsondersteuning
 
@@ -496,7 +496,7 @@ Momenteel worden de basisprijzen ondersteund. Geavanceerde prijzen die niet word
 - Kosten
 - Minimale geadverteerde prijs
 
-Kijk naar [ API Net ](../catalog-service/mesh.md) voor complexere prijsberekeningen.
+Kijk naar [&#x200B; API Net &#x200B;](../catalog-service/mesh.md) voor complexere prijsberekeningen.
 
 Het prijsformaat steunt de scèneconfiguratie die binnen de instantie van Commerce plaatst: *Slaat* > Montages > *Configuratie* > Algemeen > *Algemene* > Lokale Opties > Scène op.
 
@@ -516,19 +516,19 @@ Deze module voegt extra contexten aan de vragen van GraphQL toe:
 
 ### B2B-ondersteuning
 
-[!DNL Live Search] steunt [ functionaliteit B2B ](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview) met extra [ beperkingen ](boundaries-limits.md#b2b-and-category-permissions).
+[!DNL Live Search] steunt [&#x200B; functionaliteit B2B &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview) met extra [&#x200B; beperkingen &#x200B;](boundaries-limits.md#b2b-and-category-permissions).
 
 ### PWA-ondersteuning
 
 [!DNL Live Search] werkt met PWA Studio, maar gebruikers zien mogelijk kleine verschillen ten opzichte van andere Commerce-implementaties. De basisfunctionaliteit zoals zoeken en pagina met productlijsten werkt in Venia, maar sommige permutaties van Graphql werken mogelijk niet correct. Er kunnen ook prestatieverschillen zijn.
 
 - De huidige PWA-implementatie van [!DNL Live Search] vereist meer verwerkingstijd om zoekresultaten te retourneren dan [!DNL Live Search] met de native Commerce-winkel.
-- [!DNL Live Search] in PWA steunt [ gebeurtenis behandeling ](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/) niet. Het resultaat is dat zoekrapporten en intelligente koopwaar niet werken op PWA-winkelpagina&#39;s.
-- Wanneer het gebruiken van [ PWA Studio ](https://developer.adobe.com/commerce/pwa-studio/), steunt GraphQL niet direct het filtreren op `description`, `name`, `short_description`, maar deze gebieden kunnen met een meer algemene filter zijn teruggekeerd.
+- [!DNL Live Search] in PWA steunt [&#x200B; gebeurtenis behandeling &#x200B;](https://developer.adobe.com/commerce/services/shared-services/storefront-events/sdk/) niet. Het resultaat is dat zoekrapporten en intelligente koopwaar niet werken op PWA-winkelpagina&#39;s.
+- Wanneer het gebruiken van [&#x200B; PWA Studio &#x200B;](https://developer.adobe.com/commerce/pwa-studio/), steunt GraphQL niet direct het filtreren op `description`, `name`, `short_description`, maar deze gebieden kunnen met een meer algemene filter zijn teruggekeerd.
 
 Als u [!DNL Live Search] wilt gebruiken met PWA Studio, moeten integrators ook:
 
-1. Installeer [ livessearch-storefront-utils ](https://www.npmjs.com/package/@magento/ds-livesearch-storefront-utils).
+1. Installeer [&#x200B; livessearch-storefront-utils &#x200B;](https://www.npmjs.com/package/@magento/ds-livesearch-storefront-utils).
 1. Stel de waarde `environmentId` in het `storeDetails` -object in.
 
    ```javascript
@@ -548,4 +548,4 @@ Als u [!DNL Live Search] wilt gebruiken met PWA Studio, moeten integrators ook:
 
 ### Cookies
 
-[!DNL Live Search] verzamelt gegevens over gebruikersinteractie om de zoekfunctionaliteit te verbeteren en slaat deze informatie op in browsercookies. Voor deze gegevensverzameling is toestemming van de gebruiker vereist wanneer cookie-beperkingen zijn ingeschakeld. [!DNL Live Search] en [!DNL Product Recommendations] delen hetzelfde gegevensverzamelingsmechanisme en dezelfde cookie-afhandeling. Voor meer informatie over koekjesbeperkingen en privacynaleving, zie {de Beperkingen van het Koekje van 0} Handle ](../product-recommendations/setting-cookie.md).[
+[!DNL Live Search] verzamelt gegevens over gebruikersinteractie om de zoekfunctionaliteit te verbeteren en slaat deze informatie op in browsercookies. Voor deze gegevensverzameling is toestemming van de gebruiker vereist wanneer cookie-beperkingen zijn ingeschakeld. [!DNL Live Search] en [!DNL Product Recommendations] delen hetzelfde gegevensverzamelingsmechanisme en dezelfde cookie-afhandeling. Voor meer informatie over koekjesbeperkingen en privacynaleving, zie {de Beperkingen van het Koekje van 0} Handle [&#128279;](../product-recommendations/setting-cookie.md).

@@ -23,7 +23,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde Sandbox <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
+      <td><p>Toegevoegde Sandbox <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -45,7 +45,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Verduidelijkt waar te om gegevens te controleren SaaS uitvoer en synchronisatie-het <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard"> dashboard van het Beheer van Gegevens </a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> de Status van de Synchronisatie van de Gegevensinvoer van Gegevens </a>, en <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync"> de Synchronisatie van Gegevens van Commerce Optimizer </a>.</p>
+      <td><p>Verduidelijkt waar te om gegevens te controleren SaaS uitvoer en synchronisatie-het <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard"> dashboard van het Beheer van Gegevens </a>, <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status"> de Status van de Synchronisatie van de Gegevensinvoer van Gegevens </a>, en <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/setup/data-sync"> de Synchronisatie van Gegevens van Commerce Optimizer </a>.</p>
 </td>
       <td>
         Feedback, technisch
@@ -67,7 +67,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes#latest"> versienota's </a> voor de tweede versie van de Productie van april voor Adobe Commerce as a Cloud Service.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes#latest"> versienota's </a> voor de tweede versie van de Productie van april voor Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -89,7 +89,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/integrations-overview">[!DNL Adobe Commerce Optimizer] onderwerp van het Overzicht van integraties </a> beschrijvend hoe elke beschikbare integratie-Adobe Commerce Optimizer Schakelaar, AEM Assets, AEM Sites Optimizer, en Salesforce Commerce Connector-past binnen Adobe Commerce Optimizer, met verbindingen aan opstelling en configuratiegidsen.</p>
+      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/integrations-overview">[!DNL Adobe Commerce Optimizer] onderwerp van het Overzicht van integraties </a> beschrijvend hoe elke beschikbare integratie-Adobe Commerce Optimizer Schakelaar, AEM Assets, AEM Sites Optimizer, en Salesforce Commerce Connector-past binnen Adobe Commerce Optimizer, met verbindingen aan opstelling en configuratiegidsen.</p>
 </td>
       <td>
         Feedback, nieuw onderwerp
@@ -97,7 +97,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/41c8bfe8f15b1988f574fe589ba6e27bb1839ba8">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegde Sandbox <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
+      <td><p>Toegevoegde Sandbox <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -105,7 +105,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/8f2cc1e79ede56192a8ab03194b0f69854f89f7b">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Gedocumenteerde <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes"> de Integratie van AEM Assets v1.3.5 </a> en verbeterde <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/custom-match"> de automatische aanpassing van de Douane </a> API verzoekgebieden (<code class="language-plaintext highlighter-rouge">eventData</code>, <code class="language-plaintext highlighter-rouge">productSku</code>).</p>
+      <td><p>Gedocumenteerde <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/release-notes"> de Integratie van AEM Assets v1.3.5 </a> en verbeterde <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/synchronize/custom-match"> de automatische aanpassing van de Douane </a> API verzoekgebieden (<code class="language-plaintext highlighter-rouge">eventData</code>, <code class="language-plaintext highlighter-rouge">productSku</code>).</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -127,7 +127,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/launch/launch-checklist"> checklist van de Lancering </a>, een verwijzing voor het bevestigen van productie [!DNL Adobe Commerce Optimizer] opstelling, storefront go-live, SEO, CDN, integratie, veiligheid, analytische, en het testen vóór lancering.</p>
+      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/launch/launch-checklist"> checklist van de Lancering </a>, een verwijzing voor het bevestigen van productie [!DNL Adobe Commerce Optimizer] opstelling, storefront go-live, SEO, CDN, integratie, veiligheid, analytische, en het testen vóór lancering.</p>
 </td>
       <td>
         Feedback, nieuw onderwerp
@@ -149,7 +149,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/rules/add"> Categorie die </a> voor Adobe Commerce Optimizer verwisselen: het gebruiken van de regels van de Categorie met intelligente rangschikking en handacties op categoriepagina's.</p>
+      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/merchandising/rules/add"> Categorie die </a> voor Adobe Commerce Optimizer verwisselen: het gebruiken van de regels van de Categorie met intelligente rangschikking en handacties op categoriepagina's.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -171,7 +171,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde begeleiding rond <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/product-files"> toevoegend dossiers aan producten </a> in Adobe Commerce as a Cloud Service.</p>
+      <td><p>Toegevoegde begeleiding rond <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/product-files"> toevoegend dossiers aan producten </a> in Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -193,7 +193,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/optimizer/merchandising/recommendations/filters"> filters van de Aanbeveling </a> met Prijs en de filterprocedures van het Product, op prijs-boek-gebaseerd definitief prijsgedrag voor het filtreren en getoonde prijzen, en nieuwe screenshots voor de producten UI van de Filter.</p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/optimizer/merchandising/recommendations/filters"> filters van de Aanbeveling </a> met Prijs en de filterprocedures van het Product, op prijs-boek-gebaseerd definitief prijsgedrag voor het filtreren en getoonde prijzen, en nieuwe screenshots voor de producten UI van de Filter.</p>
 </td>
       <td>
         Belangrijke update
@@ -215,7 +215,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Het bijgewerkte </a> Huis van de Diensten van de Betaling <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/configure/payments-home">, <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/financial-reports/reporting"> Meldend </a>, en <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/get-started/onboard"> onboarding overzicht </a> met SaaS/ACCS screenshots en UI begeleiding (op het instappen banner, Transactions-geconcentreerd Huis, het net van Transacties).</p>
+      <td><p>Het bijgewerkte </a> Huis van de Diensten van de Betaling <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/configure/payments-home">, <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/financial-reports/reporting"> Meldend </a>, en <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/get-started/onboard"> onboarding overzicht </a> met SaaS/ACCS screenshots en UI begeleiding (op het instappen banner, Transactions-geconcentreerd Huis, het net van Transacties).</p>
 </td>
       <td>
         Belangrijke update
@@ -223,7 +223,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/79c71b55e463d7e9570fe67b664b4e77a0d741f7">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegde de Productie van april <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
+      <td><p>Toegevoegde de Productie van april <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service.</p>
 </td>
       <td>
         Belangrijke update
@@ -245,7 +245,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Werkt Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> met de recentste zandbakplaatsing bij.</p>
+      <td><p>Werkt Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> met de recentste zandbakplaatsing bij.</p>
 </td>
       <td>
         Belangrijke update
@@ -267,7 +267,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> met de recentste informatie van de Sandbox versie.</p>
+      <td><p>Bijgewerkt Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> met de recentste informatie van de Sandbox versie.</p>
 </td>
       <td>
         Belangrijke update
@@ -289,7 +289,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/install"> installeer en toegang App Management </a> met een webhooks sectie van Commerce en een schermafbeelding voor de fouten van de webshbevestiging in het dashboard van het Beheer van de App.</p>
+      <td><p>Bijgewerkt <a href="https://experienceleague.adobe.com/nl/docs/commerce/app-management/install"> installeer en toegang App Management </a> met een webhooks sectie van Commerce en een schermafbeelding voor de fouten van de webshbevestiging in het dashboard van het Beheer van de App.</p>
 </td>
       <td>
         Technisch
@@ -297,7 +297,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/86c0945bbb0a562de1b66d420dec2a05d4d81e5f">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes#latest"> versienota's </a> om versie # 2 van Maart aan Productie te bewegen.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes#latest"> versienota's </a> om versie # 2 van Maart aan Productie te bewegen.</p>
 </td>
       <td>
         Belangrijke update
@@ -319,7 +319,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegd een nieuwe geautomatiseerde installatie voor de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/tutorial-prerequisites"> Eerste vereisten van het Leerprogramma </a>.</p>
+      <td><p>Toegevoegd een nieuwe geautomatiseerde installatie voor de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/tutorials/tutorial-prerequisites"> Eerste vereisten van het Leerprogramma </a>.</p>
 </td>
       <td>
         Belangrijke update
@@ -341,7 +341,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde nieuwe onderwerpen:<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> Login als Klant </a> voor Adobe Commerce as a Cloud Service.<br /> - <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/"> de Eindpunten van de Rekening van de Kaart van de Kaart van de Kaart van de Kaart van de Kaart van Adobe Commerce as a Cloud Service.<br /> - <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/"> E-mail Trigging door REST </a> voor Adobe Commerce as a Cloud Service.<br /> Bijgewerkte </a> Nota's van de Versie met Maart 20&rbrace; - versie - versie 2.</a><a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"></p>
+      <td><p>Toegevoegde nieuwe onderwerpen:<br /> - <a href="https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> Login als Klant </a> voor Adobe Commerce as a Cloud Service.<br /> - <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/"> de Eindpunten van de Rekening van de Kaart van de Kaart van de Kaart van de Kaart van de Kaart van Adobe Commerce as a Cloud Service.<br /> - <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/"> E-mail Trigging door REST </a> voor Adobe Commerce as a Cloud Service.<br /> Bijgewerkte </a> Nota's van de Versie met Maart 20&rbrace; - versie - versie 2.</a><a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"></p>
 </td>
       <td>
         Nieuw onderwerp
@@ -363,7 +363,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/permissions"> vorm IMS gebruikerstoestemmingen voor de Integratie van AEM Assets </a> om uit te leggen hoe te om IMS en levering-rij toestemmingen te vormen om de de Selector van Activa en auto-bevolkte configuratiegebieden (identiteitskaart van het Programma, identiteitskaart van het Milieu, afbeelding van het Domein) in Admin toe te laten.</p>
+      <td><p>Toegevoegde <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/permissions"> vorm IMS gebruikerstoestemmingen voor de Integratie van AEM Assets </a> om uit te leggen hoe te om IMS en levering-rij toestemmingen te vormen om de de Selector van Activa en auto-bevolkte configuratiegebieden (identiteitskaart van het Programma, identiteitskaart van het Milieu, afbeelding van het Domein) in Admin toe te laten.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -385,7 +385,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/manage-assets"> beheert de media van Commerce activa </a> en <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/synchronize/default-match"> Standaard automatische aanpassing </a> met duidelijkere navigatierichtlijnen voor gebruikers die productactiva in AEM Assets vormen.</p>
+      <td><p>Bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/manage-assets"> beheert de media van Commerce activa </a> en <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/synchronize/default-match"> Standaard automatische aanpassing </a> met duidelijkere navigatierichtlijnen voor gebruikers die productactiva in AEM Assets vormen.</p>
 </td>
       <td>
         Technisch
@@ -407,7 +407,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/release-notes"> de versienota's van de Integratie van AEM Assets </a> met v1.3.4: steun voor Adobe Commerce 2.4.9-beta1 en PHP 8.5, en de kaartauto-bevolking van het Domein in de configuratie UI.</p>
+      <td><p>Bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/release-notes"> de versienota's van de Integratie van AEM Assets </a> met v1.3.4: steun voor Adobe Commerce 2.4.9-beta1 en PHP 8.5, en de kaartauto-bevolking van het Domein in de configuratie UI.</p>
 </td>
       <td>
         Technisch
@@ -429,7 +429,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service met de recentste versie aan productiemilieu's.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service met de recentste versie aan productiemilieu's.</p>
 </td>
       <td>
         Belangrijke update
@@ -437,7 +437,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/dd9b660729f7c8616347d3222fdfb3b83a774e56">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegde nieuwe </a> documentatiegids van het Beheer van de app <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/overview"> &lbrace;om het Beheer van de Toepassing te introduceren en hoe te om, de toepassingen van App Builder met uw instantie van Commerce te associëren te vormen en te beheren.</p>
+      <td><p>Toegevoegde nieuwe </a> documentatiegids van het Beheer van de app <a href="https://experienceleague.adobe.com/nl/docs/commerce/app-management/overview"> &lbrace;om het Beheer van de Toepassing te introduceren en hoe te om, de toepassingen van App Builder met uw instantie van Commerce te associëren te vormen en te beheren.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -459,12 +459,12 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde storefront integratie aan het <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/ratings-extension"> leerprogramma van Ratingen </a>.</p>
+      <td><p>Toegevoegde storefront integratie aan het <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/tutorials/ratings-extension"> leerprogramma van Ratingen </a>.</p>
 </td>
       <td>
         Belangrijke update
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce.en/pull/15">pull-verzoek</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce.nl-NL/pull/15">pull-verzoek</a></td>
     </tr>
   </tbody>
 </table>
@@ -481,7 +481,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Gepubliceerd de <a href="https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview"> Schakelaar van Adobe Commerce Optimizer v1.0.9 documentatie </a> voor de algemene beschikbaarheidsversie.</p>
+      <td><p>Gepubliceerd de <a href="https://experienceleague.adobe.com/nl/docs/commerce/aco-optimizer-connector/overview"> Schakelaar van Adobe Commerce Optimizer v1.0.9 documentatie </a> voor de algemene beschikbaarheidsversie.</p>
 </td>
       <td>
         Belangrijke update, nieuw onderwerp, technisch
@@ -489,7 +489,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/216958e287993d1a212fb59fdaa8e2ba3e931b97">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Bijgewerkt Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> met de recentste versie Sandbox.</p>
+      <td><p>Bijgewerkt Adobe Commerce as a Cloud Service <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> met de recentste versie Sandbox.</p>
 </td>
       <td>
         Belangrijke update
@@ -511,7 +511,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/live-search/best-practice#leverage-product-metadata"> Levende Beste praktijken van het Onderzoek </a> met uitvoerige begeleiding bij het kiezen van doorzoekbare attributen, met inbegrip van drie echte voorbeelden van gemeenschappelijke configuratiekwesties en een het oplossen van problemencontrolelijst om onderzoeksrelevantie te verbeteren.</p>
+      <td><p>De bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/live-search/best-practice#leverage-product-metadata"> Levende Beste praktijken van het Onderzoek </a> met uitvoerige begeleiding bij het kiezen van doorzoekbare attributen, met inbegrip van drie echte voorbeelden van gemeenschappelijke configuratiekwesties en een het oplossen van problemencontrolelijst om onderzoeksrelevantie te verbeteren.</p>
 </td>
       <td>
         Feedback
@@ -519,7 +519,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/f55cbabdc50af4e38b57ece217e5133d1f3fada8">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegde instructies voor het schrappen van een API sleutel aan de <a href="https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#delapikey"> 1&rbrace; documentatie van de Schakelaar van de Diensten van Commerce.</a></p>
+      <td><p>Toegevoegde instructies voor het schrappen van een API sleutel aan de <a href="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/integration-services/saas#delapikey"> 1&rbrace; documentatie van de Schakelaar van de Diensten van Commerce.</a></p>
 </td>
       <td>
         Feedback
@@ -527,7 +527,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/a12a0bca1d4a7f3b9350c704275a9e3128fa2b37">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegd een nieuw onderwerp over de <a href="https://experienceleague.adobe.com/en/docs/commerce/aem-assets-integration/get-started/configure-aco"> integratie van AEM Assets met Adobe Commerce Optimizer </a>.</p>
+      <td><p>Toegevoegd een nieuw onderwerp over de <a href="https://experienceleague.adobe.com/nl/docs/commerce/aem-assets-integration/get-started/configure-aco"> integratie van AEM Assets met Adobe Commerce Optimizer </a>.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -549,7 +549,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Het bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/migration/migration-tools/bulk-data#catalog-data-ingestion"> Bulk hulpmiddel van de gegevensmigratie </a> met een belangrijke nota dat de configuratie van de Catalogus niet automatisch wordt ingevoerd.</p>
+      <td><p>Het bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/migration/migration-tools/bulk-data#catalog-data-ingestion"> Bulk hulpmiddel van de gegevensmigratie </a> met een belangrijke nota dat de configuratie van de Catalogus niet automatisch wordt ingevoerd.</p>
 </td>
       <td>
         Feedback
@@ -557,7 +557,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/1ac84e8f10f61a6b8f995f348d4872773d2890e8">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Bijgewerkte <a href="https://experienceleague.adobe.com/en/docs/commerce/payment-services/release-notes"> Diensten van de Betaling </a> met v2.14.0 versiedocumentatie, met inbegrip van de Alternatieve Methoden van de Betaling (APMs) voor Europese markten, Uitdrukkelijke controleknopen, en de zandbakconfiguratie van het Land van de Koper.</p>
+      <td><p>Bijgewerkte <a href="https://experienceleague.adobe.com/nl/docs/commerce/payment-services/release-notes"> Diensten van de Betaling </a> met v2.14.0 versiedocumentatie, met inbegrip van de Alternatieve Methoden van de Betaling (APMs) voor Europese markten, Uitdrukkelijke controleknopen, en de zandbakconfiguratie van het Land van de Koper.</p>
 </td>
       <td>
         Belangrijke update, nieuw onderwerp
@@ -579,7 +579,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>De <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/migration/coding-tools"> AI codeerontwikkelaar tooling voor Adobe Commerce App Builder </a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/ratings-extension"> de uitbreidingsleerprogramma van classificaties </a>, <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/shipping-method-extension"> Verzendmethode verlengingsleerprogramma </a>, en de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/tutorials/tutorial-prerequisites"> Vereisten van het Zelfstudie </a> pagina's zijn nu beschikbaar.</p>
+      <td><p>De <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/migration/coding-tools"> AI codeerontwikkelaar tooling voor Adobe Commerce App Builder </a>, <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/tutorials/ratings-extension"> de uitbreidingsleerprogramma van classificaties </a>, <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/tutorials/shipping-method-extension"> Verzendmethode verlengingsleerprogramma </a>, en de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/tutorials/tutorial-prerequisites"> Vereisten van het Zelfstudie </a> pagina's zijn nu beschikbaar.</p>
 </td>
       <td>
         Nieuw onderwerp
@@ -601,7 +601,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service met de recentste versie aan productiemilieu's.</p>
+      <td><p>Bijgewerkt de <a href="https://experienceleague.adobe.com/nl/docs/commerce/cloud-service/release-notes"> versienota's </a> voor Adobe Commerce as a Cloud Service met de recentste versie aan productiemilieu's.</p>
 </td>
       <td>
         Belangrijke update

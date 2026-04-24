@@ -29,7 +29,7 @@ U bouwt twee delen:
 >
 >AI-agentia zijn niet deterministisch. De vragen, vragen en resultaten in deze zelfstudie zijn voorbeelden. Uw agent kan verschillende vragen, vereisten, of architectuurvoorstellen veroorzaken. Gebruik de voorbeelden in deze zelfstudie om de agent naar een vergelijkbaar resultaat te sturen.
 
-Alvorens u begint, voltooi de [ eerste vereisten ](./tutorial-prerequisites.md). Dit leerprogramma gebruikt de **uitcheckstarter uitrusting**. Controleer of u de toepassing al hebt gekloond en voltooi de stappen die op de pagina met voorwaarden worden beschreven.
+Alvorens u begint, voltooi de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md). Dit leerprogramma gebruikt de **uitcheckstarter uitrusting**. Controleer of u de toepassing al hebt gekloond en voltooi de stappen die op de pagina met voorwaarden worden beschreven.
 
 ## Voorwaarden verifiëren
 
@@ -49,12 +49,12 @@ git --version
 bash --version
 ```
 
-Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [ eerste vereisten ](./tutorial-prerequisites.md) voor begeleiding.
+Als om het even welke voorafgaande bevelen niet de verwachte resultaten terugkeren, verwijs naar de [&#x200B; eerste vereisten &#x200B;](./tutorial-prerequisites.md) voor begeleiding.
 
 Controleer ook het volgende:
 
-- U hebt een [!DNL Adobe Commerce as a Cloud Service] -instantie met productgegevens. Zie {de instanties van de Dienst van 0} Commerce Cloud ](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}.[
-- Er is een storefront-project verbonden met uw [!DNL Commerce] -instantie. Als u geen hebt, volg de stappen in [ creeer een storefront ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}.
+- U hebt een [!DNL Adobe Commerce as a Cloud Service] -instantie met productgegevens. Zie {de instanties van de Dienst van 0} Commerce Cloud [&#128279;](https://experienceleague.adobe.com/en/docs/commerce/cloud-service/overview){target="_blank"}.
+- Er is een storefront-project verbonden met uw [!DNL Commerce] -instantie. Als u geen hebt, volg de stappen in [&#x200B; creeer een storefront &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/create-storefront/){target="_blank"}.
 - De `aem` CLI is geïnstalleerd:
 
   ```bash
@@ -140,7 +140,7 @@ De optie Pipedream gebruikt tokenauthentificatie van de Drager en keurt een verz
 
 **creeer het werkschema:**
 
-1. Creeer een nieuw werkschema in [ Pipedream ](https://pipedream.com){target="_blank"} (**[!UICONTROL Workflows]** > **[!UICONTROL New Workflow]**).
+1. Creeer een nieuw werkschema in [&#x200B; Pipedream &#x200B;](https://pipedream.com){target="_blank"} (**[!UICONTROL Workflows]** > **[!UICONTROL New Workflow]**).
 
 1. Voeg een **HTTP/Webhaak** trekker toe die voor POST wordt gevormd. Pipedream wijst een webhaak-URL toe.
 
@@ -537,7 +537,7 @@ Deze sectie begeleidt u door het storefront gedeelte van de leveringsramingen ui
 Alvorens de storefront integratie te beginnen, verifieer dat u het volgende hebt:
 
 - Een storefront-project dat is verbonden met uw [!DNL Commerce] -instantie
-- Commerce storefront AI hulpmiddelen [ geïnstalleerd gebruikend CLI ](./tutorial-prerequisites.md#install-the-storefront-ai-tools)
+- Commerce storefront AI hulpmiddelen [&#x200B; geïnstalleerd gebruikend CLI &#x200B;](./tutorial-prerequisites.md#install-the-storefront-ai-tools)
 - Het `STOREFRONT_API_SPEC.md` -bestand is gekopieerd naar de map `docs/` van het storefront-project
 
 ### Stap 1: De omgeving valideren
@@ -551,7 +551,7 @@ Open het `config.json` -bestand en controleer of de waarden voor `commerce-core-
 
 ### Stap 2: Geef de eerste prompt op
 
-Met het de dienstcontract reeds in uw project, vraag de agent om de storefront integratie uit te voeren. Het gebruik **wijze van het Plan van 0} als beschikbaar in uw agent, om de agent te verhinderen zonder een plan te werk te gaan.**
+Met het de dienstcontract reeds in uw project, vraag de agent om de storefront integratie uit te voeren. Het gebruik **wijze van het Plan van 0&rbrace; als beschikbaar in uw agent, om de agent te verhinderen zonder een plan te werk te gaan.**
 
 ```shell-session
 I need to implement delivery date estimates on the storefront for an Adobe Commerce (SaaS) store using Edge Delivery Services with storefront drop-ins. The backend is already built and deployed as an App Builder extension.

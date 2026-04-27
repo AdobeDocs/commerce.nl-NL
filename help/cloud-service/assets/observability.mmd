@@ -1,0 +1,48 @@
+---
+source-git-commit: 65c2720f8e21089e45948a2a5fe3828ca28f0dbd
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
+
+---
+%%{ init: { &quot;flowchart&quot;: &quot;linear&quot; }%
+
+Grafiek BT
+subgraph commerce [ &quot;Adobe Commerce&quot;]
+event_mod[ &quot;Event \n Module&quot;]
+webhaak_mod[ &quot;Webhaak \n Module&quot;]
+admin_sdk[ &quot;Admin UI \ n SDK&quot;]
+end
+
+     ondergrafiekappbuilder [&quot;App Builder&quot;] 
+     int_sk [&quot;De Uitrusting van de Aanzet \ n&quot; van de Integratie \&quot;] 
+     checkout_sk [&quot;Uitcheckit \ n van de Aanzet&quot;] 
+     generic_app [&quot;Algemene Toepassing \ n- Toepassing&quot;] 
+     eind 
+    
+     ondergrafieapimesh [&quot;API Net&quot;] 
+     api_mesh Het registreren&quot;] 
+     eind 
+    
+     subgraph storefront [&quot;Storefront&quot;] 
+     cdn_rum [&quot;CDN / Echte Gebruiker \ n Controle&quot;] 
+     op_tel [&quot;Operationele \ n Telemetrie&quot;] 
+     eind 
+    
+     handel —> obs_mod [&quot;de Module van de Waarneming \&quot;] 
+     apper -> aio_tel [&quot;AIO lib \ n Telemetry&quot;] 
+    
+     obs_mod -> OTel [&quot;OpenTelemetry&quot;] 
+     aio_tel -> OTel 
+    
+     OTel -> backends [&quot;De Verwachtbaarheid van de Derde \ n (bijvoorbeeld: Grafana, New Relic, Splunk)&quot;] 
+     api _mesh_log -> achtergronden 
+     cdn_rum -> achtergronden 
+     op_tel -> achtergronden 
+    
+     de stijlhandel vult:#cc0000, kleur:#fff, slag:#cc0000 
+     stijlappbuilder vult:#cc000, kleur: f, slag:#cc0000 
+     de vulling van het stijlnet:#cc0000, kleur:#fff, slag:#cc0000 
+     stijl archiefront vulling:#cc0000,kleur:#fff, slag:#cc000 
+     stijl achtergronden vullen:#f0f0f0, kleur:#333, slag:#999 
+     stijl OTel vullen:#fff, kleur:#333, slag:#333

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Een App Manager koppelt een App Builder-toepassing aan hun Commerce-instantie. Configuratieformulieren worden dynamisch gerenderd op basis van het schema van de app. Er is dus geen aangepaste ontwikkeling van de interface voor Admin vereist. App Manager configureert instellingen via formulieren die automatisch door Commerce worden gegenereerd.
 
-![ App beheer ](assets/app-management-view.png){width="500" zoomable="yes"}
+![&#x200B; App beheer &#x200B;](assets/app-management-view.png){width="500" zoomable="yes"}
 
 ## Een toepassing zoeken in Admin
 
@@ -30,7 +30,7 @@ De tekst van het onderzoek en beide dropdowns zijn samen van toepassing (logisch
 
 ## App ophalen
 
-**[!UICONTROL Acquire App]** opent een nieuw browser lusje (of een afzonderlijke browser mening) aan [ Adobe Exchange ](https://exchange.adobe.com/experiencecloud){target="_blank"}, waar u Commerce-Verwante marktplaatslijsten kunt ontdekken en toepassingen aan uw organisatie van Adobe IMS kunt toevoegen. Zodra app wordt verworven, goedgekeurd, en opgesteld, verschijnt app in [!DNL App Management] voor [ vereniging en installatie ](#associate-an-app).
+**[!UICONTROL Acquire App]** opent een nieuw browser lusje (of een afzonderlijke browser mening) aan [&#x200B; Adobe Exchange &#x200B;](https://exchange.adobe.com/experiencecloud){target="_blank"}, waar u Commerce-Verwante marktplaatslijsten kunt ontdekken en toepassingen aan uw organisatie van Adobe IMS kunt toevoegen. Zodra app wordt verworven, goedgekeurd, en opgesteld, verschijnt app in [!DNL App Management] voor [&#x200B; vereniging en installatie &#x200B;](#associate-an-app).
 
 ## Vereisten
 
@@ -58,7 +58,7 @@ Een App Builder-toepassing koppelen aan een Commerce-instantie:
 
 1. Klik op **[!UICONTROL Associate App]** .
 
-   ![ Associate app ](assets/associate-app.png){width="500" zoomable="yes"}
+   ![&#x200B; Associate app &#x200B;](assets/associate-app.png){width="500" zoomable="yes"}
 
 1. Selecteer een **[!UICONTROL Project]** in de lijst.
 
@@ -66,7 +66,7 @@ Een App Builder-toepassing koppelen aan een Commerce-instantie:
 
 1. Klik op **[!UICONTROL Associate]** .
 
-   ![ details van de Toepassing ](assets/app-details.png){width="500" zoomable="yes"}
+   ![&#x200B; details van de Toepassing &#x200B;](assets/app-details.png){width="500" zoomable="yes"}
 
 >[!WARNING]
 >
@@ -102,7 +102,7 @@ Algemene waarden op een specifiek bereikniveau overschrijven:
 
 Open **[!UICONTROL Manage Scopes]** vanuit het scherm met toepassingsdetails om de bereikhiërarchie voor uw app te beheren.
 
-![ beheer werkingsgebied ](assets/manage-scopes.png){width="500" zoomable="yes"}
+![&#x200B; beheer werkingsgebied &#x200B;](assets/manage-scopes.png){width="500" zoomable="yes"}
 
 | Actie | Beschrijving |
 |--------|-------------|
@@ -128,4 +128,4 @@ Een app verwijderen uit een Commerce-instantie:
 
 ## Gerelateerde documentatie
 
-* [ het Oplossen van problemen  [!DNL App Management]](troubleshooting.md) - los gemeenschappelijke kwesties met toepassingsvereniging en configuratie op.
+* [&#x200B; het Oplossen van problemen  [!DNL App Management]](troubleshooting.md) - los gemeenschappelijke kwesties met toepassingsvereniging en configuratie op.

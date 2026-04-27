@@ -28,7 +28,7 @@ ht-degree: 0%
       - [Bulkgegevensmigratiehulpprogramma](migration/bulk-data.md)
       - [Coderingsgereedschappen](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
    - [Documentatie RAG-service](migration/doc-rag.md)
-- [Aanmelden als klant](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
+- [Aanmelden als klant](https://experienceleague.adobe.com/nl/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer){target="_blank"}
 - [REST-eindpunten van Cadeaukaartaccount](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/){target="_blank"}
 - [E-mailtriggeren via REST](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/){target="_blank"}
 - Zelfstudies {#tutorials}
@@ -42,6 +42,6 @@ ht-degree: 0%
    - [GraphQL Schema](https://developer.adobe.com/commerce/webapi/reference/graphql/saas/){target="_blank"}
    - [REST API-schema](https://developer.adobe.com/commerce/webapi/reference/rest/saas/){target="_blank"}
 - [Ontwikkelaarsagent](https://developer.adobe.com/commerce/extensibility/developer-agent/){target="_blank"}
-- [Videozelfstudies](https://experienceleague.adobe.com/en/playlists/accs-getting-started-product-overview){target="_blank"}
+- [Videozelfstudies](https://experienceleague.adobe.com/nl/playlists/accs-getting-started-product-overview){target="_blank"}
 - [Opmerkingen bij de release](release-notes.md)
-- [Terug naar Commerce Services Home](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home)
+- [Terug naar Commerce Services Home](https://experienceleague.adobe.com/nl/docs/commerce/user-guides/home)

@@ -4,7 +4,7 @@ description: Leer over de observability hulpmiddelen en de telemetriemogelijkhed
 feature: Cloud, Integration
 role: Admin, Developer
 level: Intermediate
-badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
+badgeSaas: label="Alleen SaaS" type="Positive" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Alleen van toepassing op Adobe Commerce as a Cloud Service- en Adobe Commerce Optimizer-projecten (door Adobe beheerde SaaS-infrastructuur)."
 source-git-commit: 3c10ecdea3d06295013c9c6e2d6869afd750a0b9
 workflow-type: tm+mt
 source-wordcount: '607'
@@ -74,11 +74,11 @@ De [`@adobe/aio-lib-telemetry` &#x200B;](https://github.com/adobe/aio-lib-teleme
 
 ### CDN en Real User Monitoring
 
-[&#x200B; Echte de Controle van de Volmacht van de Gebruiker (RUM) &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/content-delivery-network/#proxy-rum-through-the-origin-to-avoid-a-tls-handshake) gegevensinzameling door uw oorsprong CDN om een extra handdruk van TLS te elimineren en prestatiesmeting te verbeteren front-end.
+[&#x200B; Echte de Controle van de Volmacht van de Gebruiker (RUM) &#x200B;](https://experienceleague.adobe.com/developer/commerce/storefront/setup/configuration/content-delivery-network/?lang=nl-NL#proxy-rum-through-the-origin-to-avoid-a-tls-handshake) gegevensinzameling door uw oorsprong CDN om een extra handdruk van TLS te elimineren en prestatiesmeting te verbeteren front-end.
 
 ## Video&#39;s over waarneming
 
 De volgende video&#39;s bieden een overzicht op hoog niveau van de aanbiedingen voor waarneembaarheid in [!DNL Adobe Commerce as a Cloud Service] :
 
-* [App Builder-video&#39;s over waarneming](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/observability/overview){target="_blank"}
-* [API-netvideo&#39;s](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/extensibility/api-mesh/getting-started-api-mesh){target="_blank"}
+* [App Builder-video&#39;s over waarneming](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/observability/overview){target="_blank"}
+* [API-netvideo&#39;s](https://experienceleague.adobe.com/nl/docs/commerce-learn/tutorials/extensibility/api-mesh/getting-started-api-mesh){target="_blank"}

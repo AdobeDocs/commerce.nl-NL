@@ -46,7 +46,7 @@ Controleer voordat u een app gaat koppelen het volgende:
 
 Bekijk deze video om te leren hoe u een toepassing aan een Commerce-instantie kunt koppelen en instellingen kunt configureren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478944)
+>[!VIDEO](https://video.tv.adobe.com/v/3478961?captions=dut)
 
 ## Een app koppelen
 

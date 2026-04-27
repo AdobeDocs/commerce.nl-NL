@@ -2,10 +2,10 @@
 title: Uw app beheren
 description: Koppel, configureer en koppel App Builder-toepassingen aan uw Commerce-instantie.
 feature: App Builder, Extensibility, Integration
-source-git-commit: 4a5174d074a020f6199ed121e0289939612bc5c2
+source-git-commit: 780cef7af3574cd846fd7ee82d7814f2ebe9d6cc
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 3%
+source-wordcount: '618'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,23 @@ ht-degree: 3%
 
 Een App Manager koppelt een App Builder-toepassing aan hun Commerce-instantie. Configuratieformulieren worden dynamisch gerenderd op basis van het schema van de app. Er is dus geen aangepaste ontwikkeling van de interface voor Admin vereist. App Manager configureert instellingen via formulieren die automatisch door Commerce worden gegenereerd.
 
-![&#x200B; App beheer &#x200B;](assets/app-management-view.png){width="500" zoomable="yes"}
+![ App beheer ](assets/app-management-view.png){width="500" zoomable="yes"}
+
+## Een toepassing zoeken in Admin
+
+Onder **[!UICONTROL Apps]** > **[!UICONTROL App Management]** wordt elke toepassing weergegeven als een kaart. De lijst kan elke toepassing bevatten die is gekoppeld aan het Adobe Commerce-exemplaar voor de geselecteerde Adobe IMS-organisatie. Gebruik de besturingselementen boven de kaarten om de resultaten te beperken:
+
+| Besturing | Beschrijving |
+| --- | --- |
+| **Filter door app..** | Zoeken op toepassingsnaam. |
+| **Status** | Kaarten beperken tot levenscyclusstatus. **Alle Statussen** toont elke app; andere waarden omvatten **Geassocieerde**, **Geïnstalleerde**, **Gedeeltelijk Geïnstalleerde**, en **Niet geassocieerd**. De status op elke kaart komt overeen met de gekleurde indicator in de lijst. |
+| **de patronen van de Rekbaarheid** | Beperk kaarten met de mogelijkheden die de app gebruikt. **Alle Patronen van de Uitbreidbaarheid** toont elke app; andere waarden richten zich op de badges op elke kaart, zoals **BedrijfsConfiguratie**, **Admin UI SDK**, **Webhooks**, en **Gebeurtenissen**. |
+
+De tekst van het onderzoek en beide dropdowns zijn samen van toepassing (logische EN). Om de volledige lijst opnieuw te tonen, plaats **Status** en **de patronen van de Rekbaarheid** terug naar hun **allen..** opties, en ontruim het onderzoeksgebied.
+
+## App ophalen
+
+**[!UICONTROL Acquire App]** opent een nieuw browser lusje (of een afzonderlijke browser mening) aan [ Adobe Exchange ](https://exchange.adobe.com/experiencecloud){target="_blank"}, waar u Commerce-Verwante marktplaatslijsten kunt ontdekken en toepassingen aan uw organisatie van Adobe IMS kunt toevoegen. Zodra app wordt verworven, goedgekeurd, en opgesteld, verschijnt app in [!DNL App Management] voor [ vereniging en installatie ](#associate-an-app).
 
 ## Vereisten
 
@@ -30,7 +46,7 @@ Controleer voordat u een app gaat koppelen het volgende:
 
 Bekijk deze video om te leren hoe u een toepassing aan een Commerce-instantie kunt koppelen en instellingen kunt configureren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478961?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3478944)
 
 ## Een app koppelen
 
@@ -38,19 +54,19 @@ Tijdens het associatieproces worden websites geïmporteerd, opgeslagen en opgesl
 
 Een App Builder-toepassing koppelen aan een Commerce-instantie:
 
-1. Ga naar **[!UICONTROL Apps]** > **[!UICONTROL App Management]**.
+1. Navigeer naar **[!UICONTROL Apps]** > **[!UICONTROL App Management]** .
 
-1. Klik op **[!UICONTROL Associate App]**.
+1. Klik op **[!UICONTROL Associate App]** .
 
-   ![&#x200B; Associate app &#x200B;](assets/associate-app.png){width="500" zoomable="yes"}
+   ![ Associate app ](assets/associate-app.png){width="500" zoomable="yes"}
 
 1. Selecteer een **[!UICONTROL Project]** in de lijst.
 
 1. Selecteer de **[!UICONTROL Workspace]** .
 
-1. Klik op **[!UICONTROL Associate]**.
+1. Klik op **[!UICONTROL Associate]** .
 
-   ![&#x200B; details van de Toepassing &#x200B;](assets/app-details.png){width="500" zoomable="yes"}
+   ![ details van de Toepassing ](assets/app-details.png){width="500" zoomable="yes"}
 
 >[!WARNING]
 >
@@ -66,7 +82,7 @@ Nadat u een toepassing in de weergave [!DNL App Management] hebt gekoppeld, conf
 
 1. Wijzig de waarden naar wens.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** .
 
 ### Toepassingsspecifieke configuratie
 
@@ -74,19 +90,19 @@ Gebruik een bereikspecifieke configuratie wanneer verschillende websites, winkel
 
 Algemene waarden op een specifiek bereikniveau overschrijven:
 
-1. Klik op **[!UICONTROL Change Scope]**.
+1. Klik op **[!UICONTROL Change Scope]** .
 
 1. Selecteer een bereik in de lijst.
 
 1. Wijzig waarden voor dit bereik.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** .
 
 ## Bereik beheren
 
 Open **[!UICONTROL Manage Scopes]** vanuit het scherm met toepassingsdetails om de bereikhiërarchie voor uw app te beheren.
 
-![&#x200B; beheer werkingsgebied &#x200B;](assets/manage-scopes.png){width="500" zoomable="yes"}
+![ beheer werkingsgebied ](assets/manage-scopes.png){width="500" zoomable="yes"}
 
 | Actie | Beschrijving |
 |--------|-------------|
@@ -104,7 +120,7 @@ Koppel een app los wanneer u deze niet meer nodig hebt om verbinding te maken me
 
 Een app verwijderen uit een Commerce-instantie:
 
-1. Ga naar **[!UICONTROL Apps]** > **[!UICONTROL App Management]**.
+1. Navigeer naar **[!UICONTROL Apps]** > **[!UICONTROL App Management]** .
 
 1. Klik op **[!UICONTROL Unassociate]** in de app.
 
@@ -112,4 +128,4 @@ Een app verwijderen uit een Commerce-instantie:
 
 ## Gerelateerde documentatie
 
-* [&#x200B; het Oplossen van problemen  [!DNL App Management]](troubleshooting.md) - los gemeenschappelijke kwesties met toepassingsvereniging en configuratie op.
+* [ het Oplossen van problemen  [!DNL App Management]](troubleshooting.md) - los gemeenschappelijke kwesties met toepassingsvereniging en configuratie op.

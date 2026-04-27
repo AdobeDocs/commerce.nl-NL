@@ -2,9 +2,9 @@
 title: '[!DNL App Management]-overzicht'
 description: Beheer App Builder-toepassingen die aan uw Adobe Commerce-instantie zijn gekoppeld via een geïntegreerde beheerdersinterface.
 feature: App Builder, Extensibility, Integration
-source-git-commit: 4a5174d074a020f6199ed121e0289939612bc5c2
+source-git-commit: 780cef7af3574cd846fd7ee82d7814f2ebe9d6cc
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL App Management] in Adobe Commerce vereenvoudigt de manier waarop toepassingen worden gedetecteerd, geïnstalleerd, geconfigureerd en in de hele handelsomgeving worden gebruikt. Het biedt een verenigd kader dat organisaties in staat stelt uitbreidbaarheid veilig en efficiënt aan te nemen en tegelijk de operationele wrijving te verminderen.
 
-![&#x200B; App Management &#x200B;](assets/app-management-view.png){width="500" zoomable="yes"}
+![ App Management ](assets/app-management-view.png){width="500" zoomable="yes"}
 
 Voor **Managers van de Toepassing**, [!DNL App Management] levert een gecentraliseerde mening van alle geïnstalleerde toepassingen, toelatend gemakkelijker bestuur, levenscyclusbeheer, en operationeel toezicht. Door vereenvoudigde installatiestromen, geautomatiseerde configuratiestappen, en duidelijke zichtbaarheid in toepassingsstatus en toestemmingen, kunnen de ondernemingen en de technische exploitanten integratie met vertrouwen-zonder vereisen diep ingenieursbetrokkenheid beheren.
 
@@ -23,7 +23,7 @@ Samen, leiden deze mogelijkheden tot een scalable rekbaarheidsmodel dat verkoper
 
 ## Wat [!DNL App Management] levert
 
-* **Één plaats voor al uw apps**. Toepassingen koppelen, configureren en beheren vanuit **[!UICONTROL Apps]** > **[!UICONTROL App Management]** .
+* **Één plaats voor al uw apps**. Toepassingen koppelen, configureren en beheren vanuit **[!UICONTROL Apps]** > **[!UICONTROL App Management]** . [ Onderzoek, filter, en verkrijg apps ](manage-app.md) van de zelfde mening.
 * **Montages die uw zaken** aanpassen. Verschillende configuraties per website, winkel of winkel toepassen voor instellingen voor meerdere regio&#39;s of meerdere merken.
 * **automatische archiefsynchronisatie**. Websites, winkels en winkelweergaven uit Commerce worden geïmporteerd wanneer u een app koppelt.
 * **Inheemse ervaring Admin**. Werken met toepassingen van Adobe Exchange of aangepaste implementaties zonder Commerce te verlaten.
@@ -45,9 +45,9 @@ Samen, leiden deze mogelijkheden tot een scalable rekbaarheidsmodel dat verkoper
 
 ## Volgende stappen
 
-* [&#x200B; installeer &#x200B;](install.md). Zorg ervoor dat aan de voorwaarden is voldaan en open [!DNL App Management] .
-* [&#x200B; beheer uw app &#x200B;](manage-app.md). Toepassingen koppelen, configureren en ontkoppelen.
+* [ installeer ](install.md). Zorg ervoor dat aan de voorwaarden is voldaan en open [!DNL App Management] .
+* [ beheer uw app ](manage-app.md). Toepassingen koppelen, configureren en ontkoppelen.
 
 ## Voor ontwikkelaars
 
-Als u de toepassingen van App Builder voor Adobe Commerce bouwt, zie de [&#x200B;  [!DNL App Management] documentatie 1&rbrace; van de Uitbreidbaarheid van Commerce voor configuratieschema, runtime acties, en ontwikkelaarsopstelling.](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"}
+Als u de toepassingen van App Builder voor Adobe Commerce bouwt, zie de  [!DNL App Management] ](https://developer.adobe.com/commerce/extensibility/app-management/){target="_blank"} documentatie 1} van de Uitbreidbaarheid van Commerce voor configuratieschema, runtime acties, en ontwikkelaarsopstelling.[

@@ -35,7 +35,7 @@ Commerce blijft uw systeem van verslagen voor producten, prijzen, en catalogusst
 
 Het volgende diagram illustreert de end-to-end architectuur voor de schakelaar, van Adobe Commerce door Commerce Optimizer en uit aan opslagronts en checkout systemen.
 
-![ Commerce Optimizer Connector de architectuur diagram Commerce van begin tot eind ](./assets/aco-connector-end2end-architecture.png){width="700" zoomable="yes"}
+![&#x200B; Commerce Optimizer Connector de architectuur diagram Commerce van begin tot eind &#x200B;](./assets/aco-connector-end2end-architecture.png){width="700" zoomable="yes"}
 
 In deze architectuur:
 
@@ -54,7 +54,7 @@ In deze architectuur:
 
 De Adobe Commerce Optimizer Connector werkt door uw bestaande Commerce-bereik (websites en winkelweergaven) en klantsegmentatie te gebruiken om het Commerce Optimizer-catalogusmodel te vullen:
 
-![ het in kaart brengen van de gegevens van Commerce aan Adobe Commerce Optimizer ](/help/aco-connector/assets/storeview-to-catalogview-mapping.png){width="750" zoomable="yes"}
+![&#x200B; het in kaart brengen van de gegevens van Commerce aan Adobe Commerce Optimizer &#x200B;](/help/aco-connector/assets/storeview-to-catalogview-mapping.png){width="750" zoomable="yes"}
 
 - **de Mening van de Opslag → De Bronnen van de Catalogus** — Elke opslagmening wordt een afzonderlijke Catalogus Source in Commerce Optimizer. Die bron omvat gelokaliseerde productkenmerken en om het even welke opslag-mening-specifieke gegevens
 - **Websites → De Boeken van de Prijs** — Elke website van Commerce brengt aan één of meerdere Boeken van de Prijs in Commerce Optimizer in kaart. Prijsstelling voor websites en prijzen voor klantgroepen als prijsboeken en prijsgegevens
@@ -70,11 +70,11 @@ Wanneer u de connector inschakelt, blijft de Adobe Commerce-instantie het record
 
 >[!NOTE]
 >
->Voor details bij het vormen van Commerce Optimizer, zie [[!DNL Adobe Commerce Optimizer]  Merchandising hulpmiddelen ](../optimizer/overview.md#quick-tour).
+>Voor details bij het vormen van Commerce Optimizer, zie [[!DNL Adobe Commerce Optimizer]  Merchandising hulpmiddelen &#x200B;](../optimizer/overview.md#quick-tour).
 
 ## Typische workflows {#typical-workflows}
 
-In deze workflows wordt beschreven hoe teams de Adobe Commerce Optimizer-connector instellen en gebruiken. Voor details op hoe te opstelling de integratie en deze werkschema&#39;s toelaten, zie [ Begonnen krijgen ](get-started.md).
+In deze workflows wordt beschreven hoe teams de Adobe Commerce Optimizer-connector instellen en gebruiken. Voor details op hoe te opstelling de integratie en deze werkschema&#39;s toelaten, zie [&#x200B; Begonnen krijgen &#x200B;](get-started.md).
 
 ### Eerste configuratie {#initial-setup}
 
@@ -94,7 +94,7 @@ In deze workflows wordt beschreven hoe teams de Adobe Commerce Optimizer-connect
      --type=production
    ```
 
-1. {het werkingsgebied van Commerce van 0} Kaart aan Commerce Optimizer:****
+1. {het werkingsgebied van Commerce van 0} Kaart aan Commerce Optimizer:**&#x200B;**
 
    - Bevestig welke websites en winkelweergaven binnen het bereik moeten vallen
    - Zorgen dat klantgroepen en prijsregels zoals verwacht worden gemodelleerd
@@ -139,7 +139,7 @@ Nadat Commerce-gegevens beschikbaar zijn in Commerce Optimizer, gebruikt u Comme
 
    >[!NOTE]
    >
-   >Voor een voorbeeldderdeintegratie, zie de [ Schakelaar van Salesforce Commerce voor Commerce Optimizer ](../optimizer/developer/salesforce-connector.md).
+   >Voor een voorbeeldderdeintegratie, zie de [&#x200B; Schakelaar van Salesforce Commerce voor Commerce Optimizer &#x200B;](../optimizer/developer/salesforce-connector.md).
 
 1. **handhaaf controle** op uw bestaand platform:
 
@@ -178,10 +178,10 @@ Commerce is de bron van de waarheid voor producten, prijzen, en klantengroepen. 
 
 **alvorens u begint:**
 
-- Controleer of Commerce voldoet aan de minimale vereisten voor versie- en serviceverbinding. Zie [ Begonnen ](get-started.md#prerequisites) voor details krijgen.
+- Controleer of Commerce voldoet aan de minimale vereisten voor versie- en serviceverbinding. Zie [&#x200B; Begonnen &#x200B;](get-started.md#prerequisites) voor details krijgen.
 - Controleer of u toegang hebt tot IMS org, een [!DNL Adobe Commerce Optimizer] -instantie en de benodigde gegevens en regiogegevens.
 
 ## Gerelateerde documentatie {#related-documentation}
 
-- De integratie instellen en sleutelworkflows inschakelen: [ krijgen Begonnen met de Schakelaar van Adobe Commerce Optimizer ](get-started.md)
-- Meer informatie over Commerce Optimizer-concepten en -architectuur: [ wat is Adobe Commerce Optimizer?](../optimizer/overview.md)
+- De integratie instellen en sleutelworkflows inschakelen: [&#x200B; krijgen Begonnen met de Schakelaar van Adobe Commerce Optimizer &#x200B;](get-started.md)
+- Meer informatie over Commerce Optimizer-concepten en -architectuur: [&#x200B; wat is Adobe Commerce Optimizer?](../optimizer/overview.md)

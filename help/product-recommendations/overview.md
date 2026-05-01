@@ -1,66 +1,71 @@
 ---
-title: Inleiding tot  [!DNL Product Recommendations]
-description: '[!DNL Product Recommendations] is een krachtig marketinginstrument dat u kunt gebruiken om conversies te verhogen, de inkomsten te verhogen en de betrokkenheid van klanten te stimuleren.'
+title: Wat zijn productaanbevelingen?
+description: Meer weten over productaanbevelingen in Adobe Commerce? Ontdek door AI gestuurde winkeleenheden, privacy-, beheer- en winkelpaden en belangrijke gegevensbewaring.
 recommendations: noCatalog
-badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/nl/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
 exl-id: 72850cfd-555c-4e0e-ac3e-097e6dac2030
-source-git-commit: 1ae6b0f6786375ca4e7bb7620e164008a08f8965
+source-git-commit: 6bfc2c0ed53b44fb30a142dc87f87dca8a601a33
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
-# Inleiding tot [!DNL Product Recommendations]
+# Wat zijn [!DNL Product Recommendations]?
 
-De aanbevelingen van het product zijn een krachtig marketing hulpmiddel dat u kunt gebruiken om omzettingen te verhogen, opbrengst te verhogen, en winkelbetrokkenheid te stimuleren. De het productaanbevelingen van Adobe Commerce worden aangedreven door [&#x200B; Adobe AI &#x200B;](https://business.adobe.com/nl/ai.html), die kunstmatige intelligentie en machine-leert algoritmen gebruikt om een diepe analyse van bijeengevoegde bezoekersgegevens uit te voeren. Als deze gegevens worden gecombineerd met uw Adobe Commerce-catalogus, resulteert dit in een zeer aantrekkelijke, relevante en persoonlijke ervaring.
+[!DNL Product Recommendations] hulp u gepersonaliseerde productaanbevelingen op de winkelcentra van Adobe Commerce toont gebruikend [ Adobe AI ](https://business.adobe.com/ai.html) en machine het leren op samengevoegd verkoopgedrag en uw catalogus. Dit overzicht behandelt de dienstbeperkingen (met inbegrip van HIPAA), gegevens en privacy, waar de aanbevelingen eenheden verschijnen, de wegen van de storefront implementatie, hoe de aanbevelingen productverhoudingen, en catalogusgegevensbehoud aanvullen.
 
 >[!IMPORTANT]
 >
->**de Aanbevelingen van het Product is geen HIPAA-Klaar dienst.** Schakel de productaanbevelingen niet in en gebruik ze niet in Adobe Commerce-implementaties die gebruikmaken van het HIPAA-bestand dat beschermde gezondheidsinformatie (PHI) aanbiedt of anderszins verwerkt. De Aanbevelingen van het product maken deel uit van de diensten van Commerce SaaS die momenteel als niet-HIPAA klaar worden geclassificeerd.
+>**[!DNL Product Recommendations]is geen HIPAA-klaar dienst.** Schakel [!DNL Product Recommendations] niet in of gebruik het niet in Adobe Commerce-implementaties die gebruikmaken van de HIPAA-ready-aanbieding of die anderszins beschermde gezondheidsinformatie (PHI) verwerken. [!DNL Product Recommendations] maakt deel uit van de Commerce SaaS-services die momenteel zijn geclassificeerd als zijnde gereed voor niet-HIPAA.
 >
->Voor details over welke mogelijkheden van Adobe Commerce HIPAA klaar zijn en welke diensten niet met PHI moeten worden gebruikt, zie [&#x200B; bereidheid van HIPAA op Adobe Commerce &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) en [&#x200B; Verrichtingen &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-admin/start/compliance/hipaa-ready-service/operations#adobe-commerce-services).
+>Voor details over welke mogelijkheden van Adobe Commerce HIPAA klaar zijn en welke diensten niet met PHI moeten worden gebruikt, zie [ bereidheid van HIPAA op Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) en [ Verrichtingen ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/operations#adobe-commerce-services).
 
-De aanbevelingen van het product worden getoond op de winkel als eenheden met etiketten, zoals &quot;Klanten die dit product ook bekeken&quot;hebben. U kunt rechtstreeks vanuit Adobe Commerce Admin aanbevelingen maken, beheren en implementeren in uw winkelweergaven.
+## Gegevensverwerking en privacy
 
-Als uw opslag gebruikend PWA Studio wordt uitgevoerd, verwijs naar de [&#x200B; documentatie van PWA &#x200B;](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/). Als u een douane frontend technologie zoals React of Vue JS gebruikt, leer hoe te [&#x200B; &#x200B;](headless.md) integreren [!DNL Product Recommendations] in uw headless opslag.
+Gegevensverzameling voor [!DNL Product Recommendations] bevat geen persoonlijk identificeerbare informatie (PII). Alle gebruikers-id&#39;s, zoals cookie-id&#39;s en IP-adressen, worden strikt geanonimiseerd. Meer leren, zie het [ Beleid van de Privacy van Adobe ](https://www.adobe.com/privacy/policy.html).
+
+Voor meer informatie over gegevens die synchroniseren, zie het [ Dashboard van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html).
+
+## Waar worden aanbevelingen weergegeven
+
+Aanbevelingen worden in de winkel weergegeven als eenheden met labels, zoals &quot;Klanten die dit product ook hebben bekeken&quot;. U kunt vanuit Adobe Commerce Admin aanbevelingen voor uw winkel maken, beheren en implementeren. Als uw project van Commerce de [ Schakelaar van Adobe Commerce Optimizer ](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) gebruikt, creeert, beheert en, aanbevelingen door [ Adobe Commerce Optimizer ](../optimizer/overview.md) opstelt.
+
+## Storefront-implementaties
+
+Kies de documentatie die overeenkomt met uw storefront:
+
+- **PWA Studio** — [ documentatie van PWA ](https://developer.adobe.com/commerce/pwa-studio/integrations/product-recommendations/)
+- **Eigen frontends van de Douane (bijvoorbeeld, Reageren of Vue.js)** - [ integreert  [!DNL Product Recommendations]](headless.md) in een headless storefront
+- **Commerce Edge Delivery Services (EDS)** — [ Adobe Commerce Storefront documentatie voor EDS ](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)
 
 >[!NOTE]
 >
->Er zijn vele manieren om een headless of douaneimplementatie te ontwikkelen. In deze handleiding wordt een manier beschreven waarop u dit kunt doen met PWA Studio. Zij heeft geen betrekking op alle scenario&#39;s of gebeurtenissen.
-
-## Privacy
-
-Gegevensverzameling ten behoeve van [!DNL Product Recommendations] omvat geen persoonlijk identificeerbare informatie (PII). Ook, zijn alle gebruikers - herkenningstekens zoals koekje IDs en IP adressen strikt geanonimiseerd. Meer leren, zie het [&#x200B; Beleid van de Privacy van Adobe &#x200B;](https://www.adobe.com/privacy/policy.html).
-
-[!DNL Product Recommendations] de gebruikers kunnen naar het [&#x200B; dashboard van het Beheer van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-sync/data-dashboard.html?lang=nl-NL) voor meer gegevens over gegevens verwijzen synchroniseren.
+>De instellingen voor Koptekst en Aangepast variëren per stapel. In dit productgebied wordt een PWA Studio-pad en een algemeen patroon van de integratie zonder kop weergegeven. het omvat niet elk derde of douanescenario.
 
 ## Productaanbevelingen versus productrelaties
 
-Gezien de voortdurend veranderende complexiteit van online winkelen, is wat het beste werkt voor uw winkel vaak een combinatie van meerdere sleuteltechnologieën. Het gebruiken van zowel [!DNL Product Recommendations] als [&#x200B; Verhoudingen van het Product &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships.html?lang=nl-NL) geeft u meer flexibiliteit wanneer het bevorderen van producten. U kunt [!DNL Product Recommendations] van Adobe AI gebruiken om uw aanbevelingen op intelligente wijze op schaal te automatiseren. Dan, kunt u hefboomwerking [&#x200B; Verwante Regels van het Product &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html?lang=nl-NL) wanneer u moet manueel tussenkomen en ervoor zorgen dat een specifieke aanbeveling aan een doelverkoopsegment wordt gemaakt, of wanneer bepaalde bedrijfsdoelstellingen moeten worden verwezenlijkt.
+Gezien de voortdurend veranderende complexiteit van online winkelen, is wat het beste werkt voor uw winkel vaak een combinatie van meerdere sleuteltechnologieën. Het gebruiken van zowel [!DNL Product Recommendations] als [ Verhoudingen van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-relationships.html) geeft u meer flexibiliteit wanneer het bevorderen van producten. U kunt [!DNL Product Recommendations] van Adobe AI gebruiken om uw aanbevelingen op intelligente wijze op schaal te automatiseren. Dan, kunt u hefboomwerking [ Verwante Regels van het Product ](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules.html) wanneer u moet manueel tussenkomen en ervoor zorgen dat een specifieke aanbeveling aan een doelverkoopsegment wordt gemaakt, of wanneer bepaalde bedrijfsdoelstellingen moeten worden verwezenlijkt.
 
 Met productaanbevelingen kunt u:
 
-- Maak een keuze uit negen verschillende soorten intelligente aanbevelingen op basis van de volgende gebieden: winkelgebaseerd, op items gebaseerd, op populariteit gebaseerd, trending en op gelijkenis gebaseerd
+- Kies uit negen verschillende soorten intelligente aanbevelingen op basis van de volgende gebieden: op basis van winkels, items, populariteit, trending en op basis van gelijkenis
 - Gebruik gedragsgegevens om aanbevelingen te personaliseren gedurende de hele winkelreis
 - Bepaal de belangrijkste metriek relevant voor elke aanbeveling om u te helpen het effect van uw aanbevelingen begrijpen
 
-## [!DNL Product Recommendations] demo
+## Productaanbevelingen demo
 
 Bekijk deze video voor meer informatie over [!DNL Product Recommendations] :
 
->[!VIDEO](https://video.tv.adobe.com/v/3449964?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343991?quality=12)
 
 ## Beleid voor het bewaren van catalogusgegevens
 
-Als u gedurende 90 opeenvolgende dagen geen query verzendt voor de catalogusgegevens in uw testomgeving, worden de catalogusgegevens ingesteld op de slaapstand en worden er geen gegevens geretourneerd voor een query. Dit beleid heeft geen invloed op catalogusgegevens in uw productieomgeving.
+De service [!DNL Product Recommendations] is afhankelijk van catalogusgegevens die synchroon blijven met uw Adobe Commerce-omgeving. Inactieve catalogi of omgevingen die stoppen met het opvragen van die gegevens kunnen worden gehiberneerd. Dit beïnvloedt wat de service retourneert totdat u de gegevens opnieuw activeert.
 
-### Inactieve testomgeving
+Als u geen vraag voor de catalogusgegevens in uw **het testen** milieu voor 90 opeenvolgende dagen indient, wordt het catalogusgegeven geplaatst aan hibernatiemodus en geen gegeven is teruggekeerd voor om het even welke vraag. De gegevens van de catalogus in uw **productie** milieu wordt niet beïnvloed door de regel van 90 dagen.
 
-Om de catalogusgegevens in uw het testen milieu opnieuw te activeren, [&#x200B; voorlegt een steunverzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Product Recommendations]&quot;en omvat milieu IDs. De catalogusgegevens in de testomgeving moeten binnen een paar uur worden hersteld.
+Als uw milieu een **lege catalogus** 45 dagen na wordt gecreeerd heeft, worden de catalogusgegevens geplaatst aan hibernatiemodus en geen gegevens zijn teruggekeerd voor om het even welke vraag. Dit geldt zowel voor productie- als testomgevingen.
 
-### Lege catalogus
+### Catalogusgegevens opnieuw activeren
 
-Als uw omgeving 45 dagen na het maken een lege catalogus heeft, worden de catalogusgegevens ingesteld op de slaapstand en worden er geen gegevens geretourneerd voor een query. Hieronder vallen zowel productie- als testomgevingen.
-
-Om de catalogusgegevens in uw milieu opnieuw te activeren, [&#x200B; voorlegt een steunverzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel: &quot;Reactivate [!DNL Product Recommendations]&quot;en omvat milieu IDs. De catalogusgegevens in uw omgeving moeten binnen een paar uur worden hersteld.
+Om catalogusgegevens na hibernatie te herstellen, [ voorlegt een steunverzoek ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#experience-league-start-page) met de titel &quot;Reactivate [!DNL Product Recommendations]&quot;en omvat milieu IDs. Catalogusgegevens moeten binnen een paar uur worden hersteld.

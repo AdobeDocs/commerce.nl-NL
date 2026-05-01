@@ -401,7 +401,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
   </thead>
   <tbody>
     <tr>
-      <td><p>Toegevoegde nieuwe onderwerpen:<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> Login als Klant </a> voor Adobe Commerce as a Cloud Service.<br /> - <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/"> de Eindpunten van de Rekening van de Kaart van de Kaart van de Kaart van de Kaart van de Kaart van Adobe Commerce as a Cloud Service.<br /> - <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/"> E-mail Trigging door REST </a> voor Adobe Commerce as a Cloud Service.<br /> Bijgewerkte </a> Nota's van de Versie met Maart 20} - versie - versie 2.</a><a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"></p>
+      <td><p>Toegevoegde nieuwe onderwerpen:<br /> - <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer"> Login als Klant </a> voor Adobe Commerce as a Cloud Service.<br /> - <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/gift-card-accounts/"> de Eindpunten van de Rekening van de Kaart van de Kaart van de Kaart van de Kaart van de Kaart van Adobe Commerce as a Cloud Service.<br /> - <a href="https://developer.adobe.com/commerce/webapi/rest/saas-integrations/custom-email/"> E-mail Trigging door REST </a> voor Adobe Commerce as a Cloud Service.<br /> Bijgewerkte </a> Nota's van de Versie met Maart 20&rbrace; - versie - versie 2.</a><a href="https://experienceleague.adobe.com/en/docs/commerce/cloud-service/release-notes"></p>
 </td>
       <td>
         Nieuw onderwerp
@@ -497,7 +497,7 @@ Deze pagina bevat de wijzigingen die in de afgelopen 60 dagen zijn aangebracht. 
       <td><a href="https://github.com/AdobeDocs/commerce.en/commit/dd9b660729f7c8616347d3222fdfb3b83a774e56">begaan</a></td>
     </tr>
     <tr>
-      <td><p>Toegevoegde nieuwe </a> documentatiegids van het Beheer van de app <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/overview"> {om het Beheer van de Toepassing te introduceren en hoe te om, de toepassingen van App Builder met uw instantie van Commerce te associëren te vormen en te beheren.</p>
+      <td><p>Toegevoegde nieuwe </a> documentatiegids van het Beheer van de app <a href="https://experienceleague.adobe.com/en/docs/commerce/app-management/overview"> &lbrace;om het Beheer van de Toepassing te introduceren en hoe te om, de toepassingen van App Builder met uw instantie van Commerce te associëren te vormen en te beheren.</p>
 </td>
       <td>
         Nieuw onderwerp
